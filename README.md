@@ -25,3 +25,7 @@ Vale improves your content quality and productivity:
   * [Google](https://github.com/errata-ai/Google), which is based on the [Google Developer Documentation Style Guide](https://developers.google.com/style/). 
 
 * Optional, but recommended: [use Vale with your continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service)
+
+## Show gratitude and give back
+
+If you use Vale or are inspired by Joseph Kato and his work, please consider making a contribution to him: https://docs.errata.ai/vale/about#sponsors
