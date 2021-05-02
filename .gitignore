@@ -1,12 +1,12 @@
-# Atari 2600 (Stella) support for multiple assemblers
-# - DASM
-# - CC65
-
-# Assembled binaries and object directories
-obj/
-a.out
-*.bin
-*.a26
-
-# Add in special Atari 7800-based binaries for good measure
-*.a78
+# A preliminary .gitignore file borrowed from https://github.com/asciidoctor/asciidoctor/blob/master/.gitignore under MIT License
+pkg/
+/Gemfile.lock
+/.bundle
+/*.gem
+/*.html
+/.idea/
+/.ruby-gemset
+/.ruby-version
+/.yardoc/
+/rdoc/
+/shippable/
