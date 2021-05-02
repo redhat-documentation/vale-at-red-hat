@@ -12,13 +12,16 @@ Vale config files, styles, and docs to help individuals and teams at \<organizat
 
 [comment]: <> (Do not expand this section. Expect users to go read existing docs elsewhere.)
 
-Benefits:
-* Vale helps you write better content that is easier for readers to understand and localization teams to translate. 
-* It helps teams write more consistent content. 
-* It gives you immediate feedback, so you can fix-as-you-go.
-* It reduces delays and wasted effort in reviews.
+## Benefits of using Vale
+
+Vale improves your content quality and productvity:
+* Gives you feedback while you're writing, so you can fix-as-you-go.
+* Helps you write content that's easier for readers to understand.
+* Makes reviews faster and easier for writers and reviewers.
+* Helps teams of writers produce content that is the the more consistent. 
 
 ## What to do
 
-* [Install Vale on your workstation or use the Docker image](https://docs.errata.ai/vale/install).
+* [Install Vale on your workstation](https://docs.errata.ai/vale/install).
+* Download this `.vale.ini` file to the root directory of your doc project or repo.
 * Optional, but recommended: [Use Vale with your continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service)
