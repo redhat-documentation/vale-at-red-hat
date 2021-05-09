@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../kubernetes/website"
+		},
+		{
+			"name": "studious-fortnight",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
