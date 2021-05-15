@@ -8,7 +8,7 @@ The `.vale` directory in this repo includes a collection of rules, or _styles_. 
 
 The repo also includes a `.vale.ini` file that configures Vale to use the `.vale` styles to check your `.adoc` and `.md` content files.
 
-## Get started using Vale and the `red-hat` style
+## Getting started using Vale and the `red-hat` style
 
 1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
 2. `git clone` this repo to your local machine.
@@ -21,6 +21,29 @@ The repo also includes a `.vale.ini` file that configures Vale to use the `.vale
 $ cd openshift-docs
 $ vale modules/<filename>.adoc
 ```
+5. Fix some of the issues in the content file.
+
+6. Re-run the same `vale` command to see the new results.
+
+## Optional: Eliminating false positives
+
+1. Run the `vale` command on multiple content files by using a wildcard character `*`. For example:
+```bash
+$ vale modules/cluster-logging-exported*.adoc
+```
+
+2. Review the output for `Vale.Spelling` errors for valid words, such as product, feature, or component names.
+
+<!-- 3. In your terminal window, open a new tab.
+
+4. Make a vocabulary folder for you product by copying the `Che` folder in the `.vale/styles/Vocab` directory. For example:
+```bash
+$ cd ~/.vale/styles/Vocab/
+$ cp -r Che Logging
+```
+ -->
+
+5. Add those valid words to `~/.vale/styles/Vocab/accept.txt`.
 
 ## Benefits of using Vale
 
@@ -37,9 +60,8 @@ How does Vale help you improve your content quality and productivity?
 * A _rule_ is a `.yml` file that defines the issue, the solution, and other information.
 * You can use a style as-is, or you customize the rules it contains to fit your needs.
 * This repo includes
-// A _vocabulary_ is a simple directory that contains a collection of rules about your organization's
+<!-- * A _vocabulary_ is a simple directory that contains a collection of rules about your organization's -->
 
-* You can download [various ready-to-use styles from Vale](https://github.com/errata-ai/styles), including ones based on the IBM, Google, and Microsoft style guides.
 
 ## Optional next steps
 
