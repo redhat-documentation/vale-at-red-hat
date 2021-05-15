@@ -1,25 +1,26 @@
 # studious-fortnight
 
-Vale is a command-line tool you use to check your content files for style issues.
+Vale is a command-line tool to help you find and fix style issues in your content files.
 
-As a technical writer at Red Hat, you can use this repo to your system to help you get started with using Vale.
+As a technical writer at Red Hat, you can use this repo to help you get started with using Vale.
 
-This repo contains minimal instructions for installing and using Vale. For more information, see https://github.com/errata-ai/vale.
+The `.vale` directory in this repo includes a collection of rules, or _styles_. These styles are based on the style guides that the Red Hat CCS organization uses. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
 
-This repo includes the [`red-hat` style](red-hat.md), which complies with Red Hat's style requirements for technical documentation. It also include a `.vale.ini` file that configures Vale to use the `red-hat` style with your `.adoc` and `.md` content files.
+The repo also includes a `.vale.ini` file that configures Vale to use the `.vale` styles to check your `.adoc` and `.md` content files.
 
 ## Get started using Vale and the `red-hat` style
 
 1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
 2. `git clone` this repo to your local machine.
-3. If you downloaded it, extract the files.
-3. Copy the `.vale.ini` file and `.vale` directory from the repo to the root directory of your Red Hat documentation project.
-4. In a terminal, run `vale` on one of your content files. For example:
+3. Copy the `.vale.ini` file and `.vale` directory from the repo to the  directory where you keep your documentation projects.
+
+  For example, if you keep documentation projects such as `/home/<username>/openshift-docs` in your home directory, copy `.vale.ini` and `.vale` to `/home/<username>/`
+
+4. In a terminal, run the `vale` command on one of your content files. For example:
 ```bash
 $ cd openshift-docs
 $ vale modules/<filename>.adoc
 ```
-
 
 ## Benefits of using Vale
 
