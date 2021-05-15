@@ -32,6 +32,17 @@ How does Vale help you improve your content quality and productivity?
 1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
 2. Download or clone this repo to your local machine.
 3. Copy the `.vale.ini` file and `styles` directory from the repo to the root directory of your documentation project.
+4. In a terminal, run `vale` on one of your content files. For example:
+```bash
+$ cd openshift-docs
+$ vale modules/<filename>.adoc
+```
+
+## Optional next steps
+
+* [Install VS Code](https://code.visualstudio.com/docs/?dv=linux64_rpm) on your system, and install the [Vale plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
+* [Add Vale to your docs continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service).
+* [Add Vale to your GitHub actions](https://github.com/errata-ai/vale-action).
 
 ## How to get involved, get help, and contribute
 
