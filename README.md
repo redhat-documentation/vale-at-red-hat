@@ -17,7 +17,7 @@ How does Vale help you improve your content quality and productivity?
 * It improves peer reviews.
 * It makes content more consistent.
 
-## Vale styles and rules in a nutshell
+## Vale styles and rules
 
 * A _style_ is a simple directory that contains a collection of rules.
 * A _rule_ is a `.yml` file that defines the issue, the solution, and other information.
@@ -33,7 +33,7 @@ How does Vale help you improve your content quality and productivity?
 2. Download or clone this repo to your local machine.
 3. Copy the `.vale.ini` file and `styles` directory from the repo to the root directory of your documentation project.
 
-## How to get involved, get assistance, and contribute
+## How to get involved, get help, and contribute
 
 * Join the Slack channel, [#vale-at-red-hat](https://coreos.slack.com/archives/C0218RXJK5E) in the CoreOS workspace.
 * If you encounter an issue _with this repo_ please mention it here: https://github.com/rolfedh/studious-fortnight/issues.
