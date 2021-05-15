@@ -1,31 +1,40 @@
 # studious-fortnight
-Vale config files, styles, and docs to help individuals and teams at \<organization\> roll out Vale.
+
+Vale is a command-line tool you use to check your content files for style issues.
+
+As a technical writer at Red Hat, you can download or clone this repo to your system to help you get started with using Vale.
+
+This repo contains a *minimal* set of information and instructions for using Vale. For more information, see https://github.com/errata-ai/vale.
+
+This repo includes a [`red-hat` style](red-hat.md), which complies with Red Hat's style requirements for technical documentation. It also include a `.vale.ini` file that configures Vale to use the `red-hat` style with your `.adoc` and `.md` content files.
 
 ## Benefits of using Vale
 
-Vale improves your content quality and productivity:
-* Gives you feedback while you write, so you can fix-as-you-go.
-* Helps you write content that's easier for readers to understand.
-* Makes reviews faster and easier for writers and reviewers.
-* Helps teams of writers produce content that's the more consistent. 
+How does Vale help you improve your content quality and productivity?
 
-## A brief intro to Vale, styles, and rules
+* It helps you catch and fix style issues right away.
+* It makes content is easier to understand and localize.
+* It improves peer reviews.
+* It makes content more consistent.
 
-* [Vale is a syntax-aware linter for prose.](https://github.com/errata-ai/vale)
-* You can create the _rules_ you want Vale to apply to your content, by defining each rule in a `.yml` file.
-* You can also create a _style_ by saving a collection of rules in a directory.
-* The Vale project [offers a various styles](https://github.com/errata-ai/styles) you can use as-is or customize.
+## Vale styles and rules in a nutshell
 
-## Get started using the Vale CLI on a local doc project they're the the
+* A _style_ is a simple directory that contains a collection of rules.
+* A _rule_ is a `.yml` file that defines the issue, the solution, and other information.
+* You can use a style as-is, or you customize the rules it contains to fit your needs.
+* This repo includes
+// A _vocabulary_ is a simple directory that contains a collection of rules about your organization's
 
-* [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
-* Download [this `.vale.ini`](./.vale.ini) file to the root directory of your doc project or repo.
-* Download a style to your doc project, such as:
-  * [Microsoft](https://github.com/errata-ai/Microsoft), which is based on the [Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/).
-  * [Google](https://github.com/errata-ai/Google), which is based on the [Google Developer Documentation Style Guide](https://developers.google.com/style/). 
+* You can download [various ready-to-use styles from Vale](https://github.com/errata-ai/styles), including ones based on the IBM, Google, and Microsoft style guides.
 
-* Optional, but recommended: [use Vale with your continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service)
+## Get started using Vale and the `red-hat` style
 
-## Show gratitude and give back
+1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
+2. Download or clone this repo to your local machine.
+3. Copy the `.vale.ini` file and `styles` directory from the repo to the root directory of your documentation project.
 
-If you use Vale or are inspired by Joseph Kato and his work, please consider making a contribution to him: https://docs.errata.ai/vale/about#sponsors
+## How to get involved, get assistance, and contribute
+
+* Join the Slack channel, [#vale-at-red-hat](https://coreos.slack.com/archives/C0218RXJK5E) in the CoreOS workspace.
+* If you encounter an issue _with this repo_ please mention it here: https://github.com/rolfedh/studious-fortnight/issues.
+* To show gratitude and support for Joseph Kato's work creating and improving Vale, please consider making a contribution to him: https://docs.errata.ai/vale/about#sponsors
