@@ -69,9 +69,14 @@ How does Vale help you improve your content quality and productivity?
 * [Add Vale to your docs continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service).
 * [Add Vale to your GitHub actions](https://github.com/errata-ai/vale-action).
 
+## Related topics
+
+* [Troubleshooting common errors](troubleshooting-common-errors.md).
+* [Blog posts for Studious-Fortnight](vale-at-red-hat-blog.md)
+* [Rolfe's "Vale notes" blog posts](https://rolfe.blog/category/vale/)
+
 ## How to get involved, get help, and contribute
 
-* See the [Troubleshooting common errors](troubleshooting-common-errors.md) topic.
 * Join the Slack channel, [#vale-at-red-hat](https://coreos.slack.com/archives/C0218RXJK5E), in the CoreOS workspace.
 * To report a bug _in this repo_ or request an enhancement, please mention it here: https://github.com/rolfedh/studious-fortnight/issues.
 * To show appreciation and support for Joseph Kato's work on Vale, please consider making a donation: https://docs.errata.ai/vale/about#sponsors
