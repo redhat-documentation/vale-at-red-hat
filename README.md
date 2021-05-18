@@ -5,27 +5,15 @@ As a technical writer, you can use the Vale command-line tool to check your cont
 [rdlugyhe@rdlugyhe ~]$ cd openshift-docs/logging/troubleshooting/
 [rdlugyhe@rdlugyhe troubleshooting]$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc
 ```
-The vale command output generates a colorful list of suggestions, warnings, and errors for the file. For example:
+The output from the `vale` command output generates a list of suggestions, warnings, and errors for the file. For example:
 
-```
-guidelines.                                         
-238:27   error       Did you really mean             Vale.Spelling       
-'rebalancing'?                                      
-244:6    suggestion  Verify your use of 'there       IBM.Usage           
-are' with the word usage                            
-guidelines.                                         
-244:38   warning     Consider using 'available'      CheDocs.CommonTerms
-instead of 'present'                                
-244:47   suggestion  Verify your use of 'then' with  IBM.Usage  
-```
 <pre> 238:27   <font color="#CC0000">error</font>       Did you really mean             Vale.Spelling       
                       &apos;rebalancing&apos;?                                      
  244:6    <font color="#3465A4">suggestion</font>  Verify your use of &apos;there       IBM.Usage           
                       are&apos; with the word usage                            
                       guidelines.                                         
  244:38   <font color="#C4A000">warning</font>     Consider using &apos;available&apos;      CheDocs.CommonTerms
-                      instead of &apos;present&apos;                                
- 244:47   <font color="#3465A4">suggestion</font>  Verify your use of &apos;then&apos; with  IBM.Usage  </pre>
+                      instead of &apos;present&apos;</pre>
 
 Vale is a command-line tool to help you find and fix style issues in your content files.
 
