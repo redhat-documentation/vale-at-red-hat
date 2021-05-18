@@ -1,11 +1,17 @@
 # studious-fortnight
 
-As a technical writer, you can use the Vale command-line tool to check your content files for style issues. For example:
+This repo helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for our Vale Community of Practice.
+
+## How do you use Vale?
+
+As a technical writer, you can use Vale as a command-line tool to check your content files for style issues. For example:
+
 ```
 [rdlugyhe@rdlugyhe ~]$ cd openshift-docs/logging/troubleshooting/
 [rdlugyhe@rdlugyhe troubleshooting]$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc
 ```
-The output from the `vale` command output generates a list of suggestions, warnings, and errors for the file. For example:
+
+The output from the `vale` command output generates a list of suggestions, warnings, and errors based on customizable  of styles and vocabularies. For example:
 
 <pre> 238:27   <font color="#CC0000">error</font>       Did you really mean             Vale.Spelling       
                       &apos;rebalancing&apos;?                                      
@@ -15,59 +21,73 @@ The output from the `vale` command output generates a list of suggestions, warni
  244:38   <font color="#C4A000">warning</font>     Consider using &apos;available&apos;      CheDocs.CommonTerms
                       instead of &apos;present&apos;</pre>
 
-Vale is a command-line tool to help you find and fix style issues in your content files.
+You can review the output, decide which issues are valid, and update your content file accordingly.
+
+To reduce false positives for yourself and your team, you can update the style and vocabulary files Vale uses. For example, I confirmed that "rebalancing" is a valid word in my docs and added it to my vocabulary file. Later, I'll create a PR to update the repo and share my updated vocabulary file with everyone else.
+
+## About this repo
 
 As a technical writer at Red Hat, you can use this repo to help you get started with using Vale.
 
-The `.vale` directory in this repo includes a collection of rules, or _styles_. These styles are based on the style guides that the Red Hat CCS organization uses. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
+Aside content like this topic, the repo contains the following items:
 
-The repo also includes a `.vale.ini` file that configures Vale to use the `.vale` styles to check your `.adoc` and `.md` content files.
+* A `.vale` directory that contains a collection of _styles_. These styles are based on the style guides that the Red Hat CCS organization uses. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
+
+* A `.vale.ini` configuration file for Vale that tells it where to find the `.vale` directory, and other important settings.
 
 ## Getting started using Vale and the `red-hat` style
 
+1. For Linux and Mac I recommend [installing Homebrew](https://brew.sh/).
+
 1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
-2. `git clone` this repo to your local machine.
-3. Copy the `.vale.ini` file and `.vale` directory from the repo to the  directory where you keep your documentation projects.
 
-  For example, if you keep documentation projects such as `/home/<username>/openshift-docs` in your home directory, copy `.vale.ini` and `.vale` to `/home/<username>/`
+  NOTE: On the Vale site, click the tab for your operating system.
 
-4. In a terminal, run the `vale` command on one of your content files. For example:
-```bash
+1. Use `git clone` to copy this repo, studious-fortnight, to your local machine. For example:
+```
+$ cd ~
+$ git clone git@github.com:rolfedh/studious-fortnight.git
+```
+
+1. Copy the `.vale.ini` file and `.vale` directory from the `studious-fortnight` directory to the directory where you keep your documentation projects.
+
+  For example:
+  ```
+  $ cp -r ./studious-fortnight/.vale* ./
+  ```
+
+1. Run the `vale` command on one of your content files. For example:
+```
 $ cd openshift-docs
 $ vale modules/<filename>.adoc
 ```
-5. Fix some of the issues in the content file.
 
-6. Re-run the same `vale` command to see the new results.
+1. Review the vale output and use some of it update your content file.
 
-## Optional: Eliminating false positives
+1. Re-run the same `vale` command to see the new results.
+
+Caveat: The styles are not perfect and not complete. Don't be discouraged by the output from vale. Simply review the output and choose what's useful to you. We're working on making them better.
+
+<!-- ## Optional: Eliminating false positives
 
 1. Run the `vale` command on multiple content files by using a wildcard character `*`. For example:
 ```bash
 $ vale modules/cluster-logging-exported*.adoc
 ```
 
-2. Review the output for `Vale.Spelling` errors for valid words, such as product, feature, or component names.
+2. Review the output for `Vale.Spelling` errors for valid words, such as words that appear in the product.
 
-<!-- 3. In your terminal window, open a new tab.
+5. Add those valid words to `~/.vale/styles/Vocab/Che/accept.txt`. -->
 
-4. Make a vocabulary folder for you product by copying the `Che` folder in the `.vale/styles/Vocab` directory. For example:
-```bash
-$ cd ~/.vale/styles/Vocab/
-$ cp -r Che Logging
-```
- -->
-
-5. Add those valid words to `~/.vale/styles/Vocab/accept.txt`.
-
-## Benefits of using Vale
+## The benefits of using Vale
 
 How does Vale help you improve your content quality and productivity?
 
-* It helps you catch and fix style issues right away.
-* It makes content is easier to understand and localize.
+* It helps you fix style issues right away, before you create a PR.
 * It improves peer reviews.
 * It makes content more consistent.
+* It makes content easier to localize.
+* It makes content is easier to for users to understand.
 
 ## Vale styles and rules
 
@@ -77,10 +97,9 @@ How does Vale help you improve your content quality and productivity?
 * This repo includes
 <!-- * A _vocabulary_ is a simple directory that contains a collection of rules about your organization's -->
 
-
 ## Optional next steps
 
-* [Install VS Code](https://code.visualstudio.com/docs/?dv=linux64_rpm) on your system, and install the [Vale plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
+* [Install VS Code](https://code.visualstudio.com/docs/?dv=linux64_rpm) and the [Vale plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
 * [Add Vale to your docs continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service).
 * [Add Vale to your GitHub actions](https://github.com/errata-ai/vale-action).
 
