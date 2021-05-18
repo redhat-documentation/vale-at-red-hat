@@ -1,5 +1,21 @@
 # studious-fortnight
 
+As a technical writer, you can use the Vale command-line tool to check your content files for style issues. For example:
+```
+[rdlugyhe@rdlugyhe ~]$ cd openshift-docs/logging/troubleshooting/
+[rdlugyhe@rdlugyhe troubleshooting]$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc
+```
+The vale command output generates a colorful list of suggestions, warnings, and errors for the file. For example:
+
+<pre> 238:27   <font color="#CC0000">error</font>       Did you really mean             Vale.Spelling       
+                      &apos;rebalancing&apos;?                                      
+ 244:6    <font color="#3465A4">suggestion</font>  Verify your use of &apos;there       IBM.Usage           
+                      are&apos; with the word usage                            
+                      guidelines.                                         
+ 244:38   <font color="#C4A000">warning</font>     Consider using &apos;available&apos;      CheDocs.CommonTerms
+                      instead of &apos;present&apos;                                
+ 244:47   <font color="#3465A4">suggestion</font>  Verify your use of &apos;then&apos; with  IBM.Usage  </pre>
+ 
 Vale is a command-line tool to help you find and fix style issues in your content files.
 
 As a technical writer at Red Hat, you can use this repo to help you get started with using Vale.
