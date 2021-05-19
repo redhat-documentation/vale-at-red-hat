@@ -1,6 +1,6 @@
 # studious-fortnight
 
-This repo helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for our Vale Community of Practice.
+This repo helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
 
 ## How do you use Vale?
 
@@ -37,7 +37,7 @@ Aside content like this topic, the repo contains the following items:
 
 ## Getting started using Vale and the `red-hat` style
 
-1. For Linux and Mac I recommend [installing Homebrew](https://brew.sh/).
+1. For Linux and Mac I suggest [installing Homebrew](https://brew.sh/).
 
 1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
 
@@ -112,5 +112,5 @@ How does Vale help you improve your content quality and productivity?
 ## How to get involved, get help, and contribute
 
 * Join the Slack channel, [#vale-at-red-hat](https://coreos.slack.com/archives/C0218RXJK5E), in the CoreOS workspace.
-* To report a bug _in this repo_ or request an enhancement, please mention it here: https://github.com/rolfedh/studious-fortnight/issues.
-* To show appreciation and support for Joseph Kato's work on Vale, please consider making a donation: https://docs.errata.ai/vale/about#sponsors
+* To report a bug _in this repo_ or request an enhancement, [create an issue](https://github.com/rolfedh/studious-fortnight/issues).
+* To show appreciation and support for Joseph Kato's work on Vale, consider [making a donation](https://docs.errata.ai/vale/about#sponsors).
