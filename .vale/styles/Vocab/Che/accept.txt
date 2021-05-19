@@ -101,6 +101,7 @@ PostgreSQL
 preconfigured
 Quarkus
 readonly
+repo
 rollout
 rollouts
 runtime

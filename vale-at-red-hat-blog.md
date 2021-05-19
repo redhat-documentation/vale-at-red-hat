@@ -4,6 +4,8 @@
 
 Today, I added a _GitHub action_ to run Vale against this repo. The action consists of a `.github/workflows/main.yml` file. For now, the action is configured to check new and modified files, not all files in this repo. To see the actions, look at this repo in GitHub and click the Actions tab.
 
+I also added "repo" to .vale/styles/Vocab/Che/accept.txt.
+
 ## 16. May, 1:22 PM, Sunday
 
 Rolfe: This weekend, I merged a large number of updates  into the studious-fortnight repo. These included:
