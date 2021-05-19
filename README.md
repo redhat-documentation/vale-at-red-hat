@@ -23,7 +23,7 @@ The output from the `vale` command output generates a list of suggestions, warni
 
 You can review the output, decide which issues are valid, and update your content file accordingly.
 
-To reduce false positives for yourself and your team, you can update the style and vocabulary files Vale uses. For example, I confirmed that "rebalancing" is a valid word in my docs and added it to my vocabulary file. Later, I'll create a PR to update the repo and share my updated vocabulary file with everyone else.
+To reduce false positives for yourself and others, you can update the style and vocabulary files Vale uses. For example, I confirmed that "rebalancing" is a valid word in my docs and added it to my vocabulary file. Later, I'll create a PR to update the repo and share my updated vocabulary file with everyone else.
 
 ## About this repo
 
