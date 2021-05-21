@@ -10,3 +10,4 @@ pkg/
 /.yardoc/
 /rdoc/
 /shippable/
+workspace.code-workspace

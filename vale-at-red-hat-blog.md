@@ -1,5 +1,29 @@
 # Vale at Red Hat Blog
 
+## 21. May, 14:12, Friday
+
+[Rolfe] Here are my updates on studious-fortnight.
+
+**Goal**: To make studious-fortnight become a "Vale at Red Hat" repo that's worthy of moving over to Red Hat doc tools repo.
+
+**What I've done recently**:
+- I updated the studious' with the Vale style from the Che eclipse documentation project that Yana and Fabrice developed.
+- I've been welcoming new team members to this channel.
+- I hosted the "Friday 15 for Vale" at Red Hat.
+- I added a GitHub Action to studious' that runs Vale against any modified files. (Check it out [here under the Actions tab](https://github.com/rolfedh/studious-fortnight/actions).
+
+**What I'm doing next**:
+- Running the studious' Vale style against some of my product docs.
+- Refining the style rules and vocabulary to reduce false positives.
+- Adding a "project"  topic to studious'.
+- Reviewing the GitHub Action I added.
+- Refining the README.md content.
+- Set up studious' permissions for contributors and add a contributors.md topic.
+
+**Any needs or blockers**?
+- I'd appreciate your notes on getting started with Vale and studious'.  Feel free to discuss them here and open issues and enhancement requests on https://github.com/rolfedh/studious-fortnight/issues
+- Become a contributor to studious, particularly its styles.
+
 ## 19. May, 7:37 AM, Wednesday
 
 Today, I added a _GitHub action_ to run Vale against this repo. The action consists of a `.github/workflows/main.yml` file. For now, the action is configured to check new and modified files, not all files in this repo. To see the actions, look at this repo in GitHub and click the Actions tab.
