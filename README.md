@@ -11,9 +11,7 @@ As a technical writer, you typically run `vale` on the command-line against a co
 [rdlugyhe@rdlugyhe troubleshooting]$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc
 ```
 
-The command output gives you a list of suggestions, warnings, and errors based on customizable styles and vocabularies.
-
-Here's what some typical command output looks like (minus colored syntax highlighting- which I can't reproduce here):
+The resulting command output gives you a list of suggestions, warnings, and errors based on customizable styles and vocabularies.
 
 <pre> 238:27   <font color="#CC0000">error</font>       Did you really mean             Vale.Spelling       
                       &apos;rebalancing&apos;?                                      
@@ -24,23 +22,27 @@ Here's what some typical command output looks like (minus colored syntax highlig
                       instead of &apos;present&apos;</pre>
 
 
-Where:
-* The first column of the output gives the line and column number of the issue. `238:27` means line `238` contains an issue strating at character `27`
-* The second column of the output gives the type of issue, `error`, `suggestion`, or `warning`.
-* The third column gives you the style prompt.
-* The fourth column gives you the source of the rule.
+Understanding the `vale` command output example:
 
-As a writer, you review output, decide which issues are valid, and update your content file accordingly.
+* The first column is the line and character number of the issue, such as `244:6`.
+* The second column is the type of issue, such as `error`, `suggestion`, or `warning`.
+* The third column is the style prompt: `Verify your use of 'there are'`
+* The fourth column is the source of the rule, such as `IBM.Usage`
 
-You might ask: "What if you don't like the command output shown above?"
+As a writer, you review output, decide which issues are valid, and update your contents accordingly.
 
-That's good! It means you're thinking critically about the Vale style can help make them better, which brings us to...
+What if the command output from Vale is wrong? For example, what if the word `rebalancing` appears in Red Hat's products (it does) and it's also dictionary word? Why is it showing up as an error?
+
+Good question. It's probably missing from the Vale.Spelling dictionary. The solution is for one of us to add it the list of allowed words. This brings us to...
 
 ## How can you contribute to this project?
 
 ![Open Source Wants You](./images/open-source-wants-you-39-percent.jpg)
 
-We need contributors like you to help improve and expand upon the Vale style rules we use at Red Hat.
+You can help by doing any of the following:
+* Use Vale with the style rules from this studious-fornight repo.
+* Report issues and request enhancements.
+* Coding new style rules.
 
 To become a contributor, check out this [contributor's guide](contributors-guide.md)
 
