@@ -2,16 +2,18 @@
 
 This repo helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
 
-## How do you use Vale?
+## What does using Vale look like?
 
-As a technical writer, you can use Vale as a command-line tool to check your content files for style issues. For example:
+As a technical writer, you typically run `vale` on the command-line against a content file:
 
 ```
 [rdlugyhe@rdlugyhe ~]$ cd openshift-docs/logging/troubleshooting/
 [rdlugyhe@rdlugyhe troubleshooting]$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc
 ```
 
-The output from the `vale` command output generates a list of suggestions, warnings, and errors based on customizable  of styles and vocabularies. For example:
+The command output gives you a list of suggestions, warnings, and errors based on customizable styles and vocabularies.
+
+Here's what some typical command output looks like (minus colored syntax highlighting- which I can't reproduce here):
 
 <pre> 238:27   <font color="#CC0000">error</font>       Did you really mean             Vale.Spelling       
                       &apos;rebalancing&apos;?                                      
@@ -21,23 +23,36 @@ The output from the `vale` command output generates a list of suggestions, warni
  244:38   <font color="#C4A000">warning</font>     Consider using &apos;available&apos;      CheDocs.CommonTerms
                       instead of &apos;present&apos;</pre>
 
-You can review the output, decide which issues are valid, and update your content file accordingly.
 
-To reduce false positives for yourself and others, you can update the style and vocabulary files Vale uses. For example, I confirmed that "rebalancing" is a valid word in my docs and added it to my vocabulary file. Later, I'll create a PR to update the repo and share my updated vocabulary file with everyone else.
+Where:
+* The first column of the output gives the line and column number of the issue. `238:27` means line `238` contains an issue strating at character `27`
+* The second column of the output gives the type of issue, `error`, `suggestion`, or `warning`.
+* The third column gives you the style prompt.
+* The fourth column gives you the source of the rule.
 
-## About this repo
+As a writer, you review output, decide which issues are valid, and update your content file accordingly.
 
-As a technical writer at Red Hat, you can use this repo to help you get started with using Vale.
+You might ask: "What if you don't like the command output shown above?"
 
-Aside content like this topic, the repo contains the following items:
+That's good! It means you're thinking critically about the Vale style can help make them better, which brings us to...
 
-* A `.vale` directory that contains a collection of _styles_. These styles are based on the style guides that the Red Hat CCS organization uses. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
+## How can you contribute to this project?
 
-* A `.vale.ini` configuration file for Vale that tells it where to find the `.vale` directory, and other important settings.
+![Open Source Wants You](./images/open-source-wants-you-39-percent.jpg)
 
-## Getting started using Vale and the `red-hat` style
+We need contributors like you to help improve and expand upon the Vale style rules we use at Red Hat.
 
-1. For Linux and Mac I suggest [installing Homebrew](https://brew.sh/).
+To become a contributor, check out this [contributor's guide](contributors-guide.md)
+
+## What are the important parts of this repo?
+
+* The `.vale` directory contains a collection of _styles_, which are collections of rules that are based on the style guides we use at Red Hat. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
+
+* The `.vale.ini` configuration file that tells Vale where to find the `.vale` directory and other important settings.
+
+## How do you get started?
+
+1. For Linux and Mac I suggest [installing the Homebrew package manager](https://brew.sh/). It makes installing and updating software like Vale easier. (I'll also mention how to install Vale without using homebrew later on.)
 
 1. [Install the Vale command line tool on your workstation](https://docs.errata.ai/vale/install).
 
