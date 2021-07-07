@@ -1,0 +1,10 @@
+extends: existence
+message: "Avoid using '%s'."
+link: 'https://docs.engineering.redhat.com/display/CCSENABLE/Future+tense'
+ignorecase: true
+level: warning
+tokens:
+  - test
+  - appears
+  - simply
+  - utilize
