@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-proxy-server
+ignorecase: true
+level: error
+action:
+  name: replace
+source: Red Hat
+swap:
+    Red Hat Proxy (Server) : Red Hat Network Proxy Server
