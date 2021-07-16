@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://redhat-documentation.github.io/supplementary-style-guide/#systemd
+ignorecase: true
+level: error
+action:
+  name: replace
+source: Red Hat
+swap:
+    system D|system D|SystemD|system d|Systemd (unless at the start of a sentence). : systemd
