@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "need" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#need
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    desire|wish : need
+source: SupplementaryStyleGuide
+tokens:
+    -  desire|wish

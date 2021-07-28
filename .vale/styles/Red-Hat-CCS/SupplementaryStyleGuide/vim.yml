@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Vim" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#vim
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    VIM|vim : Vim
+source: SupplementaryStyleGuide
+tokens:
+    -  VIM|vim

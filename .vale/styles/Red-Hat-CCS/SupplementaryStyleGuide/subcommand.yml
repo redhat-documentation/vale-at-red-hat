@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "subcommand" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#subcommand
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    sub-command : subcommand
+source: SupplementaryStyleGuide
+tokens:
+    -  sub-command

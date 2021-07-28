@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "data center" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#data-center
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    datacenter|data-center|data centre|datacentre : data center
+source: SupplementaryStyleGuide
+tokens:
+    -  datacenter|data-center|data centre|datacentre

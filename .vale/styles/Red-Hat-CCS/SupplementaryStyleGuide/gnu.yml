@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "GNU" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#gnu
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Gnu|gnu : GNU
+source: SupplementaryStyleGuide
+tokens:
+    -  Gnu|gnu

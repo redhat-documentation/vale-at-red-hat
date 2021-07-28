@@ -1,10 +1,9 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "virtual" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#virtual
 ignorecase: true
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    virtualized : virtual
+source: SupplementaryStyleGuide
+tokens:
+    -  virtualized

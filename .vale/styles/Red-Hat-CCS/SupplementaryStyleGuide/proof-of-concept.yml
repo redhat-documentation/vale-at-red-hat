@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "proof of concept" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#proof-of-concept
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    proof of concepts : proof of concept
+source: SupplementaryStyleGuide
+tokens:
+    -  proof of concepts

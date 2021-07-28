@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "pseudo-ops" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#pseudoops
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    pseudo ops|pseudoops : pseudo-ops
+source: SupplementaryStyleGuide
+tokens:
+    -  pseudo ops|pseudoops

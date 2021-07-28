@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Intel(R) EP80579 Integrated Processor" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#intel-ep80579-integrated-processor
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Tolapai|Intel Tolapai : Intel(R) EP80579 Integrated Processor
+source: SupplementaryStyleGuide
+tokens:
+    -  Tolapai|Intel Tolapai

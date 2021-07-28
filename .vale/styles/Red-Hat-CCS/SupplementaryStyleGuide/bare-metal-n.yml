@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "bare metal" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#bare-metal-n
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    baremetal|bare-metal : bare metal
+source: SupplementaryStyleGuide
+tokens:
+    -  baremetal|bare-metal

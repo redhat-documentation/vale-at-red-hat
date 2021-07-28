@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "WCA" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#wca
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    wca : WCA
+source: SupplementaryStyleGuide
+tokens:
+    -  wca

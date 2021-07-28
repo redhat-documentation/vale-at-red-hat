@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "HP ProLiant" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#hp-proliant
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    HP Proliant : HP ProLiant
+source: SupplementaryStyleGuide
+tokens:
+    -  HP Proliant

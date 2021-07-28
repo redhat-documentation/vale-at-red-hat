@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "you" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#you
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    I|he|she : you
+source: SupplementaryStyleGuide
+tokens:
+    -  I|he|she

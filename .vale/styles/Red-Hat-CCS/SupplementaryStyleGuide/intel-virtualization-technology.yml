@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Intel Virtualization Technology" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#intel-virtualization-technology
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    VT-i|VT : Intel Virtualization Technology
+source: SupplementaryStyleGuide
+tokens:
+    -  VT-i|VT

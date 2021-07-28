@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "CDs" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#cds
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    CDS|Cds : CDs
+source: SupplementaryStyleGuide
+tokens:
+    -  CDS|Cds

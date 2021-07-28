@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "different from" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#different
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    different than|different to : different from
+source: SupplementaryStyleGuide
+tokens:
+    -  different than|different to

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "air gap" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#air-gap
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    air wall : air gap
+source: SupplementaryStyleGuide
+tokens:
+    -  air wall

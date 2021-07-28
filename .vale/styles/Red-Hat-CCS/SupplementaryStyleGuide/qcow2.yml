@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "QCOW2" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#qcow2
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    qcow2|Qcow2 : QCOW2
+source: SupplementaryStyleGuide
+tokens:
+    -  qcow2|Qcow2

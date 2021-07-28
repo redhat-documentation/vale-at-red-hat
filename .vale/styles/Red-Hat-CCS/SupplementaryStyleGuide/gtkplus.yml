@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "GTK+" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#gtkplus
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    GTK|Gtk|gtk : GTK+
+source: SupplementaryStyleGuide
+tokens:
+    -  GTK|Gtk|gtk

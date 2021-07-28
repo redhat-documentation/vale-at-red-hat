@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "open source" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#open-source
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    open-source|OpenSource|opensource : open source
+source: SupplementaryStyleGuide
+tokens:
+    -  open-source|OpenSource|opensource

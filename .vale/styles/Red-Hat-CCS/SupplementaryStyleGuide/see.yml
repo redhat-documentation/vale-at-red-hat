@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "see" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#see
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    refer to : see
+source: SupplementaryStyleGuide
+tokens:
+    -  refer to

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "mouse button" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#mouse-button
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    mouse-button|mousebutton : mouse button
+source: SupplementaryStyleGuide
+tokens:
+    -  mouse-button|mousebutton

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "insecure" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#insecure
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    nonsecure|non-secure : insecure
+source: SupplementaryStyleGuide
+tokens:
+    -  nonsecure|non-secure

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "tier-1" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#tier-1
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    tier-one|tier 1 : tier-1
+source: SupplementaryStyleGuide
+tokens:
+    -  tier-one|tier 1

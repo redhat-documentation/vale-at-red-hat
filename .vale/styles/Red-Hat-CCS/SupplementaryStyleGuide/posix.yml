@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "POSIX" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#posix
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Posix|posix|variations : POSIX
+source: SupplementaryStyleGuide
+tokens:
+    -  Posix|posix|variations

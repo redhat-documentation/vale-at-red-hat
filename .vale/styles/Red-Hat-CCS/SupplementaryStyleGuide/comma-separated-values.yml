@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "comma-separated values" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#comma-separated-values
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    comma-delimited values|comma delimited values|comma separated values : comma-separated values
+source: SupplementaryStyleGuide
+tokens:
+    -  comma-delimited values|comma delimited values|comma separated values

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "hot swap" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#hot-swap
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    hotswap|hot-swap : hot swap
+source: SupplementaryStyleGuide
+tokens:
+    -  hotswap|hot-swap

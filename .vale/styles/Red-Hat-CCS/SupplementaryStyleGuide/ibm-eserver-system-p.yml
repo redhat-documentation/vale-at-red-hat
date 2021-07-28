@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "IBM eServer System p" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#ibm-eserver-system-p
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    pSeries : IBM eServer System p
+source: SupplementaryStyleGuide
+tokens:
+    -  pSeries

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "hard code" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#hard-code
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    hardcode : hard code
+source: SupplementaryStyleGuide
+tokens:
+    -  hardcode

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "RAM disk" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#ram-disk
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    RAMdisk|ramdisk|RAM-disk : RAM disk
+source: SupplementaryStyleGuide
+tokens:
+    -  RAMdisk|ramdisk|RAM-disk

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "su" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#su
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    SU : su
+source: SupplementaryStyleGuide
+tokens:
+    -  SU

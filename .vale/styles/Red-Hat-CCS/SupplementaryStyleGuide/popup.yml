@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "pop-up" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#popup
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    popup|Pop-up : pop-up
+source: SupplementaryStyleGuide
+tokens:
+    -  popup|Pop-up

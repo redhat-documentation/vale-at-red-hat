@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "DevOps" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#devops-n
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    devops|Devops|Dev-Ops|Dev Ops : DevOps
+source: SupplementaryStyleGuide
+tokens:
+    -  devops|Devops|Dev-Ops|Dev Ops

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "web UI" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#web-ui
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    web-UI|webUI : web UI
+source: SupplementaryStyleGuide
+tokens:
+    -  web-UI|webUI

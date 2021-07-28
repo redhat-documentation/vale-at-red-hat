@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Source-Navigator^TM^" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#source-navigator
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Source Navigator (without trademark symbol) : Source-NavigatorTM
+source: SupplementaryStyleGuide
+tokens:
+    -  Source Navigator

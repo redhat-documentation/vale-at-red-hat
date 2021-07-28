@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Disk Druid" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#disk-druid
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Disk druid|disk druid|diskdruid : Disk Druid
+source: SupplementaryStyleGuide
+tokens:
+    -  Disk druid|disk druid|diskdruid

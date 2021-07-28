@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "app" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#app
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    app. : app
+source: SupplementaryStyleGuide
+tokens:
+    -  app.

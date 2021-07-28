@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "spec file" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#spec-file
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    specfile : spec file
+source: SupplementaryStyleGuide
+tokens:
+    -  specfile

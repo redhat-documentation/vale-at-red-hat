@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "download" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#download-v
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    down-load|down load : download
+source: SupplementaryStyleGuide
+tokens:
+    -  down-load|down load

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "straightforward" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#straightforward
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    straight forward|straight-forward : straightforward
+source: SupplementaryStyleGuide
+tokens:
+    -  straight forward|straight-forward

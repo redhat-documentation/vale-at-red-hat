@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "vNUMA node" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#vnuma
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    vnuma|VNUMA : vNUMA node
+source: SupplementaryStyleGuide
+tokens:
+    -  vnuma|VNUMA

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "vi" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#vi
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    VI : vi
+source: SupplementaryStyleGuide
+tokens:
+    -  VI

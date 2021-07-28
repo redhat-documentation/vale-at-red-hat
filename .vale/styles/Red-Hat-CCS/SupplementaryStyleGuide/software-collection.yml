@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Software Collection" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#software-collection
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    software collection|collection|Software collection|Collection : Software Collection
+source: SupplementaryStyleGuide
+tokens:
+    -  software collection|collection|Software collection|Collection

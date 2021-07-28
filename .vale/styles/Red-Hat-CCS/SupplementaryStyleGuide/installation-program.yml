@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "installation program" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#installation-program
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    the installer : installation program
+source: SupplementaryStyleGuide
+tokens:
+    -  the installer

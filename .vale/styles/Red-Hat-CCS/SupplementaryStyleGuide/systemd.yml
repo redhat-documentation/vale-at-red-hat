@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "systemd" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#systemd
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    system D|system D|SystemD|system d|Systemd (unless at the start of a sentence). : systemd
+source: SupplementaryStyleGuide
+tokens:
+    -  system D|system D|SystemD|system d|Systemd

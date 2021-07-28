@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "domain name" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#domain-name
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    domainname|domain-name : domain name
+source: SupplementaryStyleGuide
+tokens:
+    -  domainname|domain-name

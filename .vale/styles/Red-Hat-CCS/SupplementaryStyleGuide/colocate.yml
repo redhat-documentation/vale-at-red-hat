@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "colocate" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#colocate
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    co-locate|collocate : colocate
+source: SupplementaryStyleGuide
+tokens:
+    -  co-locate|collocate

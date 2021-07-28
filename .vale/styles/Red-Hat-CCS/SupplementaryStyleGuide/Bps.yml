@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Bps" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#Bps
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    bps : Bps
+source: SupplementaryStyleGuide
+tokens:
+    -  bps

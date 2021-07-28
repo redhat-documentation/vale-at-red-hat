@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "vNIC" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#vnic
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    vnic|VNIC|Virtual Network Interface Card : vNIC
+source: SupplementaryStyleGuide
+tokens:
+    -  vnic|VNIC|Virtual Network Interface Card

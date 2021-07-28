@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "boot loader" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#boot-loader
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    bootloader : boot loader
+source: SupplementaryStyleGuide
+tokens:
+    -  bootloader

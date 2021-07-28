@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "kernel space" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#kernel-space-n
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    kernelspace : kernel space
+source: SupplementaryStyleGuide
+tokens:
+    -  kernelspace

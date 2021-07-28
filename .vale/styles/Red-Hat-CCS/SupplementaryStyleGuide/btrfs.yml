@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Btrfs" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#btrfs
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    btrfs : Btrfs
+source: SupplementaryStyleGuide
+tokens:
+    -  btrfs

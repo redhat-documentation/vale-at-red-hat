@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "daisy chain" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-v
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    daisy-chain|daisychain : daisy chain
+source: SupplementaryStyleGuide
+tokens:
+    -  daisy-chain|daisychain

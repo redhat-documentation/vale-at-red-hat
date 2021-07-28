@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "bimonthly" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#bimonthly
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    bi-monthly : bimonthly
+source: SupplementaryStyleGuide
+tokens:
+    -  bi-monthly

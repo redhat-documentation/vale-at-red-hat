@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "grayscale" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#grayscale
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    gray-scale|gray scale : grayscale
+source: SupplementaryStyleGuide
+tokens:
+    -  gray-scale|gray scale

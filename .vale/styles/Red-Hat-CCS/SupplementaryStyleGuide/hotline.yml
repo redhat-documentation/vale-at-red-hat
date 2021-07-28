@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "hotline" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#hotline
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    hot-line : hotline
+source: SupplementaryStyleGuide
+tokens:
+    -  hot-line

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "built-in" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#built-in
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    builtin|built in : built-in
+source: SupplementaryStyleGuide
+tokens:
+    -  builtin|built in

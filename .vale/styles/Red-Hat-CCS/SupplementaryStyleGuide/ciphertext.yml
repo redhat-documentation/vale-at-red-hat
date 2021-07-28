@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "ciphertext" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#ciphertext
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    cipher text|cyphertext|cypher text|cipher-text|cypher-text : ciphertext
+source: SupplementaryStyleGuide
+tokens:
+    -  cipher text|cyphertext|cypher text|cipher-text|cypher-text

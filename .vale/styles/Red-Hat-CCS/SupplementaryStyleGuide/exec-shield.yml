@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Exec-Shield" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#exec-shield
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Exec Shield : Exec-Shield
+source: SupplementaryStyleGuide
+tokens:
+    -  

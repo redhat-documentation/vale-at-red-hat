@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "floating point" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#floating-point
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    floating-point : floating point
+source: SupplementaryStyleGuide
+tokens:
+    -  floating-point

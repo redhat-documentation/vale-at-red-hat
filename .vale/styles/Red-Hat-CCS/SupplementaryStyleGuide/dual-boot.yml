@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "dual-boot" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    dualboot|dual boot : dual-boot
+source: SupplementaryStyleGuide
+tokens:
+    -  dualboot|dual boot

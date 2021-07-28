@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Exif" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#exif
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    EXIF|exif : Exif
+source: SupplementaryStyleGuide
+tokens:
+    -  EXIF|exif

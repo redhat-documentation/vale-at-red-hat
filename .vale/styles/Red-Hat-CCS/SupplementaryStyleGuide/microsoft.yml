@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Microsoft" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#microsoft
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    MS|MSFT|MicroSoft : Microsoft
+source: SupplementaryStyleGuide
+tokens:
+    -  MS|MSFT|MicroSoft

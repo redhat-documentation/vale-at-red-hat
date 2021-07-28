@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "DVD writer" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#DVD-writer
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    DVD burner|burner : DVD writer
+source: SupplementaryStyleGuide
+tokens:
+    -  DVD burner|burner

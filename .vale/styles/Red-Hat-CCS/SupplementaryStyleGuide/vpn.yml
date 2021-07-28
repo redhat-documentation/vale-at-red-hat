@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "VPN" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#vpn
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    vpn : VPN
+source: SupplementaryStyleGuide
+tokens:
+    -  vpn

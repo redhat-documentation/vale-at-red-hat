@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "MS-DOS" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#ms-dos
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    ms-dos|MSDOS|msdos : MS-DOS
+source: SupplementaryStyleGuide
+tokens:
+    -  ms-dos|MSDOS|msdos

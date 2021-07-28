@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "standalone" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#standalone
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    stand-alone : standalone
+source: SupplementaryStyleGuide
+tokens:
+    -  stand-alone

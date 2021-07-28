@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "verify" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#verify
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    make sure : verify
+source: SupplementaryStyleGuide
+tokens:
+    -  make sure

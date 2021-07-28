@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "JBoss Community" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#jboss-community
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    JBoss.org : JBoss Community
+source: SupplementaryStyleGuide
+tokens:
+    -  JBoss.org

@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "Red Hat Network Proxy Server" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-proxy-server
 ignorecase: true
+nonword: true
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    Red Hat Proxy (Server) : Red Hat Network Proxy Server
+source: SupplementaryStyleGuide
+tokens:
+    -  Red Hat Proxy \(Server\)

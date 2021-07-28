@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "knowledge base" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#knowledge-base
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    knowledgebase : knowledge base
+source: SupplementaryStyleGuide
+tokens:
+    -  knowledgebase

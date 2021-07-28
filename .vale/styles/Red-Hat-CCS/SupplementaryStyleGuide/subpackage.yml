@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "subpackage" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#subpackage
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    sub-package : subpackage
+source: SupplementaryStyleGuide
+tokens:
+    -  sub-package

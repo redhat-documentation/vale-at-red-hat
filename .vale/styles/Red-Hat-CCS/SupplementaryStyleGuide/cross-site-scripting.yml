@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "cross-site scripting" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#cross-site-scripting
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    cross site scripting : cross-site scripting
+source: SupplementaryStyleGuide
+tokens:
+    -  cross site scripting

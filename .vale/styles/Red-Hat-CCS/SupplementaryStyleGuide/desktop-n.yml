@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "desktop" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#desktop-n
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    desk top|desk-top : desktop
+source: SupplementaryStyleGuide
+tokens:
+    -  desk top|desk-top

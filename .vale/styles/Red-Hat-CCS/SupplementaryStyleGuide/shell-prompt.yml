@@ -1,10 +1,10 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
+---
+extends: existence
+message: Use "shell prompt" instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt
 ignorecase: true
+nonword: false
 level: error
-action:
-  name: replace
-source: Red Hat
-swap:
-    command prompt|terminal|shell : shell prompt
+source: SupplementaryStyleGuide
+tokens:
+    -  command prompt|terminal|shell
