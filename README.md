@@ -94,7 +94,7 @@ $ vale modules/cluster-logging-exported*.adoc
 
 2. Review the output for `Vale.Spelling` errors for valid words, such as words that appear in the product.
 
-5. Add those valid words to `~/.vale/styles/Vocab/Che/accept.txt`. -->
+5. Add those valid words to `~/.vale/styles/Vocab/Red-Hat/accept.txt`. -->
 
 ## The benefits of using Vale
 
