@@ -4,7 +4,7 @@
 
 [Rolfe] Here are my updates on studious-fortnight.
 
-**Goal**: To make studious-fortnight become a "Vale at Red Hat" repo that's worthy of moving over to Red Hat doc tools repo.
+**Goal**: To make studious-fortnight become a "Vale at Red Hat" repository worth moving over to the Red Hat doc tools repository.
 
 **What I've done recently**:
 - I updated the studious' with the Vale style from the Che eclipse documentation project that Yana and Fabrice developed.
@@ -18,7 +18,7 @@
 - Adding a "project"  topic to studious'.
 - Reviewing the GitHub Action I added.
 - Refining the README.md content.
-- Set up studious' permissions for contributors and add a contributors.md topic.
+- Set up studious' permissions for contributors and add a `contributors.md` topic.
 
 **Any needs or blockers**?
 - I'd appreciate your notes on getting started with Vale and studious'.  Feel free to discuss them here and open issues and enhancement requests on https://github.com/rolfedh/studious-fortnight/issues
@@ -26,13 +26,12 @@
 
 ## 19. May, 7:37 AM, Wednesday
 
-Today, I added a _GitHub action_ to run Vale against this repo. The action consists of a `.github/workflows/main.yml` file. For now, the action is configured to check new and modified files, not all files in this repo. To see the actions, look at this repo in GitHub and click the Actions tab.
+Today, I added a _GitHub action_ to run Vale against this repository. The action consists of a `.github/workflows/main.yml` file. Currently, the action is configured to check new and modified files, not all files in this repository. To see the actions, look at this repository in GitHub and click the Actions tab.
 
-I also added "repo" to `.vale/styles/Vocab/Che/accept.txt`.
 
 ## 16. May, 1:22 PM, Sunday
 
-Rolfe: This weekend, I merged many updates into the studious-fortnight repo. These included:
+Rolfe: This weekend, I merged many updates into the studious-fortnight repository. These included:
 - Removing the previous `/styles` folder and `.vale.ini` file.
 - Adding the `.vale` styles folder and `.vale.ini` that Fabrice and Yana developed for the Che eclipse documentation project.
 - Updating and expanding `README.md` with new information to help you get started with using Vale.

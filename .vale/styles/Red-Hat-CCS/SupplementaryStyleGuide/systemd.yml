@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    system D|system D|SystemD|system d|Systemd (unless at the start of a sentence). : systemd
+  system D|system D|SystemD|system d: systemd

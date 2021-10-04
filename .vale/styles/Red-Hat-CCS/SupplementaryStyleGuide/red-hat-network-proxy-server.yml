@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    Red Hat Proxy (Server) : Red Hat Network Proxy Server
+  Red Hat Proxy: Red Hat Network Proxy Server

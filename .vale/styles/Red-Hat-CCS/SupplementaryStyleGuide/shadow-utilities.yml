@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    Shadow utilities (capitalized) : shadow utilities
+  Shadow utilities: shadow utilities
