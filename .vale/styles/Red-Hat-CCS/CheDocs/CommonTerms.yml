@@ -7,4 +7,3 @@ swap:
   '\s[^n] binary': tool
   '\sis installed': is available
   '\spresent': available
-  '\sprogram': tool
