@@ -9,6 +9,7 @@
 [Gg]it
 [Gg]rafana
 [Hh]elm
+[Hh]omebrew
 [Jj]etbrains
 [Ll]ombok
 [Mm]aven
@@ -23,12 +24,16 @@
 [Nn]ginx
 [Oo]nboarding
 [Pp]podman
+[Rr]ebalancing
 [Tt]heia
 [Tt]ruststore
 [Uu]ntrusted
 [Ww]orkspace
 [Ww]orkspaces
 [Yy]eoman
+Fabrice
+Rolfe
+Yana
 \.NET
 adoc
 Antora
@@ -101,7 +106,6 @@ PostgreSQL
 preconfigured
 Quarkus
 readonly
-repo
 rollout
 rollouts
 runtime

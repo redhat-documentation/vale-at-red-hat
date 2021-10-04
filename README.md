@@ -1,6 +1,6 @@
 # studious-fortnight
 
-This repo helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
+This repository helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
 
 ## What does using Vale look like?
 
@@ -19,7 +19,7 @@ The resulting command output gives you a list of suggestions, warnings, and erro
                       are&apos; with the word usage                            
                       guidelines.                                         
  244:38   <font color="#C4A000">warning</font>     Consider using &apos;available&apos;      CheDocs.CommonTerms
-                      instead of &apos;present&apos;</pre>
+                      rather than &apos;present&apos;</pre>
 
 
 Understanding the `vale` command output example:
@@ -29,26 +29,26 @@ Understanding the `vale` command output example:
 * The third column is the style prompt: `Verify your use of 'there are'`
 * The fourth column is the source of the rule, such as `IBM.Usage`
 
-As a writer, you review output, decide which issues are valid, and update your contents accordingly.
+As a writer, you review output, decide which issues are valid, and update your content accordingly.
 
-What if the command output from Vale is wrong? For example, what if the word `rebalancing` appears in Red Hat's products (it does) and it's also dictionary word? Why is it showing up as an error?
+What if the command output from Vale is wrong? For example, what if the word `rebalancing` appears in Red Hat's products (it does) and it's also a dictionary word? Why is it showing up as an error?
 
-Good question. It's probably missing from the Vale.Spelling dictionary. The solution is for one of us to add it the list of allowed words. This brings us to...
+Good question. It is missing from the Vale dictionary. The solution is for one of us to add the missing term to the list of allowed words. More precisely in the `.vale/styles/RedHat/accept.txt` file. See link:https://docs.errata.ai/vale/vocab[Val Vocabularies documentation]  This brings us to:
 
 ## How can you contribute to this project?
 
 ![Open Source Wants You](./images/open-source-wants-you-39-percent.jpg)
 
 You can help by doing any of the following:
-* Use Vale with the style rules from this studious-fornight repo.
+* Use Vale with the style rules from this studious-fornight repository.
 * Report issues and request enhancements.
 * Coding new style rules.
 
 To become a contributor, check out this [contributor's guide](contributors-guide.md)
 
-## What are the important parts of this repo?
+## What are the important parts of this repository?
 
-* The `.vale` directory contains a collection of _styles_, which are collections of rules that are based on the style guides we use at Red Hat. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
+* The `.vale` directory contains a collection of _styles_, which are collections of rules that are based on the style guides used at Red Hat. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
 
 * The `.vale.ini` configuration file that tells Vale where to find the `.vale` directory and other important settings.
 
@@ -60,7 +60,7 @@ To become a contributor, check out this [contributor's guide](contributors-guide
 
   NOTE: On the Vale site, click the tab for your operating system.
 
-1. Use `git clone` to copy this repo, studious-fortnight, to your local machine. For example:
+1. Use `git clone` to copy this repository, studious-fortnight, to your local machine. For example:
 ```
 $ cd ~
 $ git clone git@github.com:rolfedh/studious-fortnight.git
@@ -79,11 +79,11 @@ $ cd openshift-docs
 $ vale modules/<filename>.adoc
 ```
 
-1. Review the vale output and use some of it update your content file.
+1. Review the vale output and use it to update your content file.
 
 1. Re-run the same `vale` command to see the new results.
 
-Caveat: The styles are not perfect and not complete. Don't be discouraged by the output from vale. Simply review the output and choose what's useful to you. We're working on making them better.
+Caveat: The styles are not perfect and not complete. Don't be discouraged by the vale output. Simply review the output and choose what's useful to you. We're working on making them better.
 
 <!-- ## Optional: Eliminating false positives
 
@@ -94,7 +94,7 @@ $ vale modules/cluster-logging-exported*.adoc
 
 2. Review the output for `Vale.Spelling` errors for valid words, such as words that appear in the product.
 
-5. Add those valid words to `~/.vale/styles/Vocab/Che/accept.txt`. -->
+5. Add those valid words to `~/.vale/styles/Vocab/Red-Hat/accept.txt`. -->
 
 ## The benefits of using Vale
 
@@ -111,7 +111,7 @@ How does Vale help you improve your content quality and productivity?
 * A _style_ is a simple directory that contains a collection of rules.
 * A _rule_ is a `.yml` file that defines the issue, the solution, and other information.
 * You can use a style as-is, or you customize the rules it contains to fit your needs.
-* This repo includes
+* This repository includes
 <!-- * A _vocabulary_ is a simple directory that contains a collection of rules about your organization's -->
 
 ## Optional next steps
@@ -129,5 +129,5 @@ How does Vale help you improve your content quality and productivity?
 ## How to get involved, get help, and contribute
 
 * Join the Slack channel, [#vale-at-red-hat](https://coreos.slack.com/archives/C0218RXJK5E), in the CoreOS workspace.
-* To report a bug _in this repo_ or request an enhancement, [create an issue](https://github.com/rolfedh/studious-fortnight/issues).
+* To report a bug _in this repository_ or request an enhancement, [create an issue](https://github.com/rolfedh/studious-fortnight/issues).
 * To show appreciation and support for Joseph Kato's work on Vale, consider [making a donation](https://docs.errata.ai/vale/about#sponsors).

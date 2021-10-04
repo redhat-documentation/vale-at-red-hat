@@ -3,6 +3,6 @@
 WIP
 
 * Improve existing Vale rules to provide fewer false positives.
-* Create new Vale style rules from our style guides.
+* Create new Vale style rules from Red Hat style guides.
 
 ![Open Source Wants you](./images/open-source-wants-you.jpg)
