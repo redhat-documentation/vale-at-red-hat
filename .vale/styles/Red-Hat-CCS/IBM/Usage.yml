@@ -14,7 +14,6 @@ tokens:
 
   - "pop-up (?:help|menu)"
   - "redbook(:s)?"
-  - about
   - above
   - across
   - actionable
@@ -22,7 +21,6 @@ tokens:
   - alpha
   - alphabetic
   - alphabetical
-  - and so on
   - architect
   - architected
   - as well as
@@ -30,7 +28,6 @@ tokens:
   - attach
   - below
   - best-of-breed
-  - between
   - billion
   - bitness
   - black box
@@ -76,7 +73,6 @@ tokens:
   - free
   - freeze
   - fubar
-  - functionality
   - geography
   - green screen
   - guarantee
@@ -143,13 +139,11 @@ tokens:
   - tab
   - text entry field
   - text field
-  - that
   - themselves
   - then
   - there are
   - there is
   - this means
-  - through
   - throw
   - throwable
   - time to value
@@ -162,7 +156,6 @@ tokens:
   - unmount
   - updatable
   - upgrade
-  - using
   - very
   - we
   - whether or not
