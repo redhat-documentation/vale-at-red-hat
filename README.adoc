@@ -33,7 +33,7 @@ Fourth column:: Source of the rule, such as `IBM.Usage`
 As a writer, you review output, decide which issues are valid, and update your content accordingly.
 
 What if the command output from Vale is wrong?::
-For example, the word `rebalancing` appears in Red Hat's products (it does) and it's also a dictionary word? But, using standard Vale configuration, it is showing up as an error.
+For example, the word `rebalancing` appears in Red Hat's products (it does) and it's also a dictionary word? But, with standard Vale configuration, it is showing up as an error.
 It is missing from the Vale default dictionary. To fix the error, add the missing term to the list of allowed words. More precisely in the `.vale/styles/RedHat/accept.txt` file. See link:https://docs.errata.ai/vale/vocab[Vale Vocabularies documentation]  This brings us to:
 
 ## Contributing to this project
@@ -43,14 +43,20 @@ image::images/open-source-wants-you-39-percent.jpg[Open Source Wants You]
 You can help by doing any of the following:
 * Use Vale with the style rules from this studious-fortnight repository.
 * Report issues and request enhancements.
-* Coding new style rules.
+* Authoring style rules.
 
 To become a contributor, see the xref:contributors-guide.md[contributor's guide].
+
+## Vale styles and rules
+
+Rule:: A `.yml` file defining a language issue, a proposed solution, and other information.
+Style:: A directory containing a collection of rules.
+Vocabulary:: A directory containing lists of accepted and rejected words, applying to all styles.
 
 ## Important parts of this repository
 
 The `.vale` directory:: 
-Contains a collection of _styles_, which are collections of rules that are based on the style guides used at Red Hat. Members of _Eclipse Che documentation project_ team have been refining and using these styles for over a year.
+Contains a collection of Styles and Vocabularies.
 
 The `.vale.ini` configuration file:: 
 Tells Vale where to find the `.vale` directory and other important settings.
@@ -118,12 +124,6 @@ How does Vale help you improve your content quality and productivity?
 * It makes content more consistent.
 * It makes content easier to localize.
 * It makes content easier for users to understand.
-
-## Vale styles and rules
-
-Style:: A directory containing a collection of rules.
-Rule:: A `.yml` file defining the issue, the solution, and other information.
-Vocabulary:: A directory containing lists of accepted and rejected words, applying to all styles.
 
 ## Optional next steps
 
