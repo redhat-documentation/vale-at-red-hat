@@ -1,0 +1,144 @@
+# Studious-fortnight repository
+
+This repository helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
+
+## Understanding `vale` usage
+
+As a technical writer, you typically run `vale` on the command-line against a content file:
+
+----
+$ cd openshift-docs/logging/troubleshooting/
+$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc
+----
+
+The resulting command output gives you a list of suggestions, warnings, and errors based on customizable styles and vocabularies.
+
+++++
+<pre> 238:27   <font color="#CC0000">error</font>       Did you really mean             Vale.Spelling       
+                      &apos;rebalancing&apos;?                                      
+ 244:6    <font color="#3465A4">suggestion</font>  Verify your use of &apos;there       IBM.Usage           
+                      are&apos; with the word usage                            
+                      guidelines.                                         
+ 244:38   <font color="#C4A000">warning</font>     Consider using &apos;available&apos;      CheDocs.CommonTerms
+                      rather than &apos;present&apos;</pre>
+++++
+
+Understanding the `vale` command output example:
+
+First column:: The line and character number of the issue, such as `244:6`.
+Second column:: The type of issue, such as `error`, `suggestion`, or `warning`.
+Third column:: The style prompt: `Verify your use of 'there are'`
+Fourth column:: Source of the rule, such as `IBM.Usage`
+
+As a writer, you review output, decide which issues are valid, and update your content accordingly.
+
+What if the command output from Vale is wrong?::
+For example, the word `rebalancing` appears in Red Hat's products (it does) and it's also a dictionary word? But, with standard Vale configuration, it is showing up as an error.
+It is missing from the Vale default dictionary. To fix the error, add the missing term to the list of allowed words. More precisely in the `.vale/styles/RedHat/accept.txt` file. See link:https://docs.errata.ai/vale/vocab[Vale Vocabularies documentation]  This brings us to:
+
+## Contributing to this project
+
+image::images/open-source-wants-you-39-percent.jpg[Open Source Wants You]
+
+You can help by doing any of the following:
+* Use Vale with the style rules from this studious-fortnight repository.
+* Report issues and request enhancements.
+* Authoring style rules.
+
+To become a contributor, see the xref:contributors-guide.md[contributor's guide].
+
+## Vale styles and rules
+
+Rule:: A `.yml` file defining a language issue, a proposed solution, and other information.
+Style:: A directory containing a collection of rules.
+Vocabulary:: A directory containing lists of accepted and rejected words, applying to all styles.
+
+## Important parts of this repository
+
+The `.vale` directory:: 
+Contains a collection of Styles and Vocabularies.
+
+The `.vale.ini` configuration file:: 
+Tells Vale where to find the `.vale` directory and other important settings.
+
+## Getting started with vale
+
+. Install the Vale command-line tool on your workstation. See link:https://docs.errata.ai/vale/install[Installing Vale].
++
+NOTE: On the Vale site, click the tab for your operating system.
+
+. Use `git clone` to copy this repository, studious-fortnight, to your local environment. 
++
+----
+$ git clone git@github.com:rolfedh/studious-fortnight.git
+----
+
+. Add vale configuration to your `$HOME` directory to use vale with the configuration in this repository on any project in your local environment. Add a symbolic link to the `.vale` directory and the `.vale.ini` file.
++
+----
+$ cd studious-fortnight
+$ ln -s .vale.ini $HOME/
+$ ln -s .vale $HOME/
+----
+
+. Add the vale configuration to the project to add project-specific rules, or simplify vale usage by anyone in a project, including continuous integration. Copy the `.vale.ini` file and `.vale` directory from the `studious-fortnight` directory to the `__<project_directory>__` directory containing your documentation project.
++
+[]
+----
+$ cd studious-fortnight
+$ cp -r .vale* __<project_directory>__/
+----
+
+. Run the `vale` command on one of your content files.
++
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+. Review the vale output and use it to update your content file.
+
+. Re-run the same `vale` command to see the updated results.
++
+WARNING: The styles are not perfect and not complete. Don't be discouraged by the vale output. Review the output and decide what is useful to you, given the maturity of your project. Embracing a linter in a project is a long journey.
+
+////
+## Optional: Eliminating false positives
+
+. Run the `vale` command on multiple content files by using a wildcard character `*`. For example:
+----
+$ vale modules/cluster-logging-exported*.adoc
+----
+
+2. Review the output for `Vale.Spelling` errors for valid words, such as words that appear in the product.
+
+5. Add those valid words to `~/.vale/styles/Vocab/Red-Hat/accept.txt`.
+////
+
+## The benefits of using `vale`
+
+How does Vale help you improve your content quality and productivity?
+
+* It helps you fix style issues right away before you create a PR.
+* It improves peer reviews.
+* It makes content more consistent.
+* It makes content easier to localize.
+* It makes content easier for users to understand.
+
+## Optional next steps
+
+* link:https://code.visualstudio.com/docs/?dv=linux64_rpm[Install VisualStudio Code] and the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Vale extension for VisualStudio Code].
+* link:https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service[Add Vale to your docs continuous integration (CI) service].
+* link:https://github.com/errata-ai/vale-action[Add Vale to your GitHub actions].
+
+## Related topics
+
+* xref:troubleshooting-common-errors.md[Troubleshooting common errors]
+* xref:vale-at-red-hat-blog.md[Blog posts for Studious-Fortnight]
+* xref:https://rolfe.blog/category/vale/[Rolfe's "Vale notes" blog posts]
+
+## How to get involved, get help, and contribute
+
+* Join the Slack channel, link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+* To report a bug _in this repository_ or request an enhancement, link:https://github.com/rolfedh/studious-fortnight/issues[create an issue].
+* To show appreciation and support for Joseph Kato's work on Vale, consider link:https://docs.errata.ai/vale/about#sponsors[making a donation].

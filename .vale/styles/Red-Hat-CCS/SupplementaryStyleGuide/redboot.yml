@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    Redboot|Red Boot|red : RedBoot
+  Redboot|Red Boot: RedBoot
