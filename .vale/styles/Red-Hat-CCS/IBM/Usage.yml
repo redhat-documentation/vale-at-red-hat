@@ -1,7 +1,7 @@
 ---
 extends: existence
 message: "Verify your use of '%s' with the word usage guidelines."
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist'
+link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
 ignorecase: true
 level: warning
 tokens:
@@ -12,8 +12,8 @@ tokens:
   # - neither ... nor
   # - if...then
 
-  - 'pop-up (?:help|menu)'
-  - 'redbook(:s)?'
+  - "pop-up (?:help|menu)"
+  - "redbook(:s)?"
   - about
   - above
   - across
@@ -25,7 +25,6 @@ tokens:
   - and so on
   - architect
   - architected
-  - as
   - as well as
   - assembler
   - attach
@@ -169,6 +168,5 @@ tokens:
   - we
   - where
   - whether or not
-  - which
   - while
   - would
