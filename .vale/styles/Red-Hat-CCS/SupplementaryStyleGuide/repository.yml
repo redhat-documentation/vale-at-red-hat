@@ -2,9 +2,9 @@ extends: substitution
 message: "Use '%s' instead of '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#repository
 ignorecase: true
-level: error
+level: suggestion
 action:
   name: replace
 source: Red Hat
 swap:
-    channel : repository
+  channel: repository

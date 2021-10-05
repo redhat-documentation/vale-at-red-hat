@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    software collection|collection|Software collection|Collection : Software Collection
+  software collection|Software collection: Software Collection
