@@ -2,7 +2,7 @@
 extends: substitution
 ignorecase: true
 level: error
-message: Use the attribute %s instead of '%s'.
+message: Use the attribute %s rather than '%s'.
 scope: sentence
 # scope: raw
 # swap maps tokens in form of bad: good

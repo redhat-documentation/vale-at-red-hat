@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use '%s' instead of '%s'."
+message: "Use '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#repository
 ignorecase: true
 level: suggestion

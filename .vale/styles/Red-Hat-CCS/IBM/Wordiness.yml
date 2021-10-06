@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: Consider using '%s' instead of '%s'
+message: Consider using '%s' rather than '%s'
 ignorecase: true
 level: warning
 source: PlainLanguage
@@ -73,7 +73,7 @@ swap:
   in a timely manner: timely
   in an effort to: to
   in between: between
-  in lieu of: instead of
+  in lieu of: rather than
   in many cases: often
   in most cases: usually
   in order to: to

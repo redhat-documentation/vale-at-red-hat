@@ -2,7 +2,7 @@
 extends: substitution
 ignorecase: false
 level: error
-message: Use '%s' instead of '%s'
+message: Use '%s' rather than '%s'
 scope: sentence
 swap:
   '\sContainer Registry': Red Hat Ecosystem Catalog

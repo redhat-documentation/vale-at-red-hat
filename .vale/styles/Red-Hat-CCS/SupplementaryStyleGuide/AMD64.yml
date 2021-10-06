@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use '%s' instead of '%s'."
+message: "Use '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#AMD64
 ignorecase: true
 level: error
@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    Hammer|x86_64|x86-64|x64|64-bit x86 : AMD64
+  Hammer|x86_64|x86-64|x64|64-bit x86: AMD64

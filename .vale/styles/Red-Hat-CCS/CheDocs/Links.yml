@@ -2,7 +2,7 @@
 extends: substitution
 ignorecase: true
 level: error
-message: Use '%s' instead of '%s.'
+message: Use '%s' rather than '%s.'
 swap:
   \slink\:https\://www.eclipse.org\S*\s: link:{site-baseurl}che-7/
   \shttps\://www.eclipse.org\S*\s: link:{site-baseurl}che-7/

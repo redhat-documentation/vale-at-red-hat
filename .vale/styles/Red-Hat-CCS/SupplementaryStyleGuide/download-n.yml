@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use '%s' instead of '%s'."
+message: "Use '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#download-n
 ignorecase: true
 level: error
@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    down-load|down load : download
+  down-load|down load: download

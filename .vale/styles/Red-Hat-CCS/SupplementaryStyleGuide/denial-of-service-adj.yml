@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use '%s' instead of '%s'."
+message: "Use '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#denial-of-service-adj
 ignorecase: true
 level: error
@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-    Denial-of-Service : denial-of-service
+  Denial-of-Service: denial-of-service

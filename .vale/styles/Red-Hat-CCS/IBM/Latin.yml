@@ -1,6 +1,6 @@
 extends: substitution
-message: "Use '%s' instead of '%s'."
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist'
+message: "Use '%s' rather than '%s'."
+link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
 ignorecase: true
 level: error
 nonword: true
