@@ -77,8 +77,8 @@ $ git clone git@github.com:rolfedh/studious-fortnight.git
 +
 ----
 $ cd studious-fortnight
-$ ln -s .vale.ini $HOME/
-$ ln -s .vale $HOME/
+$ ln -s "${PWD}/.vale.ini" $HOME/
+$ ln -s "${PWD}/.vale" $HOME/
 ----
 
 . Add the vale configuration to the project to add project-specific rules, or simplify vale usage by anyone in a project, including continuous integration. Copy the `.vale.ini` file and `.vale` directory from the `studious-fortnight` directory to the `__<project_directory>__` directory containing your documentation project.
@@ -142,3 +142,4 @@ How does Vale help you improve your content quality and productivity?
 * Join the Slack channel, link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
 * To report a bug _in this repository_ or request an enhancement, link:https://github.com/rolfedh/studious-fortnight/issues[create an issue].
 * To show appreciation and support for Joseph Kato's work on Vale, consider link:https://docs.errata.ai/vale/about#sponsors[making a donation].
+
