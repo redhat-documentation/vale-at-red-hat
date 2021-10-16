@@ -1,0 +1,17 @@
+// Metadata for Antora
+:navtitle: Extending the vocabulary
+:keywords: contributing, vocabulary
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-extending-the-vocabulary: {context}
+
+[id="extending-the-vocabulary_{context}"]
+= Extending the vocabulary
+
+:context: extending-the-vocabulary
+
+include::partial$proc_extending-the-vocabulary.adoc[leveloffset=+1]
+
+:context: {parent-context-of-extending-the-vocabulary}
+

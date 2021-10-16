@@ -1,0 +1,21 @@
+// Metadata for Antora
+:navtitle: Introduction
+:keywords: introduction, antora
+// :page-aliases: old-introduction
+// End of metadata for Antora
+
+:parent-context-of-introduction: {context}
+
+[id="introduction_{context}"]
+= Introduction
+
+:context: introduction
+
+
+include::partial$con_the-benefits-of-using-vale.adoc[leveloffset=+1]
+
+include::partial$con_glossary.adoc[leveloffset=+1]
+
+
+:context: {parent-context-of-introduction}]
+

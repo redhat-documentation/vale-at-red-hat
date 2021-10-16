@@ -1,0 +1,17 @@
+---
+# Antora component version descriptor.
+name: __<docs>__ # <1>
+title: __<Component Title>__ # <2>
+version: __<master>__ # <3>
+display_version: __<Stable version>__ # <4>
+start_page: __<end-user-guide:introduction.adoc>__ # <5>
+nav:
+  - __<modules/end-user-guide/nav.adoc>__ # <6>
+asciidoc:
+  attributes:
+    # for antora
+    experimental: ""
+    favicon: favicon.png
+    icons: font
+    # for the project
+    context: __<docs>__ # <7>

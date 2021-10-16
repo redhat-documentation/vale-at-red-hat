@@ -1,0 +1,41 @@
+---
+#
+# Antora Playbook for publication.
+#
+# Use this playbook to build the released version branch.
+#
+# See: https://docs.antora.org/antora/2.3/playbook/
+#
+# Copyright (c) 2021 Red Hat, Inc.
+# This program and the accompanying materials are made
+# available under the terms of the Eclipse Public License 2.0
+# which is available at https://www.eclipse.org/legal/epl-2.0/
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+site:
+  title: Vale for Red Hat documentation writers
+  # The url property is mandatory to generate the 404 and sitemap files.
+  url: https://rolfedh.github.io/studious-fortnight
+  start_page: docs::index.adoc
+  # keys:
+  #   google_analytics: "PLACEHOLDER"
+  robots: allow
+content:
+  sources:
+    - url: ./
+      branches:
+        - main
+      edit_url: "https://github.com/rolfedh/studious-fortnight/edit/main/{path}"
+output:
+  clean: true
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+urls:
+  html_extension_style: indexify
+  redirect_facility: static
+runtime:
+  cache_dir: ./.cache/antora

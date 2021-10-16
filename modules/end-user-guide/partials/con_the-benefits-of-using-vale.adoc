@@ -1,0 +1,19 @@
+:_module-type: CONCEPT
+
+[id="con_the-benefits-of-using-vale_{context}"]
+= The benefits of using vale
+
+How does Vale help you improve your content quality and productivity?
+
+* It helps you fix style issues right away before you create a PR.
+* It improves peer reviews.
+* It makes content more consistent.
+* It makes content easier to localize.
+* It makes content easier for users to understand.
+
+.Additional resources
+
+* xref:getting-started-with-vale.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+* xref:contributing.adoc[]
+

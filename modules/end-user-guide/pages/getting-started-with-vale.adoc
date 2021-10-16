@@ -1,0 +1,18 @@
+// Metadata for Antora
+:navtitle: Getting started
+:keywords: vale
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-assembly_getting-started-with-vale: {context}
+
+[id="assembly_getting-started-with-vale_{context}"]
+= Getting started with vale
+
+:context: assembly_getting-started-with-vale
+
+
+include::partial$proc_using-vale-on-a-local-environment.adoc[leveloffset=+1]
+
+
+:context: {parent-context-of-assembly_getting-started-with-vale}

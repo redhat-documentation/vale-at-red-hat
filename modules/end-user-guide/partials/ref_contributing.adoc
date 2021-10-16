@@ -1,0 +1,22 @@
+:_module-type: REFERENCE
+
+[id="ref_contributing_{context}"]
+= Contributing
+
+
+You can help by doing any of the following:
+
+* Use Vale with the style rules from the {repository-name} repository, see xref:getting-started-with-vale.adoc[]
+
+* link:{repository-url}/issues[Report issues and request enhancements]
+
+* Join the Slack channel, link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+
+* xref:extending-the-vocabulary.adoc[]
+
+* xref:extending-styles.adoc[]
+
+* To show appreciation and support for Joseph Kato's work on Vale, consider link:https://docs.errata.ai/vale/about#sponsors[making a donation].
+
+image::open-source-wants-you.jpg[Open Source wants you]
+

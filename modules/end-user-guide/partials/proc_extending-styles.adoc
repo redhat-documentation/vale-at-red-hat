@@ -1,0 +1,40 @@
+:_module-type: PROCEDURE
+
+[id="proc_extending-styles_{context}"]
+= Extending styles
+
+Consider extending styles when:
+
+* A necessary rule is missing.
+* The current rule generates false positives with severity `error` or `warning`. The severity `suggestion` intentionally appear when the context is unsure: don't consider these occurrences as false positives.
+* The rule message is inaccurate or misleading.
+
+
+Consider the best approach:
+
+* Extending styles in the common repository
+* Extending style specific to the project
+
+.Prerequisites
+
+* xref:getting-started-with-vale.adoc[]
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+.Procedure
+
+* Edit the `.vale/styles/Red-Hat-CCS/` file and add the missing word. 
+
+.Verification
+
+* Run the `vale` command on a content file containing the word triggering the edited rule.
++
+[subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+.Additional resources
+
+* link:https://docs.errata.ai/vale/styles[Vale documentation - Styles]
