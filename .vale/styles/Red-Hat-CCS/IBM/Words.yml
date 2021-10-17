@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: Use '%s' instead of '%s.'
+message: Use '%s' rather than '%s.'
 level: error
 ignorecase: true
 source: PlainLanguage

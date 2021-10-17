@@ -1,25 +1,25 @@
 ---
 extends: substitution
-message: Consider using '%s' instead of '%s'
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist'
+message: Consider using '%s' rather than '%s'
+link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
 level: error
 ignorecase: true
 action:
   name: replace
 # swap maps tokens in form of bad: good
 swap:
-  '(?:Ctrl|control)-click': press Ctrl and click
-  'a lot(?: of)?': many|much
-  'backward(?:-)?compatible': compatible with earlier versions
-  'bottom(?:-)?left': lower left|lower-left
-  'bottom(?:-)?right': lower right|lower-right
-  'down(?:-)?level': earlier|previous|not at the latest level
-  'mash(?: )?up': create
-  'pop-up (?:blocker|killer)': software to block pop-up ad windows
-  're(?:-)?occur': recur
-  'sort(?:-|/)?merge': sort|merge
-  'top(?:-)?left': upper left|upper right|upper-left|upper-right
-  'top(?:-)?right': upper left|upper right|upper-left|upper-right
+  "(?:Ctrl|control)-click": press Ctrl and click
+  "a lot(?: of)?": many|much
+  "backward(?:-)?compatible": compatible with earlier versions
+  "bottom(?:-)?left": lower left|lower-left
+  "bottom(?:-)?right": lower right|lower-right
+  "down(?:-)?level": earlier|previous|not at the latest level
+  "mash(?: )?up": create
+  "pop-up (?:blocker|killer)": software to block pop-up ad windows
+  "re(?:-)?occur": recur
+  "sort(?:-|/)?merge": sort|merge
+  "top(?:-)?left": upper left|upper right|upper-left|upper-right
+  "top(?:-)?right": upper left|upper right|upper-left|upper-right
 
   # These need to be implemented in a separate file since they include word
   # boundaries ('.').

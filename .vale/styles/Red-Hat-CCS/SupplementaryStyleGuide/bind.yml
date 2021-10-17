@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use '%s' instead of '%s' when referring to the DNS software."
+message: "Use '%s' rather than '%s' when referring to the DNS software."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#bind
 ignorecase: true
 level: suggestion

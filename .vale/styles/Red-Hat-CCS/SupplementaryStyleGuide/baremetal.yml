@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-  baremetal: "bare metal' (noun) or 'bare-metal' (adjective)"
+  baremetal|bare-metal: bare metal
