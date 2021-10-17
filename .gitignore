@@ -11,3 +11,5 @@ pkg/
 /rdoc/
 /shippable/
 workspace.code-workspace
+.cache/
+build/

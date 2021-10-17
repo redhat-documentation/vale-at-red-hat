@@ -1,0 +1,17 @@
+// Metadata for Antora
+:navtitle: Contributing
+:keywords: contributing
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-contributing: {context}
+
+[id="contributing_{context}"]
+= Contributing
+
+:context: contributing
+
+include::partial$ref_contributing.adoc[leveloffset=+1]
+
+:context: {parent-context-of-contributing}
+

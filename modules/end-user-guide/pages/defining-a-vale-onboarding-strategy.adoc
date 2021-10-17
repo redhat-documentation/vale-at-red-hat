@@ -1,0 +1,17 @@
+// Metadata for Antora
+:navtitle: Onboarding strategy
+:keywords: onnboarding, strategy
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-defining-a-vale-onboarding-strategy: {context}
+
+[id="defining-a-vale-onboarding-strategy_{context}"]
+= Defining a vale onboarding strategy
+
+:context: defining-a-vale-onboarding-strategy
+
+include::partial$ref_defining-a-vale-onboarding-strategy.adoc[leveloffset=+1]
+
+:context: {parent-context-of-defining-a-vale-onboarding-strategy}
+

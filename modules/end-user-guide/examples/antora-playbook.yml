@@ -1,0 +1,32 @@
+---
+# Use this Antora Playbook for publication, to build the released version branch.
+site:
+  title: __<Component Name Documentation>__ <1>
+  # The url property is mandatory to generate the 404 and sitemap files.
+  url: __<https://project.tld>__ <2>
+  start_page: __<docs>__::index.adoc <3>
+  keys:
+    google_analytics: "__<google_analytics_key>__" <4>
+  robots: allow
+content:
+  sources:
+    - url: ./
+      branches: 
+        - stable <5>
+        - main <5>
+      edit_url: "__<git_repository_URL>__/edit/main/\{path}" <6>
+output:
+  destinations:
+    - provider: fs
+      clean: true
+      path: build/site
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+urls:
+  html_extension_style: indexify
+  redirect_facility: static
+runtime:
+  cache_dir: ./.cache/antora

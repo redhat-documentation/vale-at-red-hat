@@ -1,0 +1,18 @@
+// Metadata for Antora
+:navtitle: Understanding output
+:keywords: understanding, output
+// :page-aliases: 
+// End of metadata for Antor
+
+:parent-context-of-understanding-vale-output: {context}
+
+[id="understanding-vale-output_{context}"]
+
+= Understanding vale output
+
+:context: understanding-vale-output
+
+
+include::partial$con_understanding-vale-output.adoc[leveloffest=+1]
+
+:context: {parent-context-of-understanding-vale-output}

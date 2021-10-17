@@ -1,0 +1,31 @@
+---
+#
+# Antora component version descriptor.
+#
+# See: https://docs.antora.org/antora/2.3/component-version-descriptor/
+#
+# Copyright (c) 2021 Red Hat, Inc.
+# This program and the accompanying materials are made
+# available under the terms of the Eclipse Public License 2.0
+# which is available at https://www.eclipse.org/legal/epl-2.0/
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+name: docs
+title: Vale for Red Hat documentation writers
+version: master # Define a Component Version with No Version
+display_version: main
+start_page: end-user-guide:introduction.adoc
+nav:
+  - modules/end-user-guide/nav.adoc
+asciidoc:
+  attributes:
+    # for antora
+    experimental: ""
+    favicon: favicon.png
+    icons: font
+    # for the project
+    context: docs
+    repository-name: studious-fortnight
+    repository-url: https://github.com/rolfedh/studious-fortnight
+    repository-clone-url: git@github.com:rolfedh/studious-fortnight.git

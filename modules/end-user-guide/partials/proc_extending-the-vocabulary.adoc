@@ -1,0 +1,46 @@
+:_module-type: PROCEDURE
+
+[id="proc_extending-the-vocabulary_{context}"]
+= Extending the vocabulary
+
+Consider extending the vocabulary when missing words in the Vale dictionary are causing *Spelling* errors. It happens frequently with product and tool names.
+
+Consider the best approach:
+
+* Extending the vocabulary in the common repository
+* Extending the vocabulary specific to the project
+
+
+.Prerequisites
+
+* xref:getting-started-with-vale.adoc[]
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+
+.Procedure
+
+* Edit the `.vale/styles/Red-Hat-CCS/Vocab/RedHat/accept.txt` file and add the missing word. Ensure the entry is not case-sensitive.
++
+.Entry in the vocabulary, not case-sensitive
+====
+----
+[Pp]odman
+----
+====
+
+
+.Verification
+
+* Run the `vale` command on a content file containing the word which was missing.
++
+[subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+.Additional resources
+
+* link:https://docs.errata.ai/vale/vocab[Vale documentation - Vocabularies]
+

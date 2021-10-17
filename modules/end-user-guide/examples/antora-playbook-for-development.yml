@@ -1,0 +1,28 @@
+---
+# Antora Playbook for development.
+# Use it to build uncommitted changes.
+#
+site:
+  title: __<Component Name Documentation>__ <1>
+  # url: Disabled on purpose to avoid htmltest crawling the live website.
+  start_page: __<docs>__::index.adoc <2>
+  robots: allow
+content:
+  sources:
+    - url: ./
+      branches: HEAD
+output:
+  destinations:
+    - provider: fs
+      clean: true
+      path: build/site
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+urls:
+  html_extension_style: indexify
+  redirect_facility: static
+runtime:
+  cache_dir: ./.cache/antora

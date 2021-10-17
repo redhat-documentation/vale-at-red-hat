@@ -1,0 +1,29 @@
+:_module-type: CONCEPT
+
+[id="con_glossary_{context}"]
+= Glossary
+
+== Vale concepts
+
+`vale`::
+The Vale command-line tool.
+
+Rule::
+A YAML file defining a language issue, a proposed solution, and a link to more information.
+
+Style::
+A directory containing a collection of rules.
+
+Vocabulary::
+A directory containing lists of accepted and rejected words, applying to all styles. See xref:extending-the-vocabulary.adoc[].
+
+== Vale configuration files
+
+`.vale` directory:: 
+Contains a collection of Styles and Vocabularies.
+
+`.vale.ini` configuration file:: 
+Tells Vale where to find the `.vale` directory and other important settings.
+
+
+
