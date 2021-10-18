@@ -19,3 +19,4 @@ ExternalTimeout: 60 # (seconds) default is 15.
 IgnoreURLs:
   - https://cse.google.com/cse.js
   - https://github.com/rolfedh/studious-fortnight
+  - https://marketplace.visualstudio.com

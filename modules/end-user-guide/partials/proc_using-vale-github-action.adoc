@@ -1,0 +1,40 @@
+:_module-type: PROCEDURE
+
+[id="proc_using-vale-github-action_{context}"]
+= Using vale GitHub Action
+
+Consider using vale GitHub Action when your repository is hosted on GitHub, to measure or enforce the project compliance with the Style Guides.
+
+.Prerequisites
+
+* xref:getting-started-with-vale.adoc[]
+* xref:adding-vale-configuration-to-a-project.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+.Procedure
+
+* Add a `.github/workflows/vale.yml` file to your repository with following content:
++
+[source,yaml]
+----
+name: Linting with Vale
+on: [push]
+
+jobs:
+  prose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Vale Linter
+        uses: errata-ai/vale-action@v1.4.0
+        with:
+          files: __onlyModified
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+----
+
+.Additional resources
+
+* link:https://github.com/errata-ai/vale-action[Vale GitHub action].
