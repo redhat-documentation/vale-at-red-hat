@@ -2,42 +2,10 @@
 
 This repository helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
 
-## Understanding `vale` usage
+* See the documentation: link:https://rolfedh.github.io/studious-fortnight/[Vale for Red Hat documentation writers]
 
-* See: link:https://rolfedh.github.io/studious-fortnight/docs/end-user-guide/introduction/[]
-
-
-## Contributing to this project
-
-image::images/open-source-wants-you-39-percent.jpg[Open Source Wants You]
-
-You can help by doing any of the following:
-* Use Vale with the style rules from this studious-fortnight repository.
-* Report issues and request enhancements.
-* Authoring style rules.
-
-To become a contributor, see xref:CONTRIBUTING.adoc[].
-
-
-## Getting started with vale
-
-* See: link:https://rolfedh.github.io/studious-fortnight/docs/end-user-guide/getting-started-with-vale/[]
-
-
-## Optional next steps
-
-* link:https://code.visualstudio.com/docs/?dv=linux64_rpm[Install VisualStudio Code] and the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Vale extension for VisualStudio Code].
-* link:https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service[Add Vale to your docs continuous integration (CI) service].
-* link:https://github.com/errata-ai/vale-action[Add Vale to your GitHub actions].
-
-## Related topics
+.Additional resources
 
 * xref:troubleshooting-common-errors.md[Troubleshooting common errors]
 * xref:vale-at-red-hat-blog.md[Blog posts for Studious-Fortnight]
 * xref:https://rolfe.blog/category/vale/[Rolfe's "Vale notes" blog posts]
-
-## How to get involved, get help, and contribute
-
-* Join the Slack channel, link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
-* To report a bug _in this repository_ or request an enhancement, link:https://github.com/rolfedh/studious-fortnight/issues[create an issue].
-* To show appreciation and support for Joseph Kato's work on Vale, consider link:https://docs.errata.ai/vale/about#sponsors[making a donation].

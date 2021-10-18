@@ -1,0 +1,16 @@
+name: Linting with Vale
+on: [push]
+
+jobs:
+  prose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Vale Linter
+        uses: errata-ai/vale-action@v1.4.0
+        with:
+          files: __onlyModified
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

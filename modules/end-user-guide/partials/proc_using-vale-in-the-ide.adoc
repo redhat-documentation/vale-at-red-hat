@@ -1,0 +1,36 @@
+:_module-type: PROCEDURE
+
+[id="proc_using-vale-on-a-local-environment_{context}"]
+= Using vale in the IDE
+
+To use vale in the IDE, install the Vale extension for VisualStudio Code. The extension for the Atom IDE is deprecated.
+
+.Prerequisites
+
+* xref:getting-started-with-vale.adoc[]
+
+.Procedure
+
+. Install link:https://code.visualstudio.com/docs/setup/setup-overview[Visual Studio Code].
+
+. Install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale ].
+
+. Configure the extension to use Vale CLI instead of Vale Server.
++
+[source,json]
+----
+"vale.core.useCLI": true
+----
+
+
+.Verification
+
+. Open a content file causing vale alerts.
+
+. Open the *Problems* view and search for vale alerts in it.
+
+.Additional resources
+
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
