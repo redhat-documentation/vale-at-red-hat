@@ -1,8 +1,0 @@
----
-extends: substitution
-ignorecase: false
-level: warning
-message: Consider using '%s' rather than '%s'
-swap:
-  '\s[^n] binary': tool
-  '\sis installed': is available

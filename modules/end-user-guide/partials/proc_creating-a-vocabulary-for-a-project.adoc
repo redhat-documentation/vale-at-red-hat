@@ -1,0 +1,44 @@
+:_module-type: PROCEDURE
+
+[id="proc_creating-a-vocabulary-for-a-project_{context}"]
+= Creating a vocabulary for a project
+
+Consider adding a *Vocabulary* to your project when missing words in the Vale dictionary are causing *Spelling* errors and the word is too specific to benefit to other projects.
+
+.Prerequisites
+
+* xref:getting-started-with-vale.adoc[]
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+.Procedure
+
+* Create or edit the Vocabulary for your project: create or edit the `.vale/styles/Vocab/__<Project>__/accept.txt` file and add the missing word. Ensure the entry is not case-sensitive.
++
+.Entry in the vocabulary, not case-sensitive
+----
+[Pp]odman
+----
+
+
+* Register the Vocabulary in the `.vale.ini` file
++
+[source,ini,subs="+quotes,+attributes,+macros"]
+----
+Vocab = __<Project>__
+----
+
+.Verification
+
+* Run the `vale` command on a content file containing the word which was missing.
++
+[subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+.Additional resources
+
+* link:https://docs.errata.ai/vale/vocab[Vale documentation - Vocabularies]
+

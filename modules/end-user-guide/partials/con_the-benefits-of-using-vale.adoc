@@ -5,11 +5,20 @@
 
 How does Vale help you improve your content quality and productivity?
 
-* It helps you fix style issues right away before you create a PR.
-* It improves peer reviews.
-* It makes content more consistent.
-* It makes content easier to localize.
-* It makes content easier for users to understand.
+* It helps you fix style issues right away before you create a PR
+* It improves peer reviews
+* It makes content more consistent
+* It makes content easier to localize
+* It makes content easier for users to understand
+
+The link:{repository-url}[{repository-name} repository] contains: 
+
+* The *RedHat* Vale style, containing language rules suitable for documentation in Open Source projects and mandatory for Red Hat products
+* The associated Vale configuration file
+* Documentation to start using Vale
+* Guidelines to define a Vale onboarding strategy in a project
+* Guidelines to contribute to the *RedHat* Style
+* Guidelines to create a project specific Style or Vocabulary
 
 .Additional resources
 

@@ -3,7 +3,7 @@
 [id="proc_using-vale-on-a-local-environment_{context}"]
 = Using vale in the IDE
 
-To use vale in the IDE, install the Vale extension for VisualStudio Code. The extension for the Atom IDE is deprecated.
+To use vale in the IDE, install the Vale extension for Visual Studio Code. The extension for the Atom IDE is deprecated.
 
 .Prerequisites
 
@@ -15,7 +15,7 @@ To use vale in the IDE, install the Vale extension for VisualStudio Code. The ex
 
 . Install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale ].
 
-. Configure the extension to use Vale CLI instead of Vale Server.
+. Configure the extension to use Vale CLI rather than Vale Server.
 +
 [source,json]
 ----
