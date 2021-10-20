@@ -1,0 +1,63 @@
+:_module-type: PROCEDURE
+
+[id="proc_extending-the-spelling-rule_{context}"]
+= Extending the *Spelling* rule
+
+Consider extending the *Spelling* rule in the link:{repository-url}[{repository-name} repository] when missing words in the Vale dictionary are causing *Spelling* errors and the fix could benefit to other projects. For example: product and tool names, common terms specific to the software industry.
+
+.Prerequisites
+
+* xref:getting-started-with-vale.adoc[]
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+
+.Procedure
+
+. Edit the `.vale/styles/RedHat/Spelling.yml` file and add the missing word. Ensure the entry is valid regular expression.
++
+.Excerpt of the *Spelling* rule
+[source,yaml]
+----
+extends: spelling
+message: "Did you really mean '%s'?"
+level: error
+# A "filter" is a case-sensitive regular expression specifying words
+# to ignore during spell checking.
+filters:
+  - '\.NET'
+  - 'Dev Workspace'
+  - 'I/O'
+  - "[dD]evfile"
+  - "[sS]harding"
+  - "Let\'s Encrypt"
+  - adoc
+  - Ansible
+  - Antora
+  - API
+  - AsciiDoc
+----
+
+. Edit the `.vale/fixtures/RedHat/Spelling/testvalid.adoc` file and add the missing word in a new line.
+
+. Optionally, edit the `.vale/fixtures/RedHat/Spelling/testinvalid.adoc` file and add an undesired form of the missing word in a new line.
+
+.Verification
+
+. Run the `vale` command on a content file containing the word which was missing.
++
+[subs="+quotes,+attributes"]
+----
+$ cd .vale/fixtures/RedHat/Spelling/
+$ vale .
+----
+
+. Vale should:
++
+* Report no error for the new term in the `testvalid.adoc` file
+* Optionnally, report an error for the new term in the `testinvalid.adoc` file
+
+.Additional resources
+
+* link:https://docs.errata.ai/vale/styles#spelling[Vale documentation - Spelling]
+

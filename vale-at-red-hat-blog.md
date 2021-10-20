@@ -1,5 +1,5 @@
 # Vale at Red Hat Blog
-
+<!-- vale off -->
 ## 21. May, 14:12, Friday
 
 [Rolfe] Here are my updates on studious-fortnight.

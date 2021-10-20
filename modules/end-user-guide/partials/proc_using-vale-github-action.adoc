@@ -5,6 +5,8 @@
 
 Consider using vale GitHub Action when your repository is hosted on GitHub, to measure or enforce the project compliance with the Style Guides.
 
+WARNING: Due to the GitHub token permissions, this Action can not post annotations to PRs from forked repositories.
+
 .Prerequisites
 
 * xref:getting-started-with-vale.adoc[]
@@ -18,8 +20,9 @@ Consider using vale GitHub Action when your repository is hosted on GitHub, to m
 [source,yaml]
 ----
 name: Linting with Vale
-on: [push]
-
+on:
+  - pull_request
+  - push
 jobs:
   prose:
     runs-on: ubuntu-latest
@@ -31,6 +34,8 @@ jobs:
         uses: errata-ai/vale-action@v1.4.0
         with:
           files: __onlyModified
+          styles: https://github.com/rolfedh/studious-fortnight/releases/latest/download/RedHat.zip
+          config: https://raw.githubusercontent.com/rolfedh/studious-fortnight/master/.vale-for-github-action.ini
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
