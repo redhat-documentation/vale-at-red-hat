@@ -27,5 +27,5 @@ asciidoc:
     # for the project
     context: docs
     repository-name: vale-at-red-hat
-    repository-url: https://github.com/vate-at-red-hat/vale-at-red-hat
-    repository-clone-url: git@github.com:vate-at-red-hat/vale-at-red-hat.git
+    repository-url: https://github.com/vale-at-red-hat/vale-at-red-hat
+    repository-clone-url: git@github.com:vale-at-red-hat/vale-at-red-hat.git

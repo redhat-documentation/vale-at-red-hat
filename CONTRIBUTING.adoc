@@ -1,3 +1,3 @@
 # Contributor's guide
 
-* See: link:https://vate-at-red-hat.github.io/vale-at-red-hat/docs/end-user-guide/contributing/[Contributing].
+* See: link:https://vale-at-red-hat.github.io/vale-at-red-hat/docs/end-user-guide/contributing/[Contributing].

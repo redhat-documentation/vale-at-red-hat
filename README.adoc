@@ -2,7 +2,7 @@
 
 This repository helps tech writers at Red Hat get up and running with Vale. It is the starting point for the Vale Community of Practice at Red Hat.
 
-* See the documentation: link:https://vate-at-red-hat.github.io/vale-at-red-hat/[Vale for Red Hat documentation writers]
+* See the documentation: link:https://vale-at-red-hat.github.io/vale-at-red-hat/[Vale for Red Hat documentation writers]
 
 .Additional resources
 
