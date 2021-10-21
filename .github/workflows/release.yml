@@ -12,7 +12,8 @@ jobs:
 
       - name: Create release
         run: |
-          zip -r RedHat.zip .vale/RedHat
-          gh release create v${{GITHUB_RUN_NUMBER}} 'RedHat.zip'
+          cd .vale/styles
+          zip -r RedHat.zip RedHat
+          gh release create "v${{ env.GITHUB_RUN_NUMBER }}" 'RedHat.zip'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

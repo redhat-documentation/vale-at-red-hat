@@ -1,15 +1,17 @@
 # A preliminary .gitignore file borrowed from https://github.com/asciidoctor/asciidoctor/blob/master/.gitignore under MIT License
-pkg/
-/Gemfile.lock
+.cache/
+.DS_Store
+.vale/styles/RedHat.zip
 /.bundle
-/*.gem
-/*.html
 /.idea/
 /.ruby-gemset
 /.ruby-version
 /.yardoc/
+/*.gem
+/*.html
+/build/
+/Gemfile.lock
 /rdoc/
 /shippable/
+pkg/
 workspace.code-workspace
-.cache/
-build/
