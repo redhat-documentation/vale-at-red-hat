@@ -1,11 +1,9 @@
-# Studious-fortnight repository
+# Vale at Red Hat repository
 
 This repository helps tech writers at Red Hat get up and running with Vale. It is the starting point for the Vale Community of Practice at Red Hat.
 
-* See the documentation: link:https://rolfedh.github.io/studious-fortnight/[Vale for Red Hat documentation writers]
+* See the documentation: link:https://vale-at-red-hat.github.io/vale-at-red-hat/[Vale for Red Hat documentation writers]
 
 .Additional resources
 
-* xref:troubleshooting-common-errors.md[Troubleshooting common errors]
-* xref:vale-at-red-hat-blog.md[Blog posts for Studious-Fortnight]
 * xref:https://rolfe.blog/category/vale/[Rolfe's "Vale notes" blog posts]
