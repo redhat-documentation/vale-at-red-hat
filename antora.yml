@@ -29,3 +29,8 @@ asciidoc:
     repository-name: studious-fortnight
     repository-url: https://github.com/rolfedh/studious-fortnight
     repository-clone-url: git@github.com:rolfedh/studious-fortnight.git
+    ibmsg: IBM Style Guide
+    ssg: Red Hat supplementary style guide for product documentation
+    ssg-url: https://redhat-documentation.github.io/supplementary-style-guide/
+    valedict: Custom Vale open-source dictionary for American English.
+    valedict-url: https://github.com/errata-ai/en_US-web

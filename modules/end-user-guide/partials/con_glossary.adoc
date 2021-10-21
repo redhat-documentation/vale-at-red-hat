@@ -6,24 +6,36 @@
 == Vale concepts
 
 `vale`::
-The Vale command-line tool.
+The link:https://docs.errata.ai/vale/about[Vale command-line tool] that brings code-like linting to prose.
 
 Rule::
-A YAML file defining a language issue, a proposed solution, and a link to more information.
+A YAML file defining:
++
+* a language issue, including spelling issues
+* a proposed solution
+* a link to more information.
 
 Style::
-A directory containing a collection of rules.
+A directory containing a collection of rules. You can choose to use a style as distributed by an upstream project, or include a copy in your project.
 
 Vocabulary::
-A directory containing lists of accepted and rejected words, applying to all styles. See xref:extending-the-vocabulary.adoc[].
+A directory in a project, containing lists of accepted and rejected words, applying to all styles. See xref:extending-the-vocabulary.adoc[].
 
 == Vale configuration files
 
-`.vale` directory:: 
-Contains a collection of Styles and Vocabularies.
+Styles directory:: 
+Contains a collection of Styles and Vocabulary. In this repository it is:
++
+----
+.vale/styles
+----
 
 `.vale.ini` configuration file:: 
-Tells Vale where to find the `.vale` directory and other important settings.
+It determines
++
+* The styles location
+* Patterns to match files to validate
+* 
 
 
 
