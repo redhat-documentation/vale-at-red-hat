@@ -10,15 +10,13 @@
 
 # NOTE: Because this worklow is using secrets, it cannot run directly on a pull-request workflow, which is running in the context of the forked repository.
 
-name: Publish doc-content using netlify
-
+name: Publish pull request doc-content using netlify
 on:
   workflow_run:
     workflows:
       - "Build and validate pull request"
     types:
       - completed
-
 jobs:
   publish:
     name: Publish doc-content using netlify
