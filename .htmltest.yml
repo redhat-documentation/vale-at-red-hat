@@ -18,5 +18,5 @@ CacheExpires: "12h" # Default is 2 weeks.
 ExternalTimeout: 60 # (seconds) default is 15.
 IgnoreURLs:
   - https://cse.google.com/cse.js
-  - https://github.com/rolfedh/studious-fortnight
+  - https://github.com/vate-at-red-hat/vale-at-red-hat
   - https://marketplace.visualstudio.com

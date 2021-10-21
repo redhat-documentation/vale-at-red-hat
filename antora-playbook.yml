@@ -16,7 +16,7 @@
 site:
   title: Vale for Red Hat documentation writers
   # The url property is mandatory to generate the 404 and sitemap files.
-  url: https://rolfedh.github.io/studious-fortnight
+  url: https://vate-at-red-hat.github.io/vale-at-red-hat
   start_page: docs::index.adoc
   # keys:
   #   google_analytics: "PLACEHOLDER"
@@ -26,7 +26,7 @@ content:
     - url: ./
       branches:
         - main
-      edit_url: "https://github.com/rolfedh/studious-fortnight/edit/main/{path}"
+      edit_url: "https://github.com/vate-at-red-hat/vale-at-red-hat/edit/main/{path}"
 output:
   clean: true
 ui:

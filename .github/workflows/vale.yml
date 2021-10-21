@@ -22,7 +22,7 @@ jobs:
         uses: errata-ai/vale-action@v1.4.0
         with:
           files: __onlyModified
-          styles: https://github.com/rolfedh/studious-fortnight/releases/latest/download/RedHat.zip
-          config: https://raw.githubusercontent.com/rolfedh/studious-fortnight/master/.vale-for-github-action.ini
+          styles: https://github.com/vate-at-red-hat/vale-at-red-hat/releases/latest/download/RedHat.zip
+          config: https://raw.githubusercontent.com/vate-at-red-hat/vale-at-red-hat/master/.vale-for-github-action.ini
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

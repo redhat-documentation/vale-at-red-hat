@@ -17,9 +17,9 @@ Consider adding vale configuration files to a project to:
 .Procedure
 
 
-. Download the link:{repository-url}/archive/refs/heads/main.zip[studious-fortnight ZIP archive] and decompress it to your local environment. 
+. Download the link:{repository-url}/archive/refs/heads/main.zip[{repository-name} ZIP archive] and decompress it to your local environment. 
 
-. Copy the `.vale.ini` file and `.vale` directory from the `studious-fortnight` directory to the `__<project_directory>__` directory containing your documentation project.
+. Copy the `.vale.ini` file and `.vale` directory from the `{repository-name}` directory to the `__<project_directory>__` directory containing your documentation project.
 +
 [subs="+quotes,+attributes"]
 ----
