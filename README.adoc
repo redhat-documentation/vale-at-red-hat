@@ -1,6 +1,6 @@
 # Studious-fortnight repository
 
-This repository helps tech writers at Red Hat get up and running with Vale. It serves as the starting point for the Vale Community of Practice at Red Hat.
+This repository helps tech writers at Red Hat get up and running with Vale. It is the starting point for the Vale Community of Practice at Red Hat.
 
 * See the documentation: link:https://rolfedh.github.io/studious-fortnight/[Vale for Red Hat documentation writers]
 
