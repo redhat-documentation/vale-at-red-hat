@@ -11,12 +11,12 @@
 # GitHub Actions configuration file for htmltest
 # See: https://github.com/wjdp/htmltest
 
-name: Build and validate
+name: Build and validate on push
 on:
   - push
 jobs:
   build:
-    name: Build and validate
+    name: Build and validate on push
     runs-on: ubuntu-20.04
     container: "quay.io/eclipse/che-docs:latest"
     steps:
@@ -24,17 +24,14 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-
       - name: Build using antora
         id: antora-build
         run: CI=true antora generate antora-playbook-for-development.yml --stacktrace
-
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: doc-content
           path: build/site
-
       - name: Cache htmltest status code of checked external URLs # See: https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows
         uses: actions/cache@v2
         env:
@@ -42,7 +39,6 @@ jobs:
         with:
           key: refcache.json
           path: .cache/htmltest
-
       - name: Validate links using htmltest
         id: validate-links
         run: htmltest

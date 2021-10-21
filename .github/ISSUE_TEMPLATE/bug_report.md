@@ -10,29 +10,19 @@ assignees: ''
 **Describe the bug**
 A clear and concise description of what the bug is.
 
+Examples:
+
+* This word or expression triggers an illegitimate vale alert.
+* This word or expression triggers an ambiguous vale alert.
+
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '...'
-3. Scroll down to '...'
-4. See the error
+
+1. Add this word or expression:
+2. Vale reports an illegitimate alert: error, warning, suggestion.
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (complete the following information):**
- - Operating system: [for example iOS]
- - Browser [for example chrome, safari]
- - Version [for example 22]
-
-**Smartphone (complete the following information):**
- - Device: [for example iPhone6]
- - Operating system: [for example iOS8.1]
- - Browser [for example stock browser, safari]
- - Version [for example 22]
-
 **Additional context**
-Add any other context about the problem here.
+Add any other context here.

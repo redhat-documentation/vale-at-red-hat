@@ -55,7 +55,7 @@ $ vale .
 . Vale should:
 +
 * Report no error for the new term in the `testvalid.adoc` file
-* Optionnally, report an error for the new term in the `testinvalid.adoc` file
+* Optionally, report an error for the new term in the `testinvalid.adoc` file
 
 .Additional resources
 

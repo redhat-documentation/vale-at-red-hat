@@ -7,15 +7,16 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
-# Add Web IDE link on PRs
-name: web-ide
-
+# Add Web IDE link on pull requests
+name: Add Web IDE link
 on:
   pull_request_target:
-    types: [opened, synchronize]
-
+    types:
+      - opened
+      - synchronize
 jobs:
   add-link:
+    name: Add Web IDE link
     runs-on: ubuntu-20.04
     steps:
       - name: Web IDE Pull Request Check

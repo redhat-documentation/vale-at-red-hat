@@ -3,7 +3,10 @@
 [id="proc_using-vale-github-action_{context}"]
 = Using vale GitHub Action
 
-Consider using vale GitHub Action when your repository is hosted on GitHub, to measure or enforce the project compliance with the Style Guides.
+Consider using vale GitHub Action when:
+
+* The content repository is on GitHub.
+* The goal is to measure or enforce the project compliance with the Style Guides.
 
 WARNING: Due to the GitHub token permissions, this Action can not post annotations to PRs from forked repositories.
 
