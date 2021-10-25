@@ -5,12 +5,13 @@
 
 How does Vale help you improve your content quality and productivity?::
 
+* The content language compliance with your style guide becomes measurable
+* Your productivity as a writer improves
 * It helps you fix style issues right away before you create a PR
 * It improves peer reviews
 * It makes content more consistent
 * It makes content easier to localize
 * It makes content easier for users to understand
-
 
 
 .Additional resources
