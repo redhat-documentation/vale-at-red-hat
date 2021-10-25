@@ -5,9 +5,8 @@
 
 Consider using the vale CLI with a continuous integration service when:
 
-* The content repository is not on GitHub.
 * The goal is to measure or enforce the project compliance with the Style Guides.
-
+* xref:using-vale-github-action.adoc[] is not an option.
 
 
 .Prerequisites
@@ -18,12 +17,19 @@ Consider using the vale CLI with a continuous integration service when:
 
 .Procedure
 
-* Use the official GitHub CLI tool to download the version of your choice from the releases page
+. Configure your continuous integration service to download the `vale` CLI, the _RedHat_ style and the Vale configuration file using a `download_vale.sh` script such as:
 +
+[source,bash]
 ----
-$ gh release download --repo 'errata-ai/vale' -p 'vale_2.11.2_Linux_64-bit.tar.gz'
-$ tar -xf 'vale_2.11.2_Linux_64-bit.tar.gz'
-$ ./vale -v
+include::example$download_vale.sh[]
+----
+
+
+. Configure your continuous integration service to validate language changes using a `validate_language_changes.sh` script such as:
++
+[source,bash]
+----
+include::example$validate_language_changes.sh[]
 ----
 
 .Additional resources
