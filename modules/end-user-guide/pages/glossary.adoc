@@ -1,0 +1,30 @@
+// Metadata for Antora
+:navtitle: Glossary
+:keywords: glossary, antora
+// :page-aliases: old-glossary
+// End of metadata for Antora
+
+:parent-context-of-glossary: {context}
+
+[id="glossary_{context}"]
+= Glossary
+
+:context: glossary
+
+include::partial$con_vale-command-line-tool.adoc[leveloffset=+1]
+
+
+include::partial$con_vale-configuration-file.adoc[leveloffset=+1]
+
+
+include::partial$con_vale-rule.adoc[leveloffset=+1]
+
+
+include::partial$con_vale-style.adoc[leveloffset=+1]
+
+
+include::partial$con_vale-vocabulary.adoc[leveloffset=+1]
+
+
+:context: {parent-context-of-glossary}]
+

@@ -1,0 +1,19 @@
+// Metadata for Antora
+:navtitle: RedHat Style
+:keywords: redhat-style-for-vale, antora
+// :page-aliases: old-redhat-style-for-vale
+// End of metadata for Antora
+
+:parent-context-of-redhat-style-for-vale: {context}
+
+[id="redhat-style-for-vale_{context}"]
+= _Redhat_ style for vale
+
+:context: redhat-style-for-vale
+
+
+include::partial$con_redhat-style-for-vale.adoc[leveloffset=+1]
+
+
+:context: {parent-context-of-redhat-style-for-vale}]
+

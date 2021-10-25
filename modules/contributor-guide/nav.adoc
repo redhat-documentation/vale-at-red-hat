@@ -1,0 +1,6 @@
+.Contributor guide
+
+* xref:contributing.adoc[]
+* xref:vale-at-red-hat-repository.adoc[]
+* xref:extending-the-spelling-rule.adoc[]
+* xref:extending-the-redhat-style.adoc[]

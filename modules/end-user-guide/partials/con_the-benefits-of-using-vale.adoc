@@ -11,28 +11,14 @@ How does Vale help you improve your content quality and productivity?::
 * It makes content easier to localize
 * It makes content easier for users to understand
 
-link:{repository-url}[The {repository-name} repository]:: 
 
-Contains resources to validate language in documentation projects using Vale:
-
-* The _RedHat_ style for Vale
-* Vale configuration files
-* Documentation to start using Vale
-* Guidelines to define a Vale onboarding strategy in a project
-* Guidelines to contribute to the _RedHat_ Style
-* Guidelines to create a project specific Style or Vocabulary
-
-The _RedHat_ style for Vale::
-Contains language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
-
-* link:{ssg-url}[_{ssg}_]
-* Latest edition of the _{ibmsg}_
-* link:https://github.com/errata-ai/IBM[Vale-compatible implementation] of link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[_IBM's Developer Editorial Style Guide_]
-* link:{valedict-url}[_{valedict}_]
 
 .Additional resources
 
+* xref:redhat-style-for-vale.adoc[]
+* xref:glossary.adoc[]
+
 * xref:getting-started-with-vale.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
-* xref:contributing.adoc[]
+
 

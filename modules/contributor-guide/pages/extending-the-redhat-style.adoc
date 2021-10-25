@@ -1,0 +1,17 @@
+// Metadata for Antora
+:navtitle: Extending rules
+:keywords: contributing, style, rules
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-extending-styles: {context}
+
+[id="extending-the-redhat-style_{context}"]
+= Extending the _RedHat_ style
+
+:context: extending-the-redhat-style
+
+include::partial$proc_extending-the-redhat-style.adoc[leveloffset=+1]
+
+:context: {parent-context-of-extending-styles}
+

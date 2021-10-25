@@ -3,7 +3,11 @@
 [id="proc_using-vale-with-a-continuous-integration-service_{context}"]
 = Using vale with a continuous integration service
 
-Consider using vale with a continuous integration service to measure or enforce the project compliance with the Style Guides.
+Consider using the vale CLI with a continuous integration service when:
+
+* The content repository is not on GitHub.
+* The goal is to measure or enforce the project compliance with the Style Guides.
+
 
 
 .Prerequisites
