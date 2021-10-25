@@ -6,7 +6,9 @@
 
 :parent-context-of-redhat-style-for-vale: {context}
 
+
 [id="redhat-style-for-vale_{context}"]
+pass:[<!-- vale RedHat.Spelling = NO -->]
 = _Redhat_ style for vale
 
 :context: redhat-style-for-vale

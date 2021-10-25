@@ -39,6 +39,19 @@ RedHat.Slash = warning
 RedHat.Usage = suggestion
 ----
 
+* Consider disabling a rule on the spot. See: link:https://docs.errata.ai/vale/scoping[Vale - Scoping]
++
+----
+pass:[<!-- vale RedHat.Spelling = NO -->]
+
+The Spelling rule is ignored for this line.
+
+pass:[<!-- vale RedHat.Spelling = YES -->]
+
+The Spelling rule is active for this line.
+
+----
+
 * Consider xref:creating-a-vocabulary-for-a-project.adoc[].
 
 * Consider xref:contributor-guide:extending-the-spelling-rule.adoc[]. 

@@ -1,6 +1,6 @@
 :_module-type: CONCEPT
 
-[id="redhat-style-for-vale_{context}"]
+[id="con_redhat-style-for-vale_{context}"]
 = _RedHat_ style for Vale
 
 The _RedHat_ style for Vale contains language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:

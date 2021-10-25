@@ -1,6 +1,6 @@
 :_module-type: CONCEPT
 
-[id="vale-configuration-file_{context}"]
+[id="con_vale-configuration-file_{context}"]
 = Vale configuration file
 
 The Vale configuration file `.vale.ini` defines:

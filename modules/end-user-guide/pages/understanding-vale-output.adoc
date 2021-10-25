@@ -7,7 +7,6 @@
 :parent-context-of-understanding-vale-output: {context}
 
 [id="understanding-vale-output_{context}"]
-
 = Understanding vale output
 
 :context: understanding-vale-output
