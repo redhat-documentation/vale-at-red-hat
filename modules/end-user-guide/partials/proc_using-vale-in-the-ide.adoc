@@ -1,27 +1,31 @@
 :_module-type: PROCEDURE
 
-[id="proc_using-vale-on-a-local-environment_{context}"]
+[id="proc_using-vale-in-the-ide_{context}"]
 = Using vale in the IDE
 
-To use vale in the IDE, install the Vale extension for Visual Studio Code. The extension for the Atom IDE is deprecated.
+Consider using Vale in your IDE when:
+
+* You want a direct feedback in your editor.
+* You use a supported IDE, such as Visual Studio Code.
 
 .Prerequisites
 
-* xref:getting-started-with-vale.adoc[]
+* Vale CLI is installed and configured. See xref:getting-started-with-vale.adoc[].
+
+* link:https://code.visualstudio.com/docs/setup/setup-overview[Visual Studio Code] is installed.
 
 .Procedure
 
-. Install link:https://code.visualstudio.com/docs/setup/setup-overview[Visual Studio Code].
+. In  Visual Studio Code, install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale using the Marketplace].
 
-. Install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale ].
-
-. Configure the extension to use Vale CLI rather than Vale Server.
+. Configure the extension to use Vale CLI rather than Vale Server  in the extension settings (*Preferences > Extensions > Vale > Use CLI*).
 +
 [source,json]
 ----
 "vale.core.useCLI": true
 ----
 
+. Restart Visual Studio Code.
 
 .Verification
 
@@ -31,6 +35,5 @@ To use vale in the IDE, install the Vale extension for Visual Studio Code. The e
 
 .Additional resources
 
-* xref:understanding-vale-output.adoc[]
-* xref:defining-a-vale-onboarding-strategy.adoc[]
+* link:https://github.com/errata-ai/vale-vscode[Visual Studio Code extension for Vale repository and documentation]
 
