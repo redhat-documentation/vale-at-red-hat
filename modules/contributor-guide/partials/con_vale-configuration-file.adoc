@@ -1,0 +1,17 @@
+:_module-type: CONCEPT
+
+[id="con_vale-configuration-file_{context}"]
+= Vale configuration file
+
+The Vale configuration file `.vale.ini` defines:
+
+* File names patterns to match files to validate
+* Active styles and vocabulary
+* Custom content patterns to modify scoping behavior
+
+.Additional resources
+
+* xref:getting-started-with-vale.adoc[]
+* xref:adding-vale-configuration-to-a-project.adoc[]
+* link:https://docs.errata.ai/vale/config[Vale documentation - Configuration]
+

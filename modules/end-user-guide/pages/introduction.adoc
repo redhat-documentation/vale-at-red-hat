@@ -11,10 +11,7 @@
 
 :context: introduction
 
-
 include::partial$con_the-benefits-of-using-vale.adoc[leveloffset=+1]
-
-include::partial$con_glossary.adoc[leveloffset=+1]
 
 
 :context: {parent-context-of-introduction}]

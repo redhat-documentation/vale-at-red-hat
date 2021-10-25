@@ -19,4 +19,5 @@ ExternalTimeout: 60 # (seconds) default is 15.
 IgnoreURLs:
   - https://cse.google.com/cse.js
   - https://github.com/vale-at-red-hat/vale-at-red-hat
+  - https://github.com/Vale-at-Red-Hat/vale-at-red-hat
   - https://marketplace.visualstudio.com

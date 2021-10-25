@@ -1,7 +1,7 @@
 :_module-type: PROCEDURE
 
-[id="proc_extending-styles_{context}"]
-= Extending styles
+[id="proc_extending-the-redhat-style_{context}"]
+= Extending the _RedHat_ style
 
 Consider extending styles when:
 
@@ -17,13 +17,13 @@ Consider the best approach:
 
 .Prerequisites
 
-* xref:getting-started-with-vale.adoc[]
-* xref:understanding-vale-output.adoc[]
-* xref:defining-a-vale-onboarding-strategy.adoc[]
+* xref:end-user-guide:getting-started-with-vale.adoc[]
+* xref:end-user-guide:understanding-vale-output.adoc[]
+* xref:end-user-guide:defining-a-vale-onboarding-strategy.adoc[]
 
 .Procedure
 
-* Edit the `.vale/styles/Red-Hat-CCS/` file and add the missing word. 
+* Edit the `.vale/styles/RedHat/_<StyleName>_.yml` file and add the missing word. 
 
 .Verification
 

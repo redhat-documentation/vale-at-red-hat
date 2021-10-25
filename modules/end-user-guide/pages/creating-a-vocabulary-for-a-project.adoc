@@ -11,8 +11,8 @@
 
 :context: extending-the-vocabulary
 
-include::partial$proc_extending-the-spelling-rule.adoc[leveloffset=+1]
 include::partial$proc_creating-a-vocabulary-for-a-project.adoc[leveloffset=+1]
+
 
 :context: {parent-context-of-extending-the-vocabulary}
 

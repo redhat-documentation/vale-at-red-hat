@@ -47,7 +47,7 @@ The name of the style and of the rule, such as: `IBM.Usage`.
 == Understanding Vale alert levels
 
 error::
-Fix the language error. This alert level includes spelling errors, which are frequently happening on products and tools names. In that case, consider extending the Vocabulary. See xref:extending-the-vocabulary.adoc[].
+Fix the language error. This alert level includes _Spelling_ errors, which are frequently happening on products and tools names. In that case, consider xref:creating-a-vocabulary-for-a-project.adoc[] or xref:contributor-guide:extending-the-spelling-rule.adoc[].
 
 warning::
 Consider fixing the language error.
@@ -58,7 +58,7 @@ Heads up! Verify the usage depending on the context. Content containing suggesti
 .Additional resources
 
 * xref:defining-a-vale-onboarding-strategy.adoc[]
-* xref:extending-the-vocabulary.adoc[].
-* xref:extending-styles.adoc[].
-
+* xref:creating-a-vocabulary-for-a-project.adoc[]
+* xref:contributor-guide:extending-the-spelling-rule.adoc[]
+* xref:contributor-guide:extending-the-redhat-style.adoc[].
 

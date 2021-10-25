@@ -9,6 +9,8 @@ Embracing a linter in a project is a long journey. The full vale report can be d
 * The styles are not perfect or complete. 
 * Assess the maturity of the project
 
+== Decrease the number of alerts without changing the configuration file
+
 Consider these techniques to decrease the number of alerts:
 
 * Display only *errors*. Don't display *warnings* and *suggestions*.
@@ -23,12 +25,6 @@ $ vale --minAlertLevel=error .
 $ vale --minAlertLevel=warning .
 ----
 
-* Adapt the list of active *styles* in a specific `.vale.ini` configuration. See link:https://docs.errata.ai/vale/config[Vale documentation - configuration].
-+
-----
-BasedOnStyles = IBM,IBMQuickReference,SupplementaryStyleGuide,Vale
-----
-
 * Disable *rules* in a specific `.vale.ini` configuration. See link:https://docs.errata.ai/vale/config[Vale documentation - configuration].
 +
 ----
@@ -38,11 +34,31 @@ Vale.Repetition = NO
 * Alter *rules* severity in a specific `.vale.ini` configuration. See link:https://docs.errata.ai/vale/config[Vale documentation - configuration].
 +
 ----
-IBM.Annotations = suggestion
-IBM.Slash = warning
-IBM.Usage = suggestion
+RedHat.Annotations = suggestion
+RedHat.Slash = warning
+RedHat.Usage = suggestion
 ----
 
+* Consider disabling a rule on the spot. See: link:https://docs.errata.ai/vale/scoping[Vale - Scoping]
++
+----
+pass:[<!-- vale RedHat.Spelling = NO -->]
+
+The Spelling rule is ignored for this line.
+
+pass:[<!-- vale RedHat.Spelling = YES -->]
+
+The Spelling rule is active for this line.
+
+----
+
+* Consider xref:creating-a-vocabulary-for-a-project.adoc[].
+
+* Consider xref:contributor-guide:extending-the-spelling-rule.adoc[]. 
+
+* Consider xref:contributor-guide:extending-the-redhat-style.adoc[].
+
+* Consider creating an additional style for the project.
 
 [role="_additional-resources"]
 .Additional resources
