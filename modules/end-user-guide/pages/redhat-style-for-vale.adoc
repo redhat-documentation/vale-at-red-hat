@@ -8,8 +8,7 @@
 
 
 [id="redhat-style-for-vale_{context}"]
-pass:[<!-- vale RedHat.Spelling = NO -->]
-= _Redhat_ style for vale
+= _RedHat_ style for Vale
 
 :context: redhat-style-for-vale
 
