@@ -18,7 +18,7 @@ WARNING: Due to the GitHub token permissions, this Action can not post annotatio
 
 .Procedure
 
-* Add a `.github/workflows/vale.yml` file to your repository with following content:
+. Add a `.github/workflows/vale.yml` file to your repository with following content:
 +
 [source,yaml]
 ----
@@ -42,6 +42,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
+
+. Create a `.github/styles` directory containing an empty file. The Vale GitHub Action use it to decompress the _RedHat_ style.
++
+----
+$ mkdir .github/styles
+$ touch .github/styles/.placeholder
+----
+
 
 .Additional resources
 
