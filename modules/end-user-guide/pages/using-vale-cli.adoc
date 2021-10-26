@@ -1,13 +1,13 @@
 // Metadata for Antora
-:navtitle: Getting started
+:navtitle: Vale CLI
 :keywords: vale
-// :page-aliases: 
+:page-aliases: getting-started-with-vale
 // End of metadata for Antora
 
 :parent-context-of-assembly_getting-started-with-vale: {context}
 
-[id="assembly_getting-started-with-vale_{context}"]
-= Getting started with vale
+[id="assembly_using-vale-cli_{context}"]
+= Using Vale CLI
 
 :context: assembly_getting-started-with-vale
 

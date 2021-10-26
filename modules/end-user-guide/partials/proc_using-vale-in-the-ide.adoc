@@ -11,7 +11,6 @@ Consider using Vale in your IDE when:
 .Prerequisites
 
 * Vale CLI is installed and configured. See xref:getting-started-with-vale.adoc[].
-
 * link:https://code.visualstudio.com/docs/setup/setup-overview[Visual Studio Code] is installed.
 
 .Procedure
