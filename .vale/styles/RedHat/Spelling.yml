@@ -4,6 +4,7 @@ level: error
 # A "filter" is a case-sensitive regular expression specifying words
 # to ignore during spell checking.
 filters:
+ 
   - '\.NET'
   - 'Dev Workspace'
   - 'I/O'
@@ -47,6 +48,7 @@ filters:
   - colocate
   - ConfigMap
   - ConfigMaps
+  - Cookiecutter
   - CR
   - CRD
   - CRDs
@@ -130,6 +132,7 @@ filters:
   - PostgreSQL
   - preconfigured
   - Prometheus
+  - Pytorch
   - Quarkus
   - rebalance
   - rebalances
@@ -152,6 +155,7 @@ filters:
   - SVG
   - systemd
   - Telekom
+  - Tensorflow
   - Theia
   - tolerations
   - truststore
