@@ -1,0 +1,18 @@
+// Metadata for Antora
+:navtitle: Vale reports
+:keywords: reporting
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-reporting-vale-alerts: {context}
+
+[id="generating-extended-vale-alerts-reports_{context}"]
+= Generating extended Vale alerts reports
+
+:context: generating-extended-vale-alerts-reports
+
+include::partial$proc_generating-extended-vale-alerts-reports.adoc[leveloffset=+1]
+
+
+:context: {parent-context-of-generating-extended-vale-alerts-reports}]
+
