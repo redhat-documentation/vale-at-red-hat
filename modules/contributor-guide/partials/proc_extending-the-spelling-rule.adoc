@@ -62,6 +62,13 @@ $ vale .
 * Report no error for the new term in the `testvalid.adoc` file
 * Optionally, report an error for the new term in the `testinvalid.adoc` file
 
+. Run only the _Spelling_ rule on your content.
++
+[subs="+quotes,+attributes"]
+----
+$ vale --config=.vale/fixtures/RedHat/Spelling/ _<content files>_
+----
+
 .Additional resources
 
 * link:https://docs.errata.ai/vale/styles#spelling[Vale documentation - Spelling]

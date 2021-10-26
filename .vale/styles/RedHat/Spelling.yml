@@ -8,7 +8,16 @@ filters:
   - 'Dev Workspace'
   - 'I/O'
   - "[dD]evfile"
+  - "[fF]ailback"
+  - "[fF]ailover"
+  - "[hH]yperconverged"
+  - "[jJ]ournaling"
+  - "[kK]eyring"
+  - "[kK]eyrings"
+  - "[rR]ebase"
+  - "[rR]ebased"
   - "[sS]harding"
+  - "[uU]nmounting"
   - "Let\'s Encrypt"
   - adoc
   - Ansible
@@ -17,17 +26,21 @@ filters:
   - AsciiDoc
   - autostart
   - AWS
+  - backfilling
   - bindable
   - Bitbucket
   - boolean
   - breakpoint
   - btn
   - Btrfs
+  - Bugzilla
   - CentOS
   - Ceph
   - Che
   - Che-Theia
+  - Civetweb
   - classloading
+  - colocate
   - ConfigMap
   - ConfigMaps
   - CR
@@ -36,6 +49,7 @@ filters:
   - CRs
   - Ctrl
   - DaemonSet
+  - Datadog
   - Dev
   - Developer Perspective
   - DevWorkspace
@@ -60,6 +74,7 @@ filters:
   - https
   - IDE
   - IDEs
+  - inode
   - Intelephense
   - IntelliJ
   - IntelliJ IDEA
@@ -85,6 +100,7 @@ filters:
   - mixins
   - multiuser
   - MySQL
+  - Nagios
   - namespace
   - namespaces
   - NetcoredebugOutput
@@ -103,8 +119,14 @@ filters:
   - Podman
   - PostgreSQL
   - preconfigured
+  - Prometheus
   - Quarkus
+  - rebalance
+  - rebalances
   - rebalancing
+  - reshard
+  - reshards
+  - resyncing
   - Rolfe
   - runtimes
   - SCM
@@ -114,12 +136,18 @@ filters:
   - subnetwork
   - subpath
   - subpaths
+  - substep
+  - subuser
   - SVG
+  - systemd
   - Theia
   - tolerations
   - truststore
   - Uber
+  - uncomment
+  - undercloud
   - uninstallation
+  - unmount
   - unstaged
   - untrusted
   - URI
@@ -133,4 +161,3 @@ filters:
   - Yana
   - Yeoman
   - Zowe
-
