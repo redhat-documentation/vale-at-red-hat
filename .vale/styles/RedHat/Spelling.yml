@@ -18,6 +18,7 @@ filters:
   - "[rR]ebased"
   - "[sS]harding"
   - "[uU]nmounting"
+  - "[uU]nported"
   - "Let\'s Encrypt"
   - adoc
   - Ansible
@@ -36,6 +37,7 @@ filters:
   - Bugzilla
   - CentOS
   - Ceph
+  - cephfs
   - Che
   - Che-Theia
   - Civetweb
@@ -82,11 +84,13 @@ filters:
   - Java
   - Java Lombok
   - Jetbrains
+  - Joyent
   - JVM
   - kbd
   - Keycloak
   - Kibana
   - Kubespray
+  - licensor
   - liveness
   - Lombok
   - loopback
@@ -132,6 +136,7 @@ filters:
   - SCM
   - serializer
   - serverless
+  - Shadowman
   - Spring Boot
   - subnetwork
   - subpath
@@ -157,6 +162,7 @@ filters:
   - vsix
   - Webview
   - Webviews
+  - Wordpress
   - Woopra
   - Yana
   - Yeoman
