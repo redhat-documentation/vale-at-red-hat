@@ -17,6 +17,8 @@ filters:
   - "[rR]ebase"
   - "[rR]ebased"
   - "[sS]harding"
+  - "[sS]ubvolume"
+  - "[sS]ubvolumes"
   - "[uU]nmounting"
   - "[uU]nported"
   - "Let\'s Encrypt"
@@ -70,6 +72,7 @@ filters:
   - Gradle
   - Grafana
   - GUI
+  - Hashicorp
   - heatmap
   - Helm
   - Homebrew
@@ -84,12 +87,14 @@ filters:
   - Java
   - Java Lombok
   - Jetbrains
+  - journald
   - Joyent
   - JVM
   - kbd
   - Keycloak
   - Kibana
   - Kubespray
+  - Kylin
   - licensor
   - liveness
   - Lombok
@@ -100,6 +105,7 @@ filters:
   - Microsoft Azure
   - millicores
   - Minikube
+  - Mirantis
   - mixin
   - mixins
   - multiuser
@@ -145,6 +151,7 @@ filters:
   - subuser
   - SVG
   - systemd
+  - Telekom
   - Theia
   - tolerations
   - truststore
@@ -162,8 +169,8 @@ filters:
   - vsix
   - Webview
   - Webviews
-  - Wordpress
   - Woopra
+  - Wordpress
   - Yana
   - Yeoman
   - Zowe
