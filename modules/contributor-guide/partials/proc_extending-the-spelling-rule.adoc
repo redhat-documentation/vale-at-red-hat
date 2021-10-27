@@ -19,7 +19,7 @@ When the word is too specific to benefit to other projects, consider xref:end-us
 
 .Procedure
 
-. Edit the `.vale/styles/RedHat/Spelling.yml` file and add the missing word to the `filters` list. A `filter is a case-sensitive regular expression specifying words to ignore during spell checking.
+. Edit the `.vale/styles/RedHat/Spelling.yml` file and add the missing word to the `filters` list. A `filter` is a case-sensitive regular expression specifying words to ignore during spell checking.
 +
 .Excerpt of the *Spelling* rule
 [source,yaml]
