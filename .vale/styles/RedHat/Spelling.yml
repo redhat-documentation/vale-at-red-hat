@@ -1,136 +1,213 @@
 extends: spelling
 message: "Did you really mean '%s'?"
 level: error
+link: https://vale-at-red-hat.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/
 # A "filter" is a case-sensitive regular expression specifying words
 # to ignore during spell checking.
+# Spelling rule applies to individual words
 filters:
   - '\.NET'
-  - 'Dev Workspace'
   - 'I/O'
+  - 'Node\.js'
+  - "[aA]utostart"
+  - "[bB]ackfilling"
+  - "[bB]indable"
+  - "[bB]oolean"
+  - "[bB]reakpoint"
+  - "[bB]reakpoints"
+  - "[cC]he"
+  - "[cC]lassloading"
+  - "[cC]olocate"
+  - "[cC]onfig" # to enable "config map"
   - "[dD]evfile"
+  - "[dD]evfiles"
+  - "[dD]ownstream"
+  - "[dD]ownstreaming"
+  - "[eE]xposal"
+  - "[Ff]actories"
+  - "[Ff]actory"
+  - "[fF]ailback"
+  - "[fF]ailover"
+  - "[gG]it"
+  - "[gG]rafana"
+  - "[hH]eatmap"
+  - "[hH]yperconverged"
+  - "[iI]node"
+  - "[iI]tem"
+  - "[jJ]ournald"
+  - "[jJ]ournaling"
+  - "[kK]eycloak"
+  - "[kK]eyring"
+  - "[kK]eyrings"
+  - "[lL]icensor"
+  - "[lL]iveness"
+  - "[lL]oopback"
+  - "[mM]ebibytes"
+  - "[mM]illicores"
+  - "[mM]ixin"
+  - "[mM]ixins"
+  - "[mM]odularization"
+  - "[mM]ulticluster"
+  - "[mM]ultihost"
+  - "[mM]ultinode"
+  - "[mM]ultitenant"
+  - "[mM]ultiuser"
+  - "[mM]ultizone"
+  - "[nN]amespace"
+  - "[nN]amespaces"
+  - "[oO]nboarding"
+  - "[oO]perator"
+  - "[pP]reconfigured"
+  - "[rR]eadonly"
+  - "[rR]ebalance"
+  - "[rR]ebalances"
+  - "[rR]ebalancing"
+  - "[rR]ebase"
+  - "[rR]ebased"
+  - "[rR]eshard"
+  - "[rR]esharding"
+  - "[rR]eshards"
+  - "[rR]esyncing"
+  - "[rR]ollout"
+  - "[rR]ollouts"
+  - "[rR]untime"
+  - "[rR]untimes"
+  - "[sS]erializer"
+  - "[sS]erverless"
   - "[sS]harding"
+  - "[sS]ubnetwork"
+  - "[sS]ubpath"
+  - "[sS]ubpaths"
+  - "[sS]ubstep"
+  - "[sS]ubsteps"
+  - "[sS]ubuser"
+  - "[sS]ubusers"
+  - "[sS]ubvolume"
+  - "[sS]ubvolumes"
+  - "[sS]ystemd"
+  - "[tT]heia"
+  - "[tT]olerations"
+  - "[tT]ruststore"
+  - "[uU]ncomment"
+  - "[uU]ndercloud"
+  - "[uU]ninstallation"
+  - "[uU]nmount"
+  - "[uU]nmounting"
+  - "[uU]nported"
+  - "[uU]nstaged"
+  - "[uU]ntrusted"
   - "Let\'s Encrypt"
   - adoc
   - Ansible
   - Antora
   - API
   - AsciiDoc
-  - autostart
+  - aws
   - AWS
-  - bindable
+  - Azure
+  - Bierner
   - Bitbucket
-  - boolean
-  - breakpoint
   - btn
   - Btrfs
+  - Bugzilla
   - CentOS
   - Ceph
-  - Che
+  - cephfs
   - Che-Theia
-  - classloading
+  - Civetweb
   - ConfigMap
   - ConfigMaps
+  - Cookiecutter
   - CR
   - CRD
   - CRDs
   - CRs
   - Ctrl
   - DaemonSet
+  - Datadog
   - Dev
-  - Developer Perspective
   - DevWorkspace
   - DNS
   - Docker
   - Dockerfile
+  - Dockerfiles
   - Dotnet
   - Endevor
   - endif
-  - exposal
   - Fabrice
-  - Git
   - GitHub
   - GitLab
   - Gluster
   - Gradle
-  - Grafana
   - GUI
-  - heatmap
+  - Hashicorp
   - Helm
   - Homebrew
+  - htmltest
+  - http
+  - HTTP
   - https
+  - HTTPS
   - IDE
   - IDEs
   - Intelephense
   - IntelliJ
-  - IntelliJ IDEA
-  - item
   - Java
-  - Java Lombok
   - Jetbrains
+  - Joyent
+  - jvm
   - JVM
   - kbd
-  - Keycloak
   - Kibana
   - Kubespray
-  - liveness
+  - Kylin
+  - Laravel
   - Lombok
-  - loopback
   - Mattermost
   - Maven
-  - mebibytes
-  - Microsoft Azure
-  - millicores
+  - Microsoft
   - Minikube
-  - mixin
-  - mixins
-  - multiuser
+  - Minishift
+  - Mirantis
   - MySQL
-  - namespace
-  - namespaces
+  - Nagios
   - NetcoredebugOutput
+  - Newdoc
   - Nginx
   - npm
   - NuGet
   - OAuth
   - ocp
   - OmniSharp
-  - onboarding
   - OpenShift
   - OpenTracing
-  - Operator
   - osd
   - PHP
   - Podman
   - PostgreSQL
-  - preconfigured
+  - Prometheus
+  - Pytorch
   - Quarkus
-  - rebalancing
+  - Redistributions
   - Rolfe
-  - runtimes
   - SCM
-  - serializer
-  - serverless
-  - Spring Boot
-  - subnetwork
-  - subpath
-  - subpaths
+  - Shadowman
+  - Suchow
   - SVG
-  - Theia
-  - tolerations
-  - truststore
+  - Telekom
+  - Tensorflow
   - Uber
-  - uninstallation
-  - unstaged
-  - untrusted
   - URI
   - URIs
+  - url
+  - URL
   - URLs
   - Velero
   - vsix
   - Webview
   - Webviews
   - Woopra
+  - Wordpress
   - Yana
   - Yeoman
   - Zowe
-

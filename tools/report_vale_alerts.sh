@@ -12,8 +12,8 @@ find "${1:-.}" -name .git -print | sed 's@/.git@@' | sort | uniq | while read di
 do 
     echo "Generating report on $directory"
     # Provide a full list of files to report on
-    # Ignore files containing a space
-    FILE_LIST=$(find "${directory}" -type f -name '*.adoc' -print | sed '/ /d'| sort | uniq)
+    # Ignore files containing a space, content in German, /deprecated/ and /Internal/ directories
+    FILE_LIST=$(find "${directory}" -type f -name '*.adoc' -print | sed '/ /d;/de-de\.adoc/d;/\/deprecated\//d;/\/Internal\//d;/\/internal-resources\//d'| sort | uniq)
     REPORT_BASENAME=vale-report-$(basename "${directory}")
     # Create file list
     echo "$FILE_LIST" > "${REPORT_BASENAME}-list.log"

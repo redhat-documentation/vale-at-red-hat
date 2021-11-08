@@ -10,6 +10,8 @@ Consider generating extended Vale alerts reports about a Git repository to:
 
 These reports use the Vale report in JSON format and additional information such as the word count.
 
+On bigger repositories, with more than 1000000 words, consider building your own reporting tool to chunk the task in smaller pieces.
+
 .Prerequisites
 
 * The `vale` tool is installed and configured. See xref:getting-started-with-vale.adoc[].
