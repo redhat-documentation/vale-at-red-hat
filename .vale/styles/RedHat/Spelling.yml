@@ -185,6 +185,8 @@ filters:
   - PHP
   - Podman
   - PostgreSQL
+  - preconfigured
+  - prepended
   - Prometheus
   - Pytorch
   - Quarkus
