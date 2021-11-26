@@ -3,6 +3,7 @@ extends: existence
 message: "'%s' left in text."
 ignorecase: false
 level: warning
+link: https://github.com/Vale-at-Red-Hat/vale-at-red-hat/blob/main/.vale/styles/RedHat/Annotations.yml
 source: proselint
 tokens:
   - XXX
