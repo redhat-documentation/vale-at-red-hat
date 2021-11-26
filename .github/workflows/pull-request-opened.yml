@@ -16,7 +16,7 @@ on:
       - opened
 
 jobs:
-  automate-project-columns:
+  pull-request-opened:
     runs-on: ubuntu-latest
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.1
