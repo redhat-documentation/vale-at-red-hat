@@ -1,0 +1,11 @@
+
+extends: existence
+message: "'%s' is airlinese."
+ignorecase: true
+level: error
+link: https://github.com/Vale-at-Red-Hat/vale-at-red-hat/tree/main/.vale/styles/RedHat/Airlinese.yml
+source: https://github.com/errata-ai/proselint/blob/master/proselint/Airlinese.yml
+tokens:
+  - enplan(?:e|ed|ing|ement)
+  - deplan(?:e|ed|ing|ement)
+  - taking off momentarily
