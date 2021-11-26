@@ -102,6 +102,7 @@ filters:
   - "[uU]ntrusted"
   - "Let\'s Encrypt"
   - adoc
+  - Annobin
   - Ansible
   - Antora
   - API
@@ -111,6 +112,7 @@ filters:
   - Azure
   - Bierner
   - Bitbucket
+  - Bonjour
   - btn
   - Btrfs
   - Bugzilla
@@ -119,8 +121,11 @@ filters:
   - cephfs
   - Che-Theia
   - Civetweb
+  - CodeReady
   - ConfigMap
   - ConfigMaps
+  - Containerfile
+  - Containerfiles
   - Cookiecutter
   - CR
   - CRD
@@ -136,15 +141,21 @@ filters:
   - Dockerfile
   - Dockerfiles
   - Dotnet
+  - Dyninst
   - Endevor
+  - Endian
   - endif
+  - Esprima
   - Fabrice
+  - Fortran
+  - GCC
   - GitHub
   - GitLab
   - Gluster
   - Gradle
   - GUI
   - Hashicorp
+  - Helgrind
   - Helm
   - Homebrew
   - htmltest
@@ -156,25 +167,32 @@ filters:
   - IDEs
   - Intelephense
   - IntelliJ
+  - Jakarta
   - Java
+  - Jave
   - Jetbrains
+  - Jolokia
   - Joyent
   - jvm
   - JVM
   - kbd
   - Kibana
+  - Kompose
   - Kubespray
   - Kylin
   - Laravel
   - Lombok
+  - Makefile
   - Mattermost
   - Maven
   - Microsoft
+  - Middleware
   - Minikube
   - Minishift
   - Mirantis
   - MySQL
   - Nagios
+  - Neoverse
   - NetcoredebugOutput
   - Newdoc
   - Nginx
@@ -196,23 +214,29 @@ filters:
   - Quarkus
   - Redistributions
   - Rolfe
+  - Sakila
   - SCM
+  - Semeru
   - Shadowman
   - Suchow
   - SVG
   - Tekton
   - Telekom
   - Tensorflow
+  - Texinfo
+  - Toolset
   - Uber
   - URI
   - URIs
   - url
   - URL
   - URLs
+  - Valgrind
   - Velero
   - vsix
   - Webview
   - Webviews
+  - Wildfly
   - Woopra
   - Wordpress
   - Yana
