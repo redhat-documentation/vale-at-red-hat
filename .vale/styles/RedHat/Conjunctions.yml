@@ -1,0 +1,13 @@
+extends: existence
+message: "Do not overuse beginning sentences with '%s'."
+level: suggestion
+link: https://github.com/Vale-at-Red-Hat/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml
+source: IBM Style Guide
+scope: paragraph
+action:
+  name: remove
+tokens:
+  - ^And
+  - ^But
+  - ^Or
+  - ^So
