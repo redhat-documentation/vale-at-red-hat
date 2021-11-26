@@ -24,7 +24,7 @@ On bigger repositories, with more than 1000000 words, consider building your own
 +
 [subs="+quotes,+attributes"]
 ----
-$ ./tools/report_vale_alerts.sh _<location>_
+$ ./tools/vale_report.sh _<location>_
 ----
 
 . The script creates following files for each Git repository found at _<location>_:
@@ -34,6 +34,7 @@ $ ./tools/report_vale_alerts.sh _<location>_
 `vale-report_<repository>_.json`:: Vale report in JSON format. Use the `jq` tool to query the results.
 `vale-report_<repository>_.severity`:: Breakdown of alerts by severity.
 `vale-report_<repository>_.rules`:: Breakdown of alerts by rules.
+`vale-report_<repository>_.Spelling.txt`:: Breakdown of `Spelling` alerts.
 
 .Additional resources
 
