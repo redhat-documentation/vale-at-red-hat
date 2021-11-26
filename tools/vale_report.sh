@@ -26,4 +26,10 @@ do
     # A minimal analyze
     jq .[][].Severity "$REPORT_BASENAME.json" | sort | uniq -c | sort -nr > "$REPORT_BASENAME.severity"
     jq .[][].Check "$REPORT_BASENAME.json" | sort | uniq -c | sort -nr > "$REPORT_BASENAME.rules"
+    # Report all words generating a Spelling error
+    # Interesting fields:
+    # Filter on: "Check": "RedHat.Spelling"
+    # Display the values of: "Match"
+    jq -r '.[][] | select(.Check=="RedHat.Spelling") | .Match' "$REPORT_BASENAME.json" | sort | uniq -c | sort -nr > "$REPORT_BASENAME.Spelling.txt"
+
 done
