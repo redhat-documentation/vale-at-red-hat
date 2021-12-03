@@ -27,6 +27,7 @@ exceptions:
   - HTML
   - HTTP
   - HTTPS
+  - IBM
   - IDE
   - JAR
   - JSON
@@ -55,6 +56,8 @@ exceptions:
   - TBD
   - TCP
   - TODO
+  - TLS
+  - TTL
   - URI
   - URL
   - USB
