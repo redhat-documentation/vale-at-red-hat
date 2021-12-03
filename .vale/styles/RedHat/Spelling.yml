@@ -1,6 +1,7 @@
 extends: spelling
 message: "Did you really mean '%s'?"
-level: error
+# Set to warning rather than error, to ease onboarding of new projects.
+level: warning
 link: https://vale-at-red-hat.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/
 # A "filter" is a case-sensitive regular expression specifying words
 # to ignore during spell checking.
