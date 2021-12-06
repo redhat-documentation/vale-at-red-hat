@@ -22,6 +22,7 @@ filters:
   - "[cC]onfig" # to enable "config map"
   - "[dD]evfile"
   - "[dD]evfiles"
+  - "[dD]ev[wW]orkspace"
   - "[dD]ownstream"
   - "[dD]ownstreaming"
   - "[eE]xposal"
@@ -226,6 +227,7 @@ filters:
   - Tensorflow
   - Texinfo
   - Toolset
+  - Traefik
   - Uber
   - URI
   - URIs
