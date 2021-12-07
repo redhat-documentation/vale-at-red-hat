@@ -33,6 +33,7 @@ filters:
   - "[gG]it"
   - "[gG]rafana"
   - "[hH]eatmap"
+  - "[hH]ostname"
   - "[hH]yperconverged"
   - "[iI]node"
   - "[iI]tem"
