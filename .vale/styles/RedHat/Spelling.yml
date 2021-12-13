@@ -1,5 +1,5 @@
 extends: spelling
-message: "Did you really mean '%s'?"
+message: "Use correct American English spelling. Did you really mean '%s'?"
 # Set to warning rather than error, to ease onboarding of new projects.
 level: warning
 link: https://vale-at-red-hat.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/
