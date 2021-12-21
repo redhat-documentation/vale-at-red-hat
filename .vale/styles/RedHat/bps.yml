@@ -1,10 +1,11 @@
 extends: substitution
-message: "Use '%s' rather than '%s'."
+message: "Verify the context. 'Bps' is an acronym for bytes per second. The acronym for bits per second is 'bps'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#bps
 ignorecase: true
-level: error
+level: suggestion
 action:
   name: replace
 source: Red Hat
 swap:
   Bps: bps
+  bps: Bps
