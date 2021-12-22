@@ -5,5 +5,5 @@ link: "https://redhat-documentation.github.io/supplementary-style-guide/#through
 ignorecase: true
 level: suggestion
 swap:
-  through: 'finished' or 'completed'
+  through: "'finished' or 'completed'"
   thru: through
