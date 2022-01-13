@@ -1,3 +1,10 @@
 # Contributor's guide
 
-* See: link:https://vale-at-red-hat.github.io/vale-at-red-hat/docs/end-user-guide/contributing/[Contributing].
+* See: link:https://redhat-documentation/vale-at-red-hat/docs/end-user-guide/contributing/[Contributing].
+
+## Certificate of origin
+
+By contributing to this project, you agree to the Developer Certificate of
+Origin (DCO). This document was created by the Linux Kernel community and is a
+simple statement that you, as a contributor, have the legal right to make the
+contribution. See the [DCO](DCO) file for details.
