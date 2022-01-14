@@ -29,8 +29,8 @@ asciidoc:
     context: docs
     ibmsg: IBM Style Guide
     repository-name: vale-at-red-hat
-    repository-url: https://github.com/vale-at-red-hat/vale-at-red-hat
-    repository-clone-url: git@github.com:vale-at-red-hat/vale-at-red-hat.git
+    repository-url: https://github.com/redhat-documentation/vale-at-red-hat
+    repository-clone-url: git@github.com:redhat-documentation/vale-at-red-hat.git
     ssg: Red Hat supplementary style guide for product documentation
     ssg-url: https://redhat-documentation.github.io/supplementary-style-guide/
     valedict: Custom Vale open-source dictionary for American English.
