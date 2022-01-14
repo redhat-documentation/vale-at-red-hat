@@ -1,6 +1,6 @@
 extends: existence
 message: "'%s' is corporate speak."
-link: https://github.com/Vale-at-Red-Hat/vale-at-red-hat/tree/main/.vale/styles/RedHat/CorporateSpeak.yml
+link: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/CorporateSpeak.yml
 source: https://github.com/errata-ai/proselint/blob/master/proselint/CorporateSpeak.yml
 ignorecase: true
 level: error

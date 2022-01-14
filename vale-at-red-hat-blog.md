@@ -10,7 +10,7 @@
 - I updated the repository with the Vale style from the Che eclipse documentation project that Yana and Fabrice developed.
 - I've been welcoming new team members to this channel.
 - I hosted the "Friday 15 for Vale" at Red Hat.
-- I added a GitHub Action that runs Vale against any modified files. (Check it out [here under the Actions tab](https://github.com/vale-at-red-hat/vale-at-red-hat/actions).
+- I added a GitHub Action that runs Vale against any modified files. (Check it out [here under the Actions tab](https://github.com/redhat-documentation/vale-at-red-hat/actions).
 
 **What I'm doing next**:
 - Running the  Vale style against some of my product docs.
@@ -21,7 +21,7 @@
 - Set up permissions for contributors and add a `contributors.md` topic.
 
 **Any needs or blockers**?
-- I'd appreciate your notes on getting started with Vale. Feel free to discuss them here and open issues and enhancement requests on https://github.com/vale-at-red-hat/vale-at-red-hat/issues
+- I'd appreciate your notes on getting started with Vale. Feel free to discuss them here and open issues and enhancement requests on https://github.com/redhat-documentation/vale-at-red-hat/issues
 - Become a contributor to the repository, particularly its styles.
 
 ## 19. May, 7:37 AM, Wednesday

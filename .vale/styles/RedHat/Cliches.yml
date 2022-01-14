@@ -1,6 +1,6 @@
 extends: existence
 message: "'%s' is a cliche."
-link: https://github.com/Vale-at-Red-Hat/vale-at-red-hat/tree/main/.vale/styles/RedHat/Cliches.yml
+link: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Cliches.yml
 source: https://github.com/errata-ai/proselint/blob/master/proselint/Cliches.yml
 level: error
 ignorecase: true

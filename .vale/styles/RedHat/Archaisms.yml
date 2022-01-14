@@ -2,7 +2,7 @@ extends: existence
 message: "'%s' is archaic."
 ignorecase: true
 level: error
-link: https://github.com/Vale-at-Red-Hat/vale-at-red-hat/tree/main/.vale/styles/RedHat/Archaisms.yml
+link: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Archaisms.yml
 source: proselint
 tokens:
   - alack
