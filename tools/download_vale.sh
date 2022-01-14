@@ -15,10 +15,10 @@ tar -xf vale*
 ./vale -v
 
 # Download latest vale configuration from vale-at-red-hat
-curl -Os https://raw.githubusercontent.com/vale-at-red-hat/vale-at-red-hat/master/.vale.ini
+curl -Os https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/master/.vale.ini
 
 # Download latest _RedHat_ style
 mkdir .vale/styles || true
 cd .vale/styles
-gh release download --repo 'vale-at-red-hat/vale-at-red-hat' --pattern 'RedHat.zip'
+gh release download --repo 'redhat-documentation/vale-at-red-hat' --pattern 'RedHat.zip'
 unzip RedHat.zip
