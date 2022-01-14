@@ -50,11 +50,11 @@ $ vale --minAlertLevel=error .
 
 * Use the results to identify the rule creating the most errors, and work on that rule. Most probably, start with the Spelling rule.
 
-* Report alerts for one single rule. Maybe use custom output templates to generate a custom report. See link:https://docs.errata.ai/vale/cli#--output[Vale documentation - `--output` template]. Consider aggregating alerts to identify the most common. Examine the report to distinguish legit alerts from false positives. Use the curated list of false positives to link:https://github.com/vale-at-red-hat/vale-at-red-hat/issues[report an issue].
+* Report alerts for one single rule. Maybe use custom output templates to generate a custom report. See link:https://docs.errata.ai/vale/cli#--output[Vale documentation - `--output` template]. Consider aggregating alerts to identify the most common. Examine the report to distinguish legit alerts from false positives. Use the curated list of false positives to link:https://github.com/redhat-documentation/vale-at-red-hat/issues[report an issue].
 +
 ====
 For example, for the Spelling rule, create a report containing the list of all words reported by the Spelling rule, and count their occurrences.
-Use that list to differentiate false positives from legit errors. Use the curated list to link:https://github.com/vale-at-red-hat/vale-at-red-hat/issues[report an issue].
+Use that list to differentiate false positives from legit errors. Use the curated list to link:https://github.com/redhat-documentation/vale-at-red-hat/issues[report an issue].
 ====
 
 == Fix the alerts
