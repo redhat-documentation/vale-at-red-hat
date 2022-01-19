@@ -1,0 +1,2 @@
+valid content: hostname
+valid content: host

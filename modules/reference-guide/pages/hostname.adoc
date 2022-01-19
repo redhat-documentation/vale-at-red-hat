@@ -1,0 +1,6 @@
+:navtitle: hostname
+:keywords: vale
+
+= hostname
+
+Use 'hostname' rather than 'host name' unless updating existing content that uses 'host name'.
