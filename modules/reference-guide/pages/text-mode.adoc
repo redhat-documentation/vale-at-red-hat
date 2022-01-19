@@ -1,9 +1,9 @@
-:navtitle: Text-mode
-:keywords: reference, rule, Text-mode
+:navtitle: Text mode
+:keywords: reference, rule, Text mode
 
-= Text-mode
+= Text mode
 
-Use `Text-mode` rather than `%s`.
+Use `text mode` rather than `%s`.
 
 .Additional Resources
 

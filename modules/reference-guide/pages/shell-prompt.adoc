@@ -1,9 +1,9 @@
-:navtitle: Shell-prompt
-:keywords: reference, rule, Shell-prompt
+:navtitle: Shell prompt
+:keywords: reference, rule, Shell prompt
 
-= Shell-prompt
+= Shell prompt
 
-Use `Shell-prompt` rather than `%s`.
+Use `Shell prompt` rather than `%s`.
 
 .Additional Resources
 

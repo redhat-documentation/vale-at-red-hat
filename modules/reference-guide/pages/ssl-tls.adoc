@@ -1,9 +1,9 @@
-:navtitle: SSL-TLS
-:keywords: reference, rule, SSL-TLS
+:navtitle: SSL/TLS
+:keywords: reference, rule, SSL/TLS
 
-= SSL-TLS
+= SSL/TLS
 
-Use `SSL-TLS` rather than `%s`.
+Use `SSL/TLS` rather than `%s`.
 
 .Additional Resources
 

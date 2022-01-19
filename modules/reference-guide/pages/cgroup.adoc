@@ -1,9 +1,9 @@
-:navtitle: Cgroup
-:keywords: reference, rule, Cgroup
+:navtitle: cgroup
+:keywords: reference, rule, cgroup
 
-= Cgroup
+= cgroup
 
-Use `Cgroup` rather than `%s`.
+Use `cgroup` rather than `%s`.
 
 .Additional Resources
 

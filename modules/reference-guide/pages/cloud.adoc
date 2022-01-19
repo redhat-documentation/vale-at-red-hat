@@ -1,9 +1,9 @@
-:navtitle: Cloud
-:keywords: reference, rule, Cloud
+:navtitle: cloud
+:keywords: reference, rule, cloud
 
 = Cloud
 
-Use `Cloud` rather than `%s`.
+Use `cloud` rather than `%s`.
 
 .Additional Resources
 

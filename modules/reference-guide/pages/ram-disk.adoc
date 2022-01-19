@@ -1,9 +1,9 @@
-:navtitle: RAM-disk
-:keywords: reference, rule, RAM-disk
+:navtitle: RAM disk
+:keywords: reference, rule, RAM disk
 
-= RAM-disk
+= RAM disk
 
-Use `RAM-disk` rather than `%s`.
+Use `RAM disk` rather than `%s`.
 
 .Additional Resources
 

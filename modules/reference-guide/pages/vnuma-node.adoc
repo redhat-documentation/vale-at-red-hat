@@ -1,9 +1,9 @@
-:navtitle: VNUMA-node
-:keywords: reference, rule, VNUMA-node
+:navtitle: vNUMA node
+:keywords: reference, rule, vNUMA node
 
-= VNUMA-node
+= vNUMA node
 
-Use `VNUMA-node` rather than `%s`.
+Use `vNUMA node` rather than `%s`.
 
 .Additional Resources
 

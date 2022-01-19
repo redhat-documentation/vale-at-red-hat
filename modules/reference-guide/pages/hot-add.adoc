@@ -1,9 +1,9 @@
-:navtitle: Hot-add
-:keywords: reference, rule, Hot-add
+:navtitle: Hot add
+:keywords: reference, rule, Hot add
 
-= Hot-add
+= Hot add
 
-Use `Hot-add` rather than `%s`.
+Use `Hot add` rather than `%s`.
 
 .Additional Resources
 

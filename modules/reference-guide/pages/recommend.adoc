@@ -1,5 +1,5 @@
 :navtitle: Recommend
-:keywords: reference, rule, Recommend
+:keywords: reference, rule, recommend
 
 = Recommend
 

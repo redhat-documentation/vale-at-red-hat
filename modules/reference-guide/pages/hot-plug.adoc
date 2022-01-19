@@ -1,9 +1,9 @@
-:navtitle: Hot-plug
-:keywords: reference, rule, Hot-plug
+:navtitle: Hot plug
+:keywords: reference, rule, Hot plug
 
-= Hot-plug
+= Hot plug
 
-Use `Hot-plug` rather than `%s`.
+Use `hot plug` rather than `%s`.
 
 .Additional Resources
 

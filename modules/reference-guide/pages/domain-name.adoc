@@ -1,9 +1,9 @@
-:navtitle: Domain-name
-:keywords: reference, rule, Domain-name
+:navtitle: domain name
+:keywords: reference, rule, domain name
 
-= Domain-name
+= Domain name
 
-Use `Domain-name` rather than `%s`.
+Use `domain name` rather than `%s`.
 
 .Additional Resources
 

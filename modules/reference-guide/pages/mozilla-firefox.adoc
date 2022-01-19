@@ -1,9 +1,9 @@
-:navtitle: Mozilla-Firefox
-:keywords: reference, rule, Mozilla-Firefox
+:navtitle: Mozilla Firefox
+:keywords: reference, rule, Mozilla Firefox
 
-= Mozilla-Firefox
+= Mozilla Firefox
 
-Use `Mozilla-Firefox` rather than `%s`.
+Use `Mozilla Firefox` rather than `%s`.
 
 .Additional Resources
 

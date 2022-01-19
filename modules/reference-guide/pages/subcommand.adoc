@@ -1,9 +1,9 @@
 :navtitle: Subcommand
-:keywords: reference, rule, Subcommand
+:keywords: reference, rule, subcommand
 
 = Subcommand
 
-Use `Subcommand` rather than `%s`.
+Use `subcommand` rather than `%s`.
 
 .Additional Resources
 

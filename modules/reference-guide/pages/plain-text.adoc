@@ -1,9 +1,9 @@
-:navtitle: Plain-text
-:keywords: reference, rule, Plain-text
+:navtitle: Plain text
+:keywords: reference, rule, Plain text
 
-= Plain-text
+= Plain text
 
-Use `Plain-text` rather than `%s`.
+Use `plain text` rather than `%s`.
 
 .Additional Resources
 

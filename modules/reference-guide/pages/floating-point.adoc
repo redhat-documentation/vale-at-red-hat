@@ -1,9 +1,9 @@
-:navtitle: Floating-point
-:keywords: reference, rule, Floating-point
+:navtitle: Floating point
+:keywords: reference, rule, Floating point
 
-= Floating-point
+= Floating point
 
-Use `Floating-point` rather than `%s`.
+Use `floating point` rather than `%s`.
 
 .Additional Resources
 

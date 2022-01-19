@@ -1,9 +1,9 @@
-:navtitle: VNIC
-:keywords: reference, rule, VNIC
+:navtitle: vNIC
+:keywords: reference, rule, vNIC
 
-= VNIC
+= vNIC
 
-Use `VNIC` rather than `%s`.
+Use `vNIC` rather than `%s`.
 
 .Additional Resources
 

@@ -1,9 +1,9 @@
-:navtitle: Disk-label
-:keywords: reference, rule, Disk-label
+:navtitle: Disk label
+:keywords: reference, rule, Disk label
 
-= Disk-label
+= Disk label
 
-Use `Disk-label` rather than `%s`.
+Use `disk label` rather than `%s`.
 
 .Additional Resources
 

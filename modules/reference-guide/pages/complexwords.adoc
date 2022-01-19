@@ -3,7 +3,7 @@
 
 = ComplexWords
 
-message: Consider using ComplexWords instead of `%s`
+Consider using less complex words.
 
 .Additional Resources
 

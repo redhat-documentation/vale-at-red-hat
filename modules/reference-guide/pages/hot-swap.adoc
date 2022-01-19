@@ -1,9 +1,9 @@
-:navtitle: Hot-swap
-:keywords: reference, rule, Hot-swap
+:navtitle: Hot swap
+:keywords: reference, rule, Hot swap
 
-= Hot-swap
+= Hot swap
 
-Use `Hot-swap` rather than `%s`.
+Use `hot swap` rather than `%s`.
 
 .Additional Resources
 

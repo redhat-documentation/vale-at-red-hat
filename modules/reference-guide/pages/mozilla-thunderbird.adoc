@@ -1,9 +1,9 @@
-:navtitle: Mozilla-Thunderbird
-:keywords: reference, rule, Mozilla-Thunderbird
+:navtitle: Mozilla Thunderbird
+:keywords: reference, rule, Mozilla Thunderbird
 
-= Mozilla-Thunderbird
+= Mozilla Thunderbird
 
-Use `Mozilla-Thunderbird` rather than `%s`.
+Use `Mozilla Thunderbird` rather than `%s`.
 
 .Additional Resources
 

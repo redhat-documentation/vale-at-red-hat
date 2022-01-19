@@ -1,9 +1,9 @@
-:navtitle: Command-language
-:keywords: reference, rule, Command-language
+:navtitle: Command language
+:keywords: reference, rule, Command language
 
-= Command-language
+= Command language
 
-Use `Command-language` rather than `%s`.
+Use `command language` rather than `%s`.
 
 .Additional Resources
 

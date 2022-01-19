@@ -1,9 +1,9 @@
-:navtitle: Hypervisor
-:keywords: reference, rule, Hypervisor
+:navtitle: hypervisor
+:keywords: reference, rule, hypervisor
 
 = Hypervisor
 
-Use `Hypervisor` rather than `%s`.
+Use `hypervisor` rather than `%s`.
 
 .Additional Resources
 

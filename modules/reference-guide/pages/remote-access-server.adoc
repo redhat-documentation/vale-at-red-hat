@@ -1,9 +1,9 @@
-:navtitle: Remote-Access-Server
-:keywords: reference, rule, Remote-Access-Server
+:navtitle: Remote Access Server
+:keywords: reference, rule, Remote Access Server
 
-= Remote-Access-Server
+= Remote Access Server
 
-Use `Remote-Access-Server` rather than `%s`.
+Use `Remote Access Server` rather than `%s`.
 
 .Additional Resources
 

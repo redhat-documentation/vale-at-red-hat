@@ -1,9 +1,9 @@
-:navtitle: Popup
-:keywords: reference, rule, Popup
+:navtitle: Pop-up
+:keywords: reference, rule, Pop-up
 
-= Popup
+= Pop-up
 
-Use `Popup` rather than `%s`.
+Use `pop-up` rather than `%s`.
 
 .Additional Resources
 

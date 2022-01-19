@@ -1,9 +1,9 @@
-:navtitle: Kernel-oops
-:keywords: reference, rule, Kernel-oops
+:navtitle: Kernel oops
+:keywords: reference, rule, Kernel oops
 
-= Kernel-oops
+= Kernel oops
 
-Use `Kernel-oops` rather than `%s`.
+Use `Kernel oops` rather than `%s`.
 
 .Additional Resources
 

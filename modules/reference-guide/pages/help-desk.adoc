@@ -1,9 +1,9 @@
-:navtitle: Help-desk
-:keywords: reference, rule, Help-desk
+:navtitle: Help desk
+:keywords: reference, rule, Help desk
 
-= Help-desk
+= Help desk
 
-Use `Help-desk` rather than `%s`.
+Use `help desk` rather than `%s`.
 
 .Additional Resources
 

@@ -1,9 +1,9 @@
-:navtitle: Data-center
-:keywords: reference, rule, Data-center
+:navtitle: Data center
+:keywords: reference, rule, Data center
 
-= Data-center
+= Data center
 
-Use `Data-center` rather than `%s`.
+Use `data center` rather than `%s`.
 
 .Additional Resources
 

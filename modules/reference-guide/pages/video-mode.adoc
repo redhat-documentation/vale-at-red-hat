@@ -1,9 +1,9 @@
-:navtitle: Video-mode
-:keywords: reference, rule, Video-mode
+:navtitle: Video mode
+:keywords: reference, rule, video mode
 
-= Video-mode
+= Video mode
 
-Use `Video-mode` rather than `%s`.
+Use `video mode` rather than `%s`.
 
 .Additional Resources
 

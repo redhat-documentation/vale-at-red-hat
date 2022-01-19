@@ -1,5 +1,5 @@
-:navtitle: Client-side
-:keywords: reference, rule, Client-side
+:navtitle: Client-side versus client side
+:keywords: reference, rule, client-side, client side
 
 = Client-side
 

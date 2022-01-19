@@ -1,0 +1,11 @@
+:navtitle: correct
+:keywords: reference, rule, correct
+
+= Correct
+
+Use `correct` or `as expected` rather than `alright`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[]
+

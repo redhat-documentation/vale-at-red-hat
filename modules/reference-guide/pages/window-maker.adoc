@@ -1,9 +1,9 @@
-:navtitle: Window-Maker
-:keywords: reference, rule, Window-Maker
+:navtitle: Window Maker
+:keywords: reference, rule, Window Maker
 
-= Window-Maker
+= Window Maker
 
-Use `Window-Maker` rather than `%s`.
+Use `Window Maker` rather than `%s`.
 
 .Additional Resources
 

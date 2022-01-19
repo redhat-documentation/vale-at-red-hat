@@ -1,9 +1,9 @@
-:navtitle: Web-UI
-:keywords: reference, rule, Web-UI
+:navtitle: web UI
+:keywords: reference, rule, web UI
 
-= Web-UI
+= web UI
 
-Use `Web-UI` rather than `%s`.
+Use `web UI` rather than `%s`.
 
 .Additional Resources
 

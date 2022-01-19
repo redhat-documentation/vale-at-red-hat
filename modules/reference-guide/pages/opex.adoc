@@ -1,9 +1,9 @@
-:navtitle: OpEX
-:keywords: reference, rule, OpEX
+:navtitle: OpEx
+:keywords: reference, rule, OpEx
 
-= OpEX
+= OpEx
 
-Use `OpEX` rather than `%s`.
+Use `OpEx` rather than `%s`.
 
 .Additional Resources
 

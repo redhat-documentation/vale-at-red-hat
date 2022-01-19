@@ -1,11 +1,11 @@
 ---
 extends: substitution
-message: Consider using %s instead of '%s'
+message: Consider using %s rather than '%s'
 link: http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm
 ignorecase: true
 level: warning
 swap:
-  'approximate(?:ly)?': "'about'"
+  "approximate(?:ly)?": "'about'"
   absent: "'none' or 'not here'"
   abundance: "'plenty'"
   accelerate: "'speed up'"

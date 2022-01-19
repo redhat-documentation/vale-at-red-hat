@@ -1,9 +1,9 @@
-:navtitle: Time-frame
-:keywords: reference, rule, Time-frame
+:navtitle: Time frame
+:keywords: reference, rule, time frame
 
-= Time-frame
+= Time frame
 
-Use `Time-frame` rather than `%s`.
+Use `time frame` rather than `%s`.
 
 .Additional Resources
 

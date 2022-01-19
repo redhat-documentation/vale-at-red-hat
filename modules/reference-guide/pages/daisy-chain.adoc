@@ -1,9 +1,9 @@
-:navtitle: Daisy-chain
-:keywords: reference, rule, Daisy-chain
+:navtitle: Daisy chain
+:keywords: reference, rule, daisy chain
 
-= Daisy-chain
+= Daisy chain
 
-Use `Daisy-chain` rather than `%s`.
+Use `daisy chain` rather than `%s`.
 
 .Additional Resources
 

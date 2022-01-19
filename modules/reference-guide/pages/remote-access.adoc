@@ -1,9 +1,9 @@
-:navtitle: Remote-Access
-:keywords: reference, rule, Remote-Access
+:navtitle: Remote Access
+:keywords: reference, rule, remote access
 
-= Remote-Access
+= Remote access
 
-Use `Remote-Access` rather than `%s`.
+Use `remote access` rather than `%s`.
 
 .Additional Resources
 

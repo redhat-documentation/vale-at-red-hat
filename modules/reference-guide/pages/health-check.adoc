@@ -1,9 +1,9 @@
-:navtitle: Health-check
-:keywords: reference, rule, Health-check
+:navtitle: Health check
+:keywords: reference, rule, Health check
 
-= Health-check
+= Health check
 
-Use `Health-check` rather than `%s`.
+Use `health check` rather than `%s`.
 
 .Additional Resources
 

@@ -1,9 +1,9 @@
-:navtitle: Sound-card
-:keywords: reference, rule, Sound-card
+:navtitle: Sound card
+:keywords: reference, rule, sound card
 
-= Sound-card
+= Sound card
 
-Use `Sound-card` rather than `%s`.
+Use `sound card` rather than `%s`.
 
 .Additional Resources
 

@@ -1,9 +1,9 @@
-:navtitle: Objective-C
-:keywords: reference, rule, Objective-C
+:navtitle: Objective C
+:keywords: reference, rule, Objective C
 
-= Objective-C
+= Objective C
 
-Use `Objective-C` rather than `%s`.
+Use `Objective C` rather than `%s`.
 
 .Additional Resources
 

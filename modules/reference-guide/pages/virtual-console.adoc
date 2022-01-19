@@ -1,9 +1,9 @@
-:navtitle: Virtual-console
-:keywords: reference, rule, Virtual-console
+:navtitle: Virtual console
+:keywords: reference, rule, Virtual console
 
-= Virtual-console
+= Virtual console
 
-Use `Virtual-console` rather than `%s`.
+Use `virtual console` rather than `%s`.
 
 .Additional Resources
 

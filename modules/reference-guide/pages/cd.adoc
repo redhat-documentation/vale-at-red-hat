@@ -1,7 +1,7 @@
-:navtitle: CD
-:keywords: reference, rule, CD
+:navtitle: CD versus cd
+:keywords: reference, rule, CD, cd
 
-= CD
+= CD versus cd
 
 Use `cd` for the `change directory` command. Use `CD` as acronym for `compact disc`.
 
