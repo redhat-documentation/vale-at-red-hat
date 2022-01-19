@@ -1,9 +1,11 @@
-:navtitle: xterm
-:keywords: reference, rule, xterm
+:navtitle: Xterm
+:keywords: reference, rule, Xterm
 
-= xterm
+= Xterm
 
-Use 'xterm' rather than '%s'.
+Use `Xterm` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#xterm[]
 

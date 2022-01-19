@@ -1,9 +1,11 @@
-:navtitle: app
-:keywords: reference, rule, app
+:navtitle: App
+:keywords: reference, rule, App
 
-= app
+= App
 
-Use 'app' rather than '%s'.
+Use `App` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#app[]
 

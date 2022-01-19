@@ -1,9 +1,0 @@
-:navtitle: desktop-n
-:keywords: reference, rule, desktop-n
-
-= desktop-n
-
-Use 'desktop-n' rather than '%s'.
-
-
-

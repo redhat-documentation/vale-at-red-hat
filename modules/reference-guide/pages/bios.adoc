@@ -1,9 +1,11 @@
-:navtitle: bios
-:keywords: reference, rule, bios
+:navtitle: BIOS
+:keywords: reference, rule, BIOS
 
-= bios
+= BIOS
 
-Use 'bios' rather than '%s'.
+Use `BIOS` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bios[]
 

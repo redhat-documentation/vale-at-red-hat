@@ -1,9 +1,11 @@
-:navtitle: throughput
-:keywords: reference, rule, throughput
+:navtitle: Throughput
+:keywords: reference, rule, Throughput
 
-= throughput
+= Throughput
 
-Use 'throughput' rather than '%s'.
+Use `Throughput` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#throughput[]
 

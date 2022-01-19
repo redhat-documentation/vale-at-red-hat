@@ -1,9 +1,0 @@
-:navtitle: Using
-:keywords: reference, rule, Using
-
-= Using
-
-To avoid ambiguity, replace this gerund with either 'by using' or 'that uses'.
-
-
-

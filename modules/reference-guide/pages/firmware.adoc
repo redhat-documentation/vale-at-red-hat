@@ -1,9 +1,11 @@
-:navtitle: firmware
-:keywords: reference, rule, firmware
+:navtitle: Firmware
+:keywords: reference, rule, Firmware
 
-= firmware
+= Firmware
 
-Use 'firmware' rather than '%s'.
+Use `Firmware` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#firmware[]
 

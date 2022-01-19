@@ -1,9 +1,11 @@
-:navtitle: write
-:keywords: reference, rule, write
+:navtitle: Write
+:keywords: reference, rule, Write
 
-= write
+= Write
 
-Use 'write' rather than '%s' as a verb.
+Use `Write` rather than `%s` as a verb.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#write[]
 

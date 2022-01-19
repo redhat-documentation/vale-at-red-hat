@@ -1,9 +1,11 @@
-:navtitle: shell-prompt
-:keywords: reference, rule, shell-prompt
+:navtitle: Shell-prompt
+:keywords: reference, rule, Shell-prompt
 
-= shell-prompt
+= Shell-prompt
 
-Use 'shell-prompt' rather than '%s'.
+Use `Shell-prompt` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[]
 

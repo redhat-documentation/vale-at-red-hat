@@ -1,9 +1,0 @@
-:navtitle: broadcast-n
-:keywords: reference, rule, broadcast-n
-
-= broadcast-n
-
-Use 'broadcast-n' rather than '%s'.
-
-
-

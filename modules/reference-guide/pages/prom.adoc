@@ -1,9 +1,11 @@
-:navtitle: prom
-:keywords: reference, rule, prom
+:navtitle: PROM
+:keywords: reference, rule, PROM
 
-= prom
+= PROM
 
-Use 'prom' rather than '%s'.
+Use `PROM` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#prom[]
 

@@ -1,9 +1,11 @@
-:navtitle: gpl
-:keywords: reference, rule, gpl
+:navtitle: GPL
+:keywords: reference, rule, GPL
 
-= gpl
+= GPL
 
-Use 'gpl' rather than '%s'.
+Use `GPL` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gpl[]
 

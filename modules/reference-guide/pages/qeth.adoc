@@ -1,9 +1,11 @@
-:navtitle: qeth
-:keywords: reference, rule, qeth
+:navtitle: Qeth
+:keywords: reference, rule, Qeth
 
-= qeth
+= Qeth
 
-Use 'qeth' rather than '%s'.
+Use `Qeth` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#qeth[]
 

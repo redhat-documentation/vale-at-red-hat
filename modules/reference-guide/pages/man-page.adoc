@@ -1,9 +1,11 @@
-:navtitle: man-page
-:keywords: reference, rule, man-page
+:navtitle: Man-page
+:keywords: reference, rule, Man-page
 
-= man-page
+= Man-page
 
-Use 'man-page' rather than '%s'.
+Use `Man-page` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#man-page[]
 

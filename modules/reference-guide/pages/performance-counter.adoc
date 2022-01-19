@@ -1,9 +1,11 @@
-:navtitle: performance-counter
-:keywords: reference, rule, performance-counter
+:navtitle: Performance-counter
+:keywords: reference, rule, Performance-counter
 
-= performance-counter
+= Performance-counter
 
-Use 'performance-counter' rather than '%s'.
+Use `Performance-counter` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#performance-counter[]
 

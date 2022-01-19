@@ -1,9 +1,11 @@
-:navtitle: qcow2
-:keywords: reference, rule, qcow2
+:navtitle: QCOW2
+:keywords: reference, rule, QCOW2
 
-= qcow2
+= QCOW2
 
-Use 'qcow2' rather than '%s'.
+Use `QCOW2` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#qcow2[]
 

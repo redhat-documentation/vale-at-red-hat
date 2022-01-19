@@ -1,9 +1,11 @@
-:navtitle: hot-swap
-:keywords: reference, rule, hot-swap
+:navtitle: Hot-swap
+:keywords: reference, rule, Hot-swap
 
-= hot-swap
+= Hot-swap
 
-Use 'hot-swap' rather than '%s'.
+Use `Hot-swap` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-swap[]
 

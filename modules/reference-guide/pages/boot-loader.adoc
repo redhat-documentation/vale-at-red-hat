@@ -1,9 +1,11 @@
-:navtitle: boot-loader
-:keywords: reference, rule, boot-loader
+:navtitle: Boot-loader
+:keywords: reference, rule, Boot-loader
 
-= boot-loader
+= Boot-loader
 
-Use 'boot-loader' rather than '%s'.
+Use `Boot-loader` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#boot-loader[]
 

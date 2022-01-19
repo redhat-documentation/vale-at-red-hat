@@ -1,9 +1,11 @@
-:navtitle: kernel-oops
-:keywords: reference, rule, kernel-oops
+:navtitle: Kernel-oops
+:keywords: reference, rule, Kernel-oops
 
-= kernel-oops
+= Kernel-oops
 
-Use 'kernel-oops' rather than '%s'.
+Use `Kernel-oops` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops[]
 

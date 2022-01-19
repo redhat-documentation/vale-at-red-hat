@@ -1,9 +1,11 @@
-:navtitle: ibm-s-390
-:keywords: reference, rule, ibm-s-390
+:navtitle: IBM-S-390
+:keywords: reference, rule, IBM-S-390
 
-= ibm-s-390
+= IBM-S-390
 
-Use 'ibm-s-390' rather than '%s'.
+Use `IBM-S-390` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-s-390[]
 

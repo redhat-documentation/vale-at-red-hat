@@ -1,9 +1,11 @@
-:navtitle: omit
-:keywords: reference, rule, omit
+:navtitle: Omit
+:keywords: reference, rule, Omit
 
-= omit
+= Omit
 
-Use 'omit' rather than '%s'.
+Use `Omit` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#omit[]
 

@@ -1,9 +1,11 @@
-:navtitle: swap-space
-:keywords: reference, rule, swap-space
+:navtitle: Swap-space
+:keywords: reference, rule, Swap-space
 
-= swap-space
+= Swap-space
 
-Use 'swap-space' rather than '%s'.
+Use `Swap-space` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#swap-space[]
 

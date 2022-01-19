@@ -1,9 +1,11 @@
-:navtitle: hard-coded
-:keywords: reference, rule, hard-coded
+:navtitle: Hard-coded
+:keywords: reference, rule, Hard-coded
 
-= hard-coded
+= Hard-coded
 
-Use 'hard-coded' rather than '%s'.
+Use `Hard-coded` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-coded[]
 

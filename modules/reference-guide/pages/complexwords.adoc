@@ -1,0 +1,11 @@
+:navtitle: ComplexWords
+:keywords: reference, rule, ComplexWords
+
+= ComplexWords
+
+message: Consider using ComplexWords instead of `%s`
+
+.Additional Resources
+
+* link:http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm[]
+

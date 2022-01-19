@@ -1,9 +1,11 @@
-:navtitle: bottleneck
-:keywords: reference, rule, bottleneck
+:navtitle: Bottleneck
+:keywords: reference, rule, Bottleneck
 
-= bottleneck
+= Bottleneck
 
-Use 'bottleneck' rather than '%s'.
+Use `Bottleneck` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bottleneck[]
 

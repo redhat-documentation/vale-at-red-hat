@@ -1,9 +1,11 @@
-:navtitle: dns
-:keywords: reference, rule, dns
+:navtitle: DNS
+:keywords: reference, rule, DNS
 
-= dns
+= DNS
 
-Use 'dns' rather than '%s'.
+Use `DNS` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#dns[]
 

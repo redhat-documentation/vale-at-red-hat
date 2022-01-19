@@ -1,9 +1,11 @@
-:navtitle: hostname
-:keywords: reference, rule, hostname
+:navtitle: Hostname
+:keywords: reference, rule, Hostname
 
-= hostname
+= Hostname
 
-Use 'hostname' rather than 'host name' unless updating existing content that uses 'host name'.
+Use `Hostname` rather than `%s` unless updating existing content that uses `host name`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/hostname/[]
 

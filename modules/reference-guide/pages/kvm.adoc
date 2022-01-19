@@ -1,9 +1,11 @@
-:navtitle: kvm
-:keywords: reference, rule, kvm
+:navtitle: KVM
+:keywords: reference, rule, KVM
 
-= kvm
+= KVM
 
-Use 'kvm' rather than '%s'.
+Use `KVM` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#kvm[]
 

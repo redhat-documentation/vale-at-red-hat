@@ -1,0 +1,11 @@
+:navtitle: Terms
+:keywords: reference, rule, Terms
+
+= Terms
+
+message: Consider using `Terms` rather than `%s`
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+

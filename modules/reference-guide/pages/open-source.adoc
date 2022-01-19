@@ -1,9 +1,11 @@
-:navtitle: open-source
-:keywords: reference, rule, open-source
+:navtitle: Open-source
+:keywords: reference, rule, Open-source
 
-= open-source
+= Open-source
 
-Use 'open-source' rather than '%s'.
+Use `Open-source` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#open-source[]
 

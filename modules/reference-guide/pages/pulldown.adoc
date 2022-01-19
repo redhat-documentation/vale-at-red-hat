@@ -1,9 +1,11 @@
-:navtitle: pulldown
-:keywords: reference, rule, pulldown
+:navtitle: Pulldown
+:keywords: reference, rule, Pulldown
 
-= pulldown
+= Pulldown
 
-Use 'pulldown' rather than '%s'.
+Use `Pulldown` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#pulldown[]
 

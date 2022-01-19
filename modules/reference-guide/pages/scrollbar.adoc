@@ -1,9 +1,11 @@
-:navtitle: scrollbar
-:keywords: reference, rule, scrollbar
+:navtitle: Scrollbar
+:keywords: reference, rule, Scrollbar
 
-= scrollbar
+= Scrollbar
 
-Use 'scrollbar' rather than '%s'.
+Use `Scrollbar` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#scrollbar[]
 

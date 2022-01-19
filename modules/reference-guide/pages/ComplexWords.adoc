@@ -1,9 +1,0 @@
-:navtitle: ComplexWords
-:keywords: reference, rule, ComplexWords
-
-= ComplexWords
-
-message: Consider using ComplexWords instead of '%s'
-
-
-

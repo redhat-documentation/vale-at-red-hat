@@ -1,9 +1,0 @@
-:navtitle: Spelling
-:keywords: reference, rule, Spelling
-
-= Spelling
-
-Use correct American English spelling. Did you really mean 'Spelling'?
-
-
-

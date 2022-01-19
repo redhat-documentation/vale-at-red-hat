@@ -1,9 +1,11 @@
-:navtitle: hotline
-:keywords: reference, rule, hotline
+:navtitle: Hotline
+:keywords: reference, rule, Hotline
 
-= hotline
+= Hotline
 
-Use 'hotline' rather than '%s'.
+Use `Hotline` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hotline[]
 

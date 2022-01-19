@@ -1,9 +1,11 @@
-:navtitle: startx
-:keywords: reference, rule, startx
+:navtitle: Startx
+:keywords: reference, rule, Startx
 
-= startx
+= Startx
 
-Use 'startx' rather than '%s'.
+Use `Startx` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#startx[]
 

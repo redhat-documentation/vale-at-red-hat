@@ -1,9 +1,11 @@
-:navtitle: gimp
-:keywords: reference, rule, gimp
+:navtitle: GIMP
+:keywords: reference, rule, GIMP
 
-= gimp
+= GIMP
 
-Use 'gimp' rather than '%s'.
+Use `GIMP` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gimp[]
 

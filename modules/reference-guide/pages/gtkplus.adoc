@@ -1,9 +1,11 @@
-:navtitle: gtkplus
-:keywords: reference, rule, gtkplus
+:navtitle: GTKplus
+:keywords: reference, rule, GTKplus
 
-= gtkplus
+= GTKplus
 
-Use 'gtkplus' rather than '%s'.
+Use `GTKplus` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gtkplus[]
 

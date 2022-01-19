@@ -1,0 +1,11 @@
+:navtitle: CD
+:keywords: reference, rule, CD
+
+= CD
+
+Use `cd` for the `change directory` command. Use `CD` as acronym for `compact disc`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cd-command[]
+

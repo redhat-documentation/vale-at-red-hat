@@ -1,9 +1,0 @@
-:navtitle: daisy-chain-n
-:keywords: reference, rule, daisy-chain-n
-
-= daisy-chain-n
-
-Use 'daisy-chain-n' rather than '%s'.
-
-
-

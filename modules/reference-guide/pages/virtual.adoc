@@ -1,9 +1,11 @@
-:navtitle: virtual
-:keywords: reference, rule, virtual
+:navtitle: Virtual
+:keywords: reference, rule, Virtual
 
-= virtual
+= Virtual
 
-Use 'virtual' rather than '%s'.
+Use `Virtual` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#virtual[]
 

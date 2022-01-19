@@ -1,9 +1,11 @@
-:navtitle: bug-fix
-:keywords: reference, rule, bug-fix
+:navtitle: Bug-fix
+:keywords: reference, rule, Bug-fix
 
-= bug-fix
+= Bug-fix
 
-Use 'bug-fix' rather than '%s'.
+Use `Bug-fix` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bug-fix[]
 

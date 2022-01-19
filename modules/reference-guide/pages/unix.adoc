@@ -1,9 +1,11 @@
-:navtitle: unix
-:keywords: reference, rule, unix
+:navtitle: UNIX
+:keywords: reference, rule, UNIX
 
-= unix
+= UNIX
 
-Use 'unix' rather than '%s'.
+Use `UNIX` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#unix[]
 

@@ -1,9 +1,11 @@
-:navtitle: verify
-:keywords: reference, rule, verify
+:navtitle: Verify
+:keywords: reference, rule, Verify
 
-= verify
+= Verify
 
-Use 'verify' rather than '%s'.
+Use `Verify` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#verify[]
 

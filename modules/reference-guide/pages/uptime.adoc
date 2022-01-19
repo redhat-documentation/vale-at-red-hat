@@ -1,9 +1,11 @@
-:navtitle: uptime
-:keywords: reference, rule, uptime
+:navtitle: Uptime
+:keywords: reference, rule, Uptime
 
-= uptime
+= Uptime
 
-Use 'uptime' rather than '%s'.
+Use `Uptime` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#uptime[]
 

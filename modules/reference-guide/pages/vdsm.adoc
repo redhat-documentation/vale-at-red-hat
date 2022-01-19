@@ -1,9 +1,11 @@
-:navtitle: vdsm
-:keywords: reference, rule, vdsm
+:navtitle: VDSM
+:keywords: reference, rule, VDSM
 
-= vdsm
+= VDSM
 
-Use 'vdsm' rather than '%s'.
+Use `VDSM` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vdsm[]
 

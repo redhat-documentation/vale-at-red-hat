@@ -1,9 +1,11 @@
-:navtitle: segmentation-fault
-:keywords: reference, rule, segmentation-fault
+:navtitle: Segmentation-fault
+:keywords: reference, rule, Segmentation-fault
 
-= segmentation-fault
+= Segmentation-fault
 
-Use 'segmentation-fault' rather than '%s'.
+Use `Segmentation-fault` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#segmentation-fault[]
 

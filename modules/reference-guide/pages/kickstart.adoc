@@ -1,9 +1,11 @@
-:navtitle: kickstart
-:keywords: reference, rule, kickstart
+:navtitle: Kickstart
+:keywords: reference, rule, Kickstart
 
-= kickstart
+= Kickstart
 
-Use 'kickstart' rather than '%s'.
+Use `Kickstart` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#kickstart[]
 

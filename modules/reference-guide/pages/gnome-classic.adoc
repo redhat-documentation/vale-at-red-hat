@@ -1,9 +1,11 @@
-:navtitle: gnome-classic
-:keywords: reference, rule, gnome-classic
+:navtitle: GNOME-Classic
+:keywords: reference, rule, GNOME-Classic
 
-= gnome-classic
+= GNOME-Classic
 
-Use 'gnome-classic' rather than '%s'.
+Use `GNOME-Classic` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gnome-classic[]
 

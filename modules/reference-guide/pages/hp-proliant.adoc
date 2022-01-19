@@ -1,9 +1,11 @@
-:navtitle: hp-proliant
-:keywords: reference, rule, hp-proliant
+:navtitle: HP-ProLiant
+:keywords: reference, rule, HP-ProLiant
 
-= hp-proliant
+= HP-ProLiant
 
-Use 'hp-proliant' rather than '%s'.
+Use `HP-ProLiant` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hp-proliant[]
 

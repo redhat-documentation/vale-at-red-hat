@@ -1,9 +1,11 @@
-:navtitle: upgrade
-:keywords: reference, rule, upgrade
+:navtitle: Upgrade
+:keywords: reference, rule, Upgrade
 
-= upgrade
+= Upgrade
 
-Use 'upgrade' rather than '%s'.
+Use `Upgrade` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#upgrade[]
 

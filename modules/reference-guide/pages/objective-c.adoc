@@ -1,9 +1,11 @@
-:navtitle: objective-c
-:keywords: reference, rule, objective-c
+:navtitle: Objective-C
+:keywords: reference, rule, Objective-C
 
-= objective-c
+= Objective-C
 
-Use 'objective-c' rather than '%s'.
+Use `Objective-C` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#objective-c[]
 

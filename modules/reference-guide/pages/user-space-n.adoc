@@ -1,9 +1,0 @@
-:navtitle: user-space-n
-:keywords: reference, rule, user-space-n
-
-= user-space-n
-
-Use 'user-space-n' rather than '%s'.
-
-
-

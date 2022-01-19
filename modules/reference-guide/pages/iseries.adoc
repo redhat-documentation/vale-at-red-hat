@@ -1,9 +1,11 @@
-:navtitle: iseries
-:keywords: reference, rule, iseries
+:navtitle: ISeries
+:keywords: reference, rule, ISeries
 
-= iseries
+= ISeries
 
-Use 'iseries' rather than '%s'.
+Use `ISeries` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#iseries[]
 

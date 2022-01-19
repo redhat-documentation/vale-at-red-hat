@@ -1,9 +1,11 @@
-:navtitle: selinux
-:keywords: reference, rule, selinux
+:navtitle: SELinux
+:keywords: reference, rule, SELinux
 
-= selinux
+= SELinux
 
-Use 'selinux' rather than '%s'.
+Use `SELinux` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#selinux[]
 

@@ -1,9 +1,11 @@
-:navtitle: server-farm
-:keywords: reference, rule, server-farm
+:navtitle: Server-farm
+:keywords: reference, rule, Server-farm
 
-= server-farm
+= Server-farm
 
-Use 'server-farm' rather than '%s'.
+Use `Server-farm` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#server-farm[]
 

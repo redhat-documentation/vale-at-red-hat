@@ -1,9 +1,11 @@
-:navtitle: alright
-:keywords: reference, rule, alright
+:navtitle: Alright
+:keywords: reference, rule, Alright
 
-= alright
+= Alright
 
-Use 'alright' rather than '%s'.
+Use `Alright` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[]
 

@@ -1,0 +1,11 @@
+:navtitle: HeadingPunctuation
+:keywords: reference, rule, HeadingPunctuation
+
+= HeadingPunctuation
+
+Don`t use end punctuation in headings.
+
+.Additional Resources
+
+* link:https://docs.microsoft.com/en-us/style-guide/punctuation/periods[]
+

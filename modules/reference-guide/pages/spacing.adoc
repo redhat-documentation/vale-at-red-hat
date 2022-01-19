@@ -1,0 +1,11 @@
+:navtitle: Spacing
+:keywords: reference, rule, Spacing
+
+= Spacing
+
+`Spacing` should have one space.
+
+.Additional Resources
+
+* link:https://docs.microsoft.com/en-us/style-guide/punctuation/periods[]
+

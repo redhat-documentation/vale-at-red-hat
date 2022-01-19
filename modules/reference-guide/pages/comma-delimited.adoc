@@ -1,9 +1,11 @@
-:navtitle: comma-delimited
-:keywords: reference, rule, comma-delimited
+:navtitle: Comma-delimited
+:keywords: reference, rule, Comma-delimited
 
-= comma-delimited
+= Comma-delimited
 
-Use 'comma-delimited' rather than '%s'.
+Use `Comma-delimited` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#comma-delimited[]
 

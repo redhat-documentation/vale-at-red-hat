@@ -1,9 +1,11 @@
-:navtitle: itanium
-:keywords: reference, rule, itanium
+:navtitle: Itanium
+:keywords: reference, rule, Itanium
 
-= itanium
+= Itanium
 
-Use 'itanium' rather than '%s'.
+Use `Itanium` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#itanium[]
 

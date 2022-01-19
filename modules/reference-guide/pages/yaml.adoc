@@ -1,9 +1,11 @@
-:navtitle: yaml
-:keywords: reference, rule, yaml
+:navtitle: YAML
+:keywords: reference, rule, YAML
 
-= yaml
+= YAML
 
-Use 'yaml' rather than '%s'.
+Use `YAML` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#yaml[]
 

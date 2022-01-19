@@ -1,9 +1,11 @@
-:navtitle: iso
-:keywords: reference, rule, iso
+:navtitle: ISO
+:keywords: reference, rule, ISO
 
-= iso
+= ISO
 
-Use 'iso' rather than '%s'.
+Use `ISO` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#iso[]
 

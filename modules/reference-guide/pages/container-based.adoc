@@ -1,9 +1,11 @@
-:navtitle: container-based
-:keywords: reference, rule, container-based
+:navtitle: Container-based
+:keywords: reference, rule, Container-based
 
-= container-based
+= Container-based
 
-Use 'container-based' rather than '%s'.
+Use `Container-based` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#container-based[]
 

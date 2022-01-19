@@ -1,9 +1,11 @@
-:navtitle: raw
-:keywords: reference, rule, raw
+:navtitle: Raw
+:keywords: reference, rule, Raw
 
-= raw
+= Raw
 
-Use 'raw' rather than '%s'.
+Use `Raw` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#raw[]
 

@@ -1,9 +1,11 @@
-:navtitle: ram
-:keywords: reference, rule, ram
+:navtitle: RAM
+:keywords: reference, rule, RAM
 
-= ram
+= RAM
 
-Use 'ram' rather than '%s'.
+Use `RAM` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ram[]
 

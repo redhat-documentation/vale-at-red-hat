@@ -1,9 +1,11 @@
-:navtitle: floating-point
-:keywords: reference, rule, floating-point
+:navtitle: Floating-point
+:keywords: reference, rule, Floating-point
 
-= floating-point
+= Floating-point
 
-Use 'floating-point' rather than '%s'.
+Use `Floating-point` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#floating-point[]
 

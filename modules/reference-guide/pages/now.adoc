@@ -1,9 +1,11 @@
-:navtitle: now
-:keywords: reference, rule, now
+:navtitle: Now
+:keywords: reference, rule, Now
 
-= now
+= Now
 
-Use 'now' rather than '%s'.
+Use `Now` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#now[]
 

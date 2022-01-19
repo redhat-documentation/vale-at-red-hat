@@ -1,9 +1,0 @@
-:navtitle: pseudoops
-:keywords: reference, rule, pseudoops
-
-= pseudoops
-
-Use 'pseudoops' rather than '%s'.
-
-
-

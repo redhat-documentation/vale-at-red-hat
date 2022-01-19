@@ -1,9 +1,11 @@
-:navtitle: grayscale
-:keywords: reference, rule, grayscale
+:navtitle: Grayscale
+:keywords: reference, rule, Grayscale
 
-= grayscale
+= Grayscale
 
-Use 'grayscale' rather than '%s'.
+Use `Grayscale` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#grayscale[]
 

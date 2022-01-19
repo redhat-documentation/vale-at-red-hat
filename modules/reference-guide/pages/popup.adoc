@@ -1,9 +1,11 @@
-:navtitle: popup
-:keywords: reference, rule, popup
+:navtitle: Popup
+:keywords: reference, rule, Popup
 
-= popup
+= Popup
 
-Use 'popup' rather than '%s'.
+Use `Popup` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#popup[]
 

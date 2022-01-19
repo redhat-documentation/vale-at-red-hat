@@ -1,9 +1,11 @@
-:navtitle: cloudbursting
-:keywords: reference, rule, cloudbursting
+:navtitle: Cloudbursting
+:keywords: reference, rule, Cloudbursting
 
-= cloudbursting
+= Cloudbursting
 
-Use 'cloudbursting' rather than '%s'.
+Use `Cloudbursting` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cloudbursting[]
 

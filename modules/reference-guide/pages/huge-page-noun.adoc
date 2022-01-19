@@ -1,9 +1,0 @@
-:navtitle: huge-page-noun
-:keywords: reference, rule, huge-page-noun
-
-= huge-page-noun
-
-Use 'huge-page-noun' rather than '%s'.
-
-
-

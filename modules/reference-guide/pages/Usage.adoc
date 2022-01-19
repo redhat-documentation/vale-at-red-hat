@@ -1,9 +1,0 @@
-:navtitle: Usage
-:keywords: reference, rule, Usage
-
-= Usage
-
-Verify your use of 'Usage' with the word usage guidelines.
-
-
-

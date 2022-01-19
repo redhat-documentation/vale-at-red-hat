@@ -1,9 +1,0 @@
-:navtitle: Terms
-:keywords: reference, rule, Terms
-
-= Terms
-
-message: Consider using 'Terms' rather than '%s'
-
-
-

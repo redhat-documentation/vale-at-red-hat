@@ -1,9 +1,11 @@
-:navtitle: ip
-:keywords: reference, rule, ip
+:navtitle: IP
+:keywords: reference, rule, IP
 
-= ip
+= IP
 
-Use 'ip' rather than '%s'.
+Use `IP` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ip[]
 

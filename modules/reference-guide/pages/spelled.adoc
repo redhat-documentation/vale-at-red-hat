@@ -1,9 +1,11 @@
-:navtitle: spelled
-:keywords: reference, rule, spelled
+:navtitle: Spelled
+:keywords: reference, rule, Spelled
 
-= spelled
+= Spelled
 
-Use 'spelled' rather than '%s'.
+Use `Spelled` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#spelled[]
 

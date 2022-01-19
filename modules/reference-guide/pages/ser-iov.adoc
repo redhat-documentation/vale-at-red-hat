@@ -1,9 +1,0 @@
-:navtitle: ser-iov
-:keywords: reference, rule, ser-iov
-
-= ser-iov
-
-Use 'ser-iov' rather than '%s'.
-
-
-

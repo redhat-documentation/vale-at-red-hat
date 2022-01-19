@@ -1,9 +1,11 @@
-:navtitle: gnome
-:keywords: reference, rule, gnome
+:navtitle: GNOME
+:keywords: reference, rule, GNOME
 
-= gnome
+= GNOME
 
-Use 'gnome' rather than '%s'.
+Use `GNOME` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gnome[]
 

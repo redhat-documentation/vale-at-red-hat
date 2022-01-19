@@ -1,9 +1,11 @@
-:navtitle: rpm
-:keywords: reference, rule, rpm
+:navtitle: RPM
+:keywords: reference, rule, RPM
 
-= rpm
+= RPM
 
-Use 'rpm' rather than '%s'.
+Use `RPM` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#rpm[]
 

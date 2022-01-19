@@ -1,9 +1,0 @@
-:navtitle: Airlinese
-:keywords: reference, rule, Airlinese
-
-= Airlinese
-
-'Airlinese' is airlinese.
-
-
-

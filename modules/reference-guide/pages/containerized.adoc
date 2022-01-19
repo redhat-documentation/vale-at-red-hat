@@ -1,9 +1,11 @@
-:navtitle: containerized
-:keywords: reference, rule, containerized
+:navtitle: Containerized
+:keywords: reference, rule, Containerized
 
-= containerized
+= Containerized
 
-Use 'containerized' rather than '%s'.
+Use `Containerized` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#containerized[]
 

@@ -1,9 +1,11 @@
-:navtitle: menu-driven
-:keywords: reference, rule, menu-driven
+:navtitle: Menu-driven
+:keywords: reference, rule, Menu-driven
 
-= menu-driven
+= Menu-driven
 
-Use 'menu-driven' rather than '%s'.
+Use `Menu-driven` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#menu-driven[]
 

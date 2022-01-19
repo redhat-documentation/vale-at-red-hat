@@ -1,9 +1,11 @@
-:navtitle: ok
-:keywords: reference, rule, ok
+:navtitle: OK
+:keywords: reference, rule, OK
 
-= ok
+= OK
 
-Use 'ok' rather than '%s'.
+Use `OK` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ok[]
 

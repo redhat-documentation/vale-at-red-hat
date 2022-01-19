@@ -1,9 +1,11 @@
-:navtitle: mysql
-:keywords: reference, rule, mysql
+:navtitle: MySQL
+:keywords: reference, rule, MySQL
 
-= mysql
+= MySQL
 
-Use 'mysql' rather than '%s'.
+Use `MySQL` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#mysql[]
 

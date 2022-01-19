@@ -1,9 +1,11 @@
-:navtitle: upsell
-:keywords: reference, rule, upsell
+:navtitle: Upsell
+:keywords: reference, rule, Upsell
 
-= upsell
+= Upsell
 
-Use 'upsell' rather than '%s'.
+Use `Upsell` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#upsell[]
 

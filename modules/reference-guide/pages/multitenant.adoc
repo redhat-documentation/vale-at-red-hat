@@ -1,9 +1,11 @@
-:navtitle: multitenant
-:keywords: reference, rule, multitenant
+:navtitle: Multitenant
+:keywords: reference, rule, Multitenant
 
-= multitenant
+= Multitenant
 
-Use 'multitenant' rather than '%s'.
+Use `Multitenant` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#multitenant[]
 

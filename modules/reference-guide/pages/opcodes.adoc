@@ -1,9 +1,11 @@
-:navtitle: opcodes
-:keywords: reference, rule, opcodes
+:navtitle: Opcodes
+:keywords: reference, rule, Opcodes
 
-= opcodes
+= Opcodes
 
-Use 'opcodes' rather than '%s'.
+Use `Opcodes` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#opcodes[]
 

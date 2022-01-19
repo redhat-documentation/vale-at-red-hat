@@ -1,9 +1,11 @@
-:navtitle: sound-card
-:keywords: reference, rule, sound-card
+:navtitle: Sound-card
+:keywords: reference, rule, Sound-card
 
-= sound-card
+= Sound-card
 
-Use 'sound-card' rather than '%s'.
+Use `Sound-card` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#sound-card[]
 

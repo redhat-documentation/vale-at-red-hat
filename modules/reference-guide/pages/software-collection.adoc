@@ -1,9 +1,11 @@
-:navtitle: software-collection
-:keywords: reference, rule, software-collection
+:navtitle: Software-collection
+:keywords: reference, rule, Software-collection
 
-= software-collection
+= Software-collection
 
-Use 'software-collection' rather than '%s'.
+Use `Software-collection` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#software-collection[]
 

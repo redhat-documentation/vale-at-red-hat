@@ -1,9 +1,11 @@
-:navtitle: data-mirroring
-:keywords: reference, rule, data-mirroring
+:navtitle: Data-mirroring
+:keywords: reference, rule, Data-mirroring
 
-= data-mirroring
+= Data-mirroring
 
-Use 'data-mirroring' rather than '%s'.
+Use `Data-mirroring` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#data-mirroring[]
 

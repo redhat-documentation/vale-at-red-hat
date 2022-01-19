@@ -1,9 +1,0 @@
-:navtitle: upstream-adj
-:keywords: reference, rule, upstream-adj
-
-= upstream-adj
-
-Use 'upstream-adj' rather than '%s'.
-
-
-

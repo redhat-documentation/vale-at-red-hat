@@ -1,9 +1,11 @@
-:navtitle: source-navigator
-:keywords: reference, rule, source-navigator
+:navtitle: Source-navigator
+:keywords: reference, rule, Source-navigator
 
-= source-navigator
+= Source-navigator
 
-Use 'source-navigator' rather than '%s'.
+Use `Source-navigator` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#source-navigator[]
 

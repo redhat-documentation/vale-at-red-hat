@@ -1,9 +1,11 @@
-:navtitle: built-in
-:keywords: reference, rule, built-in
+:navtitle: Built-in
+:keywords: reference, rule, Built-in
 
-= built-in
+= Built-in
 
-Use 'built-in' rather than '%s'.
+Use `Built-in` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#built-in[]
 

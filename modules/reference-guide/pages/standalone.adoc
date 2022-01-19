@@ -1,9 +1,11 @@
-:navtitle: standalone
-:keywords: reference, rule, standalone
+:navtitle: Standalone
+:keywords: reference, rule, Standalone
 
-= standalone
+= Standalone
 
-Use 'standalone' rather than '%s'.
+Use `Standalone` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#standalone[]
 

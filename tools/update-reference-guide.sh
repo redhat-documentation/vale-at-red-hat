@@ -13,16 +13,17 @@ set -e
 # This scripts creates a default reference page for each rule and updates the Reference guide navigation.
 
 createPage() {
-    echo "Creating $PAGE"
-    MESSAGE=$(grep "^message:" ".vale/styles/RedHat/$RULE.yml" | cut -d'"' -f2 | sed "s/%s/${RULE}/")
+    echo "Creating $PAGEFULLPATH"
+    MESSAGE=$(grep "^message:" ".vale/styles/RedHat/$RULE.yml" | cut -d'"' -f2 | sed "s/%s/${RULE}/;s/'/\`/g")
+    ADDITIONAL=''
     LINK=$(grep "^link:" ".vale/styles/RedHat/$RULE.yml" | cut -d' ' -f2 | sed "s/'//g;s/\"//g")
-    if [ ! -z "$LINK" ]
-    then local ADDITIONAL=".Additional Resources
+    if [ -n "$LINK" ]
+    then ADDITIONAL=".Additional Resources
 
 * link:${LINK}[]"
     fi
 
-    cat <<EOF > "$PAGE"
+    cat <<EOF > "$PAGEFULLPATH"
 :navtitle: $RULE
 :keywords: reference, rule, $RULE
 
@@ -37,13 +38,14 @@ EOF
 
 for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -f1 | sort)
 do
-    PAGE="modules/reference-guide/pages/$RULE.adoc"
-    if [ ! -f "$PAGE" ]
+    PAGENAME=$(echo "$RULE" | tr '[:upper:]' '[:lower:]' )
+    PAGEFULLPATH="modules/reference-guide/pages/$PAGENAME.adoc"
+    if [ ! -f "$PAGEFULLPATH" ]
     then
         createPage
     fi
     NAVCONTENT="$NAVCONTENT
-* xref:$RULE.adoc[]"
+* xref:$PAGENAME.adoc[]"
 done
 
 printf ".xref:reference-guide.adoc[Reference guide]\n%s" "$NAVCONTENT" > "modules/reference-guide/nav.adoc"

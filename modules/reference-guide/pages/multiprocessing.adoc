@@ -1,9 +1,11 @@
-:navtitle: multiprocessing
-:keywords: reference, rule, multiprocessing
+:navtitle: Multiprocessing
+:keywords: reference, rule, Multiprocessing
 
-= multiprocessing
+= Multiprocessing
 
-Use 'multiprocessing' rather than '%s'.
+Use `Multiprocessing` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#multiprocessing[]
 

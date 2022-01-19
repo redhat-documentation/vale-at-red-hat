@@ -1,9 +1,11 @@
-:navtitle: insecure
-:keywords: reference, rule, insecure
+:navtitle: Insecure
+:keywords: reference, rule, Insecure
 
-= insecure
+= Insecure
 
-Use 'insecure' rather than '%s'.
+Use `Insecure` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#insecure[]
 

@@ -1,9 +1,11 @@
-:navtitle: wan
-:keywords: reference, rule, wan
+:navtitle: WAN
+:keywords: reference, rule, WAN
 
-= wan
+= WAN
 
-Use 'wan' rather than '%s'.
+Use `WAN` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#wan[]
 

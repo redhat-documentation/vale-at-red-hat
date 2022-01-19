@@ -1,9 +1,11 @@
-:navtitle: hypervisor
-:keywords: reference, rule, hypervisor
+:navtitle: Hypervisor
+:keywords: reference, rule, Hypervisor
 
-= hypervisor
+= Hypervisor
 
-Use 'hypervisor' rather than '%s'.
+Use `Hypervisor` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hypervisor[]
 

@@ -1,9 +1,11 @@
-:navtitle: hyperconverged
-:keywords: reference, rule, hyperconverged
+:navtitle: Hyperconverged
+:keywords: reference, rule, Hyperconverged
 
-= hyperconverged
+= Hyperconverged
 
-Use 'hyperconverged' rather than '%s'.
+Use `Hyperconverged` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hyperconverged[]
 

@@ -1,9 +1,0 @@
-:navtitle: cloud-n
-:keywords: reference, rule, cloud-n
-
-= cloud-n
-
-Use 'cloud-n' rather than '%s'.
-
-
-

@@ -1,9 +1,11 @@
-:navtitle: mozilla-thunderbird
-:keywords: reference, rule, mozilla-thunderbird
+:navtitle: Mozilla-Thunderbird
+:keywords: reference, rule, Mozilla-Thunderbird
 
-= mozilla-thunderbird
+= Mozilla-Thunderbird
 
-Use 'mozilla-thunderbird' rather than '%s'.
+Use `Mozilla-Thunderbird` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-thunderbird[]
 

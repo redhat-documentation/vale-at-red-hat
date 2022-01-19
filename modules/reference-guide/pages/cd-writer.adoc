@@ -1,9 +1,11 @@
-:navtitle: cd-writer
-:keywords: reference, rule, cd-writer
+:navtitle: CD-writer
+:keywords: reference, rule, CD-writer
 
-= cd-writer
+= CD-writer
 
-Use 'cd-writer' rather than '%s'.
+Use `CD-writer` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cd-writer[]
 

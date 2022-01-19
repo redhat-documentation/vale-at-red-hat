@@ -1,9 +1,0 @@
-:navtitle: Annotations
-:keywords: reference, rule, Annotations
-
-= Annotations
-
-'Annotations' left in text.
-
-
-

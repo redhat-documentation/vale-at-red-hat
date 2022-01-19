@@ -1,9 +1,11 @@
-:navtitle: ppp
-:keywords: reference, rule, ppp
+:navtitle: PPP
+:keywords: reference, rule, PPP
 
-= ppp
+= PPP
 
-Use 'ppp' rather than '%s'.
+Use `PPP` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ppp[]
 

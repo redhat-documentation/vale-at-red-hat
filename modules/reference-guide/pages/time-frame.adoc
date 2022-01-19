@@ -1,9 +1,11 @@
-:navtitle: time-frame
-:keywords: reference, rule, time-frame
+:navtitle: Time-frame
+:keywords: reference, rule, Time-frame
 
-= time-frame
+= Time-frame
 
-Use 'time-frame' rather than '%s'.
+Use `Time-frame` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#time-frame[]
 

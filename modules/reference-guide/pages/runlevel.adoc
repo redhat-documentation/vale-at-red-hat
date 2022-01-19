@@ -1,9 +1,11 @@
-:navtitle: runlevel
-:keywords: reference, rule, runlevel
+:navtitle: Runlevel
+:keywords: reference, rule, Runlevel
 
-= runlevel
+= Runlevel
 
-Use 'runlevel' rather than '%s'.
+Use `Runlevel` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#runlevel[]
 

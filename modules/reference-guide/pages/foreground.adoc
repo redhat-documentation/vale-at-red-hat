@@ -1,9 +1,11 @@
-:navtitle: foreground
-:keywords: reference, rule, foreground
+:navtitle: Foreground
+:keywords: reference, rule, Foreground
 
-= foreground
+= Foreground
 
-Use 'foreground' rather than '%s'.
+Use `Foreground` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#foreground[]
 

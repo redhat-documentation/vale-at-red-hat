@@ -1,9 +1,11 @@
-:navtitle: vnic
-:keywords: reference, rule, vnic
+:navtitle: VNIC
+:keywords: reference, rule, VNIC
 
-= vnic
+= VNIC
 
-Use 'vnic' rather than '%s'.
+Use `VNIC` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vnic[]
 

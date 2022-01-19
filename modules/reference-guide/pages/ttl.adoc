@@ -1,9 +1,11 @@
-:navtitle: ttl
-:keywords: reference, rule, ttl
+:navtitle: TTL
+:keywords: reference, rule, TTL
 
-= ttl
+= TTL
 
-Use 'ttl' rather than '%s'.
+Use `TTL` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ttl[]
 

@@ -1,9 +1,11 @@
-:navtitle: ipsec
-:keywords: reference, rule, ipsec
+:navtitle: IPsec
+:keywords: reference, rule, IPsec
 
-= ipsec
+= IPsec
 
-Use 'ipsec' rather than '%s'.
+Use `IPsec` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ipsec[]
 

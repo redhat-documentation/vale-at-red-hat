@@ -1,9 +1,11 @@
-:navtitle: uid
-:keywords: reference, rule, uid
+:navtitle: UID
+:keywords: reference, rule, UID
 
-= uid
+= UID
 
-Use 'uid' rather than '%s'.
+Use `UID` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#uid[]
 

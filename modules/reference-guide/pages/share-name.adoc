@@ -1,9 +1,11 @@
-:navtitle: share-name
-:keywords: reference, rule, share-name
+:navtitle: Share-name
+:keywords: reference, rule, Share-name
 
-= share-name
+= Share-name
 
-Use 'share-name' rather than '%s'.
+Use `Share-name` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#share-name[]
 

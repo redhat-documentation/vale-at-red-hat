@@ -1,9 +1,11 @@
-:navtitle: data-center
-:keywords: reference, rule, data-center
+:navtitle: Data-center
+:keywords: reference, rule, Data-center
 
-= data-center
+= Data-center
 
-Use 'data-center' rather than '%s'.
+Use `Data-center` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#data-center[]
 

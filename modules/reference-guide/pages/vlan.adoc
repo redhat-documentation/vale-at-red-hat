@@ -1,9 +1,11 @@
-:navtitle: vlan
-:keywords: reference, rule, vlan
+:navtitle: VLAN
+:keywords: reference, rule, VLAN
 
-= vlan
+= VLAN
 
-Use 'vlan' rather than '%s'.
+Use `VLAN` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vlan[]
 

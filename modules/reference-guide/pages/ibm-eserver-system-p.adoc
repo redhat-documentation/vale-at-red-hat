@@ -1,9 +1,11 @@
-:navtitle: ibm-eserver-system-p
-:keywords: reference, rule, ibm-eserver-system-p
+:navtitle: IBM-eServer-System-p
+:keywords: reference, rule, IBM-eServer-System-p
 
-= ibm-eserver-system-p
+= IBM-eServer-System-p
 
-Use 'ibm-eserver-system-p' rather than '%s'.
+Use `IBM-eServer-System-p` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-eserver-system-p[]
 

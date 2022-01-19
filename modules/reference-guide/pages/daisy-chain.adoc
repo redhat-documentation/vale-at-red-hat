@@ -1,0 +1,11 @@
+:navtitle: Daisy-chain
+:keywords: reference, rule, Daisy-chain
+
+= Daisy-chain
+
+Use `Daisy-chain` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[]
+

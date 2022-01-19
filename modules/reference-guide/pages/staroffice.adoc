@@ -1,9 +1,11 @@
-:navtitle: staroffice
-:keywords: reference, rule, staroffice
+:navtitle: StarOffice
+:keywords: reference, rule, StarOffice
 
-= staroffice
+= StarOffice
 
-Use 'staroffice' rather than '%s'.
+Use `StarOffice` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#staroffice[]
 

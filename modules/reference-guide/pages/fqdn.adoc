@@ -1,9 +1,11 @@
-:navtitle: fqdn
-:keywords: reference, rule, fqdn
+:navtitle: FQDN
+:keywords: reference, rule, FQDN
 
-= fqdn
+= FQDN
 
-Use 'fqdn' rather than '%s'.
+Use `FQDN` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#fqdn[]
 

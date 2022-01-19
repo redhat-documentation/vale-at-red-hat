@@ -1,9 +1,11 @@
-:navtitle: web-ui
-:keywords: reference, rule, web-ui
+:navtitle: Web-UI
+:keywords: reference, rule, Web-UI
 
-= web-ui
+= Web-UI
 
-Use 'web-ui' rather than '%s'.
+Use `Web-UI` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#web-ui[]
 

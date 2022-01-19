@@ -1,9 +1,11 @@
-:navtitle: subpackage
-:keywords: reference, rule, subpackage
+:navtitle: Subpackage
+:keywords: reference, rule, Subpackage
 
-= subpackage
+= Subpackage
 
-Use 'subpackage' rather than '%s'.
+Use `Subpackage` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#subpackage[]
 

@@ -1,9 +1,11 @@
-:navtitle: jboss-community
-:keywords: reference, rule, jboss-community
+:navtitle: JBoss-Community
+:keywords: reference, rule, JBoss-Community
 
-= jboss-community
+= JBoss-Community
 
-Use 'jboss-community' rather than '%s'.
+Use `JBoss-Community` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#jboss-community[]
 

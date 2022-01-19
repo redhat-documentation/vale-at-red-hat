@@ -1,9 +1,11 @@
-:navtitle: different
-:keywords: reference, rule, different
+:navtitle: Different
+:keywords: reference, rule, Different
 
-= different
+= Different
 
-Use 'different' rather than '%s'.
+Use `Different` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#different[]
 

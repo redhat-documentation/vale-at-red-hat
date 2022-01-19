@@ -1,9 +1,11 @@
-:navtitle: subcommand
-:keywords: reference, rule, subcommand
+:navtitle: Subcommand
+:keywords: reference, rule, Subcommand
 
-= subcommand
+= Subcommand
 
-Use 'subcommand' rather than '%s'.
+Use `Subcommand` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#subcommand[]
 

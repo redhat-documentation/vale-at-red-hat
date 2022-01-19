@@ -1,9 +1,0 @@
-:navtitle: user-space-adj
-:keywords: reference, rule, user-space-adj
-
-= user-space-adj
-
-Use 'user-space-adj' rather than '%s'.
-
-
-

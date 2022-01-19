@@ -1,9 +1,0 @@
-:navtitle: cap-ex
-:keywords: reference, rule, cap-ex
-
-= cap-ex
-
-Use 'cap-ex' rather than '%s'.
-
-
-

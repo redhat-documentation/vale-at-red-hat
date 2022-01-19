@@ -1,9 +1,11 @@
-:navtitle: hot-add
-:keywords: reference, rule, hot-add
+:navtitle: Hot-add
+:keywords: reference, rule, Hot-add
 
-= hot-add
+= Hot-add
 
-Use 'hot-add' rather than '%s'.
+Use `Hot-add` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-add[]
 

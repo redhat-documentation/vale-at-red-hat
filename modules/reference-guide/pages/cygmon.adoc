@@ -1,9 +1,11 @@
-:navtitle: cygmon
-:keywords: reference, rule, cygmon
+:navtitle: Cygmon
+:keywords: reference, rule, Cygmon
 
-= cygmon
+= Cygmon
 
-Use 'cygmon' rather than '%s'.
+Use `Cygmon` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cygmon[]
 

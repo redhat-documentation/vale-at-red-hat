@@ -1,9 +1,11 @@
-:navtitle: tier-1
-:keywords: reference, rule, tier-1
+:navtitle: Tier-1
+:keywords: reference, rule, Tier-1
 
-= tier-1
+= Tier-1
 
-Use 'tier-1' rather than '%s'.
+Use `Tier-1` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#tier-1[]
 

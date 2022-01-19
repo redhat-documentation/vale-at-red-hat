@@ -1,9 +1,11 @@
-:navtitle: socks
-:keywords: reference, rule, socks
+:navtitle: SOCKS
+:keywords: reference, rule, SOCKS
 
-= socks
+= SOCKS
 
-Use 'socks' rather than '%s'.
+Use `SOCKS` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#socks[]
 

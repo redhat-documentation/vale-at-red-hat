@@ -1,9 +1,11 @@
-:navtitle: operating-environment
-:keywords: reference, rule, operating-environment
+:navtitle: Operating-environment
+:keywords: reference, rule, Operating-environment
 
-= operating-environment
+= Operating-environment
 
-Use 'operating-environment' rather than '%s'.
+Use `Operating-environment` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#operating-environment[]
 

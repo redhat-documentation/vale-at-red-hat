@@ -1,9 +1,11 @@
-:navtitle: cds
-:keywords: reference, rule, cds
+:navtitle: CDs
+:keywords: reference, rule, CDs
 
-= cds
+= CDs
 
-Use 'cds' rather than '%s'.
+Use `CDs` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cds[]
 

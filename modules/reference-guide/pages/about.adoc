@@ -1,0 +1,11 @@
+:navtitle: About
+:keywords: reference, rule, About
+
+= About
+
+Do not use `About` to mean `approximately`.
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+

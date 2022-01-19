@@ -1,9 +1,11 @@
-:navtitle: submenu
-:keywords: reference, rule, submenu
+:navtitle: Submenu
+:keywords: reference, rule, Submenu
 
-= submenu
+= Submenu
 
-Use 'submenu' rather than '%s'.
+Use `Submenu` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#submenu[]
 

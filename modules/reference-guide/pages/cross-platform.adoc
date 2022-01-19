@@ -1,9 +1,11 @@
-:navtitle: cross-platform
-:keywords: reference, rule, cross-platform
+:navtitle: Cross-platform
+:keywords: reference, rule, Cross-platform
 
-= cross-platform
+= Cross-platform
 
-Use 'cross-platform' rather than '%s'.
+Use `Cross-platform` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-platform[]
 

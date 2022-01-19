@@ -1,0 +1,11 @@
+:navtitle: Cliches
+:keywords: reference, rule, Cliches
+
+= Cliches
+
+`Cliches` is a cliche.
+
+.Additional Resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Cliches.yml[]
+

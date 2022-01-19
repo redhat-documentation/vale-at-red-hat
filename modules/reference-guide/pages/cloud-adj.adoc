@@ -1,9 +1,0 @@
-:navtitle: cloud-adj
-:keywords: reference, rule, cloud-adj
-
-= cloud-adj
-
-Use 'cloud-adj' rather than '%s'.
-
-
-

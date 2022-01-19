@@ -1,9 +1,11 @@
-:navtitle: systemd
-:keywords: reference, rule, systemd
+:navtitle: Systemd
+:keywords: reference, rule, Systemd
 
-= systemd
+= Systemd
 
-Use 'systemd' rather than '%s'.
+Use `Systemd` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#systemd[]
 

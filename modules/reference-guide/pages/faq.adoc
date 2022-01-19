@@ -1,9 +1,11 @@
-:navtitle: faq
-:keywords: reference, rule, faq
+:navtitle: FAQ
+:keywords: reference, rule, FAQ
 
-= faq
+= FAQ
 
-Use 'faq' rather than '%s'.
+Use `FAQ` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#faq[]
 

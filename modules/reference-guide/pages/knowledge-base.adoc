@@ -1,9 +1,11 @@
-:navtitle: knowledge-base
-:keywords: reference, rule, knowledge-base
+:navtitle: Knowledge-base
+:keywords: reference, rule, Knowledge-base
 
-= knowledge-base
+= Knowledge-base
 
-Use 'knowledge-base' rather than '%s'.
+Use the two-word `knowledge base` unless referring specifically to the `Red Hat Knowledgebase.`
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#knowledgebase[]
 

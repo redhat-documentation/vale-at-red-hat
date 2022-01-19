@@ -1,9 +1,11 @@
-:navtitle: red-hat-network-satellite-server
-:keywords: reference, rule, red-hat-network-satellite-server
+:navtitle: Red-Hat-Network-Satellite-Server
+:keywords: reference, rule, Red-Hat-Network-Satellite-Server
 
-= red-hat-network-satellite-server
+= Red-Hat-Network-Satellite-Server
 
-Use 'red-hat-network-satellite-server' rather than '%s'.
+Use `Red-Hat-Network-Satellite-Server` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-satellite-server[]
 

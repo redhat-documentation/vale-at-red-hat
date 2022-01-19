@@ -1,9 +1,11 @@
-:navtitle: thin-provisioned
-:keywords: reference, rule, thin-provisioned
+:navtitle: Thin-provisioned
+:keywords: reference, rule, Thin-provisioned
 
-= thin-provisioned
+= Thin-provisioned
 
-Use 'thin-provisioned' rather than '%s'.
+Use `Thin-provisioned` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#thin-provisioned[]
 

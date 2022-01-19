@@ -1,9 +1,11 @@
-:navtitle: environment
-:keywords: reference, rule, environment
+:navtitle: Environment
+:keywords: reference, rule, Environment
 
-= environment
+= Environment
 
-Use 'environment' rather than '%s'.
+Use `Environment` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#environment[]
 

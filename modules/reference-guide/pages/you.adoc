@@ -1,9 +1,9 @@
-:navtitle: you
-:keywords: reference, rule, you
+:navtitle: You
+:keywords: reference, rule, You
 
-= you
+= You
 
-Use 'you' rather than '%s'.
+Use `You` rather than `%s`.
 
 .Additional Resources
 

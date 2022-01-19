@@ -1,0 +1,11 @@
+:navtitle: Pseudo-ops
+:keywords: reference, rule, Pseudo-ops
+
+= Pseudo-ops
+
+Use `Pseudo-ops` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#pseudoops[]
+

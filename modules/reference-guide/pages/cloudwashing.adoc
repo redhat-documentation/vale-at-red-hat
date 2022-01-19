@@ -1,9 +1,11 @@
-:navtitle: cloudwashing
-:keywords: reference, rule, cloudwashing
+:navtitle: Cloudwashing
+:keywords: reference, rule, Cloudwashing
 
-= cloudwashing
+= Cloudwashing
 
-Use 'cloudwashing' rather than '%s'.
+Use `Cloudwashing` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cloudwashing[]
 

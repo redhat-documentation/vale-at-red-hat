@@ -1,9 +1,11 @@
-:navtitle: bare-metal
-:keywords: reference, rule, bare-metal
+:navtitle: Bare-metal
+:keywords: reference, rule, Bare-metal
 
-= bare-metal
+= Bare-metal
 
-Use 'bare metal' (noun) or 'bare-metal' (adjective).
+Use `bare metal` (noun) or `bare-metal` (adjective).
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bare-metal-n[]
 

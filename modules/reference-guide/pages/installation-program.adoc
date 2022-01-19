@@ -1,9 +1,11 @@
-:navtitle: installation-program
-:keywords: reference, rule, installation-program
+:navtitle: Installation-program
+:keywords: reference, rule, Installation-program
 
-= installation-program
+= Installation-program
 
-Use 'installation-program' rather than '%s'.
+Use `Installation-program` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#installation-program[]
 

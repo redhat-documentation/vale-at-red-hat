@@ -1,9 +1,0 @@
-:navtitle: broadcast-v
-:keywords: reference, rule, broadcast-v
-
-= broadcast-v
-
-Use 'broadcast-v' rather than '%s'.
-
-
-

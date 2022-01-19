@@ -1,9 +1,11 @@
-:navtitle: server-cluster
-:keywords: reference, rule, server-cluster
+:navtitle: Server-cluster
+:keywords: reference, rule, Server-cluster
 
-= server-cluster
+= Server-cluster
 
-Use 'server-cluster' rather than '%s'.
+Use `Server-cluster` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#server-cluster[]
 

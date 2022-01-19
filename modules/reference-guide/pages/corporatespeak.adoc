@@ -1,0 +1,11 @@
+:navtitle: CorporateSpeak
+:keywords: reference, rule, CorporateSpeak
+
+= CorporateSpeak
+
+`CorporateSpeak` is corporate speak.
+
+.Additional Resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/CorporateSpeak.yml[]
+

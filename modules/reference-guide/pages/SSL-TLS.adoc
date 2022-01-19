@@ -1,9 +1,0 @@
-:navtitle: SSL-TLS
-:keywords: reference, rule, SSL-TLS
-
-= SSL-TLS
-
-Use 'SSL-TLS' rather than '%s'.
-
-
-

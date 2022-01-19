@@ -1,9 +1,11 @@
-:navtitle: text-mode
-:keywords: reference, rule, text-mode
+:navtitle: Text-mode
+:keywords: reference, rule, Text-mode
 
-= text-mode
+= Text-mode
 
-Use 'text-mode' rather than '%s'.
+Use `Text-mode` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#text-mode[]
 

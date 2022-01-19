@@ -1,9 +1,11 @@
-:navtitle: vim
-:keywords: reference, rule, vim
+:navtitle: Vim
+:keywords: reference, rule, Vim
 
-= vim
+= Vim
 
-Use 'vim' rather than '%s'.
+Use `Vim` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vim[]
 

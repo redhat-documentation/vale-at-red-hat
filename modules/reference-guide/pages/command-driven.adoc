@@ -1,9 +1,11 @@
-:navtitle: command-driven
-:keywords: reference, rule, command-driven
+:navtitle: Command-driven
+:keywords: reference, rule, Command-driven
 
-= command-driven
+= Command-driven
 
-Use 'command-driven' rather than '%s'.
+Use `Command-driven` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#command-driven[]
 

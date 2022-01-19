@@ -1,9 +1,11 @@
-:navtitle: ibm-z
-:keywords: reference, rule, ibm-z
+:navtitle: IBM-Z
+:keywords: reference, rule, IBM-Z
 
-= ibm-z
+= IBM-Z
 
-Use 'ibm-z' rather than '%s'.
+Use `IBM-Z` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-z[]
 

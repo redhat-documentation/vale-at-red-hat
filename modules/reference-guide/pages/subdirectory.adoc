@@ -1,9 +1,11 @@
-:navtitle: subdirectory
-:keywords: reference, rule, subdirectory
+:navtitle: Subdirectory
+:keywords: reference, rule, Subdirectory
 
-= subdirectory
+= Subdirectory
 
-Use 'subdirectory' rather than '%s'.
+Use `Subdirectory` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#subdirectory[]
 

@@ -1,9 +1,11 @@
-:navtitle: bind
-:keywords: reference, rule, bind
+:navtitle: BIND
+:keywords: reference, rule, BIND
 
-= bind
+= BIND
 
-Use 'bind' rather than '%s' when referring to the DNS software.
+Use `BIND` rather than `%s` when referring to the DNS software.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bind[]
 

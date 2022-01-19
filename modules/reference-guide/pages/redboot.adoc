@@ -1,9 +1,11 @@
-:navtitle: redboot
-:keywords: reference, rule, redboot
+:navtitle: RedBoot
+:keywords: reference, rule, RedBoot
 
-= redboot
+= RedBoot
 
-Use 'redboot' rather than '%s'.
+Use `RedBoot` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#redboot[]
 

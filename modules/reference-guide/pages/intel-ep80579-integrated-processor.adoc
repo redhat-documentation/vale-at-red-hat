@@ -1,9 +1,11 @@
-:navtitle: intel-ep80579-integrated-processor
-:keywords: reference, rule, intel-ep80579-integrated-processor
+:navtitle: Intel-EP80579-Integrated-Processor
+:keywords: reference, rule, Intel-EP80579-Integrated-Processor
 
-= intel-ep80579-integrated-processor
+= Intel-EP80579-Integrated-Processor
 
-Use 'intel-ep80579-integrated-processor' rather than '%s'.
+Use `Intel-EP80579-Integrated-Processor` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#intel-ep80579-integrated-processor[]
 

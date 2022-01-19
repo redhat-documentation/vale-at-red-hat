@@ -1,9 +1,11 @@
-:navtitle: posix
-:keywords: reference, rule, posix
+:navtitle: POSIX
+:keywords: reference, rule, POSIX
 
-= posix
+= POSIX
 
-Use 'posix' rather than '%s'.
+Use `POSIX` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#posix[]
 

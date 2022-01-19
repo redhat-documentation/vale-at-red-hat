@@ -1,9 +1,11 @@
-:navtitle: hot-plug
-:keywords: reference, rule, hot-plug
+:navtitle: Hot-plug
+:keywords: reference, rule, Hot-plug
 
-= hot-plug
+= Hot-plug
 
-Use 'hot-plug' rather than '%s'.
+Use `Hot-plug` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-plug[]
 

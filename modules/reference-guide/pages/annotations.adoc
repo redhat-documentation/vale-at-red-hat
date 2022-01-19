@@ -1,0 +1,11 @@
+:navtitle: Annotations
+:keywords: reference, rule, Annotations
+
+= Annotations
+
+`Annotations` left in text.
+
+.Additional Resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Annotations.yml[]
+

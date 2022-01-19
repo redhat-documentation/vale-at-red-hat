@@ -1,9 +1,11 @@
-:navtitle: s-record
-:keywords: reference, rule, s-record
+:navtitle: S-record
+:keywords: reference, rule, S-record
 
-= s-record
+= S-record
 
-Use 's-record' rather than '%s'.
+Use `S-record` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#s-record[]
 

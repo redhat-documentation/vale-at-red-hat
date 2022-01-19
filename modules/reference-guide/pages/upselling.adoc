@@ -1,9 +1,11 @@
-:navtitle: upselling
-:keywords: reference, rule, upselling
+:navtitle: Upselling
+:keywords: reference, rule, Upselling
 
-= upselling
+= Upselling
 
-Use 'upselling' rather than '%s'.
+Use `Upselling` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#upselling[]
 

@@ -1,9 +1,0 @@
-:navtitle: client-side-adj
-:keywords: reference, rule, client-side-adj
-
-= client-side-adj
-
-Use 'client-side-adj' rather than '%s'.
-
-
-

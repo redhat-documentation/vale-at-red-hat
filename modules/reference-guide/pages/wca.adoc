@@ -1,9 +1,11 @@
-:navtitle: wca
-:keywords: reference, rule, wca
+:navtitle: WCA
+:keywords: reference, rule, WCA
 
-= wca
+= WCA
 
-Use 'wca' rather than '%s'.
+Use `WCA` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#wca[]
 

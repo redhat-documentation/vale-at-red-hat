@@ -1,9 +1,11 @@
-:navtitle: specific
-:keywords: reference, rule, specific
+:navtitle: Specific
+:keywords: reference, rule, Specific
 
-= specific
+= Specific
 
-Use 'specific' rather than '%s'.
+Use `Specific` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#specific[]
 

@@ -1,9 +1,11 @@
-:navtitle: remote-access-server
-:keywords: reference, rule, remote-access-server
+:navtitle: Remote-Access-Server
+:keywords: reference, rule, Remote-Access-Server
 
-= remote-access-server
+= Remote-Access-Server
 
-Use 'remote-access-server' rather than '%s'.
+Use `Remote-Access-Server` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#remote-access-server[]
 

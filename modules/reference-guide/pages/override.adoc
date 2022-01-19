@@ -1,9 +1,11 @@
-:navtitle: override
-:keywords: reference, rule, override
+:navtitle: Override
+:keywords: reference, rule, Override
 
-= override
+= Override
 
-Use 'override' rather than '%s'.
+Use `Override` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#override[]
 

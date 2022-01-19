@@ -1,9 +1,0 @@
-:navtitle: rollout
-:keywords: reference, rule, rollout
-
-= rollout
-
-Use 'rollout' rather than '%s'.
-
-
-

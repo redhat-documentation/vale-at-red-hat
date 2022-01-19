@@ -1,9 +1,0 @@
-:navtitle: denial-of-service-n
-:keywords: reference, rule, denial-of-service-n
-
-= denial-of-service-n
-
-Use 'denial-of-service-n' rather than '%s'.
-
-
-

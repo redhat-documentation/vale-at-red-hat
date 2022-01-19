@@ -1,9 +1,11 @@
-:navtitle: exec-shield
-:keywords: reference, rule, exec-shield
+:navtitle: Exec-Shield
+:keywords: reference, rule, Exec-Shield
 
-= exec-shield
+= Exec-Shield
 
-Use 'exec-shield' rather than '%s'.
+Use `Exec-Shield` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#exec-shield[]
 

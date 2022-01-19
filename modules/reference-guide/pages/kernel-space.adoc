@@ -1,0 +1,11 @@
+:navtitle: Kernel-space
+:keywords: reference, rule, Kernel-space
+
+= Kernel-space
+
+Use `Kernel-space` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-space-ad[]
+

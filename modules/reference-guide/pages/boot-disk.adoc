@@ -1,9 +1,11 @@
-:navtitle: boot-disk
-:keywords: reference, rule, boot-disk
+:navtitle: Boot-disk
+:keywords: reference, rule, Boot-disk
 
-= boot-disk
+= Boot-disk
 
-Use 'boot-disk' rather than '%s'.
+Use `Boot-disk` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#boot-disk[]
 

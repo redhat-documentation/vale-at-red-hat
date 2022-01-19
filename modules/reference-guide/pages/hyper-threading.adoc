@@ -1,9 +1,11 @@
-:navtitle: hyper-threading
-:keywords: reference, rule, hyper-threading
+:navtitle: Hyper-Threading
+:keywords: reference, rule, Hyper-Threading
 
-= hyper-threading
+= Hyper-Threading
 
-Use 'hyper-threading' rather than '%s'.
+Use `Hyper-Threading` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hyper-threading[]
 

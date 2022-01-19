@@ -1,9 +1,11 @@
-:navtitle: kernel-based-virtual-machine
-:keywords: reference, rule, kernel-based-virtual-machine
+:navtitle: Kernel-based-Virtual-Machine
+:keywords: reference, rule, Kernel-based-Virtual-Machine
 
-= kernel-based-virtual-machine
+= Kernel-based-Virtual-Machine
 
-Use 'kernel-based-virtual-machine' rather than '%s'.
+Use `Kernel-based-Virtual-Machine` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-based-virtual-machine[]
 

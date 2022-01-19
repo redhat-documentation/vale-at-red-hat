@@ -1,9 +1,11 @@
-:navtitle: infiniband
-:keywords: reference, rule, infiniband
+:navtitle: InfiniBand
+:keywords: reference, rule, InfiniBand
 
-= infiniband
+= InfiniBand
 
-Use 'infiniband' rather than '%s'.
+Use `InfiniBand` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#infiniband[]
 

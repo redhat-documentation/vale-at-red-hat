@@ -1,9 +1,11 @@
-:navtitle: help-desk
-:keywords: reference, rule, help-desk
+:navtitle: Help-desk
+:keywords: reference, rule, Help-desk
 
-= help-desk
+= Help-desk
 
-Use 'help-desk' rather than '%s'.
+Use `Help-desk` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#help-desk[]
 

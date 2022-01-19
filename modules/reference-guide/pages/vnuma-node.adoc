@@ -1,0 +1,11 @@
+:navtitle: VNUMA-node
+:keywords: reference, rule, VNUMA-node
+
+= VNUMA-node
+
+Use `VNUMA-node` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vnuma[]
+

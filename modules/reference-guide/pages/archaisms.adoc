@@ -1,0 +1,11 @@
+:navtitle: Archaisms
+:keywords: reference, rule, Archaisms
+
+= Archaisms
+
+`Archaisms` is archaic.
+
+.Additional Resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Archaisms.yml[]
+

@@ -1,0 +1,11 @@
+:navtitle: DVD-writer
+:keywords: reference, rule, DVD-writer
+
+= DVD-writer
+
+Use `DVD-writer` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#DVD-writer[]
+

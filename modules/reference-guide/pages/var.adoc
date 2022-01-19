@@ -1,9 +1,11 @@
-:navtitle: var
-:keywords: reference, rule, var
+:navtitle: VAR
+:keywords: reference, rule, VAR
 
-= var
+= VAR
 
-Use 'var' rather than '%s'.
+Use `VAR` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#var[]
 

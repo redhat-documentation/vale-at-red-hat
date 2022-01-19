@@ -1,9 +1,11 @@
-:navtitle: cross-site-scripting
-:keywords: reference, rule, cross-site-scripting
+:navtitle: Cross-site-scripting
+:keywords: reference, rule, Cross-site-scripting
 
-= cross-site-scripting
+= Cross-site-scripting
 
-Use 'cross-site-scripting' rather than '%s'.
+Use `Cross-site-scripting` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-site-scripting[]
 

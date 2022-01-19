@@ -1,0 +1,11 @@
+:navtitle: UltraSPARC
+:keywords: reference, rule, UltraSPARC
+
+= UltraSPARC
+
+Use `UltraSPARC` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#UltraSPARC[]
+

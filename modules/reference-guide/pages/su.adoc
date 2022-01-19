@@ -1,9 +1,11 @@
-:navtitle: su
-:keywords: reference, rule, su
+:navtitle: Su
+:keywords: reference, rule, Su
 
-= su
+= Su
 
-Use 'su' rather than '%s'.
+Use `Su` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#su[]
 

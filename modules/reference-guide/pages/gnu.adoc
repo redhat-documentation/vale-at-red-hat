@@ -1,9 +1,11 @@
-:navtitle: gnu
-:keywords: reference, rule, gnu
+:navtitle: GNU
+:keywords: reference, rule, GNU
 
-= gnu
+= GNU
 
-Use 'gnu' rather than '%s'.
+Use `GNU` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gnu[]
 

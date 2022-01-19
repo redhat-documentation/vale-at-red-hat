@@ -1,9 +1,0 @@
-:navtitle: denial-of-service-adj
-:keywords: reference, rule, denial-of-service-adj
-
-= denial-of-service-adj
-
-Use 'denial-of-service-adj' rather than '%s'.
-
-
-

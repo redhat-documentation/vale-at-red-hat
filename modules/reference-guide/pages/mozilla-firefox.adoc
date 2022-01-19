@@ -1,9 +1,11 @@
-:navtitle: mozilla-firefox
-:keywords: reference, rule, mozilla-firefox
+:navtitle: Mozilla-Firefox
+:keywords: reference, rule, Mozilla-Firefox
 
-= mozilla-firefox
+= Mozilla-Firefox
 
-Use 'mozilla-firefox' rather than '%s'.
+Use `Mozilla-Firefox` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox[]
 

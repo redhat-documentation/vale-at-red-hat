@@ -1,9 +1,11 @@
-:navtitle: fortran
-:keywords: reference, rule, fortran
+:navtitle: Fortran
+:keywords: reference, rule, Fortran
 
-= fortran
+= Fortran
 
-Use 'fortran' rather than '%s'.
+Use `Fortran` rather than `%s`.
 
+.Additional Resources
 
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#fortran[]
 
