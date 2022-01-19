@@ -7,4 +7,4 @@ action:
   name: replace
 source: Red Hat
 swap:
-  SSL|TLS|TLS SSL: SSL TLS
+  SSL|TLS|TLS SSL: 'SSL/TLS'
