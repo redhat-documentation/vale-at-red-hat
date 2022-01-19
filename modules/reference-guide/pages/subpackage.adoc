@@ -1,0 +1,9 @@
+:navtitle: subpackage
+:keywords: reference, rule, subpackage
+
+= subpackage
+
+Use 'subpackage' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: subscription
+:keywords: reference, rule, subscription
+
+= subscription
+
+Use 'subscription' rather than '%s'.
+
+
+

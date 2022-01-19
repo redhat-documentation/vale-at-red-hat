@@ -1,0 +1,9 @@
+:navtitle: mozilla-thunderbird
+:keywords: reference, rule, mozilla-thunderbird
+
+= mozilla-thunderbird
+
+Use 'mozilla-thunderbird' rather than '%s'.
+
+
+

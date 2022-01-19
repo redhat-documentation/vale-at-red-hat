@@ -1,0 +1,9 @@
+:navtitle: iseries
+:keywords: reference, rule, iseries
+
+= iseries
+
+Use 'iseries' rather than '%s'.
+
+
+

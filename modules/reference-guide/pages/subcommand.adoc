@@ -1,0 +1,9 @@
+:navtitle: subcommand
+:keywords: reference, rule, subcommand
+
+= subcommand
+
+Use 'subcommand' rather than '%s'.
+
+
+

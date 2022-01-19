@@ -1,0 +1,9 @@
+:navtitle: superuser
+:keywords: reference, rule, superuser
+
+= superuser
+
+Use 'superuser' rather than '%s'.
+
+
+

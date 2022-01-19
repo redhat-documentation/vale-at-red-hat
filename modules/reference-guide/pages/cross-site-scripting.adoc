@@ -1,0 +1,9 @@
+:navtitle: cross-site-scripting
+:keywords: reference, rule, cross-site-scripting
+
+= cross-site-scripting
+
+Use 'cross-site-scripting' rather than '%s'.
+
+
+

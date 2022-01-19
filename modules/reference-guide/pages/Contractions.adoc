@@ -1,0 +1,9 @@
+:navtitle: Contractions
+:keywords: reference, rule, Contractions
+
+= Contractions
+
+message: Avoid contractions. Use 'Contractions' instead of '%s.'
+
+
+

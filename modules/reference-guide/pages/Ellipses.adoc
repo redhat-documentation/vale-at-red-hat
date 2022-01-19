@@ -1,0 +1,9 @@
+:navtitle: Ellipses
+:keywords: reference, rule, Ellipses
+
+= Ellipses
+
+Avoid the ellipsis (...) except to indicate omitted words.
+
+
+

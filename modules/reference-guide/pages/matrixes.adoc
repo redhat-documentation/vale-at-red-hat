@@ -1,0 +1,9 @@
+:navtitle: matrixes
+:keywords: reference, rule, matrixes
+
+= matrixes
+
+Use 'matrixes' rather than '%s'.
+
+
+

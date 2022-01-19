@@ -1,0 +1,9 @@
+:navtitle: spec-file
+:keywords: reference, rule, spec-file
+
+= spec-file
+
+Use 'spec-file' rather than '%s'.
+
+
+

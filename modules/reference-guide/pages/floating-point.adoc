@@ -1,0 +1,9 @@
+:navtitle: floating-point
+:keywords: reference, rule, floating-point
+
+= floating-point
+
+Use 'floating-point' rather than '%s'.
+
+
+

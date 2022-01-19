@@ -1,0 +1,9 @@
+:navtitle: upgrade
+:keywords: reference, rule, upgrade
+
+= upgrade
+
+Use 'upgrade' rather than '%s'.
+
+
+

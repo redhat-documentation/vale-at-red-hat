@@ -1,0 +1,9 @@
+:navtitle: ibm-z
+:keywords: reference, rule, ibm-z
+
+= ibm-z
+
+Use 'ibm-z' rather than '%s'.
+
+
+

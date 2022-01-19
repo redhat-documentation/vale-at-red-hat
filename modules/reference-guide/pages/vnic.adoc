@@ -1,0 +1,9 @@
+:navtitle: vnic
+:keywords: reference, rule, vnic
+
+= vnic
+
+Use 'vnic' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: share-name
+:keywords: reference, rule, share-name
+
+= share-name
+
+Use 'share-name' rather than '%s'.
+
+
+

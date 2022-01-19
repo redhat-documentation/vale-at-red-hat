@@ -1,0 +1,9 @@
+:navtitle: mouse-button
+:keywords: reference, rule, mouse-button
+
+= mouse-button
+
+Use 'mouse-button' rather than '%s'.
+
+
+

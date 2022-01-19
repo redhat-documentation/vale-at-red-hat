@@ -1,0 +1,9 @@
+:navtitle: text-based
+:keywords: reference, rule, text-based
+
+= text-based
+
+Use 'text-based' rather than '%s'.
+
+
+

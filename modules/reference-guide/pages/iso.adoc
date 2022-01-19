@@ -1,0 +1,9 @@
+:navtitle: iso
+:keywords: reference, rule, iso
+
+= iso
+
+Use 'iso' rather than '%s'.
+
+
+

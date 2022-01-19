@@ -1,0 +1,9 @@
+:navtitle: xemacs
+:keywords: reference, rule, xemacs
+
+= xemacs
+
+Use 'xemacs' rather than '%s'.
+
+
+

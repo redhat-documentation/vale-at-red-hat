@@ -1,0 +1,9 @@
+:navtitle: qcow2
+:keywords: reference, rule, qcow2
+
+= qcow2
+
+Use 'qcow2' rather than '%s'.
+
+
+

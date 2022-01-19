@@ -1,0 +1,9 @@
+:navtitle: exif
+:keywords: reference, rule, exif
+
+= exif
+
+Use 'exif' rather than '%s'.
+
+
+

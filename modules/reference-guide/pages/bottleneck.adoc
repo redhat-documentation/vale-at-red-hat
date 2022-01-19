@@ -1,0 +1,9 @@
+:navtitle: bottleneck
+:keywords: reference, rule, bottleneck
+
+= bottleneck
+
+Use 'bottleneck' rather than '%s'.
+
+
+

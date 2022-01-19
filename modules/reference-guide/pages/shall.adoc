@@ -1,0 +1,9 @@
+:navtitle: shall
+:keywords: reference, rule, shall
+
+= shall
+
+message: Use 'shall' rather than '%s.'
+
+
+

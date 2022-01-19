@@ -1,0 +1,9 @@
+:navtitle: exec-shield
+:keywords: reference, rule, exec-shield
+
+= exec-shield
+
+Use 'exec-shield' rather than '%s'.
+
+
+

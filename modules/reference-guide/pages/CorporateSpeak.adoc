@@ -1,0 +1,9 @@
+:navtitle: CorporateSpeak
+:keywords: reference, rule, CorporateSpeak
+
+= CorporateSpeak
+
+'CorporateSpeak' is corporate speak.
+
+
+

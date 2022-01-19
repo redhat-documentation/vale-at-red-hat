@@ -1,0 +1,9 @@
+:navtitle: disk-druid
+:keywords: reference, rule, disk-druid
+
+= disk-druid
+
+Use 'disk-druid' rather than '%s'.
+
+
+

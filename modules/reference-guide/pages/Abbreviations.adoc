@@ -1,0 +1,9 @@
+:navtitle: Abbreviations
+:keywords: reference, rule, Abbreviations
+
+= Abbreviations
+
+Do not use periods in all-uppercase abbreviations such as 'Abbreviations'.
+
+
+

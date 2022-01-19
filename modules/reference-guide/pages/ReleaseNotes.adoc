@@ -1,0 +1,9 @@
+:navtitle: ReleaseNotes
+:keywords: reference, rule, ReleaseNotes
+
+= ReleaseNotes
+
+message: For release notes, consider using 'ReleaseNotes' instead of '%s'
+
+
+

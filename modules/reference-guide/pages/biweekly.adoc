@@ -1,0 +1,9 @@
+:navtitle: biweekly
+:keywords: reference, rule, biweekly
+
+= biweekly
+
+Use 'biweekly' rather than '%s'.
+
+
+

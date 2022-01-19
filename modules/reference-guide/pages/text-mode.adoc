@@ -1,0 +1,9 @@
+:navtitle: text-mode
+:keywords: reference, rule, text-mode
+
+= text-mode
+
+Use 'text-mode' rather than '%s'.
+
+
+

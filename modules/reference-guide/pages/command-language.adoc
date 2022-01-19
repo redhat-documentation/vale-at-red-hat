@@ -1,0 +1,9 @@
+:navtitle: command-language
+:keywords: reference, rule, command-language
+
+= command-language
+
+Use 'command-language' rather than '%s'.
+
+
+

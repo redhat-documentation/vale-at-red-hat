@@ -1,0 +1,9 @@
+:navtitle: upstream-n
+:keywords: reference, rule, upstream-n
+
+= upstream-n
+
+Use 'upstream-n' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: cloudbursting
+:keywords: reference, rule, cloudbursting
+
+= cloudbursting
+
+Use 'cloudbursting' rather than '%s'.
+
+
+

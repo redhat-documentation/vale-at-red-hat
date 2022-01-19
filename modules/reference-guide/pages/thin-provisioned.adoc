@@ -1,0 +1,9 @@
+:navtitle: thin-provisioned
+:keywords: reference, rule, thin-provisioned
+
+= thin-provisioned
+
+Use 'thin-provisioned' rather than '%s'.
+
+
+

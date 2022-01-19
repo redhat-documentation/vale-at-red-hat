@@ -1,0 +1,9 @@
+:navtitle: operating-system
+:keywords: reference, rule, operating-system
+
+= operating-system
+
+Use 'operating-system' rather than '%s'.
+
+
+

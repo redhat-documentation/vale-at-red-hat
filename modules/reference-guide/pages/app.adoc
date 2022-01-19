@@ -1,0 +1,9 @@
+:navtitle: app
+:keywords: reference, rule, app
+
+= app
+
+Use 'app' rather than '%s'.
+
+
+

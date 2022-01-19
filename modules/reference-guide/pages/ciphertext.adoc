@@ -1,0 +1,9 @@
+:navtitle: ciphertext
+:keywords: reference, rule, ciphertext
+
+= ciphertext
+
+Use 'ciphertext' rather than '%s'.
+
+
+

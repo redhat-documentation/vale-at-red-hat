@@ -1,0 +1,9 @@
+:navtitle: dns
+:keywords: reference, rule, dns
+
+= dns
+
+Use 'dns' rather than '%s'.
+
+
+

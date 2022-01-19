@@ -1,0 +1,9 @@
+:navtitle: vi
+:keywords: reference, rule, vi
+
+= vi
+
+Use 'vi' rather than '%s'.
+
+
+

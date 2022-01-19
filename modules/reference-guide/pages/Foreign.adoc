@@ -1,0 +1,9 @@
+:navtitle: Foreign
+:keywords: reference, rule, Foreign
+
+= Foreign
+
+Use 'Foreign' rather than '%s'.
+
+
+

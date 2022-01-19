@@ -1,0 +1,9 @@
+:navtitle: Headings
+:keywords: reference, rule, Headings
+
+= Headings
+
+'Headings' should use sentence-style capitalization.
+
+
+

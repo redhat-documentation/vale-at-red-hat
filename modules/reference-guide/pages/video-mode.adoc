@@ -1,0 +1,9 @@
+:navtitle: video-mode
+:keywords: reference, rule, video-mode
+
+= video-mode
+
+Use 'video-mode' rather than '%s'.
+
+
+

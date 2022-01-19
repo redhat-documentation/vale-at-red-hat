@@ -1,0 +1,9 @@
+:navtitle: red-hat-network-proxy-server
+:keywords: reference, rule, red-hat-network-proxy-server
+
+= red-hat-network-proxy-server
+
+Use 'red-hat-network-proxy-server' rather than '%s'.
+
+
+

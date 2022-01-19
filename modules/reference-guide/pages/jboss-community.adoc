@@ -1,0 +1,9 @@
+:navtitle: jboss-community
+:keywords: reference, rule, jboss-community
+
+= jboss-community
+
+Use 'jboss-community' rather than '%s'.
+
+
+

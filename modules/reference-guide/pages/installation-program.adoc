@@ -1,0 +1,9 @@
+:navtitle: installation-program
+:keywords: reference, rule, installation-program
+
+= installation-program
+
+Use 'installation-program' rather than '%s'.
+
+
+

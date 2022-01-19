@@ -1,0 +1,9 @@
+:navtitle: alright
+:keywords: reference, rule, alright
+
+= alright
+
+Use 'alright' rather than '%s'.
+
+
+

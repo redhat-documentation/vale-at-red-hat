@@ -1,0 +1,9 @@
+:navtitle: insight
+:keywords: reference, rule, insight
+
+= insight
+
+Use 'insight' rather than '%s'.
+
+
+

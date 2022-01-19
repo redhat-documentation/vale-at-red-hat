@@ -1,0 +1,9 @@
+:navtitle: hypervisor
+:keywords: reference, rule, hypervisor
+
+= hypervisor
+
+Use 'hypervisor' rather than '%s'.
+
+
+

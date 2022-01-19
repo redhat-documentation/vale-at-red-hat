@@ -1,0 +1,9 @@
+:navtitle: cross-platform
+:keywords: reference, rule, cross-platform
+
+= cross-platform
+
+Use 'cross-platform' rather than '%s'.
+
+
+

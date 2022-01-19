@@ -1,0 +1,9 @@
+:navtitle: uptime
+:keywords: reference, rule, uptime
+
+= uptime
+
+Use 'uptime' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: sound-card
+:keywords: reference, rule, sound-card
+
+= sound-card
+
+Use 'sound-card' rather than '%s'.
+
+
+

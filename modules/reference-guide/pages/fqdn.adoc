@@ -1,0 +1,9 @@
+:navtitle: fqdn
+:keywords: reference, rule, fqdn
+
+= fqdn
+
+Use 'fqdn' rather than '%s'.
+
+
+

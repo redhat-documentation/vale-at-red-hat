@@ -1,0 +1,9 @@
+:navtitle: hard-code
+:keywords: reference, rule, hard-code
+
+= hard-code
+
+Use 'hard-code' rather than '%s'.
+
+
+

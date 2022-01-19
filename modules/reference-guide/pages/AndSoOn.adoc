@@ -1,0 +1,9 @@
+:navtitle: AndSoOn
+:keywords: reference, rule, AndSoOn
+
+= AndSoOn
+
+Use 'AndSoOn' only when you list a clear sequence of elements. Else, use appropriate descriptive wording.
+
+
+

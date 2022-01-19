@@ -1,0 +1,9 @@
+:navtitle: vdsm
+:keywords: reference, rule, vdsm
+
+= vdsm
+
+Use 'vdsm' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: colocate
+:keywords: reference, rule, colocate
+
+= colocate
+
+Use 'colocate' rather than '%s'.
+
+
+

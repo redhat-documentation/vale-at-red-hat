@@ -1,0 +1,9 @@
+:navtitle: unix
+:keywords: reference, rule, unix
+
+= unix
+
+Use 'unix' rather than '%s'.
+
+
+

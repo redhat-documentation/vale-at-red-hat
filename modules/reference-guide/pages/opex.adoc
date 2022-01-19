@@ -1,0 +1,9 @@
+:navtitle: opex
+:keywords: reference, rule, opex
+
+= opex
+
+Use 'opex' rather than '%s'.
+
+
+

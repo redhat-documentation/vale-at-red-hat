@@ -1,0 +1,9 @@
+:navtitle: yaml
+:keywords: reference, rule, yaml
+
+= yaml
+
+Use 'yaml' rather than '%s'.
+
+
+

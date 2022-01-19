@@ -1,0 +1,9 @@
+:navtitle: prom
+:keywords: reference, rule, prom
+
+= prom
+
+Use 'prom' rather than '%s'.
+
+
+

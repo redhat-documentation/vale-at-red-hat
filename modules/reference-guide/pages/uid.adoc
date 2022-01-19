@@ -1,0 +1,9 @@
+:navtitle: uid
+:keywords: reference, rule, uid
+
+= uid
+
+Use 'uid' rather than '%s'.
+
+
+

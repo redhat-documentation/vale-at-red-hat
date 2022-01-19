@@ -1,0 +1,9 @@
+:navtitle: emit
+:keywords: reference, rule, emit
+
+= emit
+
+Use 'emit' rather than '%s'.
+
+
+

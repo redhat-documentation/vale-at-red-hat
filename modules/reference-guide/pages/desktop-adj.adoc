@@ -1,0 +1,9 @@
+:navtitle: desktop-adj
+:keywords: reference, rule, desktop-adj
+
+= desktop-adj
+
+Use 'desktop-adj' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: kernel-space-ad
+:keywords: reference, rule, kernel-space-ad
+
+= kernel-space-ad
+
+Use 'kernel-space-ad' rather than '%s'.
+
+
+

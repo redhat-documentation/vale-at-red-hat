@@ -1,0 +1,9 @@
+:navtitle: rpm
+:keywords: reference, rule, rpm
+
+= rpm
+
+Use 'rpm' rather than '%s'.
+
+
+

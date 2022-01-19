@@ -1,0 +1,9 @@
+:navtitle: man-page
+:keywords: reference, rule, man-page
+
+= man-page
+
+Use 'man-page' rather than '%s'.
+
+
+

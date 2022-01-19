@@ -1,0 +1,9 @@
+:navtitle: gid
+:keywords: reference, rule, gid
+
+= gid
+
+Use 'gid' rather than '%s'.
+
+
+

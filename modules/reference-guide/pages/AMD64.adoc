@@ -1,0 +1,9 @@
+:navtitle: AMD64
+:keywords: reference, rule, AMD64
+
+= AMD64
+
+Use 'AMD64' rather than '%s'.
+
+
+

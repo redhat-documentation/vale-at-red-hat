@@ -1,0 +1,9 @@
+:navtitle: su
+:keywords: reference, rule, su
+
+= su
+
+Use 'su' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: gbps
+:keywords: reference, rule, gbps
+
+= gbps
+
+Use 'gbps' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: containerized
+:keywords: reference, rule, containerized
+
+= containerized
+
+Use 'containerized' rather than '%s'.
+
+
+

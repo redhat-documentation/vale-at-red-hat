@@ -1,0 +1,9 @@
+:navtitle: itanium-2
+:keywords: reference, rule, itanium-2
+
+= itanium-2
+
+Use 'itanium-2' rather than '%s'.
+
+
+

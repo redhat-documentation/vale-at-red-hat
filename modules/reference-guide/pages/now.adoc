@@ -1,0 +1,9 @@
+:navtitle: now
+:keywords: reference, rule, now
+
+= now
+
+Use 'now' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: knowledgebase
+:keywords: reference, rule, knowledgebase
+
+= knowledgebase
+
+Use 'knowledgebase' rather than '%s'.
+
+
+

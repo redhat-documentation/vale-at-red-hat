@@ -1,0 +1,9 @@
+:navtitle: git
+:keywords: reference, rule, git
+
+= git
+
+Use 'git' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: multiprocessing
+:keywords: reference, rule, multiprocessing
+
+= multiprocessing
+
+Use 'multiprocessing' rather than '%s'.
+
+
+

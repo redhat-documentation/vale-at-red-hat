@@ -1,0 +1,9 @@
+:navtitle: boot-loader
+:keywords: reference, rule, boot-loader
+
+= boot-loader
+
+Use 'boot-loader' rather than '%s'.
+
+
+

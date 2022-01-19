@@ -1,0 +1,9 @@
+:navtitle: qeth
+:keywords: reference, rule, qeth
+
+= qeth
+
+Use 'qeth' rather than '%s'.
+
+
+

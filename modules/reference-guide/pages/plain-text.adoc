@@ -1,0 +1,9 @@
+:navtitle: plain-text
+:keywords: reference, rule, plain-text
+
+= plain-text
+
+Use 'plain-text' rather than '%s'.
+
+
+

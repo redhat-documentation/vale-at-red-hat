@@ -1,0 +1,9 @@
+:navtitle: built-in
+:keywords: reference, rule, built-in
+
+= built-in
+
+Use 'built-in' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: shadow-utilities
+:keywords: reference, rule, shadow-utilities
+
+= shadow-utilities
+
+Use 'shadow-utilities' rather than '%s'.
+
+
+

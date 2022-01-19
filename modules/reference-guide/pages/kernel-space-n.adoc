@@ -1,0 +1,9 @@
+:navtitle: kernel-space-n
+:keywords: reference, rule, kernel-space-n
+
+= kernel-space-n
+
+Use 'kernel-space-n' rather than '%s'.
+
+
+

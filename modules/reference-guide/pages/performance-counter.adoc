@@ -1,0 +1,9 @@
+:navtitle: performance-counter
+:keywords: reference, rule, performance-counter
+
+= performance-counter
+
+Use 'performance-counter' rather than '%s'.
+
+
+

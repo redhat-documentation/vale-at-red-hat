@@ -1,0 +1,9 @@
+:navtitle: posix
+:keywords: reference, rule, posix
+
+= posix
+
+Use 'posix' rather than '%s'.
+
+
+

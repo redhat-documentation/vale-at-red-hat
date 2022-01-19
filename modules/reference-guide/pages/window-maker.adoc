@@ -1,0 +1,9 @@
+:navtitle: window-maker
+:keywords: reference, rule, window-maker
+
+= window-maker
+
+Use 'window-maker' rather than '%s'.
+
+
+

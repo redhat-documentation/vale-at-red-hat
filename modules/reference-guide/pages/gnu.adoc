@@ -1,0 +1,9 @@
+:navtitle: gnu
+:keywords: reference, rule, gnu
+
+= gnu
+
+Use 'gnu' rather than '%s'.
+
+
+

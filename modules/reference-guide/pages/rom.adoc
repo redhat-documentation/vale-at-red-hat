@@ -1,0 +1,9 @@
+:navtitle: rom
+:keywords: reference, rule, rom
+
+= rom
+
+Use 'rom' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: gtkplus
+:keywords: reference, rule, gtkplus
+
+= gtkplus
+
+Use 'gtkplus' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: time-frame
+:keywords: reference, rule, time-frame
+
+= time-frame
+
+Use 'time-frame' rather than '%s'.
+
+
+

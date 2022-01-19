@@ -1,0 +1,9 @@
+:navtitle: jvm
+:keywords: reference, rule, jvm
+
+= jvm
+
+Use 'jvm' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: selinux
+:keywords: reference, rule, selinux
+
+= selinux
+
+Use 'selinux' rather than '%s'.
+
+
+

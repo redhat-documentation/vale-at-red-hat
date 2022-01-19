@@ -1,0 +1,9 @@
+:navtitle: shell-prompt
+:keywords: reference, rule, shell-prompt
+
+= shell-prompt
+
+Use 'shell-prompt' rather than '%s'.
+
+
+

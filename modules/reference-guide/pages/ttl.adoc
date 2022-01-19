@@ -1,0 +1,9 @@
+:navtitle: ttl
+:keywords: reference, rule, ttl
+
+= ttl
+
+Use 'ttl' rather than '%s'.
+
+
+

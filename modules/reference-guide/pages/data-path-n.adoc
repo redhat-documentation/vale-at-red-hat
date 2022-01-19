@@ -1,0 +1,9 @@
+:navtitle: data-path-n
+:keywords: reference, rule, data-path-n
+
+= data-path-n
+
+Use 'data-path-n' rather than '%s'.
+
+
+

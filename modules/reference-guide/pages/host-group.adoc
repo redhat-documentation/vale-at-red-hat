@@ -1,0 +1,9 @@
+:navtitle: host-group
+:keywords: reference, rule, host-group
+
+= host-group
+
+Use 'host-group' rather than '%s'.
+
+
+

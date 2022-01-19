@@ -1,0 +1,6 @@
+:navtitle: Reference guide
+:keywords: reference, rule, list
+
+= Reference guide
+
+include::partial$nav.adoc[lines=3..]

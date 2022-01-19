@@ -1,0 +1,9 @@
+:navtitle: cds
+:keywords: reference, rule, cds
+
+= cds
+
+Use 'cds' rather than '%s'.
+
+
+

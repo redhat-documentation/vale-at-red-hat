@@ -1,0 +1,9 @@
+:navtitle: different
+:keywords: reference, rule, different
+
+= different
+
+Use 'different' rather than '%s'.
+
+
+

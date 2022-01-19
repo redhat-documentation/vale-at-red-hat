@@ -1,0 +1,9 @@
+:navtitle: write
+:keywords: reference, rule, write
+
+= write
+
+Use 'write' rather than '%s' as a verb.
+
+
+

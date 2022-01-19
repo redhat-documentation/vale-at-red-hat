@@ -1,0 +1,9 @@
+:navtitle: bind
+:keywords: reference, rule, bind
+
+= bind
+
+Use 'bind' rather than '%s' when referring to the DNS software.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: ibm-s-390
+:keywords: reference, rule, ibm-s-390
+
+= ibm-s-390
+
+Use 'ibm-s-390' rather than '%s'.
+
+
+

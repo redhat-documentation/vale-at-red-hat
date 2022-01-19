@@ -1,0 +1,9 @@
+:navtitle: ThereIs
+:keywords: reference, rule, ThereIs
+
+= ThereIs
+
+Don't start a sentence with 'ThereIs'
+
+
+

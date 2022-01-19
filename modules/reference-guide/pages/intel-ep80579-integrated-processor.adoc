@@ -1,0 +1,9 @@
+:navtitle: intel-ep80579-integrated-processor
+:keywords: reference, rule, intel-ep80579-integrated-processor
+
+= intel-ep80579-integrated-processor
+
+Use 'intel-ep80579-integrated-processor' rather than '%s'.
+
+
+

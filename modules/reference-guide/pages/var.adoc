@@ -1,0 +1,9 @@
+:navtitle: var
+:keywords: reference, rule, var
+
+= var
+
+Use 'var' rather than '%s'.
+
+
+

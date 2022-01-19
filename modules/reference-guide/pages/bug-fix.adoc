@@ -1,0 +1,9 @@
+:navtitle: bug-fix
+:keywords: reference, rule, bug-fix
+
+= bug-fix
+
+Use 'bug-fix' rather than '%s'.
+
+
+

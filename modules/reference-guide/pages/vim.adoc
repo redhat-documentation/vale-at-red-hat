@@ -1,0 +1,9 @@
+:navtitle: vim
+:keywords: reference, rule, vim
+
+= vim
+
+Use 'vim' rather than '%s'.
+
+
+

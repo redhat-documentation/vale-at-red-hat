@@ -1,0 +1,9 @@
+:navtitle: s-record
+:keywords: reference, rule, s-record
+
+= s-record
+
+Use 's-record' rather than '%s'.
+
+
+

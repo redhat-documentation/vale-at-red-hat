@@ -1,0 +1,9 @@
+:navtitle: ram
+:keywords: reference, rule, ram
+
+= ram
+
+Use 'ram' rather than '%s'.
+
+
+

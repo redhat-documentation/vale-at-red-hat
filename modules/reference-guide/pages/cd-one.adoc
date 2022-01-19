@@ -1,0 +1,9 @@
+:navtitle: cd-one
+:keywords: reference, rule, cd-one
+
+= cd-one
+
+Use 'cd-one' rather than '%s'.
+
+
+

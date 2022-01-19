@@ -1,0 +1,9 @@
+:navtitle: objective-c
+:keywords: reference, rule, objective-c
+
+= objective-c
+
+Use 'objective-c' rather than '%s'.
+
+
+

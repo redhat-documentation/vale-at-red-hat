@@ -1,0 +1,9 @@
+:navtitle: hyper-threading
+:keywords: reference, rule, hyper-threading
+
+= hyper-threading
+
+Use 'hyper-threading' rather than '%s'.
+
+
+

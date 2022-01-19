@@ -1,0 +1,9 @@
+:navtitle: want
+:keywords: reference, rule, want
+
+= want
+
+Use 'want' rather than '%s'.
+
+
+

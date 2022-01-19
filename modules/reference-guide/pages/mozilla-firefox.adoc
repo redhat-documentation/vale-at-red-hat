@@ -1,0 +1,9 @@
+:navtitle: mozilla-firefox
+:keywords: reference, rule, mozilla-firefox
+
+= mozilla-firefox
+
+Use 'mozilla-firefox' rather than '%s'.
+
+
+

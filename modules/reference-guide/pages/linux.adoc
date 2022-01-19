@@ -1,0 +1,9 @@
+:navtitle: linux
+:keywords: reference, rule, linux
+
+= linux
+
+Use 'linux' rather than '%s'.
+
+
+

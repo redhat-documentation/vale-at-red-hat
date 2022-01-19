@@ -1,0 +1,9 @@
+:navtitle: standalone
+:keywords: reference, rule, standalone
+
+= standalone
+
+Use 'standalone' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: opcodes
+:keywords: reference, rule, opcodes
+
+= opcodes
+
+Use 'opcodes' rather than '%s'.
+
+
+

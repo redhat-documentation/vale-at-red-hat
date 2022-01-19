@@ -1,0 +1,9 @@
+:navtitle: comma-delimited
+:keywords: reference, rule, comma-delimited
+
+= comma-delimited
+
+Use 'comma-delimited' rather than '%s'.
+
+
+

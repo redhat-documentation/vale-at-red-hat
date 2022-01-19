@@ -1,0 +1,9 @@
+:navtitle: ibm-eserver-system-p
+:keywords: reference, rule, ibm-eserver-system-p
+
+= ibm-eserver-system-p
+
+Use 'ibm-eserver-system-p' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: source-navigator
+:keywords: reference, rule, source-navigator
+
+= source-navigator
+
+Use 'source-navigator' rather than '%s'.
+
+
+

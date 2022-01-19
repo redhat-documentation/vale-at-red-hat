@@ -1,0 +1,9 @@
+:navtitle: many
+:keywords: reference, rule, many
+
+= many
+
+Use 'many' rather than '%s'.
+
+
+

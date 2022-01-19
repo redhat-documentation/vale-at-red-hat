@@ -1,0 +1,9 @@
+:navtitle: popup
+:keywords: reference, rule, popup
+
+= popup
+
+Use 'popup' rather than '%s'.
+
+
+

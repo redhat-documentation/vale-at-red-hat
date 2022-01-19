@@ -1,0 +1,9 @@
+:navtitle: fortran
+:keywords: reference, rule, fortran
+
+= fortran
+
+Use 'fortran' rather than '%s'.
+
+
+

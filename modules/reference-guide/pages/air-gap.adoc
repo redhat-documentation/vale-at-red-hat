@@ -1,0 +1,9 @@
+:navtitle: air-gap
+:keywords: reference, rule, air-gap
+
+= air-gap
+
+Use 'air-gap' rather than '%s'.
+
+
+

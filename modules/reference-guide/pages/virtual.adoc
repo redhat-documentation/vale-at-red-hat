@@ -1,0 +1,9 @@
+:navtitle: virtual
+:keywords: reference, rule, virtual
+
+= virtual
+
+Use 'virtual' rather than '%s'.
+
+
+

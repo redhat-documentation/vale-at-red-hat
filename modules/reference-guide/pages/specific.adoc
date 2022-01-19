@@ -1,0 +1,9 @@
+:navtitle: specific
+:keywords: reference, rule, specific
+
+= specific
+
+Use 'specific' rather than '%s'.
+
+
+

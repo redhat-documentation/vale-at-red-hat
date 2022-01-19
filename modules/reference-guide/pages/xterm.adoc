@@ -1,0 +1,9 @@
+:navtitle: xterm
+:keywords: reference, rule, xterm
+
+= xterm
+
+Use 'xterm' rather than '%s'.
+
+
+

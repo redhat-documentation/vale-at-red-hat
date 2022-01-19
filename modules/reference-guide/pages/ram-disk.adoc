@@ -1,0 +1,9 @@
+:navtitle: ram-disk
+:keywords: reference, rule, ram-disk
+
+= ram-disk
+
+Use 'ram-disk' rather than '%s'.
+
+
+

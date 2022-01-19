@@ -1,0 +1,9 @@
+:navtitle: debug-adj
+:keywords: reference, rule, debug-adj
+
+= debug-adj
+
+Use 'debug-adj' rather than '%s'.
+
+
+

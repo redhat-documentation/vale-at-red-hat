@@ -1,0 +1,9 @@
+:navtitle: server-cluster
+:keywords: reference, rule, server-cluster
+
+= server-cluster
+
+Use 'server-cluster' rather than '%s'.
+
+
+

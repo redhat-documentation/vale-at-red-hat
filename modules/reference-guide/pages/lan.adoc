@@ -1,0 +1,9 @@
+:navtitle: lan
+:keywords: reference, rule, lan
+
+= lan
+
+Use 'lan' rather than '%s'.
+
+
+

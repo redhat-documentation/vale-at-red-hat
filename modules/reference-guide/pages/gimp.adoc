@@ -1,0 +1,9 @@
+:navtitle: gimp
+:keywords: reference, rule, gimp
+
+= gimp
+
+Use 'gimp' rather than '%s'.
+
+
+

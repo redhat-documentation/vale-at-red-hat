@@ -1,0 +1,9 @@
+:navtitle: virtual-console
+:keywords: reference, rule, virtual-console
+
+= virtual-console
+
+Use 'virtual-console' rather than '%s'.
+
+
+

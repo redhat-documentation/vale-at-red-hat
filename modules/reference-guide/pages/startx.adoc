@@ -1,0 +1,9 @@
+:navtitle: startx
+:keywords: reference, rule, startx
+
+= startx
+
+Use 'startx' rather than '%s'.
+
+
+

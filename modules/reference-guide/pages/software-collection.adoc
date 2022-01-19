@@ -1,0 +1,9 @@
+:navtitle: software-collection
+:keywords: reference, rule, software-collection
+
+= software-collection
+
+Use 'software-collection' rather than '%s'.
+
+
+

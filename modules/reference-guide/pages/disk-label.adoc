@@ -1,0 +1,9 @@
+:navtitle: disk-label
+:keywords: reference, rule, disk-label
+
+= disk-label
+
+Use 'disk-label' rather than '%s'.
+
+
+

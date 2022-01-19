@@ -1,0 +1,9 @@
+:navtitle: foreground
+:keywords: reference, rule, foreground
+
+= foreground
+
+Use 'foreground' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: ppp
+:keywords: reference, rule, ppp
+
+= ppp
+
+Use 'ppp' rather than '%s'.
+
+
+

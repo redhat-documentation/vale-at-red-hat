@@ -1,0 +1,9 @@
+:navtitle: health-check
+:keywords: reference, rule, health-check
+
+= health-check
+
+Use 'health-check' rather than '%s'.
+
+
+

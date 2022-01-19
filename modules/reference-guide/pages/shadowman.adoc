@@ -1,0 +1,9 @@
+:navtitle: shadowman
+:keywords: reference, rule, shadowman
+
+= shadowman
+
+Use 'shadowman' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: bare-metal
+:keywords: reference, rule, bare-metal
+
+= bare-metal
+
+Use 'bare metal' (noun) or 'bare-metal' (adjective).
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: remote-access-server
+:keywords: reference, rule, remote-access-server
+
+= remote-access-server
+
+Use 'remote-access-server' rather than '%s'.
+
+
+

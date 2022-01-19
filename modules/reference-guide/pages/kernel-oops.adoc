@@ -1,0 +1,9 @@
+:navtitle: kernel-oops
+:keywords: reference, rule, kernel-oops
+
+= kernel-oops
+
+Use 'kernel-oops' rather than '%s'.
+
+
+

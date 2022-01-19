@@ -1,0 +1,9 @@
+:navtitle: environment
+:keywords: reference, rule, environment
+
+= environment
+
+Use 'environment' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: hot-plug
+:keywords: reference, rule, hot-plug
+
+= hot-plug
+
+Use 'hot-plug' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: open-source
+:keywords: reference, rule, open-source
+
+= open-source
+
+Use 'open-source' rather than '%s'.
+
+
+

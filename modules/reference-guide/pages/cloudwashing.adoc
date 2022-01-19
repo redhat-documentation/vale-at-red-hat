@@ -1,0 +1,9 @@
+:navtitle: cloudwashing
+:keywords: reference, rule, cloudwashing
+
+= cloudwashing
+
+Use 'cloudwashing' rather than '%s'.
+
+
+

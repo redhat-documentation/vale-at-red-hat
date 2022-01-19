@@ -1,0 +1,9 @@
+:navtitle: dual-boot
+:keywords: reference, rule, dual-boot
+
+= dual-boot
+
+Use 'dual-boot' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: cd-writer
+:keywords: reference, rule, cd-writer
+
+= cd-writer
+
+Use 'cd-writer' rather than '%s'.
+
+
+

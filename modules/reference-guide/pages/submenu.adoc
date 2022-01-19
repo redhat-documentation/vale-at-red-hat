@@ -1,0 +1,9 @@
+:navtitle: submenu
+:keywords: reference, rule, submenu
+
+= submenu
+
+Use 'submenu' rather than '%s'.
+
+
+

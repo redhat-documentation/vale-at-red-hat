@@ -1,0 +1,9 @@
+:navtitle: tier-1
+:keywords: reference, rule, tier-1
+
+= tier-1
+
+Use 'tier-1' rather than '%s'.
+
+
+

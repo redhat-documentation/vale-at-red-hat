@@ -1,0 +1,9 @@
+:navtitle: ms-dos
+:keywords: reference, rule, ms-dos
+
+= ms-dos
+
+Use 'ms-dos' rather than '%s'.
+
+
+

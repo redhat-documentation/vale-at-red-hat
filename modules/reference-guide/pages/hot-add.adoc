@@ -1,0 +1,9 @@
+:navtitle: hot-add
+:keywords: reference, rule, hot-add
+
+= hot-add
+
+Use 'hot-add' rather than '%s'.
+
+
+

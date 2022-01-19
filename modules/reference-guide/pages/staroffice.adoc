@@ -1,0 +1,9 @@
+:navtitle: staroffice
+:keywords: reference, rule, staroffice
+
+= staroffice
+
+Use 'staroffice' rather than '%s'.
+
+
+

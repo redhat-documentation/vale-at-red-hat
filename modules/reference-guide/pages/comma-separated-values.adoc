@@ -1,0 +1,9 @@
+:navtitle: comma-separated-values
+:keywords: reference, rule, comma-separated-values
+
+= comma-separated-values
+
+Use 'comma-separated-values' rather than '%s'.
+
+
+

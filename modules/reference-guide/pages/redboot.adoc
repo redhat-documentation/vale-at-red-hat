@@ -1,0 +1,9 @@
+:navtitle: redboot
+:keywords: reference, rule, redboot
+
+= redboot
+
+Use 'redboot' rather than '%s'.
+
+
+

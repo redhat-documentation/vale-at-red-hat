@@ -1,0 +1,9 @@
+:navtitle: segmentation-fault
+:keywords: reference, rule, segmentation-fault
+
+= segmentation-fault
+
+Use 'segmentation-fault' rather than '%s'.
+
+
+

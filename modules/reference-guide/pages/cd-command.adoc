@@ -1,0 +1,9 @@
+:navtitle: cd-command
+:keywords: reference, rule, cd-command
+
+= cd-command
+
+Use 'cd-command' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: see
+:keywords: reference, rule, see
+
+= see
+
+Use 'see' rather than '%s'.
+
+
+

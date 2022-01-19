@@ -1,0 +1,9 @@
+:navtitle: boot-disk
+:keywords: reference, rule, boot-disk
+
+= boot-disk
+
+Use 'boot-disk' rather than '%s'.
+
+
+

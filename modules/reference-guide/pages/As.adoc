@@ -1,0 +1,9 @@
+:navtitle: As
+:keywords: reference, rule, As
+
+= As
+
+Do not use 'As' to mean 'because' or 'while'.
+
+
+

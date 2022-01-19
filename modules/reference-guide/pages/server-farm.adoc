@@ -1,0 +1,9 @@
+:navtitle: server-farm
+:keywords: reference, rule, server-farm
+
+= server-farm
+
+Use 'server-farm' rather than '%s'.
+
+
+

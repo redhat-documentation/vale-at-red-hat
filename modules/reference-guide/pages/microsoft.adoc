@@ -1,0 +1,9 @@
+:navtitle: microsoft
+:keywords: reference, rule, microsoft
+
+= microsoft
+
+Use 'microsoft' rather than '%s'.
+
+
+

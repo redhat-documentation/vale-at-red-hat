@@ -1,0 +1,9 @@
+:navtitle: postscript
+:keywords: reference, rule, postscript
+
+= postscript
+
+Use 'postscript' rather than '%s'.
+
+
+

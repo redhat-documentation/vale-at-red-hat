@@ -1,0 +1,9 @@
+:navtitle: ctrl
+:keywords: reference, rule, ctrl
+
+= ctrl
+
+Use 'ctrl' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: subdirectory
+:keywords: reference, rule, subdirectory
+
+= subdirectory
+
+Use 'subdirectory' rather than '%s'.
+
+
+

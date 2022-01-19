@@ -1,0 +1,9 @@
+:navtitle: ipsec
+:keywords: reference, rule, ipsec
+
+= ipsec
+
+Use 'ipsec' rather than '%s'.
+
+
+

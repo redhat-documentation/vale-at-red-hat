@@ -1,0 +1,9 @@
+:navtitle: samba
+:keywords: reference, rule, samba
+
+= samba
+
+Use 'samba' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: override
+:keywords: reference, rule, override
+
+= override
+
+Use 'override' rather than '%s'.
+
+
+

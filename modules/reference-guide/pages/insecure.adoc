@@ -1,0 +1,9 @@
+:navtitle: insecure
+:keywords: reference, rule, insecure
+
+= insecure
+
+Use 'insecure' rather than '%s'.
+
+
+

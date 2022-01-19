@@ -1,0 +1,9 @@
+:navtitle: gnome
+:keywords: reference, rule, gnome
+
+= gnome
+
+Use 'gnome' rather than '%s'.
+
+
+

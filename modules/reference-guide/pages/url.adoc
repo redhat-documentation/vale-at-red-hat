@@ -1,0 +1,9 @@
+:navtitle: url
+:keywords: reference, rule, url
+
+= url
+
+Use 'url' rather than '%s'.
+
+
+

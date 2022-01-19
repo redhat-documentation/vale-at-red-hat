@@ -1,0 +1,9 @@
+:navtitle: web-ui
+:keywords: reference, rule, web-ui
+
+= web-ui
+
+Use 'web-ui' rather than '%s'.
+
+
+

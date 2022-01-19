@@ -1,0 +1,9 @@
+:navtitle: mysql
+:keywords: reference, rule, mysql
+
+= mysql
+
+Use 'mysql' rather than '%s'.
+
+
+

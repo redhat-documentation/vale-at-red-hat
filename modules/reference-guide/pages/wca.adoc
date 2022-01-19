@@ -1,0 +1,9 @@
+:navtitle: wca
+:keywords: reference, rule, wca
+
+= wca
+
+Use 'wca' rather than '%s'.
+
+
+

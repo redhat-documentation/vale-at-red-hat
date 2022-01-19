@@ -1,0 +1,9 @@
+:navtitle: socks
+:keywords: reference, rule, socks
+
+= socks
+
+Use 'socks' rather than '%s'.
+
+
+

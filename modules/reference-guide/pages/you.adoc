@@ -1,0 +1,11 @@
+:navtitle: you
+:keywords: reference, rule, you
+
+= you
+
+Use 'you' rather than '%s'.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#you[]
+

@@ -1,0 +1,9 @@
+:navtitle: intel-virtualization-technology
+:keywords: reference, rule, intel-virtualization-technology
+
+= intel-virtualization-technology
+
+Use 'intel-virtualization-technology' rather than '%s'.
+
+
+

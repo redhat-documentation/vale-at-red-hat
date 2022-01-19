@@ -1,0 +1,9 @@
+:navtitle: menu-driven
+:keywords: reference, rule, menu-driven
+
+= menu-driven
+
+Use 'menu-driven' rather than '%s'.
+
+
+

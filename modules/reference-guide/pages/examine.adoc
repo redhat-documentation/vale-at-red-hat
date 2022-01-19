@@ -1,0 +1,9 @@
+:navtitle: examine
+:keywords: reference, rule, examine
+
+= examine
+
+Use 'examine' rather than '%s'.
+
+
+

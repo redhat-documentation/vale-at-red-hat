@@ -1,0 +1,9 @@
+:navtitle: Spacing
+:keywords: reference, rule, Spacing
+
+= Spacing
+
+'Spacing' should have one space.
+
+
+

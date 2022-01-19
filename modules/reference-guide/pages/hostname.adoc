@@ -1,6 +1,9 @@
 :navtitle: hostname
-:keywords: vale
+:keywords: reference, rule, hostname
 
 = hostname
 
 Use 'hostname' rather than 'host name' unless updating existing content that uses 'host name'.
+
+
+

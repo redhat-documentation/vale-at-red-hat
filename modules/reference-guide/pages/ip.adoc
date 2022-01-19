@@ -1,0 +1,9 @@
+:navtitle: ip
+:keywords: reference, rule, ip
+
+= ip
+
+Use 'ip' rather than '%s'.
+
+
+

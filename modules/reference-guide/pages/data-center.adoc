@@ -1,0 +1,9 @@
+:navtitle: data-center
+:keywords: reference, rule, data-center
+
+= data-center
+
+Use 'data-center' rather than '%s'.
+
+
+

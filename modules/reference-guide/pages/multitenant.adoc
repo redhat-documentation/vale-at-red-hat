@@ -1,0 +1,9 @@
+:navtitle: multitenant
+:keywords: reference, rule, multitenant
+
+= multitenant
+
+Use 'multitenant' rather than '%s'.
+
+
+

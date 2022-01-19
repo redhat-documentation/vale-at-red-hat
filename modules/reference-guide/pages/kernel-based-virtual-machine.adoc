@@ -1,0 +1,9 @@
+:navtitle: kernel-based-virtual-machine
+:keywords: reference, rule, kernel-based-virtual-machine
+
+= kernel-based-virtual-machine
+
+Use 'kernel-based-virtual-machine' rather than '%s'.
+
+
+

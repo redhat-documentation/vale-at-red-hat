@@ -1,0 +1,9 @@
+:navtitle: command-driven
+:keywords: reference, rule, command-driven
+
+= command-driven
+
+Use 'command-driven' rather than '%s'.
+
+
+

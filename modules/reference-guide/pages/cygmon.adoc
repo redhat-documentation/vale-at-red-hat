@@ -1,0 +1,9 @@
+:navtitle: cygmon
+:keywords: reference, rule, cygmon
+
+= cygmon
+
+Use 'cygmon' rather than '%s'.
+
+
+

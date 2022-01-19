@@ -1,0 +1,9 @@
+:navtitle: kvm
+:keywords: reference, rule, kvm
+
+= kvm
+
+Use 'kvm' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: upselling
+:keywords: reference, rule, upselling
+
+= upselling
+
+Use 'upselling' rather than '%s'.
+
+
+

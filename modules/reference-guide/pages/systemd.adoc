@@ -1,0 +1,9 @@
+:navtitle: systemd
+:keywords: reference, rule, systemd
+
+= systemd
+
+Use 'systemd' rather than '%s'.
+
+
+

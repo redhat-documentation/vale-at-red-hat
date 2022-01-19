@@ -1,0 +1,9 @@
+:navtitle: hotline
+:keywords: reference, rule, hotline
+
+= hotline
+
+Use 'hotline' rather than '%s'.
+
+
+

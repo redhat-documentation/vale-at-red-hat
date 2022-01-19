@@ -1,0 +1,9 @@
+:navtitle: vlan
+:keywords: reference, rule, vlan
+
+= vlan
+
+Use 'vlan' rather than '%s'.
+
+
+

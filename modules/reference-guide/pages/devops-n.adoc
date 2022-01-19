@@ -1,0 +1,9 @@
+:navtitle: devops-n
+:keywords: reference, rule, devops-n
+
+= devops-n
+
+Use 'devops-n' rather than '%s'.
+
+
+

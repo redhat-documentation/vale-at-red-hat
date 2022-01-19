@@ -1,0 +1,9 @@
+:navtitle: gpl
+:keywords: reference, rule, gpl
+
+= gpl
+
+Use 'gpl' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: fedora-project
+:keywords: reference, rule, fedora-project
+
+= fedora-project
+
+Use 'fedora-project' rather than '%s'.
+
+
+

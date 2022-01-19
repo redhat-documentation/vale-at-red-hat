@@ -1,0 +1,9 @@
+:navtitle: operating-environment
+:keywords: reference, rule, operating-environment
+
+= operating-environment
+
+Use 'operating-environment' rather than '%s'.
+
+
+

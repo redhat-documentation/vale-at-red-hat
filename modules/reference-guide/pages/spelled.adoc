@@ -1,0 +1,9 @@
+:navtitle: spelled
+:keywords: reference, rule, spelled
+
+= spelled
+
+Use 'spelled' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: ssh
+:keywords: reference, rule, ssh
+
+= ssh
+
+Use 'ssh' rather than '%s'.
+
+
+

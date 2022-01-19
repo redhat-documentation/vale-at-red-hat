@@ -1,0 +1,9 @@
+:navtitle: gb
+:keywords: reference, rule, gb
+
+= gb
+
+Use 'gb' rather than '%s'.
+
+
+

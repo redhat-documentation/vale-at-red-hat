@@ -1,0 +1,9 @@
+:navtitle: grub
+:keywords: reference, rule, grub
+
+= grub
+
+Use 'grub' rather than '%s'.
+
+
+

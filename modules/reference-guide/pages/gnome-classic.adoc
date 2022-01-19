@@ -1,0 +1,9 @@
+:navtitle: gnome-classic
+:keywords: reference, rule, gnome-classic
+
+= gnome-classic
+
+Use 'gnome-classic' rather than '%s'.
+
+
+

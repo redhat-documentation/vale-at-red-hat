@@ -1,0 +1,9 @@
+:navtitle: iops
+:keywords: reference, rule, iops
+
+= iops
+
+Use 'iops' rather than '%s'.
+
+
+

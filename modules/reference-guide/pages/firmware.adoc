@@ -1,0 +1,9 @@
+:navtitle: firmware
+:keywords: reference, rule, firmware
+
+= firmware
+
+Use 'firmware' rather than '%s'.
+
+
+

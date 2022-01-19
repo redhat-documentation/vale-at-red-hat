@@ -1,0 +1,9 @@
+:navtitle: downstream-adj
+:keywords: reference, rule, downstream-adj
+
+= downstream-adj
+
+Use 'downstream-adj' rather than '%s'.
+
+
+

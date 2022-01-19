@@ -1,0 +1,9 @@
+:navtitle: infiniband
+:keywords: reference, rule, infiniband
+
+= infiniband
+
+Use 'infiniband' rather than '%s'.
+
+
+

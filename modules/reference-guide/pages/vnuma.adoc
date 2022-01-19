@@ -1,0 +1,9 @@
+:navtitle: vnuma
+:keywords: reference, rule, vnuma
+
+= vnuma
+
+Use 'vnuma' rather than '%s'.
+
+
+

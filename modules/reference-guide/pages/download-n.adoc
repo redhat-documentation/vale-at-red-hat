@@ -1,0 +1,9 @@
+:navtitle: download-n
+:keywords: reference, rule, download-n
+
+= download-n
+
+Use 'download-n' rather than '%s'.
+
+
+

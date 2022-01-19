@@ -1,0 +1,9 @@
+:navtitle: bios
+:keywords: reference, rule, bios
+
+= bios
+
+Use 'bios' rather than '%s'.
+
+
+

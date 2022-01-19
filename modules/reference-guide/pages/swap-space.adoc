@@ -1,0 +1,9 @@
+:navtitle: swap-space
+:keywords: reference, rule, swap-space
+
+= swap-space
+
+Use 'swap-space' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: faq
+:keywords: reference, rule, faq
+
+= faq
+
+Use 'faq' rather than '%s'.
+
+
+

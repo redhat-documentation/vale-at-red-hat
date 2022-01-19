@@ -1,0 +1,9 @@
+:navtitle: vpn
+:keywords: reference, rule, vpn
+
+= vpn
+
+Use 'vpn' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: ok
+:keywords: reference, rule, ok
+
+= ok
+
+Use 'ok' rather than '%s'.
+
+
+

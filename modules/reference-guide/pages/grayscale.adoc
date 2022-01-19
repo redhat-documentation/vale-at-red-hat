@@ -1,0 +1,9 @@
+:navtitle: grayscale
+:keywords: reference, rule, grayscale
+
+= grayscale
+
+Use 'grayscale' rather than '%s'.
+
+
+

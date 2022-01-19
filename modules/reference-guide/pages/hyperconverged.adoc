@@ -1,0 +1,9 @@
+:navtitle: hyperconverged
+:keywords: reference, rule, hyperconverged
+
+= hyperconverged
+
+Use 'hyperconverged' rather than '%s'.
+
+
+

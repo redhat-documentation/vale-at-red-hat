@@ -1,0 +1,9 @@
+:navtitle: ConfigMap
+:keywords: reference, rule, ConfigMap
+
+= ConfigMap
+
+Do not use 'config', unless it is followed by 'map'.
+
+
+

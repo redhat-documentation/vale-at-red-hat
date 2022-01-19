@@ -1,0 +1,9 @@
+:navtitle: recommend
+:keywords: reference, rule, recommend
+
+= recommend
+
+Avoid 'recommend'. rather than 'Red Hat recommends', direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts.
+
+
+

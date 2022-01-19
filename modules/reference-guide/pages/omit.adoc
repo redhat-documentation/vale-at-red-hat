@@ -1,0 +1,9 @@
+:navtitle: omit
+:keywords: reference, rule, omit
+
+= omit
+
+Use 'omit' rather than '%s'.
+
+
+

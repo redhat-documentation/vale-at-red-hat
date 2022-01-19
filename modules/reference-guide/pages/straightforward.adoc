@@ -1,0 +1,9 @@
+:navtitle: straightforward
+:keywords: reference, rule, straightforward
+
+= straightforward
+
+Use 'straightforward' rather than '%s'.
+
+
+

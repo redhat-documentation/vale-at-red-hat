@@ -1,0 +1,9 @@
+:navtitle: red-hat-network-satellite-server
+:keywords: reference, rule, red-hat-network-satellite-server
+
+= red-hat-network-satellite-server
+
+Use 'red-hat-network-satellite-server' rather than '%s'.
+
+
+

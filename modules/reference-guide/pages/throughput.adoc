@@ -1,0 +1,9 @@
+:navtitle: throughput
+:keywords: reference, rule, throughput
+
+= throughput
+
+Use 'throughput' rather than '%s'.
+
+
+

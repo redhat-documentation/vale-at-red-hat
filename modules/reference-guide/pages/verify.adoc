@@ -1,0 +1,9 @@
+:navtitle: verify
+:keywords: reference, rule, verify
+
+= verify
+
+Use 'verify' rather than '%s'.
+
+
+

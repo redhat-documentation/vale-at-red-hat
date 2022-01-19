@@ -1,0 +1,9 @@
+:navtitle: AnimalLabels
+:keywords: reference, rule, AnimalLabels
+
+= AnimalLabels
+
+Consider using 'AnimalLabels' instead of '%s'.
+
+
+

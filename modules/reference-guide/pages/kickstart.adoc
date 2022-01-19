@@ -1,0 +1,9 @@
+:navtitle: kickstart
+:keywords: reference, rule, kickstart
+
+= kickstart
+
+Use 'kickstart' rather than '%s'.
+
+
+

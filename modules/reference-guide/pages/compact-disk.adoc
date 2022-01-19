@@ -1,0 +1,9 @@
+:navtitle: compact-disk
+:keywords: reference, rule, compact-disk
+
+= compact-disk
+
+Use 'compact-disk' rather than '%s'.
+
+
+

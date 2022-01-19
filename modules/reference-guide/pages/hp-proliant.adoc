@@ -1,0 +1,9 @@
+:navtitle: hp-proliant
+:keywords: reference, rule, hp-proliant
+
+= hp-proliant
+
+Use 'hp-proliant' rather than '%s'.
+
+
+

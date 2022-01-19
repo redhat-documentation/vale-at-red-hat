@@ -1,0 +1,9 @@
+:navtitle: screen-saver
+:keywords: reference, rule, screen-saver
+
+= screen-saver
+
+Use 'screen-saver' rather than '%s'.
+
+
+

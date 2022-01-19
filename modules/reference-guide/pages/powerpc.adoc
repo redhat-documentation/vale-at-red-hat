@@ -1,0 +1,9 @@
+:navtitle: powerpc
+:keywords: reference, rule, powerpc
+
+= powerpc
+
+Use 'powerpc' rather than '%s'.
+
+
+

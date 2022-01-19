@@ -1,0 +1,9 @@
+:navtitle: scrollbar
+:keywords: reference, rule, scrollbar
+
+= scrollbar
+
+Use 'scrollbar' rather than '%s'.
+
+
+

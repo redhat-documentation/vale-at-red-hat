@@ -1,0 +1,9 @@
+:navtitle: bimonthly
+:keywords: reference, rule, bimonthly
+
+= bimonthly
+
+Use 'bimonthly' rather than '%s'.
+
+
+

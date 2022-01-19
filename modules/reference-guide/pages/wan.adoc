@@ -1,0 +1,9 @@
+:navtitle: wan
+:keywords: reference, rule, wan
+
+= wan
+
+Use 'wan' rather than '%s'.
+
+
+

@@ -1,0 +1,9 @@
+:navtitle: domain-name
+:keywords: reference, rule, domain-name
+
+= domain-name
+
+Use 'domain-name' rather than '%s'.
+
+
+

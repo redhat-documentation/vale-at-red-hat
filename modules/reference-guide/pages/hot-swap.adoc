@@ -1,0 +1,9 @@
+:navtitle: hot-swap
+:keywords: reference, rule, hot-swap
+
+= hot-swap
+
+Use 'hot-swap' rather than '%s'.
+
+
+

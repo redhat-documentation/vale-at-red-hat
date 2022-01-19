@@ -1,0 +1,9 @@
+:navtitle: repository
+:keywords: reference, rule, repository
+
+= repository
+
+Use 'repository' rather than '%s'.
+
+
+

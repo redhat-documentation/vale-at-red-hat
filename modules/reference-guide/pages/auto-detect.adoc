@@ -1,0 +1,9 @@
+:navtitle: auto-detect
+:keywords: reference, rule, auto-detect
+
+= auto-detect
+
+Use 'auto-detect' rather than '%s'.
+
+
+

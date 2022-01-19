@@ -1,0 +1,9 @@
+:navtitle: Cliches
+:keywords: reference, rule, Cliches
+
+= Cliches
+
+'Cliches' is a cliche.
+
+
+

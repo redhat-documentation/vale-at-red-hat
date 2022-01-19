@@ -1,0 +1,9 @@
+:navtitle: Definitions
+:keywords: reference, rule, Definitions
+
+= Definitions
+
+Define acronyms and abbreviations (such as 'Definitions') on first occurrence if they're likely to be unfamiliar.
+
+
+
