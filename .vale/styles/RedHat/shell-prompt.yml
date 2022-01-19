@@ -1,5 +1,8 @@
 extends: substitution
 message: "Use '%s' rather than '%s'."
+# The "shell prompt" is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt," "terminal," or "shell."
+# "Terminal emulation" refers to making a computer respond like a particular type of terminal. Terminal emulation programs allow you to access a mainframe computer or bulletin board service with a personal computer.
+
 link: https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt
 ignorecase: true
 level: error
@@ -7,4 +10,5 @@ action:
   name: replace
 source: Red Hat
 swap:
-  command prompt|terminal: shell prompt
+  command prompt: shell prompt
+  "shell(?! prompt)": shell prompt

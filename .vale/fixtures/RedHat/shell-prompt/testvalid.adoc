@@ -1,0 +1,2 @@
+valid content: shell prompt
+valid content: terminal
