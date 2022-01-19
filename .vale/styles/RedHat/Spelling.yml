@@ -20,9 +20,9 @@ filters:
   - "[cC]lassloading"
   - "[cC]olocate"
   - "[cC]onfig" # to enable "config map"
+  - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
   - "[dD]evfiles"
-  - "[dD]ev[wW]orkspace"
   - "[dD]ownstream"
   - "[dD]ownstreaming"
   - "[eE]xposal"
@@ -75,12 +75,36 @@ filters:
   - "[rR]esyncing"
   - "[rR]ollout"
   - "[rR]ollouts"
+  - "[rR]oundtable"
+  - "[rR]oundtables"
+  - "[pP]ulldown"
+  - "[mM]atrixes"
+  - Itanium
+  - Grayscale
+  - "[gG]bps"
+  - qeth
+  - Exif
+  - Cygmon
+  - Cloudbursting
+  - Cloudwashing
+  - Ciphertext
+  - cgroup
+  - "[rR]unlevel"
+  - "[rR]unlevels"
   - "[rR]untime"
   - "[rR]untimes"
+  - "[sS]crollbar"
   - "[sS]erializer"
   - "[sS]erverless"
   - "[sS]harding"
+  - "[sS]ubcommand"
+  - "[sS]ubcommands"
+  - "[sS]ubmenu"
+  - "[sS]ubmenus"
   - "[sS]ubnetwork"
+  - "[sS]ubnetworks"
+  - "[sS]ubpackage"
+  - "[sS]ubpackages"
   - "[sS]ubpath"
   - "[sS]ubpaths"
   - "[sS]ubstep"
@@ -103,6 +127,8 @@ filters:
   - "[uU]nported"
   - "[uU]nstaged"
   - "[uU]ntrusted"
+  - "[uU]psell"
+  - "[uU]pselling"
   - "Let\'s Encrypt"
   - adoc
   - Annobin
@@ -222,6 +248,8 @@ filters:
   - SCM
   - Semeru
   - Shadowman
+  - startx
+  - su
   - Suchow
   - SVG
   - Tekton
