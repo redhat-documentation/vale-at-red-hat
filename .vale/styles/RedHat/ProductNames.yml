@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' rather than '%s'."
 ignorecase: false
-level: error
+level: warning
 action:
   name: replace
 source: Red Hat
