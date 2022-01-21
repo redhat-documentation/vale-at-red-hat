@@ -9,3 +9,4 @@ indicators:
 exceptions:
   - IBM
   - Red Hat
+  - Git
