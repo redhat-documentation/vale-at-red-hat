@@ -56,7 +56,8 @@ exceptions:
   - Fabrice
   - Fortran
   - GCC
-  - GitHub
+    - Git
+    - GitHub
   - GitLab
   - Gluster
   - Gradle
@@ -68,6 +69,7 @@ exceptions:
   - Homebrew
   - HTTP
   - HTTPS
+  - IBM
   - IDE
   - IDEs
   - Intelephense
@@ -113,6 +115,7 @@ exceptions:
   - Prometheus
   - Pytorch
   - Quarkus
+  - Red Hat
   - Redistributions
   - Rolfe
   - Sakila
