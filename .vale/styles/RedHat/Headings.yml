@@ -56,8 +56,8 @@ exceptions:
   - Fabrice
   - Fortran
   - GCC
-    - Git
-    - GitHub
+  - Git
+  - GitHub
   - GitLab
   - Gluster
   - Gradle
