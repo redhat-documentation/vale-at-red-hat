@@ -1,4 +1,4 @@
-# Vale at Red Hat Blog
+# Vale at Red Hat blog
 <!-- vale off -->
 ## 21. May, 14:12, Friday
 

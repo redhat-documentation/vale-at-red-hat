@@ -7,5 +7,3 @@ This repository helps tech writers at Red Hat get up and running with Vale. It i
 .Additional resources
 
 * xref:https://rolfe.blog/category/vale/[Rolfe's "Vale notes" blog posts]
-
-air wall
