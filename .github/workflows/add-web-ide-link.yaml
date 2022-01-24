@@ -13,7 +13,6 @@ on:
   pull_request_target:
     types:
       - opened
-      - synchronize
 jobs:
   add-link:
     name: Add Web IDE link
