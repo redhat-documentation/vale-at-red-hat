@@ -1,10 +1,12 @@
-extends: substitution
-message: "Use '%s' rather than '%s'."
+extends: sequence
+message: "Use 'Mozilla %[2]s' rather than '%[2]s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox
 ignorecase: true
 level: error
 action:
   name: replace
 source: Red Hat
-swap:
-  firefox: Mozilla Firefox
+tokens:
+  - pattern: Mozilla
+    negate: true
+  - pattern: Firefox|Thunderbird

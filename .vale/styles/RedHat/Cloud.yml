@@ -2,7 +2,7 @@ extends: substitution
 message: "Use '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#cloud-adj
 ignorecase: true
-level: error
+level: suggestion
 action:
   name: replace
 source: Red Hat

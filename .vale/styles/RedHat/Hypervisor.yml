@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#hypervisor
-ignorecase: true
+ignorecase: false
 level: error
 action:
   name: replace

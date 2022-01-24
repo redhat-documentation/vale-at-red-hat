@@ -2,7 +2,7 @@ extends: substitution
 message: "Use 'cd' for the 'change directory' command. Use 'CD' as acronym for 'compact disc'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#cd-command
 ignorecase: true
-level: error
+level: suggestion
 action:
   name: replace
 source: Red Hat

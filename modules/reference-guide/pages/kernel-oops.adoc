@@ -3,9 +3,8 @@
 
 = Kernel oops
 
-Use `Kernel oops` rather than `%s`.
+A `kernel oops` is an error in the Linux kernel. Do not use `oops` by itself.
 
 .Additional Resources
 
 * link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops[]
-
