@@ -23,8 +23,7 @@ createPage() {
 * link:${LINK}[]"
     fi
 
-    cat <<EOF > "$PAGEFULLPATH"
-:navtitle: $RULE
+PAGECONTENT=":navtitle: $RULE
 :keywords: reference, rule, $RULE
 
 = $RULE
@@ -33,11 +32,14 @@ $MESSAGE
 
 $ADDITIONAL
 
-EOF
+"
+    # cat "$PAGECONTENT" > "$PAGEFULLPATH"
+
 }
 
 for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -f1 | sort)
 do
+    # Page name: from CamelCase to lowercase
     PAGENAME=$(echo "$RULE" | tr '[:upper:]' '[:lower:]' )
     PAGEFULLPATH="modules/reference-guide/pages/$PAGENAME.adoc"
     if [ ! -f "$PAGEFULLPATH" ]
