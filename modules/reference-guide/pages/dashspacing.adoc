@@ -1,9 +1,9 @@
-:navtitle: DashSpacing
-:keywords: reference, rule, DashSpacing
+:navtitle: Dash spacing
+:keywords: reference, rule, dash spacing
 
-= DashSpacing
+= Dash spacing
 
-Add spaces around the dash in `DashSpacing`.
+Add spaces around the dash.
 
 .Additional Resources
 

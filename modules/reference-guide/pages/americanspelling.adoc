@@ -1,9 +1,9 @@
-:navtitle: AmericanSpelling
-:keywords: reference, rule, AmericanSpelling
+:navtitle: American spelling
+:keywords: reference, rule, American spelling, spelling
 
-= AmericanSpelling
+= American spelling
 
-Use General American spelling of `AmericanSpelling`.
+Use general American spelling.
 
 
 

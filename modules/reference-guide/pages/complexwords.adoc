@@ -1,7 +1,7 @@
-:navtitle: ComplexWords
+:navtitle: Complex words
 :keywords: reference, rule, ComplexWords
 
-= ComplexWords
+= Complex words
 
 Consider using less complex words.
 

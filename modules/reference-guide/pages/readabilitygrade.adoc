@@ -1,7 +1,7 @@
-:navtitle: ReadabilityGrade
-:keywords: reference, rule, ReadabilityGrade
+:navtitle: Readability grade
+:keywords: reference, rule, readability grade
 
-= ReadabilityGrade
+= Readability grade
 
 Grade level (ReadabilityGrade) too high!
 

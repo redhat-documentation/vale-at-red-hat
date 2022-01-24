@@ -1,9 +1,9 @@
-:navtitle: JBoss-Community
-:keywords: reference, rule, JBoss-Community
+:navtitle: JBoss Community
+:keywords: reference, rule, JBoss Community
 
-= JBoss-Community
+= JBoss Community
 
-Use `JBoss-Community` rather than `%s`.
+Use `JBoss Community` rather than `JBoss.org`.
 
 .Additional Resources
 

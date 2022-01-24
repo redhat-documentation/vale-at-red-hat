@@ -1,9 +1,9 @@
-:navtitle: ProductNames
-:keywords: reference, rule, ProductNames
+:navtitle: Product names
+:keywords: reference, rule, Product names
 
-= ProductNames
+= Product names
 
-Use `ProductNames` rather than `%s`.
+Use product names.
 
 
 

@@ -1,9 +1,10 @@
 :navtitle: Mozilla
 :keywords: reference, rule, Mozilla Firefox, Mozilla Thunderbird
 
-= Mozilla Firefox
+= Mozilla
 
-Use `Mozilla Firefox` rather than `Firefox`. Use `Mozilla Thunderbird` rather than `Thunderbird`.
+Use `Mozilla Firefox` rather than `Firefox`.
+Use `Mozilla Thunderbird` rather than `Thunderbird`.
 
 .Additional Resources
 

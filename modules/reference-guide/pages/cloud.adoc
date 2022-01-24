@@ -1,4 +1,4 @@
-:navtitle: cloud
+:navtitle: Cloud
 :keywords: reference, rule, cloud
 
 = Cloud

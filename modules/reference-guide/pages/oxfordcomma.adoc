@@ -1,9 +1,9 @@
-:navtitle: OxfordComma
-:keywords: reference, rule, OxfordComma
+:navtitle: Oxford comma
+:keywords: reference, rule, Oxford comma
 
-= OxfordComma
+= Oxford comma
 
-Use the Oxford comma in `OxfordComma`.
+Use the Oxford comma.
 
 .Additional Resources
 

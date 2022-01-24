@@ -1,5 +1,5 @@
 extends: substitution
-message: For release notes, consider using '%s' instead of '%s'
+message: "For release notes, consider using '%s' rather than '%s'."
 link: https://redhat-documentation.github.io/supplementary-style-guide/#release-notes
 level: suggestion
 ignorecase: false

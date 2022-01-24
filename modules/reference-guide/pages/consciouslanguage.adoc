@@ -1,9 +1,9 @@
-:navtitle: ConsciousLanguage
+:navtitle: Conscious language
 :keywords: reference, rule, ConsciousLanguage
 
-= ConsciousLanguage
+= Conscious language
 
-message: Use `ConsciousLanguage` rather than `%s.`
+Use conscious language.
 
 .Additional Resources
 

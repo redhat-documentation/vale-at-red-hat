@@ -1,9 +1,9 @@
-:navtitle: CorporateSpeak
+:navtitle: Corporate speak
 :keywords: reference, rule, CorporateSpeak
 
-= CorporateSpeak
+= Corporate speak
 
-`CorporateSpeak` is corporate speak.
+Avoid using corporate speak.
 
 .Additional Resources
 

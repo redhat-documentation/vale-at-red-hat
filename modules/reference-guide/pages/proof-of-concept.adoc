@@ -1,9 +1,9 @@
-:navtitle: Proof-of-concept
+:navtitle: Proof of concept
 :keywords: reference, rule, Proof-of-concept
 
-= Proof-of-concept
+= Proof of concept
 
-Use `Proof-of-concept` rather than `%s`.
+Use `proof of concept` rather than `%s`.
 
 .Additional Resources
 

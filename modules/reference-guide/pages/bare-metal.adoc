@@ -1,7 +1,7 @@
-:navtitle: Bare-metal
+:navtitle: Bare-metal or bare metal
 :keywords: reference, rule, Bare-metal
 
-= Bare-metal
+= Bare-metal or bare metal
 
 Use `bare metal` (noun) or `bare-metal` (adjective).
 

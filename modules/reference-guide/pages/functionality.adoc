@@ -3,7 +3,7 @@
 
 = Functionality
 
-Use `Functionality` only to refer to a set of functions and their specified properties. Consider using a simpler term, for example `functions`.
+Use `functionality` only to refer to a set of functions and their specified properties. Consider using a simpler term, for example `functions`.
 
 .Additional Resources
 

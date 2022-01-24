@@ -1,9 +1,9 @@
-:navtitle: PassiveVoice
-:keywords: reference, rule, PassiveVoice
+:navtitle: Passive voice
+:keywords: reference, rule, passive voice
 
-= PassiveVoice
+= Passive voice
 
-`PassiveVoice` is passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites
+Avoid using passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites
 
 .Additional Resources
 

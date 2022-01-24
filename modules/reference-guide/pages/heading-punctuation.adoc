@@ -1,7 +1,7 @@
-:navtitle: HeadingPunctuation
-:keywords: reference, rule, HeadingPunctuation
+:navtitle: Heading punctuation
+:keywords: reference, rule, Heading punctuation
 
-= HeadingPunctuation
+= Heading punctuation
 
 Don`t use end punctuation in headings.
 

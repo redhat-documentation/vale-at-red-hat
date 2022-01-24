@@ -1,9 +1,9 @@
-:navtitle: ReleaseNotes
-:keywords: reference, rule, ReleaseNotes
+:navtitle: Release notes
+:keywords: reference, rule, release notes
 
-= ReleaseNotes
+= Release notes
 
-message: For release notes, consider using `ReleaseNotes` instead of `%s`
+For release notes, consider using `Before this update` rather than `Previously`, and `With this update` rather than `Now`.
 
 .Additional Resources
 

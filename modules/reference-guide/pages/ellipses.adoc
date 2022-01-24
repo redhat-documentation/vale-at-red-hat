@@ -3,7 +3,7 @@
 
 = Ellipses
 
-Avoid the ellipsis (...) except to indicate omitted words.
+Avoid the ellipsis `...` except to indicate omitted words.
 
 .Additional Resources
 

@@ -1,7 +1,7 @@
-:navtitle: Client-side versus client side
+:navtitle: Client-side or client side
 :keywords: reference, rule, client-side, client side
 
-= Client-side
+= Client-side or client side
 
 Use `client-side` for an adjective, `client side` for a noun.
 

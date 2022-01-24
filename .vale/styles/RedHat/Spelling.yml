@@ -30,6 +30,7 @@ filters:
   - "[Ff]actory"
   - "[fF]ailback"
   - "[fF]ailover"
+  - "[gG]bps"
   - "[gG]it"
   - "[gG]rafana"
   - "[hH]eatmap"
@@ -45,6 +46,7 @@ filters:
   - "[lL]icensor"
   - "[lL]iveness"
   - "[lL]oopback"
+  - "[mM]atrixes"
   - "[mM]ebibytes"
   - "[mM]illicores"
   - "[mM]ixin"
@@ -61,6 +63,7 @@ filters:
   - "[oO]nboarding"
   - "[oO]perator"
   - "[pP]reconfigured"
+  - "[pP]ulldown"
   - "[rR]eadonly"
   - "[rR]ebalance"
   - "[rR]ebalances"
@@ -77,18 +80,6 @@ filters:
   - "[rR]ollouts"
   - "[rR]oundtable"
   - "[rR]oundtables"
-  - "[pP]ulldown"
-  - "[mM]atrixes"
-  - Itanium
-  - Grayscale
-  - "[gG]bps"
-  - qeth
-  - Exif
-  - Cygmon
-  - Cloudbursting
-  - Cloudwashing
-  - Ciphertext
-  - cgroup
   - "[rR]unlevel"
   - "[rR]unlevels"
   - "[rR]untime"
@@ -97,6 +88,7 @@ filters:
   - "[sS]erializer"
   - "[sS]erverless"
   - "[sS]harding"
+  - "[Ss]u"
   - "[sS]ubcommand"
   - "[sS]ubcommands"
   - "[sS]ubmenu"
@@ -148,8 +140,12 @@ filters:
   - CentOS
   - Ceph
   - cephfs
+  - cgroup
   - Che-Theia
+  - Ciphertext
   - Civetweb
+  - Cloudbursting
+  - Cloudwashing
   - CodeReady
   - ConfigMap
   - ConfigMaps
@@ -161,6 +157,7 @@ filters:
   - CRDs
   - CRs
   - Ctrl
+  - Cygmon
   - DaemonSet
   - Datadog
   - Dev
@@ -176,6 +173,7 @@ filters:
   - Endian
   - endif
   - Esprima
+  - Exif
   - Fabrice
   - Fortran
   - GCC
@@ -183,6 +181,7 @@ filters:
   - GitLab
   - Gluster
   - Gradle
+  - Grayscale
   - GUI
   - Hashicorp
   - Helgrind
@@ -197,6 +196,7 @@ filters:
   - IDEs
   - Intelephense
   - IntelliJ
+  - Itanium
   - Jakarta
   - Java
   - Jave
@@ -241,6 +241,7 @@ filters:
   - prepended
   - Prometheus
   - Pytorch
+  - qeth
   - Quarkus
   - Redistributions
   - Rolfe
@@ -249,7 +250,6 @@ filters:
   - Semeru
   - Shadowman
   - startx
-  - su
   - Suchow
   - SVG
   - Tekton

@@ -3,7 +3,7 @@
 
 = Between
 
-Do not use `Between` to show a range of numbers; it is not clear whether the two numbers are the boundaries of the range or are included
+Do not use `Between` to show a range of numbers; it is not clear whether the two numbers are the boundaries of the range or are included.
 
 .Additional Resources
 

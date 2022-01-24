@@ -5,13 +5,6 @@ link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wor
 ignorecase: true
 level: suggestion
 tokens:
-  # This need its own rule since it doesn't have a left-hand word boundary.
-  # - (s)
-
-  # These also need their own rule:
-  # - neither ... nor
-  # - if...then
-
   - "pop-up (?:help|menu)"
   - "redbook(:s)?"
   - above
@@ -133,7 +126,6 @@ tokens:
   - soft boot
   - Solution Partnership Centers
   - store
-  - system
   - tab
   - text entry field
   - text field
@@ -153,7 +145,6 @@ tokens:
   - uncompressed
   - unmount
   - updatable
-  - upgrade
   - very
   - we
   - whether or not

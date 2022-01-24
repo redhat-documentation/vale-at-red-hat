@@ -1,9 +1,9 @@
-:navtitle: AnimalLabels
+:navtitle: Animal labels
 :keywords: reference, rule, AnimalLabels
 
-= AnimalLabels
+= Animal labels
 
-Consider using `AnimalLabels` instead of `%s`.
+Use the correct animal adjective.
 
 .Additional Resources
 

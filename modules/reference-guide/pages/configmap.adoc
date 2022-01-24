@@ -3,7 +3,7 @@
 
 = ConfigMap
 
-Do not use `config`, unless it is followed by `map`.
+Do not use `config`, unless followed by `map`.
 
 
 

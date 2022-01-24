@@ -1,9 +1,9 @@
-:navtitle: IBM-eServer-System-p
-:keywords: reference, rule, IBM-eServer-System-p
+:navtitle: IBM eServer System p
+:keywords: reference, rule, IBM eServer System p
 
-= IBM-eServer-System-p
+= IBM eServer System p
 
-Use `IBM-eServer-System-p` rather than `%s`.
+Use `IBM eServer System p` rather than `%s`.
 
 .Additional Resources
 

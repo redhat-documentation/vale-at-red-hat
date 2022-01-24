@@ -1,9 +1,9 @@
-:navtitle: ThereIs
-:keywords: reference, rule, ThereIs
+:navtitle: There is
+:keywords: reference, rule, There is
 
-= ThereIs
+= There is
 
-Don`t start a sentence with `ThereIs`
+Don`t start a sentence with `There is`.
 
 
 

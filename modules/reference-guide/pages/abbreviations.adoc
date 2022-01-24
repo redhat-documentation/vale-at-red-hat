@@ -3,7 +3,7 @@
 
 = Abbreviations
 
-Do not use periods in all-uppercase abbreviations such as `Abbreviations`.
+Do not use periods in all-uppercase abbreviations.
 
 .Additional Resources
 

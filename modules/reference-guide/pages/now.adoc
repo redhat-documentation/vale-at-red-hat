@@ -3,7 +3,7 @@
 
 = Now
 
-Use `Now` rather than `%s`.
+`Now` means at the present time, immediately, or at once. Do not use `right now`.
 
 .Additional Resources
 
