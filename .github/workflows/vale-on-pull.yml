@@ -1,0 +1,25 @@
+---
+#
+# Copyright (c) 2021 Red Hat, Inc.
+# This program and the accompanying materials are made
+# available under the terms of the Eclipse Public License 2.0
+# which is available at https://www.eclipse.org/legal/epl-2.0/
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+name: Linting with Vale on pull request
+on:
+  - pull_request
+jobs:
+  vale:
+    name: Linting with Vale on pull request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Vale Linter
+        uses: errata-ai/vale-action@v1.4.0
+        with:
+          files: __onlyModified
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
