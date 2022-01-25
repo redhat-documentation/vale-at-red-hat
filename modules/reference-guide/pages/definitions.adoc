@@ -3,7 +3,7 @@
 
 = Definitions
 
-Define acronyms and abbreviations (such as `Definitions`) on first occurrence if they`re likely to be unfamiliar.
+Define acronyms and abbreviations on first occurrence if they are likely to be unfamiliar.
 
 .Additional Resources
 
