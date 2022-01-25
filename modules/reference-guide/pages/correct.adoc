@@ -3,9 +3,9 @@
 
 = Correct
 
-Use `correct` or `as expected` rather than `alright`.
+`Alright` is the colloquial form of `correct`. Use `correct` or `as expected` rather than `alright`.
 
 .Additional Resources
 
-* link:{ssg-url}#air-gap[]
+* link:{ssg-url}#alright[]
 
