@@ -7,5 +7,5 @@ Use `web UI` to refer to a browser-based interface to a software application, ev
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#web-ui[]
+* link:{ssg-url}#web-ui[]
 

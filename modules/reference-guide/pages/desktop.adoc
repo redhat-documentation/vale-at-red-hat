@@ -7,5 +7,5 @@ Use `Desktop` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[]
+* link:{ssg-url}#desktop-adj[]
 

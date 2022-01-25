@@ -7,5 +7,5 @@ Use `Window Maker` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#window-maker[]
+* link:{ssg-url}#window-maker[]
 

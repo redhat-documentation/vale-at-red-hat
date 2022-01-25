@@ -7,5 +7,5 @@ Use `IPsec` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ipsec[]
+* link:{ssg-url}#ipsec[]
 

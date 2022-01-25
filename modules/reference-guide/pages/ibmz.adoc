@@ -7,5 +7,5 @@ Use `IBM-Z` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-z[]
+* link:{ssg-url}#ibm-z[]
 

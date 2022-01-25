@@ -7,5 +7,5 @@ Use `mouse button` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#mouse-button[]
+* link:{ssg-url}#mouse-button[]
 

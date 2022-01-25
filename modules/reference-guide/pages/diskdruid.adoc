@@ -7,5 +7,5 @@ Use `Disk-Druid` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#disk-druid[]
+* link:{ssg-url}#disk-druid[]
 

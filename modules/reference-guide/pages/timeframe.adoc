@@ -7,5 +7,5 @@ Use `time frame` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#time-frame[]
+* link:{ssg-url}#time-frame[]
 

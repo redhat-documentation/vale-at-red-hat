@@ -7,5 +7,5 @@ Use `Cloudwashing` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#cloudwashing[]
+* link:{ssg-url}#cloudwashing[]
 

@@ -3,9 +3,9 @@
 
 = AMD64
 
-Use `AMD64` rather than `%s`.
+Use `AMD64` rather than `Hammer`, `x86_64`, `x86-64`, `x64` or `64-bit x86`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#AMD64[]
+* link:{ssg-url}#AMD64[]
 

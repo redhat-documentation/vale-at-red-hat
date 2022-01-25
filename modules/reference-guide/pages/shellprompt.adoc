@@ -7,5 +7,5 @@ Use `Shell prompt` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[]
+* link:{ssg-url}#shell-prompt[]
 

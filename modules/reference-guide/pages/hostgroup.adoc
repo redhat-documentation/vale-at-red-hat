@@ -7,5 +7,5 @@ Use `Host-group` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#host-group[]
+* link:{ssg-url}#host-group[]
 

@@ -7,5 +7,5 @@ Use `GNOME-Classic` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#gnome-classic[]
+* link:{ssg-url}#gnome-classic[]
 

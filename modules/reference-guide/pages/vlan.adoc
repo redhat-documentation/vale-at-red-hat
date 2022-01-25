@@ -7,5 +7,5 @@ Use `VLAN` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#vlan[]
+* link:{ssg-url}#vlan[]
 

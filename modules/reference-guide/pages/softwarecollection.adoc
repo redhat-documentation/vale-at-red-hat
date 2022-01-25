@@ -7,5 +7,5 @@ Use `Software-collection` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#software-collection[]
+* link:{ssg-url}#software-collection[]
 

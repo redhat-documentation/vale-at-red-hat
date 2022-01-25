@@ -7,5 +7,5 @@ message: Avoid contractions. Use `Contractions` instead of `%s.`
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#contractions[]
+* link:{ssg-url}#contractions[]
 

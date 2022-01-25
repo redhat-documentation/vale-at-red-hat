@@ -7,5 +7,5 @@ Use `Hotline` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#hotline[]
+* link:{ssg-url}#hotline[]
 

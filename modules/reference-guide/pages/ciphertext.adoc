@@ -7,5 +7,5 @@ Use `Ciphertext` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ciphertext[]
+* link:{ssg-url}#ciphertext[]
 

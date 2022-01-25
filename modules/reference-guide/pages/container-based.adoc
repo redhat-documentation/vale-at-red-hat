@@ -7,5 +7,5 @@ Use `Container-based` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#container-based[]
+* link:{ssg-url}#container-based[]
 

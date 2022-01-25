@@ -7,5 +7,5 @@ Use `Objective C` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#objective-c[]
+* link:{ssg-url}#objective-c[]
 

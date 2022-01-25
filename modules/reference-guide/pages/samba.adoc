@@ -7,5 +7,5 @@ Use `Samba` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#samba[]
+* link:{ssg-url}#samba[]
 

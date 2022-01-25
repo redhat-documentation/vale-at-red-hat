@@ -7,5 +7,5 @@ Use `Denial-of-service` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#denial-of-service-adj[]
+* link:{ssg-url}#denial-of-service-adj[]
 

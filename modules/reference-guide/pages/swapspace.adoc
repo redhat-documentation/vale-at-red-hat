@@ -7,5 +7,5 @@ Use `Swap-space` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#swap-space[]
+* link:{ssg-url}#swap-space[]
 

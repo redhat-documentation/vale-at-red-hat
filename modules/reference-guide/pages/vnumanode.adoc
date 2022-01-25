@@ -7,5 +7,5 @@ Use `vNUMA node` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#vnuma[]
+* link:{ssg-url}#vnuma[]
 

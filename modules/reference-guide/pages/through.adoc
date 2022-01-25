@@ -7,5 +7,5 @@ Use `through` rather than `thru`, a hyphen or any other type of dash when expres
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#through[]
+* link:{ssg-url}#through[]
 

@@ -7,5 +7,5 @@ Use `correct` or `as expected` rather than `alright`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[]
+* link:{ssg-url}#air-gap[]
 

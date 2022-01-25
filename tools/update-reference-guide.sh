@@ -16,7 +16,7 @@ createPage() {
     echo "Creating $PAGEFULLPATH"
     MESSAGE=$(grep "^message:" ".vale/styles/RedHat/$RULE.yml" | cut -d'"' -f2 | sed "s/%s/${RULE}/;s/'/\`/g")
     ADDITIONAL=''
-    LINK=$(grep "^link:" ".vale/styles/RedHat/$RULE.yml" | cut -d' ' -f2 | sed "s/'//g;s/\"//g")
+    LINK=$(grep "^source:" ".vale/styles/RedHat/$RULE.yml" | cut -d' ' -f2 | sed "s/'//g;s/\"//g")
     if [ -n "$LINK" ]
     then ADDITIONAL=".Additional Resources
 

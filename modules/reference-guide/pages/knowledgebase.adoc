@@ -7,5 +7,5 @@ Use the two-word `knowledge base` unless referring specifically to the `Red Hat 
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#knowledgebase[]
+* link:{ssg-url}#knowledgebase[]
 

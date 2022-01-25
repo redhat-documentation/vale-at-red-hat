@@ -7,5 +7,5 @@ Use `CD-writer` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#cd-writer[]
+* link:{ssg-url}#cd-writer[]
 

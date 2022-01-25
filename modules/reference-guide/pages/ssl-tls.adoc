@@ -7,5 +7,5 @@ Use `SSL/TLS` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ssl-tls[]
+* link:{ssg-url}#ssl-tls[]
 

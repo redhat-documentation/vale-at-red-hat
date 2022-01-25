@@ -1,11 +1,11 @@
 :navtitle: Annotations
-:keywords: reference, rule, Annotations
+:keywords: reference, rule, annotations
 
 = Annotations
 
-`Annotations` left in text.
+Annotations left in text: `XXX`, `FIXME` or `TODO`.
 
 .Additional Resources
 
-* link:https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Annotations.yml[]
+* link:{repository-url}tree/main/.vale/styles/RedHat/Annotations.yml[]
 

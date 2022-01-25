@@ -7,5 +7,5 @@ Use `cloud` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-adj[]
+* link:{ssg-url}#cloud-adj[]
 

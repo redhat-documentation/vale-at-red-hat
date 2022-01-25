@@ -7,5 +7,5 @@ Use `Cross-site-scripting` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-site-scripting[]
+* link:{ssg-url}#cross-site-scripting[]
 

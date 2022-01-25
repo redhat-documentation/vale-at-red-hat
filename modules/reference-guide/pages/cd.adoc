@@ -7,5 +7,5 @@ Use `cd` for the `change directory` command. Use `CD` as acronym for `compact di
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#cd-command[]
+* link:{ssg-url}#cd-command[]
 

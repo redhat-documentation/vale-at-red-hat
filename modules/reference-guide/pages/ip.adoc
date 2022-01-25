@@ -7,5 +7,5 @@ Use `IP` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ip[]
+* link:{ssg-url}#ip[]
 

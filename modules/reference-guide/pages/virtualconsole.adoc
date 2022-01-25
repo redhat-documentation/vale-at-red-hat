@@ -7,5 +7,5 @@ Use `virtual console` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#virtual-console[]
+* link:{ssg-url}#virtual-console[]
 

@@ -7,5 +7,5 @@ Use `Auto-detect` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#auto-detect[]
+* link:{ssg-url}#auto-detect[]
 

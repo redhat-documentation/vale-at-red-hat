@@ -1,11 +1,11 @@
-:navtitle: Air-gap
-:keywords: reference, rule, Air-gap
+:navtitle: Air gap
+:keywords: reference, rule, air gap
 
-= Air-gap
+= Air gap
 
-Use `Air-gap` rather than `%s`.
+Use `air gap` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[]
+* link:{ssg-url}#air-gap[]
 

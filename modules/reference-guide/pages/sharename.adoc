@@ -7,5 +7,5 @@ Use `Share-name` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#share-name[]
+* link:{ssg-url}#share-name[]
 

@@ -7,5 +7,5 @@ Use `daisy chain` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[]
+* link:{ssg-url}#daisy-chain-n[]
 

@@ -7,5 +7,5 @@ Use `Performance-counter` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#performance-counter[]
+* link:{ssg-url}#performance-counter[]
 

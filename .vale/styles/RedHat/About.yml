@@ -1,7 +1,8 @@
 ---
 extends: existence
 message: "Do not use '%s' to mean 'approximately'."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/about/
+source: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
 ignorecase: true
 level: suggestion
 tokens:

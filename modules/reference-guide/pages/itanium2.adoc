@@ -7,5 +7,5 @@ Use `Itanium-2` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#itanium-2[]
+* link:{ssg-url}#itanium-2[]
 

@@ -7,5 +7,5 @@ Use `Red-Hat-Network-Satellite-Server` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-satellite-server[]
+* link:{ssg-url}#red-hat-network-satellite-server[]
 

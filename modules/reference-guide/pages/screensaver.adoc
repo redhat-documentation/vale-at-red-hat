@@ -7,5 +7,5 @@ Use `Screen-saver` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#screen-saver[]
+* link:{ssg-url}#screen-saver[]
 
