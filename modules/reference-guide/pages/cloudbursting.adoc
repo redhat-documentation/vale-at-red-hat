@@ -1,0 +1,11 @@
+:navtitle: Cloudbursting
+:keywords: reference, rule, Cloudbursting
+
+= Cloudbursting
+
+Use `Cloudbursting` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cloudbursting[]
+

@@ -1,0 +1,11 @@
+:navtitle: Animal labels
+:keywords: reference, rule, AnimalLabels
+
+= Animal labels
+
+Use the correct animal adjective.
+
+.Additional Resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/AnimalLabels.yml[]
+

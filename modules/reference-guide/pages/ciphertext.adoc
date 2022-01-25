@@ -1,0 +1,11 @@
+:navtitle: Ciphertext
+:keywords: reference, rule, Ciphertext
+
+= Ciphertext
+
+Use `Ciphertext` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ciphertext[]
+

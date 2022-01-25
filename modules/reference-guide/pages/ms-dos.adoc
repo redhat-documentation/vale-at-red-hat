@@ -1,0 +1,11 @@
+:navtitle: MS-DOS
+:keywords: reference, rule, MS-DOS
+
+= MS-DOS
+
+Use `MS-DOS` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ms-dos[]
+

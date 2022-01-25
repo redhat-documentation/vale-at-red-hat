@@ -1,0 +1,11 @@
+:navtitle: DevOps
+:keywords: reference, rule, DevOps
+
+= DevOps
+
+Use `DevOps` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#devops-n[]
+

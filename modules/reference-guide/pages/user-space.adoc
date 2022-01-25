@@ -1,0 +1,11 @@
+:navtitle: User-space or user space
+:keywords: reference, rule, user-space, user space
+
+= User-space or user space
+
+Use `user space` when used as a noun. When used as a modifier, use the hyphenated form `user-space`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#user-space-adj[]
+

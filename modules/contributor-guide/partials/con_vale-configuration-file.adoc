@@ -7,7 +7,7 @@ The Vale configuration file `.vale.ini` defines:
 
 * File names patterns to match files to validate
 * Active styles and vocabulary
-* Custom content patterns to modify scoping behavior
+* Custom content patterns to change scoping behavior
 
 .Additional resources
 

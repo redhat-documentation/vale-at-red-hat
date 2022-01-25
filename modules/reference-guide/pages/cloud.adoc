@@ -1,0 +1,11 @@
+:navtitle: Cloud
+:keywords: reference, rule, cloud
+
+= Cloud
+
+Use `cloud` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-adj[]
+

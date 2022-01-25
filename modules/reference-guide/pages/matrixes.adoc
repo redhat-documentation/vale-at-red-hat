@@ -1,0 +1,11 @@
+:navtitle: Matrixes
+:keywords: reference, rule, Matrixes
+
+= Matrixes
+
+Use `Matrixes` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#matrixes[]
+

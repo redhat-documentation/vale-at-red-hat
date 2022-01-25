@@ -1,0 +1,11 @@
+:navtitle: CD-one
+:keywords: reference, rule, CD-one
+
+= CD-one
+
+Use `CD-one` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cd-one[]
+

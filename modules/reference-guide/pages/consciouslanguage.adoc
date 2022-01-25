@@ -1,0 +1,11 @@
+:navtitle: Conscious language
+:keywords: reference, rule, ConsciousLanguage
+
+= Conscious language
+
+Use conscious language.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language[]
+

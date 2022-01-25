@@ -1,0 +1,11 @@
+:navtitle: Git
+:keywords: reference, rule, Git
+
+= Git
+
+Use `Git` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#git[]
+

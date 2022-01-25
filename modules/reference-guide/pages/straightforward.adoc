@@ -1,0 +1,11 @@
+:navtitle: Straightforward
+:keywords: reference, rule, Straightforward
+
+= Straightforward
+
+Use `Straightforward` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#straightforward[]
+

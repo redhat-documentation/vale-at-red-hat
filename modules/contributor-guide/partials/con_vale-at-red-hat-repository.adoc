@@ -3,7 +3,7 @@
 [id="con_vale-at-red-hat-repository_{context}"]
 = link:{repository-url}[_{repository-name}_ repository]
 
-The link:{repository-url}[_{repository-name}_ repository] contains resources to validate language in documentation projects using Vale:
+The link:{repository-url}[_{repository-name}_ repository] has resources to validate language in documentation projects using Vale:
 
 * xref:end-user-guide:redhat-style-for-vale.adoc[] in the `.vale/styles/RedHat` directory
 * xref:end-user-guide:glossary.adoc#vale-configuration-file_{context}[Vale configuration files] for usage in a local environment or by the GitHub Action.

@@ -1,0 +1,11 @@
+:navtitle: Shell prompt
+:keywords: reference, rule, Shell prompt
+
+= Shell prompt
+
+Use `Shell prompt` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[]
+

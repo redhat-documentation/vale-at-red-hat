@@ -1,0 +1,11 @@
+:navtitle: ROM
+:keywords: reference, rule, ROM
+
+= ROM
+
+Use `ROM` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#rom[]
+

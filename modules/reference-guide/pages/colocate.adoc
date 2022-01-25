@@ -1,0 +1,11 @@
+:navtitle: Colocate
+:keywords: reference, rule, Colocate
+
+= Colocate
+
+Use `Colocate` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#colocate[]
+

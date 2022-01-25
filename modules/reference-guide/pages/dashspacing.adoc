@@ -1,0 +1,11 @@
+:navtitle: Dash spacing
+:keywords: reference, rule, dash spacing
+
+= Dash spacing
+
+Add spaces around the dash.
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF[]
+

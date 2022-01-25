@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use 'user space' when used as a noun. When used as a modifier, use the hyphenated form 'user-space'."
+link: https://redhat-documentation.github.io/supplementary-style-guide/#user-space-adj
+ignorecase: true
+level: suggestion
+action:
+  name: replace
+source: Red Hat
+swap:
+  userspace: user-space
+  user space: user-space
+  user-space: user space

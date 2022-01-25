@@ -3,7 +3,7 @@
 [id="con_redhat-style-for-vale_{context}"]
 = _RedHat_ style for Vale
 
-The _RedHat_ style for Vale contains language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
+The _RedHat_ style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
 
 * link:{ssg-url}[_{ssg}_]
 * Latest edition of the _{ibmsg}_

@@ -1,0 +1,11 @@
+:navtitle: GB
+:keywords: reference, rule, GB
+
+= GB
+
+Use `GB` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gb[]
+

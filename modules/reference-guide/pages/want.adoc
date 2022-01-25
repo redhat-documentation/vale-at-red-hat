@@ -1,0 +1,11 @@
+:navtitle: Want
+:keywords: reference, rule, Want
+
+= Want
+
+Use `Want` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#want[]
+

@@ -1,0 +1,11 @@
+:navtitle: CapEx
+:keywords: reference, rule, CapEx
+
+= CapEx
+
+Use `CapEx` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cap-ex[]
+

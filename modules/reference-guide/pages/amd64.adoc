@@ -1,0 +1,11 @@
+:navtitle: AMD64
+:keywords: reference, rule, AMD64
+
+= AMD64
+
+Use `AMD64` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#AMD64[]
+

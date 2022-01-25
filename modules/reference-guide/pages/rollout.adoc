@@ -1,0 +1,11 @@
+:navtitle: Roll-out versus roll out
+:keywords: reference, rule, Roll-out
+
+= Roll-out
+
+In marketing, to `roll out` a product means to introduce it in stages to the public. In computing, to `roll out` software means to install a new product across a network. In marketing, `rollout` describes a series of related product announcements. When a company installs new equipment or software, this process is also called a `rollout.`
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#roll-out[]
+

@@ -1,0 +1,11 @@
+:navtitle: Auto-detect
+:keywords: reference, rule, Auto-detect
+
+= Auto-detect
+
+Use `Auto-detect` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#auto-detect[]
+

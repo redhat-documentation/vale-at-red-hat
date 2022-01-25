@@ -6,3 +6,7 @@ level: warning
 source: PlainLanguage
 tokens:
   - '\w+/\w+'
+exceptions:
+  - "I/O"
+  - "SSL/TLS"
+  - "upstream/downstream"

@@ -1,0 +1,11 @@
+:navtitle: Emit
+:keywords: reference, rule, Emit
+
+= Emit
+
+Use `Emit` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#emit[]
+

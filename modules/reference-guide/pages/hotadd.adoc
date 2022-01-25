@@ -1,0 +1,11 @@
+:navtitle: Hot add
+:keywords: reference, rule, Hot add
+
+= Hot add
+
+Use `Hot add` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-add[]
+

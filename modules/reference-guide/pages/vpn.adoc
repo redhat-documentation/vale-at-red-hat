@@ -1,0 +1,11 @@
+:navtitle: VPN
+:keywords: reference, rule, VPN
+
+= VPN
+
+Use `VPN` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vpn[]
+

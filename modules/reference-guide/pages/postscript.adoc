@@ -1,0 +1,11 @@
+:navtitle: PostScript
+:keywords: reference, rule, PostScript
+
+= PostScript
+
+Use `PostScript` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#postscript[]
+

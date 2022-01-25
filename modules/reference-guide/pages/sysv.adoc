@@ -1,0 +1,11 @@
+:navtitle: SysV
+:keywords: reference, rule, SysV
+
+= SysV
+
+Use `SysV` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#sysv[]
+

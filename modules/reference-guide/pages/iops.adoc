@@ -1,0 +1,11 @@
+:navtitle: IOPS
+:keywords: reference, rule, IOPS
+
+= IOPS
+
+Use `IOPS` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#iops[]
+

@@ -1,0 +1,11 @@
+:navtitle: Q-and-A
+:keywords: reference, rule, Q-and-A
+
+= Q-and-A
+
+Use `Q-and-A` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#q-and-a[]
+

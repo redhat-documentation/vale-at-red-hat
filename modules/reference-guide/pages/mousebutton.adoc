@@ -1,0 +1,11 @@
+:navtitle: Mouse button
+:keywords: reference, rule, Mouse button
+
+= Mouse button
+
+Use `mouse button` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#mouse-button[]
+

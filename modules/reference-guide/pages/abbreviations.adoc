@@ -1,0 +1,11 @@
+:navtitle: Abbreviations
+:keywords: reference, rule, Abbreviations
+
+= Abbreviations
+
+Do not use periods in all-uppercase abbreviations.
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC[]
+

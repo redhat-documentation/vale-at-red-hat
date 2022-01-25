@@ -1,0 +1,11 @@
+:navtitle: Fedora-project
+:keywords: reference, rule, Fedora-project
+
+= Fedora-project
+
+Use `Fedora-project` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#fedora-project[]
+

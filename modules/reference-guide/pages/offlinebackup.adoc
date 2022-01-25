@@ -1,0 +1,11 @@
+:navtitle: Offline-backup
+:keywords: reference, rule, Offline-backup
+
+= Offline-backup
+
+Use `Offline-backup` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#offline-backup[]
+

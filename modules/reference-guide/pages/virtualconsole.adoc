@@ -1,0 +1,11 @@
+:navtitle: Virtual console
+:keywords: reference, rule, Virtual console
+
+= Virtual console
+
+Use `virtual console` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#virtual-console[]
+

@@ -1,0 +1,11 @@
+:navtitle: Spelling
+:keywords: reference, rule, Spelling
+
+= Spelling
+
+Use correct American English spelling. Did you really mean `Spelling`?
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/[]
+

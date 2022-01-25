@@ -1,0 +1,11 @@
+:navtitle: Huge-page
+:keywords: reference, rule, Huge-page
+
+= Huge-page
+
+Use `Huge-page` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#huge-page-noun[]
+

@@ -1,0 +1,11 @@
+:navtitle: SR-IOV
+:keywords: reference, rule, SR-IOV
+
+= SR-IOV
+
+Use `SR-IOV` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ser-iov[]
+

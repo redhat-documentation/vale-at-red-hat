@@ -1,0 +1,11 @@
+:navtitle: Usage
+:keywords: reference, rule, Usage
+
+= Usage
+
+Verify your use of `Usage` with the word usage guidelines.
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+

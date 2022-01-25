@@ -1,0 +1,11 @@
+:navtitle: SSH
+:keywords: reference, rule, SSH
+
+= SSH
+
+Use `SSH` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ssh[]
+

@@ -1,0 +1,11 @@
+:navtitle: Release notes
+:keywords: reference, rule, release notes
+
+= Release notes
+
+For release notes, consider using `Before this update` rather than `Previously`, and `With this update` rather than `Now`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[]
+

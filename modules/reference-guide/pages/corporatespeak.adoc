@@ -1,0 +1,11 @@
+:navtitle: Corporate speak
+:keywords: reference, rule, CorporateSpeak
+
+= Corporate speak
+
+Avoid using corporate speak.
+
+.Additional Resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/CorporateSpeak.yml[]
+

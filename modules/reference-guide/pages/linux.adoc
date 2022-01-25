@@ -1,0 +1,11 @@
+:navtitle: Linux
+:keywords: reference, rule, Linux
+
+= Linux
+
+Use `Linux` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#linux[]
+

@@ -1,0 +1,11 @@
+:navtitle: See
+:keywords: reference, rule, See
+
+= See
+
+Use `See` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#see[]
+

@@ -1,0 +1,11 @@
+:navtitle: PowerPC
+:keywords: reference, rule, PowerPC
+
+= PowerPC
+
+Use `PowerPC` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#powerpc[]
+

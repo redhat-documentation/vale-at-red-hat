@@ -1,0 +1,11 @@
+:navtitle: Disk label
+:keywords: reference, rule, Disk label
+
+= Disk label
+
+Use `disk label` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#disk-label[]
+

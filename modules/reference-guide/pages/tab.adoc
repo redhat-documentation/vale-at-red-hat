@@ -1,0 +1,11 @@
+:navtitle: Tab
+:keywords: reference, rule, Tab
+
+= Tab
+
+Do not use `tab`, `pane`, `page`, `window`, and `screen` interchangeably. A tab is an interface element that is used to organize distinct sets of information and to offer an easy way to navigate between these sets. The control that you select to show the information is always called a tab, and the name of the
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+

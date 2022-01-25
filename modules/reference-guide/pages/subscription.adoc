@@ -1,0 +1,11 @@
+:navtitle: Subscription
+:keywords: reference, rule, Subscription
+
+= Subscription
+
+Use `Subscription` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#subscription[]
+

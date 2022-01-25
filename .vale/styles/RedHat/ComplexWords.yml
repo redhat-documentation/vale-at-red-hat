@@ -1,11 +1,11 @@
 ---
 extends: substitution
-message: Consider using %s instead of '%s'
+message: Consider using %s rather than '%s'
 link: http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm
 ignorecase: true
 level: warning
 swap:
-  'approximate(?:ly)?': "'about'"
+  "approximate(?:ly)?": "'about'"
   absent: "'none' or 'not here'"
   abundance: "'plenty'"
   accelerate: "'speed up'"
@@ -48,7 +48,6 @@ swap:
   compensate: "'pay'"
   component: "'part'"
   comprise: "'form' or 'include'"
-  concept: "'idea'"
   concerning: "'about'"
   confer: "'give' or 'award'"
   consequently: "'so'"
@@ -95,7 +94,7 @@ swap:
   necessitate: "'cause'"
   notify: "'tell'"
   numerous: "'many'"
-  objective: "'aim' or 'goal'"
+  "objective(?! C?)": "'aim' or 'goal'"
   obligate: "'bind' or 'compel'"
   optimum: "'best' or 'most'"
   permit: "'let'"

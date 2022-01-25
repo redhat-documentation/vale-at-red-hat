@@ -1,0 +1,11 @@
+:navtitle: Exif
+:keywords: reference, rule, Exif
+
+= Exif
+
+Use `Exif` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#exif[]
+

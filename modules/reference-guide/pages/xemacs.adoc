@@ -1,0 +1,11 @@
+:navtitle: XEmacs
+:keywords: reference, rule, XEmacs
+
+= XEmacs
+
+Use `XEmacs` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#xemacs[]
+

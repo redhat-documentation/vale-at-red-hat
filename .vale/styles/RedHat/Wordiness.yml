@@ -2,7 +2,7 @@
 extends: substitution
 message: Consider using '%s' rather than '%s'
 ignorecase: true
-level: warning
+level: suggestion
 source: PlainLanguage
 swap:
   (?:give|gave) rise to: lead to

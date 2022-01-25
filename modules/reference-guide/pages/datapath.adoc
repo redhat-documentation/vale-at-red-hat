@@ -1,0 +1,11 @@
+:navtitle: Data-path
+:keywords: reference, rule, Data-path
+
+= Data-path
+
+Use `Data-path` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#data-path-n[]
+

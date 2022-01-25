@@ -1,0 +1,11 @@
+:navtitle: Bimonthly
+:keywords: reference, rule, Bimonthly
+
+= Bimonthly
+
+Use `Bimonthly` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bimonthly[]
+

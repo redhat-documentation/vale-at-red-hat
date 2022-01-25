@@ -1,0 +1,11 @@
+:navtitle: Shadowman
+:keywords: reference, rule, Shadowman
+
+= Shadowman
+
+Use `Shadowman` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#shadowman[]
+

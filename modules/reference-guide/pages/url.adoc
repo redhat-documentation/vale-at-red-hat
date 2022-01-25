@@ -1,0 +1,11 @@
+:navtitle: URL
+:keywords: reference, rule, URL
+
+= URL
+
+Use `URL` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#url[]
+

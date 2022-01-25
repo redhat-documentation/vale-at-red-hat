@@ -1,0 +1,11 @@
+:navtitle: Need
+:keywords: reference, rule, Need
+
+= Need
+
+Use `Need` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#need[]
+

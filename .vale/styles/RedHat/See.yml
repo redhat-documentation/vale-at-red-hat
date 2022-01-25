@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use 'see' to refer readers to another resource, for example, 'See the Red Hat Enterprise Linux Installation Guide for more information.' Avoid using 'refer to' in this context."
+link: https://redhat-documentation.github.io/supplementary-style-guide/#see
+ignorecase: true
+level: suggestion
+action:
+  name: replace
+source: Red Hat
+swap:
+  refer to: see

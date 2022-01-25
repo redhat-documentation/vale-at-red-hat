@@ -1,0 +1,11 @@
+:navtitle: Comma-separated-values
+:keywords: reference, rule, Comma-separated-values
+
+= Comma-separated-values
+
+Use `Comma-separated-values` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#comma-separated-values[]
+

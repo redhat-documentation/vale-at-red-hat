@@ -1,0 +1,11 @@
+:navtitle: Examine
+:keywords: reference, rule, Examine
+
+= Examine
+
+Use `Examine` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#examine[]
+

@@ -1,0 +1,11 @@
+:navtitle: Command language
+:keywords: reference, rule, Command language
+
+= Command language
+
+Use `command language` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#command-language[]
+

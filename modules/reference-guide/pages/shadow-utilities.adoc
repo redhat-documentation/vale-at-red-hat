@@ -1,0 +1,11 @@
+:navtitle: Shadow-utilities
+:keywords: reference, rule, Shadow-utilities
+
+= Shadow-utilities
+
+Use `Shadow-utilities` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#shadow-utilities[]
+

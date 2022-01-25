@@ -1,0 +1,11 @@
+:navtitle: JVM
+:keywords: reference, rule, JVM
+
+= JVM
+
+Use `JVM` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#jvm[]
+

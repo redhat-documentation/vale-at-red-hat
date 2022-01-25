@@ -1,0 +1,11 @@
+:navtitle: Vi
+:keywords: reference, rule, Vi
+
+= Vi
+
+Use `Vi` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#vi[]
+

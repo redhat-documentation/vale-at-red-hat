@@ -1,0 +1,11 @@
+:navtitle: Spec-file
+:keywords: reference, rule, Spec-file
+
+= Spec-file
+
+Use `Spec-file` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#spec-file[]
+

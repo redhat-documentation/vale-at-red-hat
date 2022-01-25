@@ -1,0 +1,11 @@
+:navtitle: Desktop
+:keywords: reference, rule, Desktop
+
+= Desktop
+
+Use `Desktop` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[]
+

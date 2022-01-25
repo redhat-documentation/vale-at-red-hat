@@ -1,0 +1,11 @@
+:navtitle: Screen-saver
+:keywords: reference, rule, Screen-saver
+
+= Screen-saver
+
+Use `Screen-saver` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#screen-saver[]
+

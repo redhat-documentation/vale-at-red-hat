@@ -1,0 +1,11 @@
+:navtitle: Operating-system
+:keywords: reference, rule, Operating-system
+
+= Operating-system
+
+Use `Operating-system` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#operating-system[]
+

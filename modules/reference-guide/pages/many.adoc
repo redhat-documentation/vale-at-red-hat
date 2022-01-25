@@ -1,0 +1,11 @@
+:navtitle: Many
+:keywords: reference, rule, Many
+
+= Many
+
+Use `Many` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#many[]
+

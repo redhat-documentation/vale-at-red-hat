@@ -1,0 +1,11 @@
+:navtitle: Definitions
+:keywords: reference, rule, Definitions
+
+= Definitions
+
+Define acronyms and abbreviations (such as `Definitions`) on first occurrence if they`re likely to be unfamiliar.
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC[]
+

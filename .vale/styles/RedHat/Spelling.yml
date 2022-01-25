@@ -20,9 +20,9 @@ filters:
   - "[cC]lassloading"
   - "[cC]olocate"
   - "[cC]onfig" # to enable "config map"
+  - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
   - "[dD]evfiles"
-  - "[dD]ev[wW]orkspace"
   - "[dD]ownstream"
   - "[dD]ownstreaming"
   - "[eE]xposal"
@@ -30,6 +30,7 @@ filters:
   - "[Ff]actory"
   - "[fF]ailback"
   - "[fF]ailover"
+  - "[gG]bps"
   - "[gG]it"
   - "[gG]rafana"
   - "[hH]eatmap"
@@ -45,6 +46,7 @@ filters:
   - "[lL]icensor"
   - "[lL]iveness"
   - "[lL]oopback"
+  - "[mM]atrixes"
   - "[mM]ebibytes"
   - "[mM]illicores"
   - "[mM]ixin"
@@ -61,6 +63,7 @@ filters:
   - "[oO]nboarding"
   - "[oO]perator"
   - "[pP]reconfigured"
+  - "[pP]ulldown"
   - "[rR]eadonly"
   - "[rR]ebalance"
   - "[rR]ebalances"
@@ -75,12 +78,25 @@ filters:
   - "[rR]esyncing"
   - "[rR]ollout"
   - "[rR]ollouts"
+  - "[rR]oundtable"
+  - "[rR]oundtables"
+  - "[rR]unlevel"
+  - "[rR]unlevels"
   - "[rR]untime"
   - "[rR]untimes"
+  - "[sS]crollbar"
   - "[sS]erializer"
   - "[sS]erverless"
   - "[sS]harding"
+  - "[Ss]u"
+  - "[sS]ubcommand"
+  - "[sS]ubcommands"
+  - "[sS]ubmenu"
+  - "[sS]ubmenus"
   - "[sS]ubnetwork"
+  - "[sS]ubnetworks"
+  - "[sS]ubpackage"
+  - "[sS]ubpackages"
   - "[sS]ubpath"
   - "[sS]ubpaths"
   - "[sS]ubstep"
@@ -103,6 +119,8 @@ filters:
   - "[uU]nported"
   - "[uU]nstaged"
   - "[uU]ntrusted"
+  - "[uU]psell"
+  - "[uU]pselling"
   - "Let\'s Encrypt"
   - adoc
   - Annobin
@@ -122,8 +140,12 @@ filters:
   - CentOS
   - Ceph
   - cephfs
+  - cgroup
   - Che-Theia
+  - Ciphertext
   - Civetweb
+  - Cloudbursting
+  - Cloudwashing
   - CodeReady
   - ConfigMap
   - ConfigMaps
@@ -135,6 +157,7 @@ filters:
   - CRDs
   - CRs
   - Ctrl
+  - Cygmon
   - DaemonSet
   - Datadog
   - Dev
@@ -150,6 +173,7 @@ filters:
   - Endian
   - endif
   - Esprima
+  - Exif
   - Fabrice
   - Fortran
   - GCC
@@ -157,6 +181,7 @@ filters:
   - GitLab
   - Gluster
   - Gradle
+  - Grayscale
   - GUI
   - Hashicorp
   - Helgrind
@@ -171,6 +196,7 @@ filters:
   - IDEs
   - Intelephense
   - IntelliJ
+  - Itanium
   - Jakarta
   - Java
   - Jave
@@ -215,6 +241,7 @@ filters:
   - prepended
   - Prometheus
   - Pytorch
+  - qeth
   - Quarkus
   - Redistributions
   - Rolfe
@@ -222,6 +249,7 @@ filters:
   - SCM
   - Semeru
   - Shadowman
+  - startx
   - Suchow
   - SVG
   - Tekton

@@ -1,0 +1,11 @@
+:navtitle: Disk-Druid
+:keywords: reference, rule, Disk-Druid
+
+= Disk-Druid
+
+Use `Disk-Druid` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#disk-druid[]
+

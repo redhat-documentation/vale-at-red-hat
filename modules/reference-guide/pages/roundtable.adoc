@@ -1,0 +1,11 @@
+:navtitle: Roundtable
+:keywords: reference, rule, Roundtable
+
+= Roundtable
+
+Use `Roundtable` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#roundtable[]
+

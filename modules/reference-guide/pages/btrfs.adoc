@@ -1,0 +1,11 @@
+:navtitle: Btrfs
+:keywords: reference, rule, Btrfs
+
+= Btrfs
+
+Use `Btrfs` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#btrfs[]
+

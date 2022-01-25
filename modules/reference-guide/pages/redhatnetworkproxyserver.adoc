@@ -1,0 +1,11 @@
+:navtitle: Red-Hat-Network-Proxy-Server
+:keywords: reference, rule, Red-Hat-Network-Proxy-Server
+
+= Red-Hat-Network-Proxy-Server
+
+Use `Red-Hat-Network-Proxy-Server` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-proxy-server[]
+

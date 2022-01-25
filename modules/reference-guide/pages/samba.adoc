@@ -1,0 +1,11 @@
+:navtitle: Samba
+:keywords: reference, rule, Samba
+
+= Samba
+
+Use `Samba` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#samba[]
+

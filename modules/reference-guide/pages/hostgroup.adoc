@@ -1,0 +1,11 @@
+:navtitle: Host-group
+:keywords: reference, rule, Host-group
+
+= Host-group
+
+Use `Host-group` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#host-group[]
+

@@ -1,0 +1,11 @@
+:navtitle: Gbps
+:keywords: reference, rule, Gbps
+
+= Gbps
+
+Use `Gbps` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gbps[]
+

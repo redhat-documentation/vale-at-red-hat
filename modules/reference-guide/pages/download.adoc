@@ -1,0 +1,11 @@
+:navtitle: Download
+:keywords: reference, rule, Download
+
+= Download
+
+Use `Download` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[]
+

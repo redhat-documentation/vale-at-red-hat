@@ -1,0 +1,11 @@
+:navtitle: GID
+:keywords: reference, rule, GID
+
+= GID
+
+Use `GID` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#gid[]
+

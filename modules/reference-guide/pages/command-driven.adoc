@@ -1,0 +1,11 @@
+:navtitle: Command-driven
+:keywords: reference, rule, Command-driven
+
+= Command-driven
+
+Use `Command-driven` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#command-driven[]
+

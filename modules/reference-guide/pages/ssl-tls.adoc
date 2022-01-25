@@ -1,0 +1,11 @@
+:navtitle: SSL/TLS
+:keywords: reference, rule, SSL/TLS
+
+= SSL/TLS
+
+Use `SSL/TLS` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ssl-tls[]
+

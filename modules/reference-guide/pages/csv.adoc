@@ -1,0 +1,11 @@
+:navtitle: CSV
+:keywords: reference, rule, CSV
+
+= CSV
+
+Use `CSV` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#csv[]
+

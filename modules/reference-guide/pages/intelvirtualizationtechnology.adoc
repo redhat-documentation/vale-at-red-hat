@@ -1,0 +1,11 @@
+:navtitle: Intel-Virtualization-Technology
+:keywords: reference, rule, Intel-Virtualization-Technology
+
+= Intel-Virtualization-Technology
+
+Use `Intel-Virtualization-Technology` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#intel-virtualization-technology[]
+

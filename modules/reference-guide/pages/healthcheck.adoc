@@ -1,0 +1,11 @@
+:navtitle: Health check
+:keywords: reference, rule, Health check
+
+= Health check
+
+Use `health check` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#health-check[]
+

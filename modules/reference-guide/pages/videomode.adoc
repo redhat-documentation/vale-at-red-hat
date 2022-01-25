@@ -1,0 +1,11 @@
+:navtitle: Video mode
+:keywords: reference, rule, video mode
+
+= Video mode
+
+Use `video mode` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#video-mode[]
+

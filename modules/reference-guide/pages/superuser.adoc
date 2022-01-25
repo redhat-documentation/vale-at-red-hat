@@ -1,0 +1,11 @@
+:navtitle: Superuser
+:keywords: reference, rule, Superuser
+
+= Superuser
+
+Use `Superuser` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#superuser[]
+

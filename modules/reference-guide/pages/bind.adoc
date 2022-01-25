@@ -1,0 +1,11 @@
+:navtitle: BIND
+:keywords: reference, rule, BIND
+
+= BIND
+
+Use `BIND` rather than `%s` when referring to the DNS software.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bind[]
+

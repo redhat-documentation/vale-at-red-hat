@@ -1,0 +1,11 @@
+:navtitle: GRUB
+:keywords: reference, rule, GRUB
+
+= GRUB
+
+Use `GRUB` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#grub[]
+

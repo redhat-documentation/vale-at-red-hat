@@ -1,0 +1,11 @@
+:navtitle: Ctrl
+:keywords: reference, rule, Ctrl
+
+= Ctrl
+
+Use `Ctrl` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ctrl[]
+

@@ -1,0 +1,11 @@
+:navtitle: RAM disk
+:keywords: reference, rule, RAM disk
+
+= RAM disk
+
+Use `RAM disk` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#ram-disk[]
+

@@ -1,0 +1,11 @@
+:navtitle: Repository
+:keywords: reference, rule, Repository
+
+= Repository
+
+Use `Repository` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#repository[]
+

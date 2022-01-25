@@ -1,0 +1,11 @@
+:navtitle: cgroup
+:keywords: reference, rule, cgroup
+
+= cgroup
+
+Use `cgroup` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#cgroup[]
+

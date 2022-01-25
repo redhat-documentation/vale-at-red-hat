@@ -1,0 +1,11 @@
+:navtitle: JBoss Community
+:keywords: reference, rule, JBoss Community
+
+= JBoss Community
+
+Use `JBoss Community` rather than `JBoss.org`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#jboss-community[]
+

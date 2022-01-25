@@ -19,14 +19,18 @@ exceptions:
   - Bonjour
   - Btrfs
   - Bugzilla
+  - CapEx
+  - CDs
   - CentOS
   - Ceph
+  - cgroup
   - Che-Theia
   - Ciphertext
   - Civetweb
   - Cloudbursting
   - Cloudwashing
   - CodeReady
+  - Community
   - ConfigMap
   - ConfigMaps
   - Containerfile
@@ -41,6 +45,7 @@ exceptions:
   - DaemonSet
   - Datadog
   - Dev
+  - DevOps
   - DevWorkspace
   - Dex
   - DNS
@@ -51,6 +56,7 @@ exceptions:
   - Dyninst
   - Endevor
   - Endian
+  - eServer
   - Esprima
   - Exif
   - Fabrice
@@ -62,6 +68,7 @@ exceptions:
   - Gluster
   - Gradle
   - Grayscale
+  - GTKplus
   - GUI
   - Hashicorp
   - Helgrind
@@ -72,8 +79,11 @@ exceptions:
   - IBM
   - IDE
   - IDEs
+  - InfiniBand
   - Intelephense
   - IntelliJ
+  - IPSec
+  - ISeries
   - Itanium
   - Jakarta
   - Java
@@ -107,21 +117,31 @@ exceptions:
   - OmniSharp
   - OpenShift
   - OpenTracing
+  - OpEx
   - PHP
   - Podman
   - PostgreSQL
+  - PostScript
+  - PowerPC
   - Prometheus
   - Pytorch
+  - qeth
   - Quarkus
+  - RedBoot
   - Red Hat
   - Redistributions
   - Rolfe
   - Sakila
   - SCM
+  - SELinux
   - Semeru
   - Shadowman
+  - StarOffice
+  - startx
   - Suchow
+  - System
   - SVG
+  - SysV
   - Tekton
   - Telekom
   - Tensorflow
@@ -129,17 +149,23 @@ exceptions:
   - Toolset
   - Traefik
   - Uber
+  - UltraSPARC
   - URI
   - URIs
   - URL
   - URLs
   - Valgrind
   - Velero
+  - vNIC
+  - vNUMA
   - Webview
   - Webviews
   - Wildfly
+  - Window Maker
   - Woopra
   - Wordpress
+  - XEmacs
+  - xterm
   - Yana
   - Yeoman
   - Zowe

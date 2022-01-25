@@ -1,0 +1,11 @@
+:navtitle: Biweekly
+:keywords: reference, rule, Biweekly
+
+= Biweekly
+
+Use `Biweekly` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#biweekly[]
+

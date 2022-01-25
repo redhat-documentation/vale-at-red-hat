@@ -1,0 +1,11 @@
+:navtitle: Dual-boot
+:keywords: reference, rule, Dual-boot
+
+= Dual-boot
+
+Use `Dual-boot` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot[]
+

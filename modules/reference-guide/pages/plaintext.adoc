@@ -1,0 +1,11 @@
+:navtitle: Plain text
+:keywords: reference, rule, Plain text
+
+= Plain text
+
+Use `plain text` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#plain-text[]
+

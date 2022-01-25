@@ -1,0 +1,11 @@
+:navtitle: Hard-code
+:keywords: reference, rule, Hard-code
+
+= Hard-code
+
+Use `Hard-code` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-code[]
+

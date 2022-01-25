@@ -1,0 +1,11 @@
+:navtitle: LAN
+:keywords: reference, rule, LAN
+
+= LAN
+
+Use `LAN` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#lan[]
+

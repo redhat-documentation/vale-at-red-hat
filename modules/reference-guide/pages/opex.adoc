@@ -1,0 +1,11 @@
+:navtitle: OpEx
+:keywords: reference, rule, OpEx
+
+= OpEx
+
+Use `OpEx` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#opex[]
+

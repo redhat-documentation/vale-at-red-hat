@@ -1,0 +1,11 @@
+:navtitle: Proof of concept
+:keywords: reference, rule, Proof-of-concept
+
+= Proof of concept
+
+Use `proof of concept` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#proof-of-concept[]
+

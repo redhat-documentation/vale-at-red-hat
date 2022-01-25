@@ -1,0 +1,11 @@
+:navtitle: Now
+:keywords: reference, rule, Now
+
+= Now
+
+`Now` means at the present time, immediately, or at once. Do not use `right now`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#now[]
+

@@ -1,0 +1,11 @@
+:navtitle: Headings
+:keywords: reference, rule, Headings
+
+= Headings
+
+`Headings` should use sentence-style capitalization.
+
+.Additional Resources
+
+* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N1030C[]
+

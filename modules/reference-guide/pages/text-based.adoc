@@ -1,0 +1,11 @@
+:navtitle: Text-based
+:keywords: reference, rule, Text-based
+
+= Text-based
+
+Use `Text-based` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#text-based[]
+

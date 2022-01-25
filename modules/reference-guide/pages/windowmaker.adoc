@@ -1,0 +1,11 @@
+:navtitle: Window Maker
+:keywords: reference, rule, Window Maker
+
+= Window Maker
+
+Use `Window Maker` rather than `%s`.
+
+.Additional Resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#window-maker[]
+
