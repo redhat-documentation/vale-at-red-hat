@@ -3,7 +3,7 @@
 
 = YAML
 
-Use `YAML` rather than `%s`.
+Use `YAML` rather than `yaml`.
 
 .Additional Resources
 
