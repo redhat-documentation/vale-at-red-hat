@@ -3,7 +3,7 @@
 
 = Contractions
 
-message: Avoid contractions. Use `Contractions` instead of `%s.`
+Avoid contractions.
 
 .Additional Resources
 
