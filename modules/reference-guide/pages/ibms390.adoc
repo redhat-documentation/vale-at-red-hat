@@ -3,7 +3,7 @@
 
 = IBM-S-390
 
-Use `IBM-S-390` rather than `%s`.
+The `IBM S/390` is the IBM large server (or mainframe) line of computer systems. Use the full description `IBM S/390`.
 
 .Additional Resources
 
