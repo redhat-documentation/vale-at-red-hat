@@ -11,3 +11,4 @@ exceptions:
   - "SSL/TLS"
   - "upstream/downstream"
   - "z/OS"
+  - "z/OSMF"
