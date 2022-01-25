@@ -3,7 +3,7 @@
 
 = IBM eServer System p
 
-Use `IBM eServer System p`.
+Use `IBM eServer System p` for the first reference, and `IBM System p` or `System p` for subsequent references.
 
 .Additional Resources
 
