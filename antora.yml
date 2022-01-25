@@ -18,8 +18,8 @@ display_version: main
 start_page: end-user-guide:introduction.adoc
 nav:
   - modules/end-user-guide/nav.adoc
-  - modules/reference-guide/nav.adoc
   - modules/contributor-guide/nav.adoc
+  - modules/reference-guide/nav.adoc
 asciidoc:
   attributes:
     # for antora
