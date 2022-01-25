@@ -5,7 +5,3 @@
 
 Use `Hostname` unless updating existing content that uses `host name`.
 
-.Additional Resources
-
-* link:https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/hostname/[]
-
