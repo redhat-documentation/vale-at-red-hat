@@ -7,5 +7,5 @@ Use `Hard-code` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-code[]
+* link:{ssg-url}#hard-code[]
 

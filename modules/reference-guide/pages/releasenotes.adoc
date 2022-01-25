@@ -7,5 +7,5 @@ For release notes, consider using `Before this update` rather than `Previously`,
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[]
+* link:{ssg-url}#release-notes[]
 

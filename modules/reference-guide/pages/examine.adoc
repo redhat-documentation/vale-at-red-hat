@@ -7,5 +7,5 @@ Use `Examine` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#examine[]
+* link:{ssg-url}#examine[]
 

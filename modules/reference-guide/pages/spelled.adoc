@@ -7,5 +7,5 @@ Use `Spelled` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#spelled[]
+* link:{ssg-url}#spelled[]
 

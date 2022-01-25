@@ -7,5 +7,5 @@ Use `Cross-platform` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-platform[]
+* link:{ssg-url}#cross-platform[]
 

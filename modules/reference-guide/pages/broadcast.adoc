@@ -7,5 +7,5 @@ Use `Broadcast` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-n[]
+* link:{ssg-url}#broadcast-n[]
 

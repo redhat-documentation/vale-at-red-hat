@@ -7,5 +7,5 @@ Use `video mode` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#video-mode[]
+* link:{ssg-url}#video-mode[]
 

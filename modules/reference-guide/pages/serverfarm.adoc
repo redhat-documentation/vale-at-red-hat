@@ -7,5 +7,5 @@ Use `Server-farm` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#server-farm[]
+* link:{ssg-url}#server-farm[]
 

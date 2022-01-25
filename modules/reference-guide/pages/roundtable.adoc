@@ -7,5 +7,5 @@ Use `Roundtable` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#roundtable[]
+* link:{ssg-url}#roundtable[]
 

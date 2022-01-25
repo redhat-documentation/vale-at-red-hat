@@ -7,5 +7,5 @@ Use `Ctrl` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ctrl[]
+* link:{ssg-url}#ctrl[]
 

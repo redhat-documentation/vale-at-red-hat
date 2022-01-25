@@ -7,5 +7,5 @@ Use `Dual-boot` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot[]
+* link:{ssg-url}#dual-boot[]
 

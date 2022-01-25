@@ -7,5 +7,5 @@ Use `open source` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#open-source[]
+* link:{ssg-url}#open-source[]
 

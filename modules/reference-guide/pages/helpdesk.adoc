@@ -7,5 +7,5 @@ Use `help desk` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#help-desk[]
+* link:{ssg-url}#help-desk[]
 

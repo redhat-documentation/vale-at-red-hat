@@ -7,5 +7,5 @@ Use `Shadow-utilities` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#shadow-utilities[]
+* link:{ssg-url}#shadow-utilities[]
 

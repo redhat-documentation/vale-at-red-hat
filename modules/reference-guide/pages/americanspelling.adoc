@@ -6,4 +6,7 @@
 Use general American spelling.
 
 
+.Additional Resources
 
+* link:{repository-url}tree/main/.vale/styles/RedHat/AmericanSpelling.yml[]
+* link:{ssg-url}[]

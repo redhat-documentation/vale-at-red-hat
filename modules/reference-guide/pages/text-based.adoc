@@ -7,5 +7,5 @@ Use `Text-based` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#text-based[]
+* link:{ssg-url}#text-based[]
 

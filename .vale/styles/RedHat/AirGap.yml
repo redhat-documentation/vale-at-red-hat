@@ -1,6 +1,7 @@
 extends: substitution
 message: "Use '%s' rather than '%s'."
-link: https://redhat-documentation.github.io/supplementary-style-guide/#air-gap
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/airgap/
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#air-gap"
 ignorecase: true
 level: error
 action:

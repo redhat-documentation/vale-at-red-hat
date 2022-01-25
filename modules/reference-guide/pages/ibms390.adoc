@@ -7,5 +7,5 @@ Use `IBM-S-390` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-s-390[]
+* link:{ssg-url}#ibm-s-390[]
 

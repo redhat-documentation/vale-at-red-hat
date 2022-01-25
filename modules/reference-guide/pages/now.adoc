@@ -7,5 +7,5 @@
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#now[]
+* link:{ssg-url}#now[]
 

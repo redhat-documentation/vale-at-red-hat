@@ -7,5 +7,5 @@ Use `IOPS` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#iops[]
+* link:{ssg-url}#iops[]
 

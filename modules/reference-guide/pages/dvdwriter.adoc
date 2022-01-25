@@ -7,5 +7,5 @@ Use `DVD-writer` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#DVD-writer[]
+* link:{ssg-url}#DVD-writer[]
 

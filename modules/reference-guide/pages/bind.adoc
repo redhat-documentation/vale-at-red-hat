@@ -7,5 +7,5 @@ Use `BIND` rather than `%s` when referring to the DNS software.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#bind[]
+* link:{ssg-url}#bind[]
 

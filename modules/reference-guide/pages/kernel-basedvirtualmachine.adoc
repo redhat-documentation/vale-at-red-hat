@@ -7,5 +7,5 @@ Use `Kernel-based-Virtual-Machine` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-based-virtual-machine[]
+* link:{ssg-url}#kernel-based-virtual-machine[]
 

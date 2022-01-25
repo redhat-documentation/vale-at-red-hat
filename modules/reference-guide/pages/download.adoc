@@ -7,5 +7,5 @@ Use `Download` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[]
+* link:{ssg-url}#download-n[]
 

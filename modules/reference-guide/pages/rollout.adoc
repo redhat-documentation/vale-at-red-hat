@@ -7,5 +7,5 @@ In marketing, to `roll out` a product means to introduce it in stages to the pub
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#roll-out[]
+* link:{ssg-url}#roll-out[]
 

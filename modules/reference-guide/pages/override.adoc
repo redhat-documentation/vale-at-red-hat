@@ -7,5 +7,5 @@ Use `Override` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#override[]
+* link:{ssg-url}#override[]
 

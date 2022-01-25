@@ -7,5 +7,5 @@ Use `Comma-separated-values` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#comma-separated-values[]
+* link:{ssg-url}#comma-separated-values[]
 

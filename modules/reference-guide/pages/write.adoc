@@ -7,5 +7,5 @@ Use `Write` rather than `%s` as a verb.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#write[]
+* link:{ssg-url}#write[]
 

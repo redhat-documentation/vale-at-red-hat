@@ -7,5 +7,5 @@ Use `HP-ProLiant` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#hp-proliant[]
+* link:{ssg-url}#hp-proliant[]
 

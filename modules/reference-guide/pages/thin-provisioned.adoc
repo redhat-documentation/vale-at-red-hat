@@ -7,5 +7,5 @@ Use `Thin-provisioned` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#thin-provisioned[]
+* link:{ssg-url}#thin-provisioned[]
 

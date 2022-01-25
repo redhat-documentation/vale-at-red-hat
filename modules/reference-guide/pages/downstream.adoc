@@ -7,5 +7,5 @@ Use `Downstream` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj[]
+* link:{ssg-url}#downstream-adj[]
 

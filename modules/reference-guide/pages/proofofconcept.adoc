@@ -7,5 +7,5 @@ Use `proof of concept` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#proof-of-concept[]
+* link:{ssg-url}#proof-of-concept[]
 

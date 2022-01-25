@@ -7,5 +7,5 @@ Avoid `Recommend`. rather than `Red Hat recommends`, direct users to take the re
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#re[]
+* link:{ssg-url}#re[]
 

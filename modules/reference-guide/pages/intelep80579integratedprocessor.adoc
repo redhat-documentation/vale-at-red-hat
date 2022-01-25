@@ -7,5 +7,5 @@ Use `Intel-EP80579-Integrated-Processor` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#intel-ep80579-integrated-processor[]
+* link:{ssg-url}#intel-ep80579-integrated-processor[]
 

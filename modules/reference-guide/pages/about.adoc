@@ -1,9 +1,9 @@
 :navtitle: About
-:keywords: reference, rule, About
+:keywords: reference, rule, about
 
 = About
 
-Do not use `About` to mean `approximately`.
+Do not use `about` to mean `approximately`.
 
 .Additional Resources
 

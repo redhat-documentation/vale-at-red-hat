@@ -7,5 +7,5 @@ Use conscious language.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language[]
+* link:{ssg-url}#conscious-language[]
 

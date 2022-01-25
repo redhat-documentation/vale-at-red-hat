@@ -7,5 +7,5 @@ Use `QCOW2` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#qcow2[]
+* link:{ssg-url}#qcow2[]
 

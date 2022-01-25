@@ -8,5 +8,5 @@ Use `Mozilla Thunderbird` rather than `Thunderbird`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox[]
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-thunderbird[]
+* link:{ssg-url}#mozilla-firefox[]
+* link:{ssg-url}#mozilla-thunderbird[]

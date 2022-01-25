@@ -1,6 +1,7 @@
 ---
 extends: consistency
 message: "Use General American spelling of '%s'."
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/americanspelling/
 level: error
 ignorecase: true
 source: proselint

@@ -7,5 +7,5 @@ Use `Tier-1` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#tier-1[]
+* link:{ssg-url}#tier-1[]
 

@@ -7,5 +7,5 @@ Use `Exif` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#exif[]
+* link:{ssg-url}#exif[]
 

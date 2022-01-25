@@ -7,5 +7,5 @@ Use `JBoss Community` rather than `JBoss.org`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#jboss-community[]
+* link:{ssg-url}#jboss-community[]
 

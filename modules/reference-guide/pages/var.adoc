@@ -7,5 +7,5 @@ Use `VAR` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#var[]
+* link:{ssg-url}#var[]
 

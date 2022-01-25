@@ -7,5 +7,5 @@ Use `remote access server` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#remote-access-server[]
+* link:{ssg-url}#remote-access-server[]
 

@@ -7,5 +7,5 @@ Use `Kickstart` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#kickstart[]
+* link:{ssg-url}#kickstart[]
 

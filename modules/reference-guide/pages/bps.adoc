@@ -7,5 +7,5 @@ Verify the context. `Bps` is an acronym for bytes per second. The acronym for bi
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#bps[]
+* link:{ssg-url}#bps[]
 

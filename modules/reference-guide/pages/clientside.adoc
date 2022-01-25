@@ -7,5 +7,5 @@ Use `client-side` for an adjective, `client side` for a noun.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#client-side-adj[]
+* link:{ssg-url}#client-side-adj[]
 

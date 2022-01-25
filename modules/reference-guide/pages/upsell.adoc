@@ -7,5 +7,5 @@ Use `Upsell` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#upsell[]
+* link:{ssg-url}#upsell[]
 

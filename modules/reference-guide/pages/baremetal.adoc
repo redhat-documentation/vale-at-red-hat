@@ -7,5 +7,5 @@ Use `bare metal` (noun) or `bare-metal` (adjective).
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#bare-metal-n[]
+* link:{ssg-url}#bare-metal-n[]
 

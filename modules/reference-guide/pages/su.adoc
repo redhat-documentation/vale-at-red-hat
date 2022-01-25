@@ -7,5 +7,5 @@ Use `Su` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#su[]
+* link:{ssg-url}#su[]
 

@@ -7,5 +7,5 @@ Use `ISO-image` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#iso-image[]
+* link:{ssg-url}#iso-image[]
 

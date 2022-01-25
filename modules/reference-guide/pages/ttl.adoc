@@ -7,5 +7,5 @@ Use `TTL` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#ttl[]
+* link:{ssg-url}#ttl[]
 

@@ -7,5 +7,5 @@ Use `GB` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#gb[]
+* link:{ssg-url}#gb[]
 

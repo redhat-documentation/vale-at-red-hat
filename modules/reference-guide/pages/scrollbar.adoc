@@ -7,5 +7,5 @@ Use `Scrollbar` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#scrollbar[]
+* link:{ssg-url}#scrollbar[]
 

@@ -7,5 +7,5 @@
 
 .Additional Resources
 
-* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Archaisms.yml[]
+* link:{repository-url}tree/main/.vale/styles/RedHat/Archaisms.yml[]
 

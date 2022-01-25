@@ -7,5 +7,5 @@ Use `floating point` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#floating-point[]
+* link:{ssg-url}#floating-point[]
 

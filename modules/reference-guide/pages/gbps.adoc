@@ -7,5 +7,5 @@ Use `Gbps` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#gbps[]
+* link:{ssg-url}#gbps[]
 

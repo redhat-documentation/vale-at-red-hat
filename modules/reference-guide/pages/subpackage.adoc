@@ -7,5 +7,5 @@ Use `Subpackage` rather than `%s`.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#subpackage[]
+* link:{ssg-url}#subpackage[]
 
