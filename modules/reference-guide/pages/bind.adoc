@@ -3,7 +3,7 @@
 
 = BIND
 
-Use `BIND` rather than `%s` when referring to the DNS software.
+Use `BIND` when referring to the DNS software.
 
 .Additional Resources
 
