@@ -3,7 +3,7 @@
 
 = Hostname
 
-Use `Hostname` rather than `%s` unless updating existing content that uses `host name`.
+Use `Hostname` unless updating existing content that uses `host name`.
 
 .Additional Resources
 
