@@ -3,9 +3,10 @@
 
 = Spelling
 
-Use correct American English spelling. Did you really mean `Spelling`?
+Use correct American English spelling.
 
 .Additional Resources
 
-* link:https://redhat-documentation.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/[]
+* xref:contributor-guide:extending-the-spelling-rule.adoc[]
+* xref:end-user-guide:creating-a-vocabulary-for-a-project.adoc[]
 
