@@ -1,11 +1,12 @@
-:navtitle: Client-side or client side
-:keywords: reference, rule, client-side, client side
+:navtitle: Client side or client-side
+:keywords: reference, rule, ClientSide
 
-= Client-side or client side
+= Client side or client-side
 
 Use `client-side` for an adjective, `client side` for a noun.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#client-side-adj[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#client-side-adj[]
+
 

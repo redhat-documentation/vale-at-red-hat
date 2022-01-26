@@ -1,7 +1,8 @@
 ---
 extends: existence
 message: "Do not use 'tab', 'pane', 'page', 'window', and 'screen' interchangeably. A tab is an interface element that is used to organize distinct sets of information and to offer an easy way to navigate between these sets. The control that you select to show the information is always called a tab, and the name of the area that contains the information can vary depending on the interface. It might be a page, pane, view, or tab. tab verb: Do not use as a verb to describe navigation in a GUI. Use only to refer to moving a cursor on a display, or the print head of a printer, to a preset location."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/tab/
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
 tokens:

@@ -5,7 +5,8 @@
 
 Use `through` rather than `thru`, a hyphen or any other type of dash when expressing a range. Do not use `through` to mean `by using`. Do not use `through` as an adjective, use `finished` or `completed`.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#through[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#through[]
+
 

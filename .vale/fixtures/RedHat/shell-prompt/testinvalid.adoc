@@ -1,2 +1,0 @@
-invalid content: command prompt
-invalid content: shell

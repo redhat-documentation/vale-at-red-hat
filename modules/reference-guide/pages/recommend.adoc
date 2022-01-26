@@ -1,11 +1,12 @@
-:navtitle: Recommending
+:navtitle: Recommend
 :keywords: reference, rule, recommend
 
-= Recommending
+= Recommend
 
-Avoid `Recommend`. rather than `Red Hat recommends`, direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream and downstream coordinated efforts.
+Avoid `recommend`. Rather than `Red Hat recommends`, direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#re[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#recommend[]
+
 

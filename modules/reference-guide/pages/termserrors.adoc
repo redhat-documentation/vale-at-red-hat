@@ -1,0 +1,12 @@
+:navtitle: Terms errors
+:keywords: reference, rule, terms errors
+
+= Terms errors
+
+Use the suggested term.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[]
+
+

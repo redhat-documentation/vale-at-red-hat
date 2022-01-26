@@ -1,6 +1,7 @@
 extends: occurrence
 message: "Try to keep sentences less than 25 words."
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106FB'
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/sentencelength/
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 scope: sentence
 level: suggestion
 max: 25

@@ -1,6 +1,7 @@
 extends: capitalization
 message: "'%s' should use sentence-style capitalization."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N1030C"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/headings/
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 level: suggestion
 scope: heading
 match: $sentence
@@ -127,8 +128,8 @@ exceptions:
   - Pytorch
   - qeth
   - Quarkus
-  - RedBoot
   - Red Hat
+  - RedBoot
   - Redistributions
   - Rolfe
   - Sakila
@@ -139,8 +140,8 @@ exceptions:
   - StarOffice
   - startx
   - Suchow
-  - System
   - SVG
+  - System
   - SysV
   - Tekton
   - Telekom

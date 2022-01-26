@@ -1,9 +1,0 @@
-:navtitle: Product names
-:keywords: reference, rule, Product names
-
-= Product names
-
-Use product names.
-
-
-

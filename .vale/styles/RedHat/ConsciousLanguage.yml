@@ -2,7 +2,8 @@
 extends: substitution
 message: Use '%s' rather than '%s.'
 level: warning
-link: "https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/consciouslanguage/
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language"
 ignorecase: true
 swap:
   blacklist: blocklist

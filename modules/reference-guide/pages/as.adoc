@@ -1,11 +1,12 @@
 :navtitle: As
-:keywords: reference, rule, As
+:keywords: reference, rule, as
 
 = As
 
-Do not use `As` to mean `because` or `while`.
+Do not use `as` to mean `because` or `while`.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

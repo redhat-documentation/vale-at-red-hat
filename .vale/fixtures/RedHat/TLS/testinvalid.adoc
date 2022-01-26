@@ -1,3 +1,0 @@
-invalid content: SSL
-invalid content: TLS/SSL
-invalid content: SSL TLS

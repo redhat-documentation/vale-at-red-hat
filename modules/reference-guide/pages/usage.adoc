@@ -5,7 +5,8 @@
 
 Verify your use of `Usage` with the word usage guidelines.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

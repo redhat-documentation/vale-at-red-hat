@@ -18,7 +18,7 @@ createPage() {
     ADDITIONAL=''
     LINK=$(grep "^source:" ".vale/styles/RedHat/$RULE.yml" | cut -d' ' -f2 | sed "s/'//g;s/\"//g")
     if [ -n "$LINK" ]
-    then ADDITIONAL=".Additional Resources
+    then ADDITIONAL=".Additional resources
 
 * link:${LINK}[]"
     fi
@@ -33,7 +33,7 @@ $MESSAGE
 $ADDITIONAL
 
 "
-    # cat "$PAGECONTENT" > "$PAGEFULLPATH"
+    echo "$PAGECONTENT" > "$PAGEFULLPATH"
 
 }
 

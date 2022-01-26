@@ -1,5 +1,0 @@
-invalid content: ms-dos
-invalid content: MSDOS
-invalid content: msdos
-invalid content: MS-dos
-invalid content: Ms-Dos

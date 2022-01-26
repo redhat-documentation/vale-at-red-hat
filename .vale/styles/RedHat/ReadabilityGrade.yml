@@ -1,11 +1,12 @@
 ---
 extends: readability
 message: "Grade level (%s) too high!"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/readabilitygrade/
 level: suggestion
 grade: 21
 metrics:
+  - Automated Readability
+  - Coleman-Liau
   - Flesch-Kincaid
   - Gunning Fog
-  - Coleman-Liau
   - SMOG
-  - Automated Readability

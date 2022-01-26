@@ -1,9 +1,10 @@
 extends: substitution
 message: "For release notes, consider using '%s' rather than '%s'."
-link: https://redhat-documentation.github.io/supplementary-style-guide/#release-notes
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/releasenotes/
+source: https://redhat-documentation.github.io/supplementary-style-guide/#release-notes
 level: suggestion
 ignorecase: false
 # swap maps tokens in form of bad: good
 swap:
-  Previously: Before this update
   Now: With this update
+  Previously: Before this update

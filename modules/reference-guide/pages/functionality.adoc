@@ -3,9 +3,10 @@
 
 = Functionality
 
-Use `functionality` only to refer to a set of functions and their specified properties. Consider using a simpler term, for example `functions`.
+Use `Functionality` only to refer to a set of functions and their specified properties. Consider using a simpler term, for example `functions`.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

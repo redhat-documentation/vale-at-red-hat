@@ -1,0 +1,12 @@
+:navtitle: Terms suggestions
+:keywords: reference, rule, terms suggestions
+
+= Terms suggestions
+
+Depending on the context, consider using the suggested term.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[]
+
+

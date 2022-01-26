@@ -1,0 +1,12 @@
+:navtitle: Case sensitive terms
+:keywords: reference, rule, case sensitive terms
+
+= Case sensitive terms
+
+Use the correct spelling and case for these case sensitive terms.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[Glossary of terms and conventions]
+
+

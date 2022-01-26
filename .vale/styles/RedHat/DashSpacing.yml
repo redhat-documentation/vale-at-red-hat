@@ -1,6 +1,7 @@
 extends: existence
 message: "Add spaces around the dash in '%s'."
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF'
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/dashspacing/
+source: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF"
 ignorecase: true
 nonword: true
 level: error
@@ -8,6 +9,6 @@ action:
   name: edit
   params:
     - remove
-    - ' '
+    - " "
 tokens:
   - '[^\s][—–][^\s]'

@@ -1,8 +1,8 @@
 extends: spelling
 message: "Use correct American English spelling. Did you really mean '%s'?"
-# Set to warning rather than error, to ease onboarding of new projects.
 level: warning
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/spelling/
+source: https://redhat-documentation.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/
 # A "filter" is a case-sensitive regular expression specifying words
 # to ignore during spell checking.
 # Spelling rule applies to individual words

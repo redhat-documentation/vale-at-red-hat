@@ -1,11 +1,11 @@
 extends: sequence
 message: "A 'kernel oops' is an error in the Linux kernel. Do not use 'oops' by itself."
-link: https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/kerneloops/
+source: https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops
 ignorecase: true
 level: error
 action:
   name: replace
-source: Red Hat
 tokens:
   - pattern: kernel
     negate: true

@@ -1,0 +1,15 @@
+extends: substitution
+message: "Depending on the context, consider using '%s' rather than '%s'."
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termssuggestions/
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
+ignorecase: false
+level: suggestion
+action:
+  name: replace
+swap:
+  channel: repository
+  Cloud: cloud
+  code: write
+  refer to: see
+  segfault: segmentation fault
+  tar: compress|archive

@@ -1,7 +1,8 @@
 ---
 extends: existence
 message: "Use '%s' only when you list a clear sequence of elements. Else, use appropriate descriptive wording."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/andsoon/
+source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 ignorecase: true
 level: suggestion
 tokens:

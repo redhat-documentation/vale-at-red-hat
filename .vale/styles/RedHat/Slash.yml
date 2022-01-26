@@ -1,9 +1,10 @@
 ---
 extends: existence
 message: "Use either 'or' or 'and' in '%s'"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/slash/
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: warning
-source: PlainLanguage
 tokens:
   - '\w+/\w+'
 exceptions:

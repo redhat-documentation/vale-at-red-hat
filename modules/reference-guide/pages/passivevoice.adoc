@@ -1,11 +1,12 @@
-:navtitle: Passive voice
-:keywords: reference, rule, passive voice
+:navtitle: PassiveVoice
+:keywords: reference, rule, PassiveVoice
 
-= Passive voice
+= PassiveVoice
 
-Avoid using passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites
+Avoid passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#prerequisites[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites[]
+
 

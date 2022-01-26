@@ -1,113 +1,112 @@
-invalid content: approximate
-invalid content: approximately
-invalid content: absent
-invalid content: abundance
-invalid content: accelerate
-invalid content: accentuate
-invalid content: accompany
-invalid content: accomplish
-invalid content: accorded
-invalid content: accordingly
-invalid content: accrue
-invalid content: accurate
-invalid content: acquiesce
-invalid content: acquire
-invalid content: address
-invalid content: addressees
-invalid content: adjacent to
-invalid content: adjustment
-invalid content: admissible
-invalid content: advantageous
-invalid content: advise
-invalid content: aggregate
-invalid content: aircraft
-invalid content: alleviate
-invalid content: allocate
-invalid content: alternatively
-invalid content: alternatives
-invalid content: ameliorate
-invalid content: amend
-invalid content: anticipate
-invalid content: apparent
-invalid content: ascertain
-invalid content: assistance
-invalid content: attain
-invalid content: attempt
-invalid content: authorize
-invalid content: belated
-invalid content: bestow
-invalid content: cease
-invalid content: collaborate
-invalid content: commence
-invalid content: compensate
-invalid content: component
-invalid content: comprise
-invalid content: concerning
-invalid content: confer
-invalid content: consequently
-invalid content: consolidate
-invalid content: constitutes
-invalid content: contains
-invalid content: convene
-invalid content: demonstrate
-invalid content: depart
-invalid content: designate
-invalid content: desire
-invalid content: determine
-invalid content: detrimental
-invalid content: disclose
-invalid content: discontinue
-invalid content: disseminate
-invalid content: eliminate
-invalid content: elucidate
-invalid content: employ
-invalid content: enclosed
-invalid content: encounter
-invalid content: endeavor
-invalid content: enumerate
-invalid content: equitable
-invalid content: equivalent
-invalid content: exclusively
-invalid content: expedite
-invalid content: facilitate
-invalid content: females
-invalid content: finalize
-invalid content: frequently
-invalid content: identical
-invalid content: incorrect
-invalid content: indication
-invalid content: initiate
-invalid content: itemized
-invalid content: jeopardize
-invalid content: liaise
-invalid content: maintain
-invalid content: methodology
-invalid content: modify
-invalid content: monitor
-invalid content: multiple
-invalid content: necessitate
-invalid content: notify
-invalid content: numerous
-invalid content: objective
-invalid content: obligate
-invalid content: optimum
-invalid content: permit
-invalid content: portion
-invalid content: possess
-invalid content: previous
-invalid content: previously
-invalid content: prioritize
-invalid content: procure
-invalid content: provide
-invalid content: purchase
-invalid content: relocate
-invalid content: request
-invalid content: solicit
-invalid content: state-of-the-art
-invalid content: subsequent
-invalid content: substantial
-invalid content: sufficient
-invalid content: terminate
-invalid content: transmit
-invalid content: utilization
-invalid content: utilize
+absent
+abundance
+accelerate
+accentuate
+accompany
+accomplish
+accorded
+accordingly
+accrue
+accurate
+acquiesce
+acquire
+address
+addressees
+adjacent to
+adjustment
+admissible
+advantageous
+advise
+aggregate
+aircraft
+alleviate
+allocate
+alternatively
+alternatives
+ameliorate
+amend
+anticipate
+apparent
+approximate
+ascertain
+assistance
+attain
+attempt
+authorize
+belated
+bestow
+cease
+collaborate
+commence
+compensate
+component
+comprise
+concerning
+confer
+consequently
+consolidate
+constitutes
+contains
+convene
+demonstrate
+depart
+designate
+desire
+determine
+detrimental
+disclose
+discontinue
+disseminate
+eliminate
+elucidate
+employ
+enclosed
+encounter
+endeavor
+enumerate
+equitable
+equivalent
+exclusively
+expedite
+facilitate
+females
+finalize
+frequently
+identical
+incorrect
+indication
+initiate
+itemized
+jeopardize
+liaise
+maintain
+methodology
+modify
+monitor
+multiple
+necessitate
+notify
+numerous
+objective
+obligate
+optimum
+permit
+portion
+possess
+previous
+previously
+prioritize
+procure
+provide
+purchase
+relocate
+request
+solicit
+state-of-the-art
+subsequent
+substantial
+sufficient
+terminate
+transmit
+utilization
+utilize

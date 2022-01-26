@@ -1,10 +1,12 @@
 :navtitle: Kernel oops
-:keywords: reference, rule, Kernel oops
+:keywords: reference, rule, kernel oops
 
-= Kernel oops
+= KernelOops
 
 A `kernel oops` is an error in the Linux kernel. Do not use `oops` by itself.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#kernel-oops[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops[]
+
+

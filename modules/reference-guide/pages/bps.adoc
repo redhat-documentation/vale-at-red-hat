@@ -5,7 +5,8 @@
 
 Verify the context. `Bps` is an acronym for bytes per second. The acronym for bits per second is `bps`.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#bps[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#bps[`Bps` or `bps`]
+
 

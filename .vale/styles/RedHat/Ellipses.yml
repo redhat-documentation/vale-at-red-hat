@@ -1,6 +1,7 @@
 extends: existence
 message: "Avoid the ellipsis (...) except to indicate omitted words."
-link: https://www.ibm.com/developerworks/library/styleguidelines/index.html
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/ellipses/
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 nonword: true
 level: suggestion
 action:

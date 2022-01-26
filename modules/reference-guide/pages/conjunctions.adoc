@@ -5,7 +5,8 @@
 
 Do not overuse beginning sentences with `Conjunctions`.
 
-.Additional Resources
+.Additional resources
 
-* link:{repository-url}tree/main/.vale/styles/RedHat/Conjunctions.yml[]
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml[]
+
 

@@ -1,0 +1,12 @@
+:navtitle: Termsi warnings
+:keywords: reference, rule, terms warnings
+
+= Terms warnings
+
+Consider using the suggested term, unless updating existing content that uses the term.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[]
+
+

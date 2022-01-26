@@ -1,9 +1,0 @@
-:navtitle: Wordiness
-:keywords: reference, rule, Wordiness
-
-= Wordiness
-
-message: Consider using `Wordiness` rather than `%s`
-
-
-

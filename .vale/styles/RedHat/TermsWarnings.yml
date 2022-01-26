@@ -1,0 +1,12 @@
+extends: substitution
+message: "Consider using '%s' rather than '%s' unless updating existing content that uses it."
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termswarnings/
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
+ignorecase: true
+level: warning
+action:
+  name: replace
+swap:
+  "I(?!/O)": you
+  he|she: you
+  host name: hostname

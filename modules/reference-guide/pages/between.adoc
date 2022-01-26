@@ -3,9 +3,10 @@
 
 = Between
 
-Do not use `Between` to show a range of numbers; it is not clear whether the two numbers are the boundaries of the range or are included.
+Do not use `Between` to show a range of numbers; it is not clear whether the two numbers are the boundaries of the range or are included in the range.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

@@ -3,9 +3,10 @@
 
 = Ellipses
 
-Avoid the ellipsis `...` except to indicate omitted words.
+Avoid the ellipsis (...) except to indicate omitted words.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

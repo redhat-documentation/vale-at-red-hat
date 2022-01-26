@@ -3,9 +3,10 @@
 
 = Using
 
-To avoid ambiguity, replace this gerund with either `by using` or `that uses`.
+To avoid ambiguity, replace this gerund (`using`) with either `by using` or `that uses`.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

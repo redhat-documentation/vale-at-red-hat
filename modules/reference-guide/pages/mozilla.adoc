@@ -1,12 +1,12 @@
 :navtitle: Mozilla
-:keywords: reference, rule, Mozilla Firefox, Mozilla Thunderbird
+:keywords: reference, rule, Mozilla
 
 = Mozilla
 
-Use `Mozilla Firefox` rather than `Firefox`.
-Use `Mozilla Thunderbird` rather than `Thunderbird`.
+Use `Mozilla Firefox` or `Mozilla Thunderbird` rather than `Firefox` or `Thunderbird`.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#mozilla-firefox[]
-* link:{ssg-url}#mozilla-thunderbird[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox[]
+
+

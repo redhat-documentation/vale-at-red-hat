@@ -1,11 +1,12 @@
 :navtitle: About
-:keywords: reference, rule, about
+:keywords: reference, rule, About
 
 = About
 
-Do not use `about` to mean `approximately`.
+Do not use `About` to mean `approximately`.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

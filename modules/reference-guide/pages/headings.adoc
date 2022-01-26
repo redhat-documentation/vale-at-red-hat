@@ -5,7 +5,8 @@
 
 `Headings` should use sentence-style capitalization.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N1030C[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

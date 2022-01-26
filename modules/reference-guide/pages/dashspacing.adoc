@@ -5,7 +5,7 @@
 
 Add spaces around the dash.
 
-.Additional Resources
+.Additional resources
 
 * link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF[]
 

@@ -5,7 +5,8 @@
 
 Use `and so on` only when you list a clear sequence of elements. Else, use appropriate descriptive wording.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

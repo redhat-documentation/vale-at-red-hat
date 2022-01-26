@@ -3,9 +3,10 @@
 
 = Which
 
-Use `which`, preceded by a comma, to introduce a nonrestrictive clause. Use `that`, without a comma, to introduce a
+Use `which`, preceded by a comma, to introduce a nonrestrictive clause. Use `that`, without a comma, to introduce a restrictive clause.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+
 

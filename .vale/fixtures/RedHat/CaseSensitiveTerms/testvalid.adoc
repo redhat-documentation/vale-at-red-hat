@@ -1,0 +1,125 @@
+Node.js
+IBM S 390
+CD #1
+GNOME Classic
+HP ProLiant
+IBM Z
+ISO image
+Kernel-based Virtual Machine
+Microsoft
+InfiniBand
+operating environment
+OperatorHub
+operating system
+Q and A
+Red Hat Network Proxy Server
+Red Hat Network Satellite Server
+Shadowman
+shadow passwords
+shadow utilities
+Software Collection
+Spring Boot
+SR-IOV
+SSL/TLS
+pop-up
+StarOffice
+SysV
+systemd
+Intel(R) EP80579 Integrated Processor
+VDSM
+virtual console
+vNIC
+Visual Studio Code
+BIND
+BIOS
+Btrfs
+CapEx
+CDs
+cgroup
+Ctrl
+CSV
+Cygmon
+denial of service
+denial-of-service
+DevOps
+Disk Druid
+DNS
+DVD writer
+Exec-Shield
+Exif
+FAQ
+Fedora™ Project
+Fortran
+FQDN
+GB
+Gbps
+Insight
+GID
+GIMP
+Git
+GNOME
+GNU
+GPL
+GRUB
+GTK+
+Hyper-Threading
+hypervisor
+Itanium
+IOPS
+IP
+IPsec
+ISeries
+ISO
+Itanium 2
+JBoss Community
+JVM
+Kickstart
+KVM
+LAN
+Linux
+MS-DOS
+MySQL
+Objective C
+OpEx
+Podman
+POSIX
+PostScript
+PowerPC
+PPP
+PROM
+IBM eServer System p
+QCOW2
+qeth
+RAM
+RAM disk
+raw
+RedBoot
+ROM
+RPM
+S-record
+IBM S 390
+Samba
+SELinux
+SOCKS
+SSH
+startx
+su
+TTL
+UID
+UltraSPARC
+UNIX
+URL
+VAR
+vi
+Vim
+VLAN
+vNUMA node
+VPN
+Intel Virtualization Technology
+WAN
+WCA
+web UI
+Window Maker
+XEmacs
+xterm
+YAML

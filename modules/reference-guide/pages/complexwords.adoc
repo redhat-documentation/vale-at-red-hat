@@ -1,11 +1,12 @@
 :navtitle: Complex words
-:keywords: reference, rule, ComplexWords
+:keywords: reference, rule, complex words
 
 = Complex words
 
-Consider using less complex words.
+Avoid complex words.
 
-.Additional Resources
+.Additional resources
 
 * link:http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm[]
+
 

@@ -1,6 +1,7 @@
 # Ensures that 'config' is always followed by a white space.
 extends: existence
 message: "Do not use 'config', unless it is followed by 'map'."
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/configmap/
 level: error
 ignorecase: true
 raw:

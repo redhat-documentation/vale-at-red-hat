@@ -1,7 +1,0 @@
-:navtitle: Hostname
-:keywords: reference, rule, Hostname
-
-= Hostname
-
-Use `Hostname` unless updating existing content that uses `host name`.
-

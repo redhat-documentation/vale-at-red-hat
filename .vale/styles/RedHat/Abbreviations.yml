@@ -1,7 +1,7 @@
 extends: existence
 message: "Do not use periods in all-uppercase abbreviations such as '%s'."
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/abbreviations/
-source: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC"
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 level: error
 nonword: true
 tokens:

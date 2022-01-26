@@ -1,12 +1,12 @@
-:navtitle: American spelling
-:keywords: reference, rule, American spelling, spelling
+:navtitle: American Spelling
+:keywords: reference, rule, american spelling
 
 = American spelling
 
-Use general American spelling.
+Use General American spelling.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
 
 
-.Additional Resources
-
-* link:{repository-url}tree/main/.vale/styles/RedHat/AmericanSpelling.yml[]
-* link:{ssg-url}[]

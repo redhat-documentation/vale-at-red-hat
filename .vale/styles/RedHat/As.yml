@@ -1,7 +1,8 @@
 ---
 extends: existence
-message: "Do not use '%s' to mean 'because' or 'while'."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
+message: "Do not use 'as' to mean 'because' or 'while'."
+link: "https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/as/"
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
 tokens:

@@ -1,7 +1,8 @@
 ---
 extends: existence
 message: "Use '%s' only to refer to a set of functions and their specified properties. Consider using a simpler term, for example 'functions'."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/functionality/
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
 tokens:
