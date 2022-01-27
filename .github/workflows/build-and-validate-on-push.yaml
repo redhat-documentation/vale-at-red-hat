@@ -42,3 +42,6 @@ jobs:
       - name: Validate links using htmltest
         id: validate-links
         run: htmltest
+      - name: Validate rules
+        id: validate-rules
+        run: tools/run_test_suite.sh

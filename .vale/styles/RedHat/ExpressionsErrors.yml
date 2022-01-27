@@ -8,7 +8,4 @@ source: "https://redhat-documentation.github.io/supplementary-style-guide/#gloss
 action:
   name: replace
 swap:
-  "(?:!IBM ?)S 390": "IBM S 390"
-  # "(?!make the ?)transition": "make the transition|move|migrate|change"
-  # "(?!mobile|!cell:?)phone": "telephone|cell phone|mobile phone"
-  # "app(?.?)": app
+  'app\.': app

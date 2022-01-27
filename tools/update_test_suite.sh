@@ -10,7 +10,7 @@
 # Fail on errors
 set -e
 
-# This scripts creates and maintains a default test suite for each
+# This scripts creates and maintains a default test suite for each rule in the RedHat style.
 
 for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -f1 | sort)
 do

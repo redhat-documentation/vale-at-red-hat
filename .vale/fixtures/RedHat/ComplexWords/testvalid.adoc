@@ -1,5 +1,4 @@
 about
-about
 add
 agree
 aim
@@ -11,16 +10,11 @@ award
 bad
 before
 begin
-begin
 best
 bind
 buy
-buy
-buy
 carry out
 cause
-change
-change
 change
 check
 choices
@@ -36,9 +30,6 @@ divide
 do
 earlier
 ease
-ease
-end
-end
 end
 enough
 equal
@@ -52,9 +43,6 @@ finish
 form
 forms
 get
-give
-give
-give
 give
 given
 go with
@@ -77,9 +65,6 @@ leave
 let
 listed
 many
-many
-meet
-meet
 meet
 merge
 method
@@ -96,7 +81,6 @@ options
 or
 own
 part
-part
 partner with
 pay
 plain
@@ -109,26 +93,18 @@ right
 risk
 same
 send
-send
 share
 show
 sign
 so
-so
 speed up
 start
-stop
 stop
 stress
 support
 tell
-tell
-tell
 total
 try
-try
-use
-use
 use
 want
 watch

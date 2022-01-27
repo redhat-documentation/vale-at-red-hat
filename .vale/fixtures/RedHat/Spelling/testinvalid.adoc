@@ -1,84 +1,52 @@
-A .net application
 ansible
 antora
 api
 Asciidoc
 asciidoc
-aws
 bitbucket
-BTN
 btrfs
 centos
 Centos
 ceph
-CEPH
-che
-che-theia
-configmap
-Configmap
-cr
 crd
 ctrl
 Daemonset
-Dev workspace
-Developer perspective
-DevFile
-DevWorkspace
 dns
-docker
-DockerFile
 dotnet
 endevor
-git
-Github
-Gitlab
 gluster
 gradle
-grafana
 gui
-helm
 homebrew
 Ide
 intelephense
 Intellij
 Intellij IDEA
-item
-java
-Java lombok
+lombok
 jetbrains
 Jvm
-KBD
-keycloak
 kibana
 kubespray
-let's encrypt
 lombok
 mattermost
-maven
 microsoft azure
 minikube
 Mysql
 mysql
 Netcoredebugoutput
 nginx
-NPM
 Nuget
 Oauth
 Omnisharp
 Openshift
 Opentracing
-operator
-Operatorhub
-operatorhub
 php
 Postgresql
 postgres
 podman
 quarkus
 scm
-sharding
 svg
-theia
 uber
 uri
 velero
@@ -86,5 +54,4 @@ webview
 webviews
 woopra
 yaml
-yeoman
 zowe

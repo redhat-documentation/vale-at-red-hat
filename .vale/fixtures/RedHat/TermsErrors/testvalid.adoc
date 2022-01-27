@@ -30,6 +30,7 @@ built-in
 cancel
 CD writer
 cell phone
+cell phone
 challenge
 change
 CICS BTS
@@ -133,8 +134,7 @@ however
 huge page
 hyperconverged
 IBM
-IBM's
-IBM's AIX
+IBM S 390
 if
 immediately
 in case
@@ -162,6 +162,7 @@ lower right
 lower-left
 lower-right
 make the transition
+make the transition
 man page
 many
 matrixes
@@ -171,9 +172,9 @@ merge
 method
 migrate
 mobile phone
+mobile phone
 Mouse
 mouse button
-mouse over
 move
 move the mouse pointer over
 ms
@@ -298,7 +299,6 @@ unmount
 unrecoverable
 unrecoverable error
 unregister
-unzip
 upgrade
 upper left
 upper right

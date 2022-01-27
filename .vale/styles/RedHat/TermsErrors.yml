@@ -11,16 +11,16 @@ action:
 swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
-  etc: and so on
-  vs: compared to
   "(?:Ctrl|control)-click": press Ctrl and click
+  "(?<!IBM )S 390": "IBM S 390"
+  "(?<!make the )transition": "make the transition|move|migrate|change"
+  "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
   "a lot(?: of)?": many|much
   "backward(?:-)?compatible": compatible with earlier versions
   "bottle neck|bottle-neck": bottleneck
   "bottom(?:-)?left": lower left|lower-left
   "bottom(?:-)?right": lower right|lower-right
   "broad cast|broad-cast": broadcast
-  CD burner|burner: CD writer
   "down(?:-)?level": earlier|previous|not at the latest level
   "mash(?: )?up": create
   "non-English(?!-language?)": in languages other than English|non-English-language
@@ -55,6 +55,7 @@ swap:
   catastrophic error: unrecoverable error
   CBE: Common Base Event
   CBTS: CICS BTS|BTS
+  CD burner|burner: CD writer
   cipher text|cyphertext|cypher text|cipher-text|cypher-text: ciphertext
   cloud-bursting: cloudbursting
   cloud-washing: cloudwashing
@@ -116,6 +117,7 @@ swap:
   end-user interface: graphical interface|interface
   entitlement: subscription
   env: environment
+  etc: and so on
   EUI: graphical user interface|interface
   fill in: complete|enter|specify
   firm ware|firm-ware: firmware
@@ -285,9 +287,9 @@ swap:
   via: through
   video-mode|videomode: video mode
   virtualized: virtual
+  vs: compared to
   warning notice: attention notice
   web-enable: enable for the web
   wish: want
   wish|would like: want
   zero out: zero
-  zip: compress

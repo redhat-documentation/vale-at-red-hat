@@ -4,6 +4,13 @@ Ctrl-click
 a lot
 a lot of
 backward-compatible
+S 390
+a S 390
+transition
+a transition
+the transition
+phone
+a phone
 bottle neck
 bottom-left
 bottomleft
@@ -17,7 +24,6 @@ mashup
 pop-up blocker
 re-occur
 reoccur
-shell
 sort/merge
 sort-merge
 top-left
@@ -90,7 +96,6 @@ containerised
 context menu
 contextual help
 control-click
-Ctrl-click
 crash
 cross platform
 cross site scripting
@@ -361,4 +366,3 @@ x64
 x86_64
 x86-64
 zero out
-zip

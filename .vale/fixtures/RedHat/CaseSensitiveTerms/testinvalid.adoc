@@ -58,7 +58,6 @@ Gpl
 Grub
 gtk
 Gtk
-GTK
 HP Proliant
 hyper-threading
 hyperthreading

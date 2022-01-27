@@ -100,7 +100,6 @@ procure
 provide
 purchase
 relocate
-request
 solicit
 state-of-the-art
 subsequent
