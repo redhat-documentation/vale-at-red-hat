@@ -25,38 +25,11 @@ const antoraArgs = ['--playbook', playbookFilename]
 const watchPatterns = playbook.content.sources.filter((source) => !source.url.includes(':')).reduce((accum, source) => {
     accum.push(`./antora.yml`)
     accum.push(`./modules/**/*`)
+    accum.push(`.vale/**/*`)
     return accum
 }, [])
 
-async function update_reference_guide() {
-    // Report links errors but don't make gulp fail.
-    try {
-        const { stdout, stderr } = await exec('./tools/update_reference_guide.sh')
-        console.log(stdout);
-        console.error(stderr);
-    }
-    catch (error) {
-        console.log(error.stdout);
-        console.log(error.stderr);
-        return;
-    }
-}
-
-async function update_test_suite() {
-    // Report links errors but don't make gulp fail.
-    try {
-        const { stdout, stderr } = await exec('./tools/update_test_suite.sh')
-        console.log(stdout);
-        console.error(stderr);
-    }
-    catch (error) {
-        console.log(error.stdout);
-        console.log(error.stderr);
-        return;
-    }
-}
-
-function generate(done) {
+function generate_html(done) {
     generator(antoraArgs, process.env)
         .then(() => done())
         .catch((err) => {
@@ -65,16 +38,58 @@ function generate(done) {
         })
 }
 
+async function generate_reference_guide() {
+    // Report errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/generate_reference_guide.sh')
+        console.log(stdout);
+        console.error(stderr);
+    }
+    catch (error) {
+        console.log(error.stdout);
+        console.log(error.stderr);
+        return;
+    }
+}
+
+async function generate_vale_rule_tests() {
+    // Report links errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/generate_vale_rule_tests.sh')
+        console.log(stdout);
+        console.error(stderr);
+    }
+    catch (error) {
+        console.log(error.stdout);
+        console.log(error.stderr);
+        return;
+    }
+}
+
 async function serve(done) {
     connect.server(serverConfig, function () {
         this.server.on('close', done)
-        watch(watchPatterns, series(generate, testhtml))
+        watch(watchPatterns, series(generate_reference_guide, generate_vale_rule_tests, generate_html, test_html, test_vale_rules))
         if (livereload) watch(this.root).on('change', (filepath) => src(filepath, { read: false }).pipe(livereload()))
     })
 }
 
-async function testhtml() {
-    // Report links errors but don't make gulp fail.
+async function test_vale_rules() {
+    // Report errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/test_vale_rules.sh')
+        console.log(stdout);
+        console.error(stderr);
+    }
+    catch (error) {
+        console.log(error.stdout);
+        console.log(error.stderr);
+        return;
+    }
+}
+
+async function test_html() {
+    // Report errors but don't make gulp fail.
     try {
         const { stdout, stderr } = await exec('htmltest')
         console.log(stdout);
@@ -88,8 +103,8 @@ async function testhtml() {
 }
 
 exports.default = series(
-    parallel(update_reference_guide, update_test_suite),
-    generate,
+    parallel(generate_reference_guide, generate_vale_rule_tests),
+    generate_html,
     serve,
-    parallel(testhtml)
+    parallel(test_vale_rules, test_html)
 );

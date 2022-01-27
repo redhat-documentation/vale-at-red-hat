@@ -68,4 +68,4 @@ jobs:
         run: htmltest
       - name: Validate rules
         id: validate-rules
-        run: tools/run_test_suite.sh
+        run: tools/test_vale_rules.sh

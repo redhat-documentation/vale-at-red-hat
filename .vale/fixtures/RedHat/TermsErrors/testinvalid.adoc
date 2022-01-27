@@ -1,48 +1,24 @@
-etc.
-vs.
-Ctrl-click
+64-bit x86
 a lot
 a lot of
-backward-compatible
-S 390
-a S 390
-transition
-a transition
-the transition
-phone
-a phone
-bottle neck
-bottom-left
-bottomleft
-bottom-right
-bottomright
-broad cast
-CD burner
-down-level
-mash up
-mashup
-pop-up blocker
-re-occur
-reoccur
-sort/merge
-sort-merge
-top-left
-topleft
-top-right
-topright
-64-bit x86
 a number of
+a phone
+a S 390
+a transition
 abort
 administrate
+advisor
 air wall
 all caps
 all right
 alright
+analyse
 and/or
 as long as
 as per
 autodetect
 back-level
+backward-compatible
 bi-monthly
 bi-weekly
 Big Blue
@@ -50,8 +26,14 @@ blink
 blue screen of death
 boot diskette
 bootloader
+bottle neck
 bottle-neck"
+bottom-left
+bottom-right
+bottomleft
+bottomright
 breadcrumbing
+broad cast
 broad-cast"
 bugfix
 built in
@@ -63,6 +45,8 @@ case insensitive
 catastrophic error
 CBE
 CBTS
+CD burner
+centre
 chip specific
 cipher text
 cipher-text
@@ -75,6 +59,7 @@ cold backup
 cold boot
 cold start
 collocate
+colour
 comes with
 comma delimited
 comma delimited values
@@ -101,6 +86,7 @@ cross platform
 cross site scripting
 crossplatform
 CRUD
+Ctrl-click
 cypher text
 cypher-text
 cyphertext
@@ -136,6 +122,7 @@ domain-name
 domainname
 down load
 down stream
+down-level
 down-load
 down-stream
 downgrade
@@ -146,16 +133,17 @@ dual boot
 dualboot
 e-fix
 e.g.
-i.e.
-eg
-ie
 eFix
+eg
+emphasise
 end user
 end-user interface
 entitlement
 env
+etc.
 EUI
 fill in
+finalise
 firm ware
 firm-ware
 fixed disk drive
@@ -164,6 +152,7 @@ floating-point
 floppy
 floppy disk
 floppy drive
+focussed
 fore-ground
 forground
 forward compatible
@@ -192,7 +181,9 @@ hotswap
 hyper-converged
 i-fix
 i-Fix
+i.e.
 IBM's
+ie
 ifix
 iFix
 in order to
@@ -209,11 +200,12 @@ irrecoverable
 jar
 keep in mind
 kernelspace
-pop-up killer
 knowledgebase
+labour
 laptop
 large page
 launch
+learnt
 leave out
 left-hand
 leverage
@@ -224,6 +216,8 @@ lots of
 main directory
 make sure
 manpage
+mash up
+mashup
 matrices
 memory stick
 menu driven
@@ -250,18 +244,27 @@ on the fly
 on the other hand
 on-premise
 on-ramp
+Firefox
+Thunderbird
+oops
 op-code
 open-source
 opensource
 OpenSource
+organise
+organised
+organising
 over ride
 over-ride
 pain point
 parent task
 perfcounter
 perimeter network
+phone
 plain-text
 plaintext
+pop-up blocker
+pop-up killer
 power down
 power off
 power on
@@ -272,8 +275,11 @@ proof of concepts
 pseudo ops
 pseudoops
 pull-down
+re-occur
+recognise
 remote-access
 remote-access server
+reoccur
 right double-click
 right now
 right-hand
@@ -281,6 +287,7 @@ round table
 rule of thumb
 run level
 run-level
+S 390
 sanity check
 screensaver
 scroll bar
@@ -297,6 +304,8 @@ Simple Object Access Protocol
 single quote
 single quote mark
 SME routine
+sort-merge
+sort/merge
 sound-card
 soundcard
 specfile
@@ -322,9 +331,12 @@ text based
 text-mode
 textmode
 the installer
+the transition
 thin provisioned
 thinly provisioned
 thinly-provisioned
+this clause which is nonrestrictive
+this clause, that is restrictive
 thumbstick
 thus
 tier 1
@@ -333,7 +345,12 @@ time-frame
 timeframe
 toggle off
 tooling
+top-left
+top-right
+topleft
+topright
 touchscreen
+transition
 typo
 uncheck
 uncompress
@@ -358,6 +375,7 @@ via
 video-mode
 videomode
 virtualized
+vs.
 warning notice
 web-enable
 wish

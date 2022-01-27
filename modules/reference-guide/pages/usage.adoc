@@ -3,10 +3,9 @@
 
 = Usage
 
-Verify your use of `Usage` with the word usage guidelines.
+Verify your use with the word usage guidelines.
 
 .Additional resources
 
 * link:https://redhat-documentation.github.io/supplementary-style-guide/[]
-
 

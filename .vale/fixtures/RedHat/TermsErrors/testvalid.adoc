@@ -152,6 +152,7 @@ Internet email address
 IP address
 issue
 IT
+kernel oops
 kernel-space
 knowledge base
 left
@@ -177,6 +178,8 @@ Mouse
 mouse button
 move
 move the mouse pointer over
+Mozilla Firefox
+Mozilla Thunderbird
 ms
 much
 multiprocessing
@@ -279,6 +282,8 @@ text-based
 that is
 therefore
 thin-provisioned
+this clause that is restrictive
+this clause, which is nonrestrictive
 through
 tier-1
 time frame

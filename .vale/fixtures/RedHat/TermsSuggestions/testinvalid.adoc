@@ -1,8 +1,30 @@
+and so on
+as
+bare metal
+bare-metal
+Bps
+bps
+between
 channel
 Cloud
+cd
+CD
+client side
+client-side
 code
+functionality
+recommend
 refer to
+roll out
+rollout
+roll-out
 segfault
 shell
 tar
+thru
+through
+user-space
+userspace
+user space
 zip
+Start using this.

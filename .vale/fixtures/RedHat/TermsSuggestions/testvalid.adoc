@@ -1,9 +1,11 @@
 archive
 cloud
 compress
+functions
 repository
 see
 segmentation fault
 write
 shell prompt
 shell script
+Start by using this.

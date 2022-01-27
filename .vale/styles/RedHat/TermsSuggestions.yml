@@ -8,11 +8,24 @@ source: "https://redhat-documentation.github.io/supplementary-style-guide/#gloss
 action:
   name: replace
 swap:
+  "(?<!by) using": by using|that uses
   "shell(?! prompt| script)": shell prompt
+  and so on: "appropriate descriptive wording, unless you list a clear sequence of elements"
+  as: because|while
+  bare metal|bare-metal: bare metal (noun)|bare-metal (adjective)
+  Bps|bps: Bps (bytes per second)|bps (bits per second)
+  client side|client-side: client-side (adjective)| client side (noun)
+  CD|cd: cd (change directory command)|CD (compact disc)
+  between: " - ' to indicate a 'range of numbers"
   channel: repository
   Cloud: cloud
   code: write
+  functionality: functions # IBM
+  recommend: direct users to take the recommended action
   refer to: see
+  roll-out|roll out|rollout: roll out (verb)|rollout (noun)
   segfault: segmentation fault
   tar: compress|archive
+  thru|through: "' - ' (range)|by using|finished|completed"
+  user space|userspace|user-space: user space (noun)| user-space (modifier)
   zip: compress

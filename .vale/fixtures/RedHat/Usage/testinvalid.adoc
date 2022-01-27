@@ -78,7 +78,8 @@ ingest
 internationalize
 invoke
 itself
-Java Development Kit \(JDK\)
+Java Development Kit # IBM
+JDK # IBM
 kill
 latest
 legacy

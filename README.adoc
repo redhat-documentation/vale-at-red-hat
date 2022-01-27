@@ -4,6 +4,3 @@ This repository helps tech writers at Red Hat get up and running with Vale. It i
 
 * See the documentation: link:https://redhat-documentation.github.io/vale-at-red-hat/[Vale for Red Hat documentation writers]
 
-.Additional resources
-
-* xref:https://rolfe.blog/category/vale/[Rolfe's "Vale notes" blog posts]

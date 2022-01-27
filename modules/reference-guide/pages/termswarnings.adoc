@@ -1,4 +1,4 @@
-:navtitle: Termsi warnings
+:navtitle: Terms warnings
 :keywords: reference, rule, terms warnings
 
 = Terms warnings

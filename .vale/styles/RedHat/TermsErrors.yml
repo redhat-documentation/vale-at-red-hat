@@ -11,10 +11,15 @@ action:
 swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
+  ", that": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?:Ctrl|control)-click": press Ctrl and click
+  "(?<!,) which": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?<!IBM )S 390": "IBM S 390"
+  "(?<!kernel )oops": kernel oops
   "(?<!make the )transition": "make the transition|move|migrate|change"
   "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
+  "(?<!Mozilla )Firefox": Mozilla Firefox
+  "(?<!Mozilla )Thunderbird": Mozilla Thunderbird
   "a lot(?: of)?": many|much
   "backward(?:-)?compatible": compatible with earlier versions
   "bottle neck|bottle-neck": bottleneck
@@ -29,12 +34,15 @@ swap:
   "sort(?:-|/)?merge": sort|merge
   "top(?:-)?left": upper left|upper right|upper-left|upper-right
   "top(?:-)?right": upper left|upper right|upper-left|upper-right
+  # "app(?:.)": app
   a number of: several
   abort: cancel|stop
   administrate: administer
+  advisor: adviser
   air wall: air gap
   all caps: uppercase
   alright|all right: "correct|as expected"
+  analyse: analyze
   and/or: a or b|a, b, or both
   as long as: if|provided that
   as per: according to|as|as in
@@ -56,6 +64,7 @@ swap:
   CBE: Common Base Event
   CBTS: CICS BTS|BTS
   CD burner|burner: CD writer
+  centre: center
   cipher text|cyphertext|cypher text|cipher-text|cypher-text: ciphertext
   cloud-bursting: cloudbursting
   cloud-washing: cloudwashing
@@ -63,6 +72,7 @@ swap:
   cold backup: offline backup
   cold boot: hardware restart
   cold start: hardware restart
+  colour: color
   comes with: includes
   comma delimited|commadelimited: comma-delimited
   comma-delimited values|comma delimited values|comma separated values: comma-separated values
@@ -113,6 +123,7 @@ swap:
   dualboot|dual boot: dual-boot
   e-fix: fix|interim fix
   eFix: fix|interim fix
+  emphasise: emphasize
   end user: user
   end-user interface: graphical interface|interface
   entitlement: subscription
@@ -120,6 +131,7 @@ swap:
   etc: and so on
   EUI: graphical user interface|interface
   fill in: complete|enter|specify
+  finalise: finalize
   firm ware|firm-ware: firmware
   fixed disk drive: hard disk drive
   flavor: version|method
@@ -127,6 +139,7 @@ swap:
   floppy disk: diskette|diskette drive
   floppy drive: diskette|diskette drive
   floppy: diskette|diskette drive
+  focussed: focused
   fore-ground|forground: foreground
   forward compatible: compatible with later versions
   gray-scale|gray scale: grayscale
@@ -166,9 +179,11 @@ swap:
   keep in mind: remember
   kernelspace: kernel-space
   knowledgebase: knowledge base
+  labour: labor
   laptop: notebook
   large page|super page: huge page
   launch: start|open
+  learnt: learned
   leave out: omit
   left-hand: left
   leverage: use
@@ -203,6 +218,9 @@ swap:
   on-ramp: access method
   op-code: opcode
   open-source|OpenSource|opensource: open source
+  organise: organize
+  organised: organized
+  organising: organizing
   over-ride|over ride: override
   pain point: challenge|concern|difficulty|issue
   parent task: parent process
@@ -218,6 +236,7 @@ swap:
   proof of concepts: proofs of concept|proofs of concept
   pseudo ops|pseudoops: pseudo-ops
   pull-down: pulldown
+  recognise: recognize
   remote-access server: remote access server
   remote-access: remote access
   right double-click: double right-click

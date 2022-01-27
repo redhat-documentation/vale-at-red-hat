@@ -1,2 +1,0 @@
-valid content: Mozilla Firefox
-valid content: Mozilla Thunderbird

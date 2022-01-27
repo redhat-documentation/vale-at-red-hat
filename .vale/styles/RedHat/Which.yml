@@ -1,9 +1,0 @@
----
-extends: existence
-ignorecase: true
-level: suggestion
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/which/
-message: "Use 'which', preceded by a comma, to introduce a nonrestrictive clause. Use 'that', without a comma, to introduce a restrictive clause."
-source: https://redhat-documentation.github.io/supplementary-style-guide/
-tokens:
-  - '(?:[^\,]) which'
