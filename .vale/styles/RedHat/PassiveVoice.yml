@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "'%s' is passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites"
 ignorecase: true
 level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/passivevoice/
+message: "'%s' is passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites"
 source: "https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites"
 raw:
   - \b(am|are|were|being|is|been|was|be)\b\s*

@@ -1,7 +1,7 @@
-:navtitle: ReleaseNotes
-:keywords: reference, rule, ReleaseNotes
+:navtitle: Release notes
+:keywords: reference, rule, release notes
 
-= ReleaseNotes
+= Release notes
 
 For release notes, consider using `Before this update` or `With this update`.
 

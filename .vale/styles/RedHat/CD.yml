@@ -1,9 +1,10 @@
+---
 extends: substitution
-message: "Use 'cd' for the 'change directory' command. Use 'CD' as acronym for 'compact disc'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/cd/
-source: https://redhat-documentation.github.io/supplementary-style-guide/#cd-command
-ignorecase: true
+ignorecase: false
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/cd/
+message: "Use 'cd' for the 'change directory' command. Use 'CD' as acronym for 'compact disc'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#cd-command"
 action:
   name: replace
 swap:

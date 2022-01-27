@@ -1,9 +1,10 @@
+---
 extends: substitution
-message: "Verify the context. 'Bps' is an acronym for bytes per second. The acronym for bits per second is 'bps'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/bps/
-source: https://redhat-documentation.github.io/supplementary-style-guide/#bps
-ignorecase: true
+ignorecase: false
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/bps/
+message: "Verify the context. 'Bps' is an acronym for bytes per second. The acronym for bits per second is 'bps'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#bps"
 action:
   name: replace
 swap:

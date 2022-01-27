@@ -7,6 +7,7 @@ IBM Z
 ISO image
 Kernel-based Virtual Machine
 Microsoft
+ms
 InfiniBand
 operating environment
 OperatorHub

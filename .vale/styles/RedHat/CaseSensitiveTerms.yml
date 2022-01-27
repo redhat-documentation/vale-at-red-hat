@@ -1,12 +1,12 @@
+---
 extends: substitution
-message: Use '%s' rather than '%s'.
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/casesensitiveterms/
-source: https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions
 ignorecase: false
 level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/casesensitiveterms/
+message: Use '%s' rather than '%s'.
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
 action:
   name: replace
-# swap maps tokens in form of bad: good
 swap:
   '[nN]odejs|[nN]ode\.JS|node\.js': Node.js
   Bind: BIND

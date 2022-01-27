@@ -1,15 +1,14 @@
 ---
 extends: substitution
-message: "Use '%s' rather than '%s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termserrors/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
-level: error
 ignorecase: true
+level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termserrors/
+message: "Use '%s' rather than '%s'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
 action:
   name: replace
-# swap maps tokens in form of bad: good
 swap:
-  "(?!IBM:?)S 390": IBM S 390
-  "(?!make the ?)transition": make the transition|move|migrate|change
-  "(?!mobile|cell ?)phone": telephone|cell phone|mobile phone
-  app.: app
+  "(?:!IBM ?)S 390": "IBM S 390"
+  # "(?!make the ?)transition": "make the transition|move|migrate|change"
+  # "(?!mobile|!cell:?)phone": "telephone|cell phone|mobile phone"
+  # "app(?.?)": app

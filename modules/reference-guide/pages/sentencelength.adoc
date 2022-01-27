@@ -1,7 +1,7 @@
-:navtitle: SentenceLength
-:keywords: reference, rule, SentenceLength
+:navtitle: Sentence length
+:keywords: reference, rule, sentence length
 
-= SentenceLength
+= Sentence length
 
 Try to keep sentences less than 25 words.
 

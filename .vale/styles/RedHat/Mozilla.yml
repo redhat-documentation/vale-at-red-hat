@@ -1,9 +1,10 @@
+---
 extends: sequence
-message: "Use 'Mozilla %[2]s' rather than '%[2]s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/mozilla/
-source: https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox
 ignorecase: true
 level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/mozilla/
+message: "Use 'Mozilla %[2]s' rather than '%[2]s'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox"
 action:
   name: replace
 tokens:

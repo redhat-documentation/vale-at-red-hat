@@ -1,10 +1,10 @@
 ---
 extends: existence
-message: "Verify your use of '%s' with the word usage guidelines."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/usage/
-source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/usage/
+message: "Verify your use of '%s' with the word usage guidelines."
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 tokens:
   - "pop-up (?:help|menu)"
   - "redbook(:s)?"

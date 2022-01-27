@@ -1,10 +1,10 @@
 ---
 extends: substitution
-message: "Use '%s' rather than '%s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termserrors/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
-level: error
 ignorecase: true
+level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termserrors/
+message: "Use '%s' rather than '%s'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
 action:
   name: replace
 # swap maps tokens in form of bad: good
@@ -26,7 +26,6 @@ swap:
   "non-English(?!-language?)": in languages other than English|non-English-language
   "pop-up (?:blocker|killer)": software to block pop-up ad windows
   "re(?:-)?occur": recur
-  "shell(?! prompt)": shell prompt
   "sort(?:-|/)?merge": sort|merge
   "top(?:-)?left": upper left|upper right|upper-left|upper-right
   "top(?:-)?right": upper left|upper right|upper-left|upper-right

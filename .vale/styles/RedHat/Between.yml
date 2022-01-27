@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "Do not use '%s' to show a range of numbers; it is not clear whether the two numbers are the boundaries of the range or are included in the range."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/between/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/between/
+message: "Do not use '%s' to show a range of numbers; it is not clear whether the two numbers are the boundaries of the range or are included in the range."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 tokens:
   - between

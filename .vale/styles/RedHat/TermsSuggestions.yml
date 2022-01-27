@@ -1,12 +1,14 @@
+---
 extends: substitution
-message: "Depending on the context, consider using '%s' rather than '%s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termssuggestions/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
 ignorecase: false
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termssuggestions/
+message: "Depending on the context, consider using '%s' rather than '%s'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions"
 action:
   name: replace
 swap:
+  "shell(?! prompt| script)": shell prompt
   channel: repository
   Cloud: cloud
   code: write

@@ -28,6 +28,34 @@ const watchPatterns = playbook.content.sources.filter((source) => !source.url.in
     return accum
 }, [])
 
+async function update_reference_guide() {
+    // Report links errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/update_reference_guide.sh')
+        console.log(stdout);
+        console.error(stderr);
+    }
+    catch (error) {
+        console.log(error.stdout);
+        console.log(error.stderr);
+        return;
+    }
+}
+
+async function update_test_suite() {
+    // Report links errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/update_test_suite.sh')
+        console.log(stdout);
+        console.error(stderr);
+    }
+    catch (error) {
+        console.log(error.stdout);
+        console.log(error.stderr);
+        return;
+    }
+}
+
 function generate(done) {
     generator(antoraArgs, process.env)
         .then(() => done())
@@ -45,7 +73,6 @@ async function serve(done) {
     })
 }
 
-
 async function testhtml() {
     // Report links errors but don't make gulp fail.
     try {
@@ -60,8 +87,8 @@ async function testhtml() {
     }
 }
 
-
 exports.default = series(
+    parallel(update_reference_guide, update_test_suite),
     generate,
     serve,
     parallel(testhtml)

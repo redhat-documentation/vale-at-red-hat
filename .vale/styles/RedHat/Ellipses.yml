@@ -1,9 +1,10 @@
+---
 extends: existence
-message: "Avoid the ellipsis (...) except to indicate omitted words."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/ellipses/
-source: https://redhat-documentation.github.io/supplementary-style-guide/
-nonword: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/ellipses/
+message: "Avoid the ellipsis (...) except to indicate omitted words."
+nonword: true
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 action:
   name: remove
 tokens:

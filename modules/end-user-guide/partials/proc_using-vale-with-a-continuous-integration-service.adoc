@@ -17,7 +17,7 @@ Consider using the vale CLI with a continuous integration service when:
 
 .Procedure
 
-. Configure your continuous integration service to download the `vale` CLI, the _RedHat_ style and the Vale configuration file using a `download_vale.sh` script such as:
+. Configure your continuous integration service to download the `vale` CLI, the `RedHat` style and the Vale configuration file using a `download_vale.sh` script such as:
 +
 [source,bash]
 ----

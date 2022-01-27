@@ -1,10 +1,11 @@
+---
 extends: existence
-message: "Add spaces around the dash in '%s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/dashspacing/
-source: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF"
 ignorecase: true
-nonword: true
 level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/dashspacing/
+message: "Add spaces around the dash in '%s'."
+nonword: true
+source: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF"
 action:
   name: edit
   params:

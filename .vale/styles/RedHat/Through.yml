@@ -1,10 +1,10 @@
 ---
 extends: substitution
-message: "Use 'through' rather than 'thru', a hyphen or any other type of dash when expressing a range. Do not use 'through' to mean 'by using'. Do not use 'through' as an adjective, use 'finished' or 'completed'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/through/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/#through"
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/through/
+message: "Use 'through' rather than 'thru', a hyphen or any other type of dash when expressing a range. Do not use 'through' to mean 'by using'. Do not use 'through' as an adjective, use 'finished' or 'completed'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#through"
 swap:
   through: "'finished' or 'completed'"
   thru: through

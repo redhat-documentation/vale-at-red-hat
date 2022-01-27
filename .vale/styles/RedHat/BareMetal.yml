@@ -1,12 +1,12 @@
-extends: existence
-message: "Use `bare metal` (noun) or `bare-metal` (adjective)."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/baremetal/
-source: https://redhat-documentation.github.io/supplementary-style-guide/#bare-metal-n
+---
+extends: substitution
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/baremetal/
+message: "Use 'bare metal' (noun) or 'bare-metal' (adjective)."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#bare-metal-n"
 action:
   name: replace
-source: Red Hat
 swap:
-  bare metal: bare-metal
+  "bare metal": bare-metal
   bare-metal: bare metal

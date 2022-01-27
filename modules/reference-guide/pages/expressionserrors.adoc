@@ -1,0 +1,12 @@
+:navtitle: Expressions errors
+:keywords: reference, rule, expressions errors
+
+= Expressions errors
+
+Use suggested expression.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[]
+
+

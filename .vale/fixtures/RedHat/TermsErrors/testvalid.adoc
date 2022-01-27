@@ -176,6 +176,7 @@ mouse button
 mouse over
 move
 move the mouse pointer over
+ms
 much
 multiprocessing
 multitenant
@@ -245,6 +246,7 @@ several
 share name
 shared components
 shell prompt
+shell script
 single quotation mark
 SOAP
 software to block pop-up ad windows

@@ -1,9 +1,9 @@
 ---
 extends: readability
-message: "Grade level (%s) too high!"
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/readabilitygrade/
-level: suggestion
 grade: 21
+level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/readabilitygrade/
+message: "Grade level (%s) too high."
 metrics:
   - Automated Readability
   - Coleman-Liau

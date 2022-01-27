@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "Use '%s' only to refer to a set of functions and their specified properties. Consider using a simpler term, for example 'functions'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/functionality/
-source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/functionality/
+message: "Use '%s' only to refer to a set of functions and their specified properties. Consider using a simpler term, for example 'functions'."
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 tokens:
   - functionality

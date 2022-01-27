@@ -1,8 +1,9 @@
+---
 extends: existence
-message: "Avoid '%s'. rather than 'Red Hat recommends', direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/recommend/
-source: https://redhat-documentation.github.io/supplementary-style-guide/#recommend
 ignorecase: true
-level: error
+level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/recommend/
+message: "Avoid '%s'. rather than 'Red Hat recommends', direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#recommend"
 tokens:
   - recommend

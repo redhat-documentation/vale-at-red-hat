@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "Use '%s' only when you list a clear sequence of elements. Else, use appropriate descriptive wording."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/andsoon/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/andsoon/
+message: "Use '%s' only when you list a clear sequence of elements. Else, use appropriate descriptive wording."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 tokens:
   - and so on

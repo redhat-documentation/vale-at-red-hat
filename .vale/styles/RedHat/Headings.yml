@@ -1,10 +1,11 @@
+---
 extends: capitalization
-message: "'%s' should use sentence-style capitalization."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/headings/
-source: https://redhat-documentation.github.io/supplementary-style-guide/
 level: suggestion
-scope: heading
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/headings/
 match: $sentence
+message: "'%s' should use sentence-style capitalization."
+scope: heading
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 indicators:
   - ":"
 exceptions:
@@ -65,6 +66,7 @@ exceptions:
   - GCC
   - Git
   - GitHub
+  - GitHub Action
   - GitLab
   - Gluster
   - Gradle
@@ -155,6 +157,7 @@ exceptions:
   - URIs
   - URL
   - URLs
+  - Vale
   - Valgrind
   - Velero
   - vNIC

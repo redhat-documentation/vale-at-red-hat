@@ -1,10 +1,10 @@
 ---
 extends: substitution
-message: "Consider using '%s' rather than '%s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/complexwords/
-source: http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/complexwords/
+message: "Consider using '%s' rather than '%s'."
+source: http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm
 swap:
   "approximate(?:ly)?": about
   "objective(?! C?)": aim|goal

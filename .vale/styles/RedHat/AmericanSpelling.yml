@@ -1,10 +1,10 @@
 ---
 extends: consistency
-message: "Use General American spelling of '%s'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/americanspelling/
-source: https://redhat-documentation.github.io/supplementary-style-guide/
-level: error
 ignorecase: true
+level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/americanspelling/
+message: "Use General American spelling of '%s'."
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 either:
   advisor: adviser
   analyse: analyze

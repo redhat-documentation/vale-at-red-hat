@@ -3,7 +3,7 @@
 
 = Spacing
 
-`Spacing` should have one space.
+Keep one space between words.
 
 .Additional resources
 

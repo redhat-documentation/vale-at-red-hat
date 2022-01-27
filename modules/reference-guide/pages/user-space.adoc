@@ -1,7 +1,7 @@
 :navtitle: User-space or user space
 :keywords: reference, rule, user-space, user space
 
-= User-space
+= User-space compared to user space
 
 Use `user space` when used as a noun. When used as a modifier, use the hyphenated form `user-space`.
 

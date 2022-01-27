@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "Do not use 'as' to mean 'because' or 'while'."
-link: "https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/as/"
-source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
+link: "https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/as/"
+message: "Do not use 'as' to mean 'because' or 'while'."
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 tokens:
   - as

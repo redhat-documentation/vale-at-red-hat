@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "Do not use '%s' to mean 'approximately'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/about/
-source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/about/
+message: "Do not use '%s' to mean 'approximately'."
+source: "https://redhat-documentation.github.io/supplementary-style-guide/"
 tokens:
   - about

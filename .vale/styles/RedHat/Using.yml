@@ -1,9 +1,9 @@
 ---
 extends: existence
-message: "To avoid ambiguity, replace this gerund (`using`) with either 'by using' or 'that uses'."
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/using/
-source: https://redhat-documentation.github.io/supplementary-style-guide/
 ignorecase: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/using/
+message: "To avoid ambiguity, replace this gerund ('using') with either 'by using' or 'that uses'."
+source: https://redhat-documentation.github.io/supplementary-style-guide/
 tokens:
   - "(?:[^b][^y]) using"
