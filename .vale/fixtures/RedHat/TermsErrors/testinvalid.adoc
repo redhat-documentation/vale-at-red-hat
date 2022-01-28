@@ -334,7 +334,6 @@ the transition
 thin provisioned
 thinly provisioned
 thinly-provisioned
-this clause, that is restrictive
 thumbstick
 Thunderbird
 thus

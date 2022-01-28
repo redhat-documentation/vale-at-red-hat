@@ -5,7 +5,9 @@ functions
 repository
 see
 segmentation fault
-write
 shell prompt
 shell script
 Start by using this.
+write
+this clause that is restrictive
+this clause, which is nonrestrictive

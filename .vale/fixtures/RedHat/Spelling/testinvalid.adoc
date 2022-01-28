@@ -45,6 +45,7 @@ Postgresql
 postgres
 podman
 quarkus
+restic
 scm
 svg
 uber

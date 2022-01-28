@@ -11,4 +11,3 @@ swap:
   "I(?!/O)": you
   he|she: you
   host name: hostname
-  "(?<!,) which": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"

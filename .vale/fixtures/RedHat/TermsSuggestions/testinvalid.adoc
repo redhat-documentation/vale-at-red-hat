@@ -22,6 +22,8 @@ segfault
 shell
 Start using this.
 tar
+this clause, that is restrictive
+this clause which is nonrestrictive
 through
 thru
 user space

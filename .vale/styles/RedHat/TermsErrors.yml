@@ -11,7 +11,6 @@ action:
 swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
-  ", that": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?:Ctrl|control)-click": press Ctrl and click
   "(?<!IBM )S 390": "IBM S 390"
   "(?<!kernel )oops": kernel oops

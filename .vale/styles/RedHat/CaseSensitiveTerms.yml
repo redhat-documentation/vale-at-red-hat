@@ -9,7 +9,7 @@ action:
   name: replace
 swap:
   '[nN]odejs|[nN]ode\.JS|node\.js': Node.js
-  Bind: BIND
+  # Bind: BIND
   Bios: BIOS
   btrfs: Btrfs
   Capex|capex|capEx: CapEx
