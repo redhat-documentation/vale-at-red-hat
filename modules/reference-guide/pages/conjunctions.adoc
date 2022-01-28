@@ -3,7 +3,7 @@
 
 = Conjunctions
 
-Do not overuse beginning sentences with `Conjunctions`.
+Do not overuse beginning sentences with conjunctions.
 
 .Additional resources
 

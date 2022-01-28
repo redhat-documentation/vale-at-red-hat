@@ -3,7 +3,7 @@
 
 = Headings
 
-`Headings` should use sentence-style capitalization.
+Use sentence-style capitalization in headings.
 
 .Additional resources
 

@@ -4,7 +4,7 @@
 
 = Heading punctuation
 
-Don`t use end punctuation in headings.
+Do not use end punctuation in headings.
 
 .Additional resources
 

@@ -2,7 +2,6 @@
 
 * xref:abbreviations.adoc[]
 * xref:casesensitiveterms.adoc[]
-* xref:complexwords.adoc[]
 * xref:configmap.adoc[]
 * xref:conjunctions.adoc[]
 * xref:consciouslanguage.adoc[]
@@ -16,6 +15,7 @@
 * xref:readabilitygrade.adoc[]
 * xref:releasenotes.adoc[]
 * xref:sentencelength.adoc[]
+* xref:simplewords.adoc[]
 * xref:slash.adoc[]
 * xref:spacing.adoc[]
 * xref:spelling.adoc[]

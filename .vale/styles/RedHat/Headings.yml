@@ -3,7 +3,7 @@ extends: capitalization
 level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/headings/
 match: $sentence
-message: "'%s' should use sentence-style capitalization."
+message: "Use sentence-style capitalization in '%s'."
 scope: heading
 source: "IBM - Capitalization in headings and titles, p.16"
 indicators:

@@ -3,8 +3,8 @@ extends: substitution
 ignorecase: true
 level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/complexwords/
-message: "Consider using '%s' rather than '%s'."
-source: http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm
+message: "Use simple language. Consider using '%s' rather than '%s'."
+source: "IBM - Conversational style; http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm"
 swap:
   "approximate(?:ly)?": about
   "objective(?! C?)": aim|goal

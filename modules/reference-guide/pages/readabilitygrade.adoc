@@ -3,7 +3,7 @@
 
 = Readability grade
 
-Grade level too high!
+Grade level too high.
 
 .Additional resources
 
