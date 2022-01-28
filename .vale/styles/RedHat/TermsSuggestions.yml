@@ -23,6 +23,7 @@ swap:
   Cloud: cloud
   code: write
   functionality: functions # IBM
+  input|type: enter (followed by the text to enter in monospace) # https://redhat-documentation.github.io/supplementary-style-guide/#text-entry
   recommend: direct users to take the recommended action
   refer to: see
   roll-out|roll out|rollout: roll out (verb)|rollout (noun)
