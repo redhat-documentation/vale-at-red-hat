@@ -3,9 +3,9 @@
 
 = Release notes
 
-For release notes, consider using `Before this update` rather than `Previously`, and `With this update` rather than `Now`.
+For release notes, consider using `Before this update` or `With this update`.
 
-.Additional Resources
+.Additional resources
 
-* link:{ssg-url}#release-notes[]
+* link:{ssg-url}#release-notes[{ssg} - Release notes]
 

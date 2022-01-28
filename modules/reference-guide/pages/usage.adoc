@@ -3,9 +3,9 @@
 
 = Usage
 
-Verify your use of `Usage` with the word usage guidelines.
+Verify your use with the word usage guidelines.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist[]
-
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]

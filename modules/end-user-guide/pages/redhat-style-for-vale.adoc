@@ -8,7 +8,7 @@
 
 
 [id="redhat-style-for-vale_{context}"]
-= _RedHat_ style for Vale
+= `RedHat` style for Vale
 
 :context: redhat-style-for-vale
 

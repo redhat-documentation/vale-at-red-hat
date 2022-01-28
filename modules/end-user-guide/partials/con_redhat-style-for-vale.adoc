@@ -1,22 +1,22 @@
 :_module-type: CONCEPT
 
 [id="con_redhat-style-for-vale_{context}"]
-= _RedHat_ style for Vale
+= `RedHat` style for Vale
 
-The _RedHat_ style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
+The `RedHat` style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
 
 * link:{ssg-url}[_{ssg}_]
 * Latest edition of the _{ibmsg}_
-* link:https://github.com/errata-ai/IBM[Vale-compatible implementation] of link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[_IBM's Developer Editorial Style Guide_]
+* link:https://github.com/errata-ai/IBM[Vale-compatible implementation] of link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[_IBM Developer Editorial Style Guide_]
 * link:{valedict-url}[_{valedict}_]
 
-The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the _RedHat_ style in the following directory:
+The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `RedHat` style in the following directory:
 
 ----
 .vale/styles/RedHat
 ----
 
-To use the _RedHat_ style in your project you can decide to be:
+To use the `RedHat` style in your project you can decide to be:
 
 * xref:using-vale-cli.adoc[]
 * xref:using-vale-in-the-ide.adoc[]

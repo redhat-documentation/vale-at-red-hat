@@ -7,7 +7,7 @@
 :parent-context-of-extending-the-spelling-rule: {context}
 
 [id="extending-the-spelling-rule_{context}"]
-= Extending the _Spelling_ rule
+= Extending the `Spelling` rule
 
 :context: extending-the-spelling-rule
 

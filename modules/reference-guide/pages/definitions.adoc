@@ -5,7 +5,6 @@
 
 Define acronyms and abbreviations on first occurrence if they are likely to be unfamiliar.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC[]
-
+* link:{ibmsg-url}[{ibmsg} - Abbreviations, p. 1]

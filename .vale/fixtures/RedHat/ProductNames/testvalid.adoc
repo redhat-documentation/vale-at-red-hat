@@ -1,4 +1,0 @@
-Node.js
-OperatorHub
-Spring Boot
-Visual Studio Code

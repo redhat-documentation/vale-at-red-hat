@@ -1,8 +1,0 @@
-:navtitle: must
-:keywords: reference, rule, must
-
-= Must
-
-Use `must` rather than `shall`.
-
-

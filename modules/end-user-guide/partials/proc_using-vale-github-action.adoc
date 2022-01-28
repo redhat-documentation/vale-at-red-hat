@@ -43,7 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
 
-. Create a `.github/styles` directory containing an empty file. The Vale GitHub Action use it to decompress the _RedHat_ style.
+. Create a `.github/styles` directory containing an empty file. The Vale GitHub Action use it to decompress the `RedHat` style.
 +
 ----
 $ mkdir .github/styles

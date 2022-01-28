@@ -1,11 +1,10 @@
-:navtitle: Oxford comma
-:keywords: reference, rule, Oxford comma
+:navtitle: OxfordComma
+:keywords: reference, rule, OxfordComma
 
-= Oxford comma
+= OxfordComma
 
 Use the Oxford comma.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF[]
-
+* link:{ibmsg-url}[{ibmsg} - Commas between clauses, p.45]

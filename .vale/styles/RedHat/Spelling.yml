@@ -1,10 +1,10 @@
+---
 extends: spelling
-message: "Use correct American English spelling. Did you really mean '%s'?"
-# Set to warning rather than error, to ease onboarding of new projects.
 level: warning
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/contributor-guide/extending-the-spelling-rule/
-# A "filter" is a case-sensitive regular expression specifying words
-# to ignore during spell checking.
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/spelling/
+message: "Use correct American English spelling. Did you really mean '%s'?"
+source: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/spelling/
+# A "filter" is a case-sensitive regular expression specifying words to ignore during spell checking.
 # Spelling rule applies to individual words
 filters:
   - '\.NET'
@@ -244,6 +244,7 @@ filters:
   - qeth
   - Quarkus
   - Redistributions
+  - Restic
   - Rolfe
   - Sakila
   - SCM
@@ -264,6 +265,7 @@ filters:
   - url
   - URL
   - URLs
+  - Vale
   - Valgrind
   - Velero
   - vsix

@@ -1,11 +1,13 @@
 :navtitle: Heading punctuation
+
 :keywords: reference, rule, Heading punctuation
 
 = Heading punctuation
 
-Don`t use end punctuation in headings.
+Do not use end punctuation in headings.
 
-.Additional Resources
+.Additional resources
 
-* link:https://docs.microsoft.com/en-us/style-guide/punctuation/periods[]
+* link:{ibmsg-url}[{ibmsg} - Periods in headings and titles, p. 61]
+
 

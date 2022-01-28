@@ -1,2 +1,2 @@
-invalid content: more/less
-invalid content: this/that
+more/less
+this/that

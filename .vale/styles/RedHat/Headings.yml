@@ -1,9 +1,11 @@
+---
 extends: capitalization
-message: "'%s' should use sentence-style capitalization."
-link: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N1030C"
 level: suggestion
-scope: heading
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/headings/
 match: $sentence
+message: "Use sentence-style capitalization in '%s'."
+scope: heading
+source: "IBM - Capitalization in headings and titles, p.16"
 indicators:
   - ":"
 exceptions:
@@ -64,6 +66,7 @@ exceptions:
   - GCC
   - Git
   - GitHub
+  - GitHub Action
   - GitLab
   - Gluster
   - Gradle
@@ -127,8 +130,8 @@ exceptions:
   - Pytorch
   - qeth
   - Quarkus
-  - RedBoot
   - Red Hat
+  - RedBoot
   - Redistributions
   - Rolfe
   - Sakila
@@ -139,8 +142,8 @@ exceptions:
   - StarOffice
   - startx
   - Suchow
-  - System
   - SVG
+  - System
   - SysV
   - Tekton
   - Telekom
@@ -154,6 +157,7 @@ exceptions:
   - URIs
   - URL
   - URLs
+  - Vale
   - Valgrind
   - Velero
   - vNIC

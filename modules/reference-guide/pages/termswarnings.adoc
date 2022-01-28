@@ -1,0 +1,11 @@
+:navtitle: Terms warnings
+:keywords: reference, rule, terms warnings
+
+= Terms warnings
+
+Consider using the suggested term, unless updating existing content that uses the term.
+
+.Additional resources
+
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]

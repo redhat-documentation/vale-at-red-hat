@@ -3,9 +3,8 @@
 
 = Headings
 
-`Headings` should use sentence-style capitalization.
+Use sentence-style capitalization in headings.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N1030C[]
-
+* link:{ibmsg-url}[{ibmsg} - Capitalization in headings and titles, p.16]

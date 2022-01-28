@@ -42,7 +42,7 @@ $ vale --minAlertLevel=error .
 
 == Expect false positives
 
-* The _RedHat_ style has been thoroughly tested on a corpus of 113000 words. You can expect false positives when applying the style to a new corpus. Consider xref:contributor-guide:contributing.adoc[] to the style.
+* The `RedHat` style has been thoroughly tested on a corpus of 113000 words. You can expect false positives when applying the style to a new corpus. Consider xref:contributor-guide:contributing.adoc[] to the style.
 
 == Collect data
 

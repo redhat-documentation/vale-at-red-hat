@@ -1,0 +1,11 @@
+:navtitle: Terms suggestions
+:keywords: reference, rule, terms suggestions
+
+= Terms suggestions
+
+Depending on the context, consider using the suggested term.
+
+.Additional resources
+
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]

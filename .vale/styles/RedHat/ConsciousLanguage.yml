@@ -1,11 +1,14 @@
 ---
 extends: substitution
-message: Use '%s' rather than '%s.'
-level: warning
-link: "https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language"
 ignorecase: true
+level: warning
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/consciouslanguage/
+message: Use '%s' rather than '%s.'
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language"
+action:
+  name: replace
 swap:
   blacklist: blocklist
   whitelist: allowlist
-  master: primary, source, initiator, requester, controller, host or director
-  slave: secondary, replica, responder, device, worker, proxy or performer
+  master: primary|source|initiator|requester|controller|host|director
+  slave: secondary|replica|responder|device|worker|proxy|performer

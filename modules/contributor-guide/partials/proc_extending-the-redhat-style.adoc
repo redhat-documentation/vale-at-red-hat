@@ -1,7 +1,7 @@
 :_module-type: PROCEDURE
 
 [id="proc_extending-the-redhat-style_{context}"]
-= Extending the _RedHat_ style
+= Extending the `RedHat` style
 
 Consider extending styles when:
 

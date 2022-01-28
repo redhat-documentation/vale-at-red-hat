@@ -1,8 +1,10 @@
+---
 extends: existence
-message: "Avoid the ellipsis (...) except to indicate omitted words."
-link: https://www.ibm.com/developerworks/library/styleguidelines/index.html
-nonword: true
 level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/ellipses/
+message: "Avoid the ellipsis (...) except to indicate omitted words."
+nonword: true
+source: "IBM - Ellipses, p.49"
 action:
   name: remove
 tokens:

@@ -1,9 +1,10 @@
-:navtitle: ConfigMap
-:keywords: reference, rule, ConfigMap
+:navtitle: Config map
+:keywords: reference, rule, config map
 
-= ConfigMap
+= Config map
 
-Do not use `config`, unless followed by `map`.
+Do not use `config`, unless it is followed by `map`.
+
 
 
 

@@ -11,4 +11,5 @@
 # Fail on errors and display commands
 set -ex
 
+umask 002
 LIVERELOAD=true gulp

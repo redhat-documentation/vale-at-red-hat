@@ -3,7 +3,10 @@
 [id="proc_creating-a-vocabulary-for-a-project_{context}"]
 = Creating a vocabulary for a project
 
-Consider adding a *Vocabulary* to your project when missing words in the Vale dictionary are causing *Spelling* errors and the word is too specific to benefit to other projects.
+Consider adding a *Vocabulary* to your project when:
+
+* Missing words in the Vale dictionary are causing `Spelling` alerts.
+* The words are too specific to benefit to other projects.
 
 .Prerequisites
 

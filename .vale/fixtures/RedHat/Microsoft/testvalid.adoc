@@ -1,2 +1,0 @@
-valid content: MS-DOS
-valid content: Microsoft

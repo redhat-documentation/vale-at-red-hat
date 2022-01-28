@@ -5,8 +5,9 @@
 
 Use correct American English spelling.
 
-.Additional Resources
+.Additional resources
 
+* link:https://www.merriam-webster.com/[Merriam Webster dictionary]
 * xref:contributor-guide:extending-the-spelling-rule.adoc[]
 * xref:end-user-guide:creating-a-vocabulary-for-a-project.adoc[]
 

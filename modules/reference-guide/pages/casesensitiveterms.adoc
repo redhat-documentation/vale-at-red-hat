@@ -1,0 +1,14 @@
+:navtitle: Case sensitive terms
+:keywords: reference, rule, case sensitive terms
+
+= Case sensitive terms
+
+Use the correct spelling and case for these case sensitive terms.
+
+.Additional resources
+
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url}[{ibmsg} - Capitalization of computer-related terms, p. 20]
+* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]
+
+

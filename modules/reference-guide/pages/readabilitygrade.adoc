@@ -1,9 +1,10 @@
 :navtitle: Readability grade
-:keywords: reference, rule, readability grade
+:keywords: reference, rule, Readability grade
 
 = Readability grade
 
-Grade level (ReadabilityGrade) too high!
+Grade level too high.
 
+.Additional resources
 
-
+* link:https://docs.errata.ai/vale/styles#metric[Vale documentation - `metric` extension point]

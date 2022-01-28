@@ -3,7 +3,8 @@
 
 = Slash
 
-Use either `or` or `and` in `Slash`
+Use either `or` or `and` rather than a slash (`/`).
 
+.Additional resources
 
-
+* link:{ibmsg-url}[{ibmsg} - Slashes, p. 68]

@@ -1,9 +1,10 @@
 ---
 extends: existence
-message: "Use either 'or' or 'and' in '%s'"
 ignorecase: true
 level: warning
-source: PlainLanguage
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/slash/
+message: "Use either 'or' or 'and' in '%s'"
+source: "IBM - Slashes, p. 68"
 tokens:
   - '\w+/\w+'
 exceptions:

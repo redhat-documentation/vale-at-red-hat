@@ -1,11 +1,12 @@
 :navtitle: Abbreviations
-:keywords: reference, rule, Abbreviations
+:keywords: reference, rule, abbreviations
 
 = Abbreviations
 
 Do not use periods in all-uppercase abbreviations.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC[]
+* link:{ibmsg-url}[{ibmsg} - Periods with abbreviations, p. 5]
+
 

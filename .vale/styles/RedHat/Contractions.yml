@@ -1,9 +1,12 @@
 ---
 extends: substitution
-message: Avoid contractions. Use '%s' instead of '%s.'
-level: suggestion
-link: "https://redhat-documentation.github.io/supplementary-style-guide/#contractions"
 ignorecase: true
+level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/contractions/
+message: "Avoid contractions. Use '%s' rather than '%s.'"
+source: "https://redhat-documentation.github.io/supplementary-style-guide/#contractions"
+action:
+  name: replace
 swap:
   "aren't": is not
   "can't": cannot

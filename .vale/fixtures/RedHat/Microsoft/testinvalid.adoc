@@ -1,4 +1,0 @@
-invalid content: MS Windows
-invalid content: MS
-invalid content: MSFT
-invalid content: MicroSoft

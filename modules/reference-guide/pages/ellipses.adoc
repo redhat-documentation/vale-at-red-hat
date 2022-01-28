@@ -3,9 +3,8 @@
 
 = Ellipses
 
-Avoid the ellipsis `...` except to indicate omitted words.
+Avoid the ellipsis (...) except to indicate omitted words.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[]
-
+* link:{ibmsg-url}[{ibmsg} - Ellipses, p. 49]

@@ -1,4 +1,0 @@
-valid content: Objective C
-valid content: proof of concept
-valid content: proof of concepts
-valid content: proofs of concepts

@@ -3,9 +3,8 @@
 
 = Sentence length
 
-Try to keep sentences less than 25 words.
+Try to keep sentences to an average of 32 words or fewer, and vary sentence lengths.
 
-.Additional Resources
+.Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106FB[]
-
+* link:{ibmsg-url}[{ibmsg} - Conversational style]

@@ -1,9 +1,10 @@
+---
 extends: existence
-message: "Do not overuse beginning sentences with '%s'."
 level: suggestion
-link: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml
-source: IBM Style Guide
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/conjunctions/
+message: "Do not overuse beginning sentences with '%s'."
 scope: paragraph
+source: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml
 action:
   name: remove
 tokens:

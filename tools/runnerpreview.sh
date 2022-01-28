@@ -8,6 +8,8 @@
 # SPDX-License-Identifier: EPL-2.0
 #
 
+umask 002
+
 # Detect available runner
 if command -v podman > /dev/null
   then RUNNER=podman
