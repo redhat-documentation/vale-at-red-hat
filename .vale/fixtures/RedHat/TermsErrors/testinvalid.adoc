@@ -144,6 +144,7 @@ etc.
 EUI
 fill in
 finalise
+Firefox
 firm ware
 firm-ware
 fixed disk drive
@@ -244,8 +245,6 @@ on the fly
 on the other hand
 on-premise
 on-ramp
-Firefox
-Thunderbird
 oops
 op-code
 open-source
@@ -335,9 +334,9 @@ the transition
 thin provisioned
 thinly provisioned
 thinly-provisioned
-this clause which is nonrestrictive
 this clause, that is restrictive
 thumbstick
+Thunderbird
 thus
 tier 1
 tier-one

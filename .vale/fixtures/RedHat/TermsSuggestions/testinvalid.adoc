@@ -2,29 +2,29 @@ and so on
 as
 bare metal
 bare-metal
-Bps
-bps
 between
-channel
-Cloud
+bps
+Bps
 cd
 CD
+channel
 client side
 client-side
+Cloud
 code
 functionality
 recommend
 refer to
 roll out
-rollout
 roll-out
+rollout
 segfault
 shell
+Start using this.
 tar
-thru
 through
+thru
+user space
 user-space
 userspace
-user space
 zip
-Start using this.

@@ -1,5 +1,6 @@
-hostname
-name
 host
-you
+hostname
 I/O
+name
+this clause, which is nonrestrictive
+you

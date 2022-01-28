@@ -13,7 +13,6 @@ swap:
   '\b(?:ie|i\.e\.)[\s,]': that is
   ", that": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?:Ctrl|control)-click": press Ctrl and click
-  "(?<!,) which": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?<!IBM )S 390": "IBM S 390"
   "(?<!kernel )oops": kernel oops
   "(?<!make the )transition": "make the transition|move|migrate|change"
