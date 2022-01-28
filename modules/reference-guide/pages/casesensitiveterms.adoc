@@ -7,6 +7,8 @@ Use the correct spelling and case for these case sensitive terms.
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[Glossary of terms and conventions]
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url}[{ibmsg} - Capitalization of computer-related terms, p. 20]
+* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]
 
 

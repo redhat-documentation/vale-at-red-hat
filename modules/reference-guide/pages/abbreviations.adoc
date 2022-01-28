@@ -7,6 +7,6 @@ Do not use periods in all-uppercase abbreviations.
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
+* link:{ibmsg-url}[{ibmsg} - Periods with abbreviations, p. 5]
 
 

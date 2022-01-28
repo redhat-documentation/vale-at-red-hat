@@ -7,6 +7,6 @@ Do not overuse beginning sentences with `Conjunctions`.
 
 .Additional resources
 
-* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml[]
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml[{ssg} - Conjunctions]
 
 

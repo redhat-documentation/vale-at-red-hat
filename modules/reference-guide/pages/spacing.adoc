@@ -7,6 +7,6 @@ Keep one space between words.
 
 .Additional resources
 
-* link:https://docs.microsoft.com/en-us/style-guide/punctuation/periods[]
+* link:{ssg-url}[{ssg}]
 
 

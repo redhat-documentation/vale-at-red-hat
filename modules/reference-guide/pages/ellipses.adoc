@@ -7,6 +7,4 @@ Avoid the ellipsis (...) except to indicate omitted words.
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
-
-
+* link:{ibmsg-url}[{ibmsg} - Ellipses, p. 49]

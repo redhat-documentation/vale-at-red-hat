@@ -7,6 +7,4 @@ Use either `or` or `and` rather than a slash (`/`).
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
-
-
+* link:{ibmsg-url}[{ibmsg} - Slashes, p. 68]

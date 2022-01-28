@@ -7,6 +7,4 @@
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/[]
-
-
+* link:{ibmsg-url}[{ibmsg} - Capitalization in headings and titles, p.16]

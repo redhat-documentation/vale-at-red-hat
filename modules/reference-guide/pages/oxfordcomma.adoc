@@ -7,6 +7,4 @@ Use the Oxford comma.
 
 .Additional resources
 
-* link:https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF[]
-
-
+* link:{ibmsg-url}[{ibmsg} - Commas between clauses, p.45]

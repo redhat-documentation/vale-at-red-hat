@@ -7,6 +7,5 @@ Depending on the context, consider using the suggested term.
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions[]
-
-
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]

@@ -7,6 +7,6 @@ Avoid contractions.
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#contractions[]
+* link:{ssg-url}#contractions[{ssg} - Contractions]
 
 

@@ -7,6 +7,6 @@ Use conscious language.
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language[]
+* link:{ssg-url}#conscious-language[{ssg} - Conscious language]
 
 

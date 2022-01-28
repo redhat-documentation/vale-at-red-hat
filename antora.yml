@@ -29,6 +29,7 @@ asciidoc:
     # for the project
     context: docs
     ibmsg: IBM Style Guide
+    ibmsg-url: https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents
     repository-name: vale-at-red-hat
     repository-url: https://github.com/redhat-documentation/vale-at-red-hat/
     repository-clone-url: git@github.com:redhat-documentation/vale-at-red-hat.git

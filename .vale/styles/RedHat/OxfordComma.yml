@@ -3,6 +3,6 @@ extends: existence
 level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/oxfordcomma/
 message: "Use the Oxford comma in '%s'."
-source: "https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF"
+source: "IBM - Commas between clauses, p.45"
 tokens:
   - '(?:[^,]+,){1,}\s\w+\sand'

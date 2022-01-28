@@ -7,6 +7,5 @@ Avoid passive voice. Consider rewording in active voice. You can use the passive
 
 .Additional resources
 
-* link:https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites[]
-
-
+* link:{ssg-url}#prerequisites[{ssg} - Prerequisites]
+* link:{ibmsg-url}[{ibmsg} - Voice, p.35]
