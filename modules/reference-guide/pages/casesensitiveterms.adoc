@@ -3,6 +3,8 @@
 
 = Case sensitive terms
 
+Alert level:: error
+
 Use the correct spelling and case for these case sensitive terms.
 
 .Additional resources
@@ -10,5 +12,7 @@ Use the correct spelling and case for these case sensitive terms.
 * link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
 * link:{ibmsg-url}[{ibmsg} - Capitalization of computer-related terms, p. 20]
 * link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]
+* link:{repository-url}blob/main/.vale/styles/RedHat/CaseSensitiveTerms.yml[`CaseSensitiveTerms.yml` source code]
+
 
 
