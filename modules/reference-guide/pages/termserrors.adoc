@@ -3,9 +3,13 @@
 
 = Terms errors
 
+Alert level:: error
+
 Use the suggested term.
+
 
 .Additional resources
 
 * link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
 * link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]
+* link:{repository-url}blob/main/.vale/styles/RedHat/TermsErrors.yml[`TermsErrors.yml` source code]
