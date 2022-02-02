@@ -262,6 +262,8 @@ perimeter network
 phone
 plain-text
 plaintext
+plugin
+plug in
 pop-up blocker
 pop-up killer
 power down
