@@ -13,29 +13,43 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
+
 site:
   title: Vale for Red Hat documentation writers
   # The url property is mandatory to generate the 404 and sitemap files.
   url: https://redhat-documentation.github.io/vale-at-red-hat
   start_page: docs::index.adoc
-  # keys:
-  #   google_analytics: "PLACEHOLDER"
-  robots: allow
 content:
   sources:
     - url: ./
       branches:
         - main
       edit_url: "https://github.com/redhat-documentation/vale-at-red-hat/edit/{refname}/{path}"
+antora:
+  extensions:
+    - require: "@antora/lunr-extension"
+asciidoc:
+  sourcemap: true
 output:
-  clean: true
+  destinations:
+    - provider: fs
+      clean: true
+      path: build/site
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./supplemental-ui
+  output_dir: docs/_
 urls:
   html_extension_style: indexify
   redirect_facility: static
+  # latest_prerelease_version_segment: next
+  # latest_version_segment: stable
+  latest_version_segment_strategy: replace
 runtime:
   cache_dir: ./.cache/antora
+  fetch: true
+  log:
+    failure_level: warn
+    level: info
