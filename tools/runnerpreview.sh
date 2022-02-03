@@ -26,4 +26,4 @@ ${RUNNER} run --rm -ti \
   -v "$PWD:/projects:z" -w /projects \
   --entrypoint="./tools/preview.sh" \
   -p 4000:4000 -p 35729:35729 \
-  "quay.io/eclipse/che-docs"
+  "quay.io/antoraformodulardocs/antora-for-modular-docs:latest"
