@@ -17,7 +17,7 @@ metadata:
 components:
   - alias: docs
     type: dockerimage
-    image: "quay.io/eclipse/che-docs:latest"
+    image: "quay.io/antoraformodulardocs/antora-for-modular-docs:latest"
     memoryLimit: 512M
     mountSources: true
     command:
