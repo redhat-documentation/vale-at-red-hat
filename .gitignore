@@ -12,7 +12,12 @@
 /build/
 /Gemfile.lock
 /rdoc/
+/node_modules/
 /shippable/
+/tools/temp/
+/tools/__pycache__/
 pkg/
 workspace.code-workspace
 vale-report*
+package-lock.json
+package.json

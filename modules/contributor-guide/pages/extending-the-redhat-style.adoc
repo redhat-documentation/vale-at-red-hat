@@ -7,7 +7,7 @@
 :parent-context-of-extending-styles: {context}
 
 [id="extending-the-redhat-style_{context}"]
-= Extending the `RedHat` style
+= Extending the Red Hat style
 
 :context: extending-the-redhat-style
 

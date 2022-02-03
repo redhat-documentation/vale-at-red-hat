@@ -1,7 +1,7 @@
 :_module-type: PROCEDURE
 
 [id="proc_using-vale-cli-on-a-local-environment_{context}"]
-= Using `vale` CLI on a local environment
+= Installing and configuring `vale` CLI
 
 [role="_abstract"]
 To use `vale` CLI on any project in your local environment without further configuration in the projects, install the Vale CLI and register the *{repository-name}* vale configuration as the default.

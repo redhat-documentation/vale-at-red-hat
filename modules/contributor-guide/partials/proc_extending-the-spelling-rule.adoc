@@ -8,13 +8,13 @@ Consider extending the *Spelling* rule in the link:{repository-url}[{repository-
 * Missing words in the Vale dictionary are causing `Spelling` alerts.
 * Adding the word will benefit to other projects. For example: product and tool names, common terms specific to the software industry.
 
-When the word is too specific to benefit to other projects, consider xref:end-user-guide:creating-a-vocabulary-for-a-project.adoc[].
+When the word is too specific to benefit to other projects, consider xref:user-guide:creating-a-vocabulary-for-a-project.adoc[].
 
 .Prerequisites
 
-* xref:end-user-guide:getting-started-with-vale.adoc[]
-* xref:end-user-guide:understanding-vale-output.adoc[]
-* xref:end-user-guide:defining-a-vale-onboarding-strategy.adoc[]
+* xref:user-guide:getting-started-with-vale.adoc[]
+* xref:user-guide:understanding-vale-output.adoc[]
+* xref:user-guide:defining-a-vale-onboarding-strategy.adoc[]
 
 
 .Procedure

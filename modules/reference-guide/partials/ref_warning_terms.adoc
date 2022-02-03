@@ -1,0 +1,15 @@
+:_module-type: REFERENCE
+[id="ssg_vale_warning_reference"]
+= Vale warning rule guidance
+
+The following table lists incorrect terminology and the approved usage.
+
+.Warning terms guidance
+[options="header"]
+|====
+|Incorrect term|Correct term
+
+|I \| He \| She |You
+
+|host name |hostname
+|====

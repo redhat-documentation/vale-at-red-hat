@@ -1,6 +1,6 @@
 # Contributor's guide
 
-* See: link:https://redhat-documentation/vale-at-red-hat/docs/end-user-guide/contributing/[Contributing].
+* See: link:https://redhat-documentation/vale-at-red-hat/docs/user-guide/contributing/[Contributing].
 
 ## Certificate of origin
 

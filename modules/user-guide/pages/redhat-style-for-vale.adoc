@@ -1,7 +1,13 @@
-:_module-type: CONCEPT
+// Metadata for Antora
+:navtitle: RedHat Style
+:keywords: redhat-style-for-vale, antora
+// :page-aliases: old-redhat-style-for-vale
+// End of metadata for Antora
 
-[id="con_redhat-style-for-vale_{context}"]
-= `RedHat` style for Vale
+:context: redhat-style-for-vale
+:_module-type: CONCEPT
+[id="redhat-style-for-vale_{context}"]
+= Red Hat style for Vale
 
 The `RedHat` style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
 
@@ -18,8 +24,10 @@ The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `RedHa
 
 To use the `RedHat` style in your project you can decide to be:
 
-* xref:using-vale-cli.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:using-vale-in-the-ide.adoc[]
 * xref:using-vale-github-action.adoc[]
-* xref:adding-vale-configuration-to-a-project.adoc[] 
+* xref:adding-vale-configuration-to-a-project.adoc[]
+
+
 

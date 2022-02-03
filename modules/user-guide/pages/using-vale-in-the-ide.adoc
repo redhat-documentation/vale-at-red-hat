@@ -1,0 +1,44 @@
+// Metadata for Antora
+:navtitle: Vale in the IDE
+:keywords: vale
+// :page-aliases: 
+// End of metadata for Antora
+
+:context: using-vale-in-the-ide
+:_module-type: PROCEDURE
+[id="proc_using-vale-in-the-ide_{context}"]
+= Using Vale in the IDE
+
+Consider using Vale in your IDE when:
+
+* You want a direct feedback in your editor.
+* You use a supported IDE, such as Visual Studio Code.
+
+.Prerequisites
+
+* Vale CLI is installed and configured. See xref:getting-started-with-vale.adoc[].
+* link:https://code.visualstudio.com/docs/setup/setup-overview[Visual Studio Code] is installed.
+
+.Procedure
+
+. In  Visual Studio Code, install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale using the Marketplace].
+
+. Configure the extension to use Vale CLI rather than Vale Server  in the extension settings (*Preferences > Extensions > Vale > Use CLI*).
++
+[source,json]
+----
+"vale.core.useCLI": true
+----
+
+. Restart Visual Studio Code.
+
+.Verification
+
+. Open a content file causing vale alerts.
+
+. Open the *Problems* view and search for vale alerts in it.
+
+.Additional resources
+
+* link:https://github.com/errata-ai/vale-vscode[Visual Studio Code extension for Vale repository and documentation]
+

@@ -12,12 +12,12 @@
 # SPDX-License-Identifier: EPL-2.0
 #
 name: docs
-title: Vale for Red Hat documentation writers
+title: Vale for writers at Red Hat
 version: master # Define a Component Version with No Version
 display_version: main
-start_page: end-user-guide:introduction.adoc
+start_page: user-guide:introduction.adoc
 nav:
-  - modules/end-user-guide/nav.adoc
+  - modules/user-guide/nav.adoc
   - modules/contributor-guide/nav.adoc
   - modules/reference-guide/nav.adoc
 asciidoc:
