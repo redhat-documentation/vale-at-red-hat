@@ -263,7 +263,9 @@ phone
 plain-text
 plaintext
 plugin
+plugins
 plug in
+plug ins
 pop-up blocker
 pop-up killer
 power down
