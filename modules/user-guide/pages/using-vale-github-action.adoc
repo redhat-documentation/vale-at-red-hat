@@ -2,6 +2,7 @@
 :navtitle: GitHub Action
 :keywords: vale, github
 :description: Overview of using Vale in a GitHub Action
+:page-aliases: end-user-guide:using-vale-github-action.adoc
 // End of metadata for Antora
 
 :context: using-vale-github-action

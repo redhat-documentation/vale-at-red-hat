@@ -1,6 +1,7 @@
 // Metadata for Antora
 :navtitle: Adding Vale to a project
 :keywords: vale
+:page-aliases: end-user-guide:adding-vale-configuration-to-a-project.adoc
 :description: Describes Vale configuration for your project
 
 // End of metadata for Antora

@@ -2,6 +2,7 @@
 :navtitle: Continuous integration
 :keywords: vale
 :description: Overview of using Vale in a CI service
+:page-aliases: end-user-guide:using-vale-with-a-continuous-integration-service.adoc
 // End of metadata for Antora
 
 :context: using-vale-with-a-continuous-integration-service

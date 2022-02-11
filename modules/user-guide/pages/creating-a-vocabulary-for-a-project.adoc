@@ -1,6 +1,7 @@
 // Metadata for Antora
 :navtitle: Create a vocabulary
 :keywords: contributing, vocabulary
+:page-aliases: end-user-guide:creating-a-vocabulary-for-a-project.adoc
 :description: Describes how to add a vocabulary to your project
 // End of metadata for Antora
 

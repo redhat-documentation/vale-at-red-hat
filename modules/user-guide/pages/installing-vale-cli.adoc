@@ -1,6 +1,7 @@
 // Metadata for Antora
 :navtitle: Installing Vale CLI
 :keywords: vale
+:page-aliases: end-user-guide:using-vale-cli.adoc
 :description: Describes how to install and configure the Vale CLI
 // End of metadata for Antora
 
