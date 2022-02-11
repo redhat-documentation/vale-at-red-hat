@@ -13,5 +13,5 @@
 * xref:redhat-style-for-vale.adoc[]
 * xref:glossary.adoc[]
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]

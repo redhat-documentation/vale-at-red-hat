@@ -12,7 +12,7 @@ When the word is too specific to benefit to other projects, consider xref:user-g
 
 .Prerequisites
 
-* xref:user-guide:getting-started-with-vale.adoc[]
+* * xref:user-guide:installing-vale-cli.adoc[]
 * xref:user-guide:understanding-vale-output.adoc[]
 * xref:user-guide:defining-a-vale-onboarding-strategy.adoc[]
 

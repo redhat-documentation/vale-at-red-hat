@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Understanding Vale alerts
 :keywords: understanding, output
-// :page-aliases: 
+:description: Overview of Vale CLI report results
 // End of metadata for Antor
 
 :context: understanding-vale-output

@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Create a vocabulary
 :keywords: contributing, vocabulary
-// :page-aliases:
+:description: Describes how to add a vocabulary to your project
 // End of metadata for Antora
 
 :_module-type: PROCEDURE
@@ -18,7 +18,7 @@ When adding the word will benefit to other projects, consider xref:contributor-g
 
 .Prerequisites
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:understanding-vale-output.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 

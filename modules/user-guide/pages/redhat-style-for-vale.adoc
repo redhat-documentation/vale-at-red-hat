@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: RedHat Style
 :keywords: redhat-style-for-vale, antora
-// :page-aliases: old-redhat-style-for-vale
+:description: Get started with Red Hat style for Vale
 // End of metadata for Antora
 
 :context: redhat-style-for-vale

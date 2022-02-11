@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Introduction
 :keywords: introduction, antora
-// :page-aliases: old-introduction
+:description: Get started with Vale
 // End of metadata for Antora
 
 :context: introduction
@@ -24,7 +24,7 @@ Vale is a command-line tool that allows you to check your writing for grammar an
 * xref:redhat-style-for-vale.adoc[]
 * xref:glossary.adoc[]
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 
 

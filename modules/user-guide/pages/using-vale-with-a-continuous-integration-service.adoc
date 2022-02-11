@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Continuous integration
 :keywords: vale
-// :page-aliases: 
+:description: Overview of using Vale in a CI service
 // End of metadata for Antora
 
 :context: using-vale-with-a-continuous-integration-service
@@ -17,7 +17,7 @@ Consider using the Vale CLI with a continuous integration service when:
 
 .Prerequisites
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:adding-vale-configuration-to-a-project.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 

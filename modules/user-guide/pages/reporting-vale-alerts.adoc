@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Vale reports
 :keywords: reporting
-// :page-aliases: 
+:description: Describes how to generate Vale reports
 // End of metadata for Antora
 
 :context: generating-extended-vale-alerts-reports
@@ -20,7 +20,7 @@ On bigger repositories, with more than 1000000 words, consider building your own
 
 .Prerequisites
 
-* The `vale` tool is installed and configured. See xref:getting-started-with-vale.adoc[].
+* The `vale` tool is installed and configured. See xref:installing-vale-cli.adoc[].
 * The `jq` tool is installed. See link:https://stedolan.github.io/jq/download/[Downloading `jq`].
 
 .Procedure

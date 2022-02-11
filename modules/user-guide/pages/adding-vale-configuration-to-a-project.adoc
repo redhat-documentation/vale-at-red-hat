@@ -1,9 +1,9 @@
 // Metadata for Antora
 :navtitle: Adding Vale to a project
 :keywords: vale
-// :page-aliases:
-// End of metadata for Antora
+:description: Describes Vale configuration for your project
 
+// End of metadata for Antora
 :_module-type: PROCEDURE
 :context: adding-vale-configuration-to-a-project
 [id="proc_adding-vale-configuration-to-a-project_{context}"]

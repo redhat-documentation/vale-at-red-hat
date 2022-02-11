@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Onboarding strategy
 :keywords: onboarding, strategy
-// :page-aliases: 
+:description: Describes how to a define a Vale onboarding strategy for your project
 // End of metadata for Antora
 
 :context: defining-a-vale-onboarding-strategy
@@ -120,7 +120,7 @@ RedHat.Usage = suggestion
 [role="_additional-resources"]
 .Additional resources
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:understanding-vale-output.adoc[]
 
 

@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Vale in the IDE
 :keywords: vale
-// :page-aliases: 
+:description: Overview of using Vale in an IDE
 // End of metadata for Antora
 
 :context: using-vale-in-the-ide
@@ -16,7 +16,7 @@ Consider using Vale in your IDE when:
 
 .Prerequisites
 
-* Vale CLI is installed and configured. See xref:getting-started-with-vale.adoc[].
+* Vale CLI is installed and configured. See xref:installing-vale-cli.adoc[].
 * link:https://code.visualstudio.com/docs/setup/setup-overview[Visual Studio Code] is installed.
 
 .Procedure
