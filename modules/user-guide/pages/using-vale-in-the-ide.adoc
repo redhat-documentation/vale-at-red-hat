@@ -1,6 +1,7 @@
 // Metadata for Antora
 :navtitle: Vale in the IDE
 :keywords: vale
+:description: Overview of using Vale in an IDE
 :page-aliases: end-user-guide:using-vale-in-the-ide.adoc
 // End of metadata for Antora
 
