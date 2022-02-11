@@ -1,0 +1,56 @@
+// Metadata for Antora
+:navtitle: Create a vocabulary
+:keywords: contributing, vocabulary
+:description: Describes how to add a vocabulary to your project
+// End of metadata for Antora
+
+:_module-type: PROCEDURE
+:context: extending-the-vocabulary
+[id="proc_creating-a-vocabulary-for-a-project_{context}"]
+= Creating a vocabulary for a project
+
+Consider adding a vocabulary to your project when:
+
+* Missing words in the Vale dictionary cause spelling errors.
+* The word is too specific for other projects.
+
+When adding the word will benefit to other projects, consider xref:contributor-guide:extending-the-spelling-rule.adoc[].
+
+.Prerequisites
+
+* xref:installing-vale-cli.adoc[]
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+.Procedure
+
+* Create or edit the vocabulary for your project: create or edit the `.vale/styles/Vocab/__<Project>__/accept.txt` file and add the missing word. Ensure the entry is not case-sensitive.
++
+.Entry in the vocabulary, not case-sensitive
+----
+[Pp]odman
+----
+
+* Register the vocabulary in the `.vale.ini` file
++
+[source,ini,subs="+quotes,+attributes,+macros"]
+----
+Vocab = __<Project>__
+----
+
+.Verification
+
+* Run the `vale` command on a content file containing the word that is missing.
++
+[subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+.Additional resources
+
+* link:https://docs.errata.ai/vale/vocab[Vale documentation - Vocabularies]
+
+
+

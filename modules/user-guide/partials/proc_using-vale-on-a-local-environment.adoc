@@ -1,0 +1,53 @@
+:_module-type: PROCEDURE
+
+[id="proc_using-vale-cli-on-a-local-environment_{context}"]
+= Installing and configuring `vale` CLI
+
+[role="_abstract"]
+To use `vale` CLI on any project in your local environment without further configuration in the projects, install the Vale CLI and register the *{repository-name}* vale configuration as the default.
+
+.Prerequisites
+
+* The `git` tool is installed.
+
+.Procedure
+
+. Install the Vale command-line tool on your workstation. See link:https://docs.errata.ai/vale/install[Installing Vale].
++
+NOTE: On the Vale site, click the tab for your operating system.
+
+. Get a copy of the link:{repository-url}[{repository-name} repository] to your local environment. 
++
+[subs="+quotes,+attributes"]
+----
+$ git clone {repository-clone-url}
+----
+
+. Register the *{repository-name}* vale configuration as the default.
++
+[subs="+quotes,+attributes"]
+----
+$ cd {repository-name}
+$ ln -s "$PWD/.vale.ini" "$HOME/"
+$ ln -s "$PWD/.vale" "$HOME/"
+----
+
+.Verification
+
+. Run the `vale` command on one of your content files.
++
+[subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+. Review the vale output and use it to update your content file.
+
+. Re-run the same `vale` command to see the updated results.
+
+.Additional resources
+
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+

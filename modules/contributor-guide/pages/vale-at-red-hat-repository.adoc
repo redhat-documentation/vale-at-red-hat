@@ -7,12 +7,11 @@
 :parent-context-of-vale-at-red-hat-repository: {context}
 
 [id="vale-at-red-hat-repository_{context}"]
-= _Vale at Red Hat_ repository
+= Vale at Red Hat repository
 
 :context: vale-at-red-hat-repository
 
 include::partial$con_vale-at-red-hat-repository.adoc[leveloffset=+1]
-
 
 :context: {parent-context-of-vale-at-red-hat-repository}]
 

@@ -1,9 +1,21 @@
-:navtitle: Terms suggestions
-:keywords: reference, rule, terms suggestions
+// Metadata for Antora
+:navtitle: Suggestion terms
+:keywords: reference, rule, terms, suggestions
+// :page-aliases:
+// End of metadata for Antora
 
-= Terms suggestions
+:parent-context-of-terms-suggestions: {context}
+
+[id="terms-suggestions_{context}"]
+= Suggestion terms
+
+Alert level:: Suggestion
 
 Depending on the context, consider using the suggested term.
+
+include::partial$ref_suggestion_terms.adoc[leveloffset=+1]
+
+:context: {parent-context-of-terms-suggestions}
 
 .Additional resources
 

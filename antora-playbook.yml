@@ -15,7 +15,7 @@
 #
 
 site:
-  title: Vale for Red Hat documentation writers
+  title: Vale for writers at Red Hat
   # The url property is mandatory to generate the 404 and sitemap files.
   url: https://redhat-documentation.github.io/vale-at-red-hat
   start_page: docs::index.adoc

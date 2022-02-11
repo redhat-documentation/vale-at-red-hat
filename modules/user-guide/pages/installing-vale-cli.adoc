@@ -1,10 +1,15 @@
+// Metadata for Antora
+:navtitle: Installing Vale CLI
+:keywords: vale
+:description: Describes how to install and configure the Vale CLI
+// End of metadata for Antora
+
+:context: assembly_getting-started-with-vale
 :_module-type: PROCEDURE
-
 [id="proc_using-vale-cli-on-a-local-environment_{context}"]
-= Using `vale` CLI on a local environment
+= Installing and configuring Vale
 
-[role="_abstract"]
-To use `vale` CLI on any project in your local environment without further configuration in the projects, install the Vale CLI and register the *{repository-name}* vale configuration as the default.
+To use `vale` CLI on any project in your local environment without further configuration in the projects, install the `vale` CLI and register the *{repository-name}* Vale configuration as the default.
 
 .Prerequisites
 
@@ -16,7 +21,7 @@ To use `vale` CLI on any project in your local environment without further confi
 +
 NOTE: On the Vale site, click the tab for your operating system.
 
-. Get a copy of the link:{repository-url}[{repository-name} repository] to your local environment. 
+. Get a copy of the link:{repository-url}[{repository-name} repository] to your local environment.
 +
 [subs="+quotes,+attributes"]
 ----

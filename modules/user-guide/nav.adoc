@@ -1,10 +1,10 @@
-.End-user guide
+.User guide
 
 * xref:introduction.adoc[]
+* xref:installing-vale-cli.adoc[]
+* xref:using-vale-in-the-ide.adoc[]
 * xref:redhat-style-for-vale.adoc[]
 * xref:glossary.adoc[]
-* xref:using-vale-cli.adoc[]
-* xref::using-vale-in-the-ide.adoc[]
 * xref:reporting-vale-alerts.adoc[]
 * xref:understanding-vale-output.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]

@@ -7,6 +7,6 @@ The `vale` command-line tool brings code-like linting to prose. Use it to valida
 
 .Additional resources
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:using-vale-with-a-continuous-integration-service.adoc[]
 * link:https://docs.errata.ai/vale/about[Vale documentation - `vale` command-line tool]

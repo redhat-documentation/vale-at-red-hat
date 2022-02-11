@@ -6,7 +6,7 @@
 
 You can help by doing any of the following:
 
-* Use Vale with the style rules from the {repository-name} repository, see xref:end-user-guide:getting-started-with-vale.adoc[]
+* Use Vale with the style rules from the {repository-name} repository, see xref:user-guide:installing-vale-cli.adoc[]
 
 * link:{repository-url}/issues[Report issues and request enhancements]
 

@@ -114,6 +114,6 @@ RedHat.Usage = suggestion
 [role="_additional-resources"]
 .Additional resources
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:understanding-vale-output.adoc[]
 
