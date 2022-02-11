@@ -2,6 +2,7 @@
 :navtitle: Glossary
 :keywords: glossary, antora
 :description: Glossary of terms
+:page-aliases: end-user-guide:glossary.adoc
 // End of metadata for Antora
 
 :context: glossary

@@ -2,6 +2,7 @@
 :navtitle: Understanding Vale alerts
 :keywords: understanding, output
 :description: Overview of Vale CLI report results
+:page-aliases: end-user-guide:understanding-vale-output.adoc
 // End of metadata for Antor
 
 :context: understanding-vale-output

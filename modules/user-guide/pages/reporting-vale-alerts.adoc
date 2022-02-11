@@ -2,6 +2,7 @@
 :navtitle: Vale reports
 :keywords: reporting
 :description: Describes how to generate Vale reports
+:page-aliases: end-user-guide:reporting-vale-alerts.adoc
 // End of metadata for Antora
 
 :context: generating-extended-vale-alerts-reports

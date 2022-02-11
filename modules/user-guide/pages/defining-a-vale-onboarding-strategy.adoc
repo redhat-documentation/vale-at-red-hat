@@ -1,6 +1,7 @@
 // Metadata for Antora
 :navtitle: Onboarding strategy
 :keywords: onboarding, strategy
+:page-aliases: end-user-guide:defining-a-vale-onboarding-strategy.adoc
 :description: Describes how to a define a Vale onboarding strategy for your project
 // End of metadata for Antora
 

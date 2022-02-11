@@ -2,6 +2,7 @@
 :navtitle: Introduction
 :keywords: introduction, antora
 :description: Get started with Vale
+:page-aliases: end-user-guide:introduction.adoc
 // End of metadata for Antora
 
 :context: introduction
