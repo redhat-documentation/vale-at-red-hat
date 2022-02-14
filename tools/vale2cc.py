@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 """
 This script takes Vale's JSON output from stdin, and converts it to a format
 that GitLab will accept to generate & display code quality reports.
@@ -40,7 +40,7 @@ for filename in vale_json:
         output.append({
             "description": description,
             "fingerprint": fingerprint_encoded,
-            "severity": issue["Severity"],
+            "severity": severity_map[severity],
             "location": {
                 "path": filename,
                 "positions": {
