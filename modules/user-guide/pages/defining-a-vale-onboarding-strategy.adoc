@@ -1,22 +1,29 @@
+// Metadata for Antora
+:navtitle: Onboarding strategy
+:keywords: onboarding, strategy
+:page-aliases: end-user-guide:defining-a-vale-onboarding-strategy.adoc
+:description: Describes how to a define a Vale onboarding strategy for your project
+// End of metadata for Antora
+
+:context: defining-a-vale-onboarding-strategy
 :_module-type: REFERENCE
-
 [id="ref_defining-a-vale-onboarding-strategy_{context}"]
-= Defining a vale onboarding strategy
+= Defining a Vale onboarding strategy
 
-Embracing a linter in a project is a long journey. The full vale report can be discouraging at first. Remember that:
+Embracing a linter in a project is a long journey. The full Vale report can be discouraging at first. Remember that:
 
-* You are in charge: review the report and decide what is useful to you. 
-* The styles are not perfect or complete. 
-* Assess the maturity of the project
+* You are in charge: review the report and decide what is useful to you.
+* The styles are not perfect or complete.
+* Assess the maturity of the project.
 
 .Prerequisites
- 
+
 * xref:reporting-vale-alerts.adoc[]
 * xref:understanding-vale-output.adoc[]
 
 == Assess the project maturity
 
-Zero vale errors::
+Zero Vale errors::
 The project is compliant with the `RedHat` style. Consider integration with a continuous integration service using the defaults from the `{repository-name}` repository.
 
 * xref:using-vale-github-action.adoc[]
@@ -114,6 +121,8 @@ RedHat.Usage = suggestion
 [role="_additional-resources"]
 .Additional resources
 
-* xref:getting-started-with-vale.adoc[]
+* xref:installing-vale-cli.adoc[]
 * xref:understanding-vale-output.adoc[]
+
+
 

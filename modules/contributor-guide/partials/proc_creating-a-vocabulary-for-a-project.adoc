@@ -10,9 +10,9 @@ Consider adding a *Vocabulary* to your project when:
 
 .Prerequisites
 
-* xref:end-user-guide:getting-started-with-vale.adoc[]
-* xref:end-user-guide:understanding-vale-output.adoc[]
-* xref:end-user-guide:defining-a-vale-onboarding-strategy.adoc[]
+* * xref:user-guide:installing-vale-cli.adoc[]
+* xref:user-guide:understanding-vale-output.adoc[]
+* xref:user-guide:defining-a-vale-onboarding-strategy.adoc[]
 
 .Procedure
 

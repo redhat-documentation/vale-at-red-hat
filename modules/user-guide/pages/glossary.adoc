@@ -1,0 +1,84 @@
+// Metadata for Antora
+:navtitle: Glossary
+:keywords: glossary, antora
+:description: Glossary of terms
+:page-aliases: end-user-guide:glossary.adoc
+// End of metadata for Antora
+
+:context: glossary
+:_module-type: REFERENCE
+[id="glossary_{context}"]
+= Glossary
+
+[id="con_vale-command-line-tool_{context}"]
+== Vale command-line tool
+
+The `vale` command-line tool brings code-like linting to prose. Use it to validate language on your local environment or in continuous integration services.
+
+.Additional resources
+
+* xref:installing-vale-cli.adoc[]
+* xref:using-vale-with-a-continuous-integration-service.adoc[]
+* link:https://docs.errata.ai/vale/about[Vale documentation - `vale` command-line tool]
+
+[id="vale-configuration-file_{context}"]
+== Vale configuration file
+
+The Vale configuration file `.vale.ini` defines:
+
+* File names patterns to match files to validate
+* Active styles and vocabulary
+* Custom content patterns to change scoping behavior
+
+.Additional resources
+
+* xref:installing-vale-cli.adoc[]
+* xref:adding-vale-configuration-to-a-project.adoc[]
+* link:https://docs.errata.ai/vale/config[Vale documentation - Configuration]
+
+[id="vale-rule_{context}"]
+== Vale rule
+
+A Vale rule is a YAML file defining:
+
+* a language issue, including spelling issues
+* a proposed solution
+* a link to more information.
+
+.Additional resources
+
+* xref:redhat-style-for-vale.adoc[]
+* link:https://docs.errata.ai/vale/styles[Vale documentation - Styles]
+
+[id="con_vale-style_{context}"]
+== Vale style
+
+A Vale style is a directory containing a collection of rules.
+
+.Additional resources
+
+* xref:redhat-style-for-vale.adoc[]
+* link:https://docs.errata.ai/vale/styles[Vale documentation - Styles]
+
+[id="con_vale-vocabulary_{context}"]
+== Vale vocabulary
+
+In a project, a Vale vocabulary is an optional additional directory containing lists of accepted and rejected words, applying to all styles.
+
+Consider xref:creating-a-vocabulary-for-a-project.adoc[] when:
+
+* Missing words in the Vale dictionary are causing Spelling errors
+* The word is too specific to benefit to other projects.
+
+Consider xref:contributor-guide:extending-the-spelling-rule.adoc[] when:
+
+* Missing words in the Vale dictionary are causing Spelling errors
+* Adding the word will benefit to other projects. For example: product and tool names, common terms specific to the software industry.
+
+.Additional resources
+
+* xref:creating-a-vocabulary-for-a-project.adoc[]
+* xref:contributor-guide:extending-the-spelling-rule.adoc[]
+* link:https://docs.errata.ai/vale/vocab[Vale documentation - Vocabulary]
+
+

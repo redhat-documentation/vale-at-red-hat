@@ -1,9 +1,21 @@
-:navtitle: Terms warnings
+// Metadata for Antora
+:navtitle: Warning terms
 :keywords: reference, rule, terms warnings
+// :page-aliases:
+// End of metadata for Antora
 
-= Terms warnings
+:parent-context-of-terms-warnings: {context}
 
-Consider using the suggested term, unless updating existing content that uses the term.
+[id="terms-warnings_{context}"]
+= Warning terms
+
+Alert level:: Warning
+
+Use the suggested term, unless updating existing content that uses the term.
+
+include::partial$ref_warning_terms.adoc[leveloffset=+1]
+
+:context: {parent-context-of-terms-warnings}
 
 .Additional resources
 

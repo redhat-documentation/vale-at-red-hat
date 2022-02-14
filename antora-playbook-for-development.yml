@@ -15,7 +15,7 @@
 #
 
 site:
-  title: Vale for Red Hat documentation writers
+  title: Vale for writers at Red Hat
   # url: Disabled on purpose to avoid htmltest crawling the live website.
   start_page: docs::index.adoc
 content:
