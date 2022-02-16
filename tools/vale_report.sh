@@ -13,8 +13,8 @@ do
     echo "Generating report on $directory"
     # Provide a full list of files to report on
     # Ignore files containing a space, content in German, /deprecated/ and /Internal/ directories
-    FILE_LIST=$(find "${directory}" -type f -name '*.adoc' -print | sed '/ /d;/de-de\.adoc/d;/\/deprecated\//d;/\/Internal\//d;/\/internal-resources\//d'| sort | uniq)
-    REPORT_BASENAME=vale-report-$(basename "${directory}")
+    FILE_LIST=$(find "${directory}" -type f -name '*.adoc' -print | sed 's#^\.\/##;/ /d;/de-de\.adoc/d;/\/deprecated\//d;/\/Internal\//d;/\/internal-resources\//d'| sort | uniq)
+    REPORT_BASENAME=vale-report-$(basename "${directory}" | sed 's#^\.##')
     # Create file list
     echo "$FILE_LIST" > "${REPORT_BASENAME}-list.log"
     # Count words in the corpus
@@ -30,6 +30,9 @@ do
     # Interesting fields:
     # Filter on: "Check": "RedHat.Spelling"
     # Display the values of: "Match"
-    jq -r '.[][] | select(.Check=="RedHat.Spelling") | .Match' "$REPORT_BASENAME.json" | sort | uniq -c | sort -nr > "$REPORT_BASENAME.Spelling.txt"
-
+    RULES="$(jq .[][].Check "$REPORT_BASENAME.json" | sort | uniq | sed s/\"//g)"
+    for RULE in $RULES
+    do
+        jq -r ".[][] | select(.Check==\"$RULE\") | .Match" "$REPORT_BASENAME.json" | sort | uniq -c | sort -nr > "$REPORT_BASENAME-rule-$RULE.txt"
+    done
 done
