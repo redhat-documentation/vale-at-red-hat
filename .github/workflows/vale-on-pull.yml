@@ -9,7 +9,7 @@
 #
 name: Linting with Vale on pull request
 on:
-  - pull_request
+  - pull_request_target
 jobs:
   vale:
     name: Linting with Vale on pull request
@@ -18,8 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Vale Linter
-        uses: errata-ai/vale-action@v1.4.0
+        uses: errata-ai/vale-action@v1
         with:
           files: __onlyModified
+          onlyAnnotateModifiedLines: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
