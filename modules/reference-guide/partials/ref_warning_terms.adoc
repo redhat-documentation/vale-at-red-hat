@@ -4,6 +4,8 @@
 
 The following table lists incorrect terminology and the approved usage.
 
+pass:[<!-- vale RedHat.TermsWarnings = NO -->]
+
 .Warning terms guidance
 [options="header"]
 |====
