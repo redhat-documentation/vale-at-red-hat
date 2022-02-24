@@ -15,7 +15,7 @@ Consider using Vale GitHub Action when:
 * The goal is to measure or enforce the project compliance with the Style Guides.
 * The content repository is on GitHub.
 
-WARNING: Due to the GitHub token permissions, this Action can not post annotations to PRs from forked repositories.
+WARNING: Due to the GitHub token permissions, this Action can not post annotations to pull requests from forked repositories.
 
 .Prerequisites
 

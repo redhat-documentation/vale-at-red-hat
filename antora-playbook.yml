@@ -1,11 +1,4 @@
 ---
-#
-# Antora Playbook for publication.
-#
-# Use this playbook to build the released version branch.
-#
-# See: https://docs.antora.org/antora/2.3/playbook/
-#
 # Copyright (c) 2021 Red Hat, Inc.
 # This program and the accompanying materials are made
 # available under the terms of the Eclipse Public License 2.0
@@ -13,43 +6,49 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
-
+# Antora Playbook building current Git HEAD and all `v*` branches.
+#
+# See: https://docs.antora.org/antora/latest/playbook/
+#
 site:
-  title: Vale for writers at Red Hat
-  # The url property is mandatory to generate the 404 and sitemap files.
   url: https://redhat-documentation.github.io/vale-at-red-hat
+  title: Vale for writers at Red Hat
   start_page: docs::index.adoc
+  robots: allow
 content:
   sources:
     - url: ./
       branches:
-        - main
+        - HEAD
+        - v*
       edit_url: "https://github.com/redhat-documentation/vale-at-red-hat/edit/{refname}/{path}"
 antora:
   extensions:
-    - require: "@antora/lunr-extension"
+    - require: "@antora/lunr-extension" # https://gitlab.com/antora/antora-lunr-extension/
 asciidoc:
+  attributes:
+    context: docs
   sourcemap: true
-output:
-  destinations:
-    - provider: fs
-      clean: true
-      path: build/site
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./supplemental-ui
-  output_dir: docs/_
+  output_dir: _
 urls:
   html_extension_style: indexify
-  redirect_facility: static
-  # latest_prerelease_version_segment: next
-  # latest_version_segment: stable
   latest_version_segment_strategy: replace
+  redirect_facility: static
+output:
+  destinations:
+    - provider: fs
+      clean: true
+      path: build/vale-at-red-hat/
 runtime:
-  cache_dir: ./.cache/antora
-  fetch: true
   log:
-    failure_level: warn
     level: info
+    failure_level: warn
+    format: pretty
+  fetch: true
+  cache_dir: ./.cache/antora
+

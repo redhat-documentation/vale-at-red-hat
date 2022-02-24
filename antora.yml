@@ -1,9 +1,4 @@
 ---
-#
-# Antora component version descriptor.
-#
-# See: https://docs.antora.org/antora/2.3/component-version-descriptor/
-#
 # Copyright (c) 2021 Red Hat, Inc.
 # This program and the accompanying materials are made
 # available under the terms of the Eclipse Public License 2.0
@@ -11,10 +6,14 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
+# Antora component version descriptor.
+# See https://docs.antora.org/antora/latest/component-version-descriptor/
+#
 name: docs
 title: Vale for writers at Red Hat
 version: master # Define a Component Version with No Version
 display_version: main
+prerelease: false
 start_page: user-guide:introduction.adoc
 nav:
   - modules/user-guide/nav.adoc
@@ -24,7 +23,6 @@ asciidoc:
   attributes:
     # for antora
     experimental: ""
-    favicon: favicon.png
     icons: font
     # for the project
     context: docs

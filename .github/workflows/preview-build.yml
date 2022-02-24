@@ -1,0 +1,72 @@
+---
+#
+# Copyright (c) 2020 Red Hat, Inc.
+# This program and the accompanying materials are made
+# available under the terms of the Eclipse Public License 2.0
+# which is available at https://www.eclipse.org/legal/epl-2.0/
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+
+# GitHub Actions configuration file to
+# 1. Build the project with Antora
+# 2. Prepare the preview publication
+# 3. Validate the internal and external links
+
+name: Preview build
+on:
+  - pull_request
+jobs:
+  preview-build:
+    name: Preview build
+    runs-on: ubuntu-latest
+    container: quay.io/antoraformodulardocs/antora-for-modular-docs:main
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0 # enable git diff and building many branches
+      # Cache for Antora UI and Htmltest.
+      # See: https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows
+      # Htmltest accepts 2 weeks old cache for the status code of checked external URLs
+      # See: https://github.com/wjdp/htmltest
+      # Refresh the cache every week to avoid a stale cache for htmltest
+      # See: https://github.com/actions/cache
+      # See: http://man7.org/linux/man-pages/man1/date.1.html
+      - name: Get yearweek for cache
+        id: get-date # used below
+        run: echo "::set-output name=yearweek::$(/bin/date -u "+%Y%U")"
+        shell: bash
+      - name: Restore cache
+        uses: actions/cache@v2
+        env:
+          cache-name: cache
+        with:
+          path: .cache
+          key: ${{ steps.get-date.outputs.yearweek }}
+      - name: Build
+        run: tools/publication-builder.sh
+      - name: Store pull request details for preview-publish
+        run: |
+          echo "${{ github.event.number }}" > PR_NUMBER
+          echo "${{ github.event.pull_request.head.sha }}" > PR_SHA
+      - name: Upload preview-build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: preview-build
+          path: |
+            build
+            PR_NUMBER
+            PR_SHA
+          retention-days: 7
+      - name: Validate internal and external links
+        run: htmltest
+      - name: Validate vale rules
+        id: validate-rules
+        run: tools/validate-vale-rules.sh
+      - name: Validate language changes
+        run: |
+          tools/validate-language-changes.sh
+      - name: Validate shell scripts changes
+        run: tools/validate-shell-scripts.sh
