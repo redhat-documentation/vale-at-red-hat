@@ -31,8 +31,7 @@ WARNING: Due to the GitHub token permissions, this Action can not post annotatio
 ----
 name: Linting with Vale
 on:
-  - pull_request
-  - push
+  - pull_request_target
 jobs:
   prose:
     runs-on: ubuntu-latest
@@ -41,9 +40,10 @@ jobs:
         uses: actions/checkout@master
 
       - name: Vale Linter
-        uses: errata-ai/vale-action@v1.4.0
+        uses: errata-ai/vale-action@v1
         with:
           files: __onlyModified
+          onlyAnnotateModifiedLines: true
           styles: https://github.com/redhat-documentation/vale-at-red-hat/releases/latest/download/RedHat.zip
           config: https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/master/.vale-for-github-action.ini
         env:
