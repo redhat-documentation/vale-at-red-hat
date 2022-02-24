@@ -9,7 +9,7 @@ The widget reports style compliance issues in the GitLab merge request interface
 
 .Prerequisites
 
-* xref:getting-started-with-vale.adoc[]
+* xref:introduction.adoc[]
 * xref:adding-vale-configuration-to-a-project.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 
