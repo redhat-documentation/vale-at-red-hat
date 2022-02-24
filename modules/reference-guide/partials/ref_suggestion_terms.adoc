@@ -4,6 +4,8 @@
 
 The following table lists incorrect terminology and the approved usage as outlined in the Red Hat Supplementary Style Guide.
 
+pass:[<!-- vale RedHat.TermsErrors = NO -->]
+
 .Supplementary Style Guide terminology guidance
 [options="header"]
 |====
