@@ -1,1 +1,0 @@
-../../../tools/validate_language_changes.sh

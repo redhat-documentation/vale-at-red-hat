@@ -17,7 +17,7 @@ metadata:
 components:
   - alias: docs
     type: dockerimage
-    image: "quay.io/antoraformodulardocs/antora-for-modular-docs:latest"
+    image: "quay.io/antoraformodulardocs/antora-for-modular-docs:main"
     memoryLimit: 512M
     mountSources: true
     command:
@@ -32,20 +32,20 @@ components:
         port: 4000
         attributes:
           path: /che-7/overview/introduction-to-eclipse-che/
+  - alias: asciidoctor
+    type: chePlugin
+    reference: https://che-plugin-registry-main.surge.sh/v3/plugins/joaompinto/asciidoctor-vscode/latest/meta.yaml
+  - alias: github
+    type: chePlugin
+    id: ms-vscode/vscode-github-pullrequest/latest
+  - alias: shellcheck
+    type: chePlugin
+    reference: https://che-plugin-registry-main.surge.sh/v3/plugins/timonwong/shellcheck/latest/meta.yaml
   - alias: vale
     type: chePlugin
     preferences:
       vale.core.useCLI: true
     reference: https://che-plugin-registry-main.surge.sh/v3/plugins/errata-ai/vale-server/latest/meta.yaml
-  - alias: github
-    type: chePlugin
-    id: ms-vscode/vscode-github-pullrequest/latest
-  - alias: asciidoctor
-    type: chePlugin
-    reference: https://che-plugin-registry-main.surge.sh/v3/plugins/joaompinto/asciidoctor-vscode/latest/meta.yaml
-  - alias: shellcheck
-    type: chePlugin
-    reference: https://che-plugin-registry-main.surge.sh/v3/plugins/timonwong/shellcheck/latest/meta.yaml
   - alias: yaml
     type: chePlugin
     id: redhat/vscode-yaml/latest
@@ -56,7 +56,7 @@ commands:
       - type: exec
         component: docs
         workdir: /projects/docs
-        command: sh tools/preview.sh
+        command: ./tools/preview.sh
   - name: Validate links
     actions:
       - type: exec

@@ -24,18 +24,18 @@ Consider using the Vale CLI with a continuous integration service when:
 
 .Procedure
 
-. Configure your continuous integration service to download the `vale` CLI, the `RedHat` style and the Vale configuration file using a `download_vale.sh` script such as:
+. Configure your continuous integration service to download the `vale` CLI, the `RedHat` style and the Vale configuration file by using a `download-vale.sh` script such as:
 +
 [source,bash]
 ----
-include::example$download_vale.sh[]
+include::example$download-vale.sh[]
 ----
 
-. Configure your continuous integration service to validate language changes using a `validate_language_changes.sh` script such as:
+. Configure your continuous integration service to validate language changes by using a `validate-language-changes.sh` script such as:
 +
 [source,bash]
 ----
-include::example$validate_language_changes.sh[]
+include::example$validate-language-changes.sh[]
 ----
 
 .Additional resources
