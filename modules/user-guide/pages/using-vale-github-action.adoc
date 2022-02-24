@@ -31,7 +31,7 @@ WARNING: Due to the GitHub token permissions, this Action can not post annotatio
 ----
 name: Linting with Vale
 on:
-  - pull_request_target
+  - pull_request
 jobs:
   prose:
     runs-on: ubuntu-latest
