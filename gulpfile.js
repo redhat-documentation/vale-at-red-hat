@@ -17,18 +17,24 @@ const { reload: livereload } = process.env.LIVERELOAD === 'true' ? require('gulp
 const { parallel, series, src, watch } = require('gulp')
 const yaml = require('js-yaml')
 
-const playbookFilename = 'antora-playbook-for-development.yml'
+const playbookFilename = 'antora-playbook.yml'
 const playbook = yaml.load(fs.readFileSync(playbookFilename, 'utf8'))
-const outputDir = (playbook.output || {}).dir || './build/site'
+const outputDir = (playbook.output || {}).dir || './build'
 const serverConfig = { name: 'Preview Site', livereload, host: '0.0.0.0', port: 4000, root: outputDir }
 const antoraArgs = ['--playbook', playbookFilename]
 const watchPatterns = playbook.content.sources.filter((source) => !source.url.includes(':')).reduce((accum, source) => {
-    accum.push(`./antora.yml`)
-    accum.push(`./modules/**/*`)
     accum.push(`.vale/**/*`)
+    accum.push(`./antora-playbook.yml`)
+    accum.push(`./antora.yml`)
+    accum.push(`./gulpfile.js`)
+    accum.push(`./modules/**/*`)
+    accum.push(`./supplemental-ui/**/*`)
     return accum
 }, [])
 
+// Antora for modular docs functions
+
+// Generate Antora website
 function generate_html(done) {
     generator(antoraArgs, process.env)
         .then(() => done())
@@ -38,73 +44,112 @@ function generate_html(done) {
         })
 }
 
-async function generate_reference_guide() {
-    // Report errors but don't make gulp fail.
-    try {
-        const { stdout, stderr } = await exec('./tools/generate_reference_guide.sh')
-        console.log(stdout);
-        console.error(stderr);
-    }
-    catch (error) {
-        console.log(error.stdout);
-        console.log(error.stderr);
-        return;
-    }
-}
-
-async function generate_vale_rule_tests() {
-    // Report links errors but don't make gulp fail.
-    try {
-        const { stdout, stderr } = await exec('./tools/generate_vale_rule_tests.sh')
-        console.log(stdout);
-        console.error(stderr);
-    }
-    catch (error) {
-        console.log(error.stdout);
-        console.log(error.stderr);
-        return;
-    }
-}
-
+// Run web server
 async function serve(done) {
     connect.server(serverConfig, function () {
         this.server.on('close', done)
-        watch(watchPatterns, series(generate_reference_guide, generate_vale_rule_tests, generate_html, test_html, test_vale_rules))
+        watch(watchPatterns, series(
+            generate_reference_guide,
+            generate_vale_rule_tests,
+            generate_html,
+            validate_language_changes,
+            validate_links,
+            validate_shell_scripts,
+            validate_vale_rules,
+        ))
         if (livereload) watch(this.root).on('change', (filepath) => src(filepath, { read: false }).pipe(livereload()))
     })
 }
 
-async function test_vale_rules() {
-    // Report errors but don't make gulp fail.
+async function validate_language_changes() {
+    // Report links errors but don't make gulp fail.
     try {
-        const { stdout, stderr } = await exec('./tools/test_vale_rules.sh')
-        console.log(stdout);
-        console.error(stderr);
+        const { stdout, stderr } = await exec('./tools/validate-language-changes.sh 2>&1')
+        console.log(stdout, stderr);
     }
     catch (error) {
-        console.log(error.stdout);
-        console.log(error.stderr);
+        console.log(error.stdout, error.stderr);
         return;
     }
 }
 
-async function test_html() {
-    // Report errors but don't make gulp fail.
+async function validate_links() {
+    // Report links errors but don't make gulp fail.
     try {
-        const { stdout, stderr } = await exec('htmltest')
-        console.log(stdout);
-        console.error(stderr);
+        const { stdout, stderr } = await exec('htmltest 2>&1')
+        console.log(stdout, stderr);
     }
     catch (error) {
-        console.log(error.stdout);
-        console.log(error.stderr);
+        console.log(error.stdout, error.stderr);
+        return;
+    }
+}
+
+async function validate_shell_scripts() {
+    // Report shellcheck errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/validate-shell-scripts.sh 2>&1')
+        console.log(stdout, stderr);
+    }
+    catch (error) {
+        console.log(error.stdout, error.stderr);
+        return;
+    }
+}
+
+// Functions specific to this repository
+
+// Validate vale rules
+async function validate_vale_rules() {
+    // Report errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/validate-vale-rules.sh')
+        console.log(stdout, stderr);
+    }
+    catch (error) {
+        console.log(error.stdout, error.stderr);
+        return;
+    }
+}
+
+
+// Generate reference guide
+async function generate_reference_guide() {
+    // Report errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/generate-reference-guide.sh')
+        console.log(stdout, stderr);
+    }
+    catch (error) {
+        console.log(error.stdout, error.stderr);
+        return;
+    }
+}
+
+// Generate vale rules tests
+async function generate_vale_rule_tests() {
+    // Report links errors but don't make gulp fail.
+    try {
+        const { stdout, stderr } = await exec('./tools/generate-vale-rule-tests.sh')
+        console.log(stdout, stderr);
+    }
+    catch (error) {
+        console.log(error.stdout, error.stderr);
         return;
     }
 }
 
 exports.default = series(
-    parallel(generate_reference_guide, generate_vale_rule_tests),
+    parallel(
+        generate_reference_guide,
+        generate_vale_rule_tests
+    ),
     generate_html,
     serve,
-    parallel(test_vale_rules, test_html)
+    parallel(
+        validate_language_changes,
+        validate_links,
+        validate_shell_scripts,
+        validate_vale_rules,
+    )
 );

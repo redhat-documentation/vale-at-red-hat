@@ -7,18 +7,17 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
-# Add Web IDE link on pull requests
-name: Add Web IDE link
+name: Add web IDE link
 on:
   pull_request_target:
     types:
       - opened
 jobs:
-  add-link:
-    name: Add Web IDE link
+  add-web-ide-link:
+    name: Add web IDE link
     runs-on: ubuntu-20.04
     steps:
-      - name: Web IDE Pull Request Check
+      - name: Add web IDE link
         id: try-in-web-ide
         uses: redhat-actions/try-in-web-ide@main
         with:

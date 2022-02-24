@@ -1,9 +1,4 @@
 ---
-#
-# Build and publish to GitHub Pages
-#
-# See: https://docs.antora.org/antora/2.3/publish-to-github-pages/
-#
 # Copyright (c) 2021 Red Hat, Inc.
 # This program and the accompanying materials are made
 # available under the terms of the Eclipse Public License 2.0
@@ -11,24 +6,25 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
-name: Publish to GitHub Pages
+name: Publication build
 on:
   push:
     branches:
       - main
 jobs:
-  publish:
-    name: Publish to GitHub Pages
+  publication-builder:
+    name: Build and publish to publication branch
     runs-on: ubuntu-latest
-    container: "quay.io/antoraformodulardocs/antora-for-modular-docs:latest"
+    container: quay.io/antoraformodulardocs/antora-for-modular-docs:main
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build using antora
-        id: antora-build
-        run: CI=true antora generate antora-playbook.yml
-      - name: Publish to GitHub Pages
+        run: tools/publication-builder.sh
+      - name: Commit artifact to publication branch
         uses: peaceiris/actions-gh-pages@v3
         with:
+          force_orphan: true # publish branch with only the latest commit
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/site
+          publish_branch: publication
+          publish_dir: build/vale-at-red-hat
