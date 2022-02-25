@@ -11,4 +11,5 @@
 * xref:adding-vale-configuration-to-a-project.adoc[]
 * xref:creating-a-vocabulary-for-a-project.adoc[]
 * xref:using-vale-github-action.adoc[]
+* xref:gitlab-code-quality-reports.adoc[]
 * xref:using-vale-with-a-continuous-integration-service.adoc[]
