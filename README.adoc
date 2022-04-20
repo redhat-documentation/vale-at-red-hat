@@ -4,3 +4,4 @@ This repository helps tech writers at Red Hat get up and running with Vale. It i
 
 * See the documentation: link:https://redhat-documentation.github.io/vale-at-red-hat/[Vale for writers at Red Hat]
 
+TEST BUILD
