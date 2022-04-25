@@ -45,6 +45,10 @@ $ cd __<project_directory>__
 $ Vale __<filename>__
 ----
 
+.Demo
+
+Don't create a bottle neck in your workflows.
+
 .Additional resources
 
 * xref:defining-a-vale-onboarding-strategy.adoc[]
