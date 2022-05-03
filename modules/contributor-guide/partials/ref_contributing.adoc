@@ -12,7 +12,7 @@ You can help by doing any of the following:
 
 * Join the Slack channel, link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
 
-* Contribute to the repository, using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forwking workflow].
+* Contribute to the repository, using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
 
 * xref:extending-the-spelling-rule.adoc[]
 
