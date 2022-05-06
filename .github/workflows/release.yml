@@ -23,6 +23,7 @@ jobs:
       - name: Create release
         run: |
           cd .vale/styles
+          echo $GITHUB_RUN_NUMBER > version.txt
           zip -r RedHat.zip RedHat
           gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip'
         env:
