@@ -8,6 +8,7 @@ Do not use end punctuation in headings.
 
 .Additional resources
 
-* link:{ibmsg-url}[{ibmsg} - Periods in headings and titles, p. 61]
+* link:{ibmsg-url-print}[{ibmsg-print} - Periods in headings and titles, p. 61]
+* link:{ibmsg-url}?topic=punctuation-periods#headings-and-titles[{ibmsg} - Headings and titles]
 
 

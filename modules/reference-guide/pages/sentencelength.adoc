@@ -7,4 +7,5 @@ Try to keep sentences to an average of 32 words or fewer, and vary sentence leng
 
 .Additional resources
 
-* link:{ibmsg-url}[{ibmsg} - Conversational style]
+* link:{ibmsg-url-print}[{ibmsg-print} - Conversational style]
+* link:{ibmsg-url}?topic=medium-conversational-style[{ibmsg} - Conversational style]
