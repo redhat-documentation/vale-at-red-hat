@@ -124,8 +124,8 @@ def get_ssg_terms(temp_dir):
                     #clean regex special characters hack - this needs to be handled correctly
                     incorrect_forms = re.sub(r'\/', ' ', incorrect_forms)
                     incorrect_forms = re.sub(r'\^', '', incorrect_forms)
-                    incorrect_forms = re.sub(r'\(', '\(', incorrect_forms)
-                    incorrect_forms = re.sub(r'\)', '\)', incorrect_forms)
+                    incorrect_forms = re.sub(r'\(', '\\(', incorrect_forms)
+                    incorrect_forms = re.sub(r'\)', '\\)', incorrect_forms)
                     #write the terms into the dict
                     ssg_term_dict["ssg_term"]["word_id"] = word_id
                     ssg_term_dict["ssg_term"]["correct_term"] = correct_form
@@ -168,6 +168,13 @@ def write_ref_tables(temp_dir, adoc_dir, error_type):
         w.write("\n")
         w.write("The following table lists incorrect terminology and the approved usage as outlined in the Red Hat Supplementary Style Guide." + "\n")
         w.write("\n")
+        #Add scope escaping for generated terms
+        w.write("pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->]" + "\n")
+        w.write("pass:[<!-- vale RedHat.TermsErrors = NO -->]" + "\n")
+        w.write("pass:[<!-- vale RedHat.TermsSuggestions = NO -->]" + "\n")
+        w.write("pass:[<!-- vale RedHat.TermsWarnings = NO -->]" + "\n")
+        w.write("pass:[<!-- vale RedHat.Spelling = NO -->]" + "\n")
+        w.write("\n")
         w.write(".Supplementary Style Guide terminology guidance" + "\n")
         w.write("[options=\"header\"]" + "\n")
         w.write("|====" + "\n")
@@ -184,8 +191,8 @@ def write_ref_tables(temp_dir, adoc_dir, error_type):
                         correct = line["ssg_term"]["correct_term"]
                         incorrect = line["ssg_term"]["incorrect_forms"]
                         #re.sub pipe char
-                        incorrect = re.sub(r'\|', ' OR ', incorrect)
-                        correct = re.sub(r'\|', ' OR ', correct)
+                        incorrect = re.sub(r'\|', ' \\| ', incorrect)
+                        correct = re.sub(r'\|', ' \\| ', correct)
                         w.write("\n")
                         w.write("|" + incorrect + "|" + "link:https://redhat-documentation.github.io/supplementary-style-guide/#" + word_id + "[" + correct + "]" + "\n")
         #close it out
