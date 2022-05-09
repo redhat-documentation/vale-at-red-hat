@@ -23,7 +23,7 @@ NOTE: On the Vale site, click the tab for your operating system.
 +
 [subs="+quotes,+attributes"]
 ----
-$ curl https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/tools/get-vale-styles-release.sh | bash -s
+$ curl https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/main/tools/get-vale-styles-release.sh | bash -s
 ----
 
 .Verification
