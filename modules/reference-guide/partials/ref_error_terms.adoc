@@ -1,6 +1,6 @@
 :_module-type: REFERENCE
 [id="ssg_vale_error_reference"]
-= Vale error rule guidance
+= Vale error rules
 
 pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->]
 pass:[<!-- vale RedHat.TermsErrors = NO -->]
