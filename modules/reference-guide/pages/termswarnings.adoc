@@ -11,7 +11,7 @@
 
 Alert level:: Warning
 
-Use the correct term as described in Red Hat Supplementary Style Guide (SSG), unless updating existing content that uses the term. Click the link to view the corresponding entry in the SSG.
+Use the correct term as described in Red Hat Supplementary Style Guide (SSG), unless updating existing content that uses the term.
 
 include::partial$ref_warning_terms.adoc[leveloffset=+1]
 
