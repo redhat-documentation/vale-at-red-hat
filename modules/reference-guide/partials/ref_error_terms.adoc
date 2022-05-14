@@ -2,7 +2,7 @@
 [id="ssg_vale_error_reference"]
 = Vale error rule guidance
 
-The following table lists incorrect terminology and the approved usage as outlined in the Red Hat Supplementary Style Guide.
+The following table lists incorrect terminology and the approved usage.
 
 pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->]
 pass:[<!-- vale RedHat.TermsErrors = NO -->]
