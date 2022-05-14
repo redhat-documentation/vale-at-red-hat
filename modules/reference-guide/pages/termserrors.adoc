@@ -11,7 +11,7 @@
 
 Alert level:: Error
 
-Use the suggested term.
+Use the suggested correct term as described in the Red Hat Supplementary Style Guide (SSG). Click the link to view the corresponding entry in the SSG.
 
 include::partial$ref_error_terms.adoc[leveloffset=+1]
 
