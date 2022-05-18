@@ -121,7 +121,7 @@ filters:
   - "[uU]ntrusted"
   - "[uU]psell"
   - "[uU]pselling"
-  - "Let\'s Encrypt"
+  - "Let\\'s Encrypt"
   - adoc
   - Annobin
   - Ansible
