@@ -20,6 +20,9 @@ Vale is a command-line tool that allows you to check your writing for grammar an
 * You can perform more consistent peer reviews.
 * You can write content that is more easily localized.
 
+.A non-technical overview of Vale at Red Hat
+video::714474141[vimeo]
+
 .Additional resources
 
 * xref:redhat-style-for-vale.adoc[]
@@ -27,5 +30,3 @@ Vale is a command-line tool that allows you to check your writing for grammar an
 
 * xref:installing-vale-cli.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
-
-
