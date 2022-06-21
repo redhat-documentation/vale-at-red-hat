@@ -3,3 +3,4 @@ upstream/downstream
 I/O
 z/OS
 z/OSMF
+/mnt/sysimage
