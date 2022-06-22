@@ -10,15 +10,18 @@ first: '\b([A-Z]{3,5}s?)\b'
 second: '\(([A-Z]{3,5}s?)\)'
 # ... with the exception of these:
 exceptions:
+  - 'RPMs?'
   - API
   - ASP
   - BIND
+  - BIOS
   - CD
   - CLI
   - CPU
   - CSS
   - CSV
   - DEBUG
+  - DNF
   - DNS
   - DOM
   - DPI
@@ -35,6 +38,7 @@ exceptions:
   - GET
   - GID
   - GIMP
+  - GNOME
   - GNU
   - GNUPro
   - GPL
@@ -68,6 +72,7 @@ exceptions:
   - MBR
   - MDS
   - NET
+  - NGINX
   - NIC
   - NOTE
   - NVDA
@@ -110,6 +115,7 @@ exceptions:
   - TODO
   - TTL
   - UID
+  - UNIX
   - URI
   - URL
   - USB
@@ -122,4 +128,5 @@ exceptions:
   - XML
   - XSS
   - YAML
+  - YUM
   - ZIP
