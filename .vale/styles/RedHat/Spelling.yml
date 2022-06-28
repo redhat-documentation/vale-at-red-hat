@@ -12,6 +12,7 @@ filters:
   - 'Node\.js'
   - "[aA]utostart"
   - "[bB]ackfilling"
+  - "[bB]acktrace"
   - "[bB]indable"
   - "[bB]oolean"
   - "[bB]reakpoint"
@@ -110,6 +111,7 @@ filters:
   - "[sS]ystemd"
   - "[tT]heia"
   - "[tT]olerations"
+  - "[tT]raceback"
   - "[tT]ruststore"
   - "[uU]ncomment"
   - "[uU]ndercloud"

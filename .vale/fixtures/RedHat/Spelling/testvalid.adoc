@@ -12,6 +12,8 @@ AWS
 Azure
 backfilling
 Backfilling
+backtrace
+Backtrace
 Bierner
 bindable
 Bindable
@@ -259,6 +261,8 @@ Texinfo
 Theia
 Tolerations
 Toolset
+traceback
+Traceback
 Traefik
 Truststore
 Uber
