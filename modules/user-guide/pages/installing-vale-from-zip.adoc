@@ -19,7 +19,7 @@ Use this procedure if you want to use the `RedHat` style and you do not intend t
 +
 NOTE: On the Vale site, click the tab for your operating system.
 
-. Run the following command to download the latest `RedHat` Vale rules and register the Vale configuration as the default.
+. Enter the following command to download the latest `RedHat` Vale rules and register the Vale configuration as the default.
 +
 [subs="+quotes,+attributes"]
 ----
@@ -28,7 +28,7 @@ $ curl https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/ma
 
 .Verification
 
-. Run the `vale` command on one of your content files.
+. Enter the `vale` command on one of your content files.
 +
 [subs="+quotes,+attributes"]
 ----
@@ -38,7 +38,7 @@ $ vale __<filename>__
 
 . Review the vale output and use it to update your content file.
 
-. Re-run the same `vale` command to see the updated results.
+. Re-enter the same `vale` command to see the updated results.
 
 .Additional resources
 
