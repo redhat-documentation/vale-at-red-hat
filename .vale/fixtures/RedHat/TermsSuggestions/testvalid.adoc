@@ -9,6 +9,7 @@ segmentation fault
 shell prompt
 shell script
 Start by using this.
+such as
 write
 this clause that is restrictive
 this clause, which is nonrestrictive
