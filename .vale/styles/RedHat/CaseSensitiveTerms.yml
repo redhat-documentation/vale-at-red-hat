@@ -114,7 +114,7 @@ swap:
   ULTRASPARC|UltraSparc: UltraSPARC
   Unix|unix|UNIX-like: UNIX
   url: URL
-  var: VAR
+  "(?<!/)var": VAR
   VI: vi
   VIM|vim: Vim
   Virtual Desktop Server Management: VDSM
