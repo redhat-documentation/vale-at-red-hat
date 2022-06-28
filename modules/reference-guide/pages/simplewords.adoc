@@ -7,5 +7,6 @@ Use simple verbs and tenses. Use simple language.
 
 .Additional resources
 
-* link:{ibmsg-url}[{ibmsg} - Conversational style]
+* link:{ibmsg-url-print}[{ibmsg-print} - Conversational style]
+* link:{ibmsg-url}?topic=medium-conversational-style[{ibmsg} - Conversational style]
 * link:http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm[Plain language - Simple words]

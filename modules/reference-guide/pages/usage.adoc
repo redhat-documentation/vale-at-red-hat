@@ -8,4 +8,5 @@ Verify your use with the word usage guidelines.
 .Additional resources
 
 * link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
-* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]
+* link:{ibmsg-url-print}[{ibmsg-print} - Appendix C. Word usage, p. 300]
+* link:{ibmsg-url}?topic=word-usage[{ibmsg} - Word usage]
