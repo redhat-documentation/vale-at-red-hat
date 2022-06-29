@@ -3,6 +3,7 @@ upstream/downstream
 I/O
 z/OS
 z/OSMF
+/mnt/sysimage
 client/server
 input/output
 Input/Output
