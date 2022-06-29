@@ -96,7 +96,7 @@ tokens:
   - localize
   - look and feel
   - look-and-feel
-  - machine
+  - "(?<!virtual )machine(?! learning)"
   - master and slave
   - migrate
   - native
