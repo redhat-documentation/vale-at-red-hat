@@ -8,7 +8,10 @@ source: "IBM - Slashes, p. 68"
 tokens:
   - '(?<!/)\w+/\w+'
 exceptions:
+  - "client/server"
   - "I/O"
+  - "[Ii]nput/[Oo]utput"
+  - "N/A"
   - "SSL/TLS"
   - "upstream/downstream"
   - "z/OS"

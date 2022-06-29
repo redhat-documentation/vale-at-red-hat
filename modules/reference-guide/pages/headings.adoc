@@ -7,4 +7,5 @@ Use sentence-style capitalization in headings.
 
 .Additional resources
 
-* link:{ibmsg-url}[{ibmsg} - Capitalization in headings and titles, p.16]
+* link:{ibmsg-url-print}[{ibmsg-print} - Capitalization in headings and titles, p.16]
+* link:{ibmsg-url}?topic=grammar-capitalization#headings-titles-and-banners[{ibmsg} - Capitalization in headings, titles and banners]

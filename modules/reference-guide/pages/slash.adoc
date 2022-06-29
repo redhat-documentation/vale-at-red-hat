@@ -7,4 +7,5 @@ Use either `or` or `and` rather than a slash (`/`).
 
 .Additional resources
 
-* link:{ibmsg-url}[{ibmsg} - Slashes, p. 68]
+* link:{ibmsg-url-print}[{ibmsg-print} - Slashes, p. 68]
+* link:{ibmsg-url}?topic=punctuation-slashes[{ibmsg} - Slashes]
