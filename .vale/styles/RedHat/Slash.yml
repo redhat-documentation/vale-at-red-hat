@@ -16,3 +16,4 @@ exceptions:
   - "upstream/downstream"
   - "z/OS"
   - "z/OSMF"
+  - "0/"
