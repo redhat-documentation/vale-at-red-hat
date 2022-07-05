@@ -8,4 +8,3 @@ client/server
 input/output
 Input/Output
 N/A
-192.168.0.0/16
