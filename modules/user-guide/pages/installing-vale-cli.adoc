@@ -17,6 +17,7 @@ NOTE: Alternatively, if you do not intend to contribute to the *{repository-name
 .Prerequisites
 
 * The `git` tool is installed.
+* The `asciidoctor` tool is installed. See link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Installing AsciiDoctor]
 
 .Procedure
 
