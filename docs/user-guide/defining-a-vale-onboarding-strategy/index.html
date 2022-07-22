@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Defining a Vale onboarding strategy :: Vale for writers at Red Hat</title>
+    <link rel="canonical" href="https://redhat-documentation.github.io/vale-at-red-hat/docs/user-guide/defining-a-vale-onboarding-strategy/">
+    <meta name="description" content="Describes how to a define a Vale onboarding strategy for your project">
+    <meta name="keywords" content="onboarding, strategy">
+    <meta name="generator" content="Antora 3.0.2">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="stylesheet" href="../../../_/css/extra.css">
+<link rel="stylesheet" href="../../../_/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="../../../_/img/favicon.ico" type="image/x-icon">
+<script>var uiRootPath = '../../../_'</script>
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <button class="navbar-burger" data-target="topbar-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <img src="../../../_/img/project-logo.svg" class="navbar-logo" alt="Project logo">
+        <a href="https://redhat-documentation.github.io/vale-at-red-hat/index.html">Vale for writers at Red Hat</a>
+      </div>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item hide-for-print">
+          <div id="search-field" class="field">
+            <input id="search-input" type="text" placeholder="Search the docs" autofocus>
+          </div>
+        </div>
+        <a class="navbar-item" href="https://github.com/redhat-documentation/vale-at-red-hat/">
+          <img src="../../../_/img/github.svg" alt="View source code on GitHub">
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="docs" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../introduction/">Vale for writers at Red Hat</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../introduction/">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../installing-vale-cli/">Installing Vale by cloning the <strong>vale-at-red-hat</strong> repo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../installing-vale-from-zip/">Installing Vale from the latest release</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../using-vale-in-the-ide/">Vale in the IDE</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../redhat-style-for-vale/">RedHat Style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../reporting-vale-alerts/">Vale reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../understanding-vale-output/">Understanding Vale alerts</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="./">Onboarding strategy</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../adding-vale-configuration-to-a-project/">Adding Vale to a project</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../creating-a-vocabulary-for-a-project/">Create a vocabulary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../using-vale-github-action/">GitHub Action</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../gitlab-code-quality-reports/">GitLab Code Quality reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../using-vale-with-a-continuous-integration-service/">Continuous integration</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Contributor guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/contributing/">Contributing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/vale-at-red-hat-repository/">Repository</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/extending-the-spelling-rule/">Extending <em>Spelling</em></a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/extending-the-redhat-style/">Extending rules</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../reference-guide/reference-guide/">Reference guide</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/abbreviations/">Abbreviations</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/casesensitiveterms/">Case sensitive terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/configmap/">Config map</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/conjunctions/">Conjunctions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/consciouslanguage/">Conscious language</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/contractions/">Contractions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/definitions/">Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/ellipses/">Ellipses</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headingpunctuation/">Heading punctuation</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headings/">Headings</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/oxfordcomma/">OxfordComma</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/passivevoice/">PassiveVoice</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/readabilitygrade/">Readability grade</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/releasenotes/">Release notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/sentencelength/">Sentence length</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/simplewords/">Simple words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/slash/">Slash</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spacing/">Spacing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spelling/">Spelling</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termserrors/">Error terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termssuggestions/">Suggestion terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termswarnings/">Warning terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/usage/">Usage</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Vale for writers at Red Hat</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../introduction/">Vale for writers at Red Hat</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../introduction/">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../introduction/" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../introduction/">Vale for writers at Red Hat</a></li>
+    <li>User guide</li>
+    <li><a href="./">Onboarding strategy</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/user-guide/pages/defining-a-vale-onboarding-strategy.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Defining a Vale onboarding strategy</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Embracing a linter in a project is a long journey. The full Vale report can be discouraging at first. Remember that:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You are in charge: review the report and decide what is useful to you.</p>
+</li>
+<li>
+<p>The styles are not perfect or complete.</p>
+</li>
+<li>
+<p>Assess the maturity of the project.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p><a href="../reporting-vale-alerts/" class="xref page">Generating extended Vale alerts reports</a></p>
+</li>
+<li>
+<p><a href="../understanding-vale-output/" class="xref page">Understanding Vale output</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_assess_the_project_maturity"><a class="anchor" href="#_assess_the_project_maturity"></a>Assess the project maturity</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Zero Vale errors</dt>
+<dd>
+<p>The project is compliant with the <code>RedHat</code> style. Consider integration with a continuous integration service using the defaults from the <code>vale-at-red-hat</code> repository.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../using-vale-github-action/" class="xref page">Using Vale GitHub Action</a></p>
+</li>
+<li>
+<p><a href="../using-vale-with-a-continuous-integration-service/" class="xref page">Using Vale with a continuous integration service</a></p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">Under 100 Vale errors</dt>
+<dd>
+<p>The project is almost compliant with the <code>RedHat</code> style. Consider integration with a continuous integration service using the defaults from the <code>vale-at-red-hat</code> repository. Consider massively fixing the few errors.</p>
+</dd>
+<dt class="hdlist1">Over 100 Vale errors</dt>
+<dd>
+<p>The project is big or poorly compliant with the <code>RedHat</code> style. Consider further investigation to understand the issue.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_start_small"><a class="anchor" href="#_start_small"></a>Start small</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>To onboard a collection of repositories, start by the repository with the smallest word count. See <a href="../reporting-vale-alerts/" class="xref page">Generating extended Vale alerts reports</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_focus_on_errors"><a class="anchor" href="#_focus_on_errors"></a>Focus on errors</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Report only <strong>errors</strong>. Don&#8217;t report <strong>warnings</strong> and <strong>suggestions</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ vale --minAlertLevel=error .</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_expect_false_positives"><a class="anchor" href="#_expect_false_positives"></a>Expect false positives</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The <code>RedHat</code> style has been thoroughly tested on a corpus of 113000 words. You can expect false positives when applying the style to a new corpus. Consider <a href="../../contributor-guide/contributing/" class="xref page">Contributing</a> to the style.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_collect_data"><a class="anchor" href="#_collect_data"></a>Collect data</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../reporting-vale-alerts/" class="xref page">Generating extended Vale alerts reports</a></p>
+</li>
+<li>
+<p>Use the results to identify the rule creating the most errors, and work on that rule. Most probably, start with the Spelling rule.</p>
+</li>
+<li>
+<p>Report alerts for one single rule. Maybe use custom output templates to generate a custom report. See <a href="https://docs.errata.ai/vale/cli#--output">Vale documentation - <code>--output</code> template</a>. Consider aggregating alerts to identify the most common. Examine the report to distinguish legit alerts from false positives. Use the curated list of false positives to <a href="https://github.com/redhat-documentation/vale-at-red-hat/issues">report an issue</a>.</p>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>For example, for the Spelling rule, create a report containing the list of all words reported by the Spelling rule, and count their occurrences.
+Use that list to differentiate false positives from legit errors. Use the curated list to <a href="https://github.com/redhat-documentation/vale-at-red-hat/issues">report an issue</a>.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fix_the_alerts"><a class="anchor" href="#_fix_the_alerts"></a>Fix the alerts</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Run campaigns focused on one target such as: fix all errors, fix all occurrences of a given rule.</p>
+</li>
+<li>
+<p>Disable a rule that is irrelevant in the file context. See: <a href="https://docs.errata.ai/vale/scoping">Vale - Scoping</a></p>
+<div class="listingblock">
+<div class="content">
+<pre>pass:[&lt;!-- vale RedHat.Spelling = NO --&gt;]
+
+The Spelling rule is ignored for this line.
+
+pass:[&lt;!-- vale RedHat.Spelling = YES --&gt;]
+
+The Spelling rule is active for this line.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_display_less_alerts_without_changing_the_configuration_file"><a class="anchor" href="#_display_less_alerts_without_changing_the_configuration_file"></a>Display less alerts without changing the configuration file</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Display only <strong>errors</strong>. Don&#8217;t display <strong>warnings</strong> and <strong>suggestions</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ vale --minAlertLevel=error .</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Display only <strong>errors</strong> and <strong>warnings</strong>. Don&#8217;t display <strong>suggestions</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ vale --minAlertLevel=warning .</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contributing_to_the_vale_at_red_hat_repository"><a class="anchor" href="#_contributing_to_the_vale_at_red_hat_repository"></a>Contributing to the <em>vale-at-red-hat</em> repository</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../../contributor-guide/extending-the-spelling-rule/" class="xref page">Extending the Spelling rule</a></p>
+</li>
+<li>
+<p><a href="../../contributor-guide/extending-the-redhat-style/" class="xref page">Extending the Red Hat style</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decrease_the_number_of_alerts_requesting_adding_vale_to_a_project"><a class="anchor" href="#_decrease_the_number_of_alerts_requesting_adding_vale_to_a_project"></a>Decrease the number of alerts requesting <a href="../adding-vale-configuration-to-a-project/" class="xref page">Adding Vale to a project</a></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../creating-a-vocabulary-for-a-project/" class="xref page">Creating a vocabulary for a project</a></p>
+</li>
+<li>
+<p>Altering <strong>rules</strong> severity or disabling <strong>rules</strong> for the project. See <a href="../adding-vale-configuration-to-a-project/" class="xref page">Adding Vale to a project</a> and <a href="https://docs.errata.ai/vale/config">Vale documentation - configuration</a>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>RedHat.Annotations = NO
+RedHat.Slash = warning
+RedHat.Usage = suggestion</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Creating an additional style for the project. See <a href="../adding-vale-configuration-to-a-project/" class="xref page">Adding Vale to a project</a></p>
+</li>
+</ul>
+</div>
+<div class="ulist _additional-resources">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="../installing-vale-cli/" class="xref page">Installing and configuring Vale by cloning the <strong>vale-at-red-hat</strong> repo</a></p>
+</li>
+<li>
+<p><a href="../understanding-vale-output/" class="xref page">Understanding Vale output</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+    <div>
+       <a href="https://redhat-documentation.github.io/vale-at-red-hat/sitemap.xml" target="_blank">Site map</a> |
+       <a href="https://redhat-documentation.github.io/" target="_blank">Guidelines for Red Hat Documentation</a> | 
+       <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/DCO" target="_blank">Developer Certificate of Origin</a> |
+       <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/LICENSE" target="_blank">MIT License</a>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+<script src="../../../_/js/vendor/lunr.js"></script>
+<script src="../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../.." data-snippet-length="100" data-stylesheet="../../../_/css/search.css"></script>
+<script async src="../../../search-index.js"></script>
+  </body>
+</html>

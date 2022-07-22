@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Error terms :: Vale for writers at Red Hat</title>
+    <link rel="canonical" href="https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termserrors/">
+    <meta name="keywords" content="reference, rule, terms, errors">
+    <meta name="generator" content="Antora 3.0.2">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="stylesheet" href="../../../_/css/extra.css">
+<link rel="stylesheet" href="../../../_/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="../../../_/img/favicon.ico" type="image/x-icon">
+<script>var uiRootPath = '../../../_'</script>
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <button class="navbar-burger" data-target="topbar-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <img src="../../../_/img/project-logo.svg" class="navbar-logo" alt="Project logo">
+        <a href="https://redhat-documentation.github.io/vale-at-red-hat/index.html">Vale for writers at Red Hat</a>
+      </div>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item hide-for-print">
+          <div id="search-field" class="field">
+            <input id="search-input" type="text" placeholder="Search the docs" autofocus>
+          </div>
+        </div>
+        <a class="navbar-item" href="https://github.com/redhat-documentation/vale-at-red-hat/">
+          <img src="../../../_/img/github.svg" alt="View source code on GitHub">
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="docs" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../../user-guide/introduction/">Vale for writers at Red Hat</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/introduction/">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/installing-vale-cli/">Installing Vale by cloning the <strong>vale-at-red-hat</strong> repo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/installing-vale-from-zip/">Installing Vale from the latest release</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/using-vale-in-the-ide/">Vale in the IDE</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/redhat-style-for-vale/">RedHat Style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/reporting-vale-alerts/">Vale reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/understanding-vale-output/">Understanding Vale alerts</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/defining-a-vale-onboarding-strategy/">Onboarding strategy</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/adding-vale-configuration-to-a-project/">Adding Vale to a project</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/creating-a-vocabulary-for-a-project/">Create a vocabulary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/using-vale-github-action/">GitHub Action</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/gitlab-code-quality-reports/">GitLab Code Quality reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/using-vale-with-a-continuous-integration-service/">Continuous integration</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Contributor guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/contributing/">Contributing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/vale-at-red-hat-repository/">Repository</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/extending-the-spelling-rule/">Extending <em>Spelling</em></a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/extending-the-redhat-style/">Extending rules</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../reference-guide/">Reference guide</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../abbreviations/">Abbreviations</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../casesensitiveterms/">Case sensitive terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../configmap/">Config map</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../conjunctions/">Conjunctions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../consciouslanguage/">Conscious language</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../contractions/">Contractions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../definitions/">Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../ellipses/">Ellipses</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../headingpunctuation/">Heading punctuation</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../headings/">Headings</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../oxfordcomma/">OxfordComma</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../passivevoice/">PassiveVoice</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../readabilitygrade/">Readability grade</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../releasenotes/">Release notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../sentencelength/">Sentence length</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../simplewords/">Simple words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../slash/">Slash</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../spacing/">Spacing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../spelling/">Spelling</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="./">Error terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../termssuggestions/">Suggestion terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../termswarnings/">Warning terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../usage/">Usage</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Vale for writers at Red Hat</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../../user-guide/introduction/">Vale for writers at Red Hat</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../user-guide/introduction/">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../user-guide/introduction/" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../user-guide/introduction/">Vale for writers at Red Hat</a></li>
+    <li><a href="../reference-guide/">Reference guide</a></li>
+    <li><a href="./">Error terms</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/reference-guide/pages/termserrors.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Error terms</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Alert level</dt>
+<dd>
+<p>Error</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Do not use error terms. Use the correct term as described in Red Hat Supplementary Style Guide (SSG). Click the link to view the corresponding entry in the SSG.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ssg_vale_error_reference"><a class="anchor" href="#ssg_vale_error_reference"></a>Vale error rules</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><!-- vale RedHat.CaseSensitiveTerms = NO -->
+<!-- vale RedHat.TermsErrors = NO --></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Supplementary Style Guide terminology guidance</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Incorrect term</th>
+<th class="tableblock halign-left valign-top">Correct term</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">oops</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops">kernel oops</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">firefox</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox">Mozilla Firefox</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">thunderbird</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-thunderbird">Mozilla Thunderbird</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bottle neck | bottle-neck</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#bottleneck">bottleneck</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">broad cast | broad-cast (as a noun)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-n">broadcast</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">broad cast | broad-cast (as a verb)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-v">broadcast</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">air wall</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#air-gap">air gap</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">autodetect</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#auto-detect">auto-detect</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bi-monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#bimonthly">bimonthly</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bi-weekly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#biweekly">biweekly</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">boot diskette</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#boot-disk">boot disk</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bootloader</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#boot-loader">boot loader</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bugfix</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#bug-fix">bug fix</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">builtin | built in</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#built-in">built-in</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CD burner | burner</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#cd-writer">CD writer</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cipher text | cyphertext | cypher text | cipher-text | cypher-text</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#ciphertext">ciphertext</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cloud-bursting</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#cloudbursting">cloudbursting</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cloud-washing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#cloudwashing">cloudwashing</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">co-locate | collocate</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#colocate">colocate</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cold backup</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#offline-backup">offline backup</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">comma delimited | commadelimited</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#comma-delimited">comma-delimited</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">comma-delimited values | comma delimited values | comma separated values</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#comma-separated-values">comma-separated values</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">command driven | commanddriven</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#command-driven">command-driven</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">command prompt | terminal | shell</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt">shell prompt</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">command-language</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#command-language">command language</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">computer farm | computer ranch</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#server-farm">server farm</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">container based</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#container-based">container-based</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">containerised</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#containerized">containerized</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cross site scripting</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#cross-site-scripting">cross-site scripting</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crossplatform | cross platform</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#cross-platform">cross-platform</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">daisy-chain | daisychain (as a noun)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n">daisy chain</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">daisy-chain | daisychain (as a verb)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-v">daisy chain</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">datacenter | data-center | data centre | datacentre</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#data-center">data center</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">datamirroring | data-mirroring</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#data-mirroring">data mirroring</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">datapath</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#data-path-n">data path</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">de-bug (as a adjective)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj">debug</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">de-bug (as a verb)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#debug-v">debug</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">desire | wish</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#need">need</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">desk top | desk-top (as an adjective)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj">desktop</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">desk top | desk-top (as an noun)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#desktop-n">desktop</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">different than | different to</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#different">different from</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">disklabel | disk-label</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#disk-label">disk label</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">domainname | domain-name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#domain-name">domain name</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">down-load | down load (as a noun)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#download-n">download</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">down-load | down load (as a verb)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#download-v">download</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">down-stream | down stream  (as an adjective)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj">downstream</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">down-stream | down stream  (as a noun)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#downstream-n">downstream</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dualboot | dual boot</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot">dual-boot</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">entitlement</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#subscription">subscription</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">firm ware | firm-ware</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#firmware">firmware</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">floating-point</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#floating-point">floating point</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">fore-ground | forground</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#foreground">foreground</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gray-scale | gray scale</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#grayscale">grayscale</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hammer | x86_64 | x86-64 | x64 | 64-bit x86</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#AMD64">AMD64</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hardcode</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hard-code">hard code</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hardcoded</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hard-coded">hard-coded</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">healthcheck | health-check</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#health-check">health check</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">helpdesk | help-desk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#help-desk">help desk</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hostgroup</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#host-group">host group</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hot-line</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hotline">hotline</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hotadd | hot-add</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hot-add">hot add</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hotplug | hot-plug</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hot-plug">hot plug</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hotswap | hot-swap</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hot-swap">hot swap</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hyper-converged</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#hyperconverged">hyperconverged</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">kernelspace</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#kernel-space-ad">kernel-space</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">knowledgebase</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#knowledge-base">knowledge base</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">large page | super page</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#huge-page-noun">huge page</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">leave out</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#omit">omit</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux specific | chip specific | and so on</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#specific">specific</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">look at</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#examine">examine</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">lots of | bunches of</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#many">many</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">make sure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#verify">verify</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">manpage</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#man-page">man page</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">matrices</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#matrixes">matrixes</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">menu driven | menudriven</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#menu-driven">menu-driven</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">mouse-button | mousebutton</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#mouse-button">mouse button</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">multi-processing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#multiprocessing">multiprocessing</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">multi-tenant</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#multitenant">multitenant</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nonsecure | non-secure</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#insecure">insecure</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OK button</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#ok">OK</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">op-code</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#opcodes">opcode</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">open-source | OpenSource | opensource</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#open-source">open source</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">over-ride | over ride</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#override">override</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">perfcounter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#performance-counter">performance counter</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">plaintext | plain-text | cleartext | clear text</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#plain-text">plain text</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">pseudo ops | pseudoops</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#pseudoops">pseudo-ops</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">pull-down</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#pulldown">pulldown</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">remote-access server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#remote-access-server">remote access server</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">remote-access</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#remote-access">remote access</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">right now</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#now">now</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">round table</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#roundtable">roundtable</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">technical rule</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#rule">rule</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">run level | run-level</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#runlevel">runlevel</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">screensaver</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#screen-saver">screen saver</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">scroll bar | scroll-bar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#scrollbar">scrollbar</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">send out</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#emit">emit</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sharename | Sharename</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#share-name">share name</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">soundcard | sound-card</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#sound-card">sound card</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">specfile</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#spec-file">spec file</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">spelt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#spelled">spelled</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">stand-alone</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#standalone">standalone</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">straight forward | straight-forward</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#straightforward">straightforward</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sub-command</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#subcommand">subcommand</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sub-directory</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#subdirectory">subdirectory</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sub-menu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#submenu">submenu</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sub-package</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#subpackage">subpackage</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">super-user | super user</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#superuser">superuser</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">swapspace</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#swap-space">swap space</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">text based</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#text-based">text-based</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">textmode | text-mode</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#text-mode">text mode</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">the installer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#installation-program">installation program</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">thinly provisioned | thinly-provisioned</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#thin-provisioned">thin-provisioned</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tier-one | tier 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#tier-1">tier-1</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">timeframe | time-frame</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#time-frame">time frame</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">up-grade | up grade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#upgrade">upgrade</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">up-sell</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#upsell">upsell</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">up-selling | up selling</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#upselling">upselling</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">up-stream | up stream (as a noun)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#upstream-n">upstream</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">up-stream | up stream (as a adjective)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#upstream-adj">upstream</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">up-time | up time</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#uptime">uptime</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">thru</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#through">through</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">video-mode | videomode</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#video-mode">video mode</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">wish | would like</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://redhat-documentation.github.io/supplementary-style-guide/#want">want</a></p></td>
+</tr>
+</tbody>
+</table>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions">Red Hat supplementary style guide for product documentation - Glossary of terms and conventions</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Appendix C. Word usage, p. 300</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/TermsErrors.yml">TermsErrors.yml source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+    <div>
+       <a href="https://redhat-documentation.github.io/vale-at-red-hat/sitemap.xml" target="_blank">Site map</a> |
+       <a href="https://redhat-documentation.github.io/" target="_blank">Guidelines for Red Hat Documentation</a> | 
+       <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/DCO" target="_blank">Developer Certificate of Origin</a> |
+       <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/LICENSE" target="_blank">MIT License</a>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+<script src="../../../_/js/vendor/lunr.js"></script>
+<script src="../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../.." data-snippet-length="100" data-stylesheet="../../../_/css/search.css"></script>
+<script async src="../../../search-index.js"></script>
+  </body>
+</html>
