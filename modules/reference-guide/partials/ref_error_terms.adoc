@@ -10,6 +10,258 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 |====
 |Incorrect term|Correct term
 
+|Bios|link:https://redhat-documentation.github.io/supplementary-style-guide/#bios[BIOS]
+
+|btrfs|link:https://redhat-documentation.github.io/supplementary-style-guide/#btrfs[Btrfs]
+
+|Capex \| capex \| capEx|link:https://redhat-documentation.github.io/supplementary-style-guide/#cap-ex[CapEx]
+
+|cd|link:https://redhat-documentation.github.io/supplementary-style-guide/#compact-disk[CD]
+
+|CDS \| Cds|link:https://redhat-documentation.github.io/supplementary-style-guide/#cds[CDs]
+
+|CGroup \| c group|link:https://redhat-documentation.github.io/supplementary-style-guide/#cgroup[cgroup]
+
+|classic mode|link:https://redhat-documentation.github.io/supplementary-style-guide/#gnome-classic[GNOME Classic]
+
+|control key \| ctrl|link:https://redhat-documentation.github.io/supplementary-style-guide/#ctrl[Ctrl]
+
+|csv|link:https://redhat-documentation.github.io/supplementary-style-guide/#csv[CSV]
+
+|CygMon \| cygmon \| CYGMON|link:https://redhat-documentation.github.io/supplementary-style-guide/#cygmon[Cygmon]
+
+|Denial of Service|link:https://redhat-documentation.github.io/supplementary-style-guide/#denial-of-service-n[denial of service (as a noun)]
+
+|Denial-of-Service|link:https://redhat-documentation.github.io/supplementary-style-guide/#denial-of-service-adj[denial-of-service (as an adjective)]
+
+|devops \| Devops \| Dev-Ops \| Dev Ops|link:https://redhat-documentation.github.io/supplementary-style-guide/#devops-n[DevOps (as a noun)]
+
+|Disk druid \| disk druid \| diskdruid|link:https://redhat-documentation.github.io/supplementary-style-guide/#disk-druid[Disk Druid]
+
+|dns|link:https://redhat-documentation.github.io/supplementary-style-guide/#dns[DNS]
+
+|DVD burner \| burner|link:https://redhat-documentation.github.io/supplementary-style-guide/#DVD-writer[DVD writer]
+
+|EXIF \| exif|link:https://redhat-documentation.github.io/supplementary-style-guide/#exif[Exif]
+
+|Faq \| faq \| F.A.Q|link:https://redhat-documentation.github.io/supplementary-style-guide/#faq[FAQ]
+
+|fedora project|link:https://redhat-documentation.github.io/supplementary-style-guide/#fedora-project[Fedora™ Project]
+
+|fortran|link:https://redhat-documentation.github.io/supplementary-style-guide/#fortran[Fortran]
+
+|Fqdn \| fqdn|link:https://redhat-documentation.github.io/supplementary-style-guide/#fqdn[FQDN]
+
+|gb \| Gb|link:https://redhat-documentation.github.io/supplementary-style-guide/#gb[GB]
+
+|gbps \| GBPS|link:https://redhat-documentation.github.io/supplementary-style-guide/#gbps[Gbps]
+
+|GDBTK|link:https://redhat-documentation.github.io/supplementary-style-guide/#insight[Insight]
+
+|gid \| Gid|link:https://redhat-documentation.github.io/supplementary-style-guide/#gid[GID]
+
+|Gimp \| gimp|link:https://redhat-documentation.github.io/supplementary-style-guide/#gimp[GIMP]
+
+|git \| GIT|link:https://redhat-documentation.github.io/supplementary-style-guide/#git[Git]
+
+|Gnome \| gnome|link:https://redhat-documentation.github.io/supplementary-style-guide/#gnome[GNOME]
+
+|Gnu \| gnu|link:https://redhat-documentation.github.io/supplementary-style-guide/#gnu[GNU]
+
+|Gpl \| gpl|link:https://redhat-documentation.github.io/supplementary-style-guide/#gpl[GPL]
+
+|Grub|link:https://redhat-documentation.github.io/supplementary-style-guide/#grub[GRUB]
+
+|GTK \| Gtk \| gtk|link:https://redhat-documentation.github.io/supplementary-style-guide/#gtkplus[GTK+]
+
+|HP Proliant|link:https://redhat-documentation.github.io/supplementary-style-guide/#hp-proliant[HP ProLiant]
+
+|hyperthreading \| hyper-threading|link:https://redhat-documentation.github.io/supplementary-style-guide/#hyper-threading[Hyper-Threading]
+
+|HyperVisor \| Hyperviser|link:https://redhat-documentation.github.io/supplementary-style-guide/#hypervisor[hypervisor]
+
+|IA64 \| ia64|link:https://redhat-documentation.github.io/supplementary-style-guide/#itanium[Itanium]
+
+|IBM z Systems|link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-z[IBM Z]
+
+|Iops \| IOPs|link:https://redhat-documentation.github.io/supplementary-style-guide/#iops[IOPS]
+
+|Ip|link:https://redhat-documentation.github.io/supplementary-style-guide/#ip[IP]
+
+|IPSec|link:https://redhat-documentation.github.io/supplementary-style-guide/#ipsec[IPsec]
+
+|iSeries|link:https://redhat-documentation.github.io/supplementary-style-guide/#iseries[ISeries]
+
+|iso image|link:https://redhat-documentation.github.io/supplementary-style-guide/#iso-image[ISO image]
+
+|iso|link:https://redhat-documentation.github.io/supplementary-style-guide/#iso[ISO]
+
+|Itanium2|link:https://redhat-documentation.github.io/supplementary-style-guide/#itanium-2[Itanium 2]
+
+|JBoss.org|link:https://redhat-documentation.github.io/supplementary-style-guide/#jboss-community[JBoss Community]
+
+|Jvm \| jvm|link:https://redhat-documentation.github.io/supplementary-style-guide/#jvm[JVM]
+
+|kernel-based virtual machine|link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-based-virtual-machine[Kernel-based Virtual Machine]
+
+|kickstart|link:https://redhat-documentation.github.io/supplementary-style-guide/#kickstart[Kickstart]
+
+|kvm|link:https://redhat-documentation.github.io/supplementary-style-guide/#kvm[KVM]
+
+|Lan \| lan|link:https://redhat-documentation.github.io/supplementary-style-guide/#lan[LAN]
+
+|LINUX \| linux|link:https://redhat-documentation.github.io/supplementary-style-guide/#linux[Linux]
+
+|ms-dos \| MSDOS \| msdos|link:https://redhat-documentation.github.io/supplementary-style-guide/#ms-dos[MS-DOS]
+
+|MS \| MSFT \| MicroSoft|link:https://redhat-documentation.github.io/supplementary-style-guide/#microsoft[Microsoft]
+
+|MYSQL \| mySQL|link:https://redhat-documentation.github.io/supplementary-style-guide/#mysql[MySQL]
+
+|Objective-C|link:https://redhat-documentation.github.io/supplementary-style-guide/#objective-c[Objective C]
+
+|Open InfiniBand \| Infiniband|link:https://redhat-documentation.github.io/supplementary-style-guide/#infiniband[InfiniBand]
+
+|Operating Environment|link:https://redhat-documentation.github.io/supplementary-style-guide/#operating-environment[operating environment]
+
+|Opex \| Opex \| OPEX \| opEx|link:https://redhat-documentation.github.io/supplementary-style-guide/#opex[OpEx]
+
+|OS \| Operating System|link:https://redhat-documentation.github.io/supplementary-style-guide/#operating-system[operating system]
+
+|popup \| Pop-up|link:https://redhat-documentation.github.io/supplementary-style-guide/#popup[pop-up]
+
+|Posix \| posix \| variations|link:https://redhat-documentation.github.io/supplementary-style-guide/#posix[POSIX]
+
+|Postscript|link:https://redhat-documentation.github.io/supplementary-style-guide/#postscript[PostScript]
+
+|PPC \| P-PC \| PPC64|link:https://redhat-documentation.github.io/supplementary-style-guide/#powerpc[PowerPC]
+
+|Ppp \| ppp|link:https://redhat-documentation.github.io/supplementary-style-guide/#ppp[PPP]
+
+|prom \| Prom|link:https://redhat-documentation.github.io/supplementary-style-guide/#prom[PROM]
+
+|pSeries|link:https://redhat-documentation.github.io/supplementary-style-guide/#ibm-eserver-system-p[IBM eServer System p]
+
+|q & a \| q&a Q & A \| Q&A|link:https://redhat-documentation.github.io/supplementary-style-guide/#q-and-a[Q and A]
+
+|qcow2 \| Qcow2|link:https://redhat-documentation.github.io/supplementary-style-guide/#qcow2[QCOW2]
+
+|Qeth \| QETH|link:https://redhat-documentation.github.io/supplementary-style-guide/#qeth[qeth]
+
+|Ram \| ram|link:https://redhat-documentation.github.io/supplementary-style-guide/#ram[RAM]
+
+|RAMdisk \| ramdisk \| RAM-disk|link:https://redhat-documentation.github.io/supplementary-style-guide/#ram-disk[RAM disk]
+
+|RAW|link:https://redhat-documentation.github.io/supplementary-style-guide/#raw[raw]
+
+|Red Hat Proxy (Server)|link:https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-proxy-server[Red Hat Network Proxy Server]
+
+|Red Hat Satellite (Server)|link:https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-network-satellite-server[Red Hat Network Satellite Server]
+
+|Redboot \| Red Boot \| red|link:https://redhat-documentation.github.io/supplementary-style-guide/#redboot[RedBoot]
+
+|Rom \| rom|link:https://redhat-documentation.github.io/supplementary-style-guide/#rom[ROM]
+
+|rpm|link:https://redhat-documentation.github.io/supplementary-style-guide/#rpm[RPM]
+
+|s-record \| S-Record \| s-Record \| SREC \| or any other variation|link:https://redhat-documentation.github.io/supplementary-style-guide/#s-record[S-record]
+
+|samba \| SAMBA|link:https://redhat-documentation.github.io/supplementary-style-guide/#samba[Samba]
+
+|SE-Linux \| S-E Linux \| SE Linux \| selinux|link:https://redhat-documentation.github.io/supplementary-style-guide/#selinux[SELinux]
+
+|Shadow Man \| ShadowMan|link:https://redhat-documentation.github.io/supplementary-style-guide/#shadowman[Shadowman]
+
+|Shadow passwords|link:https://redhat-documentation.github.io/supplementary-style-guide/#shadow-passwords[shadow passwords]
+
+|Shadow utilities|link:https://redhat-documentation.github.io/supplementary-style-guide/#shadow-utilities[shadow utilities]
+
+|socks|link:https://redhat-documentation.github.io/supplementary-style-guide/#socks[SOCKS]
+
+|software collection \| collection \| Software collection \| Collection|link:https://redhat-documentation.github.io/supplementary-style-guide/#software-collection[Software Collection]
+
+|SR IOV|link:https://redhat-documentation.github.io/supplementary-style-guide/#ser-iov[SR-IOV]
+
+|SSH as a verb|link:https://redhat-documentation.github.io/supplementary-style-guide/#ssh[SSH]
+
+|TLS SSL|link:https://redhat-documentation.github.io/supplementary-style-guide/#ssl-tls[SSL/TLS]
+
+|SSL \| TLS \| TLS SSL|link:https://redhat-documentation.github.io/supplementary-style-guide/#brokerless[SSL/TLS]
+
+|Star \| Staroffice \| Star Office|link:https://redhat-documentation.github.io/supplementary-style-guide/#staroffice[StarOffice]
+
+|StartX|link:https://redhat-documentation.github.io/supplementary-style-guide/#startx[startx]
+
+|SU|link:https://redhat-documentation.github.io/supplementary-style-guide/#su[su]
+
+|Sys V \| System V|link:https://redhat-documentation.github.io/supplementary-style-guide/#sysv[SysV]
+
+|system D \| system D \| SystemD \| system d \| Systemd|link:https://redhat-documentation.github.io/supplementary-style-guide/#systemd[systemd]
+
+|Tolapai \| Intel Tolapai|link:https://redhat-documentation.github.io/supplementary-style-guide/#intel-ep80579-integrated-processor[Intel(R) EP80579 Integrated Processor]
+
+|ttl|link:https://redhat-documentation.github.io/supplementary-style-guide/#ttl[TTL]
+
+|uid|link:https://redhat-documentation.github.io/supplementary-style-guide/#uid[UID]
+
+|ULTRASPARC \| UltraSparc \| or other variations.|link:https://redhat-documentation.github.io/supplementary-style-guide/#UltraSPARC[UltraSPARC]
+
+|Unix \| unix \| UNIX-like \| UNIX-based|link:https://redhat-documentation.github.io/supplementary-style-guide/#unix[UNIX]
+
+|url|link:https://redhat-documentation.github.io/supplementary-style-guide/#url[URL]
+
+|var|link:https://redhat-documentation.github.io/supplementary-style-guide/#var[VAR]
+
+|VI|link:https://redhat-documentation.github.io/supplementary-style-guide/#vi[vi]
+
+|VIM \| vim|link:https://redhat-documentation.github.io/supplementary-style-guide/#vim[Vim]
+
+|Virtual Desktop Server Management|link:https://redhat-documentation.github.io/supplementary-style-guide/#vdsm[VDSM]
+
+|virtual-console \| Virtual Console|link:https://redhat-documentation.github.io/supplementary-style-guide/#virtual-console[virtual console]
+
+|vlan \| vLAN|link:https://redhat-documentation.github.io/supplementary-style-guide/#vlan[VLAN]
+
+|vnic \| VNIC \| Virtual Network Interface Card|link:https://redhat-documentation.github.io/supplementary-style-guide/#vnic[vNIC]
+
+|vnuma \| VNUMA|link:https://redhat-documentation.github.io/supplementary-style-guide/#vnuma[vNUMA node]
+
+|vpn|link:https://redhat-documentation.github.io/supplementary-style-guide/#vpn[VPN]
+
+|VT-i \| VT|link:https://redhat-documentation.github.io/supplementary-style-guide/#intel-virtualization-technology[Intel Virtualization Technology]
+
+|wan|link:https://redhat-documentation.github.io/supplementary-style-guide/#wan[WAN]
+
+|wca|link:https://redhat-documentation.github.io/supplementary-style-guide/#wca[WCA]
+
+|web-UI \| webUI|link:https://redhat-documentation.github.io/supplementary-style-guide/#web-ui[web UI]
+
+|Window-Maker \| WindowMaker|link:https://redhat-documentation.github.io/supplementary-style-guide/#window-maker[Window Maker]
+
+|Xemacs|link:https://redhat-documentation.github.io/supplementary-style-guide/#xemacs[XEmacs]
+
+|Xterm|link:https://redhat-documentation.github.io/supplementary-style-guide/#xterm[xterm]
+
+|yaml|link:https://redhat-documentation.github.io/supplementary-style-guide/#yaml[YAML]
+
+|I \| he \| she|link:https://redhat-documentation.github.io/supplementary-style-guide/#you[you]
+
+|lots of \| bunches of|link:https://redhat-documentation.github.io/supplementary-style-guide/#many[many]
+
+|command prompt \| terminal \| shell|link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[shell prompt]
+
+|channel|link:https://redhat-documentation.github.io/supplementary-style-guide/#repository[repository]
+
+|Cloud|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-adj[cloud (as an adjective)]
+
+|Cloud|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-n[cloud (as a noun)]
+
+|code|link:https://redhat-documentation.github.io/supplementary-style-guide/#write[write]
+
+|refer to|link:https://redhat-documentation.github.io/supplementary-style-guide/#see[see]
+
+|segfault as a verb|link:https://redhat-documentation.github.io/supplementary-style-guide/#segmentation-fault[segmentation fault]
+
 |oops|link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops[kernel oops]
 
 |firefox|link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox[Mozilla Firefox]
@@ -18,9 +270,9 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |bottle neck \| bottle-neck|link:https://redhat-documentation.github.io/supplementary-style-guide/#bottleneck[bottleneck]
 
-|broad cast \| broad-cast (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-n[broadcast]
+|broad cast \| broad-cast|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-n[broadcast (as a noun)]
 
-|broad cast \| broad-cast (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-v[broadcast]
+|broad cast \| broad-cast|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-v[broadcast (as a verb)]
 
 |air wall|link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[air gap]
 
@@ -56,8 +308,6 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |command driven \| commanddriven|link:https://redhat-documentation.github.io/supplementary-style-guide/#command-driven[command-driven]
 
-|command prompt \| terminal \| shell|link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[shell prompt]
-
 |command-language|link:https://redhat-documentation.github.io/supplementary-style-guide/#command-language[command language]
 
 |computer farm \| computer ranch|link:https://redhat-documentation.github.io/supplementary-style-guide/#server-farm[server farm]
@@ -70,25 +320,25 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |crossplatform \| cross platform|link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-platform[cross-platform]
 
-|daisy-chain \| daisychain (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[daisy chain]
+|daisy-chain \| daisychain|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[daisy chain (as a noun)]
 
-|daisy-chain \| daisychain (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-v[daisy chain]
+|daisy-chain \| daisychain|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-v[daisy chain (as a verb)]
 
 |datacenter \| data-center \| data centre \| datacentre|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-center[data center]
 
 |datamirroring \| data-mirroring|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-mirroring[data mirroring]
 
-|datapath|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-path-n[data path]
+|datapath|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-path-n[data path (as a noun)]
 
-|de-bug (as a adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj[debug]
+|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj[debug (as an adjective)]
 
-|de-bug (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-v[debug]
+|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-v[debug (as a verb)]
 
 |desire \| wish|link:https://redhat-documentation.github.io/supplementary-style-guide/#need[need]
 
-|desk top \| desk-top (as an adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[desktop]
+|desk top \| desk-top|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[desktop (as an adjective)]
 
-|desk top \| desk-top (as an noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-n[desktop]
+|desk top \| desk-top|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-n[desktop (as a noun)]
 
 |different than \| different to|link:https://redhat-documentation.github.io/supplementary-style-guide/#different[different from]
 
@@ -96,13 +346,13 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |domainname \| domain-name|link:https://redhat-documentation.github.io/supplementary-style-guide/#domain-name[domain name]
 
-|down-load \| down load (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[download]
+|down-load \| down load|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[download (as a noun)]
 
-|down-load \| down load (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-v[download]
+|down-load \| down load|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-v[download (as a verb)]
 
-|down-stream \| down stream  (as an adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj[downstream]
+|down-stream \| down stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj[downstream (as an adjective)]
 
-|down-stream \| down stream  (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-n[downstream]
+|down-stream \| down stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-n[downstream (as a noun)]
 
 |dualboot \| dual boot|link:https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot[dual-boot]
 
@@ -149,8 +399,6 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 |Linux specific \| chip specific \| and so on|link:https://redhat-documentation.github.io/supplementary-style-guide/#specific[specific]
 
 |look at|link:https://redhat-documentation.github.io/supplementary-style-guide/#examine[examine]
-
-|lots of \| bunches of|link:https://redhat-documentation.github.io/supplementary-style-guide/#many[many]
 
 |make sure|link:https://redhat-documentation.github.io/supplementary-style-guide/#verify[verify]
 
@@ -244,9 +492,9 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |up-selling \| up selling|link:https://redhat-documentation.github.io/supplementary-style-guide/#upselling[upselling]
 
-|up-stream \| up stream (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-n[upstream]
+|up-stream \| up stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-n[upstream (as a noun)]
 
-|up-stream \| up stream (as a adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-adj[upstream]
+|up-stream \| up stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-adj[upstream (as an adjective)]
 
 |up-time \| up time|link:https://redhat-documentation.github.io/supplementary-style-guide/#uptime[uptime]
 
@@ -256,3 +504,4 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |wish \| would like|link:https://redhat-documentation.github.io/supplementary-style-guide/#want[want]
 |====
+
