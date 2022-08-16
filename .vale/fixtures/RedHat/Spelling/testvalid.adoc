@@ -230,6 +230,7 @@ Runtimes
 Sakila
 SCM
 Scrollbar
+SELinux
 Semeru
 Serializer
 Serverless
