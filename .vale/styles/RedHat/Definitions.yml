@@ -11,6 +11,7 @@ second: '\(([A-Z]{3,5}s?)\)'
 # ... with the exception of these:
 exceptions:
   - 'RPMs?'
+  - 'NULL'
   - API
   - ASP
   - BIND
@@ -76,7 +77,6 @@ exceptions:
   - NGINX
   - NIC
   - NOTE
-  - NULL
   - NVDA
   - OEM
   - OSS
