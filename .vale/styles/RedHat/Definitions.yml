@@ -12,6 +12,7 @@ second: '\(([A-Z]{3,5}s?)\)'
 exceptions:
   - 'RPMs?'
   - 'CVEs?'
+  - 'NULL'
   - API
   - ASP
   - BIND
