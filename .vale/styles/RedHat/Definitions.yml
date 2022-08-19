@@ -11,6 +11,7 @@ second: '\(([A-Z]{3,5}s?)\)'
 # ... with the exception of these:
 exceptions:
   - 'RPMs?'
+  - 'CVEs?'
   - 'NULL'
   - API
   - ASP
