@@ -66,6 +66,7 @@ create
 create retrieve update and delete
 cross-platform
 cross-site scripting
+daemon
 daisy chain
 data
 data center
