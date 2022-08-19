@@ -252,6 +252,7 @@ filters:
   - Rolfe
   - Sakila
   - SCM
+  - SELinux
   - Semeru
   - Shadowman
   - startx
