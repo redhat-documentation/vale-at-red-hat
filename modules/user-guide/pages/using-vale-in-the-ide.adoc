@@ -13,7 +13,7 @@
 Consider using Vale in your IDE when:
 
 * You want a direct feedback in your editor.
-* You use a supported IDE, such as Visual Studio Code.
+* You use a supported IDE, such as Visual Studio Code. See: link:https://vale.sh/docs/integrations/guide/[How to integrate Vale with other tools and services].
 
 .Prerequisites
 
@@ -42,4 +42,4 @@ Consider using Vale in your IDE when:
 .Additional resources
 
 * link:https://github.com/errata-ai/vale-vscode[Visual Studio Code extension for Vale repository and documentation]
-
+* link:https://vale.sh/docs/integrations/guide/[How to integrate Vale with other tools and services]
