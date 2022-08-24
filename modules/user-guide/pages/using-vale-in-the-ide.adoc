@@ -24,13 +24,6 @@ Consider using Vale in your IDE when:
 
 . In  Visual Studio Code, install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale using the Marketplace].
 
-. Configure the extension to use Vale CLI rather than Vale Server  in the extension settings (*Preferences > Extensions > Vale > Use CLI*).
-+
-[source,json]
-----
-"vale.core.useCLI": true
-----
-
 . Restart Visual Studio Code.
 
 .Verification
