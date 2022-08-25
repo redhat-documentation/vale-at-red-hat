@@ -198,6 +198,7 @@ filters:
   - HTTPS
   - IDE
   - IDEs
+  - Infinispan
   - Intelephense
   - IntelliJ
   - Itanium

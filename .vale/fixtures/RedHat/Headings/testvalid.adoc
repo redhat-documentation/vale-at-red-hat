@@ -1,2 +1,3 @@
 = A valid heading
 == GitLab Code Quality
+== The Infinispan project
