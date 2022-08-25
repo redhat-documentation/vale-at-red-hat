@@ -1,11 +1,14 @@
 :navtitle: PassiveVoice
 :keywords: reference, rule, PassiveVoice
 
-= PassiveVoice
+= Passive Voice
 
-Avoid passive voice. Consider rewording in active voice. You can use the passive voice in prerequisites
+Avoid using the passive voice. Consider rewording passive voice sentences in the active voice.
+
+You can use the passive voice in prerequisites.
 
 .Additional resources
 
 * link:{ssg-url}#prerequisites[{ssg} - Prerequisites]
-* link:{ibmsg-url}[{ibmsg} - Voice, p.35]
+* link:{ibmsg-url-print}[{ibmsg-print} - Voice, p.35]
+* link:{ibmsg-url}?topic=grammar-verbs#voice[{ibmsg} - Voice]

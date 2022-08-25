@@ -18,6 +18,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Vale Linter
-        uses: errata-ai/vale-action@v1.4.0
+        uses: errata-ai/vale-action@v1.5.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

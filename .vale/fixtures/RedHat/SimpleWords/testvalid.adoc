@@ -4,6 +4,7 @@ agree
 aim
 allow
 allowed
+an address
 ask
 assign
 award
@@ -56,6 +57,9 @@ improve
 include
 included
 inside
+IP address
+IPv4 address
+IPv6 address
 keep
 large
 late
@@ -64,6 +68,7 @@ latest
 leave
 let
 listed
+MAC address
 many
 meet
 merge
@@ -103,6 +108,7 @@ stop
 stress
 support
 tell
+the address
 total
 try
 use

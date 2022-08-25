@@ -1,10 +1,12 @@
 :_module-type: REFERENCE
 [id="ssg_vale_warning_reference"]
-= Vale warning rule guidance
+= Vale warning rules
 
-The following table lists incorrect terminology and the approved usage.
+pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->]
+pass:[<!-- vale RedHat.TermsWarnings = NO -->]
+pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
-.Warning terms guidance
+.Supplementary Style Guide terminology guidance
 [options="header"]
 |====
 |Incorrect term|Correct term

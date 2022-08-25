@@ -1,0 +1,16 @@
+// Metadata for Antora
+:navtitle: GitLab Code Quality reports
+:keywords: vale gitlab
+// :page-aliases: 
+// End of metadata for Antora
+
+:parent-context-of-enabling-style-compliance-reports-in-gitlab-merge-requests: {context}
+
+[id="configuring-vale-for-gitlab-code-quality-reports_{context}"]
+= GitLab Code Quality reports
+
+:context: enabling-style-compliance-reports-in-gitlab-merge-requests
+
+include::partial$proc_enabling-style-compliance-reports-in-gitlab-merge-requests.adoc[leveloffset=+1]
+
+:context: {parent-context-of-enabling-style-compliance-reports-in-gitlab-merge-requests}

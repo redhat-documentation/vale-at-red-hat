@@ -12,6 +12,7 @@ filters:
   - 'Node\.js'
   - "[aA]utostart"
   - "[bB]ackfilling"
+  - "[bB]acktrace"
   - "[bB]indable"
   - "[bB]oolean"
   - "[bB]reakpoint"
@@ -43,6 +44,7 @@ filters:
   - "[kK]eycloak"
   - "[kK]eyring"
   - "[kK]eyrings"
+  - "[lL]ibvirt"
   - "[lL]icensor"
   - "[lL]iveness"
   - "[lL]oopback"
@@ -55,6 +57,7 @@ filters:
   - "[mM]ulticluster"
   - "[mM]ultihost"
   - "[mM]ultinode"
+  - "[mM]ultithread"
   - "[mM]ultitenant"
   - "[mM]ultiuser"
   - "[mM]ultizone"
@@ -110,6 +113,7 @@ filters:
   - "[sS]ystemd"
   - "[tT]heia"
   - "[tT]olerations"
+  - "[tT]raceback"
   - "[tT]ruststore"
   - "[uU]ncomment"
   - "[uU]ndercloud"
@@ -248,6 +252,7 @@ filters:
   - Rolfe
   - Sakila
   - SCM
+  - SELinux
   - Semeru
   - Shadowman
   - startx

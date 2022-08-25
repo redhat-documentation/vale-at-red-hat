@@ -33,7 +33,7 @@ i.fa.icon-caution::before {
     background: no-repeat url("../img/caution.svg");
 }
 
-/* Che logo in navigation bar */
+/* Logo in navigation bar */
 .navbar-item img.navbar-logo {
     margin-right: 1ex;
     width: 13%;

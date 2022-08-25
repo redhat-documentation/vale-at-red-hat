@@ -1,24 +1,27 @@
 :_module-type: REFERENCE
 [id="ssg_vale_suggestion_reference"]
-= Vale suggestion rule guidance
+= Vale suggestion rules
 
-The following table lists incorrect terminology and the approved usage as outlined in the Red Hat Supplementary Style Guide.
+pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->]
+pass:[<!-- vale RedHat.TermsSuggestions = NO -->]
+pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 .Supplementary Style Guide terminology guidance
 [options="header"]
 |====
 |Incorrect term|Correct term
 
-|command prompt OR terminal OR shell|link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[shell prompt]
+|command prompt \| terminal \| shell|link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[shell prompt]
 
 |channel|link:https://redhat-documentation.github.io/supplementary-style-guide/#repository[repository]
 
-|Cloud|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-adj[cloud]
+|cloud (as an adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-adj[cloud]
+
+|Cloud (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-n[cloud]
 
 |code|link:https://redhat-documentation.github.io/supplementary-style-guide/#write[write]
 
 |refer to|link:https://redhat-documentation.github.io/supplementary-style-guide/#see[see]
 
-|segfault (verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#segmentation-fault[segmentation fault]
+|segfault (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#segmentation-fault[segmentation fault]
 |====
-

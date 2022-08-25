@@ -1,8 +1,9 @@
 :_module-type: REFERENCE
 [id="ssg_vale_error_reference"]
-= Vale error rule guidance
+= Vale error rules
 
-The following table lists incorrect terminology and the approved usage as outlined in the Red Hat Supplementary Style Guide.
+pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->]
+pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 .Supplementary Style Guide terminology guidance
 [options="header"]
@@ -17,7 +18,9 @@ The following table lists incorrect terminology and the approved usage as outlin
 
 |bottle neck \| bottle-neck|link:https://redhat-documentation.github.io/supplementary-style-guide/#bottleneck[bottleneck]
 
-|broad cast \| broad-cast|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-v[broadcast]
+|broad cast \| broad-cast (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-n[broadcast]
+
+|broad cast \| broad-cast (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-v[broadcast]
 
 |air wall|link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[air gap]
 
@@ -67,7 +70,9 @@ The following table lists incorrect terminology and the approved usage as outlin
 
 |crossplatform \| cross platform|link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-platform[cross-platform]
 
-|daisy-chain \| daisychain|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[daisy chain]
+|daisy-chain \| daisychain (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[daisy chain]
+
+|daisy-chain \| daisychain (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-v[daisy chain]
 
 |datacenter \| data-center \| data centre \| datacentre|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-center[data center]
 
@@ -75,11 +80,15 @@ The following table lists incorrect terminology and the approved usage as outlin
 
 |datapath|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-path-n[data path]
 
-|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj[debug]
+|de-bug (as a adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj[debug]
+
+|de-bug (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-v[debug]
 
 |desire \| wish|link:https://redhat-documentation.github.io/supplementary-style-guide/#need[need]
 
-|desk top \| desk-top|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[desktop]
+|desk top \| desk-top (as an adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[desktop]
+
+|desk top \| desk-top (as an noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-n[desktop]
 
 |different than \| different to|link:https://redhat-documentation.github.io/supplementary-style-guide/#different[different from]
 
@@ -87,9 +96,13 @@ The following table lists incorrect terminology and the approved usage as outlin
 
 |domainname \| domain-name|link:https://redhat-documentation.github.io/supplementary-style-guide/#domain-name[domain name]
 
-|down-load \| down load|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[download]
+|down-load \| down load (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[download]
 
-|down-stream \| down stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj[downstream]
+|down-load \| down load (as a verb)|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-v[download]
+
+|down-stream \| down stream  (as an adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj[downstream]
+
+|down-stream \| down stream  (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-n[downstream]
 
 |dualboot \| dual boot|link:https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot[dual-boot]
 
@@ -219,7 +232,7 @@ The following table lists incorrect terminology and the approved usage as outlin
 
 |the installer|link:https://redhat-documentation.github.io/supplementary-style-guide/#installation-program[installation program]
 
-|thin-provisioned \| thinly provisioned \| thinly-provisioned|link:https://redhat-documentation.github.io/supplementary-style-guide/#thin-provisioned[thin-provisioned]
+|thinly provisioned \| thinly-provisioned|link:https://redhat-documentation.github.io/supplementary-style-guide/#thin-provisioned[thin-provisioned]
 
 |tier-one \| tier 1|link:https://redhat-documentation.github.io/supplementary-style-guide/#tier-1[tier-1]
 
@@ -231,9 +244,9 @@ The following table lists incorrect terminology and the approved usage as outlin
 
 |up-selling \| up selling|link:https://redhat-documentation.github.io/supplementary-style-guide/#upselling[upselling]
 
-|up-stream \| up stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-n[upstream]
+|up-stream \| up stream (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-n[upstream]
 
-|up-stream \| up stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-adj[upstream]
+|up-stream \| up stream (as a adjective)|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-adj[upstream]
 
 |up-time \| up time|link:https://redhat-documentation.github.io/supplementary-style-guide/#uptime[uptime]
 
@@ -242,6 +255,4 @@ The following table lists incorrect terminology and the approved usage as outlin
 |video-mode \| videomode|link:https://redhat-documentation.github.io/supplementary-style-guide/#video-mode[video mode]
 
 |wish \| would like|link:https://redhat-documentation.github.io/supplementary-style-guide/#want[want]
-
 |====
-

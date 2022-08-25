@@ -1,10 +1,11 @@
 :navtitle: OxfordComma
 :keywords: reference, rule, OxfordComma
 
-= OxfordComma
+= Oxford comma
 
 Use the Oxford comma.
 
 .Additional resources
 
-* link:{ibmsg-url}[{ibmsg} - Commas between clauses, p.45]
+* link:{ibmsg-url-print}[{ibmsg-print} - Commas between clauses, p.45]
+* link:{ibmsg-url}?topic=punctuation-commas#commas-between-clauses[{ibmsg} - Commas between clauses]

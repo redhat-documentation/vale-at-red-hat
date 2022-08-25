@@ -1,5 +1,5 @@
 // Metadata for Antora
-:navtitle: Installing Vale CLI
+:navtitle: Installing Vale by cloning the *{repository-name}* repo
 :keywords: vale
 :page-aliases: end-user-guide:using-vale-cli.adoc
 :description: Describes how to install and configure the Vale CLI
@@ -8,13 +8,16 @@
 :context: assembly_getting-started-with-vale
 :_module-type: PROCEDURE
 [id="proc_using-vale-cli-on-a-local-environment_{context}"]
-= Installing and configuring Vale
+= Installing and configuring Vale by cloning the *{repository-name}* repo
 
-To use `vale` CLI on any project in your local environment without further configuration in the projects, install the `vale` CLI and register the *{repository-name}* Vale configuration as the default.
+To use `vale` CLI on any project in your local environment, install the `vale` CLI and register the *{repository-name}* Vale configuration as the default.
+
+NOTE: Alternatively, if you do not intend to contribute to the *{repository-name}* project, you can configure the `RedHat` Vale style by downloading the latest release from GitHub. See xref:installing-vale-from-zip.adoc[]
 
 .Prerequisites
 
 * The `git` tool is installed.
+* The `asciidoctor` tool is installed. See link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Installing AsciiDoctor]
 
 .Procedure
 
@@ -22,7 +25,7 @@ To use `vale` CLI on any project in your local environment without further confi
 +
 NOTE: On the Vale site, click the tab for your operating system.
 
-. Get a copy of the link:{repository-url}[{repository-name} repository] to your local environment.
+. Clone the link:{repository-url}[{repository-name} repository] in your local environment.
 +
 [subs="+quotes,+attributes"]
 ----

@@ -1,0 +1,47 @@
+// Metadata for Antora
+:navtitle: Installing Vale from the latest release
+:keywords: vale
+:description: Describes how to install from the latest release and configure the Vale CLI
+// End of metadata for Antora
+
+:context: assembly_getting-started-with-vale
+:_module-type: PROCEDURE
+[id="proc_using-vale-cli-on-a-local-environment-zip_{context}"]
+= Installing and configuring Vale from the latest release
+
+To use `vale` CLI on any project in your local environment without further configuration in the projects, install the `vale` CLI and configure the `RedHat` style by downloading the latest release from GitHub.
+
+Use this procedure if you want to use the `RedHat` style and you do not intend to contribute to the project.
+
+.Procedure
+
+. Install the Vale command-line tool on your workstation. See link:https://docs.errata.ai/vale/install[Installing Vale].
++
+NOTE: On the Vale site, click the tab for your operating system.
+
+. Enter the following command to download the latest `RedHat` Vale rules and register the Vale configuration as the default.
++
+[subs="+quotes,+attributes"]
+----
+$ curl https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/main/tools/get-vale-styles-release.sh | bash -s
+----
+
+.Verification
+
+. Enter the `vale` command on one of your content files.
++
+[subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+. Review the vale output and use it to update your content file.
+
+. Re-enter the same `vale` command to see the updated results.
+
+.Additional resources
+
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+

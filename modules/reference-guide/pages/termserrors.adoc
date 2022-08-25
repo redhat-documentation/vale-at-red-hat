@@ -11,14 +11,15 @@
 
 Alert level:: Error
 
-Use the suggested term.
+Do not use error terms. Use the correct term as described in Red Hat Supplementary Style Guide (SSG). Click the link to view the corresponding entry in the SSG.
 
 include::partial$ref_error_terms.adoc[leveloffset=+1]
 
 .Additional resources
 
 * link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
-* link:{ibmsg-url}[{ibmsg} - Appendix C. Word usage, p. 300]
+* link:{ibmsg-url-print}[{ibmsg-print} - Appendix C. Word usage, p. 300]
+* link:{ibmsg-url}?topic=word-usage[{ibmsg} - Word usage]
 * link:{repository-url}blob/main/.vale/styles/RedHat/TermsErrors.yml[TermsErrors.yml source code]
 
 :context: {parent-context-of-terms-errors}
