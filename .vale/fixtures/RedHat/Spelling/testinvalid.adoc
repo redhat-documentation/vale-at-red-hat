@@ -20,6 +20,7 @@ gui
 homebrew
 Ide
 intelephense
+infinispan
 Intellij
 Intellij IDEA
 lombok
