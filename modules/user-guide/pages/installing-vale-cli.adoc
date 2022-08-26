@@ -1,49 +1,60 @@
 // Metadata for Antora
-:navtitle: Installing Vale by cloning the *{repository-name}* repo
+:navtitle: Installing Vale
 :keywords: vale
-:page-aliases: end-user-guide:using-vale-cli.adoc
-:description: Describes how to install and configure the Vale CLI
+:description: Describes how to install from the latest release and configure the Vale CLI
+:page-aliases: end-user-guide:using-vale-cli.adoc, installing-vale-cli-from-zip.adoc
 // End of metadata for Antora
-
+// Metadata for Modular Docs
 :context: assembly_getting-started-with-vale
 :_module-type: PROCEDURE
-[id="proc_using-vale-cli-on-a-local-environment_{context}"]
-= Installing and configuring Vale by cloning the *{repository-name}* repo
+// End of metadata for Modular Docs
+[id="proc_using-vale-cli_{context}"]
+= Installing Vale with the `RedHat` package
 
-To use `vale` CLI on any project in your local environment, install the `vale` CLI and register the *{repository-name}* Vale configuration as the default.
-
-NOTE: Alternatively, if you do not intend to contribute to the *{repository-name}* project, you can configure the `RedHat` Vale style by downloading the latest release from GitHub. See xref:installing-vale-from-zip.adoc[]
-
-.Prerequisites
-
-* The `git` tool is installed.
-* The `asciidoctor` tool is installed. See link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Installing AsciiDoctor]
+To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure the Vale CLI.
 
 .Procedure
 
-. Install the Vale command-line tool on your workstation. See link:https://docs.errata.ai/vale/install[Installing Vale].
+. Install the Vale command-line tool on your workstation.
+See link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 +
-NOTE: On the Vale site, click the tab for your operating system.
+[NOTE]
+On the Vale site, click the tab for your operating system.
 
-. Clone the link:{repository-url}[{repository-name} repository] in your local environment.
+. Register the `RedHat` Vale package in the `.vale.ini` Vale configuration file. Save the file in your `$HOME` directory:
 +
-[subs="+quotes,+attributes"]
+.The `$HOME/.vale.ini` file
+[source,ini]
 ----
-$ git clone {repository-clone-url}
-----
+StylesPath = styles
 
-. Register the *{repository-name}* vale configuration as the default.
+MinAlertLevel = suggestion
+Vocab = Base
+
+Packages = RedHat
+
+[*]
+BasedOnStyles = RedHat
+----
 +
-[subs="+quotes,+attributes"]
+[TIP]
+Some projects require a specific Vale configuration.
+Consider saving the `.vale.ini` file at the root of the project.
+See link:https://vale.sh/docs/topics/config[Vale configuration reference].
+
+. Initialize the Vale package.
++
+[source,commandline]
 ----
-$ cd {repository-name}
-$ ln -s "$PWD/.vale.ini" "$HOME/"
-$ ln -s "$PWD/.vale" "$HOME/"
+$ vale sync
 ----
++
+[TIP]
+Run the `vale sync` command periodically to update the `RedHat` Vale package.
 
 .Verification
 
-. Run the `vale` command on one of your content files.
+. Enter the `vale` command on one of your content files.
 +
 [subs="+quotes,+attributes"]
 ----
@@ -53,10 +64,11 @@ $ vale __<filename>__
 
 . Review the vale output and use it to update your content file.
 
-. Re-run the same `vale` command to see the updated results.
+. Re-enter the same `vale` command to see the updated results.
 
 .Additional resources
-
 * xref:understanding-vale-output.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
-
+* link:https://vale.sh/docs/vale-cli/installation/[Installing Vale CLI]
+* link:https://vale.sh/docs/topics/config[Configuring Vale CLI]
+* link:https://vale.sh/generator[Vale configuration generator]

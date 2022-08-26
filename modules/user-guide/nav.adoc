@@ -2,7 +2,6 @@
 
 * xref:introduction.adoc[]
 * xref:installing-vale-cli.adoc[]
-* xref:installing-vale-from-zip.adoc[]
 * xref:using-vale-in-the-ide.adoc[]
 * xref:redhat-style-for-vale.adoc[]
 * xref:glossary.adoc[]
