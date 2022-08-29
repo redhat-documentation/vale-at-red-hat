@@ -127,6 +127,8 @@ exceptions:
   - PostgreSQL
   - PostScript
   - PowerPC
+  - Productize
+  - Productized
   - Prometheus
   - Pytorch
   - qeth

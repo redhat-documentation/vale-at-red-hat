@@ -67,6 +67,8 @@ filters:
   - "[oO]perator"
   - "[pP]reconfigured"
   - "[pP]ulldown"
+  - "[pP]roductize"
+  - "[pP]roductized"
   - "[rR]eadonly"
   - "[rR]ebalance"
   - "[rR]ebalances"
