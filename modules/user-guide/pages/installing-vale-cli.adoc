@@ -29,7 +29,6 @@ On the Vale site, click the tab for your operating system.
 StylesPath = styles
 
 MinAlertLevel = suggestion
-Vocab = Base
 
 Packages = RedHat
 
