@@ -48,6 +48,7 @@ podman
 quarkus
 restic
 scm
+Smallrye
 svg
 uber
 uri

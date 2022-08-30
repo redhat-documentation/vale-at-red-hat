@@ -258,6 +258,7 @@ filters:
   - SELinux
   - Semeru
   - Shadowman
+  - SmallRye
   - startx
   - Suchow
   - SVG

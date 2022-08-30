@@ -141,6 +141,7 @@ exceptions:
   - SCM
   - SELinux
   - Semeru
+  - SmallRye
   - Shadowman
   - StarOffice
   - startx
