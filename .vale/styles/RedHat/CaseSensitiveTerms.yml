@@ -131,4 +131,4 @@ swap:
   Window-Maker|WindowMaker: Window Maker
   Xemacs: XEmacs
   Xterm: xterm
-  yaml: YAML
+  '\s([Yy]aml)|^([Yy]aml)': YAML

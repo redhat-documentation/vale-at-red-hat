@@ -220,3 +220,5 @@ WindowMaker
 Xemacs
 Xterm
 yaml
+Yaml is not a markup language.
+Compared to yaml, JSON has way more curly braces.

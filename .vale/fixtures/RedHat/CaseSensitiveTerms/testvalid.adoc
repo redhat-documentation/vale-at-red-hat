@@ -1,6 +1,6 @@
 /var
 BIND
-bind 
+bind
 BIOS
 Btrfs
 CapEx
@@ -126,3 +126,4 @@ Window Maker
 XEmacs
 xterm
 YAML
+File extension example.yaml must pass.
