@@ -1,5 +1,7 @@
 a .NET application
 adoc
+Allowlist
+allowlist
 Annobin
 Ansible
 Antora
