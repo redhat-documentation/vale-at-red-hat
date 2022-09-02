@@ -223,6 +223,7 @@ Redistributions
 Reshard
 Resharding
 Reshards
+RESTEasy
 Restic
 Resyncing
 Rolfe

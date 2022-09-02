@@ -255,6 +255,7 @@ filters:
   - Quarkus
   - Redistributions
   - Restic
+  - RESTEasy
   - Rolfe
   - Sakila
   - SCM
