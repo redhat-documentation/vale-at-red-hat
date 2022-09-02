@@ -255,6 +255,7 @@ filters:
   - Quarkus
   - Redistributions
   - Restic
+  - RESTEasy
   - Rolfe
   - Sakila
   - SCM
@@ -262,6 +263,7 @@ filters:
   - Semeru
   - SLAs
   - Shadowman
+  - SmallRye
   - startx
   - Suchow
   - SVG

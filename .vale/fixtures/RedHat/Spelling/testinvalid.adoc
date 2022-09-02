@@ -47,7 +47,9 @@ postgres
 podman
 quarkus
 restic
+rest-easy
 scm
+Smallrye
 svg
 uber
 uri

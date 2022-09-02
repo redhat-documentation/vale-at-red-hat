@@ -145,6 +145,9 @@ Red Boot
 Red Hat Proxy
 Red Hat Satellite
 Redboot
+RESTEASY
+resteasy
+Resteasy
 rom
 Rom
 rpm

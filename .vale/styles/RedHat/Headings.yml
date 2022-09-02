@@ -136,11 +136,13 @@ exceptions:
   - Red Hat
   - RedBoot
   - Redistributions
+  - RESTEasy
   - Rolfe
   - Sakila
   - SCM
   - SELinux
   - Semeru
+  - SmallRye
   - Shadowman
   - StarOffice
   - startx

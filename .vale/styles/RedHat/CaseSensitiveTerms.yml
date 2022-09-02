@@ -88,6 +88,7 @@ swap:
   Red Hat Proxy: Red Hat Network Proxy Server
   Red Hat Satellite: Red Hat Network Satellite Server
   Redboot|Red Boot: RedBoot
+  RESTEASY|resteasy|Resteasy: RESTEasy
   Rom|rom: ROM
   rpm: RPM
   s-record|S-Record|s-Record|SREC: S-record
@@ -97,6 +98,7 @@ swap:
   Shadow Man|ShadowMan: Shadowman
   Shadow passwords: shadow passwords
   Shadow utilities: shadow utilities
+  Smallrye: SmallRye
   socks: SOCKS
   software collection|Software collection: Software Collection
   Spring boot: Spring Boot
