@@ -12,6 +12,8 @@
 
 Vale is a command-line tool that allows you to check your writing for grammar and spelling errors against a set of style rules. It's open source, fast, and highly customizable.
 
+video::745894696[vimeo]
+
 [id="con_the-benefits-of-using-vale_{context}"]
 == How does Vale help you improve your content?
 
@@ -27,5 +29,3 @@ Vale is a command-line tool that allows you to check your writing for grammar an
 
 * xref:installing-vale-cli.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]
-
-
