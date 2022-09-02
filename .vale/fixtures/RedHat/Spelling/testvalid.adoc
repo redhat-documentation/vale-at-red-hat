@@ -245,6 +245,7 @@ Shadowman
 Sharding
 SLA
 SLAs
+SmallRye
 startx
 su
 Subcommand
