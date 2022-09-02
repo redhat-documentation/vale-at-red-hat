@@ -85,6 +85,7 @@ raw
 Red Hat Network Proxy Server
 Red Hat Network Satellite Server
 RedBoot
+RESTEasy
 ROM
 RPM
 S-record
