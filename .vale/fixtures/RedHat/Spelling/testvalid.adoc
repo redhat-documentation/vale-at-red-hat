@@ -241,6 +241,8 @@ Serializer
 Serverless
 Shadowman
 Sharding
+SLA
+SLAs
 startx
 su
 Subcommand
