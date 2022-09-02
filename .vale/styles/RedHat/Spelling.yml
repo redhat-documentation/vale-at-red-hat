@@ -10,6 +10,7 @@ filters:
   - '\.NET'
   - 'I/O'
   - 'Node\.js'
+  - "[aA]llowlist"
   - "[aA]utostart"
   - "[bB]ackfilling"
   - "[bB]acktrace"
@@ -207,6 +208,7 @@ filters:
   - Jakarta
   - Java
   - Jave
+  - JBoss
   - Jetbrains
   - Jolokia
   - Joyent
@@ -247,6 +249,7 @@ filters:
   - preconfigured
   - prepended
   - Prometheus
+  - proxied
   - Pytorch
   - qeth
   - Quarkus
@@ -257,6 +260,7 @@ filters:
   - SCM
   - SELinux
   - Semeru
+  - SLAs
   - Shadowman
   - SmallRye
   - startx

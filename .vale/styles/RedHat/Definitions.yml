@@ -10,36 +10,50 @@ first: '\b([A-Z]{3,5}s?)\b'
 second: '\(([A-Z]{3,5}s?)\)'
 # ... with the exception of these:
 exceptions:
-  - 'RPMs?'
+  - 'CPUs?'
   - 'CVEs?'
+  - 'DVDs?'
   - 'NULL'
+  - 'GIDs?'
+  - 'PIDs?'
+  - 'ROMs?'
+  - 'RPMs?'
+  - 'UIDs?'
+  - 'URIs?'
+  - 'URLs?'
+  - ACPI
+  - AIX
   - API
+  - ARM
+  - ASCII
   - ASP
   - BIND
   - BIOS
   - CD
   - CLI
-  - CPU
   - CSS
   - CSV
+  - CUPS
   - DEBUG
+  - DHCP
   - DNF
   - DNS
   - DOM
+  - DOS
   - DPI
   - DRL
   - DSL
-  - DVD
   - EIP
+  - ERROR
   - FAQ
   - FQDN
+  - FTP
   - GAS
   - GB
   - GCC
   - GCJ
   - GDB
   - GET
-  - GID
   - GIMP
   - GNOME
   - GNU
@@ -68,16 +82,23 @@ exceptions:
   - KIE
   - KVM
   - LAN
+  - LDAP
   - LESS
   - LLDB
   - LPAR
+  - LUKS
+  - LVM
+  - MAC
   - MB
   - MBR
   - MDS
+  - NAT
   - NET
+  - NFS
   - NGINX
   - NIC
   - NOTE
+  - NTP
   - NVDA
   - OEM
   - OSS
@@ -86,30 +107,36 @@ exceptions:
   - POSIX
   - PDF
   - PHP
-  - PID
+  - PIN
   - PPP
   - POST
   - PROM
   - PXE
   - QCOW2
+  - QEMU
   - RADOS
+  - RAID
   - RAM
   - RBD
   - REPL
   - REST
+  - RFC
   - RGW
   - RHEL
-  - ROM
   - RSA
+  - SAP
   - SCM
+  - SCSI
   - SCSS
   - SDK
   - SFTP
   - SHA
   - SOCKS
+  - SPEC
   - SQL
   - SSH
   - SSL
+  - SSSD
   - SVG
   - SWAT
   - TBD
@@ -117,17 +144,22 @@ exceptions:
   - TLS
   - TODO
   - TTL
-  - UID
+  - UDP
+  - UEFI
   - UNIX
-  - URI
-  - URL
   - USB
+  - UTC
   - UTF
+  - UUID
   - VAR
+  - VDO
   - VDSM
+  - VGA
+  - VNC
   - VPN
   - WAN
   - WCA
+  - XFS
   - XML
   - XSS
   - YAML

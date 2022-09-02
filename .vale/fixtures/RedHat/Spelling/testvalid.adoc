@@ -1,5 +1,7 @@
 a .NET application
 adoc
+Allowlist
+allowlist
 Annobin
 Ansible
 Antora
@@ -130,6 +132,7 @@ Item
 Jakarta
 Java
 Jave
+JBoss
 Jetbrains
 Jolokia
 Journald
@@ -203,6 +206,7 @@ prepended
 productize
 productized
 Prometheus
+proxied
 Pulldown
 Pytorch
 qeth
@@ -239,6 +243,8 @@ Serializer
 Serverless
 Shadowman
 Sharding
+SLA
+SLAs
 SmallRye
 startx
 su
