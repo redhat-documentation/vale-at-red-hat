@@ -258,6 +258,7 @@ filters:
   - SCM
   - SELinux
   - Semeru
+  - SLAs
   - Shadowman
   - startx
   - Suchow
