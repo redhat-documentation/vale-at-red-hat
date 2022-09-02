@@ -132,6 +132,7 @@ Item
 Jakarta
 Java
 Jave
+JBoss
 Jetbrains
 Jolokia
 Journald
