@@ -12,7 +12,7 @@
 
 Vale is a command-line tool that allows you to check your writing for grammar and spelling errors against a set of style rules. It's open source, fast, and highly customizable.
 
-video::745894696[vimeo,poster="./images/poster-of-overview-video.png",title="Introduction to Vale at Red Hat",align="left"]
+video::745894696[vimeo,align="left",title="A brief non-technical introduction"]
 
 [id="con_the-benefits-of-using-vale_{context}"]
 == How does Vale help you improve your content?
