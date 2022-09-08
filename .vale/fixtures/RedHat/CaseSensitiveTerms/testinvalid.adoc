@@ -10,6 +10,7 @@ Cds
 CDS
 CGroup
 classic mode
+configmap
 control key
 csv
 ctrl

@@ -2,4 +2,5 @@ valid content: config map
 valid content: config maps
 valid content: configure
 valid content: kubeconfig
-
+It uses the install-config file.
+# Using config map in heading is okay

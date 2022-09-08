@@ -8,4 +8,4 @@ invalid content: config-map
 invalid content: config mail
 invalid content: config mapping
 invalid content: config abc
-invalid content: config
+invalid content: config map
