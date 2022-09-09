@@ -39,6 +39,8 @@ Che
 Che-Theia
 Ciphertext
 Civetweb
+ClassLoader
+classpath
 classloading
 Classloading
 Cloudbursting
@@ -103,6 +105,7 @@ Git
 GitHub
 GitLab
 Gluster
+GraalVM
 Gradle
 Grafana
 Grayscale
@@ -138,8 +141,10 @@ Jolokia
 Journald
 Journaling
 Joyent
+JUnit
 jvm
 JVM
+Kafka
 kbd
 Keycloak
 Keyring
@@ -161,6 +166,7 @@ Matrixes
 Mattermost
 Maven
 Mebibytes
+MicroProfile
 Microsoft
 Middleware
 Millicores
@@ -170,6 +176,7 @@ Mirantis
 Mixin
 Mixins
 Modularization
+MongoDB
 Multicluster
 Multihost
 Multinode
@@ -193,6 +200,7 @@ OAuth
 ocp
 OmniSharp
 Onboarding
+OpenID
 OpenShift
 OpenTracing
 Operator
@@ -300,6 +308,7 @@ URLs
 Valgrind
 Velero
 vsix
+WebAuthn
 Webview
 Webviews
 Wildfly

@@ -151,6 +151,8 @@ filters:
   - Che-Theia
   - Ciphertext
   - Civetweb
+  - classloader
+  - classpath
   - Cloudbursting
   - Cloudwashing
   - CodeReady
@@ -189,6 +191,7 @@ filters:
   - Gluster
   - Gradle
   - Grayscale
+  - GraalVM
   - GUI
   - Hashicorp
   - Helgrind
@@ -212,8 +215,10 @@ filters:
   - Jetbrains
   - Jolokia
   - Joyent
+  - JUnit
   - jvm
   - JVM
+  - Kafka
   - kbd
   - Kibana
   - Kompose
@@ -224,11 +229,13 @@ filters:
   - Makefile
   - Mattermost
   - Maven
+  - MicroProfile
   - Microsoft
   - Middleware
   - Minikube
   - Minishift
   - Mirantis
+  - MongoDB
   - MySQL
   - Nagios
   - Neoverse
@@ -240,6 +247,7 @@ filters:
   - OAuth
   - ocp
   - OmniSharp
+  - OpenID
   - OpenShift
   - OpenTracing
   - osd
@@ -283,6 +291,7 @@ filters:
   - Valgrind
   - Velero
   - vsix
+  - WebAuthn
   - Webview
   - Webviews
   - Wildfly

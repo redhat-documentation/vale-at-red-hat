@@ -8,6 +8,7 @@ btrfs
 centos
 Centos
 ceph
+Classloader
 crd
 ctrl
 Daemonset
@@ -16,6 +17,8 @@ dotnet
 endevor
 gluster
 gradle
+Graal VM
+graal vm
 gui
 homebrew
 Ide
@@ -32,6 +35,7 @@ lombok
 mattermost
 microsoft azure
 minikube
+Mongo DB
 Mysql
 mysql
 Netcoredebugoutput
