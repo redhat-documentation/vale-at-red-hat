@@ -54,6 +54,8 @@ gnu
 Gnu
 gpl
 Gpl
+Graalvm
+graalVM
 Grub
 gtk
 Gtk
@@ -76,6 +78,8 @@ iso
 iso image
 Itanium2
 JBoss.org
+Junit
+junit
 jvm
 Jvm
 kernel-based virtual machine
@@ -85,7 +89,12 @@ lan
 Lan
 linux
 LINUX
+Microprofile
+micro-profile
 MicroSoft
+mongoDB
+Mongodb
+Mongo-db
 MS
 ms-dos
 Ms-Dos
@@ -93,6 +102,9 @@ MS-dos
 msdos
 MSDOS
 MSFT
+mutual tls
+Mutual tls
+Mutual TLS
 mySQL
 MYSQL
 node.js
@@ -101,6 +113,8 @@ Node.JS
 nodejs
 Nodejs
 Objective-C
+openid connect
+Openid Connect
 Open InfiniBand
 Operating Environment
 Operating System
@@ -216,6 +230,9 @@ VT
 VT-i
 wan
 wca
+Webauthn
+webAuthn
+WebAuthN
 web-UI
 webUI
 Window-Maker

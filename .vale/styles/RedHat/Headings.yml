@@ -29,6 +29,8 @@ exceptions:
   - Che-Theia
   - Ciphertext
   - Civetweb
+  - ClassLoader
+  - Classloader
   - Cloudbursting
   - Cloudwashing
   - CodeReady
@@ -69,6 +71,7 @@ exceptions:
   - GitHub Action
   - GitLab
   - Gluster
+  - GraalVM
   - Gradle
   - Grayscale
   - GTKplus
@@ -76,6 +79,7 @@ exceptions:
   - Hashicorp
   - Helgrind
   - Helm
+  - Hibernate
   - Homebrew
   - HTTP
   - HTTPS
@@ -95,6 +99,7 @@ exceptions:
   - Jetbrains
   - Jolokia
   - Joyent
+  - JUnit
   - JVM
   - Kibana
   - Kompose
@@ -103,13 +108,17 @@ exceptions:
   - Laravel
   - Lombok
   - Makefile
+  - Mandrel
   - Mattermost
   - Maven
+  - MicroProfile
   - Microsoft
   - Middleware
   - Minikube
   - Minishift
   - Mirantis
+  - MongoDB
+  - mutual TLS
   - MySQL
   - Nagios
   - Neoverse
@@ -119,9 +128,11 @@ exceptions:
   - NuGet
   - OAuth
   - OmniSharp
+  - OpenID Connect
   - OpenShift
   - OpenTracing
   - OpEx
+  - ORM
   - PHP
   - Podman
   - PostgreSQL
@@ -167,6 +178,7 @@ exceptions:
   - Velero
   - vNIC
   - vNUMA
+  - WebAuthn
   - Webview
   - Webviews
   - Wildfly

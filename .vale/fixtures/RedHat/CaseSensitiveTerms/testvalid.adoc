@@ -31,8 +31,10 @@ GNOME
 GNOME Classic
 GNU
 GPL
+GraalVM
 GRUB
 GTK+
+Hibernate ORM
 HP ProLiant
 Hyper-Threading
 hypervisor
@@ -53,18 +55,25 @@ ISO image
 Itanium
 Itanium 2
 JBoss Community
+JUnit
 JVM
 Kernel-based Virtual Machine
 Kickstart
 KVM
 LAN
 Linux
+Mandrel
+MicroProfile
 Microsoft
+MongoDB
 ms
 MS-DOS
+mutual TLS
+mTLS
 MySQL
 Node.js
 Objective C
+OpenID Connect
 operating environment
 operating system
 OperatorHub
@@ -123,6 +132,7 @@ VPN
 WAN
 WCA
 web UI
+WebAuthn
 Window Maker
 XEmacs
 xterm

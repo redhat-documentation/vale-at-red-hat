@@ -41,6 +41,7 @@ swap:
   Gnome|gnome: GNOME
   Gnu|gnu: GNU
   Gpl|gpl: GPL
+  Graalvm|graalVM: GraalVM
   Grub: GRUB
   GTK|Gtk|gtk: GTK+
   HP Proliant: HP ProLiant
@@ -56,16 +57,21 @@ swap:
   iso: ISO
   Itanium2: Itanium 2
   JBoss.org: JBoss Community
+  Junit|junit: JUnit
   Jvm|jvm: JVM
   kernel-based virtual machine: Kernel-based Virtual Machine
   kickstart: Kickstart
   kvm: KVM
   Lan|lan: LAN
   LINUX|linux: Linux
+  Microprofile|micro-profile: MicroProfile
+  mongoDB|Mongodb|Mongo-db: MongoDB
   MS-dos|Ms-Dos|ms-dos|MSDOS|msdos: MS-DOS
   MS(?!-DOS?)|MSFT|MicroSoft: Microsoft
+  mutual tls|Mutual tls|Mutual TLS: mutual TLS
   MYSQL|mySQL: MySQL
   Objective-C: Objective C
+  openid connect|Openid Connect: OpenID Connect
   Open InfiniBand|Infiniband: InfiniBand
   Operating Environment: operating environment
   Operator Hub|Operator hub|Operatorhub|operatorhub: OperatorHub
@@ -130,6 +136,7 @@ swap:
   wan: WAN
   wca: WCA
   web-UI|webUI: web UI
+  Webauthn|webAuthn|WebAuthN: WebAuthn
   Window-Maker|WindowMaker: Window Maker
   Xemacs: XEmacs
   Xterm: xterm
