@@ -68,7 +68,7 @@ Use that list to differentiate false positives from legit errors. Use the curate
 
 * Run campaigns focused on one target such as: fix all errors, fix all occurrences of a given rule.
 
-* Disable a rule that is irrelevant in the file context. See: link:https://docs.errata.ai/vale/scoping[Vale - Scoping]
+* Disable a rule that is irrelevant in the file context. See: link:https://vale.sh/docs/topics/config/#markup-based-configuration[Vale - Markup-based configuration]
 +
 ----
 pass:[<!-- vale RedHat.Spelling = NO -->]
