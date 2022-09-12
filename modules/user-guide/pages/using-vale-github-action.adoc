@@ -25,36 +25,29 @@ WARNING: Due to the GitHub token permissions, this Action can not post annotatio
 
 .Procedure
 
-. Add a `.github/workflows/vale.yml` file to your repository with following content:
+* `.github/workflows/vale.yml` file to your repository with following content:
 +
+.`.github/workflows/vale.yml`
 [source,yaml]
 ----
 name: Linting with Vale
 on:
   - pull_request
 jobs:
-  prose:
+  vale:
+    name: Linting with Vale
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
-
+        uses: actions/checkout@v2
       - name: Vale Linter
-        uses: errata-ai/vale-action@v1.5.0
+        uses: errata-ai/vale-action@reviewdog
         with:
-          files: __onlyModified
-          onlyAnnotateModifiedLines: true
-          styles: https://github.com/redhat-documentation/vale-at-red-hat/releases/latest/download/RedHat.zip
-          config: https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/master/.vale-for-github-action.ini
+          fail_on_error: true
         env:
+          # Required, set by GitHub actions automatically:
+          # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-----
-
-. Create a `.github/styles` directory containing an empty file. The Vale GitHub Action use it to decompress the `RedHat` style.
-+
-----
-$ mkdir .github/styles
-$ touch .github/styles/.placeholder
 ----
 
 .Additional resources
