@@ -222,6 +222,7 @@ filters:
   - Kafka
   - kbd
   - Kibana
+  - knowledgebase
   - Kompose
   - Kubespray
   - Kylin
