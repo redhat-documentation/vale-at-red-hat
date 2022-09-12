@@ -5,4 +5,4 @@ message: '%s, rather than %s'
 level: suggestion
 scope: raw
 swap:
-  '__<[\w\x60]+-[\x60\w-]+>__': Separate words by underscores in user-replaced values
+  '__<[a-z_\x60]+-[\x60a-z_-]+>__': Separate words by underscores in user-replaced values
