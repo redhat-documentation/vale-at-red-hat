@@ -9,33 +9,19 @@
 #
 name: Linting with Vale on pull request
 on:
-  workflow_run:
-    workflows:
-      - Preview build
-    types:
-      - completed
+  - pull_request
 jobs:
   vale:
-    name: Linting with Vale on pull request
+    name: Linting with Vale
     runs-on: ubuntu-latest
     steps:
-      - name: Download preview-build artifact
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          workflow: ${{ github.event.workflow_run.workflow_id }}
-          name: preview-build
-      - name: Set variables
-        id: vars
-        run: echo "::set-output name=pr_sha::$(<PR_SHA)"
       - name: Checkout
-        uses: actions/checkout@master
-        with:
-          ref: ${{ steps.vars.outputs.pr_sha }}
+        uses: actions/checkout@v2
       - name: Vale Linter
-        uses: errata-ai/vale-action@v1.5.0
+        uses: errata-ai/vale-action@reviewdog
         with:
-          files: __onlyModified
-          onlyAnnotateModifiedLines: true
+          fail_on_error: true
         env:
+          # Required, set by GitHub actions automatically:
+          # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          OVERRIDE_GITHUB_SHA: ${{ steps.vars.outputs.pr_sha }}
