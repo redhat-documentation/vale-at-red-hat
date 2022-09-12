@@ -1,0 +1,6 @@
+:navtitle: Repeated words
+:keywords: reference, rule, RepeatedWords
+
+= Repeated words
+
+Word is repeated.

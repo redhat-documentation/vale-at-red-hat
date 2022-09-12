@@ -1,0 +1,3 @@
+This is __<a_user_replaced_value>__.
+This is __<{an-attribute-using-hyphens-in_a_user_replaced_value}>__.
+This is an hyphen, not in a user-replaced value.

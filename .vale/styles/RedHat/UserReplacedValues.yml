@@ -1,0 +1,8 @@
+---
+source: https://redhat-documentation.github.io/supplementary-style-guide/#user-replaced-values
+extends: substitution
+message: '%s, rather than %s'
+level: suggestion
+scope: raw
+swap:
+  '__<[\w\x60]+-[\x60\w-]+>__': Separate words by underscores in user-replaced values

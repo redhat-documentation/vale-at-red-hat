@@ -14,6 +14,7 @@
 * xref:passivevoice.adoc[]
 * xref:readabilitygrade.adoc[]
 * xref:releasenotes.adoc[]
+* xref:repeatedwords.adoc[]
 * xref:sentencelength.adoc[]
 * xref:simplewords.adoc[]
 * xref:slash.adoc[]
@@ -23,3 +24,4 @@
 * xref:termssuggestions.adoc[]
 * xref:termswarnings.adoc[]
 * xref:usage.adoc[]
+* xref:userreplacedvalues.adoc[]
