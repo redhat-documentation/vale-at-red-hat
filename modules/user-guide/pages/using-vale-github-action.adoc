@@ -25,7 +25,7 @@ WARNING: Due to the GitHub token permissions, this Action can not post annotatio
 
 .Procedure
 
-* `.github/workflows/vale.yml` file to your repository with following content:
+* Add a `.github/workflows/vale.yml` file to your repository with following content:
 +
 .`.github/workflows/vale.yml`
 [source,yaml]
