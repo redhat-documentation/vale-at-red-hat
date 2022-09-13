@@ -1,33 +1,39 @@
 // Metadata for Antora
-:navtitle: GitHub Action
+:navtitle: Integrating Vale into your GitHub workflow
 :keywords: vale, github
-:description: Overview of using Vale in a GitHub Action
+:description: Integrating the Vale linter into your GitHub workflow by using a GitHub Action
 :page-aliases: end-user-guide:using-vale-github-action.adoc
 // End of metadata for Antora
 
 :context: using-vale-github-action
 :_module-type: PROCEDURE
 [id="proc_using-vale-github-action_{context}"]
-= Using Vale GitHub Action
+= Integrating Vale into your Git workflow by using a GitHub Action
 
-Consider using Vale GitHub Action when:
+Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the errata-ai `vale-action`, which is the official GitHub Action for Vale. You can integrate Vale for informational purposes or to measure compliance with a specific style guide, for example, the Red Hat vale style guide (vale-at-red-hat). You can also use Vale to enforce compliance with a specific style guide.
 
-* The goal is to measure or enforce the project compliance with the Style Guides.
-* The content repository is on GitHub.
+By creating a GitHub Action workflow for vale, you can configure how vale runs including the Git workflow events that trigger the vale job, and the specific options to run vale with. For example, you can decide to:
 
-WARNING: Due to the GitHub token permissions, this Action can not post annotations to pull requests from forked repositories.
+* Run vale when a contributor creates a pull request
+* Linter the diff only
+* Allow the merging of pull requests if the report has errors
+* Block the merging of pull requests if the report has errors
+
+For a full list of supported configuration options, see link:https://github.com/errata-ai/vale-action[Vale GitHub Action].
 
 .Prerequisites
-
-* xref:installing-vale-cli.adoc[]
-* xref:adding-vale-configuration-to-a-project.adoc[]
-* xref:defining-a-vale-onboarding-strategy.adoc[]
+* Your content repository is on GitHub. For GitLab repos, see * xref:defining-a-vale-onboarding-strategy.adoc[Define a Vale CI onboarding strategy for your project].
+WARNING: Because of GitHub token permissions, the Vale GitHub Action cannot post annotations to pull requests from a forked repository.
+* You have defined a xref:using-vale-with-a-continuous-integration-service.adoc[] for your project.
+* You have reviewed and bookmarked the official `vale-action` information at link:https://github.com/errata-ai/vale-action[errata.ai].
 
 .Procedure
 
-* Add a `.github/workflows/vale.yml` file to your repository with following content:
+. Copy `.vale-for-github-action.ini` from link:https://github.com/redhat-documentation/vale-at-red-hat[vale-at-red-hat] into the root of your GitHub repository and configure your style preferences.
+. In the `.github/workflows/` folder of your project repository, create a YAML file called `vale.yml`.
+* *Tip*: You can also click *Actions* and use the GitHub Actions wizard to initialize the vale.yml file and validate your configuration. 
+. Add the following configuration to the `.github/workflows/vale.yml` file:
 +
-.`.github/workflows/vale.yml`
 [source,yaml]
 ----
 name: Linting with Vale
@@ -43,13 +49,18 @@ jobs:
       - name: Vale Linter
         uses: errata-ai/vale-action@reviewdog
         with:
-          fail_on_error: true
+          fail_on_error: false
+          vale_flags: "--no-exit"
+          files: __onlyModified
+          onlyAnnotateModifiedLines: true
         env:
           # Required, set by GitHub actions automatically:
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
+. Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when vale linter errors exist, set `fail_on_error` to *true*.
+. Commit and push the GitHub Action to the primary branch of your GitHub repository, for example, `main`, and rebase your other branches to ensure that they receive the changes.
 
-.Additional resources
+.Verification
 
-* link:https://github.com/errata-ai/vale-action[Vale GitHub action].
+To test that your GitHub Action is working, on your working branch, change or add some content files, and submit a pull request against the main docs branch. The Vale linter will run and report an expandable status summary in the MR.
