@@ -1,7 +1,7 @@
 ---
 extends: existence
 ignorecase: true
-level: error
+level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/configmap/
 message: "Do not use 'config', unless it is followed by 'map'."
 raw:
