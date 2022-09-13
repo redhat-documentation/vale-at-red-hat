@@ -63,4 +63,4 @@ jobs:
 
 .Verification
 
-To test that your GitHub Action is working, on your working branch, change or add some content files, and submit a pull request against the main docs branch. The Vale linter will run and report an expandable status summary in the MR.
+To test your GitHub Action, change or add some content files and submit a pull request to the main docs branch. The Vale linter will run and report an expandable status summary in the PR.
