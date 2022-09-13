@@ -206,6 +206,7 @@ filters:
   - IDE
   - IDEs
   - Infinispan
+  - "[Ii]gnition config"
   - Intelephense
   - IntelliJ
   - Itanium
