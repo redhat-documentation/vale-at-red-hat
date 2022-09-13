@@ -59,7 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
 . Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when vale linter errors exist, set `fail_on_error` to *true*.
-. Commit and push the GitHub Action to the primary branch of your GitHub repository, for example, `main`, and rebase your other branches to ensure that they receive the changes.
+. Commit and push the GitHub Action to the main branch of your GitHub repository and rebase your other branches.
 
 .Verification
 
