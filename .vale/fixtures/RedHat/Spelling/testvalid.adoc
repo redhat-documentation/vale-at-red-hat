@@ -59,6 +59,7 @@ CR
 CRD
 CRDs
 CRs
+CSVs
 Ctrl
 Cygmon
 DaemonSet
