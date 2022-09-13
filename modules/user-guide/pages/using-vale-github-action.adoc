@@ -10,7 +10,7 @@
 [id="proc_using-vale-github-action_{context}"]
 = Integrating Vale into your Git workflow by using a GitHub Action
 
-Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the errata-ai `vale-action`, which is the official GitHub Action for Vale. You can integrate Vale for informational purposes or to measure compliance with a specific style guide, for example, the Red Hat vale style guide (vale-at-red-hat). You can also use Vale to enforce compliance with a specific style guide.
+Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the errata-ai `vale-action`, which is the official GitHub Action for Vale.
 
 By creating a GitHub Action workflow for vale, you can configure how vale runs including the Git workflow events that trigger the vale job, and the specific options to run vale with. For example, you can decide to:
 
