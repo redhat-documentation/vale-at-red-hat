@@ -12,7 +12,7 @@
 
 Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the errata-ai `vale-action`, which is the official GitHub Action for Vale.
 
-By creating a GitHub Action workflow for vale, you can configure how vale runs including the Git workflow events that trigger the vale job, and the specific options to run vale with. For example, you can decide to:
+By creating a GitHub Action workflow for Vale, you can configure how Vale runs: you can set Vale flags and specify which Git workflow events trigger Vale jobs. For example, you can decide to:
 
 * Run vale when a contributor creates a pull request
 * Linter the diff only
