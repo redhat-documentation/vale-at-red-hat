@@ -7,14 +7,14 @@
 
 :context: using-vale-github-action
 :_module-type: PROCEDURE
-[id="proc_using-vale-github-action_{context}"]
+[id="proc_using-vale-github-action_{context}"]Vale
 = Integrating Vale into your Git workflow by using a GitHub Action
 
 Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the errata-ai `vale-action`, which is the official GitHub Action for Vale.
 
 By creating a GitHub Action workflow for Vale, you can configure how Vale runs: you can set Vale flags and specify which Git workflow events trigger Vale jobs. For example, you can decide to:
 
-* Run vale when a contributor creates a pull request
+* Run Vale when a contributor creates a pull request
 * Linter the diff only
 * Allow the merging of pull requests if the report has errors
 * Block the merging of pull requests if the report has errors
@@ -58,9 +58,9 @@ jobs:
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
-. Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when vale linter errors exist, set `fail_on_error` to *true*.
+. Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when Vale errors exist, set `fail_on_error` to *true*.
 . Commit and push the GitHub Action to the main branch of your GitHub repository and rebase your other branches.
 
 .Verification
 
-To test your GitHub Action, change or add some content files and submit a pull request to the main docs branch. The Vale linter will run and report an expandable status summary in the PR.
+To test your GitHub Action, change or add some content files and submit a pull request to the main docs branch. Vale will run and report an expandable status summary in the PR.
