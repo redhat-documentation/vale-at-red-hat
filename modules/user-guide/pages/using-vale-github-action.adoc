@@ -14,10 +14,10 @@ Integrate Vale into your GitHub content development workflow by creating a GitHu
 
 By creating a GitHub Action workflow for Vale, you can configure how Vale runs: you can set Vale flags and specify which Git workflow events trigger Vale jobs. For example, you can decide to:
 
-* Run Vale when a contributor creates a pull request
-* Linter the diff only
-* Allow the merging of pull requests if the report has errors
-* Block the merging of pull requests if the report has errors
+* Run Vale when a contributor creates a pull request.
+* Run Vale on only the changes.
+* Allow the merging of pull requests if the report has errors.
+* Block the merging of pull requests if the report has errors.
 
 For a full list of supported configuration options, see link:https://github.com/errata-ai/vale-action[Vale GitHub Action].
 
