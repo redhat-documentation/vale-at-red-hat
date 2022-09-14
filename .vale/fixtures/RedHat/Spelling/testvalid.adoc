@@ -128,8 +128,6 @@ I/O
 IDE
 IDEs
 Infinispan
-Ignition config
-ignition config
 Inode
 Intelephense
 IntelliJ
