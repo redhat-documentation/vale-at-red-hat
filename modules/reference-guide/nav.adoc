@@ -15,6 +15,7 @@
 * xref:readabilitygrade.adoc[]
 * xref:releasenotes.adoc[]
 * xref:repeatedwords.adoc[]
+* xref:selfreferentialtext.adoc[]
 * xref:sentencelength.adoc[]
 * xref:simplewords.adoc[]
 * xref:slash.adoc[]

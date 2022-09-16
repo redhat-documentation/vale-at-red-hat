@@ -1,0 +1,10 @@
+:navtitle: Self-referential text
+:keywords: reference, rule, self-referential text
+
+= Self-referential text
+
+Avoid using self-referential text such as `This chapter` or `This module`.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Audience and medium, p. 22]
