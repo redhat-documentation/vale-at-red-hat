@@ -3,3 +3,6 @@ hostname
 I/O
 name
 you
+on-site
+in-house
+on-premise
