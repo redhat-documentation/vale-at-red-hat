@@ -106,7 +106,6 @@ deconfigure
 deinstall
 deinstallation
 demilitarized zone
-demo
 demon
 depress
 deregister

@@ -76,6 +76,7 @@ deactivate
 debug
 decompress
 delete from the database
+demo
 demonstration
 demount
 deselect
