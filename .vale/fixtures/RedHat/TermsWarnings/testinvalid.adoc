@@ -2,3 +2,6 @@ he
 host name
 I
 she
+on premise
+on-premises
+on-prem

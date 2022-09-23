@@ -195,12 +195,10 @@ not at the latest level
 not case-sensitive
 notebook
 now
-off-premises
 offline backup
 offsite
 OK
 omit
-on-premises
 onsite
 opcode
 open

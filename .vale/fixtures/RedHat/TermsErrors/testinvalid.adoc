@@ -235,14 +235,12 @@ non-secure
 nonrecoverable
 nonsecure
 notion
-off-premise
 offline storage
 OK button
 okay
 on ramp
 on the fly
 on the other hand
-on-premise
 on-ramp
 oops
 op-code
