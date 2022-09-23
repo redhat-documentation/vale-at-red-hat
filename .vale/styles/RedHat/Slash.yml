@@ -17,3 +17,4 @@ exceptions:
   - "z/OS"
   - "z/OSMF"
   - "0/"
+  - "C/C"
