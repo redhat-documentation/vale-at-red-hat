@@ -8,7 +8,7 @@
 :context: introduction
 :_module-type: CONCEPT
 [id="introduction_{context}"]
-= Getting started
+= Introduction
 
 Vale is a command-line tool that allows you to check your writing for grammar and spelling errors against a set of style rules. It's open source, fast, and highly customizable.
 
@@ -22,7 +22,8 @@ video::745894696[vimeo,align="left",title="A brief non-technical introduction"]
 * You can perform more consistent peer reviews.
 * You can write content that is more easily localized.
 
-.Additional resources
+[id="con_additional_resources_{context}"]
+== Additional resources
 
 * xref:redhat-style-for-vale.adoc[]
 * xref:glossary.adoc[]
