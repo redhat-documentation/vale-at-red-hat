@@ -48,6 +48,8 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |co-locate \| collocate|link:https://redhat-documentation.github.io/supplementary-style-guide/#colocate[colocate]
 
+|configmap \| configuration map|link:https://redhat-documentation.github.io/supplementary-style-guide/#config-map[config map]
+
 |cold backup|link:https://redhat-documentation.github.io/supplementary-style-guide/#offline-backup[offline backup]
 
 |comma delimited \| commadelimited|link:https://redhat-documentation.github.io/supplementary-style-guide/#comma-delimited[comma-delimited]

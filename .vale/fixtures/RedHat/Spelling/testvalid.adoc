@@ -30,6 +30,7 @@ Breakpoints
 btn
 Btrfs
 Bugzilla
+build config
 CentOS
 Ceph
 cephfs
@@ -52,6 +53,9 @@ config
 Config
 ConfigMap
 ConfigMaps
+config map
+config maps
+configure
 Containerfile
 Containerfiles
 Cookiecutter

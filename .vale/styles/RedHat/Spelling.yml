@@ -21,7 +21,7 @@ filters:
   - "[cC]he"
   - "[cC]lassloading"
   - "[cC]olocate"
-  - "[cC]onfig" # to enable "config map"
+  - "[cC]onfig"
   - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
   - "[dD]evfiles"

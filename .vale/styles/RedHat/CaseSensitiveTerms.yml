@@ -49,6 +49,7 @@ swap:
   HyperVisor|Hyperviser: hypervisor
   IA64|ia64: Itanium
   IBM z Systems: IBM Z
+  ignition config: Ignition config
   Iops|IOPs: IOPS
   Ip: IP
   IPSec: IPsec
