@@ -22,6 +22,7 @@ swap:
   channel: repository
   Cloud: cloud
   code: write
+  crash: fail|lock up|stop|stop responding
   functionality: functions # IBM
   input|type: enter (followed by the text to enter in monospace) # https://redhat-documentation.github.io/supplementary-style-guide/#text-entry
   recommend: direct users to take the recommended action
