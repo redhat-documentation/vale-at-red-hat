@@ -135,6 +135,7 @@ filters:
   - Antora
   - API
   - AsciiDoc
+  - Asciidoctor
   - aws
   - AWS
   - Azure
