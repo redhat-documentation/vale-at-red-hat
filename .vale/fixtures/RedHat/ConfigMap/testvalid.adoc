@@ -1,5 +1,0 @@
-valid content: config map
-valid content: config maps
-valid content: configure
-valid content: kubeconfig
-

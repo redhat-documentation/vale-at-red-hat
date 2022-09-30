@@ -42,6 +42,7 @@ IBM eServer System p
 IBM S 390
 IBM S 390
 IBM Z
+Ignition config
 InfiniBand
 Insight
 Intel Virtualization Technology

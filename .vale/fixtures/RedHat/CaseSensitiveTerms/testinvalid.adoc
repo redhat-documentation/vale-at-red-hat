@@ -67,6 +67,7 @@ HyperVisor
 ia64
 IA64
 IBM z Systems
+ignition config
 Infiniband
 Intel Tolapai
 Iops
