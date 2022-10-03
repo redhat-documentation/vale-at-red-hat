@@ -1,5 +1,5 @@
 // Metadata for Antora
-:navtitle: Linting with Vale from the command line
+:navtitle: Analyzing with Vale from the command line
 :keywords: vale
 :description: Describes how to run Vale from the command line to check your content for style errors, warnings, and suggestions.
 :page-aliases: end-user-guide:running-vale-cli.adoc
@@ -9,95 +9,83 @@
 :_module-type: PROCEDURE
 // End of metadata for Modular Docs
 [id="proc_linting-vale-cli_{context}"]
-= Linting your content by running Vale from the command line
+= Analyzing your content by running Vale from the command line
 
-To analyze your content to see how it aligns with the link:https://redhat-documentation.github.io/supplementary-style-guide/[Red Hat supplementary style guide], you can run Vale from the command line. You can run Vale on individual files or an entire directory.
+To analyze your content to see how it aligns with the link:https://redhat-documentation.github.io/supplementary-style-guide/[Red Hat supplementary] and link:https://www.ibm.com/docs/en/ibm-style[IBM] style guides, you can run Vale from the command line. You can run Vale on individual files or an entire directory. 
+
+Vale analyzes the specified content according to the command options and the style preferences that you have specified in your `.vale.ini` configuration file.
 
 .Prerequisites
 
-Ensure that you have completed the following prerequisite steps:
-
-* Installed the latest release link:https://vale.sh/docs/vale-cli/installation/[Vale] and link:https://docs.asciidoctor.org/asciidoctor/latest/[Asciidoctor].
-+
-[IMPORTANT]
-====
-To run Vale on AsciiDoc files, Asciidoctor must be installed.
-====
-+
-* Configured the `.vale.ini` file of your local Vale client to use the vale-at-red-hat rules, as outlined in xref:installing-vale-cli.adoc[].
-* Pulled the latest link:https://github.com/redhat-documentation/vale-at-red-hat[vale-at-red-hat] style rules from the main repository by running the `vale sync` command or by using another `git pull` sync method.
+* You've installed a recent release link:https://vale.sh/docs/vale-cli/installation/[Vale] on your system.
+* You've installed a recent release of link:https://docs.asciidoctor.org/asciidoctor/latest/[Asciidoctor] on your system.
+* You've xref:installing-vale-cli.adoc[configured the `.vale.ini` file], setting both `Packages`  and `BasedOnStyles` to  `RedHat`.
+* You've gotten the latest link:https://github.com/redhat-documentation/vale-at-red-hat[vale-at-red-hat] style by running the `vale sync` command.
 
 .Procedure
 
 . Start a terminal session and go to the content folder containing the files that you want to analyze.
 . Enter the `vale` linter command by using the following syntax:
-[source,commandline]
+[source,terminal]
 ----
-$ vale <target_file_name> -- <option> > <outputfilename>
+$ vale <target_file_name> -- <option> > <output_file_name>
 ----
 +
 Where:
 
-* <target> is the name of the content file that you want to analyze. Use `*` to analyze all files in the current folder.
+* <target_file_name> is the name of the content file that you want to analyze. Or use the `*` wildcard to analyze multiple files in the current folder.
 * <option> is an option you can use to tailor the alerts or linter output. For more information, see _Example use cases for running the Vale command_.
-* <outputfilename> is an option that you can append to the command to pipe the output to a specific file instead of at the command line.
+* <output_file_name> is an option that you can append to the command to pipe the output to a specific file instead of at the command line.
 
 .Verification
-Vale analyzes the specified content according to the command options and the style preferences that you have specified in your `.vale.ini` configuration file.
-
-By default, Vale returns a list of suggestions, warnings, and errors to the command line. For more information about the style results that are output to the command line, see xref:understanding-vale-output[].
+Review the list of suggestions, warnings, and errors that Vale outputs to the command line. See xref:understanding-vale-output[].
 
 .Example use cases for running the Vale command
 
-* To verify the style compliance of a file in the current folder called `test.adoc`, enter:
+* To verify the style compliance of a file in the current folder called `example.adoc`, enter:
 +
-[source,commandline]
+[source,terminal]
 ----
-$ vale test.adoc
+$ vale example.adoc
 ----
 * To verify the style compliance of all files in the current folder and turn off text wrapping in the command-line output, enter:
 +
-[source,commandline]
+[source,terminal]
 ----
 $ vale *.* --no-wrap
 ----
++
 [NOTE]
 ====
 If you are expecting a large quantity of output in the report, use the `--no-wrap` option to make the results easier to read from the command line.
 ====
+* To verify the style compliance of a file named `example.adoc` and remove suggestions from the output to retrieve warnings and errors, enter:
 +
-* To verify the style compliance of a file named `test.adoc` and remove suggestions from the output to retrieve warnings and errors, enter:
-+
-[source,commandline]
+[source,terminal]
 ----
-$ vale test.adoc --minAlertLevel=warning
+$ vale example.adoc --minAlertLevel=warning
 ----
+* To verify the style compliance of a file named `example.adoc` and report errors only, enter:
 +
-* To verify the style compliance of a file named `test.adoc` and report errors only, enter:
-+
-[source,commandline]
+[source,terminal]
 ----
-$ vale test.adoc --minAlertLevel=error
+$ vale example.adoc --minAlertLevel=error
 ----
+* To verify the style compliance of a file named `example.adoc` and output errors only into a file in JSON format, enter:
 +
-* To verify the style compliance of a file named `test.adoc` and output errors only into a file in JSON format, enter:
-+
-[source,commandline]
+[source,terminal]
 ----
-$ vale test.adoc --minAlertLevel=error --output="JSON" | tee ~/test.json
+$ vale example.adoc --minAlertLevel=error --output="JSON" | tee ~/test.json
 ----
-+
-* To verify the style compliance of a file named `test.adoc` and output errors only into a file in JSON format, enter:
-+
+* To verify the style compliance of a file named `example.adoc` and output errors only into a file in JSON format, enter:
 * To get help including a list of valid options for running Vale, enter:
 +
-[source,commandline]
+[source,terminal]
 ----
-$ vale - - help
+$ vale -- help
 ----
-+
 
 .Additional resources
-To run Vale within your IDE see xref:using-vale-in-the-ide.adoc[].
+xref:using-vale-in-the-ide.adoc[].
 
 
