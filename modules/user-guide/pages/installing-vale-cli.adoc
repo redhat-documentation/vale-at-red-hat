@@ -8,7 +8,7 @@
 :context: assembly_getting-started-with-vale
 :_module-type: PROCEDURE
 // End of metadata for Modular Docs
-[id="proc_using-vale-cli_{context}"]
+[id="proc_installing-vale-cli_{context}"]
 = Installing Vale with the `RedHat` package
 
 To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure Vale CLI version 2.16.0 or later.
