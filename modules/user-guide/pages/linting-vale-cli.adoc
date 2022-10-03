@@ -38,7 +38,7 @@ Where:
 * <output_file_name> is an option that you can append to the command to pipe the output to a specific file instead of at the command line.
 
 .Verification
-Review the list of suggestions, warnings, and errors that Vale outputs to the command line. See xref:understanding-vale-output[].
+Review the list of suggestions, warnings, and errors that Vale outputs to the command line. See xref:understanding-vale-output.adoc[].
 
 .Example use cases for running the Vale command
 
