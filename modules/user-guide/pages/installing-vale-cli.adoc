@@ -11,7 +11,7 @@
 [id="proc_using-vale-cli_{context}"]
 = Installing Vale with the `RedHat` package
 
-To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure the Vale CLI.
+To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure Vale CLI version 2.16.0 or later.
 
 .Procedure
 
