@@ -33,7 +33,6 @@ lombok
 mattermost
 microsoft azure
 minikube
-Mongo DB
 Mysql
 mysql
 Netcoredebugoutput
