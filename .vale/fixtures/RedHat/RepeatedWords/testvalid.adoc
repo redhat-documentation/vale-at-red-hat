@@ -1,17 +1,6 @@
-1. This is a sentence with two instances of a word.
-//         -                                -
-
-2. Allow searches to be performed on type, contributor, contributor type, and others.
-// In enumerations, commas should "break up" repetition.
-
-3. This is a Text. Text is nice.
-//           ----------
-// Upper-case word, punctuation, space, same case word.
-
-4. This is a text. Text is nice.
-//           ^^^^^^^^^^
-// lower-case word, punctuation, space, different case word.
-
-5. Select the THE checkbox.
-//        ------- is detected if `ignorecase` is `true`.
-// However, I believe we should set it to `false`.
+This is a sentence without a repeated word.
+This is a sentence with two instances of a word.
+Allow searches to be performed on type, contributor, contributor type, and others.
+This is a Text. Text is nice.
+This is a text. Text is nice.
+Select the THE checkbox.
