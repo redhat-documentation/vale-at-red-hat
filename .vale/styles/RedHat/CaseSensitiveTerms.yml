@@ -8,6 +8,8 @@ source: "https://redhat-documentation.github.io/supplementary-style-guide/#gloss
 action:
   name: replace
 swap:
+  asciidoc|Asciidoc: AsciiDoc
+  asciidoctor|AsciiDoctor: Asciidoctor
   '[nN]odejs|[nN]ode\.JS|node\.js': Node.js
   # Bind: BIND
   Bios: BIOS

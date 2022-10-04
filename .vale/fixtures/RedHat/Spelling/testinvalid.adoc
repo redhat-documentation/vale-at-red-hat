@@ -1,10 +1,6 @@
 ansible
 antora
 api
-Asciidoc
-asciidoc
-AsciiDoctor
-asciidoctor
 bitbucket
 btrfs
 centos

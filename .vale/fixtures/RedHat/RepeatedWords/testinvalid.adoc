@@ -1,15 +1,2 @@
-1. This is is a sentence with a repeated word.
-//      ----- is detected.
-
-2. This is a test test.
-//           ---------
-// `tokens` = '[^\s]+' does not detect it.
-// `tokens` = '[^\s\.]+' detects it.
-
-// 3. This is a test test,
-//              ---------
-// `tokens` = '[^\s\,]+' detects it, but neutralizes '[^\s\.]+' if placed above.
-
-// 4. Select the THE checkbox.
-//           ------- is detected if `ignorecase` is `true`.
-// However, I believe we should set it to `false`.
+This is is a sentence with a repeated word.
+This is a test test.

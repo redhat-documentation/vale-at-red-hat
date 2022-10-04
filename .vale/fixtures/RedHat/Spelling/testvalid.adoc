@@ -6,8 +6,6 @@ Annobin
 Ansible
 Antora
 API
-AsciiDoc
-Asciidoctor
 autostart
 Autostart
 aws
