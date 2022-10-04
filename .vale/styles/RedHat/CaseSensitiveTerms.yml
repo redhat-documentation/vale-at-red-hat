@@ -18,6 +18,8 @@ swap:
   CD 1: CD #1
   CDS|Cds: CDs
   CGroup|c group: cgroup
+  configmap: config map
+  configuration map: config map
   classic mode: GNOME Classic
   control key|ctrl: Ctrl
   csv: CSV

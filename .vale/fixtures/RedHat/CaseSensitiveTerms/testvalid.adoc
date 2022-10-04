@@ -9,6 +9,7 @@ CapEx
 CD #1
 CDs
 cgroup
+ConfigMap
 CSV
 Ctrl
 Cygmon
