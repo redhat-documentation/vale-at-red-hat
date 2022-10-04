@@ -10,6 +10,7 @@
 * xref:headingpunctuation.adoc[]
 * xref:headings.adoc[]
 * xref:oxfordcomma.adoc[]
+* xref:pascalcamelcase.adoc[]
 * xref:passivevoice.adoc[]
 * xref:readabilitygrade.adoc[]
 * xref:releasenotes.adoc[]

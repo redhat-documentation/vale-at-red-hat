@@ -1,0 +1,41 @@
+= horizontalPodAutoscaler is a Camel case term in a title
+== PersistentVolumeClaim is a Pascal case term in a title
+3scale
+AMQ
+CaaS
+CloudForms
+CloudForms
+CodeReady
+Convert2RHEL
+CoreOS
+DevOps
+Etcd
+FaaS
+GitOps
+GlusterFS
+Helm
+HyperShift
+IaaS
+IconBurst
+Identity
+Infrastructure
+JBoss
+Log4Shell
+ManageIQ
+Node.js
+OpenJDK
+OpenShift
+OpenShift
+OpenStack
+PaaS
+RHEL
+SaaS
+Subscription
+vSphere
+Words at the start of a sentence should not trigger the rule.
+xPaaS
+
+[source,terminal]
+----
+PersistentVolumeClaim should not be triggered in a code block
+----

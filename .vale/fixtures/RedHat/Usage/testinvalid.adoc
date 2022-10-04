@@ -23,7 +23,6 @@ both
 bring up
 business partner
 cache
-camel case
 carry out
 catch
 central processing unit

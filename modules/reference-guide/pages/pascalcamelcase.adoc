@@ -1,0 +1,13 @@
+:navtitle: PascalCamelCase
+:keywords: reference, rule, PascalCamelCase
+
+= Pascal case and Camel case
+
+Consider wrapping Pascal case or Camel case API resources, system items, daemons, or service names in backticks.
+
+.Additional resources
+
+* link:https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/PascalCamelCase.yml[Pascal case and Camel case Vale rule]
+* link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference for Red Hat Documentation]
+* link:https://en.wikipedia.org/wiki/Camel_case[Camel case]
+
