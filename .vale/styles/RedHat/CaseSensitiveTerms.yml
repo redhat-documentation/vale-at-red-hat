@@ -68,7 +68,7 @@ swap:
   Lan|lan: LAN
   LINUX|linux: Linux
   Microprofile|micro-profile: MicroProfile
-  mongoDB|Mongodb|Mongo-db: MongoDB
+  Mongo\sDB|mongoDB|Mongodb|Mongo-db: MongoDB
   MS-dos|Ms-Dos|ms-dos|MSDOS|msdos: MS-DOS
   MS(?!-DOS?)|MSFT|MicroSoft: Microsoft
   mutual tls|Mutual tls|Mutual TLS: mutual TLS
