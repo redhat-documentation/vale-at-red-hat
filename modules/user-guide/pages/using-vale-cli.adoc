@@ -1,5 +1,5 @@
 // Metadata for Antora
-:navtitle: Analyzing with the Vale CLI  
+:navtitle: Analyzing with the Vale CLI
 :keywords: vale, CLI
 :description: Describes how to run Vale from the command line to check your content for style errors, warnings, and suggestions.
 :page-aliases: end-user-guide:running-vale-cli.adoc
@@ -11,7 +11,7 @@
 [id="proc_using-vale-cli_{context}"]
 = Analyzing your content by running Vale from the command line
 
-To analyze your content to see how it aligns with the link:https://redhat-documentation.github.io/supplementary-style-guide/[Red Hat supplementary] and link:https://www.ibm.com/docs/en/ibm-style[IBM] style guides, you can run Vale from the command line. 
+To analyze your content to see how it aligns with the link:https://redhat-documentation.github.io/supplementary-style-guide/[Red Hat supplementary] and link:https://www.ibm.com/docs/en/ibm-style[IBM] style guides, you can run Vale from the command line.
 You can run Vale on individual files or an entire directory.
 
 Vale analyzes the specified content according to the command options and the style preferences that you have specified in your `.vale.ini` configuration file.
@@ -27,6 +27,7 @@ Vale analyzes the specified content according to the command options and the sty
 
 . Start a terminal session and go to the content folder containing the files that you want to analyze.
 . Enter the `vale` linter command by using the following syntax:
++
 [source,terminal]
 ----
 $ vale <target_file_name> -- <option> > <output_file_name>
@@ -34,11 +35,11 @@ $ vale <target_file_name> -- <option> > <output_file_name>
 +
 Where:
 
-* <target_file_name> is the name of the content file that you want to analyze. 
+* `<target_file_name>` is the name of the content file that you want to analyze.
 Or use the `*` wildcard to analyze all files in the current folder.
-* <option> is an option you can use to tailor the alerts or linter output. 
+* `<option>` is an option you can use to tailor the alerts or linter output.
 For more information, see _Example use cases for running the Vale command_.
-* <output_file_name> is an option that you can append to the command to pipe the output to a specific file instead of at the command line.
+* `<output_file_name>` is an option that you can append to the command to pipe the output to a specific file instead of at the command line.
 
 .Verification
 Review the list of suggestions, warnings, and errors that Vale outputs to the command line.
