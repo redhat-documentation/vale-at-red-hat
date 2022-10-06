@@ -165,7 +165,10 @@ RAMdisk
 RAW
 Red Boot
 Red Hat Proxy
-Red Hat Satellite
+Red Hat satellite
+Red Hat Satellite server
+Red Hat Satellite Capsule server
+Red Hat Network Satellite server
 Redboot
 resteasy
 Resteasy
