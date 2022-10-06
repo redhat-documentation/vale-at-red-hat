@@ -367,7 +367,6 @@ up-time
 upward compatible
 utilize
 versus
-via
 video-mode
 videomode
 virtualized
