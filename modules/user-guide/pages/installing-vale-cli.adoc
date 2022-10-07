@@ -43,7 +43,7 @@ See link:https://vale.sh/docs/topics/config[Vale configuration reference].
 
 . Initialize the Vale package.
 +
-[source,commandline]
+[source,console]
 ----
 $ vale sync
 ----
@@ -55,7 +55,7 @@ Run the `vale sync` command periodically to update the `RedHat` Vale package.
 
 . Enter the `vale` command on one of your content files.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
 $ vale __<filename>__

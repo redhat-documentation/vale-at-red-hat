@@ -18,14 +18,14 @@ NOTE: On the Vale site, click the tab for your operating system.
 
 . Get a copy of the link:{repository-url}[{repository-name} repository] to your local environment. 
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ git clone {repository-clone-url}
 ----
 
 . Register the *{repository-name}* vale configuration as the default.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd {repository-name}
 $ ln -s "$PWD/.vale.ini" "$HOME/"
@@ -36,7 +36,7 @@ $ ln -s "$PWD/.vale" "$HOME/"
 
 . Run the `vale` command on one of your content files.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
 $ vale __<filename>__

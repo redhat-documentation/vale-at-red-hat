@@ -35,7 +35,7 @@ Vocab = __<Project>__
 
 * Run the `vale` command on a content file containing the word which was missing.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
 $ vale __<filename>__
@@ -44,4 +44,3 @@ $ vale __<filename>__
 .Additional resources
 
 * link:https://vale.sh/docs/topics/vocab[Vale documentation - Vocabularies]
-
