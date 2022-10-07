@@ -22,7 +22,7 @@ On bigger repositories, with more than 1000000 words, consider building your own
 
 . Generate vale alerts reports for _<location>_:
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ ./tools/vale_report.sh _<location>_
 ----

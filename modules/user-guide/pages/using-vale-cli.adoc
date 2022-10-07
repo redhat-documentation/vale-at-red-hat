@@ -28,9 +28,9 @@ Vale analyzes the specified content according to the command options and the sty
 . Start a terminal session and go to the content folder containing the files that you want to analyze.
 . Enter the `vale` linter command by using the following syntax:
 +
-[source,terminal]
+[source,console,subs="+quotes,+attributes"]
 ----
-$ vale <target_file_name> -- <option> > <output_file_name>
+$ vale __<target_file_name>__ -- __<option>__ > __<output_file_name>__
 ----
 +
 Where:
@@ -49,13 +49,13 @@ See xref:understanding-vale-output.adoc[].
 
 * To verify the style compliance of a file in the current folder called `example.adoc`, enter:
 +
-[source,terminal]
+[source,console]
 ----
 $ vale example.adoc
 ----
 * To verify the style compliance of all files in the current folder and turn off text wrapping in the command-line output, enter:
 +
-[source,terminal]
+[source,console]
 ----
 $ vale *.* --no-wrap
 ----
@@ -66,26 +66,26 @@ If you are expecting a large quantity of output in the report, use the `--no-wra
 ====
 * To verify the style compliance of a file named `example.adoc` and remove suggestions from the output to retrieve warnings and errors, enter:
 +
-[source,terminal]
+[source,console]
 ----
 $ vale example.adoc --minAlertLevel=warning
 ----
 * To verify the style compliance of a file named `example.adoc` and report errors only, enter:
 +
-[source,terminal]
+[source,console]
 ----
 $ vale example.adoc --minAlertLevel=error
 ----
 * To verify the style compliance of a file named `example.adoc` and output errors only into a file in JSON format, enter:
 +
-[source,terminal]
+[source,console]
 ----
 $ vale example.adoc --minAlertLevel=error --output="JSON" | tee ~/test.json
 ----
 * To verify the style compliance of a file named `example.adoc` and output errors only into a file in JSON format, enter:
 * To get help including a list of valid options for running Vale, enter:
 +
-[source,terminal]
+[source,console]
 ----
 $ vale -- help
 ----

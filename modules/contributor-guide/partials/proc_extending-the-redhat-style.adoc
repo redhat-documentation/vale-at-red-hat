@@ -23,13 +23,13 @@ Consider the best approach:
 
 .Procedure
 
-* Edit the `.vale/styles/RedHat/_<StyleName>_.yml` file and add the missing word. 
+* Edit the `.vale/styles/RedHat/_<StyleName>_.yml` file and add the missing word.
 
 .Verification
 
 * Run the `vale` command on a content file containing the word triggering the edited rule.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
 $ vale __<filename>__

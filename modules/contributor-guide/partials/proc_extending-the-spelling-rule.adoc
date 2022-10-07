@@ -51,7 +51,7 @@ filters:
 
 . Run the `vale` command on a content file containing the word which was missing.
 +
-[subs="+quotes,+attributes"]
+[source,console]
 ----
 $ cd .vale/fixtures/RedHat/Spelling/
 $ vale .
@@ -64,7 +64,7 @@ $ vale .
 
 . Run only the _Spelling_ rule on your content.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ vale --config=.vale/fixtures/RedHat/Spelling/ _<content files>_
 ----
@@ -72,4 +72,3 @@ $ vale --config=.vale/fixtures/RedHat/Spelling/ _<content files>_
 .Additional resources
 
 * link:https://vale.sh/docs/topics/styles#spelling[Vale documentation - Spelling]
-

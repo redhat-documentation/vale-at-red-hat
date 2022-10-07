@@ -21,7 +21,7 @@ Consider adding vale configuration files to a project to:
 
 . Copy the `.vale.ini` file and `.vale` directory from the `{repository-name}` directory to the `__<project_directory>__` directory containing your documentation project.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd {repository-name}
 $ cp -r .vale* __<project_directory>__/
@@ -35,7 +35,7 @@ $ git commit -m "Adding vale configuration to the project"
 
 * Run the `vale` command on one of your content files.
 +
-[subs="+quotes,+attributes"]
+[source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
 $ vale __<filename>__
