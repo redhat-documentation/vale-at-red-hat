@@ -8,3 +8,8 @@ in-house
 on-premise
 tool
 tools
+through
+by
+from
+on
+by using
