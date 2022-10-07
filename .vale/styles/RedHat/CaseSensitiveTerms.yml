@@ -97,7 +97,10 @@ swap:
   RAMdisk|ramdisk|RAM-disk: RAM disk
   RAW: raw
   Red Hat Proxy: Red Hat Network Proxy Server
-  Red Hat Satellite: Red Hat Network Satellite Server
+  Red Hat satellite: Red Hat Satellite
+  Red Hat Satellite server: Red Hat Satellite Server
+  Red Hat Satellite Capsule server: Red Hat Satellite Capsule Server
+  Red Hat Network Satellite server: Red Hat Network Satellite Server
   Redboot|Red Boot: RedBoot
   RESTEASY|resteasy|Resteasy: RESTEasy
   Rom|rom: ROM

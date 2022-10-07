@@ -96,6 +96,9 @@ RAM
 RAM disk
 raw
 Red Hat Network Proxy Server
+Red Hat Satellite
+Red Hat Satellite Server
+Red Hat Satellite Capsule Server
 Red Hat Network Satellite Server
 RedBoot
 RESTEasy
