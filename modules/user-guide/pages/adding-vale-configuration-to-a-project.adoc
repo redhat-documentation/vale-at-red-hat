@@ -18,7 +18,7 @@ Consider adding Vale configuration files to a project to:
 
 .Prerequisites
 
-* To test the configuration on your local environment, the Vale command-line tool is installed. See link:https://docs.errata.ai/vale/install[Installing Vale].
+* To test the configuration on your local environment, the Vale command-line tool is installed. See link:https://vale.sh/docs/vale-cli/installation[Installing Vale].
 
 .Procedure
 

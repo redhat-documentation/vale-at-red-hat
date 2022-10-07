@@ -57,7 +57,7 @@ $ vale --minAlertLevel=error .
 
 * Use the results to identify the rule creating the most errors, and work on that rule. Most probably, start with the Spelling rule.
 
-* Report alerts for one single rule. Maybe use custom output templates to generate a custom report. See link:https://docs.errata.ai/vale/cli#--output[Vale documentation - `--output` template]. Consider aggregating alerts to identify the most common. Examine the report to distinguish legit alerts from false positives. Use the curated list of false positives to link:https://github.com/redhat-documentation/vale-at-red-hat/issues[report an issue].
+* Report alerts for one single rule. Maybe use custom output templates to generate a custom report. See link:https://vale.sh/docs/integrations/guide/#json-output-of-checks[Vale documentation - JSON output of checks] and link:https://vale.sh/manual/output[Vale documentation - `--output`]. Consider aggregating alerts to identify the most common. Examine the report to distinguish legit alerts from false positives. Use the curated list of false positives to link:https://github.com/redhat-documentation/vale-at-red-hat/issues[report an issue].
 +
 ====
 For example, for the Spelling rule, create a report containing the list of all words reported by the Spelling rule, and count their occurrences.
@@ -107,7 +107,7 @@ $ vale --minAlertLevel=warning .
 
 * xref:creating-a-vocabulary-for-a-project.adoc[]
 
-* Altering *rules* severity or disabling *rules* for the project. See xref:adding-vale-configuration-to-a-project.adoc[] and link:https://docs.errata.ai/vale/config[Vale documentation - configuration].
+* Altering *rules* severity or disabling *rules* for the project. See xref:adding-vale-configuration-to-a-project.adoc[] and link:https://vale.sh/docs/topics/config[Vale documentation - configuration].
 +
 ----
 RedHat.Annotations = NO
@@ -123,6 +123,3 @@ RedHat.Usage = suggestion
 
 * xref:installing-vale-cli.adoc[]
 * xref:understanding-vale-output.adoc[]
-
-
-

@@ -12,12 +12,12 @@ Consider adding vale configuration files to a project to:
 
 .Prerequisites
 
-* To test the configuration on your local environment, the Vale command-line tool is installed. See link:https://docs.errata.ai/vale/install[Installing Vale].
+* To test the configuration on your local environment, the Vale command-line tool is installed. See link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 
 .Procedure
 
 
-. Download the link:{repository-url}/archive/refs/heads/main.zip[{repository-name} ZIP archive] and decompress it to your local environment. 
+. Download the link:{repository-url}/archive/refs/heads/main.zip[{repository-name} ZIP archive] and decompress it to your local environment.
 
 . Copy the `.vale.ini` file and `.vale` directory from the `{repository-name}` directory to the `__<project_directory>__` directory containing your documentation project.
 +
@@ -44,4 +44,3 @@ $ vale __<filename>__
 .Additional resources
 
 * xref:defining-a-vale-onboarding-strategy.adoc[]
-

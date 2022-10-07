@@ -37,4 +37,4 @@ $ vale __<filename>__
 
 .Additional resources
 
-* link:https://docs.errata.ai/vale/styles[Vale documentation - Styles]
+* link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
