@@ -11,7 +11,7 @@
 #
 name: docs
 title: Vale for writers at Red Hat
-version: master # Define a Component Version with No Version
+version: main # Define a Component Version with No Version
 display_version: main
 prerelease: false
 start_page: user-guide:introduction.adoc
