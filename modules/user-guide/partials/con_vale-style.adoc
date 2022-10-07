@@ -8,5 +8,5 @@ A Vale style is a directory containing a collection of rules.
 .Additional resources
 
 * xref:redhat-style-for-vale.adoc[]
-* link:https://docs.errata.ai/vale/styles[Vale documentation - Styles]
+* link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
 

@@ -43,5 +43,5 @@ $ vale __<filename>__
 
 .Additional resources
 
-* link:https://docs.errata.ai/vale/vocab[Vale documentation - Vocabularies]
+* link:https://vale.sh/docs/topics/vocab[Vale documentation - Vocabularies]
 

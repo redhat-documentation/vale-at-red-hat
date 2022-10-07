@@ -71,5 +71,5 @@ $ vale --config=.vale/fixtures/RedHat/Spelling/ _<content files>_
 
 .Additional resources
 
-* link:https://docs.errata.ai/vale/styles#spelling[Vale documentation - Spelling]
+* link:https://vale.sh/docs/topics/styles#spelling[Vale documentation - Spelling]
 

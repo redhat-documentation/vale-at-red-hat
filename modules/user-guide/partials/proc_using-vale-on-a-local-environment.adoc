@@ -12,7 +12,7 @@ To use `vale` CLI on any project in your local environment without further confi
 
 .Procedure
 
-. Install the Vale command-line tool on your workstation. See link:https://docs.errata.ai/vale/install[Installing Vale].
+. Install the Vale command-line tool on your workstation. See link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 +
 NOTE: On the Vale site, click the tab for your operating system.
 

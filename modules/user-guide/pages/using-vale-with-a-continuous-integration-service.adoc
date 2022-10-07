@@ -40,5 +40,4 @@ include::example$validate-language-changes.sh[]
 
 .Additional resources
 
-* link:https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service[Add Vale to your docs continuous integration (CI) service].
-
+* link:https://vale.sh/docs/vale-cli/installation/#using-vale-with-a-continuous-integration-ci-service[Add Vale to your docs continuous integration (CI) service].

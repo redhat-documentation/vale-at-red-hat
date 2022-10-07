@@ -18,7 +18,4 @@ You can help by doing any of the following:
 
 * xref:extending-the-redhat-style.adoc[]
 
-* To show appreciation and support for Joseph Kato's work on Vale, consider link:https://docs.errata.ai/vale/about#sponsors[making a donation].
-
 image::open-source-wants-you.jpg[Open Source wants you]
-
