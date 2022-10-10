@@ -213,6 +213,7 @@ filters:
   - Jave
   - JBoss
   - Jetbrains
+  - Jira
   - Jolokia
   - Joyent
   - JUnit
