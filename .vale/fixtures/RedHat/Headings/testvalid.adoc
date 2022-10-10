@@ -4,3 +4,9 @@
 == Installing SmallRye to do xyz
 == Installing RESTEasy with Quarkus
 == A Jira instance
+== Knative is a component used in Quarkus
+== Eclipse Vert.x and Netty are upgraded in Quarkus
+== IBM Cloud
+== Proof Key for Code Exchange
+== Kogito updates
+== IBM Cloud is a valid product name

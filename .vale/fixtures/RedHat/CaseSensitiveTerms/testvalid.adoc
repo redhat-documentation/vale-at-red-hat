@@ -89,6 +89,7 @@ PostScript
 PowerPC
 PPP
 PROM
+Proof Key for Code Exchange
 Q and A
 QCOW2
 qeth

@@ -67,6 +67,7 @@ filters:
   - "[oO]nboarding"
   - "[oO]perator"
   - "[pP]reconfigured"
+  - "[pP]regenerated"
   - "[pP]ulldown"
   - "[pP]roductize"
   - "[pP]roductized"
@@ -86,6 +87,7 @@ filters:
   - "[rR]ollouts"
   - "[rR]oundtable"
   - "[rR]oundtables"
+  - "[rR]uleset"
   - "[rR]unlevel"
   - "[rR]unlevels"
   - "[rR]untime"
@@ -222,7 +224,9 @@ filters:
   - Kafka
   - kbd
   - Kibana
+  - Knative
   - knowledgebase
+  - Kogito
   - Kompose
   - Kubespray
   - Kylin
@@ -242,6 +246,7 @@ filters:
   - Nagios
   - Neoverse
   - NetcoredebugOutput
+  - Netty
   - Newdoc
   - Nginx
   - npm
@@ -292,6 +297,7 @@ filters:
   - Vale
   - Valgrind
   - Velero
+  - Vert.x
   - vsix
   - WebAuthn
   - Webview
