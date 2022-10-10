@@ -22,6 +22,7 @@ exceptions:
   - Bonjour
   - Btrfs
   - Bugzilla
+  - Camel
   - CapEx
   - CDs
   - CentOS
@@ -58,6 +59,7 @@ exceptions:
   - Dockerfile
   - Dockerfiles
   - Dotnet
+  - Eclipse
   - Dyninst
   - Endevor
   - Endian
@@ -85,6 +87,7 @@ exceptions:
   - HTTP
   - HTTPS
   - IBM
+  - IBM Cloud
   - IDE
   - IDEs
   - InfiniBand
@@ -104,6 +107,8 @@ exceptions:
   - JUnit
   - JVM
   - Kibana
+  - Knative
+  - Kogito
   - Kompose
   - Kubespray
   - Kylin
@@ -125,6 +130,7 @@ exceptions:
   - Nagios
   - Neoverse
   - NetcoredebugOutput
+  - Netty
   - Newdoc
   - Nginx
   - NuGet
@@ -142,6 +148,7 @@ exceptions:
   - PowerPC
   - Productize
   - Productized
+  - Proof Key for Code Exchange
   - Prometheus
   - Pytorch
   - qeth
@@ -178,6 +185,7 @@ exceptions:
   - Vale
   - Valgrind
   - Velero
+  - Vert.x
   - vNIC
   - vNUMA
   - WebAuthn

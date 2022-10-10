@@ -89,6 +89,7 @@ swap:
   PPC|P-PC|PPC64: PowerPC
   Ppp|ppp: PPP
   prom|Prom: PROM
+  proof key for code exchange: Proof Key for Code Exchange
   pSeries: IBM eServer System p
   q & a|q&a|Q & A|Q&A: Q and A
   qcow2|Qcow2: QCOW2

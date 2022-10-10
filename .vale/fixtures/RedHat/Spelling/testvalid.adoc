@@ -155,7 +155,9 @@ Keycloak
 Keyring
 Keyrings
 Kibana
+Knative
 knowledgebase
+Kogito
 Kompose
 Kubespray
 Kylin
@@ -197,6 +199,7 @@ Namespace
 Namespaces
 Neoverse
 NetcoredebugOutput
+Netty
 Newdoc
 Nginx
 Node.js
@@ -216,6 +219,7 @@ Podman
 PostgreSQL
 preconfigured
 Preconfigured
+pregenerated
 prepended
 productize
 productized
@@ -245,6 +249,7 @@ Rollout
 Rollouts
 Roundtable
 Roundtables
+ruleset
 Runlevel
 Runlevels
 Runtime
@@ -313,6 +318,7 @@ URL
 URLs
 Valgrind
 Velero
+Vert.x
 vsix
 WebAuthn
 Webview
