@@ -141,6 +141,7 @@ Java
 Jave
 JBoss
 Jetbrains
+Jira
 Jolokia
 Journald
 Journaling

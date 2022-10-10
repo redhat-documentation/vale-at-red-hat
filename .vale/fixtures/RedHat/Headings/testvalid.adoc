@@ -3,3 +3,4 @@
 == The Infinispan project
 == Installing SmallRye to do xyz
 == Installing RESTEasy with Quarkus
+== A Jira instance
