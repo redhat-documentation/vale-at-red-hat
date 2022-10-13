@@ -1,0 +1,12 @@
+:navtitle: Alt text
+:keywords: reference, rule, alttext
+
+= Alternative text in images
+
+Always provide alternative text for images.
+
+.Additional resources
+
+* link:https://www.ibm.com/able/toolkit/design/content/text-equivalents/[Content design - Text equivalents]
+
+

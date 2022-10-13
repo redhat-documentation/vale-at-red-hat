@@ -1,0 +1,10 @@
+---
+extends: existence
+level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/alttext/
+message: "Always provide alternative text for images '%s'."
+nonword: true
+source: "https://www.usa.gov/style-guide/accessibility"
+scope: raw
+raw:
+  - 'image::.*\[\]'
