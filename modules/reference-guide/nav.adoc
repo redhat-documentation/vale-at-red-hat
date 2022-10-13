@@ -10,6 +10,7 @@
 * xref:ellipses.adoc[]
 * xref:headingpunctuation.adoc[]
 * xref:headings.adoc[]
+* xref:alt-text.adoc[]
 * xref:oxfordcomma.adoc[]
 * xref:passivevoice.adoc[]
 * xref:readabilitygrade.adoc[]
