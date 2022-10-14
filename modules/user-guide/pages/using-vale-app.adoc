@@ -14,7 +14,7 @@
 To get familiar with Vale without installing the Vale software on your local client, you can use the Vale-at-Red-Hat online web app. 
 This web app is preconfigured to analyze your content by using Red Hat's style rules.
 
-* To use the Vale-at-Red-Hat web app, visit https://vale.vercel.app/, paste your content or drop a content file in the app window, and click *Lint*.
+* To use the Vale-at-Red-Hat web app, visit https://vale.vercel.app/, paste your content or drop a content file in the app window, and click *LINT*.
 
 * By default, the Vale-at-Red-Hat web app displays warnings and errors only. 
 You can also view suggestions by using the options menu on the left. 
