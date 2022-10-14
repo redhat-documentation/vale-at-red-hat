@@ -30,7 +30,7 @@ Vale analyzes the specified content according to the command options and the sty
 +
 [source,console,subs="+quotes,+attributes"]
 ----
-$ vale __<target_file_name>__ -- __<option>__ > __<output_file_name>__
+$ vale __<target_file_name>__ --__<option>__ > __<output_file_name>__
 ----
 +
 Where:
@@ -87,7 +87,7 @@ $ vale example.adoc --minAlertLevel=error --output="JSON" | tee ~/test.json
 +
 [source,console]
 ----
-$ vale -- help
+$ vale --help
 ----
 
 .Additional resources
