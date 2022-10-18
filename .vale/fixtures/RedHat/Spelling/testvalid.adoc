@@ -140,7 +140,7 @@ Jakarta
 Java
 Jave
 JBoss
-Jetbrains
+JetBrains
 Jira
 Jolokia
 Journald

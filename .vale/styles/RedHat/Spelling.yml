@@ -40,6 +40,7 @@ filters:
   - "[hH]yperconverged"
   - "[iI]node"
   - "[iI]tem"
+  - "[jJ]et[bB]rains"
   - "[jJ]ournald"
   - "[jJ]ournaling"
   - "[kK]eycloak"
@@ -214,7 +215,6 @@ filters:
   - Java
   - Jave
   - JBoss
-  - Jetbrains
   - Jira
   - Jolokia
   - Joyent

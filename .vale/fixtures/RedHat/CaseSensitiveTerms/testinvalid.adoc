@@ -85,6 +85,8 @@ iso
 iso image
 Itanium2
 JBoss.org
+jetbrains
+Jetbrains
 Junit
 junit
 jvm
