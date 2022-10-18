@@ -272,7 +272,6 @@ subcommand
 subdirectory
 submenu
 subpackage
-subscription
 superuser
 swap space
 system board

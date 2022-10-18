@@ -27,14 +27,14 @@ blue screen of death
 boot diskette
 bootloader
 bottle neck
-bottle-neck"
+bottle-neck
 bottom-left
 bottom-right
 bottomleft
 bottomright
 breadcrumbing
 broad cast
-broad-cast"
+broad-cast
 bugfix
 built in
 builtin
@@ -137,7 +137,6 @@ eg
 emphasise
 end user
 end-user interface
-entitlement
 env
 etc.
 EUI
@@ -369,7 +368,6 @@ utilize
 versus
 video-mode
 videomode
-virtualized
 vs.
 warning notice
 web-enable
