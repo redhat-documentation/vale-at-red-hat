@@ -59,6 +59,7 @@ ISO image
 Itanium
 Itanium 2
 JBoss Community
+JetBrains
 JUnit
 JVM
 Kernel-based Virtual Machine

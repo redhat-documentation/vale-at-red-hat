@@ -25,7 +25,6 @@ infinispan
 Intellij
 Intellij IDEA
 lombok
-jetbrains
 Jvm
 kibana
 kubespray
