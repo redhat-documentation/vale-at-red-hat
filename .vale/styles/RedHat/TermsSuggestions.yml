@@ -8,7 +8,7 @@ source: "https://redhat-documentation.github.io/supplementary-style-guide/glossa
 action:
   name: replace
 swap:
-  ".*(?<!by) using": by using|that uses
+  "(?<!by) using": by using|that uses
   "shell(?! prompt| script)": shell prompt
   ", that": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?<!,) which": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
