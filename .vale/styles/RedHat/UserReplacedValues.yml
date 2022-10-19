@@ -1,5 +1,5 @@
 ---
-source: https://redhat-documentation.github.io/supplementary-style-guide/#user-replaced-values
+source: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/userreplacedvalues/
 extends: substitution
 message: '%s, rather than %s'
 level: suggestion

@@ -3,4 +3,4 @@
 
 = Repeated words
 
-Word is repeated.
+Small words such as "and" or "the" get duplicated easily, especially when shuffling sentence parts around or adding line breaks.
