@@ -152,6 +152,7 @@ JVM
 Kafka
 kbd
 Keycloak
+Keylime
 Keyring
 Keyrings
 Kibana
