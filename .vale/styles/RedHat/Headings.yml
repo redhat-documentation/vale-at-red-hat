@@ -76,6 +76,7 @@ exceptions:
   - Gluster
   - GraalVM
   - Gradle
+  - GraphQL
   - Grayscale
   - GTKplus
   - GUI
@@ -164,6 +165,7 @@ exceptions:
   - Semeru
   - SmallRye
   - Shadowman
+  - Spotify
   - StarOffice
   - startx
   - Suchow

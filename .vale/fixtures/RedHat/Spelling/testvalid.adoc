@@ -112,6 +112,7 @@ Gluster
 GraalVM
 Gradle
 Grafana
+GraphQL
 Grayscale
 GUI
 Hashicorp
@@ -267,6 +268,7 @@ Sharding
 SLA
 SLAs
 SmallRye
+Spotify    
 startx
 su
 Subcommand
