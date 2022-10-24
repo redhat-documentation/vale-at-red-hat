@@ -1,0 +1,24 @@
+:_module-type: PROCEDURE
+
+[id="proc_validating-your-changes_{context}"]
+= Validating your changes
+
+WIP - Work in progress - WIP
+
+As a pull request author or reviewer, you need a way to validate that the changes work and don't generate false positives.
+
+You do this by doing the following:
+* Getting the changes on your local machine
+* Redirecting vale to use the changes
+* Running vale against a local documentation repo
+* Reviewing the results
+
+.Prerequisites
+
+* xref:installing-vale-cli.adoc[]
+* xref:understanding-vale-output.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+.Procedure
+
+. 

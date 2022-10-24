@@ -1,7 +1,7 @@
 // Metadata for Antora
 :navtitle: Extending _Spelling_
 :keywords: contributing, spelling-rule
-// :page-aliases: 
+// :page-aliases:
 // End of metadata for Antora
 
 :parent-context-of-extending-the-spelling-rule: {context}
@@ -13,5 +13,6 @@
 
 include::partial$proc_extending-the-spelling-rule.adoc[leveloffset=+1]
 
-:context: {parent-context-of-extending-the-spelling-rule}
+include::partial$proc_validating-your-changes.adoc[leveloffset=+1]
 
+:context: {parent-context-of-extending-the-spelling-rule}
