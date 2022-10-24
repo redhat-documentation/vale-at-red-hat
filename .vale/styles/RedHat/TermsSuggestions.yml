@@ -2,7 +2,7 @@
 extends: substitution
 ignorecase: false
 level: suggestion
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/termssuggestions/
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termssuggestions/
 message: "Depending on the context, consider using '%s' rather than '%s'."
 source: "https://redhat-documentation.github.io/supplementary-style-guide/glossary-terms-conventions; IBM - Appendix C. Word usage, p. 300"
 action:

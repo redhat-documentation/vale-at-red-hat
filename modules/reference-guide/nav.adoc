@@ -2,7 +2,6 @@
 
 * xref:abbreviations.adoc[]
 * xref:casesensitiveterms.adoc[]
-* xref:configmap.adoc[]
 * xref:conjunctions.adoc[]
 * xref:consciouslanguage.adoc[]
 * xref:contractions.adoc[]

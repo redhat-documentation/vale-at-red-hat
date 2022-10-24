@@ -1,7 +1,7 @@
 ---
 extends: capitalization
 level: suggestion
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/reference-guide/headings/
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/headings/
 match: $sentence
 message: "Use sentence-style capitalization in '%s'."
 scope: heading
