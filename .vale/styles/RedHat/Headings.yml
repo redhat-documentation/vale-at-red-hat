@@ -154,6 +154,7 @@ exceptions:
   - Pytorch
   - qeth
   - Quarkus
+  - Quiltflower
   - Red Hat
   - RedBoot
   - Redistributions
