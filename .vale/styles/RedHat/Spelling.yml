@@ -196,6 +196,7 @@ filters:
   - Gradle
   - Grayscale
   - GraalVM
+  - GraphQL
   - GUI
   - Hashicorp
   - Helgrind
@@ -269,6 +270,7 @@ filters:
   - Pytorch
   - qeth
   - Quarkus
+  - Quiltflower
   - Redistributions
   - Restic
   - RESTEasy
@@ -280,6 +282,7 @@ filters:
   - SLAs
   - Shadowman
   - SmallRye
+  - Spotify
   - startx
   - Suchow
   - SVG

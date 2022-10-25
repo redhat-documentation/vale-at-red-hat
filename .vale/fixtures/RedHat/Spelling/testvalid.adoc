@@ -112,6 +112,7 @@ Gluster
 GraalVM
 Gradle
 Grafana
+GraphQL
 Grayscale
 GUI
 Hashicorp
@@ -230,6 +231,7 @@ Pulldown
 Pytorch
 qeth
 Quarkus
+Quiltflower
 Readonly
 Rebalance
 Rebalances
@@ -267,6 +269,7 @@ Sharding
 SLA
 SLAs
 SmallRye
+Spotify    
 startx
 su
 Subcommand
