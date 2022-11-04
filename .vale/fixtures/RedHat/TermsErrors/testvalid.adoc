@@ -209,8 +209,7 @@ parent process
 PC
 performance counter
 plain text
-plug-in
-plug-ins
+plugin
 point to
 pop-up menu
 power cable

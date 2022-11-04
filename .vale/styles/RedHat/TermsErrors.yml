@@ -219,7 +219,7 @@ swap:
   perfcounter: performance counter
   perimeter network: DMZ
   plaintext|plain-text|cleartext|clear text: plain text
-  plugin|plugins|plug in|plug ins: plug-in # https://www.merriam-webster.com/dictionary/plug-in
+  plug in|plug ins: plugin
   power down: turn off
   power off: turn off
   power on: turn on

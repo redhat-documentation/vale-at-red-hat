@@ -256,8 +256,6 @@ perimeter network
 phone
 plain-text
 plaintext
-plugin
-plugins
 plug in
 plug ins
 pop-up blocker
