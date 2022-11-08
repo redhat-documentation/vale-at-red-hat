@@ -258,6 +258,7 @@ Runlevels
 Runtime
 Runtimes
 Sakila
+sbt
 SCM
 Scrollbar
 SELinux
@@ -269,7 +270,7 @@ Sharding
 SLA
 SLAs
 SmallRye
-Spotify    
+Spotify
 startx
 su
 Subcommand
@@ -291,6 +292,7 @@ Subusers
 Subvolume
 Subvolumes
 Suchow
+Symfony
 SVG
 Systemd
 Tekton
