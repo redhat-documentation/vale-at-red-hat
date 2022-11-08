@@ -276,6 +276,7 @@ filters:
   - RESTEasy
   - Rolfe
   - Sakila
+  - sbt
   - SCM
   - SELinux
   - Semeru
@@ -285,6 +286,7 @@ filters:
   - Spotify
   - startx
   - Suchow
+  - Symfony
   - SVG
   - Tekton
   - Telekom

@@ -47,8 +47,10 @@ postgres
 podman
 quarkus
 restic
+Sbt
 scm
 svg
+symfony
 uber
 uri
 velero
