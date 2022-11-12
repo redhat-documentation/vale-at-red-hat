@@ -7,6 +7,7 @@ you
 on-site
 in-house
 on-premise
+plugin
 repository
 subscription
 tool
