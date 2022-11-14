@@ -39,7 +39,7 @@ jobs:
         run: echo "::set-output name=yearweek::$(/bin/date -u "+%Y%U")"
         shell: bash
       - name: Restore cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: cache
         with:
