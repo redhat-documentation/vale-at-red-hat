@@ -54,6 +54,7 @@ exceptions:
   - GCJ
   - GDB
   - GET
+  - GIF
   - GIMP
   - GNOME
   - GNU
@@ -75,6 +76,7 @@ exceptions:
   - ISO
   - IT
   - JAR
+  - JPEG
   - JSON
   - JSX
   - JVM
@@ -109,6 +111,7 @@ exceptions:
   - PDF
   - PHP
   - PIN
+  - PNG
   - PPP
   - POST
   - PROM
