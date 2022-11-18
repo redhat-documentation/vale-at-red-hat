@@ -98,6 +98,7 @@ filters:
   - "[sS]erializer"
   - "[sS]erverless"
   - "[sS]harding"
+  - "[sS]ysctl"
   - "[Ss]u"
   - "[sS]ubcommand"
   - "[sS]ubcommands"
