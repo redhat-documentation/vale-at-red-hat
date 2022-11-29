@@ -16,6 +16,7 @@ DevOps
 Disk Druid
 DNS
 DVD writer
+etcd
 Exec-Shield
 Exif
 FAQ
