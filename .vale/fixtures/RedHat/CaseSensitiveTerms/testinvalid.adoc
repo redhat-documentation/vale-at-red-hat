@@ -1,3 +1,5 @@
+assertj
+Assertj
 Asciidoc
 asciidoc
 AsciiDoctor
@@ -92,6 +94,7 @@ junit
 jvm
 Jvm
 kernel-based virtual machine
+knowledgebase
 kickstart
 kvm
 lan
@@ -144,6 +147,8 @@ popup
 posix
 Posix
 Postscript
+Powershell
+powershell
 PPC
 PPC64
 ppp
@@ -247,6 +252,8 @@ wca
 Webauthn
 webAuthn
 WebAuthN
+Websocket
+websocket
 web-UI
 webUI
 Window-Maker

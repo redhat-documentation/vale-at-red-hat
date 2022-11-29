@@ -10,9 +10,11 @@ filters:
   - '\.NET'
   - 'I/O'
   - 'Node\.js'
+  - "[aA]ccessor"
   - "[aA]llowlist"
   - "[aA]utostart"
   - "[bB]ackfilling"
+  - "[bB]ackported"
   - "[bB]acktrace"
   - "[bB]indable"
   - "[bB]oolean"
@@ -22,6 +24,9 @@ filters:
   - "[cC]lassloading"
   - "[cC]olocate"
   - "[cC]onfig"
+  - "[dD]eclaratively"
+  - "[dD]ecompiler"
+  - "[dD]eserialization"
   - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
   - "[dD]evfiles"
@@ -35,6 +40,7 @@ filters:
   - "[gG]bps"
   - "[gG]it"
   - "[gG]rafana"
+  - "[hH]ardcoding"
   - "[hH]eatmap"
   - "[hH]ostname"
   - "[hH]yperconverged"
@@ -53,6 +59,7 @@ filters:
   - "[lL]oopback"
   - "[mM]atrixes"
   - "[mM]ebibytes"
+  - "[mM]iddleware"
   - "[mM]illicores"
   - "[mM]ixin"
   - "[mM]ixins"
@@ -68,9 +75,13 @@ filters:
   - "[nN]amespaces"
   - "[oO]nboarding"
   - "[oO]perator"
+  - "[oO]verridable"
   - "[pP]reconfigured"
   - "[pP]regenerated"
   - "[pP]ulldown"
+  - "[pP]reconfigured"
+  - "[pP]repend"
+  - "[pP]repended"
   - "[pP]roductize"
   - "[pP]roductized"
   - "[rR]eadonly"
@@ -96,7 +107,10 @@ filters:
   - "[rR]untimes"
   - "[sS]crollbar"
   - "[sS]erializer"
+  - "[sS]erialization"
+  - "[sS]erializable"
   - "[sS]erverless"
+  - "[sS]ervlet"
   - "[sS]harding"
   - "[Ss]u"
   - "[sS]ubcommand"
@@ -118,6 +132,7 @@ filters:
   - "[sS]ubvolume"
   - "[sS]ubvolumes"
   - "[sS]ystemd"
+  - "[tT]emplated"
   - "[tT]heia"
   - "[tT]olerations"
   - "[tT]raceback"
@@ -132,18 +147,23 @@ filters:
   - "[uU]ntrusted"
   - "[uU]psell"
   - "[uU]pselling"
+  - "[vV]alidator"
   - "Let\'s Encrypt"
   - adoc
+  - Agroal
   - Annobin
   - Ansible
   - Antora
   - API
+  - AssertJ
   - aws
   - AWS
   - Azure
   - Bierner
   - Bitbucket
+  - BOM
   - Bonjour
+  - Bouncy Castle
   - btn
   - Btrfs
   - Bugzilla
@@ -188,7 +208,10 @@ filters:
   - Esprima
   - Exif
   - Fabrice
+  - Failsafe
+  - Fernflower
   - Fortran
+  - Funqy
   - GCC
   - GitHub
   - GitLab
@@ -214,6 +237,7 @@ filters:
   - IntelliJ
   - Itanium
   - Jakarta
+  - Jandex
   - Java
   - Jave
   - JBoss
@@ -227,7 +251,7 @@ filters:
   - kbd
   - Kibana
   - Knative
-  - knowledgebase
+  - Knowledgebase
   - Kogito
   - Kompose
   - Kubespray
@@ -239,13 +263,14 @@ filters:
   - Maven
   - MicroProfile
   - Microsoft
-  - Middleware
   - Minikube
   - Minishift
   - Mirantis
+  - Mockito
   - MongoDB
   - MySQL
   - Nagios
+  - Narayana
   - Neoverse
   - NetcoredebugOutput
   - Netty
@@ -257,19 +282,21 @@ filters:
   - ocp
   - OmniSharp
   - OpenID
+  - OpenJDK
   - OpenShift
   - OpenTracing
   - osd
   - PHP
   - Podman
   - PostgreSQL
-  - preconfigured
-  - prepended
+  - PowerShell
   - Prometheus
   - proxied
   - Pytorch
   - qeth
   - Quarkus
+  - Quarkiverse
+  - Qute
   - Quiltflower
   - Redistributions
   - Restic
@@ -308,6 +335,7 @@ filters:
   - WebAuthn
   - Webview
   - Webviews
+  - WebSocket
   - Wildfly
   - Woopra
   - Wordpress

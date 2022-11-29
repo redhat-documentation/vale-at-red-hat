@@ -9,18 +9,22 @@ source: "IBM - Capitalization in headings and titles, p.16"
 indicators:
   - ":"
 exceptions:
+  - Agroal
   - Annobin
   - Ansible
   - Antora
   - API
   - AsciiDoc
   - Asciidoctor
+  - AssertJ
   - AWS
   - Azure
   - Bierner
   - Bitbucket
+  - BOM
   - Bonjour
   - Btrfs
+  - Bouncy Castle
   - Bugzilla
   - Camel
   - CapEx
@@ -67,7 +71,10 @@ exceptions:
   - Esprima
   - Exif
   - Fabrice
+  - Failsafe
+  - Fernflower
   - Fortran
+  - Funqy
   - GCC
   - Git
   - GitHub
@@ -99,6 +106,7 @@ exceptions:
   - ISeries
   - Itanium
   - Jakarta
+  - Jandex
   - Java
   - Jave
   - JetBrains
@@ -109,6 +117,7 @@ exceptions:
   - JVM
   - Kibana
   - Knative
+  - Knowledgebase
   - Kogito
   - Kompose
   - Kubespray
@@ -125,10 +134,12 @@ exceptions:
   - Minikube
   - Minishift
   - Mirantis
+  - Mockito
   - MongoDB
   - mutual TLS
   - MySQL
   - Nagios
+  - Narayana
   - Neoverse
   - NetcoredebugOutput
   - Netty
@@ -138,6 +149,7 @@ exceptions:
   - OAuth
   - OmniSharp
   - OpenID Connect
+  - OpenJDK
   - OpenShift
   - OpenTracing
   - OpEx
@@ -147,6 +159,7 @@ exceptions:
   - PostgreSQL
   - PostScript
   - PowerPC
+  - PowerShell
   - Productize
   - Productized
   - Proof Key for Code Exchange
@@ -154,7 +167,9 @@ exceptions:
   - Pytorch
   - qeth
   - Quarkus
+  - Quarkiverse
   - Quiltflower
+  - Qute
   - Red Hat
   - RedBoot
   - Redistributions
@@ -194,6 +209,7 @@ exceptions:
   - WebAuthn
   - Webview
   - Webviews
+  - WebSocket
   - Wildfly
   - Window Maker
   - Woopra
