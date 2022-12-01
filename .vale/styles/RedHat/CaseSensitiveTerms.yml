@@ -30,6 +30,7 @@ swap:
   Disk druid|disk druid|diskdruid: Disk Druid
   dns: DNS
   DVD burner|burner: DVD writer
+  Etcd|ETCD: etcd
   Exec Shield: Exec-Shield
   EXIF|exif: Exif
   Faq|faq|F.A.Q: FAQ

@@ -33,6 +33,8 @@ Disk druid
 diskdruid
 dns
 DVD burner
+ETCD
+Etcd
 Exec Shield
 exif
 EXIF
