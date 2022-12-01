@@ -1,11 +1,14 @@
 a .NET application
+accessor
 adoc
+Agroal
 Allowlist
 allowlist
 Annobin
 Ansible
 Antora
 API
+AssertJ
 autostart
 Autostart
 aws
@@ -14,14 +17,17 @@ Azure
 backfilling
 Backfilling
 backtrace
+backported
 Backtrace
 Bierner
 bindable
 Bindable
 Bitbucket
+BOM
 Bonjour
 boolean
 Boolean
+Bouncy Castle
 breakpoint
 Breakpoint
 breakpoints
@@ -67,6 +73,9 @@ Ctrl
 Cygmon
 DaemonSet
 Datadog
+declaratively
+decompiler
+deserialization
 Dev
 devfile
 Devfile
@@ -102,7 +111,10 @@ failback
 Failback
 failover
 Failover
+Failsafe
+Fernflower
 Fortran
+Funqy
 Gbps
 GCC
 Git
@@ -115,6 +127,7 @@ Grafana
 GraphQL
 Grayscale
 GUI
+hardcoding
 Hashicorp
 Heatmap
 Helgrind
@@ -138,6 +151,7 @@ IntelliJ
 Itanium
 Item
 Jakarta
+Jandex
 Java
 Jave
 JBoss
@@ -158,7 +172,7 @@ Keyring
 Keyrings
 Kibana
 Knative
-knowledgebase
+Knowledgebase
 Kogito
 Kompose
 Kubespray
@@ -179,6 +193,7 @@ Mebibytes
 MicroProfile
 Microsoft
 Middleware
+middleware
 Millicores
 Minikube
 Minishift
@@ -186,6 +201,7 @@ Mirantis
 Mixin
 Mixins
 Modularization
+Mockito
 MongoDB
 Multicluster
 Multihost
@@ -199,6 +215,7 @@ MySQL
 Nagios
 Namespace
 Namespaces
+Narayana
 Neoverse
 NetcoredebugOutput
 Netty
@@ -212,16 +229,22 @@ ocp
 OmniSharp
 Onboarding
 OpenID
+OpenJDK
 OpenShift
 OpenTracing
 Operator
 osd
+overridable
 PHP
 Podman
 PostgreSQL
+PowerShell
 preconfigured
 Preconfigured
 pregenerated
+prepended
+preconfigured
+prepend
 prepended
 productize
 productized
@@ -231,7 +254,9 @@ Pulldown
 Pytorch
 qeth
 Quarkus
+Quarkiverse
 Quiltflower
+Qute
 Readonly
 Rebalance
 Rebalances
@@ -263,8 +288,11 @@ SCM
 Scrollbar
 SELinux
 Semeru
+serialization
+serializable
 Serializer
 Serverless
+servlet
 Shadowman
 Sharding
 SLA
@@ -297,6 +325,7 @@ SVG
 Systemd
 Tekton
 Telekom
+Templated
 Tensorflow
 Texinfo
 Theia
@@ -323,10 +352,12 @@ url
 URL
 URLs
 Valgrind
+validator
 Velero
 Vert.x
 vsix
 WebAuthn
+WebSocket
 Webview
 Webviews
 Wildfly

@@ -1,3 +1,4 @@
+AssertJ
 AsciiDoc
 Asciidoctor
 /var
@@ -64,6 +65,7 @@ JetBrains
 JUnit
 JVM
 Kernel-based Virtual Machine
+Knowledgebase
 Kickstart
 KVM
 LAN
@@ -89,6 +91,7 @@ pop-up
 POSIX
 PostScript
 PowerPC
+PowerShell
 PPP
 PROM
 Proof Key for Code Exchange
@@ -143,6 +146,7 @@ WAN
 WCA
 web UI
 WebAuthn
+WebSocket
 Window Maker
 XEmacs
 xterm
