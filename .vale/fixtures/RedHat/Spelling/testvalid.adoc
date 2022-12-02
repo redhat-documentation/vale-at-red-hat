@@ -300,6 +300,10 @@ SLAs
 SmallRye
 Spotify
 startx
+sysctl
+sysctls
+Sysctls
+Sysctl
 su
 Subcommand
 Subcommands

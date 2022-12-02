@@ -112,6 +112,7 @@ filters:
   - "[sS]erverless"
   - "[sS]ervlet"
   - "[sS]harding"
+  - "[sS]ysctl"
   - "[Ss]u"
   - "[sS]ubcommand"
   - "[sS]ubcommands"
