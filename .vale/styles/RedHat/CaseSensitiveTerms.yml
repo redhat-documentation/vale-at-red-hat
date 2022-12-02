@@ -63,6 +63,7 @@ swap:
   iso image: ISO image
   iso: ISO
   Itanium2: Itanium 2
+  jar file: JAR file
   JBoss.org: JBoss Community
   jetbrains|Jetbrains: JetBrains
   Junit|junit: JUnit
