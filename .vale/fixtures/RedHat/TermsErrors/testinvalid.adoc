@@ -84,7 +84,6 @@ control-click
 cross platform
 cross site scripting
 crossplatform
-CRUD
 Ctrl-click
 cypher text
 cypher-text
