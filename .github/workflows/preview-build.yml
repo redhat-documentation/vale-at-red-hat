@@ -23,7 +23,7 @@ jobs:
     container: quay.io/antoraformodulardocs/antora-for-modular-docs:main
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0 # enable git diff and building many branches

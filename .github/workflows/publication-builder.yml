@@ -18,7 +18,7 @@ jobs:
     container: quay.io/antoraformodulardocs/antora-for-modular-docs:main
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Build using antora
         run: tools/publication-builder.sh
       - name: Commit artifact to publication branch
