@@ -108,6 +108,7 @@ swap:
   Red Hat Satellite Capsule server: Red Hat Satellite Capsule Server
   Red Hat Network Satellite server: Red Hat Network Satellite Server
   Redboot|Red Boot: RedBoot
+  redis: Redis
   RESTEASY|resteasy|Resteasy: RESTEasy
   Rom|rom: ROM
   rpm: RPM
