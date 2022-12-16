@@ -107,6 +107,7 @@ Red Hat Satellite Server
 Red Hat Satellite Capsule Server
 Red Hat Network Satellite Server
 RedBoot
+Redis
 RESTEasy
 ROM
 RPM

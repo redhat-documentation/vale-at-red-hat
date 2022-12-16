@@ -180,6 +180,7 @@ Red Hat Satellite server
 Red Hat Satellite Capsule server
 Red Hat Network Satellite server
 Redboot
+redis
 resteasy
 Resteasy
 RESTEASY

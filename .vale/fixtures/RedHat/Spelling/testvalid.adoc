@@ -265,6 +265,7 @@ Rebase
 Rebased
 Recertification
 Recertifications
+Redis
 Redistributions
 Reshard
 Resharding

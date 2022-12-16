@@ -299,6 +299,7 @@ filters:
   - Quarkiverse
   - Qute
   - Quiltflower
+  - Redis
   - Redistributions
   - Restic
   - RESTEasy
