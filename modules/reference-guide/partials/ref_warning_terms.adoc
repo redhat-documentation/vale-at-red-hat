@@ -10,8 +10,13 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 [options="header"]
 |====
 |Incorrect term|Correct term
-
-|I \| He \| She |You
-
+|BIOS |firmware
+|entitlement |repository\|subscription
+|he\|she |you
 |host name |hostname
+|I \| He \| She |You
+|I |you
+|on-premises\|on-prem\|on premise |on-premise\|on-site\|in-house
+|tooling |tool\|tools
+|via |through\|by\|from\|on\|by using
 |====
