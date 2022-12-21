@@ -60,6 +60,7 @@ ISO
 ISO image
 Itanium
 Itanium 2
+JAR file
 JBoss Community
 JetBrains
 JUnit

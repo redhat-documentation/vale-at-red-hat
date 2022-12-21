@@ -194,7 +194,6 @@ information technology
 insure
 Internet address
 irrecoverable
-jar
 keep in mind
 kernelspace
 labour
@@ -347,7 +346,6 @@ typo
 uncheck
 uncompress
 undeploy
-unjar
 unselect
 untar
 unzip

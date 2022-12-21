@@ -3,6 +3,8 @@ cloud
 compress
 enter
 functions
+JAR
+JAR file
 repository
 see
 segmentation fault
