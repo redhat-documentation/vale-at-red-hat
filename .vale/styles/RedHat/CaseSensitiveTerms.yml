@@ -36,6 +36,8 @@ swap:
   EXIF|exif: Exif
   Faq|faq|F.A.Q: FAQ
   fedora project: Fedora™ Project
+  FlatHub: Flathub
+  FlatPak: Flatpak
   fortran: Fortran
   Fqdn|fqdn: FQDN
   gb|Gb: GB
@@ -88,6 +90,7 @@ swap:
   Opex|Opex|OPEX|opEx: OpEx
   OS|Operating System: operating system
   podman: Podman
+  Podman desktop: Podman Desktop
   popup|Pop-up: pop-up
   Posix|posix: POSIX
   Postscript: PostScript
