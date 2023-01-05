@@ -44,6 +44,8 @@ F.A.Q
 faq
 Faq
 fedora project
+FlatHub
+FlatPak
 fortran
 fqdn
 Fqdn
@@ -145,6 +147,7 @@ OPEX
 OS
 P-PC
 podman
+Podman desktop
 Pop-up
 popup
 posix

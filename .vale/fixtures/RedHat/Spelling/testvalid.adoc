@@ -113,6 +113,8 @@ failover
 Failover
 Failsafe
 Fernflower
+Flathub
+Flatpak
 Fortran
 Funqy
 Gbps

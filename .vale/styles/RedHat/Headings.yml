@@ -73,6 +73,8 @@ exceptions:
   - Fabrice
   - Failsafe
   - Fernflower
+  - Flathub
+  - Flatpak
   - Fortran
   - Funqy
   - GCC
@@ -157,6 +159,7 @@ exceptions:
   - ORM
   - PHP
   - Podman
+  - Podman Desktop
   - PostgreSQL
   - PostScript
   - PowerPC
