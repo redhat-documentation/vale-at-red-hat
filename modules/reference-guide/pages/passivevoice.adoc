@@ -3,9 +3,17 @@
 
 = Passive Voice
 
-Avoid using the passive voice. Consider rewording passive voice sentences in the active voice.
+Avoid the passive voice where possible. Active voice focuses on the performer of the action and is often clearer, shorter, and more direct than the passive voice.
 
-You can use the passive voice in prerequisites.
+According to the {ibmsg}, the passive voice is acceptable in the following situations:
+
+* When the system performs the action
+* When it is more appropriate to focus on the receiver of the action
+* When you want to avoid blaming the user for an error, such as in an error message
+* When the information is clearer in the passive voice
+* When the information requires the passive voice, for example, glossary definitions
+
+According to the {ssg}, you can use the passive voice in prerequisites.
 
 .Additional resources
 
