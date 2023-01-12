@@ -1,4 +1,22 @@
 archive
+bare-metal clusters
+bare-metal compute
+bare-metal configuration
+bare-metal control
+bare-metal environment
+bare-metal equipment
+bare-metal event
+bare-metal hardware
+bare-metal host
+bare-metal infrastructure
+bare-metal installation
+bare-metal installer
+bare-metal machine
+bare-metal media
+bare-metal node
+bare-metal provisioning
+bare-metal server
+bare-metal worker
 cloud
 compress
 enter
@@ -12,6 +30,6 @@ shell prompt
 shell script
 Start by using this.
 such as
-write
 this clause that is restrictive
 this clause, which is nonrestrictive
+write
