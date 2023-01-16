@@ -16,3 +16,12 @@
 == Installing Podman Desktop
 == Installing Flathub
 == Installing Flatpak
+== Flatpak Builder
+== Software Development Kit
+== Software Development Kits
+== Application IDs
+== AppData files
+== The Electron base app
+== The Node.js SDK extension
+== Instructions for GTK
+== Instructions for Qt
