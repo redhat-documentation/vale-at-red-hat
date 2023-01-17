@@ -20,6 +20,8 @@ exceptions:
   - Asciidoctor
   - AssertJ
   - Azure
+  - Basic authentication
+  - Basic HTTP authentication
   - BOM
   - Bierner
   - Bitbucket

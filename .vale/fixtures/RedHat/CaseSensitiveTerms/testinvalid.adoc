@@ -4,6 +4,8 @@ Asciidoc
 asciidoc
 AsciiDoctor
 asciidoctor
+basic authentication
+Basic Authentication
 Bios
 btrfs
 burner

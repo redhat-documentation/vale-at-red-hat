@@ -1,4 +1,6 @@
 = A valid heading
+== Configuring Basic authentication
+== Configuring Basic HTTP authentication
 == GitLab Code Quality
 == The Infinispan project
 == Installing SmallRye to do xyz

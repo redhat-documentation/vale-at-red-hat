@@ -2,6 +2,8 @@ AssertJ
 AsciiDoc
 Asciidoctor
 /var
+Basic authentication
+Basic HTTP authentication
 BIND
 bind
 BIOS
