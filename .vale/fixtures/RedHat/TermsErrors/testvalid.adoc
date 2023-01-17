@@ -14,6 +14,7 @@ as
 as expected
 as in
 as needed
+Assisted Installer
 attention notice
 auto-detect
 auxiliary storage
@@ -148,6 +149,7 @@ includes
 information about
 insecure
 installation program
+installer-provisioned infrastructure
 interface
 interim fix
 Internet email address
@@ -318,6 +320,7 @@ URL
 USB flash drive
 use
 user
+user-provisioned infrastructure
 verify
 version
 video mode

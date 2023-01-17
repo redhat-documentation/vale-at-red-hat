@@ -8,6 +8,7 @@ a transition
 abort
 administrate
 advisor
+AI
 air wall
 all caps
 all right
@@ -194,6 +195,7 @@ information on
 information technology
 insure
 Internet address
+IPI
 irrecoverable
 keep in mind
 kernelspace
@@ -359,6 +361,7 @@ up-sell
 up-selling
 up-stream
 up-time
+UPI
 upward compatible
 utilize
 versus
