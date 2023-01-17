@@ -12,6 +12,7 @@ swap:
   asciidoc|Asciidoc: AsciiDoc
   asciidoctor|AsciiDoctor: Asciidoctor
   '[nN]odejs|[nN]ode\.JS|node\.js': Node.js
+  basic authentication|Basic Authentication|basic auth|Basic auth|Basic Auth: Basic HTTP authentication (first instance)|Basic authentication
   # Bind: BIND
   Bios: BIOS
   btrfs: Btrfs

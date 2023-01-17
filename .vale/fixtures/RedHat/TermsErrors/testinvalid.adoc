@@ -19,6 +19,7 @@ as per
 autodetect
 back-level
 backward-compatible
+basic auth
 bi-monthly
 bi-weekly
 Big Blue
