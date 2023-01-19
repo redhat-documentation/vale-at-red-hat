@@ -19,6 +19,7 @@ swap:
   "(?<!Mozilla )Firefox": Mozilla Firefox
   "(?<!Mozilla )Thunderbird": Mozilla Thunderbird
   "a lot(?: of)?": many|much
+  "AI": Assisted Installer
   "backward(?:-)?compatible": compatible with earlier versions
   "[bB]asic [aA]uth": Basic HTTP authentication (first instance)|Basic authentication
   "bottle neck|bottle-neck": bottleneck
@@ -26,6 +27,7 @@ swap:
   "bottom(?:-)?right": lower right|lower-right
   "broad cast|broad-cast": broadcast
   "down(?:-)?level": earlier|previous|not at the latest level
+  "IPI": installer-provisioned infrastructure
   "mash(?: )?up": create
   "non-English(?!-language?)": in languages other than English|non-English-language
   "pop-up (?:blocker|killer)": software to block pop-up ad windows
@@ -33,6 +35,7 @@ swap:
   "sort(?:-|/)?merge": sort|merge
   "top(?:-)?left": upper left|upper right|upper-left|upper-right
   "top(?:-)?right": upper left|upper right|upper-left|upper-right
+  "UPI": user-provisioned infrastructure
   # "app(?:.)": app
   a number of: several
   abort: cancel|stop
