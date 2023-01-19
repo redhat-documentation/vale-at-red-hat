@@ -1,0 +1,7 @@
+[
+    "client: customer",
+    "collect: gather",
+    "engine: inference engine",
+    "package: packet",
+    "product: Product"
+]

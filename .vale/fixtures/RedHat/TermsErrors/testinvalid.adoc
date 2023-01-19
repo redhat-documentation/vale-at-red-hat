@@ -42,6 +42,7 @@ built in
 builtin
 bunches of
 burner
+byte code
 canned
 case insensitive
 catastrophic error
@@ -113,11 +114,13 @@ desire
 desk top
 desk-top
 destroy
+details pane
 different than
 different to
 disk-label
 disklabel
 dismount
+domain mode
 domain-name
 domainname
 down load
@@ -138,7 +141,9 @@ eg
 emphasise
 end user
 end-user interface
+enum
 env
+etc
 etc.
 EUI
 fill in
@@ -209,6 +214,10 @@ left-hand
 leverage
 line cord
 Linux specific
+live broker
+live only
+load-balance
+load-balancing
 look at
 lots of
 main directory
@@ -225,7 +234,9 @@ motherboard
 mouse over
 mouse-button
 mousebutton
+multi site
 multi-processing
+multi-site
 multi-tenant
 network-centric computing
 non-English
@@ -243,8 +254,8 @@ on-ramp
 oops
 op-code
 open-source
-opensource
 OpenSource
+opensource
 organise
 organised
 organising
@@ -252,6 +263,7 @@ over ride
 over-ride
 pain point
 parent task
+passive broker
 perfcounter
 perimeter network
 phone
@@ -259,6 +271,7 @@ plain-text
 plaintext
 plug in
 plug ins
+pojo
 pop-up blocker
 pop-up killer
 power down
@@ -273,6 +286,7 @@ pseudoops
 pull-down
 re-occur
 recognise
+regex
 remote-access
 remote-access server
 reoccur
@@ -301,6 +315,8 @@ Simple Object Access Protocol
 single quote
 single quote mark
 SME routine
+snapset
+snapsets
 sort-merge
 sort/merge
 sound-card
@@ -308,13 +324,16 @@ soundcard
 specfile
 spelt
 stand-alone
+standalone mode
 start up
 straight forward
 straight-forward
+sub version
 sub-command
 sub-directory
 sub-menu
 sub-package
+subversion
 sunset
 super page
 super user
@@ -332,6 +351,7 @@ the transition
 thin provisioned
 thinly provisioned
 thinly-provisioned
+thru
 thumbstick
 Thunderbird
 thus
@@ -346,6 +366,7 @@ topleft
 topright
 touchscreen
 transition
+trust store
 typo
 uncheck
 uncompress
@@ -368,12 +389,17 @@ utilize
 versus
 video-mode
 videomode
+virtual hard disk
+vs
 vs.
 warning notice
 web-enable
 wish
 would like
 x64
-x86_64
 x86-64
+x86_64
+xsite
 zero out
+zone-group
+zonegroup

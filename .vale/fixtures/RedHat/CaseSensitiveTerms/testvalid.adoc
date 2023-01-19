@@ -46,8 +46,7 @@ HP ProLiant
 Hyper-Threading
 hypervisor
 IBM eServer System p
-IBM S 390
-IBM S 390
+IBM S/390
 IBM Z
 Ignition config
 InfiniBand
@@ -156,3 +155,123 @@ XEmacs
 xterm
 YAML
 File extension example.yaml must pass.
+The .NET framework
+.NET
+OKD
+AMQ Broker
+AMQ Clients
+AMQ Console
+AMQ
+AMQ Interconnect
+AMQ Broker
+AMQ Clients
+AMQ Console
+AMQ
+ACK flag
+built-in messaging
+JBoss EAP built-in messaging
+JBoss EAP messaging
+Appliance console
+Applixware
+autolink
+blueprint
+BlueStore
+Red Hat JBoss BPM Suite
+Red Hat JBoss BRMS
+Capsule Server
+Business Central
+ceph-ansible
+Ceph Block Device
+Ceph File System
+Ceph Monitor
+Ceph Object Gateway
+OSD
+CephFS
+CIDR
+management CLI
+Red Hat CloudForms|Red Hat CloudForms Appliance
+Composite Content View
+Content View
+CRUSH map
+Red Hat Customer Portal
+Realtime Decision Server
+Developer Preview
+Directory Server
+Directory Manager
+JBoss EAP
+guided editor
+Facter
+FileStore
+firewalld
+greenboot
+management console
+Hot Rod
+Fuse Online|Red Hat Fuse Online|Syndesis
+FUSE_HOME
+AMQ Interconnect
+AMQ Interconnect
+AMQ Interconnect
+IPv4
+IPv6
+Data Grid Console
+Data Grid
+KIE base
+kernel space
+keystore
+KIE
+Intelligent Process Server
+KIE API
+KJAR
+KIE session
+kubelet
+Kubernetes
+librados
+librbd
+LDAPS
+master-slave group
+IdM CA renewal server
+Microsoft Azure portal
+Windows Server
+network interface controller
+objectClass
+object class
+Red Hat OpenShift Cluster Manager
+Red Hat OpenShift Container Platform
+Red Hat OpenShift Data Foundation
+Red Hat OpenShift Dedicated
+Microsoft Azure On-Demand Marketplace
+Red Hat OpenShift Online
+Red Hat OpenStack Platform
+overcloud
+proof of concept
+Properties View
+Puppet Forge
+Puppet
+qdmanage
+qdstat
+Red Hat Data Grid
+Red Hat JBoss Enterprise Application Platform
+Data Grid Console
+Business Resource Planner
+Red Hat Directory Server
+Satellite Server
+Manager virtual machine
+SmartState analysis
+Source-Navigator^TM^
+standalone Manager
+STARTTLS
+Source-to-Image (S2I)
+Subscription Manifest
+Technology Preview
+Operator Lifecycle Manager
+URN
+Web services
+XP
+Fuse Online
+Red Hat Fuse Online
+Syndesis
+undercloud
+Red Hat CloudForms Appliance
+Red Hat CloudForms
+Red Hat AMQ
+Fuse Online

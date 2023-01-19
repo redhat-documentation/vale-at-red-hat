@@ -149,7 +149,7 @@ filters:
   - "[uU]psell"
   - "[uU]pselling"
   - "[vV]alidator"
-  - "Let\'s Encrypt"
+  - "Let\\'s Encrypt"
   - adoc
   - Agroal
   - Annobin

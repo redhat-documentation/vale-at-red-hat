@@ -137,7 +137,7 @@ however
 huge page
 hyperconverged
 IBM
-IBM S 390
+IBM S/390
 if
 immediately
 in case
@@ -337,3 +337,26 @@ withdraw from marketing
 withdraw from service
 zero
 zip
+bytecode
+server cluster
+details view
+managed domain
+data enumeration
+collect
+master broker
+live-only
+load balance
+supplier
+multisite
+slave broker
+data model
+regular expression
+consumer
+snapshot set
+standalone server
+sub-version
+throughput
+truststore
+virtual hard drive
+cross-site replication
+zone group

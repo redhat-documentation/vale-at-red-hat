@@ -1,56 +1,136 @@
-assertj
-Assertj
+A-MQ
+A-MQ Broker
+A-MQ Clients
+A-MQ Console
+A-MQ Interconnect
+ack
+ACK
+ack packet
+ActiveMQ
+ActiveMQ Artemis
+Analysis
+Appliance Console
+Applix
+ApplixWare
 Asciidoc
 asciidoc
 AsciiDoctor
 asciidoctor
+assertj
+Assertj
+auto-link
+AutoLink
+basic auth
+Basic auth
+Basic Auth
 basic authentication
 Basic Authentication
+BC
 Bios
+blue print
+Blue Store
+BluePrint
+bluestore
+BPM
+BPMS
+BRM
+BRMS
+BRMS engine
 btrfs
 burner
+Business Central editor
 c group
 capex
 capEx
 Capex
+capsule
+Capsule server
 CD 1
 Cds
 CDS
+Central
+Ceph Ansible
+Ceph block device
+Ceph block devices
+Ceph file system
+Ceph filesystem
+Ceph monitor
+Ceph object gateway
+Ceph object gateways
+ceph-osd
+cephfs
+CFME
 CGroup
+cidr
 classic mode
+Classless Inter-domain Routing
+Classless Interdomain Routing
+CLI
+CloudForms Management Engine
+Cluster Manager
+Compared to yaml, JSON has way more curly braces.
+Composite Content view
+composite content view
+Composite View
+composite view
 configmap
 configuration map
+Content view
+content view
 control key
+crush map
+crushmap
 csv
 ctrl
+Customer Portal
 cygmon
 CygMon
 CYGMON
+Data Grid console
+Decision Server
+Dedicated
 Denial of Service
 Denial-of-Service
 Dev Ops
+dev preview
 Dev-Ops
+Developer preview
+Development Preview
 devops
 Devops
+directory manager
+directory server
 disk druid
 Disk druid
 diskdruid
+DM
 dns
+dotNet
 DVD burner
+EAP
+Editor
+engine VM
 ETCD
 Etcd
 Exec Shield
 exif
 EXIF
 F.A.Q
+facter
 faq
 Faq
 fedora project
+File Store
+filestore
+Firewalld
+firewallD
+FirewallD
 FlatHub
 FlatPak
 fortran
 fqdn
 Fqdn
+Fuse Ignite
 gb
 Gb
 gbps
@@ -70,10 +150,18 @@ gpl
 Gpl
 Graalvm
 graalVM
+green boots
+Greenboot
 Grub
-gtk
 Gtk
+gtk
+GUI
+GUI editor
+hot rod
+HotRod
+hotrod
 HP Proliant
+HTTP interface
 hyper-threading
 hyperthreading
 Hyperviser
@@ -81,44 +169,87 @@ HyperVisor
 ia64
 IA64
 IBM z Systems
+Ignite
 ignition config
 Infiniband
+INSTALL_DIR
+installDir
 Intel Tolapai
 Iops
 IOPs
 Ip
 IPSec
+ipv4
+IPV4
+Ipv4
+ipv6
+IPV6
+Ipv6
 iSeries
 iso
-iso image
 Itanium2
-JBoss.org
 jar file
+JBoss
+JBoss AMQ
+JBoss BPMS
+JBoss BRMS
+JBoss Broker
+JBoss Clients
+JBoss Console
+JBoss Data Grid
+JBoss Enterprise Application Platform
+JBoss Interconnect
+JBoss.org
+JDG
 jetbrains
 Jetbrains
 Junit
 junit
 jvm
 Jvm
+k8s
+kbase
 kernel-based virtual machine
-knowledgebase
+kernelspace
+key store
 kickstart
+kie API
+Kie
+Kie Server
+kjar
+kJAR
+knowledge API
+knowledge base
+knowledge session
+knowledgebase
+ksession
+Kubelet
+kubernetes
 kvm
 lan
 Lan
+Librados
+LIBRADOS
+Librbd
+LIBRBD
+Lightweight Directory Access Protocol over Secure Socket Layer
 linux
 LINUX
-Microprofile
+live-backup group
+master CA
 micro-profile
+Microprofile
 MicroSoft
-mongoDB
+Microsoft Azure Portal
+Microsoft Windows
+Microsoft Windows Server
 Mongo DB
-Mongodb
 Mongo-db
+mongoDB
+Mongodb
 MS
 ms-dos
 Ms-Dos
-MS-dos
 msdos
 MSDOS
 MSFT
@@ -129,15 +260,32 @@ Mutual tls
 Mutual TLS
 mySQL
 MYSQL
+native interface
+network interface card
 node.js
 node.JS
 Node.JS
 nodejs
 Nodejs
+O.K.D.
+Object Storage Device
+objectclass
 Objective-C
+OCM
+OCP
+OD
+ODF
+okd
+On-Demand Marketplace
+OO
+Open InfiniBand
 openid connect
 Openid Connect
-Open InfiniBand
+OpenShift Cluster Manager
+OpenShift Kubernetes Distribution
+Openshift online
+OpenShift Origin
+OpenStack Platform
 Operating Environment
 Operating System
 Operator hub
@@ -146,10 +294,12 @@ operatorhub
 Operatorhub
 opEx
 Opex
-Opex
 OPEX
 OS
+OSD daemon
+Overcloud
 P-PC
+Planner
 podman
 Podman desktop
 Pop-up
@@ -166,13 +316,21 @@ Ppp
 prom
 Prom
 proof key for code exchange
+proof of concepts
+Properties editor
 pSeries
+puppet
+puppet forge
 q & a
 Q & A
 q&a
 Q&A
 qcow2
 Qcow2
+Qdmanage
+QDMANAGE
+Qdstat
+QDSTAT
 Qeth
 QETH
 ram
@@ -182,52 +340,80 @@ ramdisk
 RAMdisk
 RAW
 Red Boot
+A-MQ
+Red Hat Broker
+Red Hat Console
+Red Hat Interconnect
+Red Hat JBoss Data Grid
+Red Hat JBoss EAP
+Red Hat Network Satellite server
 Red Hat Proxy
 Red Hat satellite
-Red Hat Satellite server
 Red Hat Satellite Capsule server
-Red Hat Network Satellite server
+Red Hat Satellite server
 Redboot
 redis
+Resource Planner
 resteasy
 Resteasy
 RESTEASY
+RH-OSP
+RHDS
+RHOS
 rom
 Rom
+Router
 rpm
 S-E Linux
 s-record
 s-Record
 S-Record
-S90
 samba
 SAMBA
+Satellite server
 SE Linux
 SE-Linux
+self-hosted engine virtual machine
 selinux
 Shadow Man
 Shadow passwords
 Shadow utilities
 ShadowMan
+Smallrye
+Smart State
+smart state
+Smart state
+Smartstate
 socks
 software collection
 Software collection
+Source Navigator
+source to image
 Spring boot
 SR IOV
 SREC
 ssh
 Ssh
 SSL
+standard environment
+standard Manager
 Star Office
 Staroffice
+StartTLS
+startTLS
 StartX
+STI
 SU
+Subscription manifest
 Sys V
 system d
 system D
-system D
 System V
 SystemD
+Technology preview
+technology preview
+The AMQ Broker
+The Operator Lifecycle Manager
 Tolapai
 ttl
 uid
@@ -237,6 +423,10 @@ unix
 Unix
 UNIX-like
 url
+urn
+Use the .NET Core framework
+Use the .Net Core framework
+Use the .Net framework
 var
 VI
 vim
@@ -260,17 +450,22 @@ VT
 VT-i
 wan
 wca
+web services
+Web Services
+web-UI
 Webauthn
 webAuthn
 WebAuthN
+webservices
 Websocket
 websocket
-web-UI
 webUI
 Window-Maker
 WindowMaker
+Windows
 Xemacs
+Xp
+xp
 Xterm
 yaml
 Yaml is not a markup language.
-Compared to yaml, JSON has way more curly braces.

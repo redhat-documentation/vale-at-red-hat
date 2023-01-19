@@ -12,7 +12,7 @@ swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
   "(?:Ctrl|control)-click": press Ctrl and click
-  "(?<!IBM )S 390": "IBM S 390"
+  '(?<!IBM\s)S\/390|S90|S\s390': IBM S/390
   "(?<!kernel )oops": kernel oops
   "(?<!make the )transition": "make the transition|move|migrate|change"
   "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
@@ -132,7 +132,7 @@ swap:
   fill in: complete|enter|specify
   finalise: finalize
   firm ware|firm-ware: firmware
-  fixed disk drive: hard disk drive
+  'fixed\sdisk\sdrive': hard disk drive
   flavor: version|method
   floating-point: floating point
   floppy disk: diskette|diskette drive
@@ -145,7 +145,7 @@ swap:
   gzip: compress
   gzipped: archive|compressed file
   Hammer|x86_64|x86-64|x64|64-bit x86: AMD64
-  hard drive: hard disk|hard disk drive
+  (?<!virtual )hard drive: hard disk|hard disk drive
   hard file: hard disk|hard disk drive
   hardcode: hard code
   hardcoded: hard-coded
@@ -304,3 +304,23 @@ swap:
   wish: want
   wish|would like: want
   zero out: zero
+  byte code: bytecode
+  computer farm|computer ranch: server cluster
+  details pane: details view
+  domain mode: managed domain
+  enum: data enumeration
+  live broker: master broker
+  live only: live-only
+  load-balance|load-balancing: load balance
+  multi site|multi-site: multisite
+  passive broker: slave broker
+  pojo: data model
+  regex: regular expression
+  snapset|snapsets: snapshot set
+  standalone mode: standalone server
+  sub version|subversion: sub-version
+  thru: throughput
+  trust store: truststore
+  'virtual\shard\sdisk': virtual hard drive
+  xsite: cross-site replication
+  zonegroup|zone-group: zone group

@@ -17,6 +17,8 @@
 /shippable/
 /tools/__pycache__/
 /tools/temp/
+/tools/ssg_utils/temp/
+/tools/ssg_utils/__pycache__/
 package-lock.json
 package.json
 vale-report*
