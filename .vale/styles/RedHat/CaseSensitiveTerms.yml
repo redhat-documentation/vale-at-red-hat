@@ -82,6 +82,7 @@ swap:
   MS-dos|Ms-Dos|ms-dos|MSDOS|msdos: MS-DOS
   MS(?!-DOS?)|MSFT|MicroSoft: Microsoft
   mutual tls|Mutual tls|Mutual TLS: mutual TLS
+  MTLS|m-TLS: mTLS
   MYSQL|mySQL: MySQL
   Objective-C: Objective C
   openid connect|Openid Connect: OpenID Connect

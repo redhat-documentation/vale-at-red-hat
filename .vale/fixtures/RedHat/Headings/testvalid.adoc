@@ -9,6 +9,8 @@
 == Knative is a component used in Quarkus
 == Eclipse Vert.x and Netty are upgraded in Quarkus
 == IBM Cloud
+== mTLS authentication
+== The mutual TLS authentication scheme
 == Proof Key for Code Exchange
 == Kogito updates
 == IBM Cloud is a valid product name
