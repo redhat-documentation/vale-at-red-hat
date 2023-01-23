@@ -186,7 +186,6 @@ exceptions:
   - RedBoot
   - Redis
   - Redistributions
-  - Rolfe
   - SCM
   - SDK
   - SELinux
@@ -233,6 +232,7 @@ exceptions:
   - cgroup
   - eServer
   - mutual TLS
+  - mTLS
   - qeth
   - startx
   - vNIC

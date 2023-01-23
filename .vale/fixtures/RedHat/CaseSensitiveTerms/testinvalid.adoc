@@ -122,6 +122,8 @@ MS-dos
 msdos
 MSDOS
 MSFT
+MTLS
+m-TLS
 mutual tls
 Mutual tls
 Mutual TLS
