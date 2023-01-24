@@ -318,8 +318,8 @@ swap:
   regex: regular expression
   snapset|snapsets: snapshot set
   standalone mode: standalone server
-  sub version|subversion: sub-version
-  thru: throughput
+  sub version|(?<!Apache )Subversion: sub-version
+  thru: through|throughput
   trust store: truststore
   'virtual\shard\sdisk': virtual hard drive
   xsite: cross-site replication

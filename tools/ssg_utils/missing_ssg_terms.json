@@ -1,7 +1,7 @@
 [
     "client: customer",
     "collect: gather",
-    "engine: inference engine",
+    "BRMS engine|engine: inference engine",
     "package: packet",
     "product: Product"
 ]

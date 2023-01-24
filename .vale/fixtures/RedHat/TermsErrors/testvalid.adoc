@@ -355,6 +355,7 @@ consumer
 snapshot set
 standalone server
 sub-version
+Apache Subversion
 throughput
 truststore
 virtual hard drive
