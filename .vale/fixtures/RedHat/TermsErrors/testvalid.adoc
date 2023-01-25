@@ -361,3 +361,10 @@ truststore
 virtual hard drive
 cross-site replication
 zone group
+virtual floppy disk
+virtual floppy drive
+deployment
+self-hosted engine
+self-hosted engine node
+sysprep
+trusted certificate authority

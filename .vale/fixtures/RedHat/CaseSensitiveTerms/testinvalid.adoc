@@ -469,3 +469,50 @@ xp
 Xterm
 yaml
 Yaml is not a markup language.
+Extranet
+fault-tolerance
+fault tolerant
+Firewire
+firewire
+Kernel
+Lun
+lun
+VCPU
+vcpu
+MoM
+Mom
+mom
+xplat-cli
+x-plat-cli
+xplat cli
+x-plat cli
+X-PLAT CLI
+X-PLAT-CLI
+XPLAT-CLI
+XPLAT CLI
+RHV
+RHV-H
+Red Hat Virtualization Hypervisor
+RHV Host
+RHVM
+RHV-M
+RHV Manager
+Azure
+Spice
+spice
+VCPU
+vcpu
+Admin Portal
+webadmin
+webadmin portal
+Administrator Portal
+Administration portal
+VM portal
+vm portal
+Virtual Machine Portal
+User Portal
+Organization administrator
+Org Admin
+org admin
+RHEL host
+RHEL-H

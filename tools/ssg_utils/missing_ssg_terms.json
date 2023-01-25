@@ -1,7 +1,6 @@
 [
     "client: customer",
     "collect: gather",
-    "BRMS engine|engine: inference engine",
     "package: packet",
     "product: Product"
 ]

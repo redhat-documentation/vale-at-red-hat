@@ -272,3 +272,22 @@ swap:
   urn: URN
   webservices|web services|Web Services: Web services
   Xp|xp: XP
+  Extranet: extranet
+  fault-tolerance: fault tolerance
+  fault tolerant: fault-tolerant
+  Firewire|firewire: FireWire
+  'Kernel(?!-based Virtual Machine)': kernel
+  Lun|lun: LUN
+  VCPU|vcpu: vCPU
+  MoM|Mom|mom: MOM
+  xplat-cli|x-plat-cli|xplat cli|x-plat cli|X-PLAT CLI|X-PLAT-CLI|XPLAT-CLI|XPLAT CLI: Microsoft Azure Cross-Platform Command-Line Interface
+  RHV: Red Hat Virtualization
+  'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
+  'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
+  '(?<!Microsoft )Azure': Microsoft Azure
+  Spice|spice: SPICE
+  VCPU|vcpu: vCPU
+  'Admin\sPortal|webadmin\sportal|webadmin|Administrator\sPortal|Administration\sportal': Administration Portal
+  VM portal|vm portal|Virtual Machine Portal|User Portal: VM Portal
+  Organization administrator|Org Admin|org admin: Organization Administrator
+  RHEL host|RHEL-H: Red Hat Enterprise Linux host

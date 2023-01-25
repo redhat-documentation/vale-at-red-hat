@@ -135,9 +135,9 @@ swap:
   'fixed\sdisk\sdrive': hard disk drive
   flavor: version|method
   floating-point: floating point
-  floppy disk: diskette|diskette drive
-  floppy drive: diskette|diskette drive
-  floppy: diskette|diskette drive
+  '(?<!virtual )floppy disk': diskette|diskette drive
+  '(?<!virtual )floppy drive': diskette|diskette drive
+  '(?<!virtual )floppy(?!\sdisk|\sdrive)': diskette|diskette drive
   focussed: focused
   fore-ground|forground: foreground
   forward compatible: compatible with later versions
@@ -145,7 +145,7 @@ swap:
   gzip: compress
   gzipped: archive|compressed file
   Hammer|x86_64|x86-64|x64|64-bit x86: AMD64
-  (?<!virtual )hard drive: hard disk|hard disk drive
+  '(?<!virtual )hard drive': hard disk|hard disk drive
   hard file: hard disk|hard disk drive
   hardcode: hard code
   hardcoded: hard-coded
@@ -324,3 +324,10 @@ swap:
   'virtual\shard\sdisk': virtual hard drive
   xsite: cross-site replication
   zonegroup|zone-group: zone group
+  virtual diskette: virtual floppy disk
+  virtual diskette drive: virtual floppy drive
+  deployment configuration: deployment
+  '(?<!self-)hosted engine(?! host)|hosted-engine(?! host)': self-hosted engine
+  hosted engine host|hosted-engine host|self-hosted engine host|(?<!self-)hosted engine node|hosted-engine node: self-hosted engine node
+  sysprep tool|sysprep process|sysprep function: sysprep
+  self-signed certificate: trusted certificate authority

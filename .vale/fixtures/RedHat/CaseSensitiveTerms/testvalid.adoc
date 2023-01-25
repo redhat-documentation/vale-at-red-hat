@@ -275,3 +275,23 @@ Red Hat CloudForms Appliance
 Red Hat CloudForms
 Red Hat AMQ
 Fuse Online
+extranet
+fault tolerance
+fault-tolerant
+FireWire
+kernel
+LUN
+vCPU
+MOM
+Microsoft Azure Cross-Platform Command-Line Interface
+Red Hat Virtualization
+Red Hat Virtualization Host
+Red Hat Virtualization Manager
+Microsoft Azure
+SPICE
+vCPU
+Administration Portal
+VM Portal
+inference engine
+Red Hat Enterprise Linux host
+Organization Administrator

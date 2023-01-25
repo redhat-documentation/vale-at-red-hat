@@ -403,3 +403,17 @@ xsite
 zero out
 zone-group
 zonegroup
+virtual diskette
+virtual diskette drive
+deployment configuration
+hosted engine
+hosted-engine
+hosted engine host
+hosted-engine host
+self-hosted engine host
+hosted engine node
+hosted-engine node
+sysprep tool
+sysprep process
+sysprep function
+self-signed certificate

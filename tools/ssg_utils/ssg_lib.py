@@ -79,7 +79,8 @@ def get_ssg_terms(temp_dir):
             #file_folder = os.path.dirname(file)
             with open(file, 'r+', encoding='utf-8') as w:
                 data = w.read()
-                data = re.findall(r'\[\[(.*)\]\]\n(====) (.*) \(.*\)\n\*Description\*: (.*)\n\n\*Use it\*: yes\n\n\*Incorrect forms\*: (.*)', data)
+                #fix this! this regex is very brittle
+                data = re.findall(r'\[\[(.*)\]\]\n(====) (.*) \(.*\)\n\*Description\*: (.*)\n.*\n*.*\n*.*\n*\*Use it\*: yes\n\n\*Incorrect forms\*: (.*)', data)
                 for word_usage in data:
                     #set up the term dict
                     ssg_term_dict = {}
