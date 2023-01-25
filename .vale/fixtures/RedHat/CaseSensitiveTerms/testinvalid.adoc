@@ -65,7 +65,6 @@ cidr
 classic mode
 Classless Inter-domain Routing
 Classless Interdomain Routing
-CLI
 CloudForms Management Engine
 Cluster Manager
 Compared to yaml, JSON has way more curly braces.
@@ -516,3 +515,11 @@ Org Admin
 org admin
 RHEL host
 RHEL-H
+DWH
+data warehouse
+Dataware House
+master server
+Spec
+SSL handshake
+smart NIC
+Smart-NIC

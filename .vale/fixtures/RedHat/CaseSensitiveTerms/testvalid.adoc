@@ -136,7 +136,6 @@ UltraSPARC
 UNIX
 URL
 VAR
-VDSM
 vi
 Vim
 virtual console
@@ -232,7 +231,7 @@ master-slave group
 IdM CA renewal server
 Microsoft Azure portal
 Windows Server
-network interface controller
+network interface controller (NIC)
 objectClass
 object class
 Red Hat OpenShift Cluster Manager
@@ -289,9 +288,14 @@ Red Hat Virtualization Host
 Red Hat Virtualization Manager
 Microsoft Azure
 SPICE
-vCPU
 Administration Portal
 VM Portal
 inference engine
 Red Hat Enterprise Linux host
 Organization Administrator
+Data Warehouse
+IdM server and replicas
+spec
+TLS handshake
+SmartNIC
+VDSM

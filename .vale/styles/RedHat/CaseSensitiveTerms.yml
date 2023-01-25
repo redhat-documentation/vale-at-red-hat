@@ -193,7 +193,7 @@ swap:
   ceph-osd|Object Storage Device|OSD daemon: OSD
   cephfs: CephFS
   cidr|Classless Interdomain Routing|Classless Inter-domain Routing: CIDR
-  '(?<!management )CLI|native interface': management CLI
+  native interface: management CLI
   CloudForms Management Engine|CFME: Red Hat CloudForms|Red Hat CloudForms Appliance
   Composite Content view|composite content view|Composite View|composite view: Composite Content View
   Content view|content view: Content View
@@ -237,7 +237,7 @@ swap:
   master CA: IdM CA renewal server
   Microsoft Azure Portal: Microsoft Azure portal
   Microsoft Windows Server|Microsoft Windows|Windows(?! Server): Windows Server
-  network interface card: network interface controller
+  network interface card: network interface controller (NIC)
   objectclass: objectClass
   'OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager': Red Hat OpenShift Cluster Manager
   OCP: Red Hat OpenShift Container Platform
@@ -286,8 +286,12 @@ swap:
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
   '(?<!Microsoft )Azure': Microsoft Azure
   Spice|spice: SPICE
-  VCPU|vcpu: vCPU
   'Admin\sPortal|webadmin\sportal|webadmin|Administrator\sPortal|Administration\sportal': Administration Portal
   VM portal|vm portal|Virtual Machine Portal|User Portal: VM Portal
   Organization administrator|Org Admin|org admin: Organization Administrator
   RHEL host|RHEL-H: Red Hat Enterprise Linux host
+  DWH|data warehouse|Dataware House: Data Warehouse
+  master server: IdM server and replicas
+  Spec: spec
+  SSL handshake: TLS handshake
+  smart NIC|Smart-NIC: SmartNIC

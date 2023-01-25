@@ -80,7 +80,7 @@ def get_ssg_terms(temp_dir):
             with open(file, 'r+', encoding='utf-8') as w:
                 data = w.read()
                 #fix this! this regex is very brittle
-                data = re.findall(r'\[\[(.*)\]\]\n(====) (.*) \(.*\)\n\*Description\*: (.*)\n.*\n*.*\n*.*\n*\*Use it\*: yes\n\n\*Incorrect forms\*: (.*)', data)
+                data = re.findall(r'\[\[(.*)\]\]\n(====) (.*)\n\*Description\*: (.*)\n.*\n*.*\n*.*\n*\*Use it\*: yes\n\n\*Incorrect forms\*: (.*)', data)
                 for word_usage in data:
                     #set up the term dict
                     ssg_term_dict = {}
@@ -96,6 +96,7 @@ def get_ssg_terms(temp_dir):
                     incorrect_forms = re.sub(r'image:images\/yes\.png\[yes\] ', '', incorrect_forms)
                     incorrect_forms = re.sub(r'image:images\/no\.png\[no\] ', '', incorrect_forms) 
                     correct_form = re.sub(r'image:images\/yes\.png\[yes\] ', '', correct_form)
+                    correct_form = re.sub(r' \((noun|verb|adjective|adverb|preposition)\)', '', correct_form)
                     correct_form = re.sub(r'image:images\/no\.png\[no\] ', '', correct_form)
                     #clean out other items
                     incorrect_forms = re.sub(r' \(capitalized\)', '', incorrect_forms)
