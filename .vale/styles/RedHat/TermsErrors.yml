@@ -240,7 +240,8 @@ swap:
   round table: roundtable
   rule of thumb: rule
   run level|run-level: runlevel
-  sanity check: test|evaluate
+  sanity check: test|evaluate|validate|verify
+  sanity test: test|evaluate|validate|verify
   screensaver: screen saver
   scroll bar|scroll-bar: scrollbar
   secondary storage: auxiliary storage

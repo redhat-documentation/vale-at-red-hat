@@ -9,6 +9,7 @@ on premise
 on-premises
 on-prem
 plug-in
+sane
 tooling
 via
 BIOS
