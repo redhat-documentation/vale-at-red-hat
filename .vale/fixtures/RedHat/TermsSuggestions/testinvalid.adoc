@@ -16,6 +16,8 @@ crash
 functionality
 input
 jar
+Navigate
+navigate
 recommend
 refer to
 roll out
@@ -25,8 +27,8 @@ segfault
 shell
 Start using this.
 tar
-this clause, that is restrictive
 this clause which is nonrestrictive
+this clause, that is restrictive
 through
 thru
 type
@@ -35,5 +37,3 @@ user space
 user-space
 userspace
 zip
-Navigate
-navigate

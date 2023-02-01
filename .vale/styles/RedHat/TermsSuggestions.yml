@@ -14,7 +14,7 @@ swap:
   "(?<!,) which": ", which (non restrictive clause preceded by a comma)|that (restrictive clause without a comma)"
   "(?<!such )as": because|while
   and so on: "appropriate descriptive wording, unless you list a clear sequence of elements"
-  bare metal|bare-metal: bare metal (noun)|bare-metal (adjective)
+  "[Bb]are metal|[Bb]are-metal(?! clusters?| compute| configuration| controls?| environments?| equipment| events?| hardware| hosts?| infrastructure| installations?| installers?| machines?| media| nodes?| provisioning| servers?| workers?)": bare metal (noun)|bare-metal (adjective)
   Bps|bps: Bps (bytes per second)|bps (bits per second)
   client side|client-side: client-side (adjective)| client side (noun)
   CD|cd: cd (change directory command)|CD (compact disc)
