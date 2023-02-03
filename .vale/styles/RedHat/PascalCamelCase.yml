@@ -1,0 +1,42 @@
+---
+extends: existence
+scope: sentence
+ignorecase: false
+nonword: true
+level: suggestion
+link: https://redhat-documentation.github.io/asciidoc-markup-conventions
+message: "Consider wrapping this Pascal or Camel case term ('%s') in backticks."
+source: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/PascalCamelCase.yml
+tokens:
+  #CamelCase
+  - ([A-Z]+[a-z]+[A-Z]+){2,}
+  #pascalCase + variants
+  - ([a-zA-Z]+([A-Z]+[a-z]*[A-Z]*))+
+exceptions:
+  - 3scale
+  - AMQ
+  - API
+  - CaaS
+  - CloudForms
+  - CodeReady
+  - Convert2RHEL
+  - CoreOS
+  - DevOps
+  - FaaS
+  - GitOps
+  - GlusterFS
+  - Helm
+  - HyperShift
+  - IaaS
+  - IconBurst
+  - JBoss
+  - ManageIQ
+  - OAuth
+  - OpenJDK
+  - OpenShift
+  - OpenStack
+  - PaaS
+  - RHEL
+  - SaaS
+  - vSphere
+  - xPaaS
