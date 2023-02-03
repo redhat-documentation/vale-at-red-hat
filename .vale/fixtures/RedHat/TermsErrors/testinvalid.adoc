@@ -285,6 +285,7 @@ run level
 run-level
 S 390
 sanity check
+sanity test
 screensaver
 scroll bar
 scroll-bar
