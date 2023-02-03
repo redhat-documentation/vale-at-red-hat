@@ -1,5 +1,3 @@
-= horizontalPodAutoscaler is a Camel case term in a title
-== PersistentVolumeClaim is a Pascal case term in a title
 3scale
 AMQ
 CaaS

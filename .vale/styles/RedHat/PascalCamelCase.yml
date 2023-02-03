@@ -1,8 +1,6 @@
 ---
 extends: existence
-scope: sentence
 ignorecase: false
-nonword: true
 level: suggestion
 link: https://redhat-documentation.github.io/asciidoc-markup-conventions
 message: "Consider wrapping this Pascal or Camel case term ('%s') in backticks."
