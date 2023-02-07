@@ -6,35 +6,86 @@ link: https://redhat-documentation.github.io/asciidoc-markup-conventions
 message: "Consider wrapping this Pascal or Camel case term ('%s') in backticks."
 source: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/PascalCamelCase.yml
 tokens:
-  #CamelCase
-  - ([A-Z]+[a-z]+[A-Z]+){2,}
-  #pascalCase + variants
-  - ([a-zA-Z]+([A-Z]+[a-z]*[A-Z]*))+
+  #PascalCase
+  - ([A-Z]+[a-z]+){2,}
+  - ([A-Z]+[a-z]+[A-Z]+){1,}
+  - ([A-Z]+[A-Z]+[a-z]+){1,}
+  #camelCase
+  - ([a-z]+)([A-Z]+[a-z]+){1,}
 exceptions:
   - 3scale
+  - AGPLv
   - AMQ
   - API
+  - APIs
+  - AppStream
+  - BaseOS
   - CaaS
   - CloudForms
   - CodeReady
   - Convert2RHEL
   - CoreOS
+  - CPUs
+  - DDoS
   - DevOps
+  - DNSSec
   - FaaS
+  - FDs
+  - GiB
   - GitOps
   - GlusterFS
+  - GnuTLS
+  - GTID
+  - GTIDs
   - Helm
   - HyperShift
   - IaaS
   - IconBurst
+  - IdM
+  - IDs
+  - IKEv
+  - InfiniBand
+  - IPoIB
+  - IPsec
+  - IPv
+  - JavaScript
   - JBoss
+  - KiB
+  - LGPLv
+  - LinuxONE
   - ManageIQ
+  - MariaDB
+  - MiB
+  - MySQL
+  - NetBIOS
+  - NetworkManager
+  - NFSv
+  - NVMe
   - OAuth
   - OpenJDK
+  - OpenSCAP
   - OpenShift
+  - OpenSSH
+  - OpenSSL
   - OpenStack
+  - OSs
   - PaaS
+  - PackageKit
+  - PCIe
+  - PipeWire
+  - PostgreSQL
+  - PulseAudio
+  - PyPI
+  - ReaR
   - RHEL
+  - RPMs
   - SaaS
+  - SeaBIOS
+  - SELinux
+  - SQLite
+  - USBGuard
+  - VMs
   - vSphere
+  - WireGuard
   - xPaaS
+  - XWayland
