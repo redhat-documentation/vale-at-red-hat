@@ -26,6 +26,7 @@ swap:
   "bottom(?:-)?left": lower left|lower-left
   "bottom(?:-)?right": lower right|lower-right
   "broad cast|broad-cast": broadcast
+  "byte code|byte-code": bytecode
   "down(?:-)?level": earlier|previous|not at the latest level
   "IPI": installer-provisioned infrastructure
   "mash(?: )?up": create

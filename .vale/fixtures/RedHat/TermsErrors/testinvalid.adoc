@@ -42,6 +42,8 @@ built in
 builtin
 bunches of
 burner
+byte code
+byte-code
 canned
 case insensitive
 catastrophic error
