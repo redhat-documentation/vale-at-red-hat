@@ -112,6 +112,7 @@ SQLite
 STMicroelectronics
 Subscription
 SuperLU
+TiB
 TuneD
 USBGuard
 UUIDs

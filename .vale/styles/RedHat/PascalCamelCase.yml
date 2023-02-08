@@ -13,11 +13,12 @@ tokens:
   #camelCase
   - ([a-z]+)([A-Z]+[a-z]+){1,}
 exceptions:
+  - '\b[A-Z]{2,}s?'
+  - 'vCPUs?'
   - 3scale
   - AGPLv
   - AMQ
   - API
-  - APIs
   - AppStream
   - BaseOS
   - CaaS
@@ -28,7 +29,6 @@ exceptions:
   - ConnectX
   - Convert2RHEL
   - CoreOS
-  - CPUs
   - DDoS
   - DevOps
   - DNSSec
@@ -36,7 +36,6 @@ exceptions:
   - eXtenSion
   - FaaS
   - FCoE
-  - FDs
   - FreeRADIUS
   - GbE
   - GiB
@@ -44,7 +43,6 @@ exceptions:
   - GlusterFS
   - GnuTLS
   - GTID
-  - GTIDs
   - HashBase
   - HdrHistogram
   - Helm
@@ -53,14 +51,12 @@ exceptions:
   - IBoE
   - IconBurst
   - IdM
-  - IDs
   - IKEv
   - InfiniBand
   - InnoDB
   - IPoIB
   - IPsec
   - IPv
-  - ISVs
   - JavaScript
   - JBoss
   - KiB
@@ -97,12 +93,10 @@ exceptions:
   - OpenSSL
   - OpenStack
   - OSBuild
-  - OSs
   - PaaS
   - PackageKit
   - PathTools
   - PCIe
-  - PDFs
   - PipeWire
   - PostgreSQL
   - PulseAudio
@@ -113,21 +107,17 @@ exceptions:
   - relaxngDatatype
   - RHEL
   - RoCE
-  - RPMs
   - SaaS
   - SeaBIOS
   - SELinux
-  - SLAs
   - SQLite
   - STMicroelectronics
   - SuperLU
+  - TiB
   - TuneD
   - USBGuard
-  - UUIDs
-  - vCPUs
   - vDisk
   - vHost
-  - VMs
   - vSphere
   - WireGuard
   - xPaaS
