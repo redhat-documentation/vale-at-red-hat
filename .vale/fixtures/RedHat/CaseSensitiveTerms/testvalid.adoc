@@ -18,6 +18,7 @@ Ctrl
 Cygmon
 denial of service
 denial-of-service
+Developer Preview
 DevOps
 Disk Druid
 DNS
@@ -131,6 +132,7 @@ startx
 su
 systemd
 SysV
+Technology Preview
 TTL
 UID
 UltraSPARC

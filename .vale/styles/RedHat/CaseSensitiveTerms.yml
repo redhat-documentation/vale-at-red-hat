@@ -28,6 +28,7 @@ swap:
   CygMon|cygmon|CYGMON: Cygmon
   Denial of Service: denial of service
   Denial-of-Service: denial-of-service
+  developer preview|Developer preview: Developer Preview
   devops|Devops|Dev-Ops|Dev Ops: DevOps
   Disk druid|disk druid|diskdruid: Disk Druid
   dns: DNS
@@ -137,6 +138,7 @@ swap:
   SU: su
   Sys V|System V: SysV
   system D|system D|SystemD|system d: systemd
+  tech preview|technology preview: Technology Preview
   Tolapai|Intel Tolapai: Intel(R) EP80579 Integrated Processor
   ttl: TTL
   uid: UID

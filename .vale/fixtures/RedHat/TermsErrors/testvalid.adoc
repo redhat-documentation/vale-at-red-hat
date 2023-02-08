@@ -154,6 +154,8 @@ interface
 interim fix
 Internet email address
 IP address
+is a Developer Preview
+is a Technology Preview
 issue
 IT
 kernel oops
@@ -279,6 +281,7 @@ system board
 tar file
 telephone
 test
+Technology Preview
 text mode
 text-based
 that is

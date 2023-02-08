@@ -197,6 +197,8 @@ insure
 Internet address
 IPI
 irrecoverable
+is supported as a Developer Preview
+is supported as a Technology Preview
 keep in mind
 kernelspace
 labour
@@ -324,6 +326,7 @@ switch off
 switch on
 tarball
 terminate
+tech preview
 text based
 text-mode
 textmode

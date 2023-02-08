@@ -32,6 +32,8 @@ Dev Ops
 Dev-Ops
 devops
 Devops
+developer preview
+Developer preview
 disk druid
 Disk druid
 diskdruid
@@ -228,6 +230,8 @@ system D
 system D
 System V
 SystemD
+tech preview
+technology preview
 Tolapai
 ttl
 uid

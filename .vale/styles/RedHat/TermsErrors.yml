@@ -173,6 +173,8 @@ swap:
   insure: ensure
   Internet address: IP address|URL|Internet email address|web address
   irrecoverable: unrecoverable
+  is supported as a Developer Preview: is a Developer Preview
+  is supported as a Technology Preview: is a Technology Preview
   keep in mind: remember
   kernelspace: kernel-space
   labour: labor
@@ -271,6 +273,7 @@ swap:
   switch off: turn off
   switch on: turn on
   tarball: tar file
+  tech preview: Technology Preview
   terminate: end|stop
   text based: text-based
   textmode|text-mode: text mode
