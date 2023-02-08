@@ -21,71 +21,116 @@ exceptions:
   - AppStream
   - BaseOS
   - CaaS
+  - CentOS
+  - CheckTree
   - CloudForms
   - CodeReady
+  - ConnectX
   - Convert2RHEL
   - CoreOS
   - CPUs
   - DDoS
   - DevOps
   - DNSSec
+  - eXpress
+  - eXtenSion
   - FaaS
+  - FCoE
   - FDs
+  - FreeRADIUS
+  - GbE
   - GiB
   - GitOps
   - GlusterFS
   - GnuTLS
   - GTID
   - GTIDs
+  - HashBase
+  - HdrHistogram
   - Helm
   - HyperShift
   - IaaS
+  - IBoE
   - IconBurst
   - IdM
   - IDs
   - IKEv
   - InfiniBand
+  - InnoDB
   - IPoIB
   - IPsec
   - IPv
+  - ISVs
   - JavaScript
   - JBoss
   - KiB
+  - LangTags
   - LGPLv
+  - libOSMesa
+  - LibreOffice
+  - libXNVCtrl
+  - LightPulse
   - LinuxONE
+  - LiquidIO
   - ManageIQ
   - MariaDB
+  - MegaRAID
   - MiB
+  - MoreUtils
   - MySQL
   - NetBIOS
+  - NetWeaver
   - NetworkManager
+  - NetXen
+  - NetXtreme
   - NFSv
+  - NVidia
   - NVMe
   - OAuth
+  - OneConnect
+  - OpenEXR
+  - OpenIPMI
   - OpenJDK
   - OpenSCAP
   - OpenShift
   - OpenSSH
   - OpenSSL
   - OpenStack
+  - OSBuild
   - OSs
   - PaaS
   - PackageKit
+  - PathTools
   - PCIe
+  - PDFs
   - PipeWire
   - PostgreSQL
   - PulseAudio
+  - PyPA
   - PyPI
+  - QLogic
   - ReaR
+  - relaxngDatatype
   - RHEL
+  - RoCE
   - RPMs
   - SaaS
   - SeaBIOS
   - SELinux
+  - SLAs
   - SQLite
+  - STMicroelectronics
+  - SuperLU
+  - TuneD
   - USBGuard
+  - UUIDs
+  - vCPUs
+  - vDisk
+  - vHost
   - VMs
   - vSphere
   - WireGuard
   - xPaaS
+  - XString
   - XWayland
+  - ZCentral
