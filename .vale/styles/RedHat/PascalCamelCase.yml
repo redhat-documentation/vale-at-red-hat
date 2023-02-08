@@ -113,6 +113,7 @@ exceptions:
   - SQLite
   - STMicroelectronics
   - SuperLU
+  - TiB
   - TuneD
   - USBGuard
   - vDisk
