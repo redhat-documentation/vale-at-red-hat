@@ -8,6 +8,9 @@ ACK
 ack packet
 ActiveMQ
 ActiveMQ Artemis
+Admin Portal
+Administration portal
+Administrator Portal
 Analysis
 Appliance Console
 Applix
@@ -20,6 +23,7 @@ assertj
 Assertj
 auto-link
 AutoLink
+Azure
 basic auth
 Basic auth
 Basic Auth
@@ -86,6 +90,8 @@ cygmon
 CygMon
 CYGMON
 Data Grid console
+data warehouse
+Dataware House
 Decision Server
 Dedicated
 Denial of Service
@@ -106,6 +112,7 @@ DM
 dns
 dotNet
 DVD burner
+DWH
 EAP
 Editor
 engine VM
@@ -114,16 +121,21 @@ Etcd
 Exec Shield
 exif
 EXIF
+Extranet
 F.A.Q
 facter
 faq
 Faq
+fault tolerant
+fault-tolerance
 fedora project
 File Store
 filestore
 Firewalld
 firewallD
 FirewallD
+Firewire
+firewire
 FlatHub
 FlatPak
 fortran
@@ -208,12 +220,13 @@ jvm
 Jvm
 k8s
 kbase
+Kernel
 kernel-based virtual machine
 kernelspace
 key store
 kickstart
-kie API
 Kie
+kie API
 Kie Server
 kjar
 kJAR
@@ -235,13 +248,20 @@ Lightweight Directory Access Protocol over Secure Socket Layer
 linux
 LINUX
 live-backup group
+Lun
+lun
+m-TLS
 master CA
+master server
 micro-profile
 Microprofile
 MicroSoft
 Microsoft Azure Portal
 Microsoft Windows
 Microsoft Windows Server
+MoM
+Mom
+mom
 Mongo DB
 Mongo-db
 mongoDB
@@ -253,7 +273,6 @@ msdos
 MSDOS
 MSFT
 MTLS
-m-TLS
 mutual tls
 Mutual tls
 Mutual TLS
@@ -294,6 +313,9 @@ Operatorhub
 opEx
 Opex
 OPEX
+Org Admin
+org admin
+Organization administrator
 OS
 OSD daemon
 Overcloud
@@ -339,7 +361,6 @@ ramdisk
 RAMdisk
 RAW
 Red Boot
-A-MQ
 Red Hat Broker
 Red Hat Console
 Red Hat Interconnect
@@ -350,6 +371,7 @@ Red Hat Proxy
 Red Hat satellite
 Red Hat Satellite Capsule server
 Red Hat Satellite server
+Red Hat Virtualization Hypervisor
 Redboot
 redis
 Resource Planner
@@ -358,7 +380,15 @@ Resteasy
 RESTEASY
 RH-OSP
 RHDS
+RHEL host
+RHEL-H
 RHOS
+RHV
+RHV Host
+RHV Manager
+RHV-H
+RHV-M
+RHVM
 rom
 Rom
 Router
@@ -379,21 +409,27 @@ Shadow passwords
 Shadow utilities
 ShadowMan
 Smallrye
+smart NIC
 Smart State
 smart state
 Smart state
+Smart-NIC
 Smartstate
 socks
 software collection
 Software collection
 Source Navigator
 source to image
+Spec
+Spice
+spice
 Spring boot
 SR IOV
 SREC
 ssh
 Ssh
 SSL
+SSL handshake
 standard environment
 standard Manager
 Star Office
@@ -426,18 +462,24 @@ urn
 Use the .NET Core framework
 Use the .Net Core framework
 Use the .Net framework
+User Portal
 var
+VCPU
+vcpu
 VI
 vim
 VIM
 Virtual Console
 Virtual Desktop Server Management
+Virtual Machine Portal
 Virtual Network Interface Card
 virtual-console
 VisualStudio Code
 VisualStudioCode
 vlan
 vLAN
+VM portal
+vm portal
 vnic
 VNIC
 vnuma
@@ -452,6 +494,8 @@ wca
 web services
 Web Services
 web-UI
+webadmin
+webadmin portal
 Webauthn
 webAuthn
 WebAuthN
@@ -462,64 +506,17 @@ webUI
 Window-Maker
 WindowMaker
 Windows
+x-plat cli
+X-PLAT CLI
+x-plat-cli
+X-PLAT-CLI
 Xemacs
 Xp
 xp
+xplat cli
+XPLAT CLI
+xplat-cli
+XPLAT-CLI
 Xterm
 yaml
 Yaml is not a markup language.
-Extranet
-fault-tolerance
-fault tolerant
-Firewire
-firewire
-Kernel
-Lun
-lun
-VCPU
-vcpu
-MoM
-Mom
-mom
-xplat-cli
-x-plat-cli
-xplat cli
-x-plat cli
-X-PLAT CLI
-X-PLAT-CLI
-XPLAT-CLI
-XPLAT CLI
-RHV
-RHV-H
-Red Hat Virtualization Hypervisor
-RHV Host
-RHVM
-RHV-M
-RHV Manager
-Azure
-Spice
-spice
-VCPU
-vcpu
-Admin Portal
-webadmin
-webadmin portal
-Administrator Portal
-Administration portal
-VM portal
-vm portal
-Virtual Machine Portal
-User Portal
-Organization administrator
-Org Admin
-org admin
-RHEL host
-RHEL-H
-DWH
-data warehouse
-Dataware House
-master server
-Spec
-SSL handshake
-smart NIC
-Smart-NIC
