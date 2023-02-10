@@ -63,11 +63,10 @@ swap:
   Ip: IP
   IPSec: IPsec
   iSeries: ISeries
-  iso image: ISO image
   iso: ISO
   Itanium2: Itanium 2
   jar file: JAR file
-  JBoss.org: JBoss Community
+  'JBoss\.org': JBoss Community
   jetbrains|Jetbrains: JetBrains
   Junit|junit: JUnit
   Jvm|jvm: JVM
@@ -119,7 +118,6 @@ swap:
   Rom|rom: ROM
   rpm: RPM
   s-record|S-Record|s-Record|SREC: S-record
-  S90: IBM S 390
   samba|SAMBA: Samba
   SE-Linux|S-E Linux|SE Linux|selinux: SELinux
   Shadow Man|ShadowMan: Shadowman
@@ -163,3 +161,137 @@ swap:
   Xemacs: XEmacs
   Xterm: xterm
   '(?<!\.)yaml|Yaml': YAML
+  '\s\.Net Core|\s\.Net|\s\.NET\sCore|dotNet': .NET
+  'O\.K\.D|okd|OpenShift Kubernetes Distribution|OpenShift\sOrigin': OKD
+  'JBoss Broker|Red Hat Broker|The AMQ Broker': AMQ Broker
+  JBoss Clients: AMQ Clients
+  'JBoss Console|Red Hat Console': AMQ Console
+  'A-MQ(?!\sBroker|\sClient|\sConsole|\sInterconnect)': AMQ
+  'A-MQ\sInterconnect': AMQ Interconnect
+  'A-MQ\sBroker': AMQ Broker
+  'A-MQ\sClients': AMQ Clients
+  'A-MQ\sConsole': AMQ Console
+  'JBoss\sAMQ': AMQ
+  'ack\spacket|ACK(?!\sflag)|ack': ACK flag
+  'ActiveMQ\sArtemis|ActiveMQ(?!\sArtemis)': built-in messaging|JBoss EAP built-in messaging|JBoss EAP messaging
+  Appliance Console: Appliance console
+  Applix|ApplixWare: Applixware
+  auto-link|AutoLink: autolink
+  blue print|BluePrint: blueprint
+  bluestore|Blue Store: BlueStore
+  'BPMS|(?<!Red Hat )JBoss BPMS|(?<!Red Hat JBoss )BPM(?! Suite)': Red Hat JBoss BPM Suite
+  'BRMS\sengine': inference engine
+  '(?<!Red Hat JBoss )BRMS|BRM|(?<!Red Hat )JBoss BRMS': Red Hat JBoss BRMS
+  '(?<!Red Hat JBoss )BRMS(?! engine)': inference engine
+  Capsule server|capsule: Capsule Server
+  '(?<!Business )Central|BC': Business Central
+  Ceph Ansible: ceph-ansible
+  Ceph block device|Ceph block devices: Ceph Block Device
+  Ceph filesystem|Ceph file system: Ceph File System
+  Ceph monitor: Ceph Monitor
+  Ceph object gateway|Ceph object gateways: Ceph Object Gateway
+  ceph-osd|Object Storage Device|OSD daemon: OSD
+  cephfs: CephFS
+  cidr|Classless Interdomain Routing|Classless Inter-domain Routing: CIDR
+  native interface: management CLI
+  CloudForms Management Engine|CFME: Red Hat CloudForms|Red Hat CloudForms Appliance
+  Composite Content view|composite content view|Composite View|composite view: Composite Content View
+  Content view|content view: Content View
+  crush map|crushmap: CRUSH map
+  '(?<!Red Hat )Customer Portal': Red Hat Customer Portal
+  '(?<!Realtime )Decision\sServer': Realtime Decision Server
+  Development Preview|Developer preview|dev preview: Developer Preview
+  directory server: Directory Server
+  DM|directory manager: Directory Manager
+  '(?<!JBoss )EAP|(?<!Red Hat )JBoss(?!\sCommunity|\sBroker|\sClients|\sConsole|\sAMQ|\sData\sGrid|\sBRMS|\sBPMS|\sEnterprise\sApplication\sPlatform|\.org|\sInterconnect|\sEAP|\sBPM\sSuite)': JBoss EAP
+  'Editor|GUI\seditor|Business\sCentral\seditor': guided editor
+  facter: Facter
+  filestore|File Store: FileStore
+  Firewalld|firewallD|FirewallD: firewalld
+  Greenboot|green boots: greenboot
+  GUI|HTTP interface: management console
+  hot rod|HotRod|hotrod: Hot Rod
+  Ignite|Fuse Ignite: Fuse Online|Red Hat Fuse Online|Syndesis
+  INSTALL_DIR|installDir: FUSE_HOME
+  Router: AMQ Interconnect
+  'Red\sHat\sInterconnect': AMQ Interconnect
+  'JBoss\sInterconnect': AMQ Interconnect
+  ipv4|IPV4|Ipv4: IPv4
+  ipv6|IPV6|Ipv6: IPv6
+  Data Grid console: Data Grid Console
+  JBoss Data Grid: Data Grid
+  kbase|knowledge base: KIE base
+  kernelspace: kernel space
+  key store: keystore
+  'Kie(?!\sServer)': KIE
+  'Kie\sServer': Intelligent Process Server
+  kie API|Kie API|knowledge API: KIE API
+  kjar|kJAR: KJAR
+  ksession|knowledge session: KIE session
+  Kubelet: kubelet
+  kubernetes|k8s: Kubernetes
+  Librados|LIBRADOS: librados
+  Librbd|LIBRBD: librbd
+  Lightweight Directory Access Protocol over Secure Socket Layer: LDAPS
+  live-backup group: master-slave group
+  master CA: IdM CA renewal server
+  Microsoft Azure Portal: Microsoft Azure portal
+  Microsoft Windows Server|Microsoft Windows|Windows(?! Server): Windows Server
+  network interface card: network interface controller (NIC)
+  objectclass: objectClass
+  'OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager': Red Hat OpenShift Cluster Manager
+  OCP: Red Hat OpenShift Container Platform
+  ODF: Red Hat OpenShift Data Foundation
+  'OD|(?<!Red Hat OpenShift )Dedicated': Red Hat OpenShift Dedicated
+  '(?<!Microsoft Azure )On-Demand Marketplace': Microsoft Azure On-Demand Marketplace
+  Openshift online|OO: Red Hat OpenShift Online
+  '(?<!Red Hat )OpenStack Platform|RHOS|RH-OSP': Red Hat OpenStack Platform
+  Overcloud: overcloud
+  proof of concepts: proofs of concept (plural)
+  Properties editor: Properties View
+  puppet forge: Puppet Forge
+  puppet: Puppet
+  Qdmanage|QDMANAGE: qdmanage
+  Qdstat|QDSTAT: qdstat
+  Red Hat JBoss Data Grid|JDG: Red Hat Data Grid
+  Red Hat JBoss EAP: Red Hat JBoss Enterprise Application Platform
+  '(?<!Red Hat )JBoss Enterprise Application Platform': Red Hat JBoss Enterprise Application Platform
+  Data Grid Administration Console: Data Grid Console
+  '(?<!Business )Resource Planner|(?<!Business Resource )Planner': Business Resource Planner
+  RHDS: Red Hat Directory Server
+  Satellite server: Satellite Server
+  'self-hosted\sengine\svirtual\smachine|engine\sVM': Manager virtual machine
+  Smart State|smart state|Smart state|Smartstate|Analysis: SmartState analysis
+  Source Navigator: Source-Navigator^TM^
+  standard Manager|standard environment: standalone Manager
+  StartTLS|startTLS: STARTTLS
+  STI|source to image: Source-to-Image (S2I)
+  Subscription manifest: Subscription Manifest
+  Technology preview|technology preview: Technology Preview
+  The Operator Lifecycle Manager: Operator Lifecycle Manager
+  urn: URN
+  webservices|web services|Web Services: Web services
+  Xp|xp: XP
+  Extranet: extranet
+  fault-tolerance: fault tolerance
+  fault tolerant: fault-tolerant
+  Firewire|firewire: FireWire
+  'Kernel(?!-based Virtual Machine)': kernel
+  Lun|lun: LUN
+  VCPU|vcpu: vCPU
+  MoM|Mom|mom: MOM
+  xplat-cli|x-plat-cli|xplat cli|x-plat cli|X-PLAT CLI|X-PLAT-CLI|XPLAT-CLI|XPLAT CLI: Microsoft Azure Cross-Platform Command-Line Interface
+  RHV: Red Hat Virtualization
+  'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
+  'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
+  '(?<!Microsoft )Azure': Microsoft Azure
+  Spice|spice: SPICE
+  'Admin\sPortal|webadmin\sportal|webadmin|Administrator\sPortal|Administration\sportal': Administration Portal
+  VM portal|vm portal|Virtual Machine Portal|User Portal: VM Portal
+  Organization administrator|Org Admin|org admin: Organization Administrator
+  RHEL host|RHEL-H: Red Hat Enterprise Linux host
+  DWH|data warehouse|Dataware House: Data Warehouse
+  master server: IdM server and replicas
+  Spec: spec
+  SSL handshake: TLS handshake
+  smart NIC|Smart-NIC: SmartNIC
