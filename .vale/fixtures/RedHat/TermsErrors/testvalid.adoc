@@ -8,6 +8,7 @@ air gap
 alternatively
 AMD64
 and so on
+Apache Subversion
 app
 archive
 as
@@ -28,9 +29,9 @@ broadcast
 BTS
 bug fix
 built-in
+bytecode
 cancel
 CD writer
-cell phone
 cell phone
 challenge
 change
@@ -39,6 +40,7 @@ ciphertext
 clear
 cloudbursting
 cloudwashing
+collect
 colocate
 comma-delimited
 comma-separated values
@@ -58,6 +60,7 @@ concept
 concern
 connect to
 consist of
+consumer
 container-based
 containerized
 context-sensitive help
@@ -66,12 +69,15 @@ correct
 create
 create retrieve update and delete
 cross-platform
+cross-site replication
 cross-site scripting
 daemon
 daisy chain
 data
 data center
+data enumeration
 data mirroring
+data model
 data path
 deactivate
 debug
@@ -80,9 +86,11 @@ delete from the database
 demo
 demonstration
 demount
+deployment
 deselect
 desktop
 despite
+details view
 develop components
 different from
 difficulty
@@ -161,22 +169,24 @@ kernel-space
 knowledge base
 left
 left mouse button
+live-only
+load balance
 lock up
 lower left
 lower right
 lower-left
 lower-right
 make the transition
-make the transition
 man page
+managed domain
 many
+master broker
 matrixes
 menu
 menu-driven
 merge
 method
 migrate
-mobile phone
 mobile phone
 Mouse
 mouse button
@@ -187,6 +197,7 @@ Mozilla Thunderbird
 ms
 much
 multiprocessing
+multisite
 multitenant
 navigate
 need
@@ -232,6 +243,7 @@ pulldown
 rather than
 recur
 regardless of
+regular expression
 remember
 remote access
 remote access server
@@ -247,6 +259,9 @@ rule
 runlevel
 screen saver
 scrollbar
+self-hosted engine
+self-hosted engine node
+server cluster
 server farm
 session management exit routine
 several
@@ -255,6 +270,8 @@ shared components
 shell prompt
 shell script
 single quotation mark
+slave broker
+snapshot set
 SOAP
 software to block pop-up ad windows
 sort
@@ -264,17 +281,21 @@ specific
 specify
 spelled
 standalone
+standalone server
 start
 stop
 stop error
 stop responding
 straightforward
+sub-version
 subcommand
 subdirectory
 submenu
 subpackage
 superuser
+supplier
 swap space
+sysprep
 system board
 tar file
 telephone
@@ -286,6 +307,7 @@ therefore
 thin-provisioned
 this clause that is restrictive
 this clause, which is nonrestrictive
+throughput
 tier-1
 time frame
 to
@@ -293,6 +315,8 @@ toggle
 tooling
 tools
 touch-sensitive screen
+trusted certificate authority
+truststore
 try again
 turn off
 turn on
@@ -325,6 +349,9 @@ verify
 version
 video mode
 virtual
+virtual floppy disk
+virtual floppy drive
+virtual hard drive
 want
 web address
 web seminar
@@ -337,34 +364,4 @@ withdraw from marketing
 withdraw from service
 zero
 zip
-bytecode
-server cluster
-details view
-managed domain
-data enumeration
-collect
-master broker
-live-only
-load balance
-supplier
-multisite
-slave broker
-data model
-regular expression
-consumer
-snapshot set
-standalone server
-sub-version
-Apache Subversion
-throughput
-truststore
-virtual hard drive
-cross-site replication
 zone group
-virtual floppy disk
-virtual floppy drive
-deployment
-self-hosted engine
-self-hosted engine node
-sysprep
-trusted certificate authority
