@@ -261,6 +261,7 @@ screen saver
 scrollbar
 self-hosted engine
 self-hosted engine node
+self-signed certificate
 server cluster
 server farm
 session management exit routine
