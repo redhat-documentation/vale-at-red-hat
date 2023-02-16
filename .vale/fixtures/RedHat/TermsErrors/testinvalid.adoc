@@ -145,7 +145,6 @@ end-user interface
 enum
 env
 etc
-etc.
 EUI
 fill in
 finalise
