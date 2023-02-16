@@ -1,3 +1,5 @@
+/etc
+/etc/
 a or b
 a, b, or both
 access method
@@ -113,6 +115,7 @@ end
 ensure
 enter
 environment
+etc/
 evaluate
 examine
 extract
