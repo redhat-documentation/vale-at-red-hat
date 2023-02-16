@@ -313,7 +313,6 @@ scroll-bar
 secondary storage
 selection button
 self-hosted engine host
-self-signed certificate
 send out
 serial database
 sharename

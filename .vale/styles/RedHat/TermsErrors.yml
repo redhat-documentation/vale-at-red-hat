@@ -330,4 +330,3 @@ swap:
   '(?<!self-)hosted engine(?! host)|hosted-engine(?! host)': self-hosted engine
   hosted engine host|hosted-engine host|self-hosted engine host|(?<!self-)hosted engine node|hosted-engine node: self-hosted engine node
   sysprep tool|sysprep process|sysprep function: sysprep
-  self-signed certificate: trusted certificate authority
