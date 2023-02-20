@@ -36,6 +36,7 @@ ceph-ansible
 CephFS
 cgroup
 CIDR
+Command Prompt
 Composite Content View
 ConfigMap
 Content View

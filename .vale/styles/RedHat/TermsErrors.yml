@@ -88,7 +88,6 @@ swap:
   comma delimited|commadelimited: comma-delimited
   comma-delimited values|comma delimited values|comma separated values: comma-separated values
   command driven|commanddriven: command-driven
-  command prompt: shell prompt
   command-language: command language
   componentization: component-based development|component model|component architecture|shared components
   componentize: develop components

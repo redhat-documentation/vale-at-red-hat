@@ -76,6 +76,7 @@ swap:
   cidr|Classless Interdomain Routing|Classless Inter-domain Routing: CIDR
   classic mode: GNOME Classic
   CloudForms Management Engine|CFME: Red Hat CloudForms|Red Hat CloudForms Appliance
+  command prompt: shell prompt|Command Prompt (Windows product)
   Composite Content view|composite content view|Composite View|composite view: Composite Content View
   configmap: config map
   configuration map: config map

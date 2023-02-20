@@ -47,6 +47,7 @@ colocate
 comma-delimited
 comma-separated values
 command language
+Command Prompt
 command-driven
 Common Base Event
 compared to
