@@ -76,6 +76,8 @@ Datadog
 declaratively
 decompiler
 deserialization
+desynchronize
+desynchronized
 Dev
 devfile
 Devfile

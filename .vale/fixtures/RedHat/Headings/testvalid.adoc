@@ -30,3 +30,4 @@
 == Instructions for GTK
 == Instructions for Qt
 == Running Kind on Windows Subsystem for Linux (WSL)
+== Technology Preview

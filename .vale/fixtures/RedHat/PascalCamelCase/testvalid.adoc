@@ -95,6 +95,7 @@ PCIe
 PDFs
 PipeWire
 PostgreSQL
+PowerShell
 PulseAudio
 PyPA
 PyPI
