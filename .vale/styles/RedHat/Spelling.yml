@@ -27,6 +27,8 @@ filters:
   - "[dD]eclaratively"
   - "[dD]ecompiler"
   - "[dD]eserialization"
+  - "[dD]esynchronize"
+  - "[dD]esynchronized"
   - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
   - "[dD]evfiles"
