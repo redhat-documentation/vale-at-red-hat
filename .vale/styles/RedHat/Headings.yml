@@ -126,6 +126,7 @@ exceptions:
   - Jolokia
   - Joyent
   - Kibana
+  - Kind
   - Knative
   - Knowledgebase
   - Kogito
@@ -223,6 +224,8 @@ exceptions:
   - Webviews
   - Wildfly
   - Window Maker
+  - Windows
+  - Windows Subsystem for Linux
   - Woopra
   - Wordpress
   - XEmacs
