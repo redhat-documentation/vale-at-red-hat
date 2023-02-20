@@ -71,6 +71,7 @@ Classless Inter-domain Routing
 Classless Interdomain Routing
 CloudForms Management Engine
 Cluster Manager
+command prompt
 Compared to yaml, JSON has way more curly braces.
 Composite Content view
 composite content view

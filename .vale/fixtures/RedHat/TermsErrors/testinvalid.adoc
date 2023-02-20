@@ -70,7 +70,6 @@ comma separated values
 comma-delimited values
 commadelimited
 command driven
-command prompt
 command-language
 commanddriven
 componentization
