@@ -99,6 +99,7 @@ exceptions:
   - PCIe
   - PipeWire
   - PostgreSQL
+  - PowerShell
   - PulseAudio
   - PyPA
   - PyPI
