@@ -2,6 +2,7 @@
 extends: existence
 ignorecase: false
 level: suggestion
+scope: [list, sentence]
 link: https://redhat-documentation.github.io/asciidoc-markup-conventions
 message: "Consider wrapping this Pascal or Camel case term ('%s') in backticks."
 source: https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/PascalCamelCase.yml
@@ -124,4 +125,5 @@ exceptions:
   - xPaaS
   - XString
   - XWayland
+  - YouTube
   - ZCentral

@@ -1,3 +1,4 @@
+== camelCase term should not be flagged in headings
 3scale
 AGPLv
 AMQ
@@ -127,6 +128,7 @@ Words at the start of a sentence should not trigger the rule.
 xPaaS
 XString
 XWayland
+YouTube
 ZCentral
 
 [source,terminal]
