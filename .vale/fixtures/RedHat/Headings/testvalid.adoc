@@ -31,3 +31,6 @@
 == Instructions for Qt
 == Running Kind on Windows Subsystem for Linux (WSL)
 == Technology Preview
+== Using Podman Desktop
+== Using a proxy requiring custom Certificate Authorities
+== Using a proxy requiring custom Certificate Authorities (CA)

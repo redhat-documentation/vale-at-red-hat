@@ -38,6 +38,7 @@ exceptions:
   - CapEx
   - CentOS
   - Ceph
+  - Certificate Authorities
   - Che-Theia
   - Ciphertext
   - Civetweb
