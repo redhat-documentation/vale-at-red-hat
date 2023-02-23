@@ -286,6 +286,7 @@ web UI
 WebAuthn
 WebSocket
 Window Maker
+Windows
 Windows Server
 XEmacs
 XP

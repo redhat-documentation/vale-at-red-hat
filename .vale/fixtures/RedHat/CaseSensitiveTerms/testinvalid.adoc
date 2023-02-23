@@ -258,7 +258,6 @@ micro-profile
 Microprofile
 MicroSoft
 Microsoft Azure Portal
-Microsoft Windows
 Microsoft Windows Server
 MoM
 Mom
@@ -506,7 +505,6 @@ websocket
 webUI
 Window-Maker
 WindowMaker
-Windows
 x-plat cli
 X-PLAT CLI
 x-plat-cli
