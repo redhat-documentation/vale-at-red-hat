@@ -47,12 +47,10 @@ c group
 capex
 capEx
 Capex
-capsule
 Capsule server
 CD 1
 Cds
 CDS
-Central
 Ceph Ansible
 Ceph block device
 Ceph block devices
@@ -94,7 +92,6 @@ Data Grid console
 data warehouse
 Dataware House
 Decision Server
-Dedicated
 Denial of Service
 Denial-of-Service
 Dev Ops
@@ -115,7 +112,6 @@ dotNet
 DVD burner
 DWH
 EAP
-Editor
 engine VM
 ETCD
 Etcd
