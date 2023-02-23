@@ -11,7 +11,7 @@ swap:
   "(?<!/)var": VAR
   # Bind: BIND
   '(?<!\.)yaml|Yaml': YAML
-  '(?<!Business )Central|BC': Business Central
+  BC: Business Central
   '(?<!Business )Resource Planner|(?<!Business Resource )Planner': Business Resource Planner
   '(?<!JBoss )EAP|(?<!Red Hat )JBoss(?!\sCommunity|\sBroker|\sClients|\sConsole|\sAMQ|\sData\sGrid|\sBRMS|\sBPMS|\sEnterprise\sApplication\sPlatform|\.org|\sInterconnect|\sEAP|\sBPM\sSuite)': JBoss EAP
   '(?<!Microsoft )Azure': Microsoft Azure
@@ -34,7 +34,7 @@ swap:
   'Admin\sPortal|webadmin\sportal|webadmin|Administrator\sPortal|Administration\sportal': Administration Portal
   'BPMS|(?<!Red Hat )JBoss BPMS|(?<!Red Hat JBoss )BPM(?! Suite)': Red Hat JBoss BPM Suite
   'BRMS\sengine': inference engine
-  'Editor|GUI\seditor|Business\sCentral\seditor': guided editor
+  'GUI\seditor|Business\sCentral\seditor': guided editor
   'JBoss Broker|Red Hat Broker|The AMQ Broker': AMQ Broker
   'JBoss Console|Red Hat Console': AMQ Console
   'JBoss\.org': JBoss Community
@@ -45,7 +45,7 @@ swap:
   'Kie\sServer': Intelligent Process Server
   'O\.K\.D|okd|OpenShift Kubernetes Distribution|OpenShift\sOrigin': OKD
   'OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager': Red Hat OpenShift Cluster Manager
-  'OD|(?<!Red Hat OpenShift )Dedicated': Red Hat OpenShift Dedicated
+  'OD': Red Hat OpenShift Dedicated
   'Red\sHat\sInterconnect': AMQ Interconnect
   'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
@@ -62,7 +62,7 @@ swap:
   bluestore|Blue Store: BlueStore
   btrfs: Btrfs
   Capex|capex|capEx: CapEx
-  Capsule server|capsule: Capsule Server
+  Capsule server: Capsule Server
   CD 1: CD #1
   CDS|Cds: CDs
   Ceph Ansible: ceph-ansible
@@ -206,7 +206,7 @@ swap:
   Ppp|ppp: PPP
   prom|Prom: PROM
   proof key for code exchange: Proof Key for Code Exchange
-  proof of concepts: proofs of concept (plural)
+  proof of concepts: proofs of concept
   Properties editor: Properties View
   pSeries: IBM eServer System p
   puppet forge: Puppet Forge

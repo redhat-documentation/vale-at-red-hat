@@ -23,8 +23,11 @@ BlueStore
 Btrfs
 built-in messaging
 Business Central
+Central
+Editor
 Business Resource Planner
 CapEx
+capsule
 Capsule Server
 CD #1
 CDs
@@ -51,6 +54,7 @@ denial of service
 denial-of-service
 Developer Preview
 DevOps
+Dedicated
 Directory Manager
 Directory Server
 Disk Druid

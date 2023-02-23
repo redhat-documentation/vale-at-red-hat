@@ -21,6 +21,7 @@ exceptions:
   - AMQ
   - API
   - AppStream
+  - AsciiDoc
   - BaseOS
   - CaaS
   - CentOS
