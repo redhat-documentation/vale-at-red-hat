@@ -23,14 +23,13 @@ BlueStore
 Btrfs
 built-in messaging
 Business Central
-Central
-Editor
 Business Resource Planner
 CapEx
 capsule
 Capsule Server
 CD #1
 CDs
+Central
 Ceph Block Device
 Ceph File System
 Ceph Monitor
@@ -50,16 +49,17 @@ Cygmon
 Data Grid
 Data Grid Console
 Data Warehouse
+Dedicated
 denial of service
 denial-of-service
 Developer Preview
 DevOps
-Dedicated
 Directory Manager
 Directory Server
 Disk Druid
 DNS
 DVD writer
+Editor
 etcd
 Exec-Shield
 Exif
@@ -91,6 +91,7 @@ GraalVM
 greenboot
 GRUB
 GTK+
+GUI
 guided editor
 Hibernate ORM
 Hot Rod

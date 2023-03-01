@@ -163,7 +163,6 @@ Greenboot
 Grub
 Gtk
 gtk
-GUI
 GUI editor
 hot rod
 HotRod

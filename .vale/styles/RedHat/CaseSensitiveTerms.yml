@@ -11,7 +11,6 @@ swap:
   "(?<!/)var": VAR
   # Bind: BIND
   '(?<!\.)yaml|Yaml': YAML
-  BC: Business Central
   '(?<!Business )Resource Planner|(?<!Business Resource )Planner': Business Resource Planner
   '(?<!JBoss )EAP|(?<!Red Hat )JBoss(?!\sCommunity|\sBroker|\sClients|\sConsole|\sAMQ|\sData\sGrid|\sBRMS|\sBPMS|\sEnterprise\sApplication\sPlatform|\.org|\sInterconnect|\sEAP|\sBPM\sSuite)': JBoss EAP
   '(?<!Microsoft )Azure': Microsoft Azure
@@ -57,6 +56,7 @@ swap:
   assertj|Assertj: AssertJ
   auto-link|AutoLink: autolink
   basic authentication|Basic Authentication|basic auth|Basic auth|Basic Auth: Basic HTTP authentication (first instance)|Basic authentication
+  BC: Business Central
   Bios: BIOS
   blue print|BluePrint: blueprint
   bluestore|Blue Store: BlueStore
@@ -126,9 +126,9 @@ swap:
   Greenboot|green boots: greenboot
   Grub: GRUB
   GTK|Gtk|gtk: GTK+
-  GUI|HTTP interface: management console
   hot rod|HotRod|hotrod: Hot Rod
   HP Proliant: HP ProLiant
+  HTTP interface: management console
   hyperthreading|hyper-threading: Hyper-Threading
   HyperVisor|Hyperviser: hypervisor
   IA64|ia64: Itanium
