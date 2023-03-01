@@ -1,3 +1,4 @@
+64-bit x86
 and so on
 as
 bare metal
@@ -14,6 +15,7 @@ Cloud
 code
 crash
 functionality
+Hammer
 input
 jar
 Navigate
@@ -36,4 +38,7 @@ unjar
 user space
 user-space
 userspace
+x64
+x86-64
+x86_64
 zip
