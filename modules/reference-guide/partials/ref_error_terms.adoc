@@ -118,8 +118,6 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 
 |gray-scale \| gray scale|link:https://redhat-documentation.github.io/supplementary-style-guide/#grayscale[grayscale]
 
-|Hammer \| x86_64 \| x86-64 \| x64 \| 64-bit x86|link:https://redhat-documentation.github.io/supplementary-style-guide/#AMD64[AMD64]
-
 |hardcode|link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-code[hard code]
 
 |hardcoded|link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-coded[hard-coded]

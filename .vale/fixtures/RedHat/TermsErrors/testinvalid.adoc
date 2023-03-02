@@ -1,4 +1,3 @@
-64-bit x86
 a lot
 a lot of
 a number of
@@ -164,7 +163,6 @@ gray scale
 gray-scale
 gzip
 gzipped
-Hammer
 hard drive
 hard file
 hardcode
@@ -408,9 +406,6 @@ warning notice
 web-enable
 wish
 would like
-x64
-x86-64
-x86_64
 xsite
 zero out
 zone-group

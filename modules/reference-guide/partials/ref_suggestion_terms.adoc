@@ -9,7 +9,7 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 .Supplementary Style Guide terminology guidance
 [options="header"]
 |====
-|Incorrect term|Correct term
+|Term|Suggested term
 
 |command prompt \| terminal \| shell|link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[shell prompt]
 
@@ -20,6 +20,8 @@ pass:[<!-- vale RedHat.TermsErrors = NO -->]
 |Cloud (as a noun)|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloud-n[cloud]
 
 |code|link:https://redhat-documentation.github.io/supplementary-style-guide/#write[write]
+
+|Hammer \| x86_64 \| x86-64 \| x64 \| 64-bit x86|link:https://redhat-documentation.github.io/supplementary-style-guide/#AMD64[AMD64]
 
 |refer to|link:https://redhat-documentation.github.io/supplementary-style-guide/#see[see]
 

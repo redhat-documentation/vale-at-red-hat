@@ -152,7 +152,6 @@ swap:
   gray-scale|gray scale: grayscale
   gzip: compress
   gzipped: archive|compressed file
-  Hammer|x86_64|x86-64|x64|64-bit x86: AMD64
   hard file: hard disk|hard disk drive
   hardcode: hard code
   hardcoded: hard-coded
