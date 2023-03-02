@@ -6,15 +6,15 @@ link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference
 message: "Define acronyms and abbreviations (such as '%s') on first occurrence if they're likely to be unfamiliar."
 source: "IBM - Abbreviations, p. 1"
 # Ensures that the existence of 'first' implies the existence of 'second'.
-first: '\b([A-Z]{3,5}s?)\b(?!\s\(([A-Za-z0-9]+\s?)+\))'
-second: '\(([A-Z]{3,5}s?)\)'
+first: '\b([A-Z]{3,5})\b'
+second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
 # ... with the exception of these:
 exceptions:
   - 'CPUs?'
   - 'CVEs?'
   - 'DVDs?'
-  - 'NULL'
   - 'GIDs?'
+  - 'NULL'
   - 'PIDs?'
   - 'ROMs?'
   - 'RPMs?'
@@ -27,10 +27,14 @@ exceptions:
   - ARM
   - ASCII
   - ASP
+  - AWS 
   - BIND
   - BIOS
+  - BMC
   - CD
+  - CIDR
   - CLI
+  - CNAME
   - CSS
   - CSV
   - CUPS
@@ -64,10 +68,12 @@ exceptions:
   - GRUB
   - GTK+
   - GUI
+  - GUID
   - HP
   - HTML
   - HTTP
   - HTTPS
+  - IAM
   - IBM
   - IDE
   - IOPS
@@ -107,13 +113,13 @@ exceptions:
   - OSS
   - PATH
   - PC
-  - POSIX
   - PDF
   - PHP
   - PIN
   - PNG
-  - PPP
+  - POSIX
   - POST
+  - PPP
   - PROM
   - PXE
   - QCOW2
@@ -121,6 +127,7 @@ exceptions:
   - RADOS
   - RAID
   - RAM
+  - RBAC
   - RBD
   - REPL
   - REST
@@ -128,6 +135,7 @@ exceptions:
   - RGW
   - RHEL
   - RSA
+  - SAML
   - SAP
   - SCM
   - SCSI
@@ -138,10 +146,12 @@ exceptions:
   - SOCKS
   - SPEC
   - SQL
+  - SSD
   - SSH
   - SSL
   - SSSD
   - SVG
+  - SVN
   - SWAT
   - TBD
   - TCP
@@ -159,6 +169,7 @@ exceptions:
   - VDO
   - VDSM
   - VGA
+  - VLAN
   - VNC
   - VPN
   - WAN
@@ -169,3 +180,4 @@ exceptions:
   - YAML
   - YUM
   - ZIP
+  - ZTP
