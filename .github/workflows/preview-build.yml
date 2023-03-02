@@ -36,7 +36,7 @@ jobs:
       # See: http://man7.org/linux/man-pages/man1/date.1.html
       - name: Get yearweek for cache
         id: get-date # used below
-        run: echo "::set-output name=yearweek::$(/bin/date -u "+%Y%U")"
+        run: echo "yearweek=$(/bin/date -u "+%Y%U")" >> $GITHUB_OUTPUT
         shell: bash
       - name: Restore cache
         uses: actions/cache@v3
