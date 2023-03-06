@@ -23,6 +23,7 @@ exceptions:
   - AppStream
   - AsciiDoc
   - BaseOS
+  - BitBucket
   - CaaS
   - CentOS
   - CheckTree
@@ -41,6 +42,8 @@ exceptions:
   - FreeRADIUS
   - GbE
   - GiB
+  - GitHub
+  - GitLab
   - GitOps
   - GlusterFS
   - GnuTLS
