@@ -386,7 +386,6 @@ RHV-M
 RHVM
 rom
 Rom
-Router
 rpm
 S-E Linux
 s-record
