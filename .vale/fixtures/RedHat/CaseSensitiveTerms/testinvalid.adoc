@@ -485,15 +485,12 @@ VT
 VT-i
 wan
 wca
-web services
-Web Services
 web-UI
 webadmin
 webadmin portal
 Webauthn
 webAuthn
 WebAuthN
-webservices
 Websocket
 websocket
 webUI
