@@ -33,7 +33,7 @@ swap:
   'Admin\sPortal|webadmin\sportal|webadmin|Administrator\sPortal|Administration\sportal': Administration Portal
   'BPMS|(?<!Red Hat )JBoss BPMS|(?<!Red Hat JBoss )BPM(?! Suite)': Red Hat JBoss BPM Suite
   'BRMS\sengine': inference engine
-  'DM(?! Multipath)|directory manager': Directory Manager
+  'DM(?![ -]Multipath)|directory manager': Directory Manager
   'GUI\seditor|Business\sCentral\seditor': guided editor
   'JBoss Broker|Red Hat Broker|The AMQ Broker': AMQ Broker
   'JBoss Console|Red Hat Console': AMQ Console
