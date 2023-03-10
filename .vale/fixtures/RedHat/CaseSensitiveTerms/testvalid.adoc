@@ -58,6 +58,8 @@ DevOps
 Directory Manager
 Directory Server
 Disk Druid
+DM Multipath
+DM-Multipath
 DNS
 DVD writer
 Editor
