@@ -320,7 +320,6 @@ to
 toggle
 tooling
 tools
-touch-sensitive screen
 trusted certificate authority
 truststore
 try again

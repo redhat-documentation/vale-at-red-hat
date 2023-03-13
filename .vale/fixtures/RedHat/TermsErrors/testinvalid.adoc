@@ -372,7 +372,6 @@ top-left
 top-right
 topleft
 topright
-touchscreen
 transition
 trust store
 typo
