@@ -339,8 +339,6 @@ filters:
   - Vert.x
   - vsix
   - WebAuthn
-  - Webview
-  - Webviews
   - WebSocket
   - Wildfly
   - Woopra

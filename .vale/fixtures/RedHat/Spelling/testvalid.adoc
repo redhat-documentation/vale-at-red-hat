@@ -367,8 +367,6 @@ Vert.x
 vsix
 WebAuthn
 WebSocket
-Webview
-Webviews
 Wildfly
 Woopra
 Wordpress
