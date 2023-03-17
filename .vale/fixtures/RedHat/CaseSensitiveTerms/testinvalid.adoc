@@ -178,6 +178,7 @@ IA64
 IBM z Systems
 Ignite
 ignition config
+Image Builder
 Infiniband
 INSTALL_DIR
 installDir
