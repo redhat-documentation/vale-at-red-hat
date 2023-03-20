@@ -120,6 +120,7 @@ Subscription
 SuperLU
 TiB
 TuneD
+TypeScript
 USBGuard
 UUIDs
 vCPUs

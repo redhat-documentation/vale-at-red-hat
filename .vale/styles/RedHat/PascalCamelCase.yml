@@ -121,6 +121,7 @@ exceptions:
   - SuperLU
   - TiB
   - TuneD
+  - TypeScript
   - USBGuard
   - vDisk
   - vHost
