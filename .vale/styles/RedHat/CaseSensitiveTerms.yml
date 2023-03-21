@@ -135,6 +135,7 @@ swap:
   IBM z Systems: IBM Z
   Ignite|Fuse Ignite: Fuse Online|Red Hat Fuse Online|Syndesis
   ignition config: Ignition config
+  Image Builder: image builder
   INSTALL_DIR|installDir: FUSE_HOME
   Iops|IOPs: IOPS
   Ip: IP

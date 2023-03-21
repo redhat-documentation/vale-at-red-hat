@@ -106,6 +106,7 @@ IBM S/390
 IBM Z
 IdM CA renewal server
 IdM server and replicas
+image builder
 Ignition config
 inference engine
 InfiniBand
