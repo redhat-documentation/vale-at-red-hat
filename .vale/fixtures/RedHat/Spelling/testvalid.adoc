@@ -280,6 +280,7 @@ Resyncing
 Rolfe
 Rollout
 Rollouts
+Rollup
 Roundtable
 Roundtables
 ruleset
@@ -366,6 +367,7 @@ Velero
 Vert.x
 vsix
 WebAuthn
+Webpack
 WebSocket
 Webview
 Webviews
