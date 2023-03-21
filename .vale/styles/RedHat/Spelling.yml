@@ -340,8 +340,6 @@ filters:
   - Vert.x
   - vsix
   - WebAuthn
-  - Webview
-  - Webviews
   - WebSocket
   - Webpack
   - Wildfly

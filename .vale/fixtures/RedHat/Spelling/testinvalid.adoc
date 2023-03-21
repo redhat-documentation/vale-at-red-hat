@@ -57,8 +57,6 @@ symfony
 uber
 uri
 velero
-webview
-webviews
 woopra
 yaml
 zowe

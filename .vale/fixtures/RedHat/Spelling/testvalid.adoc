@@ -369,8 +369,6 @@ vsix
 WebAuthn
 Webpack
 WebSocket
-Webview
-Webviews
 Wildfly
 Woopra
 Wordpress
