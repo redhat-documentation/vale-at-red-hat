@@ -308,6 +308,7 @@ filters:
   - Restic
   - RESTEasy
   - Rolfe
+  - Rollup
   - Sakila
   - sbt
   - SCM
@@ -342,6 +343,7 @@ filters:
   - Webview
   - Webviews
   - WebSocket
+  - Webpack
   - Wildfly
   - Woopra
   - Wordpress
