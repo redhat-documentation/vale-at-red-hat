@@ -158,7 +158,6 @@ in real time
 include
 included
 includes
-information about
 insecure
 installation program
 installer-provisioned infrastructure
