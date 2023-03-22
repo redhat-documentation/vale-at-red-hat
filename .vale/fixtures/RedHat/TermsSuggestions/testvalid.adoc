@@ -22,6 +22,7 @@ cloud
 compress
 enter
 functions
+information about
 JAR
 JAR file
 repository
