@@ -1,0 +1,5 @@
+//vale-fixture
+Here's some text. I have no commented lines in this file indicating the parent assembly.
+
+
+This rule is only flagged when you run vale on this file from the cmd line.

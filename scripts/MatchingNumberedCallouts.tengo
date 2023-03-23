@@ -1,0 +1,50 @@
+/*
+Tengo Language
+Checks that numbered callouts (<\d+>) are matching 
+$ tengo MatchingNumberedCallouts.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+matches := []
+
+num_codeblock_callouts := 0
+num_callouts := 0
+codeblock_callout_regex := ".+( <\\d+>)+"
+callout_regex := "^<(\\d+)>"
+
+for line in text.split(scope, "\n") {
+  if text.re_match(codeblock_callout_regex, line) {
+    //restart for new listingblock
+    num_callouts = 0
+    //account for lines with multiple callouts
+    for i := 1; i < len(line); i++ {
+      //text.count must be str, not regex
+      str := "<" + i + ">"
+      num_callouts_in_line := text.count(line, str)
+      num_codeblock_callouts += num_callouts_in_line
+    }
+  }
+
+  if text.re_match(callout_regex, line) {
+    num_callouts++
+    if num_callouts > num_codeblock_callouts {
+      start := text.index(scope, line)
+      matches = append(matches, {begin: start, end: start + len(line)})
+    }
+    if num_callouts == num_codeblock_callouts {
+      num_callouts = 0
+      num_codeblock_callouts = 0
+    }
+  }
+}
+
+if len(matches) == 0 {  
+  fmt.println("Numbered callouts are balanced")
+} else {
+  fmt.println(matches) 
+}

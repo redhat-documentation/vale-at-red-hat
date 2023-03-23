@@ -1,0 +1,37 @@
+//vale-fixture
+Here is a code block:
+
+[source,terminal]
+----
+$ pwd
+----
+
+Here is a another code block:
+
+[source,java]
+----
+$ pwd
+----
+
+Here is yet another code block:
+
+[source,python]
+----
+$ pwd
+----
+
+[source,yaml]
+-----
+$ pwd
+-----
+
+
+Some text.
+
+//vale-fixture
+Here is a final code block:
+
+[source,terminal]
+----
+$ pwd
+----

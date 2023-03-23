@@ -1,0 +1,28 @@
+---
+extends: script
+level: error
+message: "Unterminated table block found in file."
+link: https://docs.asciidoctor.org/asciidoc/latest/tables/build-a-basic-table/
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  tbl_delim_regex := "^\\|={3,}$"
+  count := 0
+
+  for line in text.split(scope, "\n") {
+    if text.re_match(tbl_delim_regex, line) {
+      count += 1
+      start := text.index(scope, line)
+      matches = append(matches, {begin: start, end: start + len(line)}) 
+    } else if count > 1 {
+      count = 0 //code block is closed, reset the count
+      matches = []
+    }
+  }

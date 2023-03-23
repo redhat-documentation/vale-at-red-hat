@@ -1,0 +1,2 @@
+//vale-fixture
+image::my-image-name.png[]

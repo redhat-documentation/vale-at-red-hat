@@ -1,0 +1,31 @@
+/*
+    Tengo Language
+    $ tengo ValidCodeBlocks.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+
+matches := []
+codeblock_delim_regex := "^-{4,}$"
+source_block_regex := "^\\[(source|subs|role).*\\]"
+sources_blocks := 0
+
+for line in text.split(scope, "\n") {
+  if text.re_match(codeblock_delim_regex, line){
+    start := text.index(scope, line)
+    matches = append(matches, {begin: start, end: start + len(line)})  
+  } else if text.re_match(source_block_regex, line){
+    sources_blocks ++
+  }
+}
+
+if len(matches) / 2 == sources_blocks {
+  matches = []
+}
+
+fmt.println(matches)

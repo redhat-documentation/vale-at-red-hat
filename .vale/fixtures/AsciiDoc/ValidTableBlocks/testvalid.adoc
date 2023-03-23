@@ -1,0 +1,58 @@
+//vale-fixture
+.Table one
+[options="header"]
+|===
+|Header column 1 |Header column 2 |Header column 3
+
+|Cell 1, row 1
+|Cell 2, row 1
+|Cell 3, row 1
+|===
+
+Some text.
+
+//vale-fixture
+.Table two
+[options="header"]
+|====
+|Column Title|Column Title
+|content|content
+This content goes on and on.
+|====
+
+Some text.
+
+//vale-fixture
+[caption="test"]
+.Table three
+|=======
+|A |B |C
+|a |b |c
+|1 |2 |3
+|=======
+
+Some text.
+
+//vale-fixture
+.Table four
+[options="header"]
+|====
+|Column Title|Column Title|Column Title
+|content|content|content
+|====
+
+Some text.
+
+//vale-fixture
+.Table five
+[cols=2*, width="40%", options="header"]
+|====
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|====

@@ -1,0 +1,12 @@
+//vale-fixture
+[source,ruby]
+----
+require 'sinatra' <.>
+
+get '/hi' do <.>
+  "Hello World!" <.>
+end
+----
+<.> Library import
+<.> URL mapping
+<.> Response block

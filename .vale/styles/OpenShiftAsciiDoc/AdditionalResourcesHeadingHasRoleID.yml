@@ -1,0 +1,8 @@
+---
+extends: existence
+scope: raw
+level: suggestion
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#additional-resources-sections
+message: "Additional resources heading is missing the \"_additional-resources\" role attribute declaration"
+raw:
+  - '(?<!\/\/)(?<!\[role="_additional-resources"\]\n)\.Additional resources'

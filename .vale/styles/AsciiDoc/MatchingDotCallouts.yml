@@ -1,0 +1,45 @@
+---
+extends: script
+message: "Corresponding callout not found."
+level: warning
+link: https://docs.asciidoctor.org/asciidoc/latest/verbatim/callouts/
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  num_codeblock_callouts := 0
+  num_callouts := 0
+  codeblock_callout_regex := ".+<(\\.)>"
+  callout_regex := "^<(\\.)>"
+
+  for line in text.split(scope, "\n") {
+    if text.re_match(codeblock_callout_regex, line) {
+      //restart for new listingblock
+      num_callouts = 0
+      //account for lines with multiple callouts
+      num_callouts_in_line := text.count(line, "<.>")
+      if num_callouts_in_line > 1 {
+        num_codeblock_callouts = num_codeblock_callouts + num_callouts_in_line
+      } else {
+        num_codeblock_callouts++
+      }
+    }
+
+    if text.re_match(callout_regex, line) {
+      num_callouts++
+      if num_callouts > num_codeblock_callouts {
+        start := text.index(scope, line)
+        matches = append(matches, {begin: start, end: start + len(line)})
+      }
+      if num_callouts == num_codeblock_callouts {
+        num_callouts = 0
+        num_codeblock_callouts = 0
+      }
+    }
+  }

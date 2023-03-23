@@ -1,0 +1,25 @@
+//vale-fixture
+[source,ruby]
+----
+get '/hi' do <.>
+get '/hi' do <.>
+get '/hi' do<.> <.> <.>
+----
+<.> first callout
+<.> second callout
+<.> third callout
+<.> fourth callout
+<.> fifth callout
+<.> sixth callout
+
+//vale-fixture
+[source,ruby]
+----
+get '/hi' do <.>
+get '/hi' do <.>
+get '/hi' do <.>
+----
+<.> first callout, second block
+<.> second callout, second block
+<.> third callout, second block
+<.> fourth callout, second block

@@ -1,0 +1,31 @@
+[source,ruby]
+----
+require 'sinatra' <1>
+get '/hi' do <2>
+require 'sinatra' <3>
+get '/hi' do <4>
+hi there <5>
+goop <6>
+require 'sinatra'
+
+get '/hi' do <7> <8>
+  "Hello World!"
+----
+//vale-fixture
+<1> text
+<2> More text
+<3> More text again
+<5> Some text
+<6> Again, some text
+<7> Moar text
+<8> Again, some more text
+
+//vale-fixture
+[source,ruby]
+----
+require 'sinatra' <1>
+get '/hi' do <3>
+get '/hi' do <4>
+----
+<1> Test
+<2> Test
