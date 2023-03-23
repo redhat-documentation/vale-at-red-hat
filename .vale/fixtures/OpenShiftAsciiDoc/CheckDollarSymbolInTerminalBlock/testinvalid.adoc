@@ -1,0 +1,12 @@
+//vale-fixture
+[source,bash]
+----
+ oc get my lunch
+----
+
+//vale-fixture
+[source,terminal]
+----
+oc get my lunch
+----
+

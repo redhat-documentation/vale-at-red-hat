@@ -1,0 +1,33 @@
+// Metadata for Antora
+:navtitle: AsciiDoc Style
+:keywords: asciidoc-style-for-vale, antora
+:description: Get started with AsciiDoc style for Vale
+:page-aliases: end-user-guide:asciidoc-style-for-vale.adoc
+// End of metadata for Antora
+
+:context: asciidoc-style-for-vale
+:_module-type: CONCEPT
+[id="asciidoc-style-for-vale_{context}"]
+= AsciiDoc style for Vale
+
+The `AsciiDoc` style for Vale consists of rules that validate the syntax of the AsciiDoc markup language. These rules use the raw scope in Vale to check the AsciiDoc markup for well-formed syntax. The `AsciiDoc` style is suitable for all documentation in Open Source projects that use AsciiDoc as the source markup language.
+
+These language rules originates from:
+
+* link:https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation]
+
+The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `AsciiDoc` style in the following directory:
+
+----
+.vale/styles/AsciiDoc
+----
+
+To use the `AsciiDoc` style in your project you can decide to be:
+
+* xref:installing-vale-cli.adoc[]
+* xref:using-vale-in-the-ide.adoc[]
+* xref:using-vale-github-action.adoc[]
+* xref:adding-vale-configuration-to-a-project.adoc[]
+
+
+

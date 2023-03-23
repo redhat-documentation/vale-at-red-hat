@@ -1,0 +1,18 @@
+//vale-fixture
+Here is a Admonition block:
+
+[IMPORTANT]
+.Feeding the Werewolves
+====
+While werewolves are hardy community members, keep in mind the following dietary concerns:
+
+. They are allergic to cinnamon.
+. More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
+. Celery makes them sad.
+
+More text
+
+[NOTE]
+====
+Hello
+====

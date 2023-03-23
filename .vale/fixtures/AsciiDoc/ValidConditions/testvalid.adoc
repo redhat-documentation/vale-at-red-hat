@@ -1,0 +1,42 @@
+//vale-fixture
+ifdef::env-github[]
+This content is for GitHub only.
+endif::env-github[]
+
+//vale-fixture
+ifndef::env-github[]
+This content is for GitHub only.
+
+So much content in this section, I'd get confused.
+endif::[]
+
+//vale-fixture
+ifdef::revnumber[]
+This document has a version number of {revnumber}.
+endif::[]
+
+//vale-fixture - doesn't work
+//ifndef::profile-production,env-site[Not shown if profile-production or env-site is set.]
+
+//vale-fixture
+ifndef::profile-staging+env-site[Not shown if profile-staging and env-site are set.]
+
+//vale-fixture
+ifeval::[2 > 1]
+Some text!
+endif::[]
+
+//vale-fixture
+ifeval::["{backend}" == "html5"]
+Some text!
+endif::[]
+
+//vale-fixture
+ifeval::[{sectnumlevels} == 3]
+Some text!
+endif::[]
+
+//vale-fixture
+ifeval::["{docname}{outfilesuffix}" == "main.html"]
+Some text!
+endif::[]

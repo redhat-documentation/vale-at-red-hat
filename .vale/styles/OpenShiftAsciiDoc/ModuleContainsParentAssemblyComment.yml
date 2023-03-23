@@ -1,0 +1,9 @@
+---
+extends: occurrence
+scope: raw
+ignorecase: true
+level: suggestion
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#module-file-metadata
+message: "Does your module contain a comment listing the parent assembly?"
+min: 1
+token: '\/\/\s*\n*(Module|This module is|Module is|This is) included'

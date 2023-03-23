@@ -1,0 +1,9 @@
+---
+extends: occurrence
+scope: raw
+ignorecase: true
+level: error
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#module-file-metadata
+message: "Does your module include a content-type definition"
+min: 1
+token: ':_content-type:(\s)?(CONCEPT|PROCEDURE|REFERENCE|ASSEMBLY|SNIPPET)'

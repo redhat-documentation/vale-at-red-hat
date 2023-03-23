@@ -1,0 +1,3 @@
+:_content-type: REFERENCE
+[id="cli-basic-commands_{context}"]
+= Basic CLI commands

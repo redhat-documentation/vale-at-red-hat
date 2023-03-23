@@ -1,0 +1,9 @@
+---
+extends: existence
+scope: raw
+ignorecase: true
+level: suggestion
+link: https://docs.engineering.redhat.com/pages/viewpage.action?spaceKey=JUP&title=Jupiter+Source+files+readiness+Checklist#JupiterSourcefilesreadinessChecklist-Xrefandlinkspecificrequirements
+message: "Labels in xrefs cannot be empty."
+raw:
+  - 'xref(.*)(\.adoc)#(.*)\[\]'

@@ -1,0 +1,33 @@
+//vale-fixture
+ifdef::env-github[]
+This content is for GitHub only.
+
+//vale-fixture
+ifndef::env-github[]
+This content is for GitHub only.
+
+So much content in this section, I'd get confused reading the source without the closing `ifdef` directive.
+
+//vale-fixture
+ifdef::revnumber[]
+This document has a version number of {revnumber}.
+
+//vale-fixture
+ifeval::[2 > 1]
+Some text!
+
+//vale-fixture
+ifeval::["{docname}{outfilesuffix}" == "main.html"]
+Some text!
+
+//vale-fixture
+ifeval::["{docname}{outfilesuffix}" == "main.html"]
+Some text!
+
+//vale-fixture
+ifeval::["{docname}{outfilesuffix}" == "main.html"]
+Some text!
+
+//vale-fixture
+ifeval::[derp]
+Some text!

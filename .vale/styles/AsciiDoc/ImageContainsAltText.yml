@@ -1,0 +1,9 @@
+---
+extends: existence
+scope: raw
+ignorecase: true
+level: error
+link: https://redhat-documentation.github.io/supplementary-style-guide/#cloud-services-images
+message: "Images should contain alt text content for accessibility. For example, image::<filename>.png[alt-text-content]"
+raw:
+  - 'image::.*\[\]'

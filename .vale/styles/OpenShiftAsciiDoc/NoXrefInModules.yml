@@ -1,0 +1,9 @@
+---
+extends: existence
+scope: raw
+ignorecase: true
+level: error
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#links-hyperlinks-and-cross-references
+message: "Do not include xrefs in modules, only assemblies."
+tokens:
+  - 'xref:(.*)(\.adoc)#(.*)'

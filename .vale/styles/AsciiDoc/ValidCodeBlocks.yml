@@ -1,0 +1,22 @@
+---
+extends: script
+ignorecase: true
+level: error
+message: "Unterminated listing block found in file."
+link: https://docs.asciidoctor.org/asciidoc/latest/verbatim/listing-blocks/
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+  listingblock_delim_regex := "^-{4,}"
+  count := 0
+  for line in text.split(scope, "\n") {
+    if text.re_match(listingblock_delim_regex, line) {
+      count += 1
+      start := text.index(scope, line)
+      matches = append(matches, {begin: start, end: start + len(line)}) 
+    } else if count > 1 {
+      count = 0 // listing block is closed, reset the count
+      matches = []
+    }
+  }
