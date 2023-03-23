@@ -1,3 +1,4 @@
+// suppress inspection "IncorrectFormatting" for whole file
 a .NET application
 accessor
 adoc
@@ -8,12 +9,13 @@ Annobin
 Ansible
 Antora
 API
+APIs
 AssertJ
 autostart
 Autostart
 aws
 AWS
-Azure
+Microsoft Azure
 backfilling
 Backfilling
 backtrace
@@ -38,7 +40,7 @@ Bugzilla
 build config
 CentOS
 Ceph
-cephfs
+CephFS
 cgroup
 che
 Che
@@ -64,12 +66,15 @@ configure
 Containerfile
 Containerfiles
 Cookiecutter
+CPU
+CPUs
 CR
 CRD
 CRDs
 CRs
 CSVs
 Ctrl
+CVEs
 Cygmon
 DaemonSet
 Datadog
@@ -121,10 +126,13 @@ Fortran
 Funqy
 Gbps
 GCC
+GID
+GIDs
 Git
 GitHub
 GitLab
 Gluster
+GNUPro
 GraalVM
 Gradle
 Grafana
@@ -166,7 +174,6 @@ Journald
 Journaling
 Joyent
 JUnit
-jvm
 JVM
 Kafka
 kbd
@@ -240,6 +247,7 @@ Operator
 osd
 overridable
 PHP
+PIDs
 Podman
 PostgreSQL
 PowerShell
@@ -281,8 +289,10 @@ Rolfe
 Rollout
 Rollouts
 Rollup
+ROMs
 Roundtable
 Roundtables
+RPMs
 ruleset
 Runlevel
 Runlevels
@@ -346,6 +356,7 @@ Traceback
 Traefik
 Truststore
 Uber
+UIDs
 Uncomment
 Undercloud
 Uninstallation
@@ -358,7 +369,6 @@ Upsell
 Upselling
 URI
 URIs
-url
 URL
 URLs
 Valgrind

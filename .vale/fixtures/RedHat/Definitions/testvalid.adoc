@@ -1,6 +1,8 @@
+// suppress inspection "IncorrectFormatting" for whole file
 ACPI
 AIX
 API
+APIs
 ARM
 ASCII
 ASP

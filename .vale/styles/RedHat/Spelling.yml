@@ -1,3 +1,4 @@
+#file: noinspection IncorrectFormatting
 ---
 extends: spelling
 level: warning
@@ -187,12 +188,14 @@ filters:
   - Containerfile
   - Containerfiles
   - Cookiecutter
+  - CPUs
   - CR
   - CRD
   - CRDs
   - CRs
   - CSVs
   - Ctrl
+  - CVEs
   - Cygmon
   - DaemonSet
   - Datadog
@@ -218,9 +221,11 @@ filters:
   - Fortran
   - Funqy
   - GCC
+  - GIDs
   - GitHub
   - GitLab
   - Gluster
+  - GNUPro
   - Gradle
   - Grayscale
   - GraalVM
@@ -292,6 +297,7 @@ filters:
   - OpenTracing
   - osd
   - PHP
+  - PIDs
   - Podman
   - PostgreSQL
   - PowerShell
@@ -309,6 +315,8 @@ filters:
   - RESTEasy
   - Rolfe
   - Rollup
+  - ROMs
+  - RPMs
   - Sakila
   - sbt
   - SCM
@@ -329,6 +337,7 @@ filters:
   - Toolset
   - Traefik
   - Uber
+  - UIDs
   - URI
   - URIs
   - url

@@ -1,3 +1,4 @@
+// suppress inspection "IncorrectFormatting" for whole file
 == camelCase term should not be flagged in headings
 3scale
 AGPLv
