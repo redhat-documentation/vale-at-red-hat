@@ -10,6 +10,7 @@ first: '\b([A-Z]{3,5}s?)\b'
 second: '\(([A-Z]{3,5}s?)\)'
 # ... with the exception of these:
 exceptions:
+  - 'APIs?'
   - 'CPUs?'
   - 'CVEs?'
   - 'DVDs?'
@@ -23,11 +24,10 @@ exceptions:
   - 'URLs?'
   - ACPI
   - AIX
-  - API
   - ARM
   - ASCII
   - ASP
-  - AWS 
+  - AWS
   - BIND
   - BIOS
   - BMC
