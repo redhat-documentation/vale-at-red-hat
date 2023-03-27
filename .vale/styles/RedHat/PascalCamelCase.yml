@@ -22,23 +22,35 @@ exceptions:
   - API
   - AppStream
   - AsciiDoc
+  - AssertJ
   - BaseOS
   - BitBucket
+  - BlueStore
+  - camelCase
   - CaaS
+  - CapEx
   - CentOS
+  - CephFS
   - CheckTree
+  - ClassLoader
   - CloudForms
   - CodeReady
+  - ConfigMaps?
   - ConnectX
   - Convert2RHEL
   - CoreOS
+  - DaemonSet
   - DDoS
   - DevOps
+  - DevWorkspace
   - DNSSec
+  - eServer
   - eXpress
   - eXtenSion
   - FaaS
   - FCoE
+  - FileStore
+  - FireWire
   - FreeRADIUS
   - GbE
   - GiB
@@ -46,7 +58,10 @@ exceptions:
   - GitLab
   - GitOps
   - GlusterFS
+  - GNUPro
   - GnuTLS
+  - GraalVM
+  - GraphQL
   - GTID
   - HashBase
   - HdrHistogram
@@ -59,11 +74,15 @@ exceptions:
   - IKEv
   - InfiniBand
   - InnoDB
+  - IntelliJ
   - IPoIB
   - IPsec
   - IPv
+  - ISeries
   - JavaScript
   - JBoss
+  - JetBrains
+  - JUnit
   - KiB
   - LangTags
   - LGPLv
@@ -77,19 +96,26 @@ exceptions:
   - MariaDB
   - MegaRAID
   - MiB
+  - MicroProfile
+  - MongoDB
   - MoreUtils
   - MySQL
   - NetBIOS
+  - NetcoredebugOutput
   - NetWeaver
   - NetworkManager
   - NetXen
   - NetXtreme
   - NFSv
+  - NuGet
   - NVidia
   - NVMe
   - OAuth
+  - objectClass
+  - OmniSharp
   - OneConnect
   - OpenEXR
+  - OpenID
   - OpenIPMI
   - OpenJDK
   - OpenSCAP
@@ -97,6 +123,9 @@ exceptions:
   - OpenSSH
   - OpenSSL
   - OpenStack
+  - OpenTracing
+  - OperatorHub
+  - OpEx
   - OSBuild
   - PaaS
   - PackageKit
@@ -104,29 +133,43 @@ exceptions:
   - PCIe
   - PipeWire
   - PostgreSQL
+  - PostScript
+  - PowerPC
   - PowerShell
+  - ProLiant
   - PulseAudio
   - PyPA
   - PyPI
   - QLogic
   - ReaR
+  - RedBoot
   - relaxngDatatype
+  - RESTEasy
   - RHEL
   - RoCE
   - SaaS
   - SeaBIOS
   - SELinux
+  - SmallRye
+  - SmartNIC
+  - SmartState
   - SQLite
+  - StarOffice
   - STMicroelectronics
   - SuperLU
+  - SysV
   - TiB
   - TuneD
   - TypeScript
+  - UltraSPARC
   - USBGuard
   - vDisk
   - vHost
   - vSphere
+  - WebAuthn
+  - WebSocket
   - WireGuard
+  - XEmacs
   - xPaaS
   - XString
   - XWayland

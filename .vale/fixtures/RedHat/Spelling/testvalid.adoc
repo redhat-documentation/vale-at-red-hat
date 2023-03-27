@@ -2,6 +2,7 @@
 a .NET application
 accessor
 adoc
+AGPLv
 Agroal
 Allowlist
 allowlist
@@ -21,8 +22,8 @@ AWS
 Microsoft Azure
 backfilling
 Backfilling
-backtrace
 backported
+backtrace
 Backtrace
 Bierner
 bindable
@@ -41,6 +42,7 @@ btn
 Btrfs
 Bugzilla
 build config
+camelCase
 CentOS
 Ceph
 CephFS
@@ -51,9 +53,9 @@ Che-Theia
 Ciphertext
 Civetweb
 ClassLoader
-classpath
 classloading
 Classloading
+classpath
 Cloudbursting
 Cloudwashing
 CodeReady
@@ -61,10 +63,10 @@ colocate
 Colocate
 config
 Config
-ConfigMap
-ConfigMaps
 config map
 config maps
+ConfigMap
+ConfigMaps
 configure
 Containerfile
 Containerfiles
@@ -126,6 +128,7 @@ Failback
 failover
 Failover
 Failsafe
+FDs
 Fernflower
 firewalld
 Flathub
@@ -147,6 +150,7 @@ Grafana
 GraphQL
 Grayscale
 greenboot
+GTIDs
 GUI
 hardcoding
 Hashicorp
@@ -165,12 +169,15 @@ Hyperconverged
 I/O
 IDE
 IDEs
+IKEv
 Infinispan
 Inode
 Intelephense
 IntelliJ
 IPsec
 ISeries
+IPv
+ISVs
 Itanium
 Item
 Jakarta
@@ -205,6 +212,8 @@ Laravel
 Let's Encrypt
 librados
 librbd
+LGPLv
+libOSMesa
 libvirt
 Libvirt
 Licensor
@@ -226,8 +235,8 @@ Minishift
 Mirantis
 Mixin
 Mixins
-Modularization
 Mockito
+Modularization
 MongoDB
 Multicluster
 Multihost
@@ -247,10 +256,13 @@ Neoverse
 NetcoredebugOutput
 Netty
 Newdoc
+NFSv
 Nginx
 Node.js
 npm
 NuGet
+NVidia
+NVMe
 OAuth
 objectClass
 ocp
@@ -261,8 +273,12 @@ OpenJDK
 OpenShift
 OpenTracing
 Operator
+OSBuild
 osd
+OSs
 overridable
+PCIe
+PDFs
 PHP
 PIDs
 Podman
@@ -271,9 +287,8 @@ PowerShell
 preconfigured
 Preconfigured
 pregenerated
-prepended
-preconfigured
 prepend
+prepended
 prepended
 productize
 productized
@@ -284,8 +299,9 @@ Pytorch
 qdmanage
 qdstat
 qeth
-Quarkus
+QLogic
 Quarkiverse
+Quarkus
 Quiltflower
 Qute
 Readonly
@@ -299,6 +315,7 @@ Recertification
 Recertifications
 Redis
 Redistributions
+relaxngDatatype
 Reshard
 Resharding
 Reshards
@@ -310,6 +327,8 @@ Rollout
 Rollouts
 Rollup
 ROMs
+rootful
+rootless
 Roundtable
 Roundtables
 RPMs
@@ -324,8 +343,8 @@ SCM
 Scrollbar
 SELinux
 Semeru
-serialization
 serializable
+serialization
 Serializer
 Serverless
 servlet
@@ -336,10 +355,7 @@ SLAs
 SmallRye
 Spotify
 startx
-sysctl
-sysctls
-Sysctls
-Sysctl
+STMicroelectronics
 su
 Subcommand
 Subcommands
@@ -360,8 +376,12 @@ Subusers
 Subvolume
 Subvolumes
 Suchow
-Symfony
 SVG
+Symfony
+sysctl
+Sysctl
+sysctls
+Sysctls
 Systemd
 Tekton
 Telekom
@@ -391,17 +411,25 @@ URI
 URIs
 URL
 URLs
+USBGuard
 Valgrind
 validator
+vDisk
 Velero
 Vert.x
+vHost
+VMs
 vsix
+vSphere
 WebAuthn
 Webpack
 WebSocket
 Wildfly
 Woopra
 Wordpress
+XString
+XWayland
 Yana
 Yeoman
+ZCentral
 Zowe
