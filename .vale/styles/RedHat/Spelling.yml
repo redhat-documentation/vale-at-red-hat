@@ -82,7 +82,6 @@ filters:
   - "[pP]reconfigured"
   - "[pP]regenerated"
   - "[pP]ulldown"
-  - "[pP]reconfigured"
   - "[pP]repend"
   - "[pP]repended"
   - "[pP]roductize"
@@ -154,6 +153,7 @@ filters:
   - "[vV]alidator"
   - "Let\\'s Encrypt"
   - adoc
+  - AGPLv
   - Agroal
   - Annobin
   - Ansible
@@ -171,6 +171,7 @@ filters:
   - btn
   - Btrfs
   - Bugzilla
+  - camelCase
   - CentOS
   - Ceph
   - cephfs
@@ -183,8 +184,7 @@ filters:
   - Cloudbursting
   - Cloudwashing
   - CodeReady
-  - ConfigMap
-  - ConfigMaps
+  - ConfigMaps?
   - Containerfile
   - Containerfiles
   - Cookiecutter
@@ -193,6 +193,8 @@ filters:
   - CRD
   - CRDs
   - CRs
+  - CSIDriver
+  - CSINode
   - CSVs
   - Ctrl
   - CVEs
@@ -212,9 +214,11 @@ filters:
   - Endian
   - endif
   - Esprima
+  - etcd
   - Exif
   - Fabrice
   - Failsafe
+  - FDs
   - Fernflower
   - Flathub
   - Flatpak
@@ -226,10 +230,11 @@ filters:
   - GitLab
   - Gluster
   - GNUPro
-  - Gradle
-  - Grayscale
   - GraalVM
+  - Gradle
   - GraphQL
+  - Grayscale
+  - GTIDs?
   - GUI
   - Hashicorp
   - Helgrind
@@ -242,9 +247,14 @@ filters:
   - HTTPS
   - IDE
   - IDEs
+  - IKEv
   - Infinispan
   - Intelephense
   - IntelliJ
+  - IPPool
+  - IPsec
+  - IPv
+  - ISVs
   - Itanium
   - Jakarta
   - Jandex
@@ -267,6 +277,8 @@ filters:
   - Kubespray
   - Kylin
   - Laravel
+  - LGPLv
+  - libOSMesa
   - Lombok
   - Makefile
   - Mattermost
@@ -285,9 +297,12 @@ filters:
   - NetcoredebugOutput
   - Netty
   - Newdoc
+  - NFSv
   - Nginx
   - npm
   - NuGet
+  - NVidia
+  - NVMe
   - OAuth
   - ocp
   - OmniSharp
@@ -295,7 +310,11 @@ filters:
   - OpenJDK
   - OpenShift
   - OpenTracing
+  - OSBuild
   - osd
+  - OSs
+  - PCIe
+  - PDFs?
   - PHP
   - PIDs
   - Podman
@@ -305,14 +324,16 @@ filters:
   - proxied
   - Pytorch
   - qeth
-  - Quarkus
+  - QLogic
   - Quarkiverse
-  - Qute
+  - Quarkus
   - Quiltflower
+  - Qute
   - Redis
   - Redistributions
-  - Restic
+  - relaxngDatatype
   - RESTEasy
+  - Restic
   - Rolfe
   - Rollup
   - ROMs
@@ -324,14 +345,15 @@ filters:
   - SCM
   - SELinux
   - Semeru
-  - SLAs
   - Shadowman
+  - SLAs
   - SmallRye
   - Spotify
   - startx
+  - STMicroelectronics
   - Suchow
-  - Symfony
   - SVG
+  - Symfony
   - Tekton
   - Telekom
   - Tensorflow
@@ -340,22 +362,28 @@ filters:
   - Traefik
   - Uber
   - UIDs
-  - URI
-  - URIs
+  - URIs?
   - url
-  - URL
-  - URLs
+  - URLs?
+  - USBGuard
   - Vale
   - Valgrind
+  - vDisk
   - Velero
   - Vert.x
+  - vHost
+  - VMs
   - vsix
+  - vSphere
   - WebAuthn
-  - WebSocket
   - Webpack
+  - WebSocket
   - Wildfly
   - Woopra
   - Wordpress
+  - XString
+  - XWayland
   - Yana
   - Yeoman
+  - ZCentral
   - Zowe

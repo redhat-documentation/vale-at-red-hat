@@ -16,7 +16,6 @@ ClusterServiceVersion
 ClusterTask
 ClusterVersion
 ComponentStatus
-ConfigMap
 ConsoleCLIDownload
 ConsoleExternalLogLink
 ConsoleLink
@@ -31,7 +30,6 @@ CSIDriver
 CSINode
 CSISnapshotController
 CustomResourceDefinition
-DaemonSet
 DeploymentConfig
 DNSRecord
 EgressNetworkPolicy
@@ -80,7 +78,6 @@ OAuthClientAuthorization
 OpenShiftAPIServer
 OpenShiftControllerManager
 OperatorGroup
-OperatorHub
 OperatorPKI
 PackageManifest
 PersistentVolume is an API object.
