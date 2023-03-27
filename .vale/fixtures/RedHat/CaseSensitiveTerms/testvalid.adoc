@@ -1,3 +1,4 @@
+// suppress inspection "IncorrectFormatting" for whole file
 .NET
 /var
 ACK flag

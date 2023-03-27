@@ -159,7 +159,10 @@ filters:
   - Ansible
   - Antora
   - API
+  - Applixware
+  - Asciidoctor
   - AssertJ
+  - autolink
   - aws
   - AWS
   - Azure
@@ -211,11 +214,16 @@ filters:
   - Endevor
   - Endian
   - endif
+  - eServer
   - Esprima
+  - etcd
   - Exif
+  - extranet
   - Fabrice
+  - Facter
   - Failsafe
   - Fernflower
+  - firewalld
   - Flathub
   - Flatpak
   - Fortran
@@ -230,6 +238,7 @@ filters:
   - Grayscale
   - GraalVM
   - GraphQL
+  - greenboot
   - GUI
   - Hashicorp
   - Helgrind
@@ -245,6 +254,8 @@ filters:
   - Infinispan
   - Intelephense
   - IntelliJ
+  - IPsec
+  - ISeries
   - Itanium
   - Jakarta
   - Jandex
@@ -259,14 +270,18 @@ filters:
   - JVM
   - Kafka
   - kbd
+  - keystore
   - Kibana
   - Knative
   - Knowledgebase
   - Kogito
   - Kompose
+  - kubelet
   - Kubespray
   - Kylin
   - Laravel
+  - librados
+  - librbd
   - Lombok
   - Makefile
   - Mattermost
@@ -278,6 +293,7 @@ filters:
   - Mirantis
   - Mockito
   - MongoDB
+  - Multipath
   - MySQL
   - Nagios
   - Narayana
@@ -289,6 +305,7 @@ filters:
   - npm
   - NuGet
   - OAuth
+  - objectClass
   - ocp
   - OmniSharp
   - OpenID
@@ -304,11 +321,14 @@ filters:
   - Prometheus
   - proxied
   - Pytorch
+  - qdmanage
+  - qdstat
   - qeth
   - Quarkus
   - Quarkiverse
   - Qute
   - Quiltflower
+  - Realtime
   - Redis
   - Redistributions
   - Restic

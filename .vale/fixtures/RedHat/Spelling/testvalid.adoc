@@ -10,7 +10,10 @@ Ansible
 Antora
 API
 APIs
+Applixware
+Asciidoctor
 AssertJ
+autolink
 autostart
 Autostart
 aws
@@ -105,11 +108,15 @@ Dyninst
 Endevor
 Endian
 endif
+eServer
 Esprima
+etcd
 Exif
 exposal
 Exposal
+extranet
 Fabrice
+Facter
 factories
 Factories
 factory
@@ -120,6 +127,7 @@ failover
 Failover
 Failsafe
 Fernflower
+firewalld
 Flathub
 Flatpak
 Fortran
@@ -138,6 +146,7 @@ Gradle
 Grafana
 GraphQL
 Grayscale
+greenboot
 GUI
 hardcoding
 Hashicorp
@@ -160,6 +169,8 @@ Infinispan
 Inode
 Intelephense
 IntelliJ
+IPsec
+ISeries
 Itanium
 Item
 Jakarta
@@ -181,15 +192,19 @@ Keycloak
 Keylime
 Keyring
 Keyrings
+keystore
 Kibana
 Knative
 Knowledgebase
 Kogito
 Kompose
+kubelet
 Kubespray
 Kylin
 Laravel
 Let's Encrypt
+librados
+librbd
 libvirt
 Libvirt
 Licensor
@@ -218,6 +233,7 @@ Multicluster
 Multihost
 Multinode
 Multitenant
+Multipath
 multithread
 Multithread
 Multiuser
@@ -236,6 +252,7 @@ Node.js
 npm
 NuGet
 OAuth
+objectClass
 ocp
 OmniSharp
 Onboarding
@@ -264,12 +281,15 @@ Prometheus
 proxied
 Pulldown
 Pytorch
+qdmanage
+qdstat
 qeth
 Quarkus
 Quarkiverse
 Quiltflower
 Qute
 Readonly
+Realtime
 Rebalance
 Rebalances
 Rebalancing
