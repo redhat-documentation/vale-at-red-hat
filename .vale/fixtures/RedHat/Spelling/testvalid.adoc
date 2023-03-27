@@ -290,6 +290,8 @@ Rollout
 Rollouts
 Rollup
 ROMs
+rootful
+rootless
 Roundtable
 Roundtables
 RPMs

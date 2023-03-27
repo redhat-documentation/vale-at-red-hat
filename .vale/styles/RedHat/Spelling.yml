@@ -316,6 +316,8 @@ filters:
   - Rolfe
   - Rollup
   - ROMs
+  - rootful
+  - rootless
   - RPMs
   - Sakila
   - sbt
