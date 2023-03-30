@@ -67,6 +67,7 @@ InfiniBand
 Infrastructure
 InnoDB
 IntelliJ
+IntelliSense
 IPoIB
 IPsec
 IPv

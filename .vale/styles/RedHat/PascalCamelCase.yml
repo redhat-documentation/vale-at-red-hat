@@ -26,8 +26,8 @@ exceptions:
   - BaseOS
   - BitBucket
   - BlueStore
-  - camelCase
   - CaaS
+  - camelCase
   - CapEx
   - CentOS
   - CephFS
@@ -75,6 +75,7 @@ exceptions:
   - InfiniBand
   - InnoDB
   - IntelliJ
+  - IntelliSense
   - IPoIB
   - IPsec
   - IPv
