@@ -5,7 +5,7 @@ link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference
 match: $sentence
 message: "Use sentence-style capitalization in '%s'."
 scope: heading
-source: "IBM - Capitalization in headings and titles, p.16"
+# source: "IBM - Capitalization in headings and titles, p.16"
 indicators:
   - ":"
 exceptions:
