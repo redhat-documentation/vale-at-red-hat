@@ -146,6 +146,7 @@ swap:
   iso: ISO
   Itanium2: Itanium 2
   jar file: JAR file
+  Jbang|jbang: JBang
   JBoss Clients: AMQ Clients
   JBoss Data Grid: Data Grid
   jetbrains|Jetbrains: JetBrains

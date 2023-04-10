@@ -116,6 +116,7 @@ exceptions:
   - IntelliJ
   - Itanium
   - JAR file
+  - JBang
   - JUnit
   - JVM
   - Jakarta

@@ -126,6 +126,7 @@ ISO image
 Itanium
 Itanium 2
 JAR file
+JBang
 JBoss Community
 JBoss EAP
 JBoss EAP built-in messaging
