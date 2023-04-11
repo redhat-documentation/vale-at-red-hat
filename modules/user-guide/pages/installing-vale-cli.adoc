@@ -13,6 +13,10 @@
 
 To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure Vale CLI version 2.16.0 or later.
 
+.Prerequisites
+
+* You've installed a recent release of the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem on your system.
+
 .Procedure
 
 . Install the Vale command-line tool on your workstation.
@@ -41,7 +45,7 @@ Some projects require a specific Vale configuration.
 Consider saving the `.vale.ini` file at the root of the project.
 See link:https://vale.sh/docs/topics/config[Vale configuration reference].
 
-. Initialize the Vale package.
+. Get the `RedHat` Vale package.
 +
 [source,console]
 ----
