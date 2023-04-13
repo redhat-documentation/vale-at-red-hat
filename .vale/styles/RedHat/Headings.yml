@@ -165,6 +165,7 @@ exceptions:
   - OpEx
   - OpenID Connect
   - OpenJDK
+  - OpenRewrite
   - OpenShift
   - OpenTracing
   - PHP

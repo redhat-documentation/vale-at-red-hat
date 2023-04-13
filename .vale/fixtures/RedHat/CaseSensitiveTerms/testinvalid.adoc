@@ -297,6 +297,9 @@ OO
 Open InfiniBand
 openid connect
 Openid Connect
+openrewrite
+Openrewrite
+Open Rewrite
 OpenShift Cluster Manager
 OpenShift Kubernetes Distribution
 Openshift online

@@ -179,6 +179,7 @@ objectClass
 Objective C
 OKD
 OpenID Connect
+OpenRewrite
 operating environment
 operating system
 Operator Lifecycle Manager

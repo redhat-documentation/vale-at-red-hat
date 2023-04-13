@@ -325,6 +325,7 @@ filters:
   - OmniSharp
   - OpenID
   - OpenJDK
+  - OpenRewrite
   - OpenShift
   - OpenTracing
   - OSBuild
