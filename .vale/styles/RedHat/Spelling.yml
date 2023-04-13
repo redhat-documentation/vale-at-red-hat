@@ -270,6 +270,7 @@ filters:
   - Jandex
   - Java
   - Jave
+  - JBang
   - JBoss
   - Jira
   - Jolokia

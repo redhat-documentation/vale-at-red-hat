@@ -197,6 +197,8 @@ iSeries
 iso
 Itanium2
 jar file
+jbang
+Jbang
 JBoss
 JBoss AMQ
 JBoss BPMS
