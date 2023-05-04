@@ -1,0 +1,28 @@
+/*
+    Tengo Language
+    $ tengo ValidTableBlocks.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+
+matches := []
+tbl_delim_regex := "^\\|={3,}$"
+count := 0
+
+for line in text.split(scope, "\n") {
+  if text.re_match(tbl_delim_regex, line) {
+    count += 1
+    start := text.index(scope, line)
+    matches = append(matches, {begin: start, end: start + len(line)}) 
+  } else if count > 1 {
+    count = 0 // code block is closed, reset the count
+    matches = []
+  }
+}
+
+fmt.println(matches)

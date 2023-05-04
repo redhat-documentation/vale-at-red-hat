@@ -1,0 +1,8 @@
+---
+extends: occurrence
+scope: raw
+level: error
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#module-file-metadata
+message: "Module is missing the \"_content-type\" variable."
+min: 1
+token: '(?<!\/\/):_content-type:(\s)?(CONCEPT|PROCEDURE|REFERENCE|ASSEMBLY|SNIPPET)'

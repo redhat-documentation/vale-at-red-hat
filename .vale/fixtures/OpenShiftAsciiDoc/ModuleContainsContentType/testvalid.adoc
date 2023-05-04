@@ -1,0 +1,15 @@
+:_content-type: REFERENCE
+[id="cli-basic-commands_{context}"]
+= Basic CLI commands
+
+:_content-type: PROCEDURE
+[id="cli-basic-commands_{context}"]
+
+:_content-type: CONCEPT
+[id="cli-basic-commands_{context}"]
+
+:_content-type: ASSEMBLY
+[id="cli-basic-commands_{context}"]
+
+:_content-type: SNIPPET
+[id="cli-basic-commands_{context}"]

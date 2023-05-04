@@ -1,0 +1,33 @@
+//vale-fixture
+Here is a code block:
+
+[source,terminal]
+----
+$ pwd
+----
+
+Here is a another code block:
+
+[source,terminal]
+----
+$ pwd
+----
+
+Here is a code block:
+
+[source,yaml]
+----
+---
+apiVersion: 4.11
+
+Some text.
+
+Here is a code block:
+
+[subs="+quotes",options="nowrap",role="white-space-pre"]
+----
+---
+apiVersion: 4.11
+----
+
+Some text.

@@ -1,0 +1,20 @@
+//vale-fixture
+[source,ruby]
+----
+require 'frank' <1>
+get '/hihi'<2><3>
+----
+<1> text
+<2> More text
+<3> More text again
+<4> Again, more text
+
+//vale-fixture
+[source,ruby]
+----
+require 'frankie' <1>
+get '/hihihi' <2>
+----
+<1> text!
+<2> More text!
+<3> More text again!

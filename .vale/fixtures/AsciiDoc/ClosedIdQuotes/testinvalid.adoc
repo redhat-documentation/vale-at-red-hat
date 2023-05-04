@@ -1,0 +1,7 @@
+//vale-fixture
+[id="rosa-getting-started_{context}]
+= Comprehensive guide to getting started with {product-title}
+
+//vale-fixture
+[id="rosa-getting-started]
+= Another guide to getting started

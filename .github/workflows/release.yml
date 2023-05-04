@@ -25,6 +25,8 @@ jobs:
           cd .vale/styles
           echo $GITHUB_RUN_NUMBER > version.txt
           zip -r RedHat.zip RedHat
-          gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip'
+          zip -r AsciiDoc.zip AsciiDoc
+          zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
+          gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

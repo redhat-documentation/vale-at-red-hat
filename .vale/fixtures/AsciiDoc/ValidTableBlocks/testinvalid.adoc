@@ -1,0 +1,37 @@
+//vale-fixture
+.Table one
+[cols=3*,stripes=even]
+|===
+|Header column 1 |Header column 2 |Header column 3
+|Cell 1, row 1
+|Cell 2, row 1
+|Cell 3, row 1
+Some text.
+|===
+
+.Table two
+[options="header"]
+|====
+|Column Title|Column Title
+|content|content
+|====
+This content goes on and on.
+
+Some text.
+
+.Table three
+[options="header"]
+|====
+|Column Title|Column Title|Column Title
+|content|content|content
+|====
+
+Some text.
+
+.Table four
+[options="header"]
+|====
+|Column Title|Column Title|Column Title
+|content|content|content
+
+Some text.

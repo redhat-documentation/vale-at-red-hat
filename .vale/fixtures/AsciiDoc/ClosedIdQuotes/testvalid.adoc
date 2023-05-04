@@ -1,0 +1,4 @@
+//vale-fixture
+:_content-type: ASSEMBLY
+[id="rosa-getting-started_{context}"]
+= Comprehensive guide to getting started with {product-title}

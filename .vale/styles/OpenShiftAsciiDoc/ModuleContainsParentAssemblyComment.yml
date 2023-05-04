@@ -1,0 +1,8 @@
+---
+extends: occurrence
+scope: raw
+level: suggestion
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#module-file-metadata
+message: "The comment at the beginning of the module that lists the parent assembly is missing."
+min: 1
+token: '\/\/\s*\n*(Module|This module is|Module is|This is) included'

@@ -1,0 +1,2 @@
+//Correct usage of alt text in image tags
+image::my-image-name.png[my-image-alt-text]

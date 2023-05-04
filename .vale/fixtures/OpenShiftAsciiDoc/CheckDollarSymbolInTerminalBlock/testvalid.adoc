@@ -1,0 +1,93 @@
+[source,bash]
+----
+$ oc get my lunch
+----
+
+[source,yaml]
+----
+oc get my lunch
+----
+
+[source,terminal]
+----
+$ oc get my lunch
+----
+
+[source,terminal]
+----
+# oc get my lunch
+----
+
+.Example output
+[source,terminal]
+----
+Computer says no
+----
+
+.Sample output
+[source,bash]
+----
+Computer says no
+----
+
+.Example
+[source,terminal]
+----
+spec:
+  settings:
+    ProcTurboMode: Disabled<1>
+----
+
+[source,terminal]
+----
+C:\> net user <username> 
+----
+
+. Change your root directory to the host:
++
+[source,terminal]
+----
+sh-4.2# chroot /host
+----
+
+[source,terminal]
+----
+.
+├── CODEOWNERS
+├── README.md
+└── scripts
+    └── validate-vale-rules.sh
+----
+
+[source,terminal]
+----
+├── CODEOWNERS
+├── README.md
+└── scripts
+    └── validate-vale-rules.sh
+----
+
+[source,terminal]
+----
+[ansible@control-node]$
+----
+
+[source,terminal]
+----
+(undercloud)$ cd go/to/path
+----
+
+[source,terminal]
+----
+(undercloud) [stack@director ~]$ cd go/to/path
+----
+
+[source,terminal]
+----
+sh-4.2# chroot /host
+----
+
+[source,yaml]
+----
+include::yaml/boundary-clock-ptp-config.yaml[]
+----
