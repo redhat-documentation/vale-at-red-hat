@@ -1,6 +1,6 @@
 /*
     Tengo Language
-    Checks that callouts are sequential 
+    Checks that callouts outside the listing block are sequential 
     $ tengo SequentialNumberedCallouts.tengo <asciidoc_file_to_validate>
 */
 
@@ -12,17 +12,22 @@ input := os.args()
 scope := os.read_file(input[2])
 matches := []
 
+//trim extra whitespace
+scope = text.trim_space(scope)
+//add a newline, it might be missing
+scope += "\n"
+
 prev_num := 0
-numbered_callout_regex := "<(\\d+)>"
+callout_regex := "^<(\\d+)>"
 listingblock_delim_regex := "^-{4,}$"
 
 for line in text.split(scope, "\n") {
-  //reset count if we hit a listing block delimiter 
+  //reset count if we hit a listing block delimiter
   if text.re_match(listingblock_delim_regex, line) {
     prev_num = 0
   }
 
-  if text.re_match(numbered_callout_regex, line) {
+  if text.re_match(callout_regex, line) {
     callout := text.re_find("<(\\d+)>", line)
     for key, value in callout {
       //trim angle brackets from string
@@ -34,7 +39,7 @@ for line in text.split(scope, "\n") {
       //start counting
       if num != prev_num+1 {
         start := text.index(scope, line)
-        matches = append(matches, {begin: start, end: start + len(line)}) 
+        matches = append(matches, {begin: start, end: start + len(line)})
       }
       prev_num = num
     }
