@@ -1,0 +1,97 @@
+//vale-fixture
+:_content-type: ASSEMBLY
+:url-home: https://asciidoctor.org
+:link-docs: https://asciidoctor.org/docs[documentation]
+[id="rosa-getting-started"]
+= Comprehensive guide to getting started with {product-title}
+
+.REPLACE_WITH_TABLE_TITLE
+[cols=2*, width="40%", options="header"]
+|====
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|====
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus urna, nec egestas nulla.
+Sed imperdiet nec nunc a dignissim.
+Phasellus sit and there herth edrth hert drtghfr sdf srdfh amet dolor mollis, aliquet purus ac, ultrices lectus. Integer nec arcu rutrum.
+Aliquet felis eget, hendrerit metus.
+Morbi hendrerit, lacus vel pretium tincidunt, lectus nibh malesuada est, aliquam ultrices elit erat tincidunt diam.
+
+[source,yaml]
+----
+# This CR verifies the installation/upgrade of the Cluster Logging Operator
+apiVersion: operators.coreos.com/v1
+kind: Operator
+metadata:
+  name: cluster-logging.openshift-logging
+  annotations:
+    ran.openshift.io/ztp-deploy-wave: "2"
+status:
+  components:
+    refs:
+    - kind: Subscription
+      namespace: openshift-logging
+      conditions:
+      - type: CatalogSourcesUnhealthy
+        status: "False"
+    - kind: InstallPlan
+      namespace: openshift-logging
+      conditions:
+      - type: Installed
+        status: "True"
+    - kind: ClusterServiceVersion
+      namespace: openshift-logging
+      conditions:
+      - type: Succeeded
+        status: "True"
+        reason: InstallSucceeded
+----
+
+Bullet lists are OK.
+
+* Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+** Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+* three
+
+. Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+.. Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+
+- Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+-- Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+
+
+ifdef::openshift-origin,openshift-enterprise,openshift-webscale[]
+* Hybrid cloud deployments. You can deploy {product-title} clusters to a variety of public cloud platforms or in your data center.
+endif::[]
+
+
+====
+Here's a sample AsciiDoc document:
+
+----
+= Title of Document
+Doc Writer
+:toc:
+
+This guide provides...
+----
+
+The document header is useful, but not required.
+====
+
+> I hold it that a little rebellion now and then is a good thing, and as necessary
+> in the political world as storms in the physical.
+> -- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11
+
+
+.High level {product-title} overview
+image::product-workflow-overview.png[High-level {product-title} flow]
+
+include::modules/a-rather-very-very-long-very-log-very-long-indeed-so-long-file.adoc[]

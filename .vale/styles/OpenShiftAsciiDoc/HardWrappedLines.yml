@@ -1,0 +1,49 @@
+---
+extends: script
+message: "Avoid hard-wrapped lines."
+level: error
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  sentence_regex := "^.*(\\.|\\?|\\!|:)$"
+  list_regex := "^(\\.|\\*|-).*$"
+  hard_wrap_80_regex := "^.{65,80}$"
+  hard_wrap_100_regex := "^.{75,100}$"
+  asciidoc_markup := "^(.*\\[.*\\]|\\/\\/.*|=* .*|>.*|#* .*|```.*|\\..*|\\|.*|:.*|ifdef::|endif::|image::|include::|link::|video::)"
+  listingblock_delim_regex := "^-{4}$"
+  inside_listingblock := false
+
+  for line in text.split(scope, "\n") {
+    //ignore content in codeblocks
+    if text.re_match(listingblock_delim_regex, line) && inside_listingblock == false {
+      inside_listingblock = true
+    } else if text.re_match(listingblock_delim_regex, line) && inside_listingblock == true {
+      inside_listingblock = false
+    }
+
+    //ignore sentences
+    if !text.re_match(sentence_regex, line) && inside_listingblock == false {
+      //ignore AsciiDoc elements
+      if !text.re_match(asciidoc_markup, line) {
+        //ignore lists
+        if !text.re_match(list_regex, line) {
+          //match hard wrapped lines at 80 
+          if text.re_match(hard_wrap_80_regex, line) && inside_listingblock == false {
+            start := text.index(scope, line)
+            matches = append(matches, {begin: start, end: start + len(line)})
+          //match hard wrapped lines at 100
+          } else if text.re_match(hard_wrap_100_regex, line) && inside_listingblock == false {
+            start := text.index(scope, line)
+            matches = append(matches, {begin: start, end: start + len(line)})    
+          }
+        }
+      }
+    }
+  }
