@@ -6,6 +6,7 @@
 ** xref:using-vale-app.adoc[]
 ** xref:using-vale-cli.adoc[]
 ** xref:understanding-vale-output.adoc[]
+** xref:collating-vale-output.adoc[]
 ** xref:using-vale-in-the-ide.adoc[]
 * xref:redhat-style-for-vale.adoc[]
 * xref:glossary.adoc[]
