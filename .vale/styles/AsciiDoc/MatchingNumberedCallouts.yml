@@ -1,6 +1,6 @@
 ---
 extends: script
-message: "Missing numbered callout."
+message: "Corresponding callout not found."
 level: error
 link: https://docs.asciidoctor.org/asciidoc/latest/verbatim/callouts/
 scope: raw
