@@ -4,5 +4,5 @@ scope: raw
 level: suggestion
 link: https://redhat-documentation.github.io/supplementary-style-guide/#link-text
 message: "The xref is missing link text."
-raw:
+tokens:
   - 'xref(.*)(\.adoc)#(.*)\[\]'

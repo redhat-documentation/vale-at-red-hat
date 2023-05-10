@@ -4,5 +4,5 @@ scope: raw
 level: error
 link: https://redhat-documentation.github.io/supplementary-style-guide/#commands-with-root-privileges
 message: "Terminal code block missing a command prompt at the beginning of the line. For example output, prepend the code block with '.Example output'."
-raw:
+tokens:
   - '.*(?<!\.Example.*\n|Sample.*\n)\[source,(terminal|bash)\]\n----\n(?!\$|#|[A-Z]:\\>|sh|.*\n\├|\[.*\]|\(.*\))'
