@@ -17,6 +17,12 @@ Applix
 ApplixWare
 Asciidoc
 asciidoc
+day-0
+day-1
+day-2
+Day-0
+Day-1
+Day-2
 AsciiDoctor
 asciidoctor
 assertj
