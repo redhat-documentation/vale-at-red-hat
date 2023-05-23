@@ -27,10 +27,10 @@ jobs:
       - name: Set variables
         id: vars
         run: |
-          echo "::set-output name=pr_number::$(<PR_NUMBER)"
-          echo "::set-output name=pr_sha::$(<PR_SHA)"
-          echo "::set-output name=deploy_domain::$(echo ${{ github.repository }}-$(<PR_NUMBER).surge.sh | sed s#/#-#)"
-          echo "::set-output name=project::$(find build/ -mindepth 1 -maxdepth 1  -type d)"
+          echo "pr_number=$(<PR_NUMBER)" >> $GITHUB_OUTPUT
+          echo "pr_sha=$(<PR_SHA)" >> $GITHUB_OUTPUT
+          echo "deploy_domain=$(echo ${{ github.repository }}-$(<PR_NUMBER).surge.sh | sed s#/#-#)" >> $GITHUB_OUTPUT
+          echo "project=$(find build/ -mindepth 1 -maxdepth 1  -type d)" >> $GITHUB_OUTPUT
       - name: Deploy
         id: deploy
         env:
