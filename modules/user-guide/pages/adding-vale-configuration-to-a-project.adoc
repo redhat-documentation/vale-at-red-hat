@@ -24,15 +24,25 @@ Consider adding Vale configuration files to a project to:
 
 . Download the link:{repository-url}/archive/refs/heads/main.zip[{repository-name} ZIP archive] and decompress it to your local environment.
 
-. Copy the `.vale.ini` file and `.vale` directory from the `{repository-name}` directory to the `__<project_directory>__` directory containing your documentation project.
+. Copy the `.vale.ini` file and from the `{repository-name}` directory to the `__<project_directory>__` directory containing your documentation project.
 +
 [source,console,subs="+quotes,+attributes"]
 ----
 $ cd {repository-name}
-$ cp -r .vale* __<project_directory>__/
+$ cp .vale.ini __<project_directory>__/
 $ cd __<project_directory>__
-$ git add .vale*
-$ git commit -m "Adding Vale configuration to the project"
+$ git add .vale.ini
+$ git commit -m "Adding vale.ini configuration to the project"
+----
+
+* Run the `vale sync` command from the repository folder to download the rules to the project directory. For example:
++
+[source,terminal]
+----
+$ cd {repository-name}
+$ vale sync
+ SUCCESS  Downloaded package 'RedHat'
+Downloading packages [1/1]
 ----
 
 .Verification
@@ -42,7 +52,7 @@ $ git commit -m "Adding Vale configuration to the project"
 [source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
-$ Vale __<filename>__
+$ vale __<filename>__
 ----
 
 .Additional resources
