@@ -18,7 +18,6 @@ bare-metal node
 bare-metal provisioning
 bare-metal server
 bare-metal worker
-cloud
 compress
 enter
 functions
