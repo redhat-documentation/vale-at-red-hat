@@ -9,9 +9,14 @@
 :_module-type: PROCEDURE
 // End of metadata for Modular Docs
 [id="proc_installing-vale-cli_{context}"]
-= Installing Vale with the `RedHat` package
+= Installing Vale with the `RedHat` package system-wide
 
 To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure Vale CLI version 2.16.0 or later.
+
+[IMPORTANT]
+====
+If you are installing Vale for use with a project that already has a Vale configuration, all you need to do is install the Vale command-line tool and run `vale sync` from the project folder.
+====
 
 .Prerequisites
 
@@ -19,10 +24,15 @@ To use Vale CLI with the `RedHat` style on any project without further configura
 
 .Procedure
 
-. Install the Vale command-line tool on your workstation.
-See link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
+. Install the Vale command-line tool on your workstation. On RHEL or Fedora systems, run the following command:
++
+[source,terminal]
+----
+$ sudo dnf copr enable mczernek/vale && sudo dnf install vale
+----
 +
 [NOTE]
+Alternatively, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 On the Vale site, click the tab for your operating system.
 
 . Register the `RedHat` Vale package in the `.vale.ini` Vale configuration file. Save the file in your `$HOME` directory:
