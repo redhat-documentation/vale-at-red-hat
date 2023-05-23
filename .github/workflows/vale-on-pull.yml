@@ -19,7 +19,9 @@ jobs:
       - uses: errata-ai/vale-action@reviewdog
         with:
           filter_mode: diff_context
-          vale_flags: "--no-exit"
+          vale_flags: "--no-exit --minAlertLevel=error"
+          reporter: github-pr-review
+          fail_on_error: true
         env:
           # Required, set by GitHub actions automatically:
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
