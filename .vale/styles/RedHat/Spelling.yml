@@ -317,6 +317,7 @@ filters:
   - Nginx
   - npm
   - NuGet
+  - Nutanix
   - NVidia
   - NVMe
   - OAuth
@@ -394,6 +395,7 @@ filters:
   - Vert.x
   - vHost
   - VMs
+  - VMware
   - vsix
   - vSphere
   - WebAuthn
