@@ -107,8 +107,8 @@ IBM S/390
 IBM Z
 IdM CA renewal server
 IdM server and replicas
-image builder
 Ignition config
+image builder
 inference engine
 InfiniBand
 Insight
@@ -182,6 +182,7 @@ OpenID Connect
 OpenRewrite
 operating environment
 operating system
+Operator
 Operator Lifecycle Manager
 OperatorHub
 OpEx
