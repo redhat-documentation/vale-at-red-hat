@@ -236,7 +236,6 @@ knowledgebase
 ksession
 Kubelet
 kubernetes
-Kubernetes operator
 kvm
 lan
 Lan
@@ -308,7 +307,6 @@ OpenShift Origin
 OpenStack Platform
 Operating Environment
 Operating System
-operator
 Operator hub
 Operator Hub
 operatorhub
