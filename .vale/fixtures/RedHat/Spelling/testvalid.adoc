@@ -19,7 +19,6 @@ autostart
 Autostart
 aws
 AWS
-Microsoft Azure
 backfilling
 Backfilling
 backported
@@ -175,8 +174,8 @@ Inode
 Intelephense
 IntelliJ
 IPsec
-ISeries
 IPv
+ISeries
 ISVs
 Itanium
 Item
@@ -211,10 +210,10 @@ Kubespray
 Kylin
 Laravel
 Let's Encrypt
-librados
-librbd
 LGPLv
 libOSMesa
+librados
+librbd
 libvirt
 Libvirt
 Licensor
@@ -228,6 +227,7 @@ Maven
 Mebibytes
 MicroProfile
 Microsoft
+Microsoft Azure
 Middleware
 middleware
 Millicores
@@ -242,8 +242,8 @@ MongoDB
 Multicluster
 Multihost
 Multinode
-Multitenant
 Multipath
+Multitenant
 multithread
 Multithread
 Multiuser
@@ -262,6 +262,7 @@ Nginx
 Node.js
 npm
 NuGet
+Nutanix
 NVidia
 NVMe
 OAuth
@@ -421,6 +422,7 @@ Velero
 Vert.x
 vHost
 VMs
+VMWare
 vsix
 vSphere
 WebAuthn

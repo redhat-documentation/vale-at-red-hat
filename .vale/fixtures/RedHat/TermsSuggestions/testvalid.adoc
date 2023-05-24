@@ -24,7 +24,6 @@ functions
 information about
 JAR
 JAR file
-Nutanix
 repository
 see
 segmentation fault
@@ -34,5 +33,4 @@ Start by using this.
 such as
 this clause that is restrictive
 this clause, which is nonrestrictive
-VMware
 write
