@@ -11,16 +11,16 @@ swap:
   "(?<!/)var": VAR
   # Bind: BIND
   '(?<!\.)yaml|Yaml': YAML
-  '(?<!Business )Resource Planner|(?<!Business Resource )Planner': Business Resource Planner
+  "(?<!Business )Resource Planner|(?<!Business Resource )Planner": Business Resource Planner
   '(?<!JBoss )EAP|(?<!Red Hat )JBoss(?!\sCommunity|\sBroker|\sClients|\sConsole|\sAMQ|\sData\sGrid|\sBRMS|\sBPMS|\sEnterprise\sApplication\sPlatform|\.org|\sInterconnect|\sEAP|\sBPM\sSuite)': JBoss EAP
-  '(?<!Microsoft )Azure': Microsoft Azure
-  '(?<!Microsoft Azure )On-Demand Marketplace': Microsoft Azure On-Demand Marketplace
+  "(?<!Microsoft )Azure": Microsoft Azure
+  "(?<!Microsoft Azure )On-Demand Marketplace": Microsoft Azure On-Demand Marketplace
   '(?<!Realtime )Decision\sServer': Realtime Decision Server
-  '(?<!Red Hat )Customer Portal': Red Hat Customer Portal
-  '(?<!Red Hat )JBoss Enterprise Application Platform': Red Hat JBoss Enterprise Application Platform
-  '(?<!Red Hat )OpenStack Platform|RHOS|RH-OSP': Red Hat OpenStack Platform
-  '(?<!Red Hat JBoss )BRMS(?! engine)': inference engine
-  '(?<!Red Hat JBoss )BRMS|BRM|(?<!Red Hat )JBoss BRMS': Red Hat JBoss BRMS
+  "(?<!Red Hat )Customer Portal": Red Hat Customer Portal
+  "(?<!Red Hat )JBoss Enterprise Application Platform": Red Hat JBoss Enterprise Application Platform
+  "(?<!Red Hat )OpenStack Platform|RHOS|RH-OSP": Red Hat OpenStack Platform
+  "(?<!Red Hat JBoss )BRMS(?! engine)": inference engine
+  "(?<!Red Hat JBoss )BRMS|BRM|(?<!Red Hat )JBoss BRMS": Red Hat JBoss BRMS
   '[nN]odejs|[nN]ode\.JS|node\.js': Node.js
   '\s\.Net Core|\s\.Net|\s\.NET\sCore|dotNet': .NET
   'A-MQ(?!\sBroker|\sClient|\sConsole|\sInterconnect)': AMQ
@@ -31,21 +31,21 @@ swap:
   'ack\spacket|ACK(?!\sflag)|ack': ACK flag
   'ActiveMQ\sArtemis|ActiveMQ(?!\sArtemis)': built-in messaging|JBoss EAP built-in messaging|JBoss EAP messaging
   'Admin\sPortal|webadmin\sportal|webadmin|Administrator\sPortal|Administration\sportal': Administration Portal
-  'BPMS|(?<!Red Hat )JBoss BPMS|(?<!Red Hat JBoss )BPM(?! Suite)': Red Hat JBoss BPM Suite
+  "BPMS|(?<!Red Hat )JBoss BPMS|(?<!Red Hat JBoss )BPM(?! Suite)": Red Hat JBoss BPM Suite
   'BRMS\sengine': inference engine
-  'DM(?![ -]Multipath)|directory manager': Directory Manager
+  "DM(?![ -]Multipath)|directory manager": Directory Manager
   'GUI\seditor|Business\sCentral\seditor': guided editor
-  'JBoss Broker|Red Hat Broker|The AMQ Broker': AMQ Broker
-  'JBoss Console|Red Hat Console': AMQ Console
+  "JBoss Broker|Red Hat Broker|The AMQ Broker": AMQ Broker
+  "JBoss Console|Red Hat Console": AMQ Console
   'JBoss\.org': JBoss Community
   'JBoss\sAMQ': AMQ
   'JBoss\sInterconnect': AMQ Interconnect
-  'Kernel(?!-based Virtual Machine)': kernel
+  "Kernel(?!-based Virtual Machine)": kernel
   'Kie(?!\sServer)': KIE
   'Kie\sServer': Intelligent Process Server
   'O\.K\.D|okd|OpenShift Kubernetes Distribution|OpenShift\sOrigin': OKD
-  'OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager': Red Hat OpenShift Cluster Manager
-  'OD': Red Hat OpenShift Dedicated
+  "OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager": Red Hat OpenShift Cluster Manager
+  "OD": Red Hat OpenShift Dedicated
   'Red\sHat\sInterconnect': AMQ Interconnect
   'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
@@ -195,6 +195,7 @@ swap:
   Openshift online|OO: Red Hat OpenShift Online
   Operating Environment: operating environment
   Operator Hub|Operator hub|Operatorhub|operatorhub: OperatorHub
+  "(?<!-)operator|Kubernetes operator": Operator
   Opex|Opex|OPEX|opEx: OpEx
   Organization administrator|Org Admin|org admin: Organization Administrator
   OS|Operating System: operating system

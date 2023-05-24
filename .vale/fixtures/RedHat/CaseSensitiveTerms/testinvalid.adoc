@@ -236,6 +236,7 @@ knowledgebase
 ksession
 Kubelet
 kubernetes
+Kubernetes operator
 kvm
 lan
 Lan
@@ -295,11 +296,11 @@ okd
 On-Demand Marketplace
 OO
 Open InfiniBand
+Open Rewrite
 openid connect
 Openid Connect
 openrewrite
 Openrewrite
-Open Rewrite
 OpenShift Cluster Manager
 OpenShift Kubernetes Distribution
 Openshift online
@@ -307,6 +308,7 @@ OpenShift Origin
 OpenStack Platform
 Operating Environment
 Operating System
+operator
 Operator hub
 Operator Hub
 operatorhub
