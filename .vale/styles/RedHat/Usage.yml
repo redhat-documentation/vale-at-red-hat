@@ -93,7 +93,6 @@ tokens:
   - localize
   - look and feel
   - look-and-feel
-  - "(?<!virtual |Podman )machine(?! learning)"
   - master and slave
   - migrate
   - native

@@ -170,6 +170,7 @@ vCPUs
 vDisk
 vHost
 VMs
+VMware
 vSphere
 WebAuthn
 WebSocket
