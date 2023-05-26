@@ -86,7 +86,6 @@ lite
 localize
 look and feel
 look-and-feel
-machine
 master and slave
 migrate
 native

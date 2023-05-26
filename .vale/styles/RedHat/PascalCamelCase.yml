@@ -167,6 +167,7 @@ exceptions:
   - USBGuard
   - vDisk
   - vHost
+  - VMware
   - vSphere
   - WebAuthn
   - WebSocket
