@@ -1,0 +1,34 @@
+:_content-type: ASSEMBLY
+[id="rosa-getting-started"]
+= Comprehensive guide to getting started with {product-title}
+
+.Table title
+[cols=2*, width="40%", options="header"]
+|====
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|====
+
+//vale-fixture
+Est eh ex, a rhoncus magna condimentum a. Aenean ut sem blandit, consectetur nisi
+quis, aliquam leo. Sed nec varius nulla, id rhoncus mi. Maecenas vel semper
+
+Morbi libero diam, ornare eu ligula ac, pellentesque molestie urna.
+
+# Document Title (Level 0)
+
+## Section Level 1
+
+### Section Level 2
+
+#### Section Level 3
+
+##### Section Level 4
+
+###### Section Level 5

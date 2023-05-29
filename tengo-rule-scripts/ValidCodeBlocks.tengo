@@ -9,8 +9,13 @@ text := import("text")
 
 input := os.args()
 scope := os.read_file(input[2])
-
 matches := []
+
+//trim extra whitespace
+scope = text.trim_space(scope)
+//add a newline, it might be missing
+scope += "\n"
+
 codeblock_delim_regex := "^-{4,}$"
 source_block_regex := "^\\[(source|subs|role).*\\]"
 sources_blocks := 0

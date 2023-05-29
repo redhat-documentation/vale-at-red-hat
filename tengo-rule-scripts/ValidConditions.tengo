@@ -8,9 +8,13 @@ os := import("os")
 text := import("text")
 
 input := os.args()
-//vale gets the file as scope when it runs
 scope := os.read_file(input[2])
 matches := []
+
+//trim extra whitespace
+scope = text.trim_space(scope)
+//add a newline, it might be missing
+scope += "\n"
 
 if_regex := "^(ifdef::.+\\[\\]|ifndef::.+\\[\\]|ifeval::.*)"
 endif_regex := "^endif::.*"
