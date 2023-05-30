@@ -1,0 +1,118 @@
+//vale-fixture
+OpenShift Container Platform
+//vale-fixture
+Alibaba Cloud
+//vale-fixture
+Bare Metal Event Relay
+//vale-fixture
+cert-manager Operator for Red Hat OpenShift
+//vale-fixture
+distributed tracing data collection
+//vale-fixture
+distributed tracing platform
+//vale-fixture
+distributed tracing
+//vale-fixture
+Factory-precaching-cli tool
+//vale-fixture
+factory-precaching-cli tool
+//vale-fixture
+GitOps ZTP
+//vale-fixture
+Hybrid Cloud Console
+//vale-fixture
+IBM Power
+//vale-fixture
+IBM zSystems
+//vale-fixture
+IBM LinuxONE
+//vale-fixture
+Logging subsystem for Red Hat OpenShift
+//vale-fixture
+logging subsystem for Red Hat OpenShift
+//vale-fixture
+LVM Storage
+//vale-fixture
+Migration Toolkit for Containers
+//vale-fixture
+MTC
+//vale-fixture
+odo
+//vale-fixture
+OpenShift Cluster Manager
+//vale-fixture
+OpenShift Data Foundation
+//vale-fixture
+OpenShift image registry
+//vale-fixture
+OpenShift Kubernetes Engine
+//vale-fixture
+OpenShift Pipelines
+//vale-fixture
+OpenShift Platform Plus
+//vale-fixture
+OpenShift sandboxed containers
+//vale-fixture
+OpenShift Serverless Functions
+//vale-fixture
+OpenShift Serverless Operator
+//vale-fixture
+Pipelines as Code
+//vale-fixture
+Red Hat Hybrid Cloud Console
+//vale-fixture
+Red Hat OpenShift Cluster Manager
+//vale-fixture
+Red Hat OpenShift Data Foundation
+//vale-fixture
+Red Hat OpenShift Dedicated
+//vale-fixture
+Red Hat OpenShift Dev Spaces
+//vale-fixture
+Red Hat OpenShift distributed tracing data collection
+//vale-fixture
+Red Hat OpenShift distributed tracing platform
+//vale-fixture
+Red Hat OpenShift GitOps
+//vale-fixture
+Red Hat OpenShift Local
+//vale-fixture
+Red Hat OpenShift Pipelines
+//vale-fixture
+Red Hat OpenShift Service Mesh
+//vale-fixture
+Red Hat OpenShift support for Windows Containers
+//vale-fixture
+Red Hat Quay Container Security Operator
+//vale-fixture
+RHACM
+//vale-fixture
+Run Once Duration Override Operator
+//vale-fixture
+Secondary Scheduler Operator
+//vale-fixture
+Single-node OpenShift
+//vale-fixture
+single-node OpenShift
+//vale-fixture
+TALM
+//vale-fixture
+Tekton Chains
+//vale-fixture
+Tekton Hub
+//vale-fixture
+Template Service Broker
+//vale-fixture
+Tempo Operator
+//vale-fixture
+Tempo
+//vale-fixture
+Three-node OpenShift
+//vale-fixture
+three-node OpenShift
+//vale-fixture
+Topology Aware Lifecycle Manager
+//vale-fixture
+velero.io
+//vale-fixture
+Web Terminal Operator
