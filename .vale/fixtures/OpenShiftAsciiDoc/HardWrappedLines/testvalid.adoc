@@ -2,7 +2,7 @@
 :_content-type: ASSEMBLY
 :url-home: https://asciidoctor.org
 :link-docs: https://asciidoctor.org/docs[documentation]
-[id="rosa-getting-started"]
+[id="rosa-getting-started-on-really-very-long-id-with-extra-text"]
 = Comprehensive guide to getting started with {product-title}
 
 .REPLACE_WITH_TABLE_TITLE
