@@ -15,6 +15,9 @@ AsciiDoc
 Asciidoctor
 AssertJ
 autolink
+Day 0
+Day 1
+Day 2
 Basic authentication
 Basic HTTP authentication
 BIND
