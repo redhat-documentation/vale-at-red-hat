@@ -67,6 +67,6 @@ Heads up! Verify the usage depending on the context. Content containing suggesti
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 * xref:creating-a-vocabulary-for-a-project.adoc[]
 * xref:contributor-guide:extending-the-spelling-rule.adoc[]
-* xref:contributor-guide:extending-the-redhat-style.adoc[].
+* xref:contributor-guide:extending-styles.adoc[].
 
 

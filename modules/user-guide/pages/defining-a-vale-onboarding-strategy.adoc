@@ -101,7 +101,7 @@ $ vale --minAlertLevel=warning .
 
 * xref:contributor-guide:extending-the-spelling-rule.adoc[]
 
-* xref:contributor-guide:extending-the-redhat-style.adoc[]
+* xref:contributor-guide:extending-styles.adoc[]
 
 == Decrease the number of alerts requesting xref:adding-vale-configuration-to-a-project.adoc[]
 

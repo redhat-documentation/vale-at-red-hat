@@ -16,6 +16,6 @@ You can help by doing any of the following:
 
 * xref:extending-the-spelling-rule.adoc[]
 
-* xref:extending-the-redhat-style.adoc[]
+* xref:extending-styles.adoc[]
 
 image::open-source-wants-you.jpg[Open Source wants you]

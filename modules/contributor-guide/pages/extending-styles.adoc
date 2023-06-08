@@ -6,12 +6,12 @@
 
 :parent-context-of-extending-styles: {context}
 
-[id="extending-the-redhat-style_{context}"]
-= Extending the Red Hat style
+[id="extending-styles_{context}"]
+= Extending styles
 
-:context: extending-the-redhat-style
+:context: extending-styles
 
-include::partial$proc_extending-the-redhat-style.adoc[leveloffset=+1]
+include::partial$proc_extending-styles.adoc[leveloffset=+1]
 
 :context: {parent-context-of-extending-styles}
 
