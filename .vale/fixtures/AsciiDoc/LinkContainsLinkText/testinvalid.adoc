@@ -1,0 +1,14 @@
+//vale-fixture
+link:https://docs.aws.amazon.com/[] 
+
+link:https://docs.aws.amazon.com/[Click here]
+
+link:https://docs.aws.amazon.com/[click here]
+
+link:https://docs.aws.amazon.com/[here]
+
+link:https://docs.aws.amazon.com/[Here]
+
+link:https://docs.aws.amazon.com/[this]
+
+link:https://docs.aws.amazon.com/[This]
