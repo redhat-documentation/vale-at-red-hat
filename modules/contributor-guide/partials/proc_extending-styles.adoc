@@ -1,0 +1,51 @@
+:_module-type: PROCEDURE
+
+[id="proc_extending_styles_{context}"]
+= Extending styles in the vale-at-red-hat repository
+
+The vale-at-red-hat repository is an open source project maintained and developed by volunteers. If you want to contribute to the Vale at Red Hat project, feel free to open a PR.
+
+[NOTE]
+====
+If you use a custom Vale rule set in your Red Hat project, please consider adding it to the vale-at-red-hat repository. 
+====
+
+.Prerequisites
+
+* xref:user-guide:installing-vale-cli.adoc[]
+* xref:user-guide:understanding-vale-output.adoc[]
+* xref:user-guide:defining-a-vale-onboarding-strategy.adoc[]
+* You forked and cloned the `vale-at-red-hat` repository using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+
+.Procedure
+
+. Configure the rule in the `styles` folder: `.vale/styles/<Style>/_<StyleName>_.yml`. 
+
+. Configure the test fixtures in the `fixtures` folder: `.vale/fixtures/<Style>/<StyleName>/testinvalid.adoc|testvalid.adoc`
+
+. Run the `vale` command in the test fixtures folder to ensure that the rule triggers as you expect, for example:
++
+[source,terminal]
+----
+$ vale .
+----
++
+.Example output
++
+[source,terminal]
+----
+ testinvalid.adoc
+ 2:1  error  Quoted ID value is not closed.  AsciiDoc.ClosedIdQuotes 
+ 6:1  error  Quoted ID value is not closed.  AsciiDoc.ClosedIdQuotes 
+
+✖ 2 errors, 0 warnings and 0 suggestions in 2 files.
+----
+
+. Add, commit and push your changes.
+
+. Request a review or help in the Slack channel link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+
+.Additional resources
+
+* link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
+* link:https://github.com/redhat-documentation/vale-at-red-hat/pull/416[Sample PR]
