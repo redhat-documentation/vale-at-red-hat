@@ -9,6 +9,8 @@
 ** xref:collating-vale-output.adoc[]
 ** xref:using-vale-in-the-ide.adoc[]
 * xref:redhat-style-for-vale.adoc[]
+* xref:asciidoc-style-for-vale.adoc[]
+* xref:openshift-asciidoc-style-for-vale.adoc[]
 * xref:glossary.adoc[]
 * xref:reporting-vale-alerts.adoc[]
 * xref:defining-a-vale-onboarding-strategy.adoc[]

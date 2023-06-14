@@ -1,0 +1,19 @@
+code_quality:
+  image:
+    name: jdkato/vale:latest
+    entrypoint: [""]
+  tags: [shared]
+  before_script:
+    - apk update && apk add git
+    - vale sync # pull down VRH rules package specified in vale.ini
+  script:
+    # list of updated/modified *.adoc files
+    - FILES=$(git diff --name-only HEAD~1 HEAD --diff-filter=d "*.adoc")
+    # clean out conditions for wider vale coverage
+    - sed -i -e 's/ifdef::.*\|ifndef::.*\|ifeval::.*\|endif::.*/ /' ${FILES}
+    # use a template to rearrange the vale JSON output
+    # run vale with `--no-exit` to pass the build with errors
+    - vale ${FILES} --minAlertLevel=error --glob='*.adoc' --output="$(pwd)/vale-json.tmpl" | sed "s/CI_COMMIT_SHA/$CI_COMMIT_SHA/g" > gl-code-quality-report.json
+  artifacts:
+    reports:
+      codequality: gl-code-quality-report.json

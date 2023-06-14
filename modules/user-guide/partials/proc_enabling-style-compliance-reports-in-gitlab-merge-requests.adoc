@@ -19,31 +19,29 @@ The widget reports style compliance issues in the GitLab merge request interface
 +
 [source,yaml]
 ----
-code_quality:
-  image:
-    name: jdkato/vale:latest
-    entrypoint: [""]
-  tags: [shared]
-  variables:
-    VARH_REPO: "redhat-documentation/vale-at-red-hat"
-    VARH_BRANCH: "main"
-  before_script:
-    - apk add --no-cache curl asciidoctor python3
-    - |
-      curl -o vale2cc.py \
-        https://raw.githubusercontent.com/${VARH_REPO}/${VARH_BRANCH}/tools/vale2cc.py
-  script:
-    - vale --no-exit --output=JSON . | python3 vale2cc.py > gl-code-quality-report.json
-  artifacts:
-    reports:
-      codequality: gl-code-quality-report.json
+include::https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/main/tools/.gitlab-ci.yml[]
 ----
 
-. Commit `.gitlab-ci.yml` to the local repository:
+. Create a `vale-json.tmpl` file at the repository root:
++
+[source,tmpl]
+----
+include::https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/main/tools/vale-json.tmpl[]
+----
+
+. Add the following entries to `.gitignore`:
 +
 [source]
 ----
-git add .gitlab-ci.yml
+.vale
+gl-code-quality-report.json
+----
+
+. Commit the files to the local repository:
++
+[source]
+----
+git add .
 git commit -m "Add GitLab CI/CD code quality pipeline"
 ----
 
@@ -53,6 +51,8 @@ git commit -m "Add GitLab CI/CD code quality pipeline"
 ----
 git push -u origin main
 ----
+
+Once merged, a code quality pipeline runs for every new commit added in a PR. Access the report from the **Pipelines** menu item in the GitLab repository.
 
 [role="_additional-resources"]
 .Additional resources

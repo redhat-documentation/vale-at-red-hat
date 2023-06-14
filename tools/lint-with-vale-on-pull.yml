@@ -1,0 +1,21 @@
+---
+name: Linting with Vale on pull request
+on: [pull_request]
+
+jobs:
+  vale:
+    name: Linting with Vale
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: errata-ai/vale-action@reviewdog
+        with:
+          filter_mode: diff_context
+          vale_flags: "--no-exit --minAlertLevel=error"
+          reporter: github-pr-review
+          fail_on_error: true
+        env:
+          # Required, set by GitHub actions automatically:
+          # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          REVIEWDOG_GITHUB_API_TOKEN: ${{secrets.GITHUB_TOKEN}}
