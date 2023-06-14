@@ -1,0 +1,10 @@
+:navtitle: Links
+:keywords: reference, rule, Links
+
+= Links
+
+Always include link text for URLs. The link text must be descriptive.
+
+.Additional resources
+
+* link:{ssg-url}?topic=grammar-capitalization#cloud-services-links-hypertext[{ssg} - Links and hypertext]
