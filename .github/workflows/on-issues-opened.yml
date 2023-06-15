@@ -22,4 +22,4 @@ jobs:
         with:
           project: Vale at Red Hat 
           column: To do
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
