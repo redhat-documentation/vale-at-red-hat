@@ -21,71 +21,41 @@ Consider adding Vale configuration files to a project to:
 
 .Procedure
 
-. Copy the following recommended Vale at Red Hat `.vale.ini` file to the root directory for your documentation project:
+. Create a `.vale.ini` configuration file in the root directory for your documentation project:
 +
-.Recommended .vale.ini
+.Example .vale.ini
 [source,ini]
 ----
-# Vale configuration file for the https://github.com/redhat-documentation/vale-at-red-hat repository.
-# See: https://docs.errata.ai/vale/config
-
 # The relative path to the folder containing linting rules (styles).
 StylesPath = .vale/styles
 
-# Optional: Use the `Vocab` parameter to define exceptions to the ruleset specified for `BasedOnStyles`.
-# For more information about how to use the `Vocab` feature of vale, see: https://docs.errata.ai/vale/vocab
-
-# Minimum alert level
-# -------------------
-# The minimum alert level in the output (suggestion, warning, or error).
-# If integrated into CI, builds fail by default on error-level alerts, unless you run Vale with the --no-exit flag
 MinAlertLevel = suggestion
 
-# IgnoredScopes specifies inline-level HTML tags to ignore.
-# These tags may occur in an active scope (unlike SkippedScopes, skipped entirely) but their content still will not raise any alerts.
-# Default: ignore `code` and `tt`.
-IgnoredScopes = code, tt, img, url, a, body.id
-# SkippedScopes specifies block-level HTML tags to ignore. Ignore any content in these scopes.
-# Default: ignore `script`, `style`, `pre`, and `figure`.
-# For AsciiDoc: by default, listingblock, and literalblock.
 SkippedScopes = script, style, pre, figure, code, tt, blockquote, listingblock, literalblock
 
 [formats]
 # Associate `*.properties` files with the `md` format
 properties = md
 
-# Match AsciiDoc files. See: https://docs.errata.ai/vale/scoping
-# Ignore files in a directory starting by `.`
-# to avoid raising errors for `.vale/fixtures/*/testinvalid.adoc` files
-[[!.]*.adoc]
+[*.adoc]
 # Styles to load, located in the `StylesPath` folder:
 BasedOnStyles = RedHat
-; Ignore attributes definition, id statements
+
+# Ignore attributes definition, id statements
 TokenIgnores = (:[^\n]+: [^\n]+), (\[id=[^\n]+)
 
-; RedHat.BareMetal = NO
-
-
-# Match Markdown files. See: https://docs.errata.ai/vale/scoping
-# Match also `*.properties` files (see the `format` section).
 [*.md]
-# Styles to load, located in the `StylesPath` folder:
 BasedOnStyles = RedHat
 
 # Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
 TokenIgnores = (\x60[^\n\x60]+\x60), ([^\n]+=[^\n]*), (\+[^\n]+\+), (http[^\n]+\[)
-
-# Match Restructured text files
-[*.rst]
-# Styles to load, located in the `StylesPath` folder:
-BasedOnStyles = RedHat
 
 # Match INI files. See: https://docs.errata.ai/vale/scoping
 [*.ini]
-# Styles to load, located in the `StylesPath` folder:
 BasedOnStyles = RedHat
 # Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
 TokenIgnores = (\x60[^\n\x60]+\x60), ([^\n]+=[^\n]*), (\+[^\n]+\+), (http[^\n]+\[)
+
 # Disabling rules (NO)
 RedHat.CaseSensitiveTerms = NO
 RedHat.ConfigMap = NO
@@ -100,13 +70,14 @@ RedHat.TermsSuggestions = NO
 ====
 By default, the `.vale.ini` file sets `MinAlertLevel = suggestion`.
 Consider changing `MinAlertLevel` to `warning` or `error` for new projects.
+For a complete list of possible configuration options, see link:https://vale.sh/docs/topics/config#config-file[Configuration options for .vale.ini]
 ====
 
 * Run the `vale sync` command from the repository folder to download the rules to the project directory. For example:
 +
 [source,terminal]
 ----
-$ cd {repository-name}
+$ cd __<project_directory>__
 $ vale sync
  SUCCESS  Downloaded package 'RedHat'
 Downloading packages [1/1]
