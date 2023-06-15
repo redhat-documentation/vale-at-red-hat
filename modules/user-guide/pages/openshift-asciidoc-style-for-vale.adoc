@@ -85,3 +85,16 @@ $ vale sync
  SUCCESS  Downloaded package 'OpenShiftAsciiDoc'
 Downloading packages [2/2] ██████████████████ 100% | 3s
 ----
+
+The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `OpenShiftAsciiDoc` style in the following directory:
+
+----
+.vale/styles/OpenShiftAsciiDoc
+----
+
+[role="_additional-resources"]
+.Additional resources
+* xref:installing-vale-cli.adoc[]
+* xref:using-vale-in-the-ide.adoc[]
+* xref:using-vale-github-action.adoc[]
+* xref:adding-vale-configuration-to-a-project.adoc[]

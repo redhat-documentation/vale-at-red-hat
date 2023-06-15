@@ -23,8 +23,8 @@ The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `RedHa
 .vale/styles/RedHat
 ----
 
-To use the `RedHat` style in your project you can decide to be:
-
+[role="_additional-resources"]
+.Additional resources
 * xref:installing-vale-cli.adoc[]
 * xref:using-vale-in-the-ide.adoc[]
 * xref:using-vale-github-action.adoc[]
