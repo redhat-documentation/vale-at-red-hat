@@ -10,7 +10,7 @@
 [id="proc_using-vale-github-action_{context}"]
 = Integrating Vale into your Git workflow by using a GitHub Action
 
-Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the errata-ai `vale-action`, which is the official GitHub Action for Vale.
+Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the link:https://github.com/errata-ai/vale-action[GitHub Action for Vale].
 
 By creating a GitHub Action workflow for Vale, you can configure how Vale runs: you can set Vale flags and specify which Git workflow events trigger Vale jobs. For example, you can decide to:
 
@@ -29,34 +29,14 @@ WARNING: Because of GitHub token permissions, the Vale GitHub Action cannot post
 
 .Procedure
 
-. Copy `.vale-for-github-action.ini` from link:https://github.com/redhat-documentation/vale-at-red-hat[vale-at-red-hat] into the root of your GitHub repository and configure your style preferences.
+. Copy `.vale.ini` from link:https://github.com/redhat-documentation/vale-at-red-hat[vale-at-red-hat] into the root of your GitHub repository and configure your style preferences.
 . In the `.github/workflows/` folder of your project repository, create a YAML file called `vale.yml`.
 * *Tip*: You can also click *Actions* and use the GitHub Actions wizard to initialize the vale.yml file and validate your configuration.
-. Add the following configuration to the `.github/workflows/vale.yml` file:
+. Add the following configuration to the `.github/workflows/lint-with-vale.yml` file:
 +
 [source,yaml]
 ----
-name: Linting with Vale
-on:
-  - pull_request
-jobs:
-  vale:
-    name: Linting with Vale
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Vale Linter
-        uses: errata-ai/vale-action@reviewdog
-        with:
-          fail_on_error: false
-          vale_flags: "--no-exit"
-          files: __onlyModified
-          onlyAnnotateModifiedLines: true
-        env:
-          # Required, set by GitHub actions automatically:
-          # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+include::https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/main/tools/lint-with-vale-on-pull.yml[]
 ----
 . Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when Vale errors exist, set `fail_on_error` to *true*.
 . Commit and push the GitHub Action to the main branch of your GitHub repository and rebase your other branches.

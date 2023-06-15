@@ -35,9 +35,9 @@ $ sudo dnf copr enable mczernek/vale && sudo dnf install vale
 Alternatively, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 On the Vale site, click the tab for your operating system.
 
-. Register the `RedHat` Vale package in the `.vale.ini` Vale configuration file. Save the file in your `$HOME` directory:
+. Add the `RedHat` Vale package in the `.vale.ini` Vale configuration file. Save the file in your `$HOME` directory:
 +
-.The `$HOME/.vale.ini` file
+.Example .vale.ini
 [source,ini]
 ----
 StylesPath = styles
@@ -84,4 +84,7 @@ $ vale __<filename>__
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 * link:https://vale.sh/docs/vale-cli/installation/[Installing Vale CLI]
 * link:https://vale.sh/docs/topics/config[Configuring Vale CLI]
+* link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[VS Code + Vale]
+* link:https://plugins.jetbrains.com/plugin/19613-vale-cli[Intellijel IDE + Vale]
+* link:https://packagecontrol.io/packages/LSP-vale-ls[Sublime Text + Vale]
 * link:https://vale.sh/generator[Vale configuration generator]

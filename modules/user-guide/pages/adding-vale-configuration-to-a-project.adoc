@@ -18,22 +18,23 @@ Consider adding Vale configuration files to a project to:
 
 .Prerequisites
 
-* To test the configuration on your local environment, the Vale command-line tool is installed. See link:https://vale.sh/docs/vale-cli/installation[Installing Vale].
+* Install the Vale command-line tool.
 
 .Procedure
 
-. Download the link:{repository-url}/archive/refs/heads/main.zip[{repository-name} ZIP archive] and decompress it to your local environment.
-
-. Copy the `.vale.ini` file and from the `{repository-name}` directory to the `__<project_directory>__` directory containing your documentation project.
+. Copy the following recommended Vale at Red Hat `.vale.ini` file to the root directory for your documentation project:
 +
-[source,console,subs="+quotes,+attributes"]
+.Recommended .vale.ini
+[source,ini]
 ----
-$ cd {repository-name}
-$ cp .vale.ini __<project_directory>__/
-$ cd __<project_directory>__
-$ git add .vale.ini
-$ git commit -m "Adding vale.ini configuration to the project"
+include::https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/main/.vale.ini[]
 ----
++
+[NOTE]
+====
+By default, the `.vale.ini` file sets `MinAlertLevel = suggestion`.
+Consider changing `MinAlertLevel` to `warning` or `error` for new projects.
+====
 
 * Run the `vale sync` command from the repository folder to download the rules to the project directory. For example:
 +
