@@ -22,5 +22,5 @@ jobs:
         with:
           project: Vale at Red Hat 
           column: In progress
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
