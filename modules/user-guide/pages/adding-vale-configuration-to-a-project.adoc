@@ -77,7 +77,7 @@ For a complete list of possible configuration options, see link:https://vale.sh/
 +
 [source,terminal]
 ----
-$ cd {repository-name}
+$ cd __<project_directory>__
 $ vale sync
  SUCCESS  Downloaded package 'RedHat'
 Downloading packages [1/1]
