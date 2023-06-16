@@ -6,7 +6,7 @@
 
 :parent-context-of-terms-warnings: {context}
 
-[id="terms-warnings_{context}"]
+[id="terms-warnings"]
 = Warning terms
 
 Alert level:: Warning
@@ -15,7 +15,7 @@ Use the correct term as described in Red Hat Supplementary Style Guide (SSG), un
 
 include::partial$ref_warning_terms.adoc[leveloffset=+1]
 
-:context: {parent-context-of-terms-warnings}
+
 
 .Additional resources
 

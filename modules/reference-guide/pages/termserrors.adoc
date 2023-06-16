@@ -6,7 +6,7 @@
 
 :parent-context-of-terms-errors: {context}
 
-[id="terms-errors_{context}"]
+[id="terms-errors"]
 = Error terms
 
 Alert level:: Error
@@ -22,4 +22,4 @@ include::partial$ref_error_terms.adoc[leveloffset=+1]
 * link:{ibmsg-url}?topic=word-usage[{ibmsg} - Word usage]
 * link:{repository-url}blob/main/.vale/styles/RedHat/TermsErrors.yml[TermsErrors.yml source code]
 
-:context: {parent-context-of-terms-errors}
+

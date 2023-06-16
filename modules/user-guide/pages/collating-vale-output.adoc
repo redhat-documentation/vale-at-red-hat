@@ -5,9 +5,9 @@
 :page-aliases: end-user-guide:collating-vale-output.adoc
 // End of metadata for Antor
 
-:context: collating-vale-output
+
 :_module-type: CONCEPT
-[id="collating-vale-output_{context}"]
+[id="collating-vale-output"]
 = Collating Vale output
 
 You can use a template to collate the results from running `vale` on the command line. This collated output is non-repetitive and might be easier to use.
@@ -38,14 +38,14 @@ The resulting command output collates any repetitive the suggestions, warnings, 
 When you use the `--output` option, other options such as `--minAlertLevel` might not work.
 ====
 
-[id="understanding-vale-alert-levels_{context}"]
+[id="understanding-vale-alert-levels"]
 == Understanding the `vale` output
 
 First column::
 A comma-separated list of each instance where the issue appears: `7:9,11:107`.
 
 Second column::
-The alert level, such as `error`, `suggestion`, or `warning`. See: xref:#understanding-vale-alert-levels_{context}[Understanding Vale alert levels]
+The alert level, such as `error`, `suggestion`, or `warning`. See: xref:#understanding-vale-alert-levels[Understanding Vale alert levels]
 
 Third column::
 The rule message, such as: `Define acronyms and abbreviations (such as 'CRI') on first occurrence if they're likely to be unfamiliar.`

@@ -1,16 +1,65 @@
 // Metadata for Antora
 :navtitle: GitLab Code Quality reports
 :keywords: vale gitlab
+:description: How to use GitLab code quality reports
 // :page-aliases: 
 // End of metadata for Antora
-
-:parent-context-of-enabling-style-compliance-reports-in-gitlab-merge-requests: {context}
-
-[id="configuring-vale-for-gitlab-code-quality-reports_{context}"]
+[id="configuring-vale-for-gitlab-code-quality-reports"]
 = GitLab Code Quality reports
 
-:context: enabling-style-compliance-reports-in-gitlab-merge-requests
+[id="proc_gitlab-c"]
+== Enabling style compliance reports in GitLab merge requests
 
-include::partial$proc_enabling-style-compliance-reports-in-gitlab-merge-requests.adoc[leveloffset=+1]
+Use this procedure to enable the GitLab Code Quality widget for Vale.
+The widget reports style compliance issues in the GitLab merge request interface.
 
-:context: {parent-context-of-enabling-style-compliance-reports-in-gitlab-merge-requests}
+.Prerequisites
+
+* xref:introduction.adoc[]
+* xref:adding-vale-configuration-to-a-project.adoc[]
+* xref:defining-a-vale-onboarding-strategy.adoc[]
+
+.Procedure
+
+. Create a `.gitlab-ci.yml` file at the repository root with the following content:
++
+[source,yaml]
+----
+include::example$gitlab-ci.yml[]
+----
+
+. Create a `vale-json.tmpl` file at the repository root:
++
+[source,tmpl]
+----
+include::example$vale-json.tmpl[]
+----
+
+. Add the following entries to `.gitignore`:
++
+[source]
+----
+.vale
+gl-code-quality-report.json
+----
+
+. Commit the files to the local repository:
++
+[source]
+----
+git add .
+git commit -m "Add GitLab CI/CD code quality pipeline"
+----
+
+. Push the changes to the remote repository:
++
+[source]
+----
+git push -u origin main
+----
+
+Once merged, a code quality pipeline runs for every new commit added in a PR. Access the report from the **Pipelines** menu item in the GitLab repository.
+
+[role="_additional-resources"]
+.Additional resources
+* For more details on GitLab's Code Quality feature, see the link:https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html[GitLab Docs].

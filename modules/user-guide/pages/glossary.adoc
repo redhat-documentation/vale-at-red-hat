@@ -4,13 +4,11 @@
 :description: Glossary of terms
 :page-aliases: end-user-guide:glossary.adoc
 // End of metadata for Antora
-
-:context: glossary
 :_module-type: REFERENCE
-[id="glossary_{context}"]
+[id="glossary"]
 = Glossary
 
-[id="con_vale-command-line-tool_{context}"]
+[id="con_vale-command-line-tool"]
 == Vale command-line tool
 
 The `vale` command-line tool brings code-like linting to prose. Use it to validate language on your local environment or in continuous integration services.
@@ -21,7 +19,7 @@ The `vale` command-line tool brings code-like linting to prose. Use it to valida
 * xref:using-vale-with-a-continuous-integration-service.adoc[]
 * link:https://vale.sh/docs/vale-cli/overview[Vale documentation - Overview]
 
-[id="vale-configuration-file_{context}"]
+[id="vale-configuration-file"]
 == Vale configuration file
 
 The Vale configuration file `.vale.ini` defines:
@@ -36,7 +34,7 @@ The Vale configuration file `.vale.ini` defines:
 * xref:adding-vale-configuration-to-a-project.adoc[]
 * link:https://vale.sh/docs/topics/config[Vale documentation - Configuration]
 
-[id="vale-rule_{context}"]
+[id="vale-rule"]
 == Vale rule
 
 A Vale rule is a YAML file defining:
@@ -50,7 +48,7 @@ A Vale rule is a YAML file defining:
 * xref:redhat-style-for-vale.adoc[]
 * link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
 
-[id="con_vale-style_{context}"]
+[id="con_vale-style"]
 == Vale style
 
 A Vale style is a directory containing a collection of rules.
@@ -60,7 +58,7 @@ A Vale style is a directory containing a collection of rules.
 * xref:redhat-style-for-vale.adoc[]
 * link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
 
-[id="con_vale-vocabulary_{context}"]
+[id="con_vale-vocabulary"]
 == Vale vocabulary
 
 In a project, a Vale vocabulary is an optional additional directory containing lists of accepted and rejected words, applying to all styles.

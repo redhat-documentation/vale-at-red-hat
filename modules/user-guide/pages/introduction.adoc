@@ -4,17 +4,15 @@
 :description: Get started with Vale
 :page-aliases: end-user-guide:introduction.adoc
 // End of metadata for Antora
-
-:context: introduction
 :_module-type: CONCEPT
-[id="introduction_{context}"]
+[id="introduction"]
 = Introduction
 
 Vale is a command-line tool that allows you to check your writing for grammar and spelling errors against a set of style rules. It's open source, fast, and highly customizable.
 
 video::745894696[vimeo,align="left",title="A brief non-technical introduction"]
 
-[id="con_the-benefits-of-using-vale_{context}"]
+[id="con_the-benefits-of-using-vale"]
 == How does Vale help you improve your content?
 
 * You can measure how well your content complies with the style guide.
@@ -22,7 +20,7 @@ video::745894696[vimeo,align="left",title="A brief non-technical introduction"]
 * You can perform more consistent peer reviews.
 * You can write content that is more easily localized.
 
-[id="con_additional_resources_{context}"]
+[id="con_additional_resources"]
 == Additional resources
 
 * xref:redhat-style-for-vale.adoc[]

@@ -6,8 +6,8 @@
 // End of metadata for Antora
 
 :_module-type: PROCEDURE
-:context: extending-the-vocabulary
-[id="proc_creating-a-vocabulary-for-a-project_{context}"]
+
+[id="proc_creating-a-vocabulary-for-a-project"]
 = Creating a vocabulary for a project
 
 Consider adding a vocabulary to your project when:

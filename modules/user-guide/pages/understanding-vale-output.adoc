@@ -5,9 +5,8 @@
 :page-aliases: end-user-guide:understanding-vale-output.adoc
 // End of metadata for Antor
 
-:context: understanding-vale-output
 :_module-type: CONCEPT
-[id="understanding-vale-output_{context}"]
+[id="understanding-vale-output"]
 = Understanding Vale output
 
 As a technical writer, you typically run `vale` on the command-line against a content file:
@@ -42,7 +41,7 @@ First column::
 The line and character number of the issue, such as: `244:6`.
 
 Second column::
-The alert level, such as `error`, `suggestion`, or `warning`. See: xref:#understanding-vale-alert-levels_{context}[Understanding Vale alert levels]
+The alert level, such as `error`, `suggestion`, or `warning`. See: xref:#understanding-vale-alert-levels[Understanding Vale alert levels]
 
 Third column::
 The rule message, such as: `Verify your use of 'there are'`
@@ -50,7 +49,7 @@ The rule message, such as: `Verify your use of 'there are'`
 Fourth column::
 The name of the style and of the rule, such as: `IBM.Usage`.
 
-[id="understanding-vale-alert-levels_{context}"]
+[id="understanding-vale-alert-levels"]
 == Understanding Vale alert levels
 
 error::

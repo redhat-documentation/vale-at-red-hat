@@ -4,14 +4,22 @@
 // :page-aliases: 
 // End of metadata for Antora
 
-:parent-context-of-vale-at-red-hat-repository: {context}
-
-[id="vale-at-red-hat-repository_{context}"]
+[id="vale-at-red-hat-repository"]
 = Vale at Red Hat repository
 
-:context: vale-at-red-hat-repository
+[id="con_vale-at-red-hat-repository"]
+== link:{repository-url}[_{repository-name}_ repository]
 
-include::partial$con_vale-at-red-hat-repository.adoc[leveloffset=+1]
+The link:{repository-url}[_{repository-name}_ repository] has resources to validate language in documentation projects using Vale:
 
-:context: {parent-context-of-vale-at-red-hat-repository}]
+* xref:user-guide:redhat-style-for-vale.adoc[] in the `.vale/styles/RedHat` directory
+* AsciiDoc style in the `.vale/styles/AsciiDoc` directory
+* OpenShift AsciiDoc style in the `.vale/styles/OpenShiftAsciiDoc` directory
+* xref:user-guide:glossary.adoc#vale-configuration-file[Vale configuration files] for usage in a local environment or by the GitHub Action.
+* xref:user-guide:introduction.adoc[User guide]
+* xref:contributor-guide:contributing.adoc[Contributor guide]
 
+
+.Additional resources
+
+* link:{repository-url}[{repository-name} repository]

@@ -5,9 +5,8 @@
 :page-aliases: end-user-guide:using-vale-with-a-continuous-integration-service.adoc
 // End of metadata for Antora
 
-:context: using-vale-with-a-continuous-integration-service
 :_module-type: PROCEDURE
-[id="proc_using-vale-with-a-continuous-integration-service_{context}"]
+[id="proc_using-vale-with-a-continuous-integration-service"]
 = Using Vale with a continuous integration service
 
 Consider using the Vale CLI with a continuous integration service when:

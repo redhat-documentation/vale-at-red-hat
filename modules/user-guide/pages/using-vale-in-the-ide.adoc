@@ -4,10 +4,8 @@
 :description: Overview of using Vale in an IDE
 :page-aliases: end-user-guide:using-vale-in-the-ide.adoc
 // End of metadata for Antora
-
-:context: using-vale-in-the-ide
 :_module-type: PROCEDURE
-[id="proc_using-vale-in-the-ide_{context}"]
+[id="proc_using-vale-in-the-ide"]
 = Using Vale in the IDE
 
 Consider using Vale in your IDE when:

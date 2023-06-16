@@ -4,14 +4,10 @@
 :description: Describes how to install from the latest release and configure the Vale CLI
 :page-aliases: end-user-guide:using-vale-cli.adoc, installing-vale-cli-from-zip.adoc
 // End of metadata for Antora
-// Metadata for Modular Docs
-:context: assembly_getting-started-with-vale
-:_module-type: PROCEDURE
-// End of metadata for Modular Docs
-[id="proc_installing-vale-cli_{context}"]
-= Installing Vale with the `RedHat` package system-wide
+[id="proc_installing-vale-cli"]
+= Installing Vale with the RedHat package system-wide
 
-To use Vale CLI with the `RedHat` style on any project without further configuration in the projects: install and configure Vale CLI version 2.16.0 or later.
+To use Vale CLI with the `RedHat` style for all folders and projects, install and configure Vale CLI version 2.16.0 or later and create a `.vale.ini` configuration file.
 
 [IMPORTANT]
 ====
@@ -32,34 +28,37 @@ $ sudo dnf copr enable mczernek/vale && sudo dnf install vale
 ----
 +
 [NOTE]
-Alternatively, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
-On the Vale site, click the tab for your operating system.
+For other operating systems, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 
-. Add the `RedHat` Vale package in the `.vale.ini` Vale configuration file. Save the file in your `$HOME` directory:
+. Create a `.vale.ini` configuration file and save it in your `$HOME` directory.
 +
 .Example .vale.ini
 [source,ini]
 ----
-StylesPath = styles
-
-MinAlertLevel = suggestion
-
-Packages = RedHat
-
-[*]
-BasedOnStyles = RedHat
+include::example$vale.ini[]
 ----
 +
 [TIP]
-Some projects require a specific Vale configuration.
-Consider saving the `.vale.ini` file at the root of the project.
-See link:https://vale.sh/docs/topics/config[Vale configuration reference].
+====
+You can have multiple `.vale.ini` files for different projects.
+`.vale.ini` files that are lower in the folder structure override higher level files.
 
-. Get the `RedHat` Vale package.
+See link:https://vale.sh/docs/topics/config[Vale configuration reference] for more information.
+====
+
+. Download the rules:
 +
 [source,console]
 ----
 $ vale sync
+----
++
+.Example output
+[source,terminal]
+----
+$ vale sync
+ SUCCESS  Downloaded package 'RedHat'
+Downloading packages [1/1]
 ----
 +
 [TIP]
@@ -67,17 +66,31 @@ Run the `vale sync` command periodically to update the `RedHat` Vale package.
 
 .Verification
 
-. Enter the `vale` command on one of your content files.
+. Run `vale` against a source file:
 +
 [source,console,subs="+quotes,+attributes"]
 ----
 $ cd __<project_directory>__
 $ vale __<filename>__
 ----
++
+.Example output
+[source,terminal]
+----
+$ vale modules/ztp-creating-the-site-secrets.adoc
 
-. Review the vale output and use it to update your content file.
+ modules/ztp-creating-the-site-secrets.adoc
+ 10:222  error       Use 'Assisted Installer'        Vale.Terms
+                     instead of 'assisted
+                     installer'.
+ 14:13   suggestion  'are referenced' is passive     RedHat.PassiveVoice
+                     voice. In general, use active
+                     voice. Consult the style guide
+                     for acceptable use of passive
+                     voice.
 
-. Re-enter the same `vale` command to see the updated results.
+✖ 1 error, 0 warnings and 1 suggestions in 1 file.
+----
 
 .Additional resources
 * xref:understanding-vale-output.adoc[]

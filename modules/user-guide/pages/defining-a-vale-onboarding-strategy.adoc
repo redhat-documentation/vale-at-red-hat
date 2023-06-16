@@ -4,10 +4,8 @@
 :page-aliases: end-user-guide:defining-a-vale-onboarding-strategy.adoc
 :description: Describes how to a define a Vale onboarding strategy for your project
 // End of metadata for Antora
-
-:context: defining-a-vale-onboarding-strategy
 :_module-type: REFERENCE
-[id="ref_defining-a-vale-onboarding-strategy_{context}"]
+[id="ref_defining-a-vale-onboarding-strategy"]
 = Defining a Vale onboarding strategy
 
 Embracing a linter in a project is a long journey. The full Vale report can be discouraging at first. Remember that:

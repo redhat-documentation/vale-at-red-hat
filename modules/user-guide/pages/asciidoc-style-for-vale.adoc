@@ -3,10 +3,8 @@
 :keywords: asciidoc-style-for-vale, antora
 :description: Get started with the AsciiDoc style for Vale
 // End of metadata for Antora
-
-:context: asciidoc-style-for-vale
 :_module-type: CONCEPT
-[id="asciidoc-style-for-vale_{context}"]
+[id="asciidoc-style-for-vale"]
 = AsciiDoc style for Vale
 
 The `AsciiDoc` style for Vale consists of rules suitable for documentation projects written in AsciiDoc.
@@ -30,7 +28,7 @@ These rules are suitable for AsciiDoc source files only.
 
 To use the `AsciiDoc` style, do the following:
 
-. Update your project `.vale.ini` to include the the `AsciiDoc` style, for example:
+. Update your project `.vale.ini` to include the the `AsciiDoc` style. Add `Asciidoc` to the `Packages` and `BasedOnStyles` fields. For example:
 +
 .Example .vale.ini
 [source,ini]
