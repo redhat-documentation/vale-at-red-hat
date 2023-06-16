@@ -4,10 +4,8 @@
 :description: Describes how to generate Vale reports
 :page-aliases: end-user-guide:reporting-vale-alerts.adoc
 // End of metadata for Antora
-
-:context: generating-extended-vale-alerts-reports
 :_module-type: PROCEDURE
-[id="generating-extended-vale-alerts-reports_{context}"]
+[id="generating-extended-vale-alerts-reports"]
 = Generating extended Vale alerts reports
 
 Consider generating extended Vale alerts reports about a Git repository to:

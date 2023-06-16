@@ -5,10 +5,10 @@
 :page-aliases: end-user-guide:get-started-vale-app.adoc
 // End of metadata for Antora
 // Metadata for Modular Docs
-:context: assembly_getting-started-with-vale
+
 :_module-type: PROCEDURE
 // End of metadata for Modular Docs
-[id="proc_using-vale-app_{context}"]
+[id="proc_using-vale-app"]
 = Analyzing your content by using the Vale-at-Red-Hat online web app
 
 To get familiar with Vale without installing the Vale software on your local client, you can use the Vale-at-Red-Hat online web app. 

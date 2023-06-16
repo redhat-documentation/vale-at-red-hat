@@ -6,8 +6,8 @@
 
 // End of metadata for Antora
 :_module-type: PROCEDURE
-:context: adding-vale-configuration-to-a-project
-[id="proc_adding-vale-configuration-to-a-project_{context}"]
+
+[id="proc_adding-vale-configuration-to-a-project"]
 = Adding Vale to a project
 
 Consider adding Vale configuration files to a project to:
@@ -26,51 +26,21 @@ Consider adding Vale configuration files to a project to:
 .Example .vale.ini
 [source,ini]
 ----
-# The relative path to the folder containing linting rules (styles).
-StylesPath = .vale/styles
-
-MinAlertLevel = suggestion
-
-SkippedScopes = script, style, pre, figure, code, tt, blockquote, listingblock, literalblock
-
-[formats]
-# Associate `*.properties` files with the `md` format
-properties = md
-
-[*.adoc]
-# Styles to load, located in the `StylesPath` folder:
-BasedOnStyles = RedHat
-
-# Ignore attributes definition, id statements
-TokenIgnores = (:[^\n]+: [^\n]+), (\[id=[^\n]+)
-
-[*.md]
-BasedOnStyles = RedHat
-
-# Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
-TokenIgnores = (\x60[^\n\x60]+\x60), ([^\n]+=[^\n]*), (\+[^\n]+\+), (http[^\n]+\[)
-
-# Match INI files. See: https://docs.errata.ai/vale/scoping
-[*.ini]
-BasedOnStyles = RedHat
-# Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
-TokenIgnores = (\x60[^\n\x60]+\x60), ([^\n]+=[^\n]*), (\+[^\n]+\+), (http[^\n]+\[)
-
-# Disabling rules (NO)
-RedHat.CaseSensitiveTerms = NO
-RedHat.ConfigMap = NO
-RedHat.Definitions = NO
-RedHat.Slash = NO
-RedHat.Spacing = NO
-RedHat.Spelling = NO
-RedHat.TermsSuggestions = NO
+include::example$vale.ini[]
 ----
 +
-[NOTE]
+[IMPORTANT]
 ====
 By default, the `.vale.ini` file sets `MinAlertLevel = suggestion`.
 Consider changing `MinAlertLevel` to `warning` or `error` for new projects.
-For a complete list of possible configuration options, see link:https://vale.sh/docs/topics/config#config-file[Configuration options for .vale.ini]
+
+For a complete list of possible configuration options, see link:https://vale.sh/docs/topics/config#config-file[configuration options for .vale.ini].
+
+Review the following Red Hat project `.vale.ini` files as reference for developing your own Vale configuration:
+
+* link:https://github.com/openshift/openshift-docs/blob/main/.vale.ini[openshift-docs]
+* link:https://github.com/containers/podman-desktop/blob/main/.vale.ini[podman-desktop]
+* link:https://github.com/quarkusio/quarkus/blob/main/docs/.vale.ini[quarkusio]
 ====
 
 * Run the `vale sync` command from the repository folder to download the rules to the project directory. For example:

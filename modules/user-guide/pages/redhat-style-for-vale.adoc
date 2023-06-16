@@ -4,10 +4,8 @@
 :description: Get started with the Red Hat style for Vale
 :page-aliases: end-user-guide:redhat-style-for-vale.adoc
 // End of metadata for Antora
-
-:context: redhat-style-for-vale
 :_module-type: CONCEPT
-[id="redhat-style-for-vale_{context}"]
+[id="redhat-style-for-vale"]
 = Red Hat style for Vale
 
 The `RedHat` style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:

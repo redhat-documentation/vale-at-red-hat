@@ -6,7 +6,7 @@
 
 :parent-context-of-terms-suggestions: {context}
 
-[id="terms-suggestions_{context}"]
+[id="terms-suggestions"]
 = Suggestion terms
 
 Alert level:: Suggestion
@@ -15,7 +15,7 @@ Depending on the context, consider using the suggested term as described in Red 
 
 include::partial$ref_suggestion_terms.adoc[leveloffset=+1]
 
-:context: {parent-context-of-terms-suggestions}
+
 
 .Additional resources
 

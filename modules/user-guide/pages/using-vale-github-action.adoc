@@ -4,10 +4,8 @@
 :description: Integrating the Vale linter into your GitHub workflow by using a GitHub Action
 :page-aliases: end-user-guide:using-vale-github-action.adoc
 // End of metadata for Antora
-
-:context: using-vale-github-action
 :_module-type: PROCEDURE
-[id="proc_using-vale-github-action_{context}"]
+[id="proc_using-vale-github-action"]
 = Integrating Vale into your Git workflow by using a GitHub Action
 
 Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the link:https://github.com/errata-ai/vale-action[GitHub Action for Vale].

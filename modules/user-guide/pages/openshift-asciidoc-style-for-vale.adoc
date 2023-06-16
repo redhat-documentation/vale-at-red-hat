@@ -3,10 +3,8 @@
 :keywords: openshift-asciidoc-style-for-vale, antora
 :description: Get started with the OpenShiftAsciiDoc style for Vale
 // End of metadata for Antora
-
-:context: asciidoc-style-for-vale
 :_module-type: CONCEPT
-[id="asciidoc-style-for-vale_{context}"]
+[id="asciidoc-style-for-vale"]
 = OpenShift AsciiDoc style for Vale
 
 The `OpenShiftAsciiDoc` style for Vale consists of rules suitable for OpenShift documentation projects written in AsciiDoc.
@@ -18,7 +16,7 @@ Some of the errors that the `OpenShiftAsciiDoc` rules highlight include:
 * `:_additional-resources:` role attribute declaration
 * Terminal code block missing a shell prompt symbol (`$`)  at the beginning of the line
 * Missing `.Example output` title for example listing blocks
-* ID missing the `_{context}` variable at the end of the ID
+* ID missing the `` variable at the end of the ID
 * modules missing the `:_content-type:` variable
 * Cross references (`xref`) missing anchor IDs
 * Cross references that use `.adoc` instead of `.html` for links
@@ -31,7 +29,7 @@ These rules are suitable for AsciiDoc source files only.
 
 To use the `OpenShiftAsciiDoc` style, do the following:
 
-. Update your project `.vale.ini` to include the the `OpenShiftAsciiDoc` style, for example:
+. Update your project `.vale.ini` to include the the `OpenShiftAsciiDoc` style. Add `OpenShiftAsciiDoc` to the `Packages` and `BasedOnStyles` fields. For example:
 +
 .Example .vale.ini
 [source,ini]
