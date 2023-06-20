@@ -1,2 +1,8 @@
 [role="_additional-resources"]
 .Additional resources
+
+[role="_additional-resources"]
+== Additional resources
+
+[role="_additional-resources"]
+=== Additional resources
