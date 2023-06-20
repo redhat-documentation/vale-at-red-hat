@@ -1,2 +1,8 @@
 //vale-fixture
 .Additional resources
+
+//vale-fixture
+== Additional resources
+
+//vale-fixture
+=== Additional resources
