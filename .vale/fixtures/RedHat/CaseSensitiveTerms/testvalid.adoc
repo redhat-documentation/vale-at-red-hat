@@ -222,6 +222,8 @@ Red Hat Data Grid
 Red Hat Directory Server
 Red Hat Enterprise Linux host
 Red Hat Fuse Online
+Red Hat OpenJDK
+Red Hat build of OpenJDK
 Red Hat JBoss BPM Suite
 Red Hat JBoss BRMS
 Red Hat JBoss Enterprise Application Platform
