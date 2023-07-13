@@ -21,10 +21,10 @@ swap:
   '(?<![\.\-])(?:zip|gzip|tar)(?! file| archive)': compress
   '(?<!\.)tar file': ".tar file"
   '(?<!\.)zip file': ".zip file"
-  above: later|previous|preceding
+  above: earlier|previous|preceding|before
   afterwards: afterward
   all caps: uppercase
-  below: earlier|later|following
+  below: after|later|following
   bottom left: lower left
   bottom right: lower right
   bugfix: bug fix
