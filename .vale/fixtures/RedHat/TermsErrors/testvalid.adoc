@@ -167,6 +167,7 @@ Internet email address
 IP address
 issue
 IT
+Java
 kernel oops
 kernel-space
 knowledge base
@@ -220,6 +221,7 @@ onsite
 opcode
 open
 open source
+OpenJDK
 OpenShift
 override
 parent process
@@ -255,6 +257,7 @@ remove
 required
 retry
 right
+Red Hat build of OpenJDK
 roll back
 rollback
 root directory

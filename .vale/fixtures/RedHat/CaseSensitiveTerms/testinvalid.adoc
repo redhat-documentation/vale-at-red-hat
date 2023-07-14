@@ -371,8 +371,6 @@ Red Boot
 Red Hat Broker
 Red Hat Console
 Red Hat Interconnect
-Red Hat Java
-Red Hat java
 Red Hat JBoss Data Grid
 Red Hat JBoss EAP
 Red Hat Network Satellite server

@@ -289,10 +289,15 @@ pseudoops
 pull-down
 re-occur
 recognise
+Red Hat Java
+Red Hat java
+Red Hat Open Java Development Kit
+Red Hat OpenJDK
 regex
 remote-access
 remote-access server
 reoccur
+RHOJDK
 right double-click
 right now
 right-hand
