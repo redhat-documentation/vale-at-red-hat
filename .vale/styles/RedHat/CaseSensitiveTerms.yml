@@ -27,6 +27,7 @@ swap:
   "Kernel(?!-based Virtual Machine)": kernel
   "OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager": Red Hat OpenShift Cluster Manager
   "OD": Red Hat OpenShift Dedicated
+  '(?<!.-)javadocs?': Javadoc|API documentation|Java API documentation
   '(?<!\.)yaml|Yaml': YAML
   '(?<!JBoss )EAP|(?<!Red Hat )JBoss(?!\sCommunity|\sBroker|\sClients|\sConsole|\sAMQ|\sData\sGrid|\sBRMS|\sBPMS|\sEnterprise\sApplication\sPlatform|\.org|\sInterconnect|\sEAP|\sBPM\sSuite)': JBoss EAP
   '(?<!Realtime )Decision\sServer': Realtime Decision Server
@@ -52,6 +53,7 @@ swap:
   'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
   'self-hosted\sengine\svirtual\smachine|engine\sVM': Manager virtual machine
+  'sub version|(?<!Apache )Subversion': sub-version
   Appliance Console: Appliance console
   Applix|ApplixWare: Applixware
   asciidoctor|AsciiDoctor: Asciidoctor
@@ -60,13 +62,14 @@ swap:
   auto-link|AutoLink: autolink
   basic authentication|Basic Authentication|basic auth|Basic auth|Basic Auth: Basic HTTP authentication (first instance)|Basic authentication
   BC: Business Central
+  Bean: bean
   Bios: BIOS
   blue print|BluePrint: blueprint
   bluestore|Blue Store: BlueStore
   btrfs: Btrfs
   Capex|capex|capEx: CapEx
   Capsule server: Capsule Server
-  CD 1: CD #1
+  CD 1: 'CD #1'
   CDS|Cds: CDs
   Ceph Ansible: ceph-ansible
   Ceph block device|Ceph block devices: Ceph Block Device
@@ -125,8 +128,8 @@ swap:
   Gnu|gnu: GNU
   Gpl|gpl: GPL
   Graalvm|graalVM: GraalVM
-  grpc|GRPC: gRPC
   Greenboot|green boots: greenboot
+  grpc|GRPC: gRPC
   Grub: GRUB
   GTK|Gtk|gtk: GTK+
   hot rod|HotRod|hotrod: Hot Rod
@@ -139,7 +142,6 @@ swap:
   Ignite|Fuse Ignite: Fuse Online|Red Hat Fuse Online|Syndesis
   ignition config: Ignition config
   Image Builder: image builder
-  Istio Service Mesh : Istio service mesh
   INSTALL_DIR|installDir: FUSE_HOME
   Iops|IOPs: IOPS
   Ip: IP
@@ -148,6 +150,7 @@ swap:
   ipv6|IPV6|Ipv6: IPv6
   iSeries: ISeries
   iso: ISO
+  Istio Service Mesh : Istio service mesh
   Itanium2: Itanium 2
   jar file: JAR file
   Jbang|jbang: JBang
@@ -193,6 +196,7 @@ swap:
   Objective-C: Objective C
   OCP: Red Hat OpenShift Container Platform
   ODF: Red Hat OpenShift Data Foundation
+  OK button|okay|ok: OK
   Open InfiniBand|Infiniband: InfiniBand
   openid connect|Openid Connect: OpenID Connect
   openrewrite|Openrewrite|Open Rewrite: OpenRewrite

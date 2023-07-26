@@ -7,13 +7,36 @@ message: "Consider using '%s' rather than '%s' unless updating existing content 
 action:
   name: replace
 swap:
+  "(?<!make the )transition": "make the transition|move|migrate|change"
+  "non-English(?!-language?)": in languages other than English|non-English-language
+  '(?<!.-)like': such as
   'I(?!/O)': you
+  architected: designed
+  as well as(?! per): and
+  BIOS: firmware
+  co-locate|collocate: colocate
+  co-location: colocation
+  deselect: clear
+  destroy|destroyed: delete|deleted
+  downgrade: upgrade|fallback|fall back|rollback|roll back
+  entitlement: repository|subscription
+  execute: run|issue|start|enter
   he|she: you
   host name: hostname
+  illegal: invalid|not allowed|incorrect
+  ingests?: import|load|obtain|process
+  insure: ensure
+  kill: end|stop
+  kilobytes?: KB|kB
+  launch: start|open
+  leverage: use
+  load-balance|load-balancing: load balance
+  look at: examine
   may: might|can
   on-premises|on-prem|on premise: on-premise|on-site|in-house
-  entitlement: repository|subscription
   plug-in: plugin
+  preload: preinstall
+  preloaded: preinstalled
   sane: accurate|valid|verified
+  terminate: end|stop
   tooling: tool|tools
-  BIOS: firmware

@@ -1,62 +1,134 @@
 /etc
 /etc/
+10BASE-T
+10BASE2
+24x7
 a or b
 a, b, or both
+AC
 access method
 according to
+acknowledgment
+ad hoc
+adapter
 add a prefix to
+add-on
 administer
+advisor
+advocate
+afterward
 air gap
+allowlist
+alphanumeric
+also known as
 alternatively
+although
+AM
+ambassador
 AMD64
+analog
 and so on
 Apache Subversion
 app
 appendixes
 Application Load Balancer
+application programming interface
 archive
+artifact
 as
 as expected
 as in
 as needed
 as well as per recipient
 Assisted Installer
+attacker
 attention notice
 auto-detect
 auxiliary storage
+back
+backslash
+backup
+bar code
+bean
+benchmark
+best in class
+bidi
 bimonthly
+bit field
+bit rate
+bit string
+bit value
+bit version
+bitmap
 biweekly
+blocklist
 boot disk
 boot loader
 bottleneck
 breadcrumb trail
+breakpoint
 broadcast
 BTS
+buffer pool
 bug fix
 built-in
+bus master
+buses
 bytecode
+cable tie
+callout
+camel case
 cancel
+canceled
+canceling
+cancellation
+cannot
+card
+card reader
+catalog
 CD writer
 cell phone
+center of operations
 challenge
 change
+check-in
+checkbox
+checklist
+checkmark
+checkout
+child
+chip set
+chronological
 CICS BTS
 ciphertext
+class-like
 Classic Load Balancer
 clear
+click
+client/server
+close
 cloudbursting
 cloudwashing
+code page
+code point
+code set
 collect
 colocate
+colocation
+combination box
 comma-delimited
 comma-separated values
+command center
 command language
 Command Prompt
 command-driven
 Common Base Event
+communicate
+Communications Server
 compared to
 compatible with earlier versions
 compatible with later versions
+compilation
 complete
 component architecture
 component model
@@ -68,55 +140,105 @@ concern
 connect to
 consist of
 consumer
+contact
 container-based
 containerized
 context-sensitive help
+control logical unit
+control room
 conversely
+converter
+Coordinated Universal Time
+copybook
+corporate brand
 correct
+counterclockwise
 create
 create retrieve update and delete
 cross-platform
+cross-reference
 cross-site replication
 cross-site scripting
+cyber resilience
+cyberattack
+cyberattacker
+cybercrime
+cyberdefense
+cyberhacker
+cyberintelligence
+cybersecurity
+cyberspace
+cyberterror
+cyberthreat
 daemon
 daisy chain
 data
 data center
 data enumeration
+data file
+data flow
+data mart
 data mirroring
 data model
 data path
+data pool
+data set
+data sheet
+database
+Daylight Saving Time
+DC
+ddname
 deactivate
+deallocate
+debias
 debug
+decompilation
+decompile
 decompress
+decrypt
 delete from the database
 demo
 demonstration
-demount
 deployment
+descendant
 deselect
 desktop
 despite
 details view
 develop components
+diagnostics
 different from
 difficulty
 discontinue
 disk label
 diskette
 diskette drive
+dismount
+disruptor
 DMZ
 domain name
+DOS session
+dotted decimal
+double quotation mark
 double right-click
+double-byte
+double-click
+doubleword
 download
 downstream
+downtime
 drag
 dual-boot
+dump file
 dynamically
 earlier
+ebook
 Elastic Load Balancing
+email
+embed
 emit
 enable for the web
+encourage
 end
 ensure
 enter
@@ -124,6 +246,13 @@ environment
 etc/
 evaluate
 examine
+executable files
+executable program
+executable routine
+expenditure
+expense
+experiences
+extended subarea addressing
 extract
 fail
 fall back
@@ -132,28 +261,42 @@ firmware
 fix
 flash
 floating point
+flyout
 for example
 foreground
+front end
+front-end
 Gateway Load Balancer
+gauge
+given name
+globalization
 graphical interface
 graphical user interface
+gray
 grayscale
 hard code
 hard disk
 hard disk drive
 hard-coded
+hardcopy
 hardware restart
 health check
+healthcare
+heartbeat
 help
 help desk
+helper
 host group
 hot add
+hot key
 hot plug
 hot swap
 hotline
+how-to
 however
 huge page
 hyperconverged
+I/O
 IBM
 IBM S/390
 if
@@ -161,44 +304,86 @@ immediately
 in case
 in languages other than English
 in real time
+in-depth
+inch-pound
 include
 included
 includes
+independent software vendor
+influencer
+information
+initial capital letters
+inline
 insecure
 installation program
 installer-provisioned infrastructure
+instant message
 interface
 interim fix
 Internet email address
+Internet Protocol network
+intranet
 IP address
+IP network
 issue
 IT
 Java
+java-class-jar
+java-package-add-on
+JavaBeans
+job log
+job stream
+judgment
 kernel oops
 kernel-space
+keyboard shortcut
 knowledge base
+labeled
+labor hour
 laptop
 left
+Left Arrow key
 left mouse button
+left-align
+left-aligned
+leftmost
+lessons
+licensed program
+link-edit
+link-editing
+list
 live-only
 load balance
+load time
+load-time
+localization
 lock up
+log file
+log in to
+log off from
+log on to
 lower left
 lower right
 lower-left
 lower-right
+major vector
 make the transition
+makefile
 man page
 managed domain
 many
 master broker
 matrixes
 menu
+menu bar
 menu-driven
 merge
+metadata
 method
 migrate
 mobile phone
+motivate
+mount point
 Mouse
 mouse button
 move
@@ -207,40 +392,75 @@ Mozilla Firefox
 Mozilla Thunderbird
 ms
 much
+multichannel
 multiprocessing
 multisite
+multitasking
 multitenant
+multitiered
+name server
 navigate
 need
+NetWare for SAA
 network computing
 Network Load Balancer
+newline
+news feed
+next generation
 no longer support
 non-English-language
+nonpageable
 nonpartitioned database environment
 not at the latest level
 not case-sensitive
+not displayed
 notebook
 now
+offboarding
+offensive security researcher
 offline backup
+offload
 offsite
 OK
 omit
+omnichannel
+on-demand
+onboarding
+online
 onsite
 opcode
 open
 open source
 OpenJDK
+opens
 OpenShift
+operations
+orient
+outlay
 override
+pageable
 parent process
+parent-child
+path name
 PC
 performance counter
+person day
+person hour
+Personal Communications
+Phillips screw
+Phillips screwdriver
+PL/I
 plain text
+plug-and-play
 plugin
+PM
+podcast
 point to
-pop-up menu
 power cable
 power cord
+power-off
+power-on
+practice
 preconfigured
 predefined
 preinstall
@@ -249,46 +469,85 @@ preplanned
 press
 press Ctrl and click
 press Shift and click
+preventive
 previous
+printer friendly
+program operator
 proofs of concept
 provided that
 pseudo-ops
-pulldown
+pseudocode
+publish/subscribe
+pull-down
 rather than
+re-create
+read/write
+rear
 recur
+Red Hat build of OpenJDK
 regardless of
 regular expression
 remember
 remote access
 remote access server
 remove
+replica
+requester
 required
+restart
+restart the system
 retry
 right
-Red Hat build of OpenJDK
+right mouse button
+right-align
+right-aligned
+rightmost
 roll back
 rollback
 root directory
+round-robin scheduling
 roundtable
 rule
+run time
 runlevel
+runtime
+schemas
+screen capture
 screen saver
 scrollbar
+secondary
+segmentation
 self-hosted engine
 self-hosted engine node
 self-signed certificate
+separate
+separation
 server cluster
 server farm
+server side
+server-side
 session management exit routine
+setup
 several
 share name
 shared components
 shell prompt
 shell script
+shortcut
+sign in to
+sign off from
+sign on to
+sign-off
 single quotation mark
+single sign-on
 slave broker
+smart card
+smart paper
 snapshot set
 SOAP
+socket interface
+SOCKS-enabled
+softcopy
 software to block pop-up ad windows
 sort
 sound card
@@ -310,36 +569,71 @@ submenu
 subpackage
 superuser
 supplier
+surname
 swap space
+sync
+sync point
+synchronize
 sysprep
 system board
-tar file
+systems engineer
+table space
+tap
+telecommunication line
+telecommunications closet
 telephone
 test
+test case
 text mode
 text-based
 that is
+The .tar file
+The .zip file
 therefore
 thin-provisioned
 this clause that is restrictive
 this clause, which is nonrestrictive
+though
 throughput
 tier-1
 time frame
+time out
+time slice
+time zone
+timebox
+timeline
+timeout
+timestamp
 to
 toggle
+toolbar
+toolbox
 tooling
+toolkit
 tools
+tooltip
+topic-based information
+totaled
 touch-sensitive screen
+tradeoff
+training events
+transmission line
+troubleshoot
 trusted certificate authority
 truststore
 try again
+try to
 turn off
 turn on
+twistie
 type
 typing error
 typographical error
+un-customized
+unavailable
 unconfigure
+uncustomized
+underscore
 uninstall
 uninstallation
 unmount
@@ -347,6 +641,7 @@ unrecoverable
 unrecoverable error
 unregister
 upgrade
+upgradeable
 upper left
 upper right
 upper-left
@@ -357,6 +652,7 @@ upselling
 upstream
 uptime
 URL
+usable
 USB flash drive
 use
 user
@@ -368,16 +664,31 @@ virtual
 virtual floppy disk
 virtual floppy drive
 virtual hard drive
+wait state
 want
+warm start
 web address
 web seminar
 web-based event
 webcast
 webinar
+webmaster
+website
 when
+white paper
+Wi-Fi
+wildcard
+window
+Windows 32-bit operating system
 withdraw
 withdraw from marketing
 withdraw from service
+worker
+workflow
+workgroup
+workload
+workspace
+workstation
 zero
-zip
+zeros
 zone group
