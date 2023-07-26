@@ -1,45 +1,22 @@
-64-bit x86
-and so on
-as
-bare metal
 bare-metal
 between
 bps
+Consider installing on bare-metal.
 Bps
-cd
-CD
-channel
-client side
-client-side
 code
 crash
-functionality
-Hammer
-input
 information on
 jar
-Navigate
+My favorite book that I borrowed from the library, was fantastic.
+My favorite book which I borrowed from the library, was fantastic.
 navigate
-recommend
 refer to
-roll out
-roll-out
-rollout
 Router
 segfault
 shell
 Start using this.
 tar
-this clause which is nonrestrictive
-this clause, that is restrictive
-through
-thru
-type
 unjar
-user space
-user-space
-userspace
 x64
-x86-64
-x86_64
-zip
+x86
+You should zip the folder.
