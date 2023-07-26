@@ -1,0 +1,433 @@
+---
+extends: substitution
+ignorecase: true
+level: warning
+link: https://www.ibm.com/docs/en/ibm-style?topic=word-usage
+message: "Consider using '%s' rather than '%s' unless updating existing content that uses the term."
+action:
+  name: replace
+swap:
+  10BASE-2: 10BASE2
+  10BASET: 10BASE-T
+  24/7: 24x7
+  32-bit Windows operating system: Windows 32-bit operating system
+  ac: AC
+  accelerator key: keyboard shortcut
+  acknowledgement: acknowledgment
+  ad-hoc: ad hoc
+  adapter card: adapter|card
+  adaptor: adapter
+  addon: add-on
+  administrate: administer
+  adviser: advisor
+  afterwards: afterward
+  aka: also known as
+  all caps: uppercase
+  alphameric: alphanumeric
+  alphanumerical: alphanumeric
+  am: AM
+  analogue: analog
+  anticlockwise: counterclockwise
+  appendices: appendixes
+  application program interface: application programming interface
+  artefact: artifact
+  article-based information: topic-based information
+  back slash: backslash
+  back-up: backup
+  backlevel|back-level: earlier|previous
+  backside: back|rear
+  backward compatible|backwards compatible: compatible with earlier versions
+  barcode: bar code
+  Bean: bean
+  bench-mark: benchmark
+  best-of-breed: best in class
+  Bidi: bidi
+  bit map: bitmap
+  bit stream|bitfield: bit field
+  bitness: bit version|bit value
+  bitrate: bit rate
+  bitstream: bit stream
+  bitstring: bit string
+  black hat hacker: attacker
+  blacklist: blocklist
+  blink: flash
+  bottom left: lower left
+  bottom right: lower right
+  breadcrumbing: breadcrumb trail
+  break point: breakpoint
+  bring up: start|power on|open|turn on
+  BSOD|blue screen of death: stop error
+  bufferpool: buffer pool
+  busmaster: bus master
+  busses: buses
+  call-out|call out: callout
+  Camelcase|CamelCase: camel case
+  can not: cannot
+  cancelation: cancellation
+  cancelled: canceled
+  cancelling: canceling
+  canned: planned|prepared|preconfigured|predefined
+  cardreader: card reader
+  catalogue: catalog
+  catastrophic error: unrecoverable error
+  check box: checkbox
+  check list: checklist
+  check mark: checkmark
+  check-out: checkout
+  checkin: check-in
+  chipset: chip set
+  chronologic: chronological
+  click on: click
+  client-server: client/server
+  co-locate: colocate
+  co-location: colocation
+  codepage: code page
+  codepoint: code point
+  codeset: code set
+  cold boot: cold start
+  coldstart: cold start
+  combo box: combination box
+  CommServer: Communications Server
+  compile: compilation
+  comprised of: consists of|composed of
+  concurrent peripheral processing|CPP|concurrent peripheral operations|CPO: spooling
+  context menu: menu|pop-up menu
+  control point logical unit: control logical unit
+  control-click: Press Ctrl and click
+  controlling logical unit: control logical unit
+  convertor: converter
+  copy book: copybook
+  cross reference: cross-reference
+  CRUD: create|retrieve|update|and delete
+  CS/2: CS/2 for Communications Server OS/2|CS OS/2
+  CS/390: Communications Server for OS/390|CS OS/390
+  CS/AIX: Communications Server for AIX
+  CS/NT: Communications Server for Windows NT
+  Ctrl-click: Press Ctrl and click
+  cyber attack: cyberattack
+  cyber attacker: cyberattacker
+  cyber crime: cybercrime
+  cyber defense: cyberdefense
+  cyber hacker: cyberhacker
+  cyber intelligence: cyberintelligence
+  cyber security: cybersecurity
+  cyber space: cyberspace
+  cyber terror: cyberterror
+  cyber threat: cyberthreat
+  cyberresilience: cyber resilience
+  data base: database
+  data centre: data center
+  datafile: data file
+  dataflow: data flow
+  datamart: data mart
+  datapool: data pool
+  dataset: data set
+  datasheet: data sheet
+  daylight savings time: Daylight Saving Time
+  dc: DC
+  DDNAME: ddname
+  de-bias: debias
+  deconfigure: unconfigure
+  deinstall: uninstall
+  deinstallation: uninstallation
+  demilitarized zone: DMZ
+  demon: daemon
+  demount: dismount|unmount
+  depress: press
+  deregister: unregister
+  descendent: descendant
+  desire: want
+  desired: required|that you want
+  diagnostic tests: diagnostics
+  dismiss: close
+  disrupter: disruptor
+  DOS environment: DOS session
+  dotted-decimal: dotted decimal
+  double byte: double-byte
+  double click: double-click
+  double quote mark: double quotation mark
+  double quote: double quotation mark
+  double word: doubleword
+  double-click on: double-click
+  double-word: doubleword
+  down time: downtime
+  downlevel|down-level: earlier|previous|not at the latest level
+  downwards? compatible: compatible with earlier versions
+  drag and drop: drag|drag-and-drop
+  drillup|drill up|drill-up|drilldown|drill down: navigate
+  dumpfile: dump file
+  e-book: ebook
+  e-mail: email
+  end user: user
+  etc: and so on
+  evangelist: influencer|advocate|ambassador
+  executable: executable program|executable routine
+  fill out|fill in: complete|specify|type|enter
+  fire up: start
+  fixed disk drive: hard disk drive
+  floppy|floppy disk|floppy drive: diskette and diskette drive
+  fly-out: flyout
+  FOD: Files On-Demand
+  forward compatible|forwards compatible: compatible with later versions
+  frontend: front end|front-end
+  G11N|g11n: globalization
+  gage: gauge
+  grayed|grayed out: is not displayed|unavailable
+  grey: gray
+  gzip: compress
+  gzipped file: compressed file|archive|compressed file|file in gzip format
+  hard boot: turn the system off and then back on|restart the system
+  hard copy: hardcopy
+  hard drive: hard disk|hard disk drive as appropriate
+  hard file: hard disk|hard disk drive as appropriate
+  health care: healthcare
+  heart beat: heartbeat
+  hot fix: test fix|interim fix|fix pack
+  hotkey: hot key
+  HOWTO: how-to
+  IEHS: IBM User Interface Help System Built on Eclipse
+  IES: Eclipse
+  ifix|i-fix|iFix|i-Fix: interim fix
+  IM: instant message
+  imbed: embed
+  in depth: in-depth
+  in-line|in line: inline
+  inactivate: deactivate
+  incent: motivate|encourage
+  incentivize: motivate|encourage
+  inch pound: inch-pound
+  info: information
+  initial caps: initial capital letters
+  Intranet: intranet
+  invite: invitation
+  irrecoverable: unrecoverable
+  JavaBean: JavaBeans
+  javadoc: Javadoc
+  Javadocs: javadocs
+  joblog: job log
+  jobstream: job stream
+  judgement: judgment
+  kick off: start
+  L10N|l10n: localization
+  labelled: labeled
+  last name: surname
+  launch pad: launchpad
+  learnings: lessons|training events|experiences
+  left most: leftmost
+  left-arrow key: Left Arrow key
+  left-hand: left
+  left-justified: left-aligned
+  left-justify: left-align
+  left-most: leftmost
+  line cord: power cable|power cord
+  link edit: link-edit
+  link editing: link-editing
+  loadtime: load time|load-time
+  log into: log in to
+  log off of: log off from
+  log onto: log on to
+  logfile: log file
+  main directory: root directory
+  make file: makefile
+  man day: person day
+  man hour: person hour|labor hour
+  manipulation button: right mouse button
+  mash-up|mash up: mashup
+  masterbrand: corporate brand
+  memory stick: USB flash drive
+  menubar: menu bar
+  meta data|meta-data: metadata
+  microcomputer: personal computer|PC
+  motherboard: system board
+  mountpoint: mount point
+  mouse button 1: left mouse button
+  mouse button 2: right mouse button
+  mouse over: point to
+  multi-channel: multichannel
+  multi-tier: multitiered
+  multi-tiered: multitiered
+  multijobbing: multitasking
+  MV: major vector
+  nameserver: name server
+  network-centric computing: network computing
+  new-line: newline
+  newsfeed: news feed
+  nextgen: next generation
+  nonrecoverable: unrecoverable
+  NWSAA: NetWare for SAA
+  off-boarding: offboarding
+  off-load: offload
+  offline storage: auxiliary storage
+  ok: OK
+  omni-channel: omnichannel
+  on demand: on-demand
+  on ramp|on-ramp: access method
+  on-boarding: onboarding
+  on-line: online
+  ops: operations
+  orientate: orient
+  parent/child: parent-child
+  pathname: path name
+  PCOMM: Personal Communications
+  perimeter network: DMZ
+  phillips screw: Phillips screw
+  phillips screwdriver: Phillips screwdriver
+  PL/1: PL/I
+  planar board: system board
+  Plug-and-Play: plug-and-play
+  plugin: plug-in
+  pm: PM
+  pod cast|Podcast|Pod Cast: podcast
+  pop up: pop-up
+  pop-up (blocker|killer): software to block pop-up windows
+  pop-up list: list
+  pop-up menu: menu
+  pop-up window: window
+  pops up: opens
+  power down: power off|turn off
+  power up: power on|turn on
+  poweroff: power-off
+  poweron: power-on
+  practise: practice
+  prepend: add a prefix to
+  preventative: preventive
+  print friendly: printer friendly
+  program product: licensed program
+  programmed operator: program operator
+  Programming Language/I: PL/I
+  pseudo code|pseudo-code: pseudocode
+  pub/sub|publish-subscribe: publish/subscribe
+  pull down: pull-down
+  pulldown: pull-down
+  PWS: programmable workstation
+  re-occur: reoccur
+  read-write: read/write
+  recreate: re-create
+  requestor: requester
+  resource: apply|allocate|find|research|search
+  right double-click: double right-click
+  right-hand: right
+  right-justified: right-aligned
+  right-justify: right-align
+  right-most: rightmost
+  round-robin task dispatching: round-robin scheduling
+  run-time: run time|runtime|runtime
+  sanity test|sanity check: test|evaluate|validate|verify
+  schemata: schemas
+  screencap: screen capture
+  second name: surname
+  secondary storage: auxiliary storage
+  segregate: separate
+  segregation: separation|segmentation
+  selection button: left mouse button
+  serial database: nonpartitioned database environment
+  serverside: server-side|server side
+  set-up: setup
+  shift-click: press Shift and click
+  short cut: shortcut
+  shortcut key: keyboard shortcut
+  shortcut menu: menu|pop-up menu
+  sign into: sign in to
+  sign off of: sign off from
+  signoff: sign-off
+  signon: sign on to
+  single quote|single quote mark: single quotation mark
+  single signon: single sign-on
+  slave: worker|child|helper|replica|secondary
+  smartcard: smart card
+  smartpaper: smart paper
+  sockets interface: socket interface
+  socksified: SOCKS-enabled
+  soft boot: restart the system
+  soft copy: softcopy
+  sort/merge|sort-merge|sort merge: sort and merge
+  spawn: create
+  spend: expense|expenditure|outlay
+  standalone: stand-alone
+  start up: start
+  sunset: withdraw|discontinue
+  synch point: sync point
+  synch: sync|synchronize
+  syncpoint: sync point
+  system engineer: systems engineer
+  tablespace: table space
+  tap on: tap
+  tar: compress|archive
+  tarball: tar file
+  TCP/IP network: Internet Protocol network|IP network
+  teleprocessing line: telecommunication line|transmission line
+  testcase: test case
+  third-party software vendor: independent software vendor
+  thumb drive: USB flash drive
+  time box: timebox
+  time line: timeline
+  time stamp: timestamp
+  time-out: timeout|time out
+  timeframe: time frame
+  timeslice: time slice
+  timezone: time zone
+  toggle on|toggle off: toggle
+  tool bar: toolbar
+  tool box: toolbox
+  tool kit: toolkit
+  tool tip: tooltip
+  ToolTip: tooltip
+  totalled: totaled
+  touch base: contact|communicate
+  trade-off|trade off: tradeoff
+  trouble shoot: troubleshoot
+  trust store: truststore
+  try and: try to
+  twisty: twistie
+  TY-RAP: cable tie
+  typo: typing error|typographical error
+  un-install: uninstall
+  unallocate: deallocate
+  uncheck: clear|deselect
+  uncompilation: decompilation
+  uncompile: decompile
+  uncompress: decompress
+  underbar: underscore
+  unencrypt: decrypt
+  Unix|unix: UNIX
+  unjar: extract|decompress
+  unselect: clear
+  untar: extract
+  unzip: extract|decompress
+  upgradable: upgradeable
+  upward compatible: compatible with later versions
+  USB memory stick: USB flash drive
+  USB thumb drive: USB flash drive
+  useable: usable
+  utilize: use
+  vanilla: un-customized
+  virtual DOS machine: DOS session
+  virtual-equals-real: nonpageable
+  virtual-equals-virtual: pageable
+  wait condition: wait state
+  war room: center of operations|command center|control room
+  warmstart|warm boot: warm start
+  warning notice: attention notice
+  web cast: webcast
+  web site: website
+  web-enable: web-enabled
+  webmistress|web master: webmaster
+  white hat hacker: offensive security researcher
+  whitelist: allowlist
+  whitepaper: white paper
+  WiFi|Wifi|wi-fi: Wi-Fi
+  wild card: wildcard
+  wiring closet: telecommunications closet
+  wish: want
+  work flow: workflow
+  work group: workgroup
+  work load: workload
+  work space: workspace
+  work station: workstation
+  Write as one word when used as an: bitstream
+  XSA: extended subarea addressing
+  zero out: zero to refer to resetting to zero
+  zeroes: zeros
+  zip file|zipped file: \.zip file
+  zip: compress
+  Zulu time: Coordinated Universal Time

@@ -1,0 +1,1 @@
+Archives of precompiled binaries are available for Windows, macOS, and Linux.

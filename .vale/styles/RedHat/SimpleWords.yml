@@ -5,6 +5,8 @@ level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/simplewords/
 message: "Use simple language. Consider using '%s' rather than '%s'."
 # source: "IBM - Conversational style; http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm"
+action:
+  name: replace
 swap:
   "approximate(?:ly)?": about
   "objective(?! C?)": aim|goal
