@@ -94,7 +94,6 @@ devfiles
 Devfiles
 devworkspace
 DevWorkspace
-DevWorkspace
 Dex
 DNS
 Docker
@@ -292,7 +291,6 @@ Preconfigured
 pregenerated
 prepend
 prepended
-prepended
 productize
 productized
 Prometheus
@@ -422,7 +420,7 @@ Velero
 Vert.x
 vHost
 VMs
-VMWare
+VMware
 vsix
 vSphere
 WebAuthn
