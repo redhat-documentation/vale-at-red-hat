@@ -14,26 +14,25 @@ dns
 dotnet
 endevor
 gluster
-gradle
 Graal VM
 graal vm
+gradle
 gui
 homebrew
 Ide
-intelephense
 infinispan
+intelephense
 Intellij
 Intellij IDEA
-lombok
 Jvm
 kibana
 kubespray
 lombok
 mattermost
 microsoft azure
-mokitto
-mokito
 minikube
+mokito
+mokitto
 Mysql
 mysql
 Netcoredebugoutput
@@ -44,9 +43,9 @@ Omnisharp
 Openshift
 Opentracing
 php
-Postgresql
-postgres
 podman
+postgres
+Postgresql
 quarkus
 redis
 restic
@@ -57,6 +56,7 @@ symfony
 uber
 uri
 velero
+VMWare
 woopra
 yaml
 zowe
