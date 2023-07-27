@@ -1,5 +1,3 @@
-AMD64
-archive
 bare-metal clusters
 bare-metal compute
 bare-metal configuration
@@ -18,19 +16,15 @@ bare-metal node
 bare-metal provisioning
 bare-metal server
 bare-metal worker
-compress
-enter
-functions
+by
+by using
+from
 information about
-JAR
-JAR file
-repository
-see
+on
+see this section
 segmentation fault
 shell prompt
 shell script
-Start by using this.
-such as
 this clause that is restrictive
 this clause, which is nonrestrictive
-write
+through

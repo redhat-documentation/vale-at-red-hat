@@ -1,46 +1,29 @@
-64-bit x86
-and so on
 as
-bare metal
-bare-metal
-between
-bps
-Bps
-cd
-CD
-channel
-client side
-client-side
-code
-crash
-functionality
-Hammer
+bare metal clusters
+bare metal compute
+bare metal configuration
+bare metal control
+bare metal environment
+bare metal equipment
+bare metal event
+bare metal hardware
+bare metal host
+bare metal infrastructure
+bare metal installation
+bare metal installer
+bare metal machine
+bare metal media
+bare metal node
+bare metal provisioning
+bare metal server
+bare metal worker
 information on
-input
-jar
 Navigate
 navigate
-recommend
 refer to
-roll out
-roll-out
-rollout
-Router
 segfault
 shell
 Start using this.
-tar
-this clause which is nonrestrictive
-this clause, that is restrictive
-through
-thru
-type
-unjar
-user space
-user-space
-userspace
+This clause which is nonrestrictive
+This clause, that is restrictive
 via
-x64
-x86-64
-x86_64
-zip
