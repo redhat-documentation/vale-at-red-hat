@@ -12,6 +12,7 @@ AMD64
 and so on
 Apache Subversion
 app
+Application Load Balancer
 archive
 as
 as expected
@@ -39,6 +40,7 @@ challenge
 change
 CICS BTS
 ciphertext
+Classic Load Balancer
 clear
 cloudbursting
 cloudwashing
@@ -110,6 +112,7 @@ drag
 dual-boot
 dynamically
 earlier
+Elastic Load Balancing
 emit
 enable for the web
 end
@@ -129,6 +132,7 @@ flash
 floating point
 for example
 foreground
+Gateway Load Balancer
 graphical interface
 graphical user interface
 grayscale
@@ -206,6 +210,7 @@ multitenant
 navigate
 need
 network computing
+Network Load Balancer
 no longer support
 non-English-language
 nonpartitioned database environment
