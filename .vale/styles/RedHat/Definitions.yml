@@ -127,6 +127,7 @@ exceptions:
   - RADOS
   - RAID
   - RAM
+  - RAN
   - RBAC
   - RBD
   - REPL

@@ -17,12 +17,6 @@ Applix
 ApplixWare
 Asciidoc
 asciidoc
-day-0
-day-1
-day-2
-Day-0
-Day-1
-Day-2
 AsciiDoctor
 asciidoctor
 assertj
@@ -97,6 +91,12 @@ CYGMON
 Data Grid console
 data warehouse
 Dataware House
+day-0
+Day-0
+day-1
+Day-1
+day-2
+Day-2
 Decision Server
 Denial of Service
 Denial-of-Service
@@ -320,6 +320,7 @@ Operatorhub
 opEx
 Opex
 OPEX
+ORAN
 Org Admin
 org admin
 Organization administrator
