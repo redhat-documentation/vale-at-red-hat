@@ -15,9 +15,6 @@ AsciiDoc
 Asciidoctor
 AssertJ
 autolink
-Day 0
-Day 1
-Day 2
 Basic authentication
 Basic HTTP authentication
 BIND
@@ -54,6 +51,9 @@ Cygmon
 Data Grid
 Data Grid Console
 Data Warehouse
+Day 0
+Day 1
+Day 2
 Dedicated
 denial of service
 denial-of-service
@@ -177,6 +177,7 @@ mutual TLS
 MySQL
 network interface controller (NIC)
 Node.js
+O-RAN
 object class
 objectClass
 Objective C
@@ -214,6 +215,7 @@ RAM disk
 raw
 Realtime Decision Server
 Red Hat AMQ
+Red Hat build of OpenJDK
 Red Hat CloudForms
 Red Hat CloudForms Appliance
 Red Hat CloudForms|Red Hat CloudForms Appliance
@@ -222,7 +224,6 @@ Red Hat Data Grid
 Red Hat Directory Server
 Red Hat Enterprise Linux host
 Red Hat Fuse Online
-Red Hat build of OpenJDK
 Red Hat JBoss BPM Suite
 Red Hat JBoss BRMS
 Red Hat JBoss Enterprise Application Platform

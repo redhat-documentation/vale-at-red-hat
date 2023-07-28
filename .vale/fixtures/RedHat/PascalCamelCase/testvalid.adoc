@@ -114,6 +114,7 @@ OpenEXR
 OpenID
 OpenIPMI
 OpenJDK
+OpenRAN
 OpenRewrite
 OpenSCAP
 OpenShift
