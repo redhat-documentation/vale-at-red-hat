@@ -120,6 +120,7 @@ exceptions:
   - OpenIPMI
   - OpenJDK
   - OpenRewrite
+  - OpenRAN
   - OpenSCAP
   - OpenShift
   - OpenSSH
