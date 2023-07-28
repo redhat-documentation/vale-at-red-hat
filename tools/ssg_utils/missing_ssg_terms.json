@@ -1,7 +1,11 @@
 [
-    "client: customer",
-    "collect: gather",
-    "guest: guest operating system",
-    "package: packet",
-    "product: Product"
+    "Ansible playbook: Ansible Playbook",
+    "code base: codebase",
+    "Elastic Load Balancer: Elastic Load Balancing",
+    "title bar: header bar",
+    "pSeries|System P|Power Systems: IBM Power\u00ae",
+    "IBM LinuxONE|LinuxONE|linuxone: IBM\u00ae LinuxONE",
+    "IBM zSystems|Z|S 390: IBM Z\u00ae",
+    "quickstart|Quickstart: quick start",
+    "SoftIRQ: softirq"
 ]

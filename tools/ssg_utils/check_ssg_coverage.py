@@ -27,12 +27,12 @@ def main():
     get_vale_rule_terms(temp_dir, rules_dir)
 
     #get the current vale rules test fixture terms
-    get_vale_fixture_terms(temp_dir, fixtures_dir)  
+    get_vale_fixture_terms(temp_dir, fixtures_dir)
 
     #check for new SSG entries that are potentially not included in the vale rules
     check_new_ssg_entries(temp_dir, rules_dir, git_root)
 
-    #remove the temp folder                
+    #remove the temp folder
     clean_up(temp_dir)
 
 if __name__ == "__main__":
