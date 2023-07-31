@@ -18,5 +18,4 @@ swap:
   plug-in: plugin
   sane: accurate|valid|verified
   tooling: tool|tools
-  via: through|by|from|on|by using
   BIOS: firmware

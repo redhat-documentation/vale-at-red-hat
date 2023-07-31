@@ -15,8 +15,8 @@ code
 crash
 functionality
 Hammer
-input
 information on
+input
 jar
 Navigate
 navigate
@@ -39,6 +39,7 @@ unjar
 user space
 user-space
 userspace
+via
 x64
 x86-64
 x86_64

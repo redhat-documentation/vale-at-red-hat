@@ -24,6 +24,7 @@ swap:
   crash: fail|lock up|stop|stop responding
   functionality: functions # IBM
   Hammer|x86_64|x86-64|x64|64-bit x86: AMD64
+  information on: information about
   input|type: enter (followed by the text to enter in monospace) # https://redhat-documentation.github.io/supplementary-style-guide/#text-entry
   jar: compress|archive (verb)
   Navigate|navigate: '"click", "select", "browse", or "go to"'
@@ -36,5 +37,5 @@ swap:
   thru|through: "' - ' (range)|by using|finished|completed"
   unjar: extract (verb)
   user space|userspace|user-space: user space (noun)| user-space (modifier)
+  via: through|by|from|on|by using
   zip: compress
-  information on: information about
