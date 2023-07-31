@@ -1,15 +1,14 @@
+BIOS
 CRUD
 entitlement
 he
 host name
 I
 may
-she
 on premise
-on-premises
 on-prem
+on-premises
 plug-in
 sane
+she
 tooling
-via
-BIOS
