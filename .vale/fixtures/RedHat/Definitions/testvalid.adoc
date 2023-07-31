@@ -48,8 +48,8 @@ GID
 GIDs
 GIF
 GIMP
-GNOME
 Global Navigation Satellite System (GNSS)
+GNOME
 GNSS
 GNU
 GNUPro
@@ -112,6 +112,7 @@ POSIX
 POST
 PPP
 PROM
+PTP
 PXE
 QCOW2
 QEMU

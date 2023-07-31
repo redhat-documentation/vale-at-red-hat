@@ -121,6 +121,7 @@ exceptions:
   - POST
   - PPP
   - PROM
+  - PTP
   - PXE
   - QCOW2
   - QEMU
