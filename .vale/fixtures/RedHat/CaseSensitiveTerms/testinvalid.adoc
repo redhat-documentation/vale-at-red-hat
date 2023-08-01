@@ -166,6 +166,7 @@ Graalvm
 graalVM
 green boots
 Greenboot
+GRPC
 Grub
 Gtk
 gtk
@@ -201,6 +202,7 @@ IPV6
 Ipv6
 iSeries
 iso
+Istio Service Mesh
 Itanium2
 jar file
 jbang

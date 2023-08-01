@@ -96,6 +96,7 @@ GNU
 GPL
 GraalVM
 greenboot
+gRPC
 GRUB
 GTK+
 GUI
@@ -111,6 +112,7 @@ IBM Z
 IdM CA renewal server
 IdM server and replicas
 Ignition config
+Istio service mesh
 image builder
 inference engine
 InfiniBand

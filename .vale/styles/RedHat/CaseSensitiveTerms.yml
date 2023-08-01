@@ -125,6 +125,7 @@ swap:
   Gnu|gnu: GNU
   Gpl|gpl: GPL
   Graalvm|graalVM: GraalVM
+  grpc|GRPC: gRPC
   Greenboot|green boots: greenboot
   Grub: GRUB
   GTK|Gtk|gtk: GTK+
@@ -138,6 +139,7 @@ swap:
   Ignite|Fuse Ignite: Fuse Online|Red Hat Fuse Online|Syndesis
   ignition config: Ignition config
   Image Builder: image builder
+  Istio Service Mesh : Istio service mesh
   INSTALL_DIR|installDir: FUSE_HOME
   Iops|IOPs: IOPS
   Ip: IP
