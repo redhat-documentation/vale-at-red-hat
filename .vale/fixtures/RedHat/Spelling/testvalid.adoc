@@ -24,6 +24,7 @@ Backfilling
 backported
 backtrace
 Backtrace
+bcrypt
 Bierner
 bindable
 Bindable
@@ -131,6 +132,8 @@ Fernflower
 firewalld
 Flathub
 Flatpak
+Fluentd
+Flyway
 Fortran
 Funqy
 Gbps
@@ -140,9 +143,13 @@ GIDs
 Git
 GitHub
 GitLab
+Gradle
 Gluster
 GNUPro
 GraalVM
+GraphQL
+Graylog
+gRPC
 Gradle
 Grafana
 GraphQL
@@ -175,6 +182,7 @@ IntelliJ
 IPsec
 IPv
 ISeries
+Istio
 ISVs
 Itanium
 Item
@@ -193,6 +201,7 @@ Joyent
 JUnit
 JVM
 Kafka
+Kubernetes
 kbd
 Keycloak
 Keylime
@@ -217,7 +226,9 @@ libvirt
 Libvirt
 Licensor
 Liveness
+Logstash
 Lombok
+Liquibase
 Loopback
 Makefile
 Matrixes

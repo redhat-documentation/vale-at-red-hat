@@ -12,11 +12,9 @@ ctrl
 Daemonset
 dns
 dotnet
-endevor
 gluster
 Graal VM
 graal vm
-gradle
 gui
 homebrew
 Ide
@@ -54,7 +52,6 @@ scm
 svg
 symfony
 uber
-uri
 velero
 VMWare
 woopra
