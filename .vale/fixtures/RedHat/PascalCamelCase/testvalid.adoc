@@ -121,6 +121,7 @@ OpenShift
 OpenSSH
 OpenSSL
 OpenStack
+OpenTelemetry
 OpenTracing
 OperatorHub
 OpEx
