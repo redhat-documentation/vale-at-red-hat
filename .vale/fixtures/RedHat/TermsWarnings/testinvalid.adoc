@@ -1,5 +1,4 @@
 BIOS
-CRUD
 entitlement
 he
 host name
