@@ -1,0 +1,11 @@
+//vale-fixture
+include::filename.txt[lines=5..10]
+
+//vale-fixture
+include::filename.txt[lines="1..10,15..20"]
+
+//vale-fixture
+include::filename.txt[lines=7;14..25;28..43]
+
+//vale-fixture
+include::filename.txt[lines=12..-1]

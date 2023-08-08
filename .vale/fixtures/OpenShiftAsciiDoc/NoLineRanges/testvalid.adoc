@@ -1,0 +1,15 @@
+include::snippets/technology-preview.adoc[leveloffset=+0]
+
+include::https://raw.githubusercontent.com/openshift/managed-cluster-validating-webhooks/master/docs/webhooks.json[]
+
+include::yaml/ordinary-clock.yaml[leveloffset=+0]
+
+include::yaml/ordinary-clock.yml[leveloffset=+0]
+
+include::ordinary-clock.json[leveloffset=+0]
+
+include::ordinary-clock.txt[leveloffset=+0]
+
+include::ordinary-clock.md[leveloffset=+0]
+
+include::xml/path/ordinary-clock.xml[]
