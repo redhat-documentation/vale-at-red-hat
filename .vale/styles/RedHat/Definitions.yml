@@ -48,6 +48,7 @@ exceptions:
   - DRL
   - DSL
   - EIP
+  - ELB
   - ERROR
   - FAQ
   - FQDN

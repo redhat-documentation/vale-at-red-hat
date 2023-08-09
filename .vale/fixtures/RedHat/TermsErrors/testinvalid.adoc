@@ -137,6 +137,7 @@ e-fix
 e.g.
 eFix
 eg
+Elastic Load Balancer
 emphasise
 end user
 end-user interface
