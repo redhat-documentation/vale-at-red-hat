@@ -207,7 +207,6 @@ irrecoverable
 keep in mind
 kernelspace
 labour
-laptop
 large page
 launch
 learnt
