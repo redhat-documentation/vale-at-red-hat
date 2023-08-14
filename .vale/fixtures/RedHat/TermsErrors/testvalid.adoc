@@ -18,6 +18,7 @@ as
 as expected
 as in
 as needed
+as well as per recipient
 Assisted Installer
 attention notice
 auto-detect
