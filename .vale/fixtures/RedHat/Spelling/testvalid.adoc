@@ -1,6 +1,7 @@
 // suppress inspection "IncorrectFormatting" for whole file
 a .NET application
 accessor
+ACLs
 adoc
 AGPLv
 Agroal
@@ -15,6 +16,8 @@ Applixware
 Asciidoctor
 AssertJ
 autolink
+automount
+Automount
 autostart
 Autostart
 aws
@@ -33,6 +36,8 @@ BOM
 Bonjour
 boolean
 Boolean
+bootable
+Bootable
 Bouncy Castle
 breakpoint
 Breakpoint
@@ -42,6 +47,7 @@ btn
 Btrfs
 Bugzilla
 build config
+Buildah
 camelCase
 CentOS
 Ceph
@@ -50,6 +56,8 @@ cgroup
 che
 Che
 Che-Theia
+chrony
+Chrony
 Ciphertext
 Civetweb
 ClassLoader
@@ -61,6 +69,8 @@ Cloudwashing
 CodeReady
 colocate
 Colocate
+colocation
+Colocation
 config
 Config
 config map
@@ -136,6 +146,7 @@ Fluentd
 Flyway
 Fortran
 Funqy
+Galera
 Gbps
 GCC
 GID
@@ -144,6 +155,10 @@ Git
 GitHub
 GitLab
 Gradle
+glock
+Glock
+glocks
+Glocks
 Gluster
 GNUPro
 GraalVM
@@ -203,11 +218,18 @@ JVM
 Kafka
 Kubernetes
 kbd
+kdump
+Kdump
+Kerberos
 Keycloak
 Keylime
 Keyring
 Keyrings
 keystore
+keytab
+Keytab
+keytabs
+Keytabs
 Kibana
 Knative
 Knowledgebase
@@ -221,6 +243,7 @@ Let's Encrypt
 LGPLv
 libOSMesa
 librados
+Libreswan
 librbd
 libvirt
 Libvirt
@@ -252,6 +275,7 @@ MongoDB
 Multicluster
 Multihost
 Multinode
+multipath
 Multipath
 Multitenant
 multithread
@@ -289,9 +313,11 @@ Operator
 OSBuild
 osd
 OSs
+OSTree
 overridable
 PCIe
 PDFs
+Petitboot
 PHP
 PIDs
 Podman
@@ -362,12 +388,14 @@ Serverless
 servlet
 Shadowman
 Sharding
+Skopeo
 SLA
 SLAs
 SmallRye
 Spotify
 startx
 STMicroelectronics
+Stratis
 su
 Subcommand
 Subcommands
@@ -409,6 +437,8 @@ Traefik
 Truststore
 Uber
 UIDs
+umask
+Umask
 Uncomment
 Undercloud
 Uninstallation
