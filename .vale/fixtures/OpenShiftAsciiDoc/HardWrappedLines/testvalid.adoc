@@ -92,3 +92,4 @@ image::product-workflow-overview.png[High-level {product-title} flow]
 
 include::modules/a-rather-very-very-long-very-log-very-long-indeed-so-long-file.adoc[]
 
+Hard drive:: Permanent storage for operating system and/or user files that are used on a daily basis
