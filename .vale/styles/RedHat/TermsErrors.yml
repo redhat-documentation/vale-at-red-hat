@@ -18,6 +18,7 @@ swap:
   "[bB]asic [aA]uth": Basic HTTP authentication (first instance)|Basic authentication
   "a lot(?: of)?": many|much
   "AI": Assisted Installer
+  "(?<!as well )as per": according to|as|as in
   "backward(?:-)?compatible": compatible with earlier versions
   "bottle neck|bottle-neck": bottleneck
   "bottom(?:-)?left": lower left|lower-left
@@ -55,7 +56,6 @@ swap:
   analyse: analyze
   and/or: a or b|a, b, or both
   as long as: if|provided that
-  as per: according to|as|as in
   autodetect: auto-detect
   back-level: earlier|previous|not at the latest level
   bi-monthly: bimonthly
