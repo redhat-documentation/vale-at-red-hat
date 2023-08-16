@@ -176,6 +176,7 @@ Java
 kernel oops
 kernel-space
 knowledge base
+laptop
 left
 left mouse button
 live-only
