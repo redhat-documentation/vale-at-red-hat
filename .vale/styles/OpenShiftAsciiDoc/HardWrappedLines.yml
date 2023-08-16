@@ -16,7 +16,7 @@ script: |
   list_regex := "^(\\.|\\*|-).*$"
   hard_wrap_80_regex := "^.{65,80}$"
   hard_wrap_100_regex := "^.{75,100}$"
-  asciidoc_markup := "^(.*\\[.*\\]|\\/\\/.*|=+.*|<(\\.|\\d+)>.*|>|#+.*|\\..+|\\|.*|:.+|.*::|ifdef::|endif::|image::|include::|link::|video::).*$"
+  asciidoc_markup := "^(.*\\[.*\\]|\\/\\/.*|=+.*|<(\\.|\\d+)>.*|>|#+.*|\\..+|\\|.*|:.+|.*::|`.*`|ifdef::|endif::|image::|include::|link::|video::).*$"
   listingblock_delim_regex := "^-{4}$"
   inside_listingblock := false
 
