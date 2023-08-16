@@ -13,18 +13,22 @@ filters:
   - 'Node\.js'
   - "[aA]ccessor"
   - "[aA]llowlist"
+  - "[aA]utomount"
   - "[aA]utostart"
   - "[bB]ackfilling"
   - "[bB]ackported"
   - "[bB]acktrace"
   - "[bB]indable"
   - "[bB]oolean"
+  - "[bB]ootable"
   - "[bB]reakpoint"
   - "[bB]reakpoints"
   - "[cC]he"
+  - "[cC]hrony"
   - "[cC]lassloading"
   - "[cC]lasspath"
   - "[cC]olocate"
+  - "[cC]olocation"
   - "[cC]onfig"
   - "[cC]ustomizer"
   - "[dD]atasource"
@@ -48,6 +52,7 @@ filters:
   - "[fF]indability"
   - "[gG]bps"
   - "[gG]it"
+  - "[gG]locks?"
   - "[gG]radle"
   - "[gG]rafana"
   - "[hH]ardcoding"
@@ -59,10 +64,12 @@ filters:
   - "[jJ]et[bB]rains"
   - "[jJ]ournald"
   - "[jJ]ournaling"
+  - "[kK]dump"
   - "[kK]eycloak"
   - "[kK]eylime"
   - "[kK]eyring"
   - "[kK]eyrings"
+  - "[kK]eytabs?"
   - "[lL]ibvirt"
   - "[lL]icensor"
   - "[lL]iquibase"
@@ -79,6 +86,7 @@ filters:
   - "[mM]ulticluster"
   - "[mM]ultihost"
   - "[mM]ultinode"
+  - "[mM]ultipath"
   - "[mM]ultithread"
   - "[mM]ultitenant"
   - "[mM]ultiuser"
@@ -153,6 +161,7 @@ filters:
   - "[tT]olerations"
   - "[tT]raceback"
   - "[tT]ruststore"
+  - "[uU]mask"
   - "[uU]ncomment"
   - "[uU]ndercloud"
   - "[uU]ninstallation"
@@ -165,6 +174,7 @@ filters:
   - "[uU]pselling"
   - "[vV]alidator"
   - "Let\\'s Encrypt"
+  - ACLs
   - adoc
   - AGPLv
   - Agroal
@@ -188,6 +198,7 @@ filters:
   - btn
   - Btrfs
   - Bugzilla
+  - Buildah
   - camelCase
   - CentOS
   - Ceph
@@ -246,6 +257,7 @@ filters:
   - Flyway
   - Fortran
   - Funqy
+  - Galera
   - GCC
   - GIDs
   - GitHub
@@ -297,6 +309,7 @@ filters:
   - JVM
   - Kafka
   - kbd
+  - Kerberos
   - keystore
   - Kibana
   - Knative
@@ -311,6 +324,7 @@ filters:
   - LGPLv
   - librados
   - librbd
+  - Libreswan
   - libOSMesa
   - Logstash
   - Lombok
@@ -325,7 +339,6 @@ filters:
   - Mirantis
   - Mockito
   - MongoDB
-  - Multipath
   - MySQL
   - Nagios
   - Narayana
@@ -352,8 +365,10 @@ filters:
   - OSBuild
   - osd
   - OSs
+  - OSTree
   - PCIe
   - PDFs?
+  - Petitboot
   - PHP
   - PIDs
   - Podman
@@ -387,12 +402,14 @@ filters:
   - SCM
   - SELinux
   - Semeru
+  - Skopeo
   - Shadowman
   - SLAs
   - SmallRye
   - Spotify
   - startx
   - STMicroelectronics
+  - Stratis
   - Suchow
   - SVG
   - Symfony
