@@ -8,9 +8,6 @@ message: "Use correct American English spelling. Did you really mean '%s'?"
 # A "filter" is a case-sensitive regular expression specifying words to ignore during spell checking.
 # Spelling rule applies to individual words
 filters:
-  - '\.NET'
-  - 'I/O'
-  - 'Node\.js'
   - "[aA]ccessor"
   - "[aA]llowlist"
   - "[aA]utomount"
@@ -83,12 +80,13 @@ filters:
   - "[mM]ixin"
   - "[mM]ixins"
   - "[mM]odularization"
+  - "[Mm]onospace"
   - "[mM]ulticluster"
   - "[mM]ultihost"
   - "[mM]ultinode"
   - "[mM]ultipath"
-  - "[mM]ultithread"
   - "[mM]ultitenant"
+  - "[mM]ultithread"
   - "[mM]ultiuser"
   - "[mM]ultizone"
   - "[nN]amespace"
@@ -97,13 +95,13 @@ filters:
   - "[oO]perator"
   - "[oO]verridable"
   - "[pP]reconfigured"
-  - "[pP]regenerated"
-  - "[pP]ulldown"
   - "[pP]reconfigured"
+  - "[pP]regenerated"
   - "[pP]repend"
   - "[pP]repended"
   - "[pP]roductize"
   - "[pP]roductized"
+  - "[pP]ulldown"
   - "[rR]eadonly"
   - "[rR]ebalance"
   - "[rR]ebalances"
@@ -127,15 +125,13 @@ filters:
   - "[rR]untimes"
   - "[sS]crollbar"
   - "[sS]earchability"
-  - "[sS]erializer"
-  - "[sS]erialization"
   - "[sS]erializable"
+  - "[sS]erialization"
+  - "[sS]erializer"
   - "[sS]erverless"
   - "[sS]ervlet"
   - "[sS]etter"
   - "[sS]harding"
-  - "[sS]ysctl"
-  - "[sS]yslog"
   - "[Ss]u"
   - "[sS]ubcommand"
   - "[sS]ubcommands"
@@ -155,6 +151,8 @@ filters:
   - "[sS]ubusers"
   - "[sS]ubvolume"
   - "[sS]ubvolumes"
+  - "[sS]ysctl"
+  - "[sS]yslog"
   - "[sS]ystemd"
   - "[tT]emplated"
   - "[tT]heia"
@@ -173,6 +171,9 @@ filters:
   - "[uU]psell"
   - "[uU]pselling"
   - "[vV]alidator"
+  - '\.NET'
+  - 'I/O'
+  - 'Node\.js'
   - "Let\\'s Encrypt"
   - ACLs
   - adoc

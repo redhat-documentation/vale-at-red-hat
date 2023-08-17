@@ -6,7 +6,7 @@
 Ensure that user-replaced values have the following characteristics:
 
 * Surrounded by angle brackets (`< >`)
-* Separated by underscores (`_) for multi-word values
+* Separated by underscores (`_`) for multi-word values
 * Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
 * Italicized
 * If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value

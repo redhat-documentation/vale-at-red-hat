@@ -11,11 +11,7 @@
 
 Alert level:: Suggestion
 
-Depending on the context, consider using the suggested term as described in Red Hat Supplementary Style Guide (SSG). Click the link to view the corresponding entry in the SSG.
-
-include::partial$ref_suggestion_terms.adoc[leveloffset=+1]
-
-
+Depending on the context, consider using the suggested term as described in Red Hat Supplementary Style Guide (SSG).
 
 .Additional resources
 

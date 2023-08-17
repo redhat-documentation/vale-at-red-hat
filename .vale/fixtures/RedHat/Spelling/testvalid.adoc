@@ -272,6 +272,7 @@ Mixins
 Mockito
 Modularization
 MongoDB
+monospace
 Multicluster
 Multihost
 Multinode
