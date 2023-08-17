@@ -1,19 +1,2 @@
-:_content-type: ASSEMBLY
-[id="rosa-getting-started"]
-= Comprehensive guide to getting started with {product-title}
-
-.Table title
-[cols=2*, width="40%", options="header"]
-|====
-|Firefox
-|Web Browser
-
-|Ruby
-|Programming Language
-
-|TorqueBox
-|Application Server
-|====
-
 //vale-fixture
 Est eh ex, a rhoncus magna condimentum a. Aenean ut sem blandit, consectetur nisi

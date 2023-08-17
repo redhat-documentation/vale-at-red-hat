@@ -20,6 +20,16 @@
 <1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus urna
 <2> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+[cols=2*, width="90%", options="header"]
+|====
+|Requirement
+|Description
+
+|SSD hard disks
+a|* 1 SSD split into 15 200GB thin-provisioned logical volumes provisioned as `PV` CRs
+* 1 SSD serving as an extra large `PV` resource
+|====
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus urna, nulla.
 Sed imperdiet nec nunc a dignissim srdfh amet dolor mollissrdfh fgtf.
 
