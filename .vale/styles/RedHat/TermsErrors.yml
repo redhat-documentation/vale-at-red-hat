@@ -15,7 +15,7 @@ swap:
   "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
   "(?<!Mozilla )Firefox": Mozilla Firefox
   "(?<!Mozilla )Thunderbird": Mozilla Thunderbird
-  "[bB]asic [aA]uth": Basic HTTP authentication (first instance)|Basic authentication
+  "[bB]asic [aA]uth": Basic HTTP authentication|Basic authentication
   "a lot(?: of)?": many|much
   "AI": Assisted Installer
   "(?<!as well )as per": according to|as|as in
