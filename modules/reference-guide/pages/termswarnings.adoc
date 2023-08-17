@@ -13,10 +13,6 @@ Alert level:: Warning
 
 Use the correct term as described in Red Hat Supplementary Style Guide (SSG), unless updating existing content that uses the term.
 
-include::partial$ref_warning_terms.adoc[leveloffset=+1]
-
-
-
 .Additional resources
 
 * link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
