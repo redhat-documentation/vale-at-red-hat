@@ -4,4 +4,4 @@ scope: raw
 level: error
 message: "Quoted ID value is not closed."
 raw:
-  - '(?<!.)\[id\=\".*(?<!\")\]'
+  - '(?<!.)\[id=(["\x27]).*(?<!\1)\]'
