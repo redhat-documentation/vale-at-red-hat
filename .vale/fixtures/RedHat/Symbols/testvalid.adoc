@@ -1,0 +1,15 @@
+:!attribute:
+:attribute!:
+
+Use the "!" symbol
+Use the "&" symbol
+
+[source,terminal]
+----
+$ if ! [[ -z $THING ]]; then echo "hihi"; fi
+----
+
+[source,terminal]
+----
+echo "bye bye" && exit
+----

@@ -23,6 +23,7 @@
 * xref:slash.adoc[]
 * xref:spacing.adoc[]
 * xref:spelling.adoc[]
+* xref:symbols.adoc[]
 * xref:termserrors.adoc[]
 * xref:termssuggestions.adoc[]
 * xref:termswarnings.adoc[]
