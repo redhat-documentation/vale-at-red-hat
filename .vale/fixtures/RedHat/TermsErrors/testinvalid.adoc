@@ -14,6 +14,7 @@ all right
 alright
 analyse
 and/or
+appendices
 as long as
 as per
 autodetect
