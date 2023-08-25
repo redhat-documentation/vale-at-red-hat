@@ -19,3 +19,4 @@ swap:
   refer to: see
   segfault: segmentation fault
   via: through|by|from|on|by using
+  "x64|x86-64|(?<!64-bit )x86": 64-bit x86|x86_64
