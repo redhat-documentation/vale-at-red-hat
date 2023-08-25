@@ -329,3 +329,6 @@ swap:
   xsite: cross-site replication
   zero out: zero
   zonegroup|zone-group: zone group
+  kilobytes?: KB|kB
+  'w/(?!o) ': "with "
+  'w/o': without
