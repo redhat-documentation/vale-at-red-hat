@@ -27,3 +27,6 @@ Start using this.
 This clause which is nonrestrictive
 This clause, that is restrictive
 via
+x64
+x86-64
+x86
