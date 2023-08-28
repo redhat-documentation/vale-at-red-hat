@@ -1,4 +1,4 @@
-:navtitle: PassiveVoice
+:navtitle: Passive voice
 :keywords: reference, rule, PassiveVoice
 
 = Passive Voice
