@@ -8,16 +8,12 @@ swap:
   # Start each error message with "Do not use ..."
   # Error messages must be single quoted.
   'ACK(?! flag)': 'Do not use "ACK" as acronym for "acknowledgement". When writing about the acknowledgement flag ("ACK flag") in a TCP packet, use "ACK flag".'
-  'domestic|foreign': 'Do not use "domestic" and "foreign" to differentiate geographic locations.'
   'future-proof': Do not use "future-proof" in a statement about the benefits, characteristics, or performance of a Red Hat product or service.'
-  'geo|geography': 'Do not use "geo" or "geography" to mean geographical area in customer-facing content. Write, for example, "This version is available worldwide."'
   'out of the box|out-of-the-box': 'Do not use "out of the box" or "out-of-the-box". Use text that is suitable for the context and the noun to which this adjective applies.'
   and/or: 'Do not use "and/or". Depending on the context, use one of the following constructions: a and b, a or b, or a, b, or both.'
   basically: 'Do not use "basically". "Basically" is another term for "in principle" or "fundamentally".'
   congratulations: 'Do not use "congratulations" in technical information."'
-  daughterboard: 'Do not use "daughterboard". Use the specific name or function of the plug-in adapter that you are referring to.'
   debuggable: 'Do not use "debuggable". Rephrase the sentence to use the verb or noun debug. For example, change rebuild the debuggable version to rebuild the version that can be debugged.'
-  destroy: 'Do not use "destroy" to refer to the removal of an object from a database. Write specifically what happens to the object, such as deleting it from the database.'
   devs?: 'Do not use "dev" as a synonym for development or developer.'
   foo: 'Do not use "foo". This term is technical jargon in code and as shorthand for fubar, an acronym of profanity in code.'
   fubar: 'Do not use "fubar". This term is an acronym of a profanity that is sometimes used by developers in code.'
