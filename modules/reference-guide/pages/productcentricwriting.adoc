@@ -1,0 +1,12 @@
+:navtitle: Product-centric writing
+:keywords: product-centric, writing, anthropomorphism
+
+= Product-centric writing
+
+Do not use product-centric writing to grant abilities to inanimate objects. Where possible, make the user the subject of the sentence.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Anthropomorphism, p. 44]
+* link:{ibmsg-url}?topic=grammar-anthropomorphism[{ibmsg} - Anthropomorphism]
+

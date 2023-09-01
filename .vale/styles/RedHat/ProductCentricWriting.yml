@@ -1,0 +1,13 @@
+---
+extends: substitution
+ignorecase: true
+level: suggestion
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/productcentricwriting/
+message: "%s"
+swap:
+  # Start each error message with "Do not use ..."
+  # Error messages must be single quoted.
+  'allows(?: you| customers| the customer| the user| users)': 'Do not use "allows" to grant abilities to inanimate objects, as in "the product allows you to…". Whenever possible, use a direct, user-focused alternative.'
+  'enables(?: you| customers| the customer| the user| users)': 'Do not use "enables" to grant abilities to inanimate objects, as in "the product enables you to…". Whenever possible, use a direct, user-focused alternative.'
+  'lets(?: you| customers| the customer| the user| users)': 'Do not use "lets" to grant abilities to inanimate objects, as in "the product lets you…". Whenever possible, use a direct, user-focused alternative.'
+  'permits(?: you| customers| the customer| the user| users)': 'Do not use "permits" to grant abilities to inanimate objects, unless the object is a type of authorization that does grant abilities.'

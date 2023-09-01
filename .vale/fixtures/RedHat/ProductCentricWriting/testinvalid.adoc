@@ -1,0 +1,4 @@
+OpenShift allows customers to use a Kubernetes Network Policy to create microsegmentation between deployed application services on the cluster.
+The `monitoring-rules-edit` rule permits you to create and silence alerts in the *Developer* perspective in the web console.
+The `must-gather` tool enables the user to collect diagnostic information about your cluster.
+LoadBalancer lets users assign an external load balancer to an associated service API object in your {product-title} cluster.

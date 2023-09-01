@@ -1,4 +1,4 @@
-:navtitle: PascalCamelCase
+:navtitle: Pascal and camel case
 :keywords: reference, rule, PascalCamelCase
 
 = Pascal case and Camel case
