@@ -1,16 +1,10 @@
 ACK
 basically
 congratulations
-daughterboard
-destroy
 devs
-domestic
 foo
-foreign
 fubar
 future-proof
-geo
-geography
 kerberize
 kerberized
 native interface
