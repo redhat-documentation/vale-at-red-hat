@@ -41,7 +41,6 @@ backside
 backwards compatible
 barcode
 bench-mark
-best of breed
 best-of-breed
 bi-monthly
 bi-weekly
@@ -297,6 +296,206 @@ initial caps
 Internet address
 Intranet
 invoke
+io
+IPI
+irrecoverable
+is shipped with
+jar
+JavaBean
+joblog
+jobstream
+judgement
+keep in mind
+kernelspace
+kick off
+L10N
+l10n
+labelled
+labour
+large page
+last name
+learnings
+learnt
+leave out
+left most
+left-arrow key
+left-hand
+left-justified
+left-justify
+left-most
+line cord
+link edit
+link editing
+live broker
+live only
+loadtime
+log into
+log off of
+log onto
+logfile
+lots of
+main directory
+make file
+man day
+man hour
+manipulation button
+manpage
+masterbrand
+matrices
+memory stick
+menu driven
+menubar
+menudriven
+meta data
+meta-data
+microcomputer
+motherboard
+mountpoint
+mouse button 1
+mouse button 2
+mouse over
+mouse-button
+mousebutton
+multi site
+multi-channel
+multi-processing
+multi-site
+multi-tenant
+multi-tier
+multi-tiered
+multijobbing
+MV
+nameserver
+network-centric computing
+new-line
+newsfeed
+nextgen
+non-secure
+nonrecoverable
+nonsecure
+notion
+NWSAA
+off-boarding
+off-load
+offline storage
+omni-channel
+on demand
+on ramp
+on the fly
+on the other hand
+on-boarding
+on-line
+on-ramp
+oops
+op-code
+open-source
+OpenShit
+ops
+organise
+organised
+organising
+orientate
+over ride
+over-ride
+pain point
+parent task
+parent/child
+passive broker
+pathname
+PCOMM
+perfcounter
+perimeter network
+phillips screw
+phillips screwdriver
+phone
+PL/1
+plain-text
+plaintext
+planar board
+plug in
+plug ins
+Plug-and-Play
+plug-in
+plug-ins
+pm
+Pod Cast
+Podcast
+pojo
+pop-up list
+pop-up menu
+pop-up window
+pops up
+pow wow
+power down
+power up
+poweroff
+poweron
+practise
+preventative
+print friendly
+prior to
+program product
+programmed operator
+Programming Language/I
+proof of concepts
+pseudo code
+pseudo ops
+pseudoops
+pub/sub
+pull down
+read-write
+recognise
+recreate
+Red Hat Java
+Red Hat Open Java Development Kit
+Red Hat OpenJDK
+regex
+remote-access
+requestor
+RHOJDK
+right double-click
+right now
+right-hand
+right-justified
+right-justify
+right-most
+round table
+round-robin task dispatching
+rule of thumb
+run level
+run-time
+S 390
+sanity check
+schemata
+screencap
+screensaver
+scroll bar
+second name
+secondary storage
+segregate
+segregation
+selection button
+send out
+serial database
+serverside
+set-up
+Sharename
+shift-click
+ships with
+short cut
+shortcut key
+shortcut menu
+sign into
+sign off of
+signoff
+signon
+Simple Object Access Protocol
+single quote
+single signon
+slave
+smartcard
+smartpaper
+SME routine
 snapset
 snapsets
 so long as
@@ -385,3 +584,54 @@ unzip
 up grade
 up-sell
 up-selling
+up-stream
+up-time
+updatable
+upgradable
+UPI
+upward compatible
+USB thumb drive
+useable
+utilize
+vanilla
+versus
+video-mode
+virtual diskette
+virtual diskette drive
+virtual DOS machine
+virtual hard disk
+virtual-equals-real
+virtual-equals-virtual
+vs
+w/ this
+w/o
+wait condition
+war room
+warm boot
+warmstart
+warning notice
+web cast
+web master
+web site
+web-enable
+webmistress
+white hat hacker
+whitelist
+whitepaper
+wi-fi
+wild card
+wiring closet
+wish
+work flow
+work group
+work load
+work space
+work station
+would like
+XSA
+xsite
+zero out
+zeroes
+zip file
+zonegroup
+Zulu time

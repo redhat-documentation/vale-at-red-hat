@@ -1,4 +1,3 @@
-
 ---
 extends: substitution
 ignorecase: true
@@ -49,18 +48,86 @@ swap:
   '(?<!virtual )hard drive': hard disk|hard disk drive
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
+  'alright|all right': "correct|as expected"
   'backwards?\scompatible': compatible with earlier versions
   'best of breed|best-of-breed': best in class
   'call out|call-out': callout
+  'Camelcase|CamelCase': camel case
+  'CD burner|burner': CD writer
   'Christian name|forename|first name': given name
+  'cipher text|cyphertext|cypher text|cipher-text|cypher-text': ciphertext
+  'colours?': color|colors
+  'comma delimited|commadelimited': comma-delimited
+  'command driven|commanddriven': command-driven
+  'computer farm|computer ranch': server cluster|server farm
+  'crossplatform|cross platform': cross-platform
+  'daisy-chain|daisychain': daisy chain
+  'datacenter|data-center|data centre|datacentre': data center
+  'desire|wish': need
+  'desk top|desk-top': desktop
+  'different than|different to': different from
+  'disklabel|disk-label': disk label
+  'down-load|down load': download
+  'down-stream|down stream': downstream
+  'downwards? compatible': compatible with earlier versions
+  'dualboot|dual boot': dual-boot
+  'eFix|e-fix': fix|interim fix
+  'executable(?! program| routine| files?)': executable program
+  'firm ware|firm-ware': firmware
   'fixed\sdisk\sdrive': hard disk drive
+  'fore-ground|forground': foreground
+  'G11N|g11n': globalization
+  'gray-scale|gray scale': grayscale
+  'helpdesk|help-desk': help desk
+  'hotadd|hot-add': hot add
+  'hotplug|hot-plug': hot plug
+  'hotswap|hot-swap': hot swap
+  'i-fix|i-Fix|ifix|iFix': interim fix  
+  'large page|super page': huge page
+  'lots of|bunches of': many
   'meta-data|meta data': metadata
+  'mouse-button|mousebutton': mouse button
+  'multi site|multi-site': multisite
+  'nonsecure|non-secure': insecure
+  'on ramp|on-ramp': access method
+  'open-source|OpenSource|opensource': open source
+  'plaintext|plain-text|cleartext|clear text': plain text
+  'plug-ins|plug ins': plugins
+  'plug-in|plug in': plugin
+  'pod cast|Podcast|Pod Cast': podcast
+  'pseudo code|pseudo-code': pseudocode
+  'pseudo ops|pseudoops': pseudo-ops
+  'pub/sub|publish-subscribe': publish/subscribe
+  'pulldown|pull down': pull-down
+  'Red Hat OpenJDK|RHOJDK|Red Hat Open Java Development Kit': Red Hat build of OpenJDK
+  'run level|run-level': runlevel
   'sanity test|sanity check': test|evaluate|validate|verify
+  'scroll bar|scroll-bar': scrollbar
+  'ships with|is shipped with': includes
   'single quote mark|single quote(?! mark)': single quotation mark
+  'slave(?! broker)': worker|child|helper|replica|secondary
+  'snapset|snapsets': snapshot set
+  'soundcard|sound-card': sound card
+  'straight forward|straight-forward': straightforward
+  'super-user|super user': superuser
+  'sysprep tool|sysprep process|sysprep function': sysprep
+  'textmode|text-mode': text mode
+  'thin provisioned|thinly provisioned|thinly-provisioned': thin-provisioned
+  'tier-one|tier 1': tier-1
+  'timeframe|time-frame': time frame
+  'trade-off|trade off': tradeoff
+  'up-grade|up grade': upgrade
+  'up-selling|up selling': upselling
+  'up-stream|up stream': upstream
+  'up-time|up time': uptime
+  'video-mode|videomode': video mode
   'virtual diskette(?! drive)|virtual diskette drive': virtual floppy drive
   'virtual\shard\sdisk': virtual hard drive
   'w/(?!o) ': "with "
   'w/o': without
+  'WiFi|Wifi|wi-fi': Wi-Fi
+  'wish|would like': want
+  'zonegroup|zone-group': zone group
   10BASE-2: 10BASE2
   10BASET: 10BASE-T
   24/7: 24x7
@@ -81,7 +148,6 @@ swap:
   all caps: uppercase
   alphameric: alphanumeric
   alphanumerical: alphanumeric
-  alright|all right: "correct|as expected"
   amongst: among
   analogue: analog
   analyse: analyze
@@ -124,7 +190,6 @@ swap:
   busmaster: bus master
   busses: buses
   byte code: bytecode
-  Camelcase|CamelCase: camel case
   can not: cannot
   cancelation: cancellation
   cancelled: canceled
@@ -137,7 +202,6 @@ swap:
   catastrophic error: unrecoverable error
   CBE: Common Base Event
   CBTS: CICS BTS|BTS
-  CD burner|burner: CD writer
   centre: center
   check box: checkbox
   check list: checklist
@@ -146,7 +210,6 @@ swap:
   checkin: check-in
   chipset: chip set
   chronologic: chronological
-  cipher text|cyphertext|cypher text|cipher-text|cypher-text: ciphertext
   click on: click
   client-server: client/server
   cloud-bursting: cloudbursting
@@ -157,16 +220,12 @@ swap:
   cold backup: offline backup
   cold boot: hardware restart
   cold start: hardware restart
-  colours?: color|colors
   combo box: combination box
   comes with: includes
-  comma delimited|commadelimited: comma-delimited
   comma separated: comma-separated
-  command driven|commanddriven: command-driven
   command-language: command language
   CommServer: Communications Server
   comprised of: consist of
-  computer farm|computer ranch: server cluster|server farm
   connect with: connect to
   container based: container-based
   containerised: containerized
@@ -178,7 +237,6 @@ swap:
   copy book: copybook
   cross reference: cross-reference
   cross site scripting: cross-site scripting
-  crossplatform|cross platform: cross-platform
   cyber attack: cyberattack
   cyber attacker: cyberattacker
   cyber crime: cybercrime
@@ -190,9 +248,7 @@ swap:
   cyber terror: cyberterror
   cyber threat: cyberthreat
   cyberresilience: cyber resilience
-  daisy-chain|daisychain: daisy chain
   data base: database
-  datacenter|data-center|data centre|datacentre: data center
   datafile: data file
   dataflow: data flow
   datamart: data mart
@@ -218,13 +274,9 @@ swap:
   deregister: unregister
   descendent: descendant
   desire: want|required
-  desire|wish: need
-  desk top|desk-top: desktop
   destroy: delete from the database
   details pane: details view
   diagnostic tests: diagnostics
-  different than|different to: different from
-  disklabel|disk-label: disk label
   dismiss: close
   disrupter: disruptor
   domain mode: managed domain
@@ -238,15 +290,10 @@ swap:
   double-click on: double-click
   double-word: doubleword
   down time: downtime
-  down-load|down load: download
-  down-stream|down stream: downstream
-  downwards? compatible: compatible with earlier versions
   drill up: navigate
-  dualboot|dual boot: dual-boot
   dumpfile: dump file
   e-book: ebook
   e-mail: email
-  eFix|e-fix: fix|interim fix
   Elastic Load Balancer: Elastic Load Balancing
   emphasise: emphasize
   end user: user
@@ -255,23 +302,18 @@ swap:
   env: environment
   EUI: graphical user interface|interface
   evangelist: influencer|advocate|ambassador
-  executable(?! program| routine| files?): executable program
   fatal: unrecoverable
   fill in: complete|enter|specify
   finalise: finalize
   fire up: start
-  firm ware|firm-ware: firmware
   flavor: version|method
   floating-point: floating point
   fly-out: flyout
   focussed: focused
-  fore-ground|forground: foreground
   forward compatible: compatible with later versions
   freezes: hangs|stops responding
   frontend: front end|front-end
-  G11N|g11n: globalization
   gage: gauge
-  gray-scale|gray scale: grayscale
   grayed out: not displayed|unavailable
   grey: gray
   gzipped file: archive|compressed file
@@ -282,18 +324,13 @@ swap:
   hardcoded: hard-coded
   health care: healthcare
   heart beat: heartbeat
-  helpdesk|help-desk: help desk
   hence: therefore
   hit: press|type
   hostgroup: host group
   hot-line: hotline
-  hotadd|hot-add: hot add
   hotkey: hot key
-  hotplug|hot-plug: hot plug
-  hotswap|hot-swap: hot swap
   HOWTO: how-to
   hyper-converged: hyperconverged
-  i-fix|i-Fix|ifix|iFix: interim fix  
   IM: instant message
   imbed: embed
   in depth: in-depth
@@ -323,7 +360,6 @@ swap:
   L10N|l10n: localization
   labelled: labeled
   labour: labor
-  large page|super page: huge page
   last name: surname
   learnings: lessons|training events|experiences
   learnt: learned
@@ -344,7 +380,6 @@ swap:
   log off of: log off from
   log onto: log on to
   logfile: log file
-  lots of|bunches of: many
   main directory: root directory
   make file: makefile
   man day: person day
@@ -362,8 +397,6 @@ swap:
   mouse button 1: left mouse button
   mouse button 2: right mouse button
   mouse over: point to|move the mouse pointer over
-  mouse-button|mousebutton: mouse button
-  multi site|multi-site: multisite
   multi-channel: multichannel
   multi-processing: multiprocessing
   multi-tenant: multitenant
@@ -377,7 +410,6 @@ swap:
   newsfeed: news feed
   nextgen: next generation
   nonrecoverable: unrecoverable
-  nonsecure|non-secure: insecure
   notion: concept
   NWSAA: NetWare for SAA
   off-boarding: offboarding
@@ -385,13 +417,11 @@ swap:
   offline storage: auxiliary storage
   omni-channel: omnichannel
   on demand: on-demand
-  on ramp|on-ramp: access method
   on the fly: dynamically|as needed|in real time|immediately
   on the other hand: however|alternatively|conversely
   on-boarding: onboarding
   on-line: online
   op-code: opcode
-  open-source|OpenSource|opensource: open source
   openshit: OpenShift
   organise: organize
   organised: organized
@@ -409,12 +439,8 @@ swap:
   phillips screw: Phillips screw
   phillips screwdriver: Phillips screwdriver
   PL/1: PL/I
-  plaintext|plain-text|cleartext|clear text: plain text
   planar board: system board
   Plug-and-Play: plug-and-play 
-  plug-ins|plug ins: plugins
-  plug-in|plug in: plugin
-  pod cast|Podcast|Pod Cast: podcast
   pojo: data model
   pop-up list: list
   pop-up menu: menu
@@ -433,15 +459,10 @@ swap:
   programmed operator: program operator
   Programming Language/I: PL/I
   proof of concepts: proofs of concept
-  pseudo code|pseudo-code: pseudocode
-  pseudo ops|pseudoops: pseudo-ops
-  pub/sub|publish-subscribe: publish/subscribe
-  pulldown|pull down: pull-down
   read-write: read/write
   recognise: recognize
   recreate: re-create
   Red Hat Java: Red Hat build of OpenJDK
-  Red Hat OpenJDK|RHOJDK|Red Hat Open Java Development Kit: Red Hat build of OpenJDK
   regex: regular expression
   remote-access: remote access
   requestor: requester
@@ -454,12 +475,10 @@ swap:
   round table: roundtable
   round-robin task dispatching: round-robin scheduling
   rule of thumb: rule
-  run level|run-level: runlevel
   run-time: run time|runtime
   schemata: schemas
   screencap: screen capture
   screensaver: screen saver
-  scroll bar|scroll-bar: scrollbar
   second name: surname
   secondary storage: auxiliary storage
   segregate: separate
@@ -471,7 +490,6 @@ swap:
   set-up: setup
   sharename|Sharename: share name
   shift-click: press Shift and click
-  ships with|is shipped with: includes
   short cut: shortcut
   shortcut key: keyboard shortcut
   shortcut menu: menu
@@ -481,17 +499,14 @@ swap:
   signon: sign on to
   Simple Object Access Protocol: SOAP
   single signon: single sign-on
-  slave(?! broker): worker|child|helper|replica|secondary
   smartcard: smart card
   smartpaper: smart paper
   SME routine: session management exit routine
-  snapset|snapsets: snapshot set
   so long as: if|when
   sockets interface: socket interface
   socksified: SOCKS-enabled
   soft boot: restart the system
   soft copy: softcopy
-  soundcard|sound-card: sound card
   spawn: create
   specfile: spec file
   spelt: spelled
@@ -499,19 +514,16 @@ swap:
   stand-alone: standalone
   standalone mode: standalone server
   start up: start
-  straight forward|straight-forward: straightforward
   sub-command: subcommand
   sub-directory: subdirectory
   sub-menu: submenu
   sub-package: subpackage
   sunset: withdraw from service|withdraw from marketing|discontinue|no longer support
-  super-user|super user: superuser
   swapspace: swap space
   switch off: turn off
   switch on: turn on
   synch: sync|synchronize
   syncpoint: sync point
-  sysprep tool|sysprep process|sysprep function: sysprep
   system engineer: systems engineer
   tablespace: table space
   tap on: tap
@@ -520,20 +532,16 @@ swap:
   teleprocessing line: telecommunication line|transmission line
   testcase: test case
   text based: text-based
-  textmode|text-mode: text mode
   the installer: installation program
-  thin provisioned|thinly provisioned|thinly-provisioned: thin-provisioned
   third-party software vendor: independent software vendor
   thru: through|throughput
   thumb drive: USB flash drive
   thumbstick: USB flash drive
   thus: therefore
-  tier-one|tier 1: tier-1
   time box: timebox
   time line: timeline
   time stamp: timestamp
   time-out: timeout|time out
-  timeframe|time-frame: time frame
   timeslice: time slice
   timezone: time zone
   toggle off: toggle
@@ -545,7 +553,6 @@ swap:
   totalled: totaled
   touch base: contact|communicate
   touchscreen: touch-sensitive screen
-  trade-off|trade off: tradeoff
   translate: convert:transform
   trouble shoot: troubleshoot
   trust store: truststore
@@ -565,11 +572,7 @@ swap:
   unselect: clear|deselect
   untar: extract
   unzip: extract|decompress
-  up-grade|up grade: upgrade
   up-sell: upsell
-  up-selling|up selling: upselling
-  up-stream|up stream: upstream
-  up-time|up time: uptime
   updatable: can be updated|can be changed
   upgradable: upgradeable
   upward compatible: compatible with later versions
@@ -578,7 +581,6 @@ swap:
   utilize: use
   vanilla: uncustomized
   versus: compared to
-  video-mode|videomode: video mode
   virtual DOS machine: DOS session
   virtual-equals-real: nonpageable
   virtual-equals-virtual: pageable
@@ -594,11 +596,9 @@ swap:
   white hat hacker: offensive security researcher
   whitelist: allowlist
   whitepaper: white paper
-  WiFi|Wifi|wi-fi: Wi-Fi
   wild card: wildcard
   wiring closet: telecommunications closet
   wish: want
-  wish|would like: want
   work flow: workflow
   work group: workgroup
   work load: workload
@@ -608,5 +608,4 @@ swap:
   xsite: cross-site replication
   zero out: zero
   zeroes: zeros
-  zonegroup|zone-group: zone group
   Zulu time: Coordinated Universal Time
