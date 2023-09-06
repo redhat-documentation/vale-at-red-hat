@@ -1,3 +1,4 @@
+above
 as
 bare metal clusters
 bare metal compute
@@ -17,16 +18,27 @@ bare metal node
 bare metal provisioning
 bare metal server
 bare metal worker
+below
+choose
+componentization
+componentize
+consumes
+drag and drop
+higher
 information on
+launch
+legacy
 Navigate
 navigate
+once
 refer to
 segfault
 shell
 Start using this.
 This clause which is nonrestrictive
 This clause, that is restrictive
+translate
 via
 x64
-x86-64
 x86
+x86-64

@@ -1,18 +1,65 @@
 accurate
-by
-by using
+after
+and
+and so on
+camel case
 can
+change
+clear
+colocate
+colocation
+delete
+deleted
+designed
+end
+end
+ensure
+enter
+examine
+fall back
+fallback
 firmware
-from
 hostname
+import
+in languages other than English
 in-house
+incorrect
+invalid
+issue
+KB
+kB
+load
+load balance
+make the transition
 might
-on
+migrate
+move
+non-English-language
+not allowed
+obtain
 on-premise
 on-site
+open
 plugin
+preinstall
+preinstalled
+process
 repository
+roll back
+rollback
+run
+start
+start
+stop
+stop
 subscription
+such as
 tool
 tools
+upgrade
+use
+valid
+verified
+when
+you
 you

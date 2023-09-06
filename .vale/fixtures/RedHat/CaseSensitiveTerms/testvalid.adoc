@@ -9,6 +9,7 @@ AMQ Broker
 AMQ Clients
 AMQ Console
 AMQ Interconnect
+Apache Subversion
 Appliance console
 Applixware
 AsciiDoc
@@ -112,7 +113,6 @@ IBM Z
 IdM CA renewal server
 IdM server and replicas
 Ignition config
-Istio service mesh
 image builder
 inference engine
 InfiniBand
@@ -128,9 +128,11 @@ IPv6
 ISeries
 ISO
 ISO image
+Istio service mesh
 Itanium
 Itanium 2
 JAR file
+Javadoc
 JBang
 JBoss Community
 JBoss EAP
@@ -183,6 +185,7 @@ O-RAN
 object class
 objectClass
 Objective C
+OK
 OKD
 OpenID Connect
 OpenRewrite

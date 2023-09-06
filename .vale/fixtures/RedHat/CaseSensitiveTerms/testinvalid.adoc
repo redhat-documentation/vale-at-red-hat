@@ -30,6 +30,7 @@ Basic Auth
 basic authentication
 Basic Authentication
 BC
+Bean
 Bios
 blue print
 Blue Store
@@ -205,6 +206,7 @@ iso
 Istio Service Mesh
 Itanium2
 jar file
+javadoc
 jbang
 Jbang
 JBoss
@@ -299,6 +301,9 @@ OCM
 OCP
 OD
 ODF
+ok
+OK button
+okay
 okd
 On-Demand Marketplace
 OO
@@ -448,6 +453,7 @@ startTLS
 StartX
 STI
 SU
+sub version
 Subscription manifest
 Sys V
 system d

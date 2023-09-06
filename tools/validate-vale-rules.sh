@@ -43,7 +43,7 @@ RuleMarkup() {
     fi
     if [ $INVALIDGAP -eq 0 ]
     then
-        true //no errors
+        true #no errors
     else
         #handle error count or "//vale-fixture" string count mismatches
         TOTAL=$(( TOTAL + INVALIDGAP ))
@@ -51,7 +51,7 @@ RuleMarkup() {
         then
             TOTAL=$((TOTAL * -1))
         fi
-        echo "$TOTAL ERROR(s) in $DIR/testinvalid.adoc / .vale/styles/$DIR.yml"    
+        echo "$TOTAL ERROR(s) in $DIR/testinvalid.adoc / .vale/styles/$DIR.yml"
     fi
 }
 

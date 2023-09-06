@@ -1,79 +1,127 @@
+10BASE-2
+10BASET
+24/7
+32-bit Windows operating system
 a lot
-a lot of
 a number of
-a phone
-a S 390
-a transition
 abort
+ac
+accelerator key
+acknowledgement
+ad-hoc
+adapter card
+adaptor
+addon
 administrate
-advisor
+adviser
+afterwards
 AI
 air wall
+aka
 all caps
 all right
+alphanumerical
 alright
+am
+amongst
+analogue
 analyse
-and/or
+anticlockwise
 appendices
+application program interface
+artefact
+article-based information
 as long as
 as per
 autodetect
+back slash
 back-level
-backward-compatible
-basic auth
+back-up
+backside
+backwards compatible
+barcode
+bench-mark
+best of breed
+best-of-breed
 bi-monthly
 bi-weekly
+Bidi
 Big Blue
+bit map
+bitfield
+bitness
+bitrate
+bitstring
+black hat hacker
+blacklist
 blink
 blue screen of death
 boot diskette
 bootloader
 bottle neck
-bottle-neck
-bottom-left
-bottom-right
-bottomleft
-bottomright
+bottom left
+bottom right
 breadcrumbing
+break point
+bring up
 broad cast
 broad-cast
+bufferpool
 bugfix
-built in
 builtin
 bunches of
 burner
+busmaster
+busses
 byte code
+call out
+call-out
+Camelcase
+CamelCase
+can not
+cancelation
+cancelled
+cancelling
 canned
+cardreader
+carry out
 case insensitive
+catalogue
 catastrophic error
 CBE
 CBTS
 CD burner
 centre
-chip specific
+check box
+check list
+check mark
+check-out
+checkin
+chipset
+Christian name
+chronologic
 cipher text
-cipher-text
 clear text
 cleartext
+click on
+client-server
 cloud-bursting
 cloud-washing
-co-locate
+codepage
+codepoint
+codeset
 cold backup
 cold boot
 cold start
-collocate
-colour
+colours
+combo box
 comes with
 comma delimited
-comma delimited values
-comma separated values
-comma-delimited values
-commadelimited
+comma separated
 command driven
 command-language
 commanddriven
-componentization
-componentize
+CommServer
 comprised of
 computer farm
 computer ranch
@@ -82,339 +130,258 @@ container based
 containerised
 context menu
 contextual help
-control-click
+control point logical unit
+controlling logical unit
+convertor
+copy book
 cross platform
+cross reference
 cross site scripting
 crossplatform
-Ctrl-click
+cyber attack
+cyber attacker
+cyber crime
+cyber defense
+cyber hacker
+cyber intelligence
+cyber security
+cyber space
+cyber terror
+cyber threat
+cyberresilience
 cypher text
-cypher-text
-cyphertext
 daisy-chain
 daisychain
-data centre
-data-center
-data-mirroring
-datacenter
+data base
 datacentre
+datafile
+dataflow
+datamart
 datamirroring
 datapath
+datapool
+dataset
+datasheet
 datum
+daylight savings time
+dc
+DDNAME
+de-bias
 de-bug
-debuggable
 deconfigure
 deinstall
 deinstallation
 demilitarized zone
 demon
+demount
 deployment configuration
 depress
 deregister
+descendent
 desire
 desk top
 desk-top
 destroy
 details pane
+diagnostic tests
 different than
 different to
 disk-label
 disklabel
-dismount
+dismiss
+disrupter
 domain mode
 domain-name
-domainname
-down load
-down stream
-down-level
+DOS environment
+dotted-decimal
+double byte
+double click
+double quote
+double word
+double-click on
+double-word
+down time
 down-load
 down-stream
-downgrade
-downward compatible
-drag and drop
+downwards compatible
 drill up
 dual boot
 dualboot
+dumpfile
+e-book
 e-fix
-e.g.
+e-mail
 eFix
-eg
 Elastic Load Balancer
 emphasise
 end user
 end-user interface
 enum
 env
-etc
 EUI
+evangelist
+executable
+fatal
 fill in
 finalise
+fire up
 Firefox
 firm ware
 firm-ware
+first name
 fixed disk drive
 flavor
 floating-point
 floppy
 floppy disk
 floppy drive
+fly-out
 focussed
 fore-ground
+forename
 forground
 forward compatible
-gray scale
+freezes
+frontend
+G11N
+g11n
+gage
 gray-scale
-gzip
-gzipped
+grayed out
+grey
+gzipped file
+hard boot
+hard copy
 hard drive
 hard file
 hardcode
 hardcoded
-health-check
+health care
 healthcheck
+heart beat
 help-desk
 helpdesk
 hence
-hosted engine
-hosted engine host
-hosted engine node
+hit
 hosted-engine
-hosted-engine host
-hosted-engine node
 hostgroup
 hot-add
 hot-line
 hot-plug
 hot-swap
 hotadd
+hotkey
 hotplug
 hotswap
+HOWTO
 hyper-converged
 i-fix
 i-Fix
-i.e.
-IBM's
-ie
 ifix
 iFix
+IM
+imbed
+in depth
+in line
 in order to
 in other words
 in spite of
 in the event
+in-line
 inactivate
+incent
+incentivize
+inch pound
 information technology
-insure
+initial caps
 Internet address
-IPI
-irrecoverable
-keep in mind
-kernelspace
-labour
-large page
-launch
-learnt
-leave out
-left-hand
-leverage
-line cord
-Linux specific
-live broker
-live only
-load-balance
-load-balancing
-look at
-lots of
-main directory
-make sure
-manpage
-mash up
-mashup
-matrices
-memory stick
-menu driven
-menudriven
-microcomputer
-motherboard
-mouse over
-mouse-button
-mousebutton
-multi site
-multi-processing
-multi-site
-multi-tenant
-network-centric computing
-non-English
-non-secure
-nonrecoverable
-nonsecure
-notion
-offline storage
-OK button
-okay
-on ramp
-on the fly
-on the other hand
-on-ramp
-oops
-op-code
-open-source
-OpenShit
-OpenSource
-opensource
-organise
-organised
-organising
-over ride
-over-ride
-pain point
-parent task
-passive broker
-perfcounter
-perimeter network
-phone
-plain-text
-plaintext
-plug in
-plug ins
-pojo
-pop-up blocker
-pop-up killer
-power down
-power off
-power on
-preload
-preloaded
-prepend
-proof of concepts
-pseudo ops
-pseudoops
-pull-down
-re-occur
-recognise
-Red Hat Java
-Red Hat java
-Red Hat Open Java Development Kit
-Red Hat OpenJDK
-regex
-remote-access
-remote-access server
-reoccur
-RHOJDK
-right double-click
-right now
-right-hand
-round table
-rule of thumb
-run level
-run-level
-S 390
-sanity check
-sanity test
-screensaver
-scroll bar
-scroll-bar
-secondary storage
-selection button
-self-hosted engine host
-send out
-serial database
-sharename
-Sharename
-shift-click
-ship
-Simple Object Access Protocol
-single quote
-single quote mark
-SME routine
+Intranet
+invoke
 snapset
 snapsets
-sort-merge
-sort/merge
+so long as
+sockets interface
+socksified
+soft boot
+soft copy
 sound-card
 soundcard
+spawn
 specfile
 spelt
+spend
 stand-alone
 standalone mode
 start up
-straight forward
 straight-forward
-sub version
 sub-command
 sub-directory
 sub-menu
 sub-package
-subversion
 sunset
 super page
 super user
-super-user
 swapspace
 switch off
 switch on
+synch
 sysprep function
-sysprep process
-sysprep tool
+system engineer
+tablespace
+tap on
+tar file
 tarball
-terminate
+TCP/IP network
+teleprocessing line
+testcase
 text based
-text-mode
 textmode
 the installer
-the transition
 thin provisioned
-thinly provisioned
-thinly-provisioned
+third-party software vendor
 thru
+thumb drive
 thumbstick
 Thunderbird
 thus
 tier 1
 tier-one
-time-frame
+time box
+time line
+time stamp
+time-out
 timeframe
+timeslice
+timezone
 toggle off
-top-left
-top-right
-topleft
-topright
+tool bar
+tool box
+tool kit
+tool tip
+ToolTip
+totalled
+touch base
 touchscreen
-transition
+trade-off
+translate
+trouble shoot
 trust store
+try and
+twisty
+TY-RAP
 typo
+un-install
+unallocate
 uncheck
+uncompilation
+uncompile
 uncompress
 undeploy
+underbar
+unencrypt
 unselect
 untar
 unzip
 up grade
-up selling
-up stream
-up time
-up-grade
 up-sell
 up-selling
-up-stream
-up-time
-UPI
-upward compatible
-utilize
-versus
-video-mode
-videomode
-virtual diskette
-virtual diskette drive
-virtual hard disk
-vs
-vs.
-warning notice
-web-enable
-wish
-would like
-xsite
-zero out
-zone-group
-zonegroup
-kilobytes
-do it w/ stuff.
-do it w/o stuff.
