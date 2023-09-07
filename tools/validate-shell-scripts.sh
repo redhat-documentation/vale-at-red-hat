@@ -7,6 +7,7 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
+
 set -e
 if [ -z "${GITHUB_BASE_REF}" ]
     then 

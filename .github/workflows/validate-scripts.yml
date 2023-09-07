@@ -1,0 +1,21 @@
+---
+name: Validate scripts
+
+on:
+  pull_request:
+    paths:
+      - tools/**
+jobs:
+  validate-rules:
+    name: Validate scripts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0 # enable git diff and building many branches
+      - name: Validate scripts
+        run: |
+          chmod +x tools/validate-shell-scripts.sh
+          ./tools/validate-shell-scripts.sh
