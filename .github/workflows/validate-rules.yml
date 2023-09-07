@@ -1,0 +1,29 @@
+---
+name: Validate Vale rules
+
+on:
+  pull_request:
+    paths:
+      - .vale/styles/**/*
+      - .vale/fixtures/**/*
+
+jobs:
+  validate-rules:
+    name: Validate rules
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: Install Vale and validate rules
+        run: |
+          sudo gem install asciidoctor
+          curl -s https://api.github.com/repos/errata-ai/vale/releases/latest | grep "browser_download_url.*Linux_64-bit.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
+          mkdir bin && tar -xvzf *Linux_64-bit.tar.gz -C bin
+          export PATH=./bin:"$PATH"
+          vale -v
+          chmod +x tools/validate-vale-rules.sh
+          ./tools/validate-vale-rules.sh

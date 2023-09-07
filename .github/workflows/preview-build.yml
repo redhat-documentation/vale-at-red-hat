@@ -62,11 +62,6 @@ jobs:
           retention-days: 7
       - name: Validate internal and external links
         run: htmltest
-      - name: Validate vale rules
-        id: validate-rules
-        run: tools/validate-vale-rules.sh
       - name: Validate language changes
         run: |
           tools/validate-language-changes.sh
-      - name: Validate shell scripts changes
-        run: tools/validate-shell-scripts.sh
