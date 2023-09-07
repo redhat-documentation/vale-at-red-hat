@@ -7,6 +7,7 @@ message: "Use simple language. Consider using '%s' rather than '%s'."
 action:
   name: replace
 swap:
+  "(?<!an |the |IP |IPv[46] |MAC |sub-)address": discuss
   "approximate(?:ly)?": about
   "objective(?! C?)": aim|goal
   absent: none|not here
@@ -21,7 +22,6 @@ swap:
   accurate: right|exact
   acquiesce: agree
   acquire: get|buy
-  "(?<!an |the |IP |IPv[46] |MAC )address": discuss
   addressees: you
   adjacent to: next to
   adjustment: change

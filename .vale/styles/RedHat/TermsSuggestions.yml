@@ -23,6 +23,7 @@ swap:
   '(?<!\.)zip file': '.zip file'
   above: later|previous|preceding
   afterwards: afterward
+  afterwards: afterward
   all caps: uppercase
   below: earlier|later|following
   bottom left: lower left
