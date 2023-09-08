@@ -1,5 +1,4 @@
 above
-as
 bare metal clusters
 bare metal compute
 bare metal configuration
