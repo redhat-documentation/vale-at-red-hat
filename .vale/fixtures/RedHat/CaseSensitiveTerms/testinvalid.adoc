@@ -484,6 +484,7 @@ vcpu
 VI
 vim
 VIM
+IM
 Virtual Console
 Virtual Desktop Server Management
 Virtual Machine Portal

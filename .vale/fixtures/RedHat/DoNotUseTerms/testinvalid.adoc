@@ -1,7 +1,6 @@
 ACK
 basically
 congratulations
-devs
 foo
 fubar
 future-proof
@@ -17,6 +16,5 @@ resides
 respective
 respectively
 time-tested
-we
 debuggable
 and/or

@@ -14,11 +14,9 @@ adaptor
 addon
 administrate
 adviser
-afterwards
 AI
 air wall
 aka
-all caps
 all right
 alphanumerical
 alright
@@ -59,15 +57,12 @@ blue screen of death
 boot diskette
 bootloader
 bottle neck
-bottom left
-bottom right
 breadcrumbing
 break point
 bring up
 broad cast
 broad-cast
 bufferpool
-bugfix
 builtin
 bunches of
 burner
@@ -78,7 +73,6 @@ call out
 call-out
 Camelcase
 CamelCase
-can not
 cancelation
 cancelled
 cancelling
@@ -103,7 +97,6 @@ chronologic
 cipher text
 clear text
 cleartext
-click on
 client-server
 cloud-bursting
 cloud-washing
@@ -178,7 +171,6 @@ deployment configuration
 depress
 deregister
 descendent
-desire
 desk top
 desk-top
 destroy
@@ -195,10 +187,8 @@ domain-name
 DOS environment
 dotted-decimal
 double byte
-double click
 double quote
 double word
-double-click on
 double-word
 down time
 down-load
@@ -220,7 +210,6 @@ enum
 env
 EUI
 evangelist
-executable
 fatal
 fill in
 finalise
@@ -242,7 +231,6 @@ forename
 forground
 forward compatible
 freezes
-frontend
 G11N
 g11n
 gage
@@ -262,7 +250,6 @@ heart beat
 help-desk
 helpdesk
 hence
-hit
 hosted-engine
 hostgroup
 hot-add
@@ -279,11 +266,9 @@ i-fix
 i-Fix
 ifix
 iFix
-IM
 imbed
 in depth
 in line
-in order to
 in other words
 in spite of
 in the event
@@ -301,7 +286,6 @@ io
 IPI
 irrecoverable
 is shipped with
-jar
 JavaBean
 joblog
 jobstream
@@ -442,8 +426,8 @@ proof of concepts
 pseudo code
 pseudo ops
 pseudoops
-publish-subscribe
 pub/sub
+publish-subscribe
 pull down
 read-write
 recognise
@@ -455,7 +439,6 @@ regex
 remote-access
 requestor
 RHOJDK
-right double-click
 right now
 right-hand
 right-justified
@@ -482,7 +465,6 @@ serial database
 serverside
 set-up
 Sharename
-shift-click
 ships with
 short cut
 shortcut key
@@ -507,13 +489,11 @@ soft boot
 soft copy
 sound-card
 soundcard
-spawn
 specfile
 spelt
 spend
 stand-alone
 standalone mode
-start up
 straight-forward
 sub-command
 sub-directory
@@ -530,8 +510,6 @@ sysprep function
 system engineer
 tablespace
 tap on
-tar file
-tarball
 TCP/IP network
 teleprocessing line
 testcase
@@ -540,6 +518,7 @@ textmode
 the installer
 thin provisioned
 third-party software vendor
+This vs. that.
 thru
 thumb drive
 thumbstick
@@ -604,7 +583,6 @@ virtual DOS machine
 virtual hard disk
 virtual-equals-real
 virtual-equals-virtual
-vs
 w/ this
 w/o
 wait condition
@@ -634,6 +612,5 @@ XSA
 xsite
 zero out
 zeroes
-zip file
 zonegroup
 Zulu time

@@ -1,7 +1,7 @@
 ---
 extends: substitution
 ignorecase: true
-level: error
+level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/donotuse/
 message: "%s"
 swap:
@@ -14,7 +14,6 @@ swap:
   basically: 'Do not use "basically". "Basically" is another term for "in principle" or "fundamentally".'
   congratulations: 'Do not use "congratulations" in technical information."'
   debuggable: 'Do not use "debuggable". Rephrase the sentence to use the verb or noun debug. For example, change rebuild the debuggable version to rebuild the version that can be debugged.'
-  devs?: 'Do not use "dev" as a synonym for development or developer.'
   foo: 'Do not use "foo". This term is technical jargon in code and as shorthand for fubar, an acronym of profanity in code.'
   fubar: 'Do not use "fubar". This term is an acronym of a profanity that is sometimes used by developers in code.'
   kerberize|kerberized: 'Do not use "kerberize" to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled", or rewrite the sentence.'
@@ -25,4 +24,3 @@ swap:
   resides: 'Do not use "resides" if a simpler verb is possible.'
   respective|respectively: 'Do not use "respective" or "respectively". Rewrite to avoid using these words.'
   time-tested: 'Do not use "time-tested". Time-tested implies a claim of suitability or reliability.'
-  we: 'Do not use "we" to refer to Red Hat or to refer collectively to both the authors and the audience.'

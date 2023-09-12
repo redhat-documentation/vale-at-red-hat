@@ -7,17 +7,24 @@ message: "Consider using '%s' rather than '%s' unless updating existing content 
 action:
   name: replace
 swap:
+  "(?:Ctrl|control)-click": press Ctrl and click
   "(?<!make the )transition": "make the transition|move|migrate|change"
   "non-English(?!-language?)": in languages other than English|non-English-language
   '(?<!.-)like': such as
+  '(?<!\/)etc(?!\/)': and so on
   'I(?!/O)': you
   architected: designed
   as well as(?! per): and
   BIOS: firmware
+  click on: click
   co-locate|collocate: colocate
   co-location: colocation
   deselect: clear
+  desired: required
+  desire|wish: need|want
   destroy|destroyed: delete|deleted
+  double click: double-click
+  double-click on: double-click
   downgrade: upgrade|fallback|fall back|rollback|roll back
   entitlement: repository|subscription
   execute: run|issue|start|enter
@@ -37,6 +44,8 @@ swap:
   plug-in: plugin
   preload: preinstall
   preloaded: preinstalled
+  right double-click: double right-click
   sane: accurate|valid|verified
+  shift-click: press Shift and click
   terminate: end|stop
   tooling: tool|tools
