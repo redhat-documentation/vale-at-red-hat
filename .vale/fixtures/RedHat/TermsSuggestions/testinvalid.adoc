@@ -1,4 +1,6 @@
 above
+afterwards
+all caps
 bare metal clusters
 bare metal compute
 bare metal configuration
@@ -18,22 +20,36 @@ bare metal provisioning
 bare metal server
 bare metal worker
 below
+bottom left
+bottom right
+bugfix
+can not
 choose
 componentization
 componentize
 consumes
 drag and drop
+executable
+frontend
+gzip
 higher
+hit
+in order to
 information on
+jar
 launch
 legacy
 Navigate
-navigate
 once
 refer to
 segfault
 shell
+spawn
+start up
 Start using this.
+tar
+tar file
+tarball
 This clause which is nonrestrictive
 This clause, that is restrictive
 translate
@@ -41,3 +57,5 @@ via
 x64
 x86
 x86-64
+zip
+zip file
