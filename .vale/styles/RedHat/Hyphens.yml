@@ -8,6 +8,7 @@ action:
   name: replace
 # swap maps tokens in the form "bad: good"
 swap:
+  '(?<!.-)addon': add-on
   'broad cast|broad-cast': broadcast
   'call out|call-out': callout
   'comma delimited|commadelimited': comma-delimited

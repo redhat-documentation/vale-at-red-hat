@@ -8,7 +8,6 @@ accelerator key
 acknowledgement
 adapter card
 adaptor
-addon
 administrate
 adviser
 AI
