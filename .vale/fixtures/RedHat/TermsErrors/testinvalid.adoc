@@ -1,14 +1,11 @@
-10BASE-2
 10BASET
 24/7
-32-bit Windows operating system
 a lot
 a number of
 abort
 ac
 accelerator key
 acknowledgement
-ad-hoc
 adapter card
 adaptor
 addon
@@ -28,21 +25,14 @@ anticlockwise
 appendices
 application program interface
 artefact
-article-based information
 as long as
 as per
 autodetect
 back slash
-back-level
-back-up
 backside
 backwards compatible
 barcode
-bench-mark
 best of breed
-best-of-breed
-bi-monthly
-bi-weekly
 Bidi
 Big Blue
 bit map
@@ -60,8 +50,6 @@ bottle neck
 breadcrumbing
 break point
 bring up
-broad cast
-broad-cast
 bufferpool
 builtin
 bunches of
@@ -69,8 +57,6 @@ burner
 busmaster
 busses
 byte code
-call out
-call-out
 Camelcase
 CamelCase
 cancelation
@@ -89,17 +75,12 @@ centre
 check box
 check list
 check mark
-check-out
-checkin
 chipset
 Christian name
 chronologic
 cipher text
 clear text
 cleartext
-client-server
-cloud-bursting
-cloud-washing
 codepage
 codepoint
 codeset
@@ -109,17 +90,11 @@ cold start
 colours
 combo box
 comes with
-comma delimited
-comma separated
-command driven
-command-language
-commanddriven
 CommServer
 comprised of
 computer farm
 computer ranch
 connect with
-container based
 containerised
 context menu
 contextual help
@@ -127,10 +102,6 @@ control point logical unit
 controlling logical unit
 convertor
 copy book
-cross platform
-cross reference
-cross site scripting
-crossplatform
 cyber attack
 cyber attacker
 cyber crime
@@ -143,8 +114,6 @@ cyber terror
 cyber threat
 cyberresilience
 cypher text
-daisy-chain
-daisychain
 data base
 datacentre
 datafile
@@ -159,8 +128,6 @@ datum
 daylight savings time
 dc
 DDNAME
-de-bias
-de-bug
 deconfigure
 deinstall
 deinstallation
@@ -171,41 +138,26 @@ deployment configuration
 depress
 deregister
 descendent
-desk top
-desk-top
-destroy
 details pane
 diagnostic tests
 different than
 different to
-disk-label
-disklabel
 dismiss
 disrupter
 domain mode
-domain-name
 DOS environment
-dotted-decimal
-double byte
 double quote
 double word
-double-word
 down time
-down-load
-down-stream
 downwards compatible
 drill up
 dual boot
 dualboot
 dumpfile
-e-book
-e-fix
-e-mail
 eFix
 Elastic Load Balancer
 emphasise
 end user
-end-user interface
 enum
 env
 EUI
@@ -215,26 +167,19 @@ fill in
 finalise
 fire up
 Firefox
-firm ware
-firm-ware
 first name
 fixed disk drive
 flavor
-floating-point
 floppy
 floppy disk
 floppy drive
-fly-out
 focussed
-fore-ground
 forename
-forground
 forward compatible
 freezes
 G11N
 g11n
 gage
-gray-scale
 grayed out
 grey
 gzipped file
@@ -247,32 +192,15 @@ hardcoded
 health care
 healthcheck
 heart beat
-help-desk
-helpdesk
 hence
-hosted-engine
 hostgroup
-hot-add
-hot-line
-hot-plug
-hot-swap
-hotadd
 hotkey
-hotplug
-hotswap
 HOWTO
-hyper-converged
-i-fix
-i-Fix
-ifix
-iFix
 imbed
 in depth
-in line
 in other words
 in spite of
 in the event
-in-line
 inactivate
 incent
 incentivize
@@ -331,28 +259,16 @@ memory stick
 menu driven
 menubar
 menudriven
-meta data
-meta-data
 microcomputer
 motherboard
 mountpoint
 mouse button 1
 mouse button 2
 mouse over
-mouse-button
-mousebutton
-multi site
-multi-channel
-multi-processing
-multi-site
-multi-tenant
-multi-tier
-multi-tiered
 multijobbing
 MV
 nameserver
 network-centric computing
-new-line
 newsfeed
 nextgen
 non-secure
@@ -360,28 +276,19 @@ nonrecoverable
 nonsecure
 notion
 NWSAA
-off-boarding
-off-load
 offline storage
-omni-channel
 on demand
 on ramp
 on the fly
 on the other hand
-on-boarding
-on-line
 on-ramp
 oops
-op-code
-open-source
 OpenShit
 ops
 organise
 organised
 organising
 orientate
-over ride
-over-ride
 pain point
 parent task
 parent/child
@@ -397,11 +304,7 @@ PL/1
 plain-text
 plaintext
 planar board
-plug in
-plug ins
 Plug-and-Play
-plug-in
-plug-ins
 pm
 Pod Cast
 Podcast
@@ -411,9 +314,6 @@ pop-up menu
 pop-up window
 pops up
 pow wow
-power down
-power up
-poweroff
 poweron
 practise
 preventative
@@ -423,20 +323,14 @@ program product
 programmed operator
 Programming Language/I
 proof of concepts
-pseudo code
-pseudo ops
-pseudoops
 pub/sub
 publish-subscribe
-pull down
 read-write
 recognise
-recreate
 Red Hat Java
 Red Hat Open Java Development Kit
 Red Hat OpenJDK
 regex
-remote-access
 requestor
 RHOJDK
 right now
@@ -447,8 +341,6 @@ right-most
 round table
 round-robin task dispatching
 rule of thumb
-run level
-run-time
 S 390
 sanity check
 schemata
@@ -462,8 +354,6 @@ segregation
 selection button
 send out
 serial database
-serverside
-set-up
 Sharename
 ships with
 short cut
@@ -476,7 +366,6 @@ signon
 Simple Object Access Protocol
 single quote
 single signon
-slave
 smartcard
 smartpaper
 SME routine
@@ -487,38 +376,24 @@ sockets interface
 socksified
 soft boot
 soft copy
-sound-card
-soundcard
 specfile
 spelt
 spend
-stand-alone
 standalone mode
-straight-forward
-sub-command
-sub-directory
-sub-menu
-sub-package
 sunset
 super page
-super user
 swapspace
 switch off
-switch on
 synch
 sysprep function
 system engineer
 tablespace
-tap on
 TCP/IP network
 teleprocessing line
 testcase
-text based
-textmode
 the installer
 thin provisioned
 third-party software vendor
-This vs. that.
 thru
 thumb drive
 thumbstick
@@ -529,8 +404,6 @@ tier-one
 time box
 time line
 time stamp
-time-out
-timeframe
 timeslice
 timezone
 toggle off
@@ -542,7 +415,6 @@ ToolTip
 totalled
 touch base
 touchscreen
-trade-off
 translate
 trouble shoot
 trust store
@@ -550,7 +422,6 @@ try and
 twisty
 TY-RAP
 typo
-un-install
 unallocate
 uncheck
 uncompilation
@@ -562,12 +433,6 @@ unencrypt
 unselect
 untar
 unzip
-up grade
-up-sell
-up-selling
-up-stream
-up-time
-updatable
 upgradable
 UPI
 upward compatible
@@ -576,13 +441,10 @@ useable
 utilize
 vanilla
 versus
-video-mode
 virtual diskette
 virtual diskette drive
 virtual DOS machine
 virtual hard disk
-virtual-equals-real
-virtual-equals-virtual
 w/ this
 w/o
 wait condition
@@ -593,12 +455,10 @@ warning notice
 web cast
 web master
 web site
-web-enable
 webmistress
 white hat hacker
 whitelist
 whitepaper
-wi-fi
 wild card
 wiring closet
 wish

@@ -61,7 +61,7 @@ swap:
   asciidoc|Asciidoc: AsciiDoc
   assertj|Assertj: AssertJ
   auto-link|AutoLink: autolink
-  basic authentication|Basic Authentication|basic auth|Basic auth|Basic Auth: Basic HTTP authentication (first instance)|Basic authentication
+  basic authentication|Basic Authentication|basic auth|Basic auth|Basic Auth: Basic HTTP authentication|Basic authentication
   BC: Business Central
   Bean: bean
   Bios: BIOS
@@ -138,10 +138,12 @@ swap:
   HTTP interface: management console
   hyperthreading|hyper-threading: Hyper-Threading
   HyperVisor|Hyperviser: hypervisor
+  i-fix|i-Fix|ifix|iFix: interim fix
   IA64|ia64: Itanium
   IBM z Systems: IBM Z
   Ignite|Fuse Ignite: Fuse Online|Red Hat Fuse Online|Syndesis
   ignition config: Ignition config
+  IM: instant message
   Image Builder: image builder
   INSTALL_DIR|installDir: FUSE_HOME
   Iops|IOPs: IOPS
@@ -302,6 +304,7 @@ swap:
   web-UI|webUI: web UI
   Webauthn|webAuthn|WebAuthN: WebAuthn
   websocket|Websocket: WebSocket
+  WiFi|Wifi|wi-fi: Wi-Fi
   Window-Maker|WindowMaker: Window Maker
   Xemacs: XEmacs
   xplat-cli|x-plat-cli|xplat cli|x-plat cli|X-PLAT CLI|X-PLAT-CLI|XPLAT-CLI|XPLAT CLI: Microsoft Azure Cross-Platform Command-Line Interface

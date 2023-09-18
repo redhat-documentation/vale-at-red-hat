@@ -1,12 +1,11 @@
+all caps
 architected
+are updatable
 as well as
 BIOS
 click on
-co-locate
-co-location
-collocate
+Ctrl-click
 deselect
-desire
 desired
 destroy
 destroyed
@@ -20,29 +19,33 @@ he
 host name
 I
 illegal
+in order to
 ingests
 insure
+is updatable
 kill
 kilobytes
 launch
 leverage
 like
-load-balance
-load-balancing
 look at
 may
 non-English
 on premise
 on-prem
 on-premises
-plug-in
 preload
 preloaded
-right double-click
 right double-click
 sane
 she
 shift-click
+spawn
+start up
+switch on
+tap on
+tarball
 terminate
 tooling
 transition
+vs

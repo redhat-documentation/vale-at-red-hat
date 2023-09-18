@@ -2,6 +2,7 @@
 /etc/
 10BASE-T
 10BASE2
+12.00 AM
 24x7
 a or b
 a, b, or both
@@ -15,7 +16,6 @@ add a prefix to
 add-on
 administer
 advisor
-I am
 advocate
 afterward
 air gap
@@ -297,6 +297,7 @@ how-to
 however
 huge page
 hyperconverged
+I am
 I/O
 IBM
 IBM S/390

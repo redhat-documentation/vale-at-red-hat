@@ -181,11 +181,16 @@ hyper-threading
 hyperthreading
 Hyperviser
 HyperVisor
+i-fix
+i-Fix
 ia64
 IA64
 IBM z Systems
+ifix
+iFix
 Ignite
 ignition config
+IM
 Image Builder
 Infiniband
 INSTALL_DIR
@@ -484,7 +489,6 @@ vcpu
 VI
 vim
 VIM
-IM
 Virtual Console
 Virtual Desktop Server Management
 Virtual Machine Portal
@@ -516,6 +520,9 @@ WebAuthN
 Websocket
 websocket
 webUI
+wi-fi
+WiFi
+Wifi
 Window-Maker
 WindowMaker
 x-plat cli
