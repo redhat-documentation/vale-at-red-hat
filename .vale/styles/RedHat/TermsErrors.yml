@@ -30,7 +30,6 @@ swap:
   '(?<!-)pm': PM
   '(?<!-|I )am': AM
   '(?<!.)io': I/O
-  '(?<!.-)addon': add-on
   '(?<!IBM\s)S\/390|S90|S\s390': IBM S/390
   '(?<!pseudo-)ops': operations
   '(?<!self-)hosted engine|hosted-engine': self-hosted engine
