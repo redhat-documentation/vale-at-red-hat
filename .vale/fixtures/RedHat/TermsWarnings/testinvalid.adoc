@@ -25,7 +25,6 @@ insure
 is updatable
 kill
 kilobytes
-launch
 leverage
 like
 look at

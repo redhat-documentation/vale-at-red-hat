@@ -43,7 +43,6 @@ swap:
   insure: ensure
   kill: end|stop
   kilobytes?: KB|kB
-  launch: start|open
   leverage: use
   look at: examine
   may: might|can
