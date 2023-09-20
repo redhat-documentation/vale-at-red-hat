@@ -1,0 +1,17 @@
+:navtitle: Hyphens
+:keywords: reference, rule, hyphens
+
+= Hyphens
+
+In most cases, do not use a hyphen to connect a prefix to a word.
+
+[NOTE]
+====
+To determine whether to hyphenate, consult the Red Hat supplementary style guide for product documentation, the Word usage list and Hyphens sections in IBM Style, and the Merriam-Webster dictionary.
+====
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Prefixes and suffixes, p.80]
+* link:{ibmsg-url}?topic=grammar-prefixes[{ibmsg} - Hyphens]
+
