@@ -4,13 +4,16 @@ extends: spelling
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/spelling/
 message: "Use correct American English spelling. Did you really mean '%s'?"
-# source: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/spelling/
 # A "filter" is a case-sensitive regular expression specifying words to ignore during spell checking.
 # Spelling rule applies to individual words
+# There is no need to add plural forms (s?) to th regex
 filters:
   - "[aA]ccessor"
   - "[aA]llowlist"
+  - "[aA]utogenerate"
+  - "[aA]utoinstall"
   - "[aA]utomount"
+  - "[aA]utonumber"
   - "[aA]utostart"
   - "[bB]ackfilling"
   - "[bB]ackported"
@@ -27,7 +30,11 @@ filters:
   - "[cC]olocate"
   - "[cC]olocation"
   - "[cC]onfig"
+  - "[cC]orequisite"
   - "[cC]ustomizer"
+  - "[cC]yberattack"
+  - "[cC]ybercrime"
+  - "[cC]ybersecurity"
   - "[dD]atasource"
   - "[dD]eclaratively"
   - "[dD]ecompiler"
@@ -42,6 +49,7 @@ filters:
   - "[dD]ownstream"
   - "[dD]ownstreaming"
   - "[eE]xposal"
+  - "[eE]xtrapartition"
   - "[Ff]actories"
   - "[Ff]actory"
   - "[fF]ailback"
@@ -49,7 +57,7 @@ filters:
   - "[fF]indability"
   - "[gG]bps"
   - "[gG]it"
-  - "[gG]locks?"
+  - "[gG]lock"
   - "[gG]radle"
   - "[gG]rafana"
   - "[hH]ardcoding"
@@ -57,6 +65,10 @@ filters:
   - "[hH]ostname"
   - "[hH]yperconverged"
   - "[iI]node"
+  - "[iI]ntranode"
+  - "[iI]ntrapartition"
+  - "[iI]ntrarecord"
+  - "[iI]ntrasystem"
   - "[iI]tem"
   - "[jJ]et[bB]rains"
   - "[jJ]ournald"
@@ -66,41 +78,74 @@ filters:
   - "[kK]eylime"
   - "[kK]eyring"
   - "[kK]eyrings"
-  - "[kK]eytabs?"
+  - "[kK]eytab"
   - "[lL]ibvirt"
   - "[lL]icensor"
   - "[lL]iquibase"
   - "[lL]iveness"
   - "[lL]oopback"
+  - "[mM]acrostructure"
   - "[mM]atrixes"
   - "[mM]ebibytes"
+  - "[mM]etaclass"
+  - "[mM]etafile"
   - "[mM]etamodel"
+  - "[mM]etatable"
   - "[mM]iddleware"
   - "[mM]illicores"
+  - "[mM]inicourse"
+  - "[mM]inidisk"
   - "[mM]ixin"
   - "[mM]ixins"
   - "[mM]odularization"
   - "[Mm]onospace"
+  - "[mM]ulticloud"
   - "[mM]ulticluster"
+  - "[mM]ultifactor"
   - "[mM]ultihost"
   - "[mM]ultinode"
   - "[mM]ultipath"
+  - "[mM]ultipoint"
+  - "[mM]ultisite"
+  - "[mM]ultitable"
   - "[mM]ultitenant"
   - "[mM]ultithread"
+  - "[mM]ultitiered"
   - "[mM]ultiuser"
+  - "[mM]ultivendor"
   - "[mM]ultizone"
   - "[nN]amespace"
   - "[nN]amespaces"
+  - "[nN]onheap"
+  - "[nN]oninteractive"
+  - "[nN]onpaired"
+  - "[nN]onsystem"
+  - "[oO]ffboarding"
+  - "[oO]mnichannel"
   - "[oO]nboarding"
   - "[oO]perator"
   - "[oO]verridable"
+  - "[oO]verstrike"
+  - "[pP]ostediting"
+  - "[pP]ostinstallation"
+  - "[pP]ostoperation"
+  - "[pP]ostrequisite"
+  - "[pP]recompile"
   - "[pP]reconfigured"
-  - "[pP]reconfigured"
+  - "[pP]reenrollment"
+  - "[pP]reformatted"
   - "[pP]regenerated"
+  - "[pP]reinstallation"
+  - "[pP]reoperational"
   - "[pP]repend"
   - "[pP]repended"
+  - "[pP]reprocess"
+  - "[pP]reprocessor"
   - "[pP]roductize"
   - "[pP]roductized"
+  - "[pP]seudocode"
+  - "[pP]seudorandom"
+  - "[pP]seudotext"
   - "[pP]ulldown"
   - "[rR]eadonly"
   - "[rR]ebalance"
@@ -162,6 +207,8 @@ filters:
   - "[uU]mask"
   - "[uU]ncomment"
   - "[uU]ndercloud"
+  - "[uU]nderrun"
+  - "[uU]nformatted"
   - "[uU]ninstallation"
   - "[uU]nmount"
   - "[uU]nmounting"
@@ -171,10 +218,10 @@ filters:
   - "[uU]psell"
   - "[uU]pselling"
   - "[vV]alidator"
+  - "Let\\'s Encrypt"
   - '\.NET'
   - 'I/O'
   - 'Node\.js'
-  - "Let\\'s Encrypt"
   - ACLs
   - adoc
   - AGPLv
@@ -190,12 +237,12 @@ filters:
   - aws
   - AWS
   - Azure
+  - bcrypt
   - Bierner
   - Bitbucket
   - BOM
   - Bonjour
   - Bouncy Castle
-  - bcrypt
   - btn
   - Btrfs
   - Bugzilla
@@ -212,9 +259,8 @@ filters:
   - Cloudbursting
   - Cloudwashing
   - CodeReady
-  - ConfigMaps?
+  - ConfigMap
   - Containerfile
-  - Containerfiles
   - Cookiecutter
   - CPUs
   - CR
@@ -267,11 +313,11 @@ filters:
   - GNUPro
   - GraalVM
   - GraphQL
-  - Grayscale
   - Graylog
+  - Grayscale
   - greenboot
   - gRPC
-  - GTIDs?
+  - GTID
   - GUI
   - Hashicorp
   - Helgrind
@@ -288,12 +334,11 @@ filters:
   - Infinispan
   - Intelephense
   - IntelliJ
-  - IPsec
-  - ISeries
-  - Istio
   - IPPool
   - IPsec
   - IPv
+  - ISeries
+  - Istio
   - ISVs
   - Itanium
   - Jakarta
@@ -318,18 +363,18 @@ filters:
   - Kogito
   - Kompose
   - kubelet
-  - Kubespray
   - Kubernetes
+  - Kubespray
   - Kylin
   - Laravel
   - LGPLv
+  - libOSMesa
   - librados
   - librbd
   - Libreswan
-  - libOSMesa
+  - Liquibase
   - Logstash
   - Lombok
-  - Liquibase
   - Makefile
   - Mattermost
   - Maven
@@ -368,7 +413,7 @@ filters:
   - OSs
   - OSTree
   - PCIe
-  - PDFs?
+  - PDF
   - Petitboot
   - PHP
   - PIDs
@@ -390,8 +435,8 @@ filters:
   - Redis
   - Redistributions
   - relaxngDatatype
-  - Restic
   - RESTEasy
+  - Restic
   - Rolfe
   - Rollup
   - ROMs
@@ -403,8 +448,8 @@ filters:
   - SCM
   - SELinux
   - Semeru
-  - Skopeo
   - Shadowman
+  - Skopeo
   - SLAs
   - SmallRye
   - Spotify
@@ -422,9 +467,9 @@ filters:
   - Traefik
   - Uber
   - UIDs
-  - URIs?
+  - URI
   - url
-  - URLs?
+  - URL
   - USBGuard
   - Vale
   - Valgrind
@@ -438,8 +483,8 @@ filters:
   - vSphere
   - WebAuthn
   - Webpack
-  - WebView
   - WebSocket
+  - WebView
   - Wildfly
   - Woopra
   - Wordpress
