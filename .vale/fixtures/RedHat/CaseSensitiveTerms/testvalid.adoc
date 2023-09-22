@@ -261,6 +261,7 @@ Shadowman
 SmartNIC
 SmartState analysis
 SOCKS
+softirq
 Software Collection
 Source-Navigator^TM^
 Source-to-Image (S2I)
