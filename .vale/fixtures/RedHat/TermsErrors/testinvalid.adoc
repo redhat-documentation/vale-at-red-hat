@@ -40,7 +40,6 @@ bitness
 bitrate
 bitstring
 black hat hacker
-blacklist
 blink
 blue screen of death
 boot diskette
@@ -456,7 +455,6 @@ web master
 web site
 webmistress
 white hat hacker
-whitelist
 whitepaper
 wild card
 wiring closet
