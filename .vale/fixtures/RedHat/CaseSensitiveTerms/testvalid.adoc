@@ -279,6 +279,7 @@ Subscription Manifest
 Syndesis
 systemd
 SysV
+T-BC
 Technology Preview
 The .NET framework
 TLS handshake

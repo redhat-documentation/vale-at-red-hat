@@ -27,7 +27,7 @@ swap:
   "Kernel(?!-based Virtual Machine)": kernel
   "OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager": Red Hat OpenShift Cluster Manager
   "OD": Red Hat OpenShift Dedicated
-  '(?<!.-)javadocs?': Javadoc|API documentation|Java API documentation
+  "(?<!.-)javadocs?": Javadoc|API documentation|Java API documentation
   '(?<!\.)IM': instant message
   '(?<!\.)yaml|Yaml': YAML
   '(?<!JBoss )EAP|(?<!Red Hat )JBoss(?!\sCommunity|\sBroker|\sClients|\sConsole|\sAMQ|\sData\sGrid|\sBRMS|\sBPMS|\sEnterprise\sApplication\sPlatform|\.org|\sInterconnect|\sEAP|\sBPM\sSuite)': JBoss EAP
@@ -54,7 +54,7 @@ swap:
   'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
   'self-hosted\sengine\svirtual\smachine|engine\sVM': Manager virtual machine
-  'sub version|(?<!Apache )Subversion': sub-version
+  "sub version|(?<!Apache )Subversion": sub-version
   Appliance Console: Appliance console
   Applix|ApplixWare: Applixware
   asciidoctor|AsciiDoctor: Asciidoctor
@@ -62,7 +62,7 @@ swap:
   assertj|Assertj: AssertJ
   auto-link|AutoLink: autolink
   basic authentication|Basic Authentication|basic auth|Basic auth|Basic Auth: Basic HTTP authentication|Basic authentication
-  BC: Business Central
+  "(?<!T-)BC": Business Central
   Bean: bean
   Bios: BIOS
   blue print|BluePrint: blueprint
@@ -70,7 +70,7 @@ swap:
   btrfs: Btrfs
   Capex|capex|capEx: CapEx
   Capsule server: Capsule Server
-  CD 1: 'CD #1'
+  CD 1: "CD #1"
   CDS|Cds: CDs
   Ceph Ansible: ceph-ansible
   Ceph block device|Ceph block devices: Ceph Block Device
@@ -153,7 +153,7 @@ swap:
   ipv6|IPV6|Ipv6: IPv6
   iSeries: ISeries
   iso: ISO
-  Istio Service Mesh : Istio service mesh
+  Istio Service Mesh: Istio service mesh
   Itanium2: Itanium 2
   jar file: JAR file
   Jbang|jbang: JBang
