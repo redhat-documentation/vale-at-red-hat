@@ -1,4 +1,3 @@
-
 ---
 extends: substitution
 ignorecase: true
@@ -26,27 +25,27 @@ swap:
   "top(?:-)?left": upper left|upper right|upper-left|upper-right
   "top(?:-)?right": upper left|upper right|upper-left|upper-right
   "UPI": user-provisioned infrastructure
-  '(?<!-)healthcheck|health-check': health check
-  '(?<!-)pm': PM
-  '(?<!-|I )am': AM
-  '(?<!.)io': I/O
+  "(?<!-)healthcheck|health-check": health check
+  "(?<!-)pm": PM
+  "(?<!-|I )am": AM
+  "(?<!.)io": I/O
   '(?<!IBM\s)S\/390|S90|S\s390': IBM S/390
-  '(?<!pseudo-)ops': operations
-  '(?<!self-)hosted engine|hosted-engine': self-hosted engine
-  '(?<!virtual )floppy disk': diskette|diskette drive
-  '(?<!virtual )floppy drive': diskette|diskette drive
+  "(?<!pseudo-)ops": operations
+  "(?<!self-)hosted engine|hosted-engine": self-hosted engine
+  "(?<!virtual )floppy disk": diskette|diskette drive
+  "(?<!virtual )floppy drive": diskette|diskette drive
   '(?<!virtual )floppy(?!\sdisk|\sdrive)': diskette|diskette drive
-  '(?<!virtual )hard drive': hard disk|hard disk drive
+  "(?<!virtual )hard drive": hard disk|hard disk drive
   'backwards?\scompatible': compatible with earlier versions
-  'best of breed|best-of-breed': best in class
-  'Christian name|forename|first name': given name
+  "best of breed|best-of-breed": best in class
+  "Christian name|forename|first name": given name
   'fixed\sdisk\sdrive': hard disk drive
-  'sanity test|sanity check': test|evaluate|validate|verify
-  'single quote mark|single quote(?! mark)': single quotation mark
-  'virtual diskette(?! drive)|virtual diskette drive': virtual floppy drive
+  "sanity test|sanity check": test|evaluate|validate|verify
+  "single quote mark|single quote(?! mark)": single quotation mark
+  "virtual diskette(?! drive)|virtual diskette drive": virtual floppy drive
   'virtual\shard\sdisk': virtual hard drive
-  'w/(?!o) ': "with "
-  'w/o': without
+  "w/(?!o) ": "with "
+  "w/o": without
   10BASE-2: 10BASE2
   10BASET: 10BASE-T
   24/7: 24x7
@@ -87,7 +86,6 @@ swap:
   bitrate: bit rate
   bitstring: bit string
   black hat hacker: attacker
-  blacklist: blocklist
   blink: flash
   blue screen of death: stop error
   boot diskette: boot disk
@@ -319,7 +317,7 @@ swap:
   PL/1: PL/I
   plaintext|plain-text|cleartext|clear text: plain text
   planar board: system board
-  Plug-and-Play: plug-and-play 
+  Plug-and-Play: plug-and-play
   pod cast|Podcast|Pod Cast: podcast
   pojo: data model
   pop-up list: list
@@ -456,7 +454,6 @@ swap:
   web-enable: enable for the web
   webmistress|web master: webmaster
   white hat hacker: offensive security researcher
-  whitelist: allowlist
   whitepaper: white paper
   wild card: wildcard
   wiring closet: telecommunications closet
