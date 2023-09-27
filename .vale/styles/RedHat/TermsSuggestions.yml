@@ -48,5 +48,6 @@ swap:
   spawn: create
   start up: start
   tarball: ".tar file"
+  thus: therefore
   translate: convert|transform
   via: through|by|from|on|by using

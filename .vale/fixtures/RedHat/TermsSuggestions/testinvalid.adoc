@@ -52,6 +52,7 @@ tar file
 tarball
 This clause which is nonrestrictive
 This clause, that is restrictive
+thus
 translate
 via
 x64
