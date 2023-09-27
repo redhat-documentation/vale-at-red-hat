@@ -1,3 +1,4 @@
+64-bit x86
 bare-metal clusters
 bare-metal compute
 bare-metal configuration
@@ -28,5 +29,4 @@ shell script
 this clause that is restrictive
 this clause, which is nonrestrictive
 through
-64-bit x86
 x86_64

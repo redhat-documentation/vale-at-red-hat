@@ -8,44 +8,37 @@ action:
   name: replace
 # swap maps tokens in form of bad: good
 swap:
+  "(?<!-)healthcheck|health-check": health check
+  "(?<!-)pm": PM
+  "(?<!-|I )am": AM
+  "(?<!.)io": I/O
   "(?<!as well )as per": according to|as|as in
   "(?<!kernel )oops": kernel oops
   "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
   "(?<!Mozilla )Firefox": Mozilla Firefox
   "(?<!Mozilla )Thunderbird": Mozilla Thunderbird
+  "(?<!pseudo-)ops": operations
+  "(?<!self-)hosted engine|hosted-engine": self-hosted engine
   "[bB]asic [aA]uth": Basic HTTP authentication|Basic authentication
   "a lot(?: of)?": many|much
   "AI": Assisted Installer
+  "best of breed|best-of-breed": best in class
   "bottle neck|bottle-neck": bottleneck
+  "Christian name|forename|first name": given name
   "down(?:-)?level": earlier|previous|not at the latest level
   "IPI": installer-provisioned infrastructure
   "pop-up (?:blocker|killer)": software to block pop-up ad windows
   "re(?:-)?occur": recur
+  "sanity test|sanity check": test|evaluate|validate|verify
+  "single quote mark|single quote(?! mark)": single quotation mark
   "sort(?:-|/)?merge": sort|merge
   "top(?:-)?left": upper left|upper right|upper-left|upper-right
   "top(?:-)?right": upper left|upper right|upper-left|upper-right
   "UPI": user-provisioned infrastructure
-  "(?<!-)healthcheck|health-check": health check
-  "(?<!-)pm": PM
-  "(?<!-|I )am": AM
-  "(?<!.)io": I/O
-  '(?<!IBM\s)S\/390|S90|S\s390': IBM S/390
-  "(?<!pseudo-)ops": operations
-  "(?<!self-)hosted engine|hosted-engine": self-hosted engine
-  "(?<!virtual )floppy disk": diskette|diskette drive
-  "(?<!virtual )floppy drive": diskette|diskette drive
-  '(?<!virtual )floppy(?!\sdisk|\sdrive)': diskette|diskette drive
-  "(?<!virtual )hard drive": hard disk|hard disk drive
-  'backwards?\scompatible': compatible with earlier versions
-  "best of breed|best-of-breed": best in class
-  "Christian name|forename|first name": given name
-  'fixed\sdisk\sdrive': hard disk drive
-  "sanity test|sanity check": test|evaluate|validate|verify
-  "single quote mark|single quote(?! mark)": single quotation mark
-  "virtual diskette(?! drive)|virtual diskette drive": virtual floppy drive
-  'virtual\shard\sdisk': virtual hard drive
   "w/(?!o) ": "with "
   "w/o": without
+  '(?<!IBM\s)S\/390|S90|S\s390': IBM S/390
+  'backwards?\scompatible': compatible with earlier versions
   10BASE-2: 10BASE2
   10BASET: 10BASE-T
   24/7: 24x7
@@ -200,6 +193,7 @@ swap:
   fill in: complete|enter|specify
   finalise: finalize
   fire up: start
+  fixed disk drive: hard disk drive
   flavor: version|method
   focussed: focused
   forward compatible: compatible with later versions
@@ -417,7 +411,6 @@ swap:
   totalled: totaled
   touch base: contact|communicate
   touchscreen: touch-sensitive screen
-  translate: convert:transform
   trouble shoot: troubleshoot
   trust store: truststore
   try and: try to
@@ -442,7 +435,10 @@ swap:
   utilize: use
   vanilla: uncustomized
   versus: compared to
+  virtual diskette drive: virtual floppy drive
+  virtual diskette(?! drive): virtual floppy disk
   virtual DOS machine: DOS session
+  virtual hard disk: virtual hard drive
   virtual-equals-real: nonpageable
   virtual-equals-virtual: pageable
   wait condition: wait state

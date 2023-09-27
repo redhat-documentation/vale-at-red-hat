@@ -168,9 +168,6 @@ Firefox
 first name
 fixed disk drive
 flavor
-floppy
-floppy disk
-floppy drive
 focussed
 forename
 forward compatible
@@ -183,7 +180,6 @@ grey
 gzipped file
 hard boot
 hard copy
-hard drive
 hard file
 hardcode
 hardcoded
@@ -413,7 +409,6 @@ ToolTip
 totalled
 touch base
 touchscreen
-translate
 trouble shoot
 trust store
 try and
@@ -421,6 +416,9 @@ twisty
 TY-RAP
 typo
 unallocate
+virtual diskette drive
+virtual diskette
+virtual hard disk
 uncheck
 uncompilation
 uncompile
