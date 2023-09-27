@@ -7,7 +7,7 @@ message: "Depending on the context, consider using '%s' rather than '%s'."
 action:
   name: replace
 swap:
-  "(?<!,) which": ", which| that"
+  "(?<!,| in| on| at| to| for| from| of| with| without| against) which": ", which| that"
   "(?<!.-)jar": compress|archive
   "(?<!by) using": " by using| that uses"
   ", that": ", which| that"
