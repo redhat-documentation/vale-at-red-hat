@@ -26,7 +26,17 @@ see this section
 segmentation fault
 shell prompt
 shell script
-this clause that is restrictive
+something against which something else
+something at which something else
+something for which something else
+something from which something else
+something in which somehing else
+something of which something else
+something on which something else
+something to which something else
+something with which something else
+something without which something else
 this clause, which is nonrestrictive
 through
 x86_64
+
