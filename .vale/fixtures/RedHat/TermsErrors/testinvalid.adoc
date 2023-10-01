@@ -319,6 +319,8 @@ Programming Language/I
 proof of concepts
 pub/sub
 publish-subscribe
+quickstart
+Quickstart
 read-write
 recognise
 Red Hat Java

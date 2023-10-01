@@ -481,6 +481,7 @@ pseudo-ops
 pseudocode
 publish/subscribe
 pull-down
+quick start
 rather than
 re-create
 read/write
