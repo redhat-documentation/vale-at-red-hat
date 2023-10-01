@@ -11,7 +11,9 @@ AMQ Console
 AMQ Interconnect
 Apache Subversion
 Appliance console
+Application Stream
 Applixware
+AppStream repository
 AsciiDoc
 Asciidoctor
 AssertJ
