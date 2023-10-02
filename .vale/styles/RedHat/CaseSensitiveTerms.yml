@@ -55,6 +55,7 @@ swap:
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
   'self-hosted\sengine\svirtual\smachine|engine\sVM': Manager virtual machine
   "sub version|(?<!Apache )Subversion": sub-version
+  Ansible playbook: Ansible Playbook
   Appliance Console: Appliance console
   Applix|ApplixWare: Applixware
   asciidoctor|AsciiDoctor: Asciidoctor
