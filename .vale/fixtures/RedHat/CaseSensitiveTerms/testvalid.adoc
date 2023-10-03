@@ -249,6 +249,7 @@ Red Hat Virtualization Manager
 RedBoot
 Redis
 RESTEasy
+Rolling Stream
 ROM
 RPM
 S-record

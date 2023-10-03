@@ -247,6 +247,7 @@ swap:
   RHDS: Red Hat Directory Server
   RHEL host|RHEL-H: Red Hat Enterprise Linux host
   RHV: Red Hat Virtualization
+  rolling stream: Rolling Stream
   Rom|rom: ROM
   rpm: RPM
   s-record|S-Record|s-Record|SREC: S-record
