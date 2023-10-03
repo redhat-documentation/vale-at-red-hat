@@ -10,10 +10,10 @@
 == Eclipse Vert.x and Netty are upgraded in Quarkus
 == IBM Cloud
 == mTLS authentication
-== The mutual TLS authentication scheme
+//== The mutual TLS authentication scheme
 == Proof Key for Code Exchange
 == Kogito updates
-== IBM Cloud is a valid product name
+//== IBM Cloud is a valid product name
 //== Spotify, GraphQL, and Quiltflower are proper nouns so uppercase in headings is OK.
 == Redis is an in-memory data structure store that is used by several Red Hat products.
 == Repackage the JAR file

@@ -1,8 +1,29 @@
 ---
-extends: occurrence
-scope: raw
+extends: script
+message: "Module is missing the \":_mod-docs-content-type:\" variable."
 level: error
 link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#module-file-metadata
-message: "Module is missing the \"_mod-docs-content-type\" variable."
-min: 1
-token: '(?<!\/\/):_mod-docs-content-type:(\s)?(CONCEPT|PROCEDURE|REFERENCE|ASSEMBLY|SNIPPET)'
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  context_regex := ":_mod-docs-content-type: (CONCEPT|SNIPPET|ASSEMBLY|PROCEDURE|REFERENCE)"
+  match := false
+
+  //Check if context declaration is on any line
+  for line in text.split(scope, "\n") {
+    if text.re_match(context_regex, line){
+      match = true
+    }
+    }
+
+  //Highlight first line if context declaration not found in file
+  if match == false {
+    matches = append(matches, {begin: 1, end: 10})
+        }

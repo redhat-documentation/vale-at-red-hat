@@ -1,0 +1,36 @@
+/*
+Tengo Language
+Checks that lines are not hard-wrapped.
+$ tengo HardWrappedLines.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  context_regex := ":_content-type: (CONCEPT|SNIPPET|ASSEMBLY|PROCEDURE|REFERENCE)"
+  match := false
+
+  //Check if context declaration is on any line
+  for line in text.split(scope, "\n") {
+    if text.re_match(context_regex, line){
+      match = true
+      fmt.println("Found content-type declaration")
+    } 
+    }
+
+  //Highlight first line if context declaration not found in file
+  if match == false {
+    matches = append(matches, {begin: 1, end: 10})
+    fmt.println("Did not find content-type declaration")
+    fmt.println(matches) 
+        }
