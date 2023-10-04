@@ -439,6 +439,7 @@ Smart state
 Smart-NIC
 Smartstate
 socks
+SoftIRQ
 software collection
 Software collection
 Source Navigator
