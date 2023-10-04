@@ -17,7 +17,6 @@ Application stream
 application stream
 Applix
 ApplixWare
-AppStream
 Appstream
 appstream
 Asciidoc
