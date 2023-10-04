@@ -247,6 +247,7 @@ swap:
   RHDS: Red Hat Directory Server
   RHEL host|RHEL-H: Red Hat Enterprise Linux host
   RHV: Red Hat Virtualization
+  Role Based Access Control|Role-Based Access Control|role based access control: Role-based access control
   Rom|rom: ROM
   rpm: RPM
   s-record|S-Record|s-Record|SREC: S-record

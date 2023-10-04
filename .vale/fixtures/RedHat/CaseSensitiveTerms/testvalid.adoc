@@ -249,6 +249,7 @@ Red Hat Virtualization Manager
 RedBoot
 Redis
 RESTEasy
+Role-based access control
 ROM
 RPM
 S-record
