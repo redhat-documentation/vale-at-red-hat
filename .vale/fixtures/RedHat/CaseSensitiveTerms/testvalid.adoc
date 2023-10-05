@@ -9,6 +9,7 @@ AMQ Broker
 AMQ Clients
 AMQ Console
 AMQ Interconnect
+Ansible Playbook
 Apache Subversion
 Appliance console
 Application Stream
