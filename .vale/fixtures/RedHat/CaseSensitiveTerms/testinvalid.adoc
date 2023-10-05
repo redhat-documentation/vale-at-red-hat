@@ -13,8 +13,12 @@ Administration portal
 Administrator Portal
 Analysis
 Appliance Console
+Application stream
+application stream
 Applix
 ApplixWare
+Appstream
+appstream
 Asciidoc
 asciidoc
 AsciiDoctor

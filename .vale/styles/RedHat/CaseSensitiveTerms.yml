@@ -57,6 +57,8 @@ swap:
   "sub version|(?<!Apache )Subversion": sub-version
   Appliance Console: Appliance console
   Applix|ApplixWare: Applixware
+  application stream|Application stream: Application Stream
+  Appstream|appstream: AppStream repository
   asciidoctor|AsciiDoctor: Asciidoctor
   asciidoc|Asciidoc: AsciiDoc
   assertj|Assertj: AssertJ
