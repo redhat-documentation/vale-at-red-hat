@@ -414,6 +414,10 @@ RHV Manager
 RHV-H
 RHV-M
 RHVM
+rolling application stream
+rolling application streams
+rolling stream
+rolling streams
 rom
 Rom
 rpm
