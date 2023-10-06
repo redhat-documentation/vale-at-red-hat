@@ -1,0 +1,4 @@
+//vale-fixture
+:context: <unique-context-for-assembly>
+= title
+
