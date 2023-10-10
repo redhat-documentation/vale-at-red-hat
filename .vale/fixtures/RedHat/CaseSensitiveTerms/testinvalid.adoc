@@ -119,6 +119,8 @@ disk druid
 Disk druid
 diskdruid
 DM
+DNF automatic
+dnf automatic
 dns
 dotNet
 DVD burner

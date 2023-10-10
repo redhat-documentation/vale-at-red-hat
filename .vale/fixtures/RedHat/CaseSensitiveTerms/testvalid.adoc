@@ -68,6 +68,7 @@ Directory Server
 Disk Druid
 DM Multipath
 DM-Multipath
+DNF Automatic
 DNS
 DVD writer
 Editor
