@@ -1,0 +1,9 @@
+---
+extends: existence
+scope: raw
+level: error
+nonword: true
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#module-file-metadata
+message: "Do not include TOCs in modules, only assemblies."
+tokens:
+  - 'toc::\[\]'

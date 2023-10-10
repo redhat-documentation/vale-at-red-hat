@@ -12,9 +12,14 @@ Admin Portal
 Administration portal
 Administrator Portal
 Analysis
+Ansible playbook
 Appliance Console
+Application stream
+application stream
 Applix
 ApplixWare
+Appstream
+appstream
 Asciidoc
 asciidoc
 AsciiDoctor
@@ -114,6 +119,8 @@ disk druid
 Disk druid
 diskdruid
 DM
+DNF automatic
+dnf automatic
 dns
 dotNet
 DVD burner
@@ -412,6 +419,10 @@ RHVM
 Role Based Access Control
 Role-Based Access Control
 role based access control
+rolling application stream
+rolling application streams
+rolling stream
+rolling streams
 rom
 Rom
 rpm

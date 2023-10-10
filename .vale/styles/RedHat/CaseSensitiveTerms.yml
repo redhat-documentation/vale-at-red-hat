@@ -55,8 +55,11 @@ swap:
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
   'self-hosted\sengine\svirtual\smachine|engine\sVM': Manager virtual machine
   "sub version|(?<!Apache )Subversion": sub-version
+  Ansible playbook: Ansible Playbook
   Appliance Console: Appliance console
   Applix|ApplixWare: Applixware
+  application stream|Application stream: Application Stream
+  Appstream|appstream: AppStream repository
   asciidoctor|AsciiDoctor: Asciidoctor
   asciidoc|Asciidoc: AsciiDoc
   assertj|Assertj: AssertJ
@@ -100,6 +103,7 @@ swap:
   devops|Devops|Dev-Ops|Dev Ops: DevOps
   directory server: Directory Server
   Disk druid|disk druid|diskdruid: Disk Druid
+  DNF automatic|dnf automatic: DNF Automatic
   dns: DNS
   DVD burner|burner: DVD writer
   DWH|data warehouse|Dataware House: Data Warehouse
@@ -248,6 +252,10 @@ swap:
   RHEL host|RHEL-H: Red Hat Enterprise Linux host
   RHV: Red Hat Virtualization
   Role Based Access Control|Role-Based Access Control|role based access control: Role-based access control
+  rolling application stream: Rolling Application Stream
+  rolling application streams: Rolling Application Streams
+  rolling stream: Rolling Stream
+  rolling streams: Rolling Streams
   Rom|rom: ROM
   rpm: RPM
   s-record|S-Record|s-Record|SREC: S-record
