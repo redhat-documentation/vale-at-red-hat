@@ -253,6 +253,7 @@ Red Hat Virtualization Manager
 RedBoot
 Redis
 RESTEasy
+Role-based access control
 Rolling Application Stream
 Rolling Application Streams
 Rolling Stream
