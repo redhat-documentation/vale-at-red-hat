@@ -38,7 +38,7 @@ StylesPath = .vale/styles
 
 MinAlertLevel = suggestion
 
-Packages = RedHat, https://github.com/redhat-documentation/vale-at-red-hat/releases/latest/download/OpenShiftAsciiDoc.zip
+Packages = RedHat, OpenShiftAsciiDoc
 
 # Ignore files in dirs starting with `.` to avoid raising errors for `.vale/fixtures/*/testinvalid.adoc` files
 [[!.]*.adoc]
