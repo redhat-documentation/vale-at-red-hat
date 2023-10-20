@@ -39,6 +39,7 @@ filters:
   - "[dD]eclaratively"
   - "[dD]ecompiler"
   - "[dD]eserialization"
+  - "[dD]eserialize"
   - "[dD]eserialized"
   - "[dD]esynchronize"
   - "[dD]esynchronized"
