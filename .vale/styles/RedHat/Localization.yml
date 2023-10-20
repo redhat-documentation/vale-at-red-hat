@@ -1,0 +1,12 @@
+---
+extends: existence
+ignorecase: false
+level: suggestion
+link: https://redhat-documentation.github.io/supplementary-style-guide/#admonitions
+message: "Minimize admonitions. Separate multiple admonitions. If needed, integrate less crucial admonitions into the main content."
+# source: https://redhat-documentation.github.io/supplementary-style-guide/#admonitions
+tokens:
+  - NOTE
+  - IMPORTANT
+  - WARNING
+  - TIP
