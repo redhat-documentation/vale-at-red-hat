@@ -1,4 +1,4 @@
 //vale-fixture
-:_content-type: REFERENCE
+:_mod-docs-content-type: REFERENCE
 [id="cli-basic-commands_{context}"]
 = Basic CLI commands 

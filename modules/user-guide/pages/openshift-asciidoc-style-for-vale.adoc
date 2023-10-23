@@ -17,7 +17,7 @@ Some of the errors that the `OpenShiftAsciiDoc` rules highlight include:
 * Terminal code block missing a shell prompt symbol (`$`)  at the beginning of the line
 * Missing `.Example output` title for example listing blocks
 * ID missing the `++{_context}++` variable at the end of the ID
-* modules missing the `:_content-type:` variable
+* modules missing the `:_mod-docs-content-type:` variable
 * Cross references (`xref`) missing anchor IDs
 * Cross references that use `.adoc` instead of `.html` for links
 * Cross references missing link alt text
