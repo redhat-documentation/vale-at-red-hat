@@ -131,6 +131,7 @@ exceptions:
   - OperatorHub
   - OpEx
   - OSBuild
+  - OTel
   - PaaS
   - PackageKit
   - PathTools

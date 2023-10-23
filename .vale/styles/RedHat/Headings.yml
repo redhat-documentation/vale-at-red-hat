@@ -142,6 +142,7 @@ exceptions:
   - Kubespray
   - Kylin
   - Laravel
+  - Liquibase
   - Logstash
   - Lombok
   - Makefile
@@ -174,7 +175,9 @@ exceptions:
   - OpenJDK
   - OpenRewrite
   - OpenShift
+  - OpenTelemetry
   - OpenTracing
+  - OTel
   - PHP
   - Podman
   - Podman Desktop
@@ -215,6 +218,7 @@ exceptions:
   - Technology Preview
   - Tekton
   - Telekom
+  - Temurin
   - Tensorflow
   - Texinfo
   - Toolset

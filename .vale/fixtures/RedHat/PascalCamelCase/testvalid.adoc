@@ -127,6 +127,7 @@ OperatorHub
 OpEx
 OSBuild
 OSs
+OTel
 PaaS
 PackageKit
 PathTools
