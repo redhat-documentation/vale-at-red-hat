@@ -296,6 +296,7 @@ swap:
   uid: UID
   ULTRASPARC|UltraSparc: UltraSPARC
   Unix|unix|UNIX-like: UNIX
+  uri: URI
   url: URL
   urn: URN
   VCPU|vcpu: vCPU

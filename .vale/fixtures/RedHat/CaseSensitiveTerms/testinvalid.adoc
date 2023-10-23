@@ -492,6 +492,7 @@ ULTRASPARC
 unix
 Unix
 UNIX-like
+uri
 url
 urn
 Use the .NET Core framework
