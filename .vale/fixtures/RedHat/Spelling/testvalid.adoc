@@ -618,6 +618,7 @@ vSphere
 WebAuthn
 Webpack
 WebSocket
+wifi
 Wildfly
 Woopra
 Wordpress

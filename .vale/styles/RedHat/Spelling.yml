@@ -487,6 +487,7 @@ filters:
   - Webpack
   - WebSocket
   - WebView
+  - wifi
   - Wildfly
   - Woopra
   - Wordpress
