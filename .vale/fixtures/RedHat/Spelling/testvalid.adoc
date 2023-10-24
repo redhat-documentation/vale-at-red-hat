@@ -468,6 +468,7 @@ redirect
 Redis
 Redistributions
 reedit
+reentrant
 reexamine
 relaxngDatatype
 Reshard
