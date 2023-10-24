@@ -117,6 +117,8 @@ Datadog
 declaratively
 decompiler
 deserialization
+deserialize
+deserialized
 desynchronize
 desynchronized
 Dev
