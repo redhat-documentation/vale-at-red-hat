@@ -45,4 +45,7 @@
 == Problems with gRPC and xDS
 == Testing role-based access control in a heading
 == Testing RBAC in a heading
-
+== A Liquibase database
+== Using Mockito
+== Downloading the Eclipse Temurin distribution
+== Configuring OpenTelemetry

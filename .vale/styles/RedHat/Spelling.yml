@@ -409,11 +409,13 @@ filters:
   - OpenJDK
   - OpenRewrite
   - OpenShift
+  - OpenTelemetry
   - OpenTracing
   - OSBuild
   - osd
   - OSs
   - OSTree
+  - OTel
   - PCIe
   - PDF
   - Petitboot
@@ -463,6 +465,7 @@ filters:
   - Symfony
   - Tekton
   - Telekom
+  - Temurin
   - Tensorflow
   - Texinfo
   - Toolset

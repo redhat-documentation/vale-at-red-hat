@@ -164,6 +164,7 @@ LDAPS
 librados
 librbd
 Linux
+Liquibase
 LUN
 management CLI
 management console
@@ -176,6 +177,7 @@ Microsoft Azure
 Microsoft Azure Cross-Platform Command-Line Interface
 Microsoft Azure On-Demand Marketplace
 Microsoft Azure portal
+Mockito
 MOM
 MongoDB
 ms
@@ -193,6 +195,7 @@ OK
 OKD
 OpenID Connect
 OpenRewrite
+OpenTelemetry
 operating environment
 operating system
 Operator Lifecycle Manager
@@ -200,6 +203,7 @@ OperatorHub
 OpEx
 Organization Administrator
 OSD
+OTel
 overcloud
 Podman
 pop-up
@@ -291,6 +295,7 @@ systemd
 SysV
 T-BC
 Technology Preview
+Temurin
 The .NET framework
 TLS handshake
 TTL

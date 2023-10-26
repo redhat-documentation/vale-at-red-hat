@@ -393,6 +393,7 @@ OpenID
 OpenJDK
 OpenRewrite
 OpenShift
+OpenTelemetry
 OpenTracing
 Operator
 OSBuild
@@ -560,6 +561,7 @@ Sysctl
 sysctls
 Sysctls
 Systemd
+Temurin
 Tekton
 Telekom
 Templated
