@@ -5,22 +5,17 @@
 :page-aliases: end-user-guide:using-vale-cli.adoc, installing-vale-cli-from-zip.adoc
 // End of metadata for Antora
 [id="proc_installing-vale-cli"]
-= Installing Vale with the RedHat package system-wide
+= Installing Vale and the RedHat package
 
-To use Vale CLI with the `RedHat` style for all folders and projects, install and configure Vale CLI version 2.16.0 or later and create a `.vale.ini` configuration file.
-
-[IMPORTANT]
-====
-If you are installing Vale for use with a project that already has a Vale configuration, all you need to do is install the Vale command-line tool and run `vale sync` from the project folder.
-====
+Install the Vale linter and the `RedHat` package to automate reviewing content for style and structure.
 
 .Prerequisites
 
-* You've installed a recent release of the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem on your system.
+* A recent version of the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem is installed on your system.
 
 .Procedure
 
-. Install the Vale command-line tool on your workstation. On RHEL or Fedora systems, run the following command:
+. To install the Vale command-line tool on RHEL or Fedora, run the following command:
 +
 [source,terminal]
 ----
@@ -30,7 +25,7 @@ $ sudo dnf copr enable mczernek/vale && sudo dnf install vale
 [NOTE]
 For other operating systems, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
 
-. Create a `.vale.ini` configuration file and save it in your `$HOME` directory.
+. To use Vale with the `RedHat` package system-wide, create the following `.vale.ini` configuration file in your `$HOME` directory.
 +
 .Example .vale.ini
 [source,ini]
@@ -40,13 +35,10 @@ include::example$vale.ini[]
 +
 [TIP]
 ====
-You can have multiple `.vale.ini` files for different projects.
-`.vale.ini` files that are lower in the folder structure override higher level files.
-
-See link:https://vale.sh/docs/topics/config[Vale configuration reference] for more information.
+Some product documentation repositories, such as `openshift-docs`, have a  `.vale.ini` file. When you run `vale` on content files in the repository directory, the `<repository>/.vale.ini` file overrides the `$HOME/.vale.ini` file. For more information, see link:https://vale.sh/docs/topics/config[Vale configuration reference].
 ====
 
-. Download the rules:
+. Download the `RedHat` package to your computer.
 +
 [source,console]
 ----
@@ -62,7 +54,7 @@ Downloading packages [1/1]
 ----
 +
 [TIP]
-Run the `vale sync` command periodically to update the `RedHat` Vale package.
+To get the latest updates, run `vale sync` regularly.
 
 .Verification
 
@@ -89,7 +81,7 @@ $ vale modules/ztp-creating-the-site-secrets.adoc
                      for acceptable use of passive
                      voice.
 
-✖ 1 error, 0 warnings and 1 suggestions in 1 file.
+✖ 2 errors, 0 warnings and 1 suggestion in 1 file.
 ----
 
 .Additional resources
