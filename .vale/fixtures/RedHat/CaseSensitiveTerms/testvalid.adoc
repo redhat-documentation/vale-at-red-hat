@@ -303,6 +303,7 @@ UID
 UltraSPARC
 undercloud
 UNIX
+URI
 URL
 URN
 VAR

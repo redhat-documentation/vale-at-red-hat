@@ -28,6 +28,7 @@ aws
 AWS
 backfilling
 Backfilling
+backport
 backported
 backtrace
 Backtrace
@@ -228,6 +229,7 @@ intranode
 intrapartition
 intrarecord
 intrasystem
+invocable
 IPsec
 IPv
 ISeries
@@ -341,6 +343,7 @@ multiprocessor
 multischema
 multisite
 multitable
+multitenancy
 Multitenant
 multitenant
 multithread
@@ -409,6 +412,7 @@ PDFs
 Petitboot
 PHP
 PIDs
+pluggable
 plugin
 plugins
 Podman
@@ -460,6 +464,7 @@ re-create
 re-enable
 Readonly
 Realtime
+reauthenticate
 Rebalance
 Rebalances
 Rebalancing
@@ -471,8 +476,12 @@ redirect
 Redis
 Redistributions
 reedit
+reenabled
 reentrant
 reexamine
+refreshable
+reindex
+reindexing
 relaxngDatatype
 Reshard
 Resharding
