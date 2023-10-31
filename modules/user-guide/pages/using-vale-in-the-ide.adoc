@@ -20,7 +20,7 @@ Consider using Vale in your IDE when:
 
 .Procedure
 
-. In  Visual Studio Code, install the link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[Visual Studio Code extension for Vale using the Marketplace].
+. In  Visual Studio Code, install the link:https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode[Visual Studio Code extension for Vale using the Marketplace].
 
 . Restart Visual Studio Code.
 
