@@ -32,5 +32,5 @@ Consider using Vale in your IDE when:
 
 .Additional resources
 
-* link:https://github.com/errata-ai/vale-vscode[Visual Studio Code extension for Vale repository and documentation]
+* link:https://github.com/chrischinchilla/vale-vscode[Visual Studio Code extension for Vale repository and documentation]
 * link:https://vale.sh/docs/integrations/guide/[How to integrate Vale with other tools and services]
