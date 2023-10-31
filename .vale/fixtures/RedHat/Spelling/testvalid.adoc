@@ -229,7 +229,7 @@ intranode
 intrapartition
 intrarecord
 intrasystem
-invokable
+invocable
 IPsec
 IPv
 ISeries
@@ -605,7 +605,6 @@ Unported
 Unstaged
 Untrusted
 upgrade
-unsecure
 Upsell
 upsell
 Upselling
