@@ -1,5 +1,5 @@
 //vale-fixture
-:_content-type: ASSEMBLY
+:_mod-docs-content-type: ASSEMBLY
 :url-home: https://asciidoctor.org
 :link-docs: https://asciidoctor.org/docs[documentation]
 [id="rosa-getting-started-on-really-very-long-id-with-extra-text"]

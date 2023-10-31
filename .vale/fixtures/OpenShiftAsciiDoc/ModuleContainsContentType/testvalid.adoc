@@ -1,15 +1,15 @@
-:_content-type: REFERENCE
+:_mod-docs-content-type: REFERENCE
 [id="cli-basic-commands_{context}"]
 = Basic CLI commands
 
-:_content-type: PROCEDURE
+:_mod-docs-content-type: PROCEDURE
 [id="cli-basic-commands_{context}"]
 
-:_content-type: CONCEPT
+:_mod-docs-content-type: CONCEPT
 [id="cli-basic-commands_{context}"]
 
-:_content-type: ASSEMBLY
+:_mod-docs-content-type: ASSEMBLY
 [id="cli-basic-commands_{context}"]
 
-:_content-type: SNIPPET
+:_mod-docs-content-type: SNIPPET
 [id="cli-basic-commands_{context}"]
