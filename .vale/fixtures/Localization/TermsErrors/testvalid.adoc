@@ -1,0 +1,8 @@
+// Example entries:
+// /etc
+// /etc/
+// 10BASE-T
+// 10BASE2
+// 12.00 AM
+// 24x7
+// a or b

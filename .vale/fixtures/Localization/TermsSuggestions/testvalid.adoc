@@ -1,0 +1,5 @@
+// Example entries:
+// 64-bit x86
+// bare-metal clusters
+// bare-metal compute
+// bare-metal configuration

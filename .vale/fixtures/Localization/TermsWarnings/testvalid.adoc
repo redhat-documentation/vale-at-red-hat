@@ -1,0 +1,5 @@
+// Example entries:
+// accurate
+// after
+// and
+// and so on

@@ -1,0 +1,15 @@
+---
+extends: substitution
+ignorecase: true
+level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termserrors/
+message: "Use '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+# Example entries
+  # "(?<!-)healthcheck|health-check": health check
+  # "(?<!-)pm": PM
+  # "(?<!-|I )am": AM
+  # "(?<!.)io": I/O
