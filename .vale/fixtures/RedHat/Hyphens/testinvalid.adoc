@@ -149,6 +149,7 @@ plug ins
 plug-in
 plug-ins
 post-editing
+post-install
 post-installation
 post-mortem
 post-operation
@@ -157,10 +158,12 @@ pre-apply
 pre-assembled
 pre-cache
 pre-compile
+pre-configure
 pre-defined
 pre-enrollment
 pre-establish
 pre-formatted
+pre-install
 pre-installation
 pre-operational
 pre-process
