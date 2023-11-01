@@ -8,22 +8,22 @@ action:
   name: replace
 # swap maps tokens in the form "bad: good"
 swap:
-  '(?<!.-)addon': add-on
-  'broad cast|broad-cast': broadcast
-  'call out|call-out': callout
-  'comma delimited|commadelimited': comma-delimited
-  'command driven|commanddriven': command-driven
-  'meta-data|meta data': metadata
-  'open-source|OpenSource|opensource': open source
-  'over-ride|over ride': override
-  'plug-ins|plug ins': plugins
-  'plug-in|plug in': plugin
-  'super-user|super user': superuser
-  'timeframe|time-frame': time frame
-  'up-grade|up grade': upgrade
-  'up-selling|up selling': upselling
-  'up-stream|up stream': upstream
-  'up-time|up time': uptime
+  "(?<!.-)addon": add-on
+  "broad cast|broad-cast": broadcast
+  "call out|call-out": callout
+  "comma delimited|commadelimited": comma-delimited
+  "command driven|commanddriven": command-driven
+  "meta-data|meta data": metadata
+  "open-source|OpenSource|opensource": open source
+  "over-ride|over ride": override
+  "plug-ins|plug ins": plugins
+  "plug-in|plug in": plugin
+  "super-user|super user": superuser
+  "timeframe|time-frame": time frame
+  "up-grade|up grade": upgrade
+  "up-selling|up selling": upselling
+  "up-stream|up stream": upstream
+  "up-time|up time": uptime
   ad-hoc: ad hoc
   auto-configure: autoconfigure
   auto-generated: autogenerate
@@ -158,21 +158,24 @@ swap:
   over-ride: override
   over-strike: overstrike
   post-editing: postediting
+  post-install: postinstall
   post-installation: postinstallation
   post-mortem: postmortem
   post-operation: postoperation
   post-requisite: postrequisite
-  power down: turn off|power off 
+  power down: turn off|power off
   power up: power on|turn on
   poweroff: power-off
   pre-apply: preapply
   pre-assembled: preassembled
   pre-cache: precache
   pre-compile: precompile
+  pre-configure: preconfigure
   pre-defined: predefined
   pre-enrollment: preenrollment
   pre-establish: preestablish
   pre-formatted: preformatted
+  pre-install: preinstall
   pre-installation: preinstallation
   pre-operational: preoperational
   pre-process: preprocess

@@ -132,6 +132,7 @@ filters:
   - "[oO]verstrike"
   - "[pP]luggable"
   - "[pP]ostediting"
+  - "[Pp]ostinstall"
   - "[pP]ostinstallation"
   - "[pP]ostoperation"
   - "[pP]ostrequisite"
@@ -140,6 +141,7 @@ filters:
   - "[pP]reenrollment"
   - "[pP]reformatted"
   - "[pP]regenerated"
+  - "[Pp]reinstall"
   - "[pP]reinstallation"
   - "[pP]reoperational"
   - "[pP]repend"
@@ -163,9 +165,9 @@ filters:
   - "[rR]ecertifications"
   - "[rR]eenabled"
   - "[rR]eentrant"
+  - "[rR]efreshable"
   - "[rR]eindex"
   - "[rR]eindexing"
-  - "[rR]efreshable"
   - "[rR]eshard"
   - "[rR]esharding"
   - "[rR]eshards"
@@ -229,9 +231,9 @@ filters:
   - "[uU]psell"
   - "[uU]pselling"
   - "[vV]alidator"
+  - "I/O"
   - "Let\\'s Encrypt"
   - '\.NET'
-  - 'I/O'
   - 'Node\.js'
   - ACLs
   - adoc

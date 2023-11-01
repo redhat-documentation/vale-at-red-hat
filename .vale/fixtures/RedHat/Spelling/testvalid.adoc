@@ -418,6 +418,7 @@ plugins
 Podman
 postediting
 PostgreSQL
+postinstall
 postinstallation
 postmortem
 postoperation
@@ -429,6 +430,7 @@ precache
 precompile
 precompiled
 precompiles
+preconfigure
 preconfigured
 Preconfigured
 predefined
@@ -436,6 +438,7 @@ preenrollment
 preestablish
 preformatted
 pregenerated
+preinstall
 preinstallation
 preoperational
 prepend
@@ -570,10 +573,10 @@ Sysctl
 sysctls
 Sysctls
 Systemd
-Temurin
 Tekton
 Telekom
 Templated
+Temurin
 Tensorflow
 Texinfo
 Theia
