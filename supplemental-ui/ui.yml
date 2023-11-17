@@ -1,2 +1,3 @@
 static_files:
-  - .nojekyll
+- favicon.ico
+- .nojekyll
