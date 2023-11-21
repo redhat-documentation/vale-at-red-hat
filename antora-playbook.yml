@@ -21,7 +21,7 @@ content:
       branches:
         - HEAD
         - v*
-      edit_url: "https://github.com/redhat-documentation/vale-at-red-hat/edit/{refname}/{path}"
+      edit_url: "https://github.com/redhat-documentation/vale-at-red-hat/edit/main/{path}"
 antora:
   extensions:
     - require: "@antora/lunr-extension" # https://gitlab.com/antora/antora-lunr-extension/
@@ -31,7 +31,7 @@ asciidoc:
   sourcemap: true
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://gitlab.com/aireilly/redhat-antora-ui/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./supplemental-ui
   output_dir: _

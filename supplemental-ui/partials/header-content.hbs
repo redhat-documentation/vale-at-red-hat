@@ -1,27 +1,43 @@
 <header class="header">
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <div class="navbar-item">
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <ul class="navbar-brand-list">
+          <li class="brand-logo">
+            <a class="navbar-brand" href="https://www.redhat.com">
+              <img src="{{{uiRootPath}}}/img/redhat.svg" alt="Red Hat" />
+            </a>
+          </li>
+          <li>
+            <a class="navbar-brand rh-documentation" href="{{site.url}}/docs/main/user-guide/introduction/">
+              <img src="{{{uiRootPath}}}/img/documentation.svg" alt="Red Hat Documentation" class="rh-docs" />
+              <img src="{{{uiRootPath}}}/img/docs-hover.svg" alt="Vale at Red Hat Documentation"
+                class="hide rh-hover-docs" />
+            </a>
+          </li>
+        </ul>
+
+        <!--AR: mobile views -->
+        <ul class="navbar-brand-list-mobile">
+          <li class="brand-logo">
+            <a class="navbar-brand" href="https://www.redhat.com">
+              <img src="{{{uiRootPath}}}/img/redhat-logo.svg" alt="Red Hat" />
+            </a>
+          </li>
+        </ul>
+
+        {{#if env.SITE_SEARCH_PROVIDER}}
+        <div class="navbar-item search hide-for-print">
+          <div id="search-field" class="field">
+            <input id="search-input" type="text" placeholder="Search the docs..." {{#if page.home}} autofocus{{/if}}>
+          </div>
+        </div>
+        {{/if}}
         <button class="navbar-burger" data-target="topbar-nav">
           <span></span>
           <span></span>
           <span></span>
         </button>
-        <img src="{{uiRootPath}}/img/project-logo.svg" class="navbar-logo" alt="Project logo">
-        <a href="{{site.url}}/index.html">{{site.title}}</a>
       </div>
-    </div>
-    <div id="topbar-nav" class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item hide-for-print">
-          <div id="search-field" class="field">
-            <input id="search-input" type="text" placeholder="Search the docs" autofocus>
-          </div>
-        </div>
-        <a class="navbar-item" href="https://github.com/redhat-documentation/vale-at-red-hat/">
-          <img src="{{uiRootPath}}/img/github.svg" alt="View source code on GitHub">
-        </a>
-      </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </div>
