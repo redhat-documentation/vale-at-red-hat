@@ -695,3 +695,4 @@ workstation
 zero
 zeros
 zone group
+Configuring the Compute Service for Instance Creation. Support for instance domain change-deltas, and for instances where.

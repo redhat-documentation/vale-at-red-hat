@@ -470,3 +470,4 @@ zero out
 zeroes
 zonegroup
 Zulu time
+There are many ways to write, for instance, using a pencil.
