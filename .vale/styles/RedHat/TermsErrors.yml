@@ -39,6 +39,7 @@ swap:
   "w/o": without
   '(?<!IBM\s)S\/390|S90|S\s390': IBM S/390
   'backwards?\scompatible': compatible with earlier versions
+  '(?<= )for instance(?=,)': for example
   10BASE-2: 10BASE2
   10BASET: 10BASE-T
   24/7: 24x7
