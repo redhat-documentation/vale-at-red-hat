@@ -21,11 +21,17 @@ GitOps ZTP
 //vale-fixture
 Hybrid Cloud Console
 //vale-fixture
-IBM Power
+IBM Cloud
 //vale-fixture
-IBM zSystems
+IBM Cloud Bare Metal
 //vale-fixture
 IBM LinuxONE
+//vale-fixture
+IBM Power
+//vale-fixture
+IBM Power Virtual Server
+//vale-fixture
+IBM Z
 //vale-fixture
 Logging subsystem for Red Hat OpenShift
 //vale-fixture
