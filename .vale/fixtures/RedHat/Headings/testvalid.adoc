@@ -15,7 +15,7 @@
 == Kogito updates
 //== IBM Cloud is a valid product name
 //== Spotify, GraphQL, and Quiltflower are proper nouns so uppercase in headings is OK.
-== Redis is an in-memory data structure store that is used by several Red Hat products.
+== Redis is an in-memory data structure store that is used by several Red Hat products
 == Repackage the JAR file
 == Installing Podman Desktop
 == Installing Flathub
