@@ -89,7 +89,7 @@ $ vale modules/ztp-creating-the-site-secrets.adoc
 * xref:defining-a-vale-onboarding-strategy.adoc[]
 * link:https://vale.sh/docs/vale-cli/installation/[Installing Vale CLI]
 * link:https://vale.sh/docs/topics/config[Configuring Vale CLI]
-* link:https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server[VS Code + Vale]
+* link:https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode[Install the Visual Studio Code extension for Vale, "Vale VSCode"] (Important: This new extension replaces the deprecated "vale-server" extension.)
 * link:https://plugins.jetbrains.com/plugin/19613-vale-cli[Intellijel IDE + Vale]
 * link:https://packagecontrol.io/packages/LSP-vale-ls[Sublime Text + Vale]
 * link:https://vale.sh/generator[Vale configuration generator]
