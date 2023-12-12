@@ -1,0 +1,18 @@
+:navtitle: Endashes
+:keywords: reference, rule, endashes
+
+= En dashes
+
+Use an link:https://www.compart.com/en/unicode/U+2013[En dash] (`–`) to show a range of numbers.
+Do not use spaces before or after the En dash.
+
+[NOTE]
+====
+An link:https://www.compart.com/en/unicode/U+2014[Em dash] (`-`) is not the same as an En dash.
+The Em dash works like a comma, a colon, or parenthesis.
+====
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - En dashes, p.48]
+* link:{ibmsg-url}?topic=punctuation-dashes#showing-ranges-with-en-dashes[{ibmsg} - Showing ranges with en dashes]

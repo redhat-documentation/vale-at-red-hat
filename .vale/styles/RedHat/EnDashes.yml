@@ -1,0 +1,11 @@
+---
+extends: substitution
+level: warning
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/endashes/
+message: "Use an en dash to show a range of numbers. Do not use a space before or after the en dash."
+nonword: true
+action:
+  name: replace
+swap:
+  (\d+)\s?-\s?(\d+): $1–$2
+  (\d+)\s–\s(\d+): $1–$2
