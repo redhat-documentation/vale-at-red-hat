@@ -34,6 +34,8 @@ non-English
 on premise
 on-prem
 on-premises
+opt into
+opting into
 preload
 preloaded
 right double-click

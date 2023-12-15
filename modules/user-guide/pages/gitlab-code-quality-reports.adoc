@@ -62,4 +62,4 @@ Once merged, a code quality pipeline runs for every new commit added in a PR. Ac
 
 [role="_additional-resources"]
 .Additional resources
-* For more details on GitLab's Code Quality feature, see the link:https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html[GitLab Docs].
+* For more details on GitLab's Code Quality feature, see the link:https://docs.gitlab.com/ee/ci/testing/code_quality.html[GitLab Docs].

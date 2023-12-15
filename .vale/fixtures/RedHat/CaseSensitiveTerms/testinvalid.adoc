@@ -9,10 +9,12 @@ ack packet
 ActiveMQ
 ActiveMQ Artemis
 Admin Portal
+AWS opt in Region
 Administration portal
 Administrator Portal
 Analysis
 Ansible playbook
+Ansible rulebook
 Appliance Console
 Application stream
 application stream
@@ -269,8 +271,11 @@ Lightweight Directory Access Protocol over Secure Socket Layer
 linux
 LINUX
 live-backup group
+Local Zone
+local zone
 Lun
 lun
+LZ
 m-TLS
 master CA
 master server
@@ -348,6 +353,7 @@ OSD daemon
 Overcloud
 P-PC
 Planner
+Playbook
 podman
 Podman desktop
 Pop-up
@@ -417,8 +423,8 @@ RHV-H
 RHV-M
 RHVM
 Role Based Access Control
-Role-Based Access Control
 role based access control
+Role-Based Access Control
 rolling application stream
 rolling application streams
 rolling stream
