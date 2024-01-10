@@ -9,6 +9,12 @@
 
 Install the Vale linter and the `RedHat` package to automate reviewing content for style and structure.
 
+[IMPORTANT]
+====
+Vale v3.0.0+ introduces a breaking change in how the Styles path is configured.
+To use the various Vale at Red Hat styles, use Vale version 2.30.0 or lower.
+====
+
 .Prerequisites
 
 * A recent version of the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem is installed on your system.

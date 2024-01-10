@@ -18,8 +18,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: errata-ai/vale-action@reviewdog
         with:
+          version: 2.30.0
           filter_mode: diff_context
-          vale_flags: "--no-exit --minAlertLevel=error"
+          vale_flags: "--no-exit --minAlertLevel=error --glob=*.adoc"
           reporter: github-pr-review
           fail_on_error: true
         env:
