@@ -12,20 +12,32 @@ Install the Vale linter and the `RedHat` package to automate reviewing content f
 [IMPORTANT]
 ====
 Vale v3.0.0+ introduces a breaking change in how the Styles path is configured.
-To use the various Vale at Red Hat styles, use Vale version 2.30.0 or lower.
+Until we reconcile these changes, use Vale v2.30.0 or lower.
 ====
 
 .Prerequisites
 
-* A recent version of the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem is installed on your system.
+* Install the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem.
 
-.Procedure
-
-. To install the Vale command-line tool on RHEL or Fedora, run the following command:
+* Remove any previously installed `mczernek/vale` RPM installation. Fedora 39 CSB is not compatible with the latest `mczernek/vale` RPM.
+To remove a previous Vale RPM installation, do the following:
 +
 [source,terminal]
 ----
-$ sudo dnf copr enable mczernek/vale && sudo dnf install vale
+sudo dnf remove vale
+----
+
+.Procedure
+
+. To install the Vale v2.30.0 command-line tool on RHEL or Fedora, run the following commands:
++
+[source,terminal]
+----
+wget https://github.com/errata-ai/vale/releases/download/v2.30.0/vale_2.30.0_Linux_64-bit.tar.gz
+
+tar xzvf vale_2.30.0_Linux_64-bit.tar.gz vale -C ${HOME}/bin
+
+echo "Installed $(vale --version) to ${HOME}/bin/vale"
 ----
 +
 [NOTE]
