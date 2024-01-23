@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: EPL-2.0
 #
 # Loop on each git repository found on location given as argument, or current directory
-find "${1:-.}" -name .git -print | sed 's@/.git@@' | sort | uniq | while read directory; 
+find "${1:-.}" -name .git -print | sed 's@/.git@@' | sort | uniq | while read -r directory; 
 do 
     echo "Generating report on $directory"
     # Provide a full list of files to report on
