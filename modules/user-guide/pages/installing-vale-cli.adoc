@@ -11,33 +11,41 @@ Install the Vale linter and the `RedHat` package to automate reviewing content f
 
 [IMPORTANT]
 ====
-Vale v3.0.0+ introduces a breaking change in how the Styles path is configured.
-Until we reconcile these changes, use Vale v2.30.0 or lower.
+Vale v3 introduced a breaking change for the Vale vocabulary folder location.
+For Vale v3+, if you use a vocabulary with your project, ensure that the vocabulary folder matches this folder structure:
+
+[source,terminal]
+----
+.vale/styles/config/vocabularies/<project_vocab_folder>
+----
 ====
 
 .Prerequisites
 
 * Install the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem.
 
-* Remove any previously installed `mczernek/vale` RPM installation. Fedora 39 CSB is not compatible with the latest `mczernek/vale` RPM.
-To remove a previous Vale RPM installation, do the following:
-+
-[source,terminal]
-----
-sudo dnf remove vale
-----
-
 .Procedure
 
-. To install the Vale v2.30.0 command-line tool on RHEL or Fedora, run the following commands:
+. Install Vale.
+For RHEL or Fedora Linux operating systems, run the following command:
 +
 [source,terminal]
 ----
-wget https://github.com/errata-ai/vale/releases/download/v2.30.0/vale_2.30.0_Linux_64-bit.tar.gz
+$ sudo dnf copr enable mczernek/vale && sudo dnf install vale
+----
 
-tar xzvf vale_2.30.0_Linux_64-bit.tar.gz vale -C ${HOME}/bin
-
-echo "Installed $(vale --version) to ${HOME}/bin/vale"
+. Verify the Vale install location.
+You might need to update your text editor with this value.
++
+[source,terminal]
+----
+$ which vale
+----
++
+.Example output
+[source,terminal]
+----
+/usr/bin/vale
 ----
 +
 [NOTE]
