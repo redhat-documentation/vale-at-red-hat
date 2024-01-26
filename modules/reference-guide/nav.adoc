@@ -14,6 +14,7 @@
 * xref:oxfordcomma.adoc[]
 * xref:pascalcamelcase.adoc[]
 * xref:passivevoice.adoc[]
+* xref:productcentricwriting.adoc[]
 * xref:readabilitygrade.adoc[]
 * xref:releasenotes.adoc[]
 * xref:repeatedwords.adoc[]
