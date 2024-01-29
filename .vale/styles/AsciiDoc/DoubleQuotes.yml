@@ -1,0 +1,7 @@
+---
+extends: existence
+level: suggestion
+message: "Use double quotes instead of single quotes for IDs"
+nonword: true
+raw:
+  - "id='.*'"
