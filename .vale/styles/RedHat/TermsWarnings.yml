@@ -35,6 +35,7 @@ swap:
   downgrade: upgrade|fallback|fall back|rollback|roll back
   entitlement: repository|subscription
   execute: run|issue|start|enter
+  hamburger: 'Do not use "hamburger". Use "the More options icon" or "the options icon".'
   he|she: you
   host name: hostname
   illegal: invalid|not allowed|incorrect
@@ -42,6 +43,7 @@ swap:
   ingests?: import|load|obtain|process
   insure: ensure
   invokable: invocable
+  kebab|kebab menu: 'Do not use "kebab". Use "the More options icon" or "the options icon".'
   kill: end|stop
   kilobytes?: KB|kB
   leverage: use

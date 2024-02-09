@@ -15,6 +15,7 @@ downgrade
 entitlement
 etc
 execute
+hamburger
 he
 host name
 I
@@ -24,6 +25,8 @@ ingests
 insure
 invokable
 is updatable
+kebab
+kebab menu
 kill
 kilobytes
 leverage
