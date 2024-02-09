@@ -201,6 +201,7 @@ Ignite
 ignition config
 IM
 Image Builder
+Image builder
 Infiniband
 INSTALL_DIR
 installDir
