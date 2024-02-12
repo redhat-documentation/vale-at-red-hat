@@ -9,7 +9,6 @@ ack packet
 ActiveMQ
 ActiveMQ Artemis
 Admin Portal
-AWS opt in Region
 Administration portal
 Administrator Portal
 Analysis
@@ -30,6 +29,7 @@ assertj
 Assertj
 auto-link
 AutoLink
+AWS opt in Region
 Azure
 basic auth
 Basic auth
@@ -164,7 +164,6 @@ gid
 Gid
 gimp
 Gimp
-git
 GIT
 gnome
 Gnome
@@ -490,7 +489,6 @@ Technology preview
 technology preview
 The AMQ Broker
 The Operator Lifecycle Manager
-Tolapai
 ttl
 uid
 UltraSparc
@@ -559,5 +557,4 @@ XPLAT CLI
 xplat-cli
 XPLAT-CLI
 Xterm
-yaml
 Yaml is not a markup language.
