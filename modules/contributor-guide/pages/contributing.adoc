@@ -7,15 +7,20 @@
 [id= "contributing"]
 = ✨ Join Us: Contribute Today! ✨
 
-Hello! We're so happy you're thinking about helping out with our project. Everyone has something special to offer, and we welcome you to share your skills with us.
+Hello! We're happy you're thinking about joining our project.
+Join us now and help make a difference! 
+Every bit helps, whether you're fixing a typographical error, suggesting an improvement, or just getting to know the community.
+Got questions or need help? Ask us on Slack. We're here to help you.
 
 == Why Help Out? ==
 By contributing, you get to:
-- **Learn new things:** Grow your skills with us.
-- **Meet people:** Join our friendly community.
-- **Make a difference:** Your help improves our tool for everyone.
+
+- Learn new things and grow your skills.
+- Join our friendly community and meet people.
+- Make a difference by improving our tool for everyone.
 
 == Ways to Contribute ==
+
 There are many ways you can help:
 
 * **Make our docs better:** Use Vale to help make our documentation clearer. Check out how to set Vale up here: xref:user-guide:installing-vale-cli.adoc[Installing Vale CLI].
@@ -24,15 +29,10 @@ There are many ways you can help:
 
 * **Chat with us:** Come talk to us on Slack in our chat room link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat]. It's a great place to ask questions or say "hi".
 
-* **Share your work:** Do you want to make a change? Please share it with us by following this guide: link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+* **Share your work:** Do you want to contribute changes? Please share it with us by following this guide: link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
 
-* **Add your touch:** Interested in adding your own rules or styles? Learn how here: xref:extending-the-spelling-rule.adoc[Extending the Spelling Rule] and xref:extending-styles.adoc[Extending Styles].
+* **Add your touch:** Interested in adding rules or styles? Learn how here: xref:extending-the-spelling-rule.adoc[Extending the Spelling Rule] and xref:extending-styles.adoc[Extending Styles].
 
-image::open-source-wants-you.jpg[Open Source wants you, align="center"]
+image::open-source-wants-you.jpg[Open Source wants you, align="left"]
 
-== Ready to Start? ==
-Join us now and help make a difference! Every little bit helps, whether you're fixing a typographical error, suggesting an improvement, or just getting to know the community.
 
-**Let's Get Started!** 🌟
-
-Got questions or need help? Reach out or join our Slack. We're here to help you every step of the way.
