@@ -7,7 +7,7 @@
 [id= "contributing"]
 = ✨ Join Us: Contribute Today! ✨
 
-Hello! We're so happy you're thinking about helping out with our project. Everyone has something special to offer, and we welcome you to share your skills with us. Here's how you can get involved:
+Hello! We're so happy you're thinking about helping out with our project. Everyone has something special to offer, and we welcome you to share your skills with us.
 
 == Why Help Out? ==
 By contributing, you get to:
@@ -22,7 +22,7 @@ There are many ways you can help:
 
 * **Tell us what you think:** Let us know if something doesn't work right or if you have a great idea. Go here to share your thoughts: link:{repository-url}/issues[Report issues and request enhancements].
 
-* **Chat with us:** Come talk to us on Slack in our chat room link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat]. It's a great place to ask questions or say hi.
+* **Chat with us:** Come talk to us on Slack in our chat room link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat]. It's a great place to ask questions or say "hi".
 
 * **Share your work:** Do you want to make a change? Please share it with us by following this guide: link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
 
@@ -31,7 +31,7 @@ There are many ways you can help:
 image::open-source-wants-you.jpg[Open Source wants you, align="center"]
 
 == Ready to Start? ==
-Join us now and help make a difference! Every little bit helps, whether you're fixing a typo, suggesting an improvement, or just getting to know the community.
+Join us now and help make a difference! Every little bit helps, whether you're fixing a typographical error, suggesting an improvement, or just getting to know the community.
 
 **Let's Get Started!** 🌟
 
