@@ -117,6 +117,7 @@ IBM Z
 IdM CA renewal server
 IdM server and replicas
 Ignition config
+Insights image builder
 image builder
 inference engine
 InfiniBand
