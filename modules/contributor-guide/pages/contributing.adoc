@@ -3,21 +3,36 @@
 :keywords: contributing
 // :page-aliases: 
 // End of metadata for Antora
-[id="contributing"]
-= Contributing
 
-You can help by doing any of the following:
+[id= "contributing"]
+= ✨ Join Us: Contribute Today! ✨
 
-* Use Vale with the style rules from the {repository-name} repository, see xref:user-guide:installing-vale-cli.adoc[]
+Hello! We're happy you're thinking about joining our project.
+Join us now and help make a difference! 
+Every bit helps, whether you're fixing a typographical error, suggesting an improvement, or just getting to know the community.
+Got questions or need help? Ask us on Slack. We're here to help you.
 
-* link:{repository-url}/issues[Report issues and request enhancements]
+== Why Help Out? ==
+By contributing, you get to:
 
-* Join the Slack channel, link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+- Learn new things and grow your skills.
+- Join our friendly community and meet people.
+- Make a difference by improving our tool for everyone.
 
-* Contribute to the repository, using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+== Ways to Contribute ==
 
-* xref:extending-the-spelling-rule.adoc[]
+There are many ways you can help:
 
-* xref:extending-styles.adoc[]
+* **Make our docs better:** Use Vale to help make our documentation clearer. Check out how to set Vale up here: xref:user-guide:installing-vale-cli.adoc[Installing Vale CLI].
 
-image::open-source-wants-you.jpg[Open Source wants you]
+* **Tell us what you think:** Let us know if something doesn't work right or if you have a great idea. Go here to share your thoughts: link:{repository-url}/issues[Report issues and request enhancements].
+
+* **Chat with us:** Come talk to us on Slack in our chat room link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat]. It's a great place to ask questions or say "hi".
+
+* **Share your work:** Do you want to contribute changes? Please share it with us by following this guide: link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+
+* **Add your touch:** Interested in adding rules or styles? Learn how here: xref:extending-the-spelling-rule.adoc[Extending the Spelling Rule] and xref:extending-styles.adoc[Extending Styles].
+
+image::open-source-wants-you.jpg[Open Source wants you, align="left"]
+
+
