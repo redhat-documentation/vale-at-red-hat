@@ -1,7 +1,7 @@
 ---
 extends: script
 message: "Numbered callout does not follow sequentially."
-level: suggestion
+level: warning
 link: https://docs.asciidoctor.org/asciidoc/latest/verbatim/callouts/
 scope: raw
 script: |

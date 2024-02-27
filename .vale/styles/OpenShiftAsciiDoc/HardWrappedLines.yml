@@ -1,7 +1,7 @@
 ---
 extends: script
 message: "Avoid hard-wrapped lines."
-level: error
+level: warning
 scope: raw
 script: |
   text := import("text")
