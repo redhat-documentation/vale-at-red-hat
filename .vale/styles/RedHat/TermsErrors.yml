@@ -21,7 +21,6 @@ swap:
   "(?<!self-)hosted engine|hosted-engine": self-hosted engine
   "[bB]asic [aA]uth": Basic HTTP authentication|Basic authentication
   "a lot(?: of)?": many|much
-  "AI": Assisted Installer
   "best of breed|best-of-breed": best in class
   "bottle neck|bottle-neck": bottleneck
   "Christian name|forename|first name": given name
