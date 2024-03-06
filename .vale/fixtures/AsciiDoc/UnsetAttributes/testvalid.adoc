@@ -1,0 +1,19 @@
+:context: creating-infrastructure-machinesets
+
+ifeval::["{context}" == "creating-infrastructure-machinesets"]
+//vale-fixture
+:infra:
+endif::[]
+
+Vale reports lots of errors, it should also report an attribute that you forgot to unset
+
+ifeval::["{context}" == "creating-infrastructure-machinesets"]
+//vale-fixture
+:!infra:
+endif::[]
+
+//This is really just unsetting a second time, but it should not trip the rule
+ifeval::["{context}" == "creating-infrastructure"]
+//vale-fixture
+:infra!:
+endif::[]
