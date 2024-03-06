@@ -1,0 +1,35 @@
+= Testing
+
+ifeval::["{context}" == "configuring-iam-ibm-cloud"]
+:ibm-cloud:
+endif::[]
+ifeval::["{context}" == "manually-creating-alibaba-ram"]
+:alibabacloud:
+endif::[]
+ifeval::["{context}" == "preparing-to-install-on-nutanix"]
+:nutanix:
+endif::[]
+ifeval::["{context}" == "preparing-manual-creds-update"]
+:update:
+endif::[]
+ifeval::["{context}" == "preparing-to-install-on-ibm-power-vs"]
+:ibm-power-vs:
+endif::[]
+
+Some text.
+
+ifeval::["{context}" == "configuring-iam-ibm-cloud"]
+:!ibm-cloud:
+endif::[]
+ifeval::["{context}" == "manually-creating-alibaba-ram"]
+:!alibabacloud:
+endif::[]
+ifeval::["{context}" == "preparing-to-install-on-nutanix"]
+:!nutanix:
+endif::[]
+ifeval::["{context}" == "preparing-manual-creds-update"]
+:!update:
+endif::[]
+ifeval::["{context}" == "preparing-to-install-on-ibm-power-vs"]
+:!ibm-power-vs:
+endif::[]
