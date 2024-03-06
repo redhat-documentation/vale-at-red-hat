@@ -1,0 +1,17 @@
+:_mod-docs-content-type: PROCEDURE
+:context: creating-infrastructure-machinesets
+= Testing
+
+ifeval::["{context}" == "creating-infrastructure-machinesets"]
+:infra: test
+endif::[]
+
+Vale reports lots of errors, it should also report an attribute that you forgot to unset
+
+////
+Ignore multi-line comments
+:!infra:
+////
+
+//ignore comments
+//:!infra:
