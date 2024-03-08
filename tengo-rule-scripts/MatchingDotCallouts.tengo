@@ -16,6 +16,8 @@ matches := []
 scope = text.trim_space(scope)
 //add a newline, it might be missing
 scope += "\n"
+// clean out multi-line comments
+scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
 
 num_codeblock_callouts := 0
 num_callouts := 0
