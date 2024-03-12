@@ -35,6 +35,7 @@ swap:
   downgrade: upgrade|fallback|fall back|rollback|roll back
   entitlement: repository|subscription
   execute: run|issue|start|enter
+  hamburger|kebab menu|kebab: more options icon|options icon
   he|she: you
   host name: hostname
   illegal: invalid|not allowed|incorrect
