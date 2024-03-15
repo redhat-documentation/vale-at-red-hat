@@ -1,4 +1,5 @@
 64-bit x86
+after
 bare-metal clusters
 bare-metal compute
 bare-metal configuration
@@ -17,11 +18,19 @@ bare-metal node
 bare-metal provisioning
 bare-metal server
 bare-metal worker
+before
 by
 by using
+earlier
+following
 from
 information about
+later
+lower left
+lower right
 on
+preceding
+previous
 see this section
 segmentation fault
 shell prompt
@@ -30,7 +39,7 @@ something against which something else
 something at which something else
 something for which something else
 something from which something else
-something in which somehing else
+something in which something else
 something of which something else
 something on which something else
 something to which something else
