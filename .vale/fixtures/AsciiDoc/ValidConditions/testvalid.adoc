@@ -11,7 +11,7 @@ So much content in this section, I'd get confused.
 endif::[]
 
 //vale-fixture
-ifdef::revnumber[]
+ifdef::revnumber[] 
 This document has a version number of {revnumber}.
 endif::[]
 
