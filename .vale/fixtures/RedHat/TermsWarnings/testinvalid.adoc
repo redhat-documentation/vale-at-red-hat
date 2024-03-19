@@ -3,6 +3,7 @@ architected
 are updatable
 as well as
 BIOS
+carry out
 click on
 Ctrl-click
 deselect

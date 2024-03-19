@@ -61,7 +61,6 @@ cancelled
 cancelling
 canned
 cardreader
-carry out
 case insensitive
 catalogue
 catastrophic error
