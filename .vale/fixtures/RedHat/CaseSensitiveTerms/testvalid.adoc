@@ -19,6 +19,7 @@ AsciiDoc
 Asciidoctor
 AssertJ
 autolink
+Azure Red Hat OpenShift
 Basic authentication
 Basic HTTP authentication
 BIND
