@@ -8,17 +8,17 @@ script: |
   text := import("text")
   matches := []
 
-  //trim extra whitespace
-  scope = text.trim_space(scope)
-  //add a newline, it might be missing
-  scope += "\n"
   // clean out multi-line comments
   scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
+  //add a newline, it might be missing
+  scope += "\n"
 
   if_regex := "^(ifdef::.+\\[\\]|ifndef::.+\\[\\]|ifeval::.*)"
   endif_regex := "^endif::.*"
 
   for line in text.split(scope, "\n") {
+    // trim trailing whitespace
+    line = text.trim_space(line)
     if text.re_match(if_regex, line) {
       start := text.index(scope, line)
       matches = append(matches, {begin: start, end: start + len(line)})

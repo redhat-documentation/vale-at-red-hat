@@ -5,7 +5,7 @@ link:https://docs.aws.amazon.com/[]
 link:https://docs.aws.amazon.com/[Click here]
 
 //vale-fixture
-link:https://docs.aws.amazon.com/[click here]
+link:https://docs.aws.amazon.com/[click here] 
 
 //vale-fixture
 link:https://docs.aws.amazon.com/[here]

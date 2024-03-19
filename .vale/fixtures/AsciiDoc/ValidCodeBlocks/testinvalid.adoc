@@ -16,7 +16,7 @@ $ pwd
 Here is a code block:
 
 [source,yaml]
-----
+---- 
 ---
 apiVersion: 4.11
 

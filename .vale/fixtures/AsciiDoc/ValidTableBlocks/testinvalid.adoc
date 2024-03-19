@@ -21,7 +21,7 @@ Some text.
 
 .Table three
 [options="header"]
-|====
+|==== 
 |Column Title|Column Title|Column Title
 |content|content|content
 |====

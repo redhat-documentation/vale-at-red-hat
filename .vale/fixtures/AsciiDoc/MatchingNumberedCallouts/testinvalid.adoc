@@ -12,7 +12,7 @@ get '/hihi'<2><3>
 //vale-fixture
 [source,ruby]
 ----
-require 'frankie' <1>
+require 'frankie' <1> 
 get '/hihihi' <2>
 ----
 <1> text!
