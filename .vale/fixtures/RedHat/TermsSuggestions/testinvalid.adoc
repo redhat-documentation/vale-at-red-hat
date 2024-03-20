@@ -41,6 +41,8 @@ launch
 legacy
 Navigate
 once
+operator
+operators
 refer to
 segfault
 shell
