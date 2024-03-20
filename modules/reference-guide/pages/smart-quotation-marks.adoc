@@ -1,0 +1,12 @@
+:navtitle: Smart quotes
+:keywords: reference, rule, smart quotes
+
+= Smart quotation marks
+
+Do not use smart quotation marks (`‘`, `’`, `‟`, `″`, `‶`) in original body copy.
+Use straight quotation marks.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Typographical considerations]
+* link:{ibmsg-url}?topic=punctuation-quotation-marks#typographical-considerations[{ibmsg} - Typographical considerations]

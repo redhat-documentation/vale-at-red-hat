@@ -22,6 +22,7 @@
 * xref:sentencelength.adoc[]
 * xref:simplewords.adoc[]
 * xref:slash.adoc[]
+* xref:smart-quotation-marks.adoc[]
 * xref:spacing.adoc[]
 * xref:spelling.adoc[]
 * xref:symbols.adoc[]
