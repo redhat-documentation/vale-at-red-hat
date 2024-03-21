@@ -140,7 +140,8 @@ subtab
 superclass
 superobject
 superscript
-timeout|time out
+timeout
+time out
 unavailable
 uncommitted
 unformatted
