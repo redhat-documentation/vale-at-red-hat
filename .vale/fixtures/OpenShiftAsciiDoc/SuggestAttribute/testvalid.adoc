@@ -12,9 +12,13 @@
 {ztp}
 {gitops-shortname}
 {hybrid-console-second}
-{ibmpowerProductName}
-{ibmzProductName}
-{linuxoneProductName}
+{ibm-title}
+{ibm-cloud-title}
+{ibm-cloud-bm-title}
+{ibm-power-title}
+{ibm-power-server-title}
+{ibm-z-title}
+{ibm-linuxone-title}
 {logging-title-uc}
 {logging-title}
 {logging-uc}
