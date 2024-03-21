@@ -1,0 +1,9 @@
+---
+extends: substitution
+ignorecase: true
+level: warning
+scope: raw
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/emdash/
+message: "%s"
+swap:
+  '—|&mdash;|(?<=\w)--(?=\w)': 'Do not use em dashes. More common punctuation marks, such as commas, parentheses, or a colon, provide the same result.'
