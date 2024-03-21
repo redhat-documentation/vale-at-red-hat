@@ -1,0 +1,9 @@
+---
+extends: substitution
+level: warning
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/endashes/
+message: "Use an en dash to show a range or inclusive numbers. Do not use a space before or after the en dash."
+action:
+  name: replace
+swap:
+  (?<=[\d]+)\s-\s(?=[\d]+): –
