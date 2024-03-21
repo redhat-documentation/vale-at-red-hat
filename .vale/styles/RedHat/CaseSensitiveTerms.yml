@@ -314,7 +314,7 @@ swap:
   vnuma|VNUMA: vNUMA node
   vpn: VPN
   VS Code|VSCode|VisualStudioCode|VisualStudio Code: Visual Studio Code
-  VT-i|VT: Intel Virtualization Technology
+  VT(?!-d)|VT-i: Intel Virtualization Technology
   wan: WAN
   wca: WCA
   web-UI|webUI: web UI

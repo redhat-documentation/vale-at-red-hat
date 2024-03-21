@@ -320,6 +320,7 @@ VM Portal
 vNIC
 vNUMA node
 VPN
+VT-d
 WAN
 WCA
 Web services
