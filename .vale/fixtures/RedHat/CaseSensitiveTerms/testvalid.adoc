@@ -159,6 +159,7 @@ KIE session
 KJAR
 Knowledgebase
 kubelet
+Kubelet Stats Receiver
 Kubernetes
 KVM
 LAN
