@@ -30,7 +30,6 @@ Assertj
 auto-link
 AutoLink
 AWS opt in Region
-Azure
 basic auth
 Basic auth
 Basic Auth
