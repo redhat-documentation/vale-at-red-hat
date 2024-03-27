@@ -176,7 +176,6 @@ Mandrel
 master-slave group
 MicroProfile
 Microsoft
-Microsoft Azure
 Microsoft Azure Cross-Platform Command-Line Interface
 Microsoft Azure On-Demand Marketplace
 Microsoft Azure portal
