@@ -1,0 +1,15 @@
+:context: creating-infrastructure-machinesets
+
+ifeval::["{context}" == "creating-infrastructure-machinesets"]
+:infra:
+endif::[]
+
+Vale reports lots of errors, it should also report an attribute that you forgot to unset
+
+////
+Ignore multi-line comments
+:!infra:
+////
+
+//ignore comments
+//:!infra:
