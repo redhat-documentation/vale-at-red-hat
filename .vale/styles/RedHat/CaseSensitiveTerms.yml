@@ -178,7 +178,7 @@ swap:
   kjar|kJAR: KJAR
   knowledgebase: Knowledgebase
   ksession|knowledge session: KIE session
-  Kubelet: kubelet
+  Kubelet(?! Stats Receiver): kubelet
   kubernetes|k8s: Kubernetes
   kvm: KVM
   Lan|lan: LAN
