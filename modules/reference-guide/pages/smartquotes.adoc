@@ -10,3 +10,5 @@ Use straight quotation marks.
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Typographical considerations]
 * link:{ibmsg-url}?topic=punctuation-quotation-marks#typographical-considerations[{ibmsg} - Typographical considerations]
+* link:{repository-url}blob/main/.vale/styles/RedHat/SmartQuotes.yml[`SmartQuotes.yml` source code]
+
