@@ -9,3 +9,4 @@ Use either `or` or `and` rather than a slash (`/`).
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Slashes, p. 68]
 * link:{ibmsg-url}?topic=punctuation-slashes[{ibmsg} - Slashes]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Slash.yml[`Slash.yml` source code]

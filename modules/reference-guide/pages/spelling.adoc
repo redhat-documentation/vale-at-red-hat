@@ -10,4 +10,4 @@ Use correct American English spelling.
 * link:https://www.merriam-webster.com/[Merriam Webster dictionary]
 * xref:contributor-guide:extending-the-spelling-rule.adoc[]
 * xref:user-guide:creating-a-vocabulary-for-a-project.adoc[]
-
+* link:{repository-url}blob/main/.vale/styles/RedHat/Spelling.yml[`Spelling.yml` source code]

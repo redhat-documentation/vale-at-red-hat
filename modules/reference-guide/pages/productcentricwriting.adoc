@@ -9,4 +9,4 @@ Do not use product-centric writing to grant abilities to inanimate objects. Wher
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Anthropomorphism, p. 44]
 * link:{ibmsg-url}?topic=grammar-anthropomorphism[{ibmsg} - Anthropomorphism]
-
+* link:{repository-url}blob/main/.vale/styles/RedHat/ProductCentricWriting.yml[`ProductCentricWriting.yml` source code]

@@ -13,3 +13,4 @@ Ensure that user-replaced values have the following characteristics:
 
 .Additional resources
 * link:https://redhat-documentation.github.io/supplementary-style-guide/#user-replaced-values[User-replaced values]
+* link:{repository-url}blob/main/.vale/styles/RedHat/UserReplacedValues.yml[`UserReplacedValues.yml` source code]

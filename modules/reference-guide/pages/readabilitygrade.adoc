@@ -8,3 +8,4 @@ Grade level too high.
 .Additional resources
 
 * link:https://vale.sh/docs/topics/styles#metric[Vale documentation - `metric` extension point]
+* link:{repository-url}blob/main/.vale/styles/RedHat/ReadabilityGrade.yml[`ReadabilityGrade.yml` source code]

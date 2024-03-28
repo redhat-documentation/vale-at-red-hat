@@ -8,5 +8,6 @@ Keep one space between words.
 .Additional resources
 
 * link:{ssg-url}[{ssg}]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Spacing.yml[`Spacing.yml` source code]
 
 
