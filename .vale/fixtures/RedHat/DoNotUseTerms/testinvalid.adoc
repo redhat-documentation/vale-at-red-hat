@@ -4,6 +4,9 @@ congratulations
 foo
 fubar
 future-proof
+green
+yellow
+blue
 kerberize
 kerberized
 native interface
