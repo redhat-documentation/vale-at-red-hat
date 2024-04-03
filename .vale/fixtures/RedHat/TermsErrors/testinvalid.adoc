@@ -10,7 +10,6 @@ adapter card
 adaptor
 administrate
 adviser
-AI
 air wall
 aka
 all right
@@ -62,7 +61,6 @@ cancelled
 cancelling
 canned
 cardreader
-carry out
 case insensitive
 catalogue
 catastrophic error
@@ -279,6 +277,8 @@ on-ramp
 oops
 OpenShit
 ops
+opt into
+opting into
 organise
 organised
 organising
@@ -388,6 +388,7 @@ TCP/IP network
 teleprocessing line
 testcase
 the installer
+There are many ways to write, for instance, using a pencil.
 thin provisioned
 third-party software vendor
 thru
@@ -417,9 +418,6 @@ twisty
 TY-RAP
 typo
 unallocate
-virtual diskette drive
-virtual diskette
-virtual hard disk
 uncheck
 uncompilation
 uncompile
@@ -439,8 +437,11 @@ utilize
 vanilla
 versus
 virtual diskette
+virtual diskette
+virtual diskette drive
 virtual diskette drive
 virtual DOS machine
+virtual hard disk
 virtual hard disk
 w/ this
 w/o
@@ -470,4 +471,3 @@ zero out
 zeroes
 zonegroup
 Zulu time
-There are many ways to write, for instance, using a pencil.

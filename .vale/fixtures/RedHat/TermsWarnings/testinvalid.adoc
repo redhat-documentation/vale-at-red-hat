@@ -3,6 +3,7 @@ architected
 are updatable
 as well as
 BIOS
+carry out
 click on
 Ctrl-click
 deselect
@@ -15,6 +16,7 @@ downgrade
 entitlement
 etc
 execute
+hamburger
 he
 host name
 I
@@ -24,6 +26,8 @@ ingests
 insure
 invokable
 is updatable
+kebab
+kebab menu
 kill
 kilobytes
 leverage

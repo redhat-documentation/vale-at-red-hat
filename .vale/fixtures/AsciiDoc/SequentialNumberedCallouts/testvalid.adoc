@@ -19,7 +19,7 @@ require 'sinatra' <1>
 get '/hi' do <1>
   "Hello World!"
 end
-key: value <2>
+key: value <2> 
 ----
 <1> Library import
 <2> URL mapping

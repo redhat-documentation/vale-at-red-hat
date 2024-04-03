@@ -29,8 +29,9 @@ later
 lower left
 lower right
 on
-preceding
-previous
+Operator
+program operator
+security-profiles-operator
 see this section
 segmentation fault
 shell prompt
@@ -48,4 +49,3 @@ something without which something else
 this clause, which is nonrestrictive
 through
 x86_64
-

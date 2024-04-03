@@ -33,6 +33,13 @@ For RHEL or Fedora Linux operating systems, run the following command:
 ----
 $ sudo dnf copr enable mczernek/vale && sudo dnf install vale
 ----
++
+On macOS, run:
++
+[source,terminal]
+----
+$ brew install vale
+----
 
 . Verify the Vale install location.
 You might need to update your text editor with this value.

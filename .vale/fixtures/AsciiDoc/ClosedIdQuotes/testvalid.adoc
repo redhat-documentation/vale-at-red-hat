@@ -1,6 +1,6 @@
 //vale-fixture
 :_mod-docs-content-type: ASSEMBLY
-[id="rosa-getting-started_{context}"]
+[id="rosa-getting-started_{context}"] 
 = Comprehensive guide to getting started with {product-title}
 
 //vale-fixture

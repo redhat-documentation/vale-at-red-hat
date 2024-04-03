@@ -9,3 +9,4 @@ Use the Oxford comma.
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Commas between clauses, p.45]
 * link:{ibmsg-url}?topic=punctuation-commas#commas-between-clauses[{ibmsg} - Commas between clauses]
+* link:{repository-url}blob/main/.vale/styles/RedHat/OxfordComma.yml[`OxfordComma.yml` source code]

@@ -18,6 +18,6 @@ Do not use error terms. Use the correct term as described in Red Hat Supplementa
 * link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
 * link:{ibmsg-url-print}[{ibmsg-print} - Appendix C. Word usage, p. 300]
 * link:{ibmsg-url}?topic=word-usage[{ibmsg} - Word usage]
-* link:{repository-url}blob/main/.vale/styles/RedHat/TermsErrors.yml[TermsErrors.yml source code]
+* link:{repository-url}blob/main/.vale/styles/RedHat/TermsErrors.yml[`TermsErrors.yml` source code]
 
 

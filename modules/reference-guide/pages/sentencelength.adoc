@@ -9,3 +9,4 @@ Try to keep sentences to an average of 32 words or fewer, and vary sentence leng
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Conversational style]
 * link:{ibmsg-url}?topic=medium-conversational-style[{ibmsg} - Conversational style]
+* link:{repository-url}blob/main/.vale/styles/RedHat/SentenceLength.yml[`SentenceLength.yml` source code]

@@ -13,7 +13,7 @@ ifdef::revnumber[]
 This document has a version number of {revnumber}.
 
 //vale-fixture
-ifeval::[2 > 1]
+ifeval::[2 > 1] 
 Some text!
 
 //vale-fixture

@@ -1,7 +1,7 @@
 ---
 extends: existence
 scope: raw
-level: error
+level: warning
 link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#anchoring-in-module-files
 message: "ID is missing the '_{context}' variable at the end of the ID."
 raw:

@@ -1,7 +1,7 @@
 ---
 extends: existence
 scope: raw
-level: error
+level: suggestion
 link: https://redhat-documentation.github.io/supplementary-style-guide/#commands-with-root-privileges
 message: "Terminal code block missing a command prompt at the beginning of the line. For example output, prepend the code block with '.Example output'."
 raw:

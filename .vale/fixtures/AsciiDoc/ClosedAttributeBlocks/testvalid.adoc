@@ -22,7 +22,7 @@ $ oc adm must-gather
 
 //vale-fixture
 .Example API response
-[source,json]
+[source,json] 
 ----
 [
  {

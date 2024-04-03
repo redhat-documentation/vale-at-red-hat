@@ -20,9 +20,10 @@ Consider using Vale in your IDE when:
 
 .Procedure
 
-. In  Visual Studio Code, install the link:https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode[Visual Studio Code extension for Vale using the Marketplace].
-
+. In  Visual Studio Code, install the latest link:https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode["Vale VSCode" extension by Chris Chinchilla].
 . Restart Visual Studio Code.
+
+NOTE: Avoid installing the earlier obsolete "Vale" extension by errata-ai, which is very similar in appearance to the latest extension.
 
 .Verification
 
@@ -32,5 +33,5 @@ Consider using Vale in your IDE when:
 
 .Additional resources
 
-* link:https://github.com/chrischinchilla/vale-vscode[Visual Studio Code extension for Vale repository and documentation]
+* link:https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode["Vale VSCode" extension by Chris Chinchilla]
 * link:https://vale.sh/docs/integrations/guide/[How to integrate Vale with other tools and services]

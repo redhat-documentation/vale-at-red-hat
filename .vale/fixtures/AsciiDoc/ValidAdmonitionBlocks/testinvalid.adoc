@@ -3,7 +3,7 @@ Here is a Admonition block:
 
 [IMPORTANT]
 .Feeding the Werewolves
-====
+==== 
 While werewolves are hardy community members, keep in mind the following dietary concerns:
 
 . They are allergic to cinnamon.

@@ -17,7 +17,7 @@
 |TorqueBox
 |Application Server <1>
 |====
-<1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus urna
+<1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus urna 
 <2> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 [cols=2*, width="90%", options="header"]
@@ -69,7 +69,7 @@ Bullet lists are OK.
 ** Lorem ipsum dolor sit amet consectetur adipiscing elit furp
 * three
 
-. Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp
+. Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp 
 .. Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp
 
 - Lists are ok Lorem ipsum dolor sit amet consectetur adipiscing elit furp

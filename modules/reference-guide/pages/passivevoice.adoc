@@ -20,3 +20,4 @@ According to the {ssg}, you can use the passive voice in prerequisites.
 * link:{ssg-url}#prerequisites[{ssg} - Prerequisites]
 * link:{ibmsg-url-print}[{ibmsg-print} - Voice, p.35]
 * link:{ibmsg-url}?topic=grammar-verbs#voice[{ibmsg} - Voice]
+* link:{repository-url}blob/main/.vale/styles/RedHat/PassiveVoice.yml[`PassiveVoice.yml` source code]

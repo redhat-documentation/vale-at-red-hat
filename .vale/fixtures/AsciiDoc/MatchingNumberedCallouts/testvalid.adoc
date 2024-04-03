@@ -17,7 +17,7 @@ end
 require 'sinatra' \\//<1>
 
 get '/hi' do <2><3>
-  "Hello World!"<4>
+  "Hello World!"<4> 
 end
 ----
 <1> Library import

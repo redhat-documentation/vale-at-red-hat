@@ -19,6 +19,7 @@ AsciiDoc
 Asciidoctor
 AssertJ
 autolink
+Azure Red Hat OpenShift
 Basic authentication
 Basic HTTP authentication
 BIND
@@ -117,6 +118,7 @@ IBM Z
 IdM CA renewal server
 IdM server and replicas
 Ignition config
+Insights image builder
 image builder
 inference engine
 InfiniBand
@@ -157,6 +159,7 @@ KIE session
 KJAR
 Knowledgebase
 kubelet
+Kubelet Stats Receiver
 Kubernetes
 KVM
 LAN
@@ -173,7 +176,6 @@ Mandrel
 master-slave group
 MicroProfile
 Microsoft
-Microsoft Azure
 Microsoft Azure Cross-Platform Command-Line Interface
 Microsoft Azure On-Demand Marketplace
 Microsoft Azure portal
@@ -318,6 +320,7 @@ VM Portal
 vNIC
 vNUMA node
 VPN
+VT-d
 WAN
 WCA
 Web services

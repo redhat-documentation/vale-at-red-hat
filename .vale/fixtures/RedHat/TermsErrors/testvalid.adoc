@@ -41,7 +41,6 @@ as expected
 as in
 as needed
 as well as per recipient
-Assisted Installer
 attacker
 attention notice
 auto-detect

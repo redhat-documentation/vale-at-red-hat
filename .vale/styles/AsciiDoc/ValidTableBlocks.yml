@@ -8,8 +8,8 @@ script: |
   text := import("text")
   matches := []
 
-  //trim extra whitespace
-  scope = text.trim_space(scope)
+  // clean out multi-line comments
+  scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
   //add a newline, it might be missing
   scope += "\n"
 
@@ -17,6 +17,8 @@ script: |
   count := 0
 
   for line in text.split(scope, "\n") {
+    // trim trailing whitespace
+    line = text.trim_space(line)
     if text.re_match(tbl_delim_regex, line) {
       count += 1
       start := text.index(scope, line)
