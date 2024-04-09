@@ -362,7 +362,6 @@ Posix
 Postscript
 Powershell
 powershell
-PPC
 PPC64
 ppp
 Ppp
