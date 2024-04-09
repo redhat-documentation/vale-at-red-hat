@@ -224,7 +224,7 @@ swap:
   Posix|posix: POSIX
   Postscript: PostScript
   Powershell|powershell: PowerShell
-  PPC|P-PC|PPC64: PowerPC
+  P-PC|PPC64: PowerPC
   Ppp|ppp: PPP
   prom|Prom: PROM
   proof key for code exchange: Proof Key for Code Exchange
