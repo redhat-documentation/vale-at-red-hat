@@ -31,7 +31,7 @@ asciidoc:
   sourcemap: true
 ui:
   bundle:
-    url: https://gitlab.com/aireilly/redhat-antora-ui/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://gitlab.com/redhat-docs/redhat-antora-ui/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./supplemental-ui
   output_dir: _
