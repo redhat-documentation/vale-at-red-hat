@@ -24,7 +24,7 @@ This web app is preconfigured to analyze your content by using Red Hat's style r
 ```bash
 docker run --rm -p 8080:8080 quay.io/ganelson/vale-online-app
 ```
-. Open your browser and go to `http://localhost:8080`.
+. Open your browser and go to `+http://localhost:8080+`.
 . Paste the content you want to check in the text area and click on the `Lint` button.
 +
 [[NOTE]]
