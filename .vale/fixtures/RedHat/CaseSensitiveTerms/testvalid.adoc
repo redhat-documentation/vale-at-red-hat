@@ -52,6 +52,7 @@ Content View
 CRUSH map
 CSV
 Ctrl
+Customer Portal
 Cygmon
 Data Grid
 Data Grid Console
@@ -118,11 +119,11 @@ IBM Z
 IdM CA renewal server
 IdM server and replicas
 Ignition config
-Insights image builder
 image builder
 inference engine
 InfiniBand
 Insight
+Insights image builder
 Intel Virtualization Technology
 Intel(R) EP80579 Integrated Processor
 Intelligent Process Server
