@@ -87,11 +87,12 @@ configuration map
 Content view
 content view
 control key
+CP
 crush map
 crushmap
 csv
 ctrl
-Customer Portal
+customer portal
 cygmon
 CygMon
 CYGMON
@@ -410,6 +411,7 @@ resteasy
 Resteasy
 RESTEASY
 RH-OSP
+RHCP
 RHDS
 RHEL host
 RHEL-H
