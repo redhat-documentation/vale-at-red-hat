@@ -15,11 +15,18 @@ The `RedHat` style for Vale consists of language rules suitable for documentatio
 * link:https://github.com/errata-ai/IBM[Vale-compatible implementation] of link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[_IBM Developer Editorial Style Guide_]
 * link:{valedict-url}[_{valedict}_]
 
-The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `RedHat` style in the following directory:
+[IMPORTANT]
+====
+Vale v3 introduced a breaking change for the Vale vocabulary folder location.
+For Vale v3+, if you use a vocabulary with your project, ensure that the vocabulary folder matches this folder structure:
 
+[source,terminal]
 ----
-.vale/styles/RedHat
+.vale/styles/config/vocabularies/<project_vocab_folder>
 ----
+
+For more information see, link:https://vale.sh/docs/topics/vocab/[Vocabularies].
+====
 
 [role="_additional-resources"]
 .Additional resources
@@ -27,6 +34,3 @@ The xref:contributor-guide:vale-at-red-hat-repository.adoc[] contains the `RedHa
 * xref:using-vale-in-the-ide.adoc[]
 * xref:using-vale-github-action.adoc[]
 * xref:adding-vale-configuration-to-a-project.adoc[]
-
-
-

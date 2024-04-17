@@ -1,0 +1,74 @@
+// Metadata for Antora
+:navtitle: Installing the RedHat style
+:keywords: installing-redhat-style-for-vale, antora
+:description: Installing the Red Hat style for Vale
+// End of metadata for Antora
+:_module-type: CONCEPT
+[id="installing-redhat-style-for-vale"]
+= Installing the Red Hat style for Vale globally
+
+You can install the `RedHat` style for Vale globally.
+
+[IMPORTANT]
+====
+Some product documentation repositories, such as `openshift-docs`, have an existing `.vale.ini` file.
+When you run `vale` on content files in the repository directory, the `<repository>/.vale.ini` file overrides the `$HOME/.vale.ini` file. For more information, see link:https://vale.sh/docs/topics/config[Vale configuration reference].
+
+Run `vale sync` in your project directory to download the Vale rules relative to that project directory.
+====
+
+.Procedure
+
+. To use Vale with the `RedHat` package system-wide, create the following `.vale.ini` configuration file in your `$HOME` directory.
++
+.Example .vale.ini
+[source,ini]
+----
+include::example$vale.ini[]
+----
+
+. Sync the `RedHat` package to your computer.
++
+[source,console]
+----
+$ vale sync
+----
++
+.Example output
+[source,terminal]
+----
+$ vale sync
+ SUCCESS  Downloaded package 'RedHat'
+Downloading packages [1/1]
+----
++
+[TIP]
+To get the latest updates, run `vale sync` regularly.
+
+.Verification
+
+. Run `vale` against a source file:
++
+[source,console,subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
++
+.Example output
+[source,terminal]
+----
+$ vale modules/ztp-creating-the-site-secrets.adoc
+
+ modules/ztp-creating-the-site-secrets.adoc
+ 10:222  error       Use 'Assisted Installer'        Vale.Terms
+                     instead of 'assisted
+                     installer'.
+ 14:13   suggestion  'are referenced' is passive     RedHat.PassiveVoice
+                     voice. In general, use active
+                     voice. Consult the style guide
+                     for acceptable use of passive
+                     voice.
+
+✖ 2 errors, 0 warnings and 1 suggestion in 1 file.
+----

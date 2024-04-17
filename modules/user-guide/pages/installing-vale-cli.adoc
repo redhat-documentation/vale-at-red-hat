@@ -5,19 +5,14 @@
 :page-aliases: end-user-guide:using-vale-cli.adoc, installing-vale-cli-from-zip.adoc
 // End of metadata for Antora
 [id="proc_installing-vale-cli"]
-= Installing Vale and the RedHat package
+= Installing Vale
 
-Install the Vale linter and the `RedHat` package to automate reviewing content for style and structure.
+Install the Vale linter to begin reviewing content for style and structure.
 
 [IMPORTANT]
 ====
-Vale v3 introduced a breaking change for the Vale vocabulary folder location.
-For Vale v3+, if you use a vocabulary with your project, ensure that the vocabulary folder matches this folder structure:
-
-[source,terminal]
-----
-.vale/styles/config/vocabularies/<project_vocab_folder>
-----
+If you are working in an established project that has already implemented Vale, you do not need to create a new `vale.ini`.
+The project will already have a `vale.ini` configuration.
 ====
 
 .Prerequisites
@@ -57,65 +52,6 @@ $ which vale
 +
 [NOTE]
 For other operating systems, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
-
-. To use Vale with the `RedHat` package system-wide, create the following `.vale.ini` configuration file in your `$HOME` directory.
-+
-.Example .vale.ini
-[source,ini]
-----
-include::example$vale.ini[]
-----
-+
-[TIP]
-====
-Some product documentation repositories, such as `openshift-docs`, have a  `.vale.ini` file. When you run `vale` on content files in the repository directory, the `<repository>/.vale.ini` file overrides the `$HOME/.vale.ini` file. For more information, see link:https://vale.sh/docs/topics/config[Vale configuration reference].
-====
-
-. Download the `RedHat` package to your computer.
-+
-[source,console]
-----
-$ vale sync
-----
-+
-.Example output
-[source,terminal]
-----
-$ vale sync
- SUCCESS  Downloaded package 'RedHat'
-Downloading packages [1/1]
-----
-+
-[TIP]
-To get the latest updates, run `vale sync` regularly.
-
-.Verification
-
-. Run `vale` against a source file:
-+
-[source,console,subs="+quotes,+attributes"]
-----
-$ cd __<project_directory>__
-$ vale __<filename>__
-----
-+
-.Example output
-[source,terminal]
-----
-$ vale modules/ztp-creating-the-site-secrets.adoc
-
- modules/ztp-creating-the-site-secrets.adoc
- 10:222  error       Use 'Assisted Installer'        Vale.Terms
-                     instead of 'assisted
-                     installer'.
- 14:13   suggestion  'are referenced' is passive     RedHat.PassiveVoice
-                     voice. In general, use active
-                     voice. Consult the style guide
-                     for acceptable use of passive
-                     voice.
-
-✖ 2 errors, 0 warnings and 1 suggestion in 1 file.
-----
 
 .Additional resources
 * xref:understanding-vale-output.adoc[]
