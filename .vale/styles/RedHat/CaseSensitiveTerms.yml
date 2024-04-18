@@ -23,7 +23,7 @@ swap:
   "DM(?![ -]Multipath)|directory manager": Directory Manager
   "JBoss Broker|Red Hat Broker|The AMQ Broker": AMQ Broker
   "JBoss Console|Red Hat Console": AMQ Console
-  "Kernel(?!-based Virtual Machine)": kernel
+  "Kernel(?!-based Virtual Machine| Module Management)": kernel
   "OCM|(?<!Red Hat OpenShift )Cluster Manager|(?<!Red Hat )OpenShift Cluster Manager|the OpenShift Cluster Manager": Red Hat OpenShift Cluster Manager
   "OD": Red Hat OpenShift Dedicated
   "sub version|(?<!Apache )Subversion": sub-version
