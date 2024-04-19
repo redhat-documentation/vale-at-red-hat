@@ -11,6 +11,7 @@
 * xref:headingpunctuation.adoc[]
 * xref:headings.adoc[]
 * xref:hyphens.adoc[]
+* xref:mergeconflictmarkers.adoc[]
 * xref:oxfordcomma.adoc[]
 * xref:pascalcamelcase.adoc[]
 * xref:passivevoice.adoc[]
