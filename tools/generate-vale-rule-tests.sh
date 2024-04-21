@@ -15,7 +15,7 @@ set -e
 for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -f1 | sort)
 do
     RULETESTDIR=".vale/fixtures/RedHat/$RULE"
-    test -d $RULETESTDIR || mkdir "$RULETESTDIR"
+    test -d "$RULETESTDIR" || mkdir "$RULETESTDIR"
     touch "$RULETESTDIR/testinvalid.adoc"
     touch "$RULETESTDIR/testvalid.adoc"
     cat <<EOF > "$RULETESTDIR/.vale.ini"
