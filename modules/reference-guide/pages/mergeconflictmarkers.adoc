@@ -1,4 +1,4 @@
-:navtitle: MergeConflictMarkers
+:navtitle: Merge conflict markers
 :keywords: merge conflict
 
 = Merge conflict markers
