@@ -3,7 +3,7 @@ extends: existence
 scope: raw
 level: error
 nonword: true
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/MergeConflictMarkers/
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/mergeconflictmarkers/
 message: "Do not include Git merge conflict markers ('%s') in source code."
 action:
   name: remove
