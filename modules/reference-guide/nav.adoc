@@ -8,6 +8,7 @@
 * xref:definitions.adoc[]
 * xref:donotuseterms.adoc[]
 * xref:ellipses.adoc[]
+* xref:emdashes.adoc[]
 * xref:headingpunctuation.adoc[]
 * xref:headings.adoc[]
 * xref:hyphens.adoc[]
