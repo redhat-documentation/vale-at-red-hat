@@ -1,3 +1,2 @@
 If you make a mistake—for example, a typographical error—you can correct it easily.
 Reliability, scalability, and availability&mdash;these are priorities for an enterprise system.
-Apply a pattern in one of two ways--select an existing pattern or create a new one.
