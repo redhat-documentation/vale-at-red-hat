@@ -5,8 +5,7 @@ level: warning
 scope: raw
 nonword: true
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/emdash/
-message: Do not use em dashes. More common punctuation marks, such as commas, parentheses, or a colon, provide the same result.
+message: Do not use em dashes. Use punctuation marks such as commas, parentheses, or colons instead.
 tokens:
   - '—'
   - '&mdash;'
-  - '(?<=\w+)--(?=\w+)'

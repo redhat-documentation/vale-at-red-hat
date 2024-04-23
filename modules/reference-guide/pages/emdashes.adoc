@@ -4,7 +4,7 @@
 = Em dashes
 
 Do not use em dashes.
-Use punctuation marks such as commas, parentheses, and colons instead.
+Use punctuation marks such as commas, parentheses, or colons instead.
 
 .Additional resources
 
