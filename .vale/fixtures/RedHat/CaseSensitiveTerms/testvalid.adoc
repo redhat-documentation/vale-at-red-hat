@@ -301,6 +301,10 @@ T-BC
 Technology Preview
 Temurin
 The .NET framework
+the Hybrid Cloud Console
+The Hybrid Cloud Console
+the Red Hat Hybrid Cloud Console
+The Red Hat Hybrid Cloud Console
 TLS handshake
 TTL
 UID

@@ -53,6 +53,7 @@ swap:
   'Red\sHat\sVirtualization\sHypervisor|RHV\sHost|RHV-H': Red Hat Virtualization Host
   'RHVM|RHV-M|RHV\sManager': Red Hat Virtualization Manager
   'self-hosted\sengine\svirtual\smachine|engine\sVM': Manager virtual machine
+  "(?<![tT]he |[tT]he Red Hat )Hybrid Cloud Console|(?<![tT]he )Red Hat Hybrid Cloud Console|(?<![tT]he |Red Hat |Hybrid )Cloud Console|[tT]he Cloud Console|HCC|[tT]he HCC|[tT]he RH HCC": The (or the) Red Hat Hybrid Cloud Console (first instance)|The (or the) Hybrid Cloud Console
   (?<!Ansible )Playbook: playbook
   Ansible playbook: Ansible Playbook
   Ansible rulebook: Ansible Rulebook

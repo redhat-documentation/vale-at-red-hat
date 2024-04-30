@@ -75,6 +75,7 @@ classic mode
 Classless Inter-domain Routing
 Classless Interdomain Routing
 CloudForms Management Engine
+Cloud Console 
 Cluster Manager
 command prompt
 Compared to yaml, JSON has way more curly braces.
@@ -180,11 +181,13 @@ Grub
 Gtk
 gtk
 GUI editor
+HCC
 hot rod
 HotRod
 hotrod
 HP Proliant
 HTTP interface
+Hybrid Cloud Console 
 hyper-threading
 hyperthreading
 Hyperviser
@@ -395,6 +398,7 @@ RAW
 Red Boot
 Red Hat Broker
 Red Hat Console
+Red Hat Hybrid Cloud Console
 Red Hat Interconnect
 Red Hat JBoss Data Grid
 Red Hat JBoss EAP
@@ -490,6 +494,13 @@ Technology preview
 technology preview
 The AMQ Broker
 The Operator Lifecycle Manager
+the Cloud Console
+The Cloud Console 
+the HCC 
+The HCC
+the RH HCC
+The RH HCC 
+Tolapai
 ttl
 uid
 UltraSparc
