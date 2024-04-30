@@ -9,6 +9,9 @@ ASP
 AWS
 BIND
 BIOS
+DPDK
+OVS
+OVN
 BMC
 CD
 CDs
@@ -49,8 +52,8 @@ GID
 GIDs
 GIF
 GIMP
-Global Navigation Satellite System (GNSS)
 GNOME
+Global Navigation Satellite System (GNSS)
 GNSS
 GNU
 GNUPro

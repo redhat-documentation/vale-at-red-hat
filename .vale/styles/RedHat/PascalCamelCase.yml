@@ -119,8 +119,8 @@ exceptions:
   - OpenID
   - OpenIPMI
   - OpenJDK
-  - OpenRewrite
   - OpenRAN
+  - OpenRewrite
   - OpenSCAP
   - OpenShift
   - OpenSSH
@@ -172,6 +172,7 @@ exceptions:
   - vHost
   - VMware
   - vSphere
+  - vSwitch
   - WebAuthn
   - WebSocket
   - WireGuard
