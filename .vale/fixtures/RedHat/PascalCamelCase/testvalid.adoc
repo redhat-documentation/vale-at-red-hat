@@ -175,6 +175,7 @@ vHost
 VMs
 VMware
 vSphere
+vSwitch
 WebAuthn
 WebSocket
 WireGuard
