@@ -116,3 +116,39 @@ Topology Aware Lifecycle Manager
 velero.io
 //vale-fixture
 Web Terminal Operator
+//vale-fixture
+Cluster API Provider AWS
+//vale-fixture
+Cluster API Provider GCP
+//vale-fixture
+Cluster API Provider IBM Cloud
+//vale-fixture
+Cluster API Provider Kubevirt
+//vale-fixture
+Cluster API Provider OpenStack
+//vale-fixture
+Cluster API Provider OCI
+//vale-fixture
+Cluster API Provider vSphere
+//vale-fixture
+Cluster API Provider Nutanix
+//vale-fixture
+Cluster API Provider Azure
+//vale-fixture
+CAPA
+//vale-fixture
+CAPG
+//vale-fixture
+CAPIBM
+//vale-fixture
+CAPK
+//vale-fixture
+CAPO
+//vale-fixture
+CAPOCI
+//vale-fixture
+CAPV
+//vale-fixture
+CAPX
+//vale-fixture
+CAPZ
