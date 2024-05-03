@@ -41,6 +41,7 @@ FileStore
 FireWire
 FreeRADIUS
 GbE
+GBps
 GiB
 GitHub
 GitLab
@@ -77,6 +78,7 @@ JavaScript
 JBoss
 JetBrains
 JUnit
+kBps
 KiB
 LangTags
 LGPLv
@@ -89,6 +91,7 @@ LiquidIO
 Log4Shell
 ManageIQ
 MariaDB
+MBps
 MegaRAID
 MiB
 MicroProfile
@@ -163,6 +166,7 @@ STMicroelectronics
 Subscription
 SuperLU
 SysV
+TBps
 TiB
 TuneD
 TypeScript
