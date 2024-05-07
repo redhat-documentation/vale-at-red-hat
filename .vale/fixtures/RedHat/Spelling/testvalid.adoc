@@ -118,6 +118,7 @@ DaemonSet
 Datadog
 declaratively
 decompiler
+defragmentation
 deserialization
 deserialize
 deserialized
@@ -261,6 +262,7 @@ Keycloak
 Keylime
 Keyring
 Keyrings
+keyspace
 keystore
 keytab
 Keytab
