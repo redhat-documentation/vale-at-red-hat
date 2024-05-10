@@ -55,3 +55,8 @@ terminate
 tooling
 transition
 vs
+Hybrid Cloud Console
+Cloud Console
+Red Hat Hybrid Cloud Console
+the Cloud Console
+The Cloud Console
