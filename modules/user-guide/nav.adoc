@@ -1,4 +1,4 @@
-.User guide
+.xref:user-guide.adoc[Vale at Red Hat user guide]
 
 * xref:introduction.adoc[]
 * xref:installing-vale-cli.adoc[]
