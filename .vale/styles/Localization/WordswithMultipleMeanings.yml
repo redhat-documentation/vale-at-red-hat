@@ -3,7 +3,7 @@ extends: existence
 ignorecase: true
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
-message: "Avoid terms that are ambiguous and problematic in a localization context"
+message: "Avoid words that have multiple meanings. For example, instead of words like "as" or "since" which have multiple meanings, use "because""
 # source: https://github.com/redhat-documentation/vale-at-red-hat/issues/515
 tokens:
   - as
