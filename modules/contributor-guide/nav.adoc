@@ -1,4 +1,4 @@
-.Contributor guide
+.xref:contributor-guide.adoc[Vale at Red Hat contributor guide]
 
 * xref:contributing.adoc[]
 * xref:vale-at-red-hat-repository.adoc[]
