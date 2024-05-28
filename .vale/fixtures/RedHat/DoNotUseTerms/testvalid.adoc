@@ -1,2 +1,6 @@
 hash sign
 ACK flag
+Red Hat
+Red{nbsp}Hat
+redhat
+red-hat
