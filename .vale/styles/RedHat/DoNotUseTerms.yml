@@ -1,6 +1,6 @@
 ---
 extends: substitution
-ignorecase: true
+ignorecase: false
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/donotuseterms/
 message: "%s"
