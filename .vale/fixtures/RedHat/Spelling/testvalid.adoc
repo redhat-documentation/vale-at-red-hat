@@ -506,6 +506,8 @@ rootless
 Roundtable
 Roundtables
 RPMs
+Rulebook
+rulebook
 ruleset
 Runlevel
 Runlevels
