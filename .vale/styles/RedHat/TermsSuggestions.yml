@@ -45,6 +45,7 @@ swap:
   launch: start|open
   legacy: existing|traditional|established|classic|earlier|previous
   once: after|when
+  on-premise: on-site|in-house
   refer to: see
   segfault: segmentation fault
   spawn: create
