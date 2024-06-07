@@ -30,6 +30,25 @@ back slash
 backside
 backwards compatible
 barcode
+bare metal clusters
+bare metal compute
+bare metal configuration
+bare metal control
+bare metal environment
+bare metal equipment
+bare metal event
+bare metal hardware
+bare metal host
+bare metal infrastructure
+bare metal installation
+bare metal installer
+bare metal machine
+bare metal media
+bare metal node
+bare metal provisioning
+bare metal server
+bare metal worker
+Install on bare-metal.
 best of breed
 Bidi
 Big Blue
@@ -388,7 +407,6 @@ TCP/IP network
 teleprocessing line
 testcase
 the installer
-There are many ways to write, for instance, using a pencil.
 thin provisioned
 third-party software vendor
 thru
@@ -443,7 +461,6 @@ virtual diskette drive
 virtual DOS machine
 virtual hard disk
 virtual hard disk
-w/ this
 w/o
 wait condition
 war room

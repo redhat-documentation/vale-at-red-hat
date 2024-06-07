@@ -23,8 +23,6 @@ Hybrid Cloud Console
 //vale-fixture
 IBM Cloud
 //vale-fixture
-IBM Cloud Bare Metal
-//vale-fixture
 IBM LinuxONE
 //vale-fixture
 IBM Power

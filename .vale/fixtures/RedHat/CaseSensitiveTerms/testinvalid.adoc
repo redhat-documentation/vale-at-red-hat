@@ -499,9 +499,6 @@ UNIX-like
 uri
 url
 urn
-Use the .NET Core framework
-Use the .Net Core framework
-Use the .Net framework
 User Portal
 var
 VCPU

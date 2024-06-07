@@ -15,12 +15,17 @@ jobs:
   publication-builder:
     name: Build and publish to publication branch
     runs-on: ubuntu-latest
-    container: quay.io/antoraformodulardocs/antora-for-modular-docs:main
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Build using antora
-        run: tools/publication-builder.sh
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install Antora
+        run: npm i antora @antora/lunr-extension
+      - name: Generate Site
+        run: npx antora antora-playbook.yml
       - name: Commit artifact to publication branch
         uses: peaceiris/actions-gh-pages@v4
         with:

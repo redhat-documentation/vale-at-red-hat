@@ -21,7 +21,7 @@ jobs:
       - name: Install Vale and validate rules
         run: |
           sudo gem install asciidoctor
-          wget https://github.com/errata-ai/vale/releases/download/v2.30.0/vale_2.30.0_Linux_64-bit.tar.gz
+          curl -s https://api.github.com/repos/errata-ai/vale/releases/latest | grep "browser_download_url.*Linux_64-bit.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
           mkdir bin && tar -xvzf *Linux_64-bit.tar.gz -C bin
           export PATH=./bin:"$PATH"
           vale -v

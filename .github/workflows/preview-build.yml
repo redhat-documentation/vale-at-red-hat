@@ -20,20 +20,18 @@ jobs:
   preview-build:
     name: Preview build
     runs-on: ubuntu-latest
-    container: quay.io/antoraformodulardocs/antora-for-modular-docs:main
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0 # enable git diff and building many branches
-      # Cache for Antora UI and Htmltest.
-      # See: https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows
-      # Htmltest accepts 2 weeks old cache for the status code of checked external URLs
-      # See: https://github.com/wjdp/htmltest
-      # Refresh the cache every week to avoid a stale cache for htmltest
-      # See: https://github.com/actions/cache
-      # See: http://man7.org/linux/man-pages/man1/date.1.html
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install Antora
+        run: npm i antora @antora/lunr-extension
       - name: Get yearweek for cache
         id: get-date # used below
         run: echo "yearweek=$(/bin/date -u "+%Y%U")" >> $GITHUB_OUTPUT
@@ -45,8 +43,16 @@ jobs:
         with:
           path: .cache
           key: ${{ steps.get-date.outputs.yearweek }}
-      - name: Build
-        run: tools/publication-builder.sh
+      - name: Install Vale and validate
+        run: |
+          sudo gem install asciidoctor
+          curl -s https://api.github.com/repos/errata-ai/vale/releases/latest | grep "browser_download_url.*Linux_64-bit.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
+          mkdir bin && tar -xvzf *Linux_64-bit.tar.gz -C bin
+          export PATH=./bin:"$PATH"
+          vale -v
+          tools/validate-language-changes.sh
+      - name: Generate Site
+        run: npx antora antora-playbook.yml
       - name: Store pull request details for preview-publish
         run: |
           echo "${{ github.event.number }}" > PR_NUMBER
@@ -60,8 +66,11 @@ jobs:
             PR_NUMBER
             PR_SHA
           retention-days: 7
+      - uses: actions/cache@v2
+        with:
+          path: tmp/.htmltest
+          key: ${{ runner.os }}-htmltest
       - name: Validate internal and external links
-        run: htmltest
-      - name: Validate language changes
         run: |
-          tools/validate-language-changes.sh
+          curl https://htmltest.wjdp.uk | bash
+          bin/htmltest
