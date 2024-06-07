@@ -1,5 +1,8 @@
 64-bit x86
+about using
 after
+are not using
+are using
 bare-metal clusters
 bare-metal compute
 bare-metal configuration
@@ -19,12 +22,8 @@ bare-metal provisioning
 bare-metal server
 bare-metal worker
 before
+By using
 by using
-are not using
-are using
-to using
-about using
-when using
 earlier
 following
 from
@@ -52,4 +51,7 @@ something with which something else
 something without which something else
 this clause, which is nonrestrictive
 through
+to using
+when using
+When using
 x86_64
