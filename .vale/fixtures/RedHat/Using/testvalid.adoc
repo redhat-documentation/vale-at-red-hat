@@ -1,0 +1,1 @@
+If you are using the ElasticSearch log store do nothing.
