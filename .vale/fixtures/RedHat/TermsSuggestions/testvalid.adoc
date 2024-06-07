@@ -19,8 +19,12 @@ bare-metal provisioning
 bare-metal server
 bare-metal worker
 before
-by
 by using
+are not using
+are using
+to using
+about using
+when using
 earlier
 following
 from
