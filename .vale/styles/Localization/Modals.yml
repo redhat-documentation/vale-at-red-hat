@@ -3,7 +3,7 @@ extends: existence
 ignorecase: true
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
-message: "Avoid using modals because they can introduce uncertainty"
+message: "Avoid using modals like 'should', 'may', or 'will' because they can introduce uncertainty."
 # source: https://github.com/redhat-documentation/vale-at-red-hat/issues/515
 tokens:
   - should

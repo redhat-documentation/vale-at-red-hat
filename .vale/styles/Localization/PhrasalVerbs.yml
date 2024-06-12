@@ -1,0 +1,18 @@
+---
+extends: substitution
+ignorecase: true
+level: warning
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
+message: "Avoid using phrasal verbs. Consider using '%s' rather than '%s'."
+action:
+  name: replace
+swap:
+  # Start each error message with "Do not use ..."
+  # Error messages must be single quoted.
+do: carry out
+allow | enable: allow for
+continue: carry on
+depend: count on
+result: end up
+imply: get at
+click: click on

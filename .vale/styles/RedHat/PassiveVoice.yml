@@ -64,11 +64,15 @@ tokens:
   - fought
   - found
   - frozen
+  - get
+  - gets
   - given
   - gone
   - gotten
   - ground
   - grown
+  - have
+  - has
   - heard
   - held
   - hidden
