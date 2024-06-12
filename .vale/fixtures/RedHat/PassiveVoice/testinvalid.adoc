@@ -54,6 +54,8 @@ It was forsaken
 It was fought
 It was found
 It was frozen
+I may get late
+It gets late
 It was given
 It was gone
 It was gotten
@@ -174,3 +176,5 @@ It was wound
 It was woven
 It was written
 It was wrung
+I have
+It has

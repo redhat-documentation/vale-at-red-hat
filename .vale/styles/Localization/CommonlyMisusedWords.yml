@@ -1,10 +1,12 @@
 ---
-extends: existence
+extends: substitution
 ignorecase: true
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
-message: "Suggest to use proper terms to reduce misconceptions. For example- Do not use allow with the meaning of enable. (allow = permission, enable = ability) "
-# source: https://github.com/redhat-documentation/vale-at-red-hat/issues/515
-tokens:
-  - allow
-  - acronym
+message: "%s"
+swap:
+  # Start each error message with "Do not use ..."
+  # Error messages must be single quoted.
+allow: 'Only use allow if you are talking about permission. For ability, use enable.'
+acronym: 'Acronyms are only for abbreviations that are pronounced as a word, like RHEL. Use initialism for abbreviations that are spelled out. Alternatively, use abbreviation for either situation.'
+
