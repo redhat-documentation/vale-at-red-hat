@@ -1,6 +1,5 @@
 absent
 abundance
-accelerate
 accentuate
 accompany
 accomplish

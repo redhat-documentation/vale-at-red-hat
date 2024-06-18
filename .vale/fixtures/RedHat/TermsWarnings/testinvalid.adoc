@@ -3,6 +3,8 @@ architected
 are updatable
 as well as
 BIOS
+call up
+carry on
 carry out
 click on
 Ctrl-click
@@ -16,6 +18,7 @@ downgrade
 entitlement
 etc
 execute
+find out
 hamburger
 he
 host name
@@ -42,12 +45,15 @@ opt into
 opting into
 preload
 preloaded
+print out
 right double-click
 sane
 she
 shift-click
 spawn
 start up
+speed up
+speeds up
 switch on
 tap on
 tarball
