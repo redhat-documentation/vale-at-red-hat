@@ -3,6 +3,3 @@ at once
 once
 while
 since
-as soon as
-as much as
-as long as

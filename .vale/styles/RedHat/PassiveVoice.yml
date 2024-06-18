@@ -6,7 +6,7 @@ link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference
 message: "'%s' is passive voice. In general, use active voice. Consult the style guide for acceptable use of passive voice."
 # source: "https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites; IBM - Voice, p.35"
 raw:
-  - \b(am|are|were|being|is|been|was|be)\b\s*
+  - \b(am|are|were|being|is|been|was|be|get|gets|have|has)\b\s*
 tokens:
   - '[\w]+ed'
   - awoken
@@ -64,15 +64,11 @@ tokens:
   - fought
   - found
   - frozen
-  - get
-  - gets
   - given
   - gone
   - gotten
   - ground
   - grown
-  - have
-  - has
   - heard
   - held
   - hidden
