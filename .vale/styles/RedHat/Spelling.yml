@@ -125,6 +125,7 @@ filters:
   - "[mM]ultizone"
   - "[nN]amespace"
   - "[nN]amespaces"
+  - "[nN]MState"
   - "[nN]onheap"
   - "[nN]oninteractive"
   - "[nN]onpaired"
