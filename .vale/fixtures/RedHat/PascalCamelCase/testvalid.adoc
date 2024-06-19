@@ -105,6 +105,7 @@ NetworkManager
 NetXen
 NetXtreme
 NFSv
+NMState
 Node.js
 NuGet
 NVidia
