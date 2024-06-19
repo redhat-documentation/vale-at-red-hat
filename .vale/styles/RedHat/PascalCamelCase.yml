@@ -111,6 +111,7 @@ exceptions:
   - NetXen
   - NetXtreme
   - NFSv
+  - NMState
   - NuGet
   - NVidia
   - NVMe
