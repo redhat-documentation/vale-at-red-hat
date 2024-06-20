@@ -1,4 +1,5 @@
 accurate
+accelerate
 after
 and
 and so on
@@ -11,6 +12,7 @@ colocation
 delete
 deleted
 designed
+discover
 end
 end
 ensure
@@ -44,6 +46,7 @@ open
 plugin
 preinstall
 preinstalled
+print
 process
 repository
 roll back
