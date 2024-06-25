@@ -135,6 +135,24 @@ Cluster API Provider Nutanix
 //vale-fixture
 Cluster API Provider Azure
 //vale-fixture
+Cluster API Provider for AWS
+//vale-fixture
+Cluster API Provider for GCP
+//vale-fixture
+Cluster API Provider for IBM Cloud
+//vale-fixture
+Cluster API Provider for Kubevirt
+//vale-fixture
+Cluster API Provider for OpenStack
+//vale-fixture
+Cluster API Provider for OCI
+//vale-fixture
+Cluster API Provider for vSphere
+//vale-fixture
+Cluster API Provider for Nutanix
+//vale-fixture
+Cluster API Provider for Azure
+//vale-fixture
 CAPA
 //vale-fixture
 CAPG
