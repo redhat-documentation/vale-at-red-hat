@@ -71,6 +71,7 @@
 {cgu-operator-full}
 {velero-domain}
 {web-terminal-op}
+{cluster-capi-operator}
 {capa-first}
 {capa-short}
 {capg-first}

@@ -117,6 +117,8 @@ velero.io
 //vale-fixture
 Web Terminal Operator
 //vale-fixture
+Cluster CAPI Operator
+//vale-fixture
 Cluster API Provider AWS
 //vale-fixture
 Cluster API Provider GCP
