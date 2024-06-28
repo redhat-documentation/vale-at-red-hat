@@ -13,14 +13,18 @@ code_quality:
     - apk update && apk add git jq
     - vale sync # Pull down VRH rules package specified in vale.ini
   script:
-    # List of updated/modified *.adoc files
-    - FILES=$(find . -type f -name "*.adoc")
+    # Get list of *.adoc files
+    - |
+      if [ "$CI_COMMIT_BRANCH" == "$CI_DEFAULT_BRANCH" ]; then
+        FILES=$(find . -type f -name "*.adoc")
+      else
+        FILES=$(git diff --name-only HEAD~1 HEAD --diff-filter=d "*.adoc")
+      fi
     # Clean out conditions for wider vale coverage
     - sed -i -e 's/ifdef::.*\|ifndef::.*\|ifeval::.*\|endif::.*/ /' ${FILES}
     # Use a template to rearrange the vale JSON output
     # Run vale with --no-exit to pass the build with errors
     - vale ${FILES} --minAlertLevel=error --glob='*.adoc' --output="$(pwd)/vale-json.tmpl" | jq . > gl-code-quality-report.json
-    - echo $CI_DEFAULT_BRANCH
   artifacts:
     reports:
       codequality: gl-code-quality-report.json
