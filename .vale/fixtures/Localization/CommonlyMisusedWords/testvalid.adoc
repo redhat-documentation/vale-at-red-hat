@@ -3,4 +3,6 @@ enable
 abbreviation
 can
 cannot
+Red Hat allows you to
+Red Hat allows
 
