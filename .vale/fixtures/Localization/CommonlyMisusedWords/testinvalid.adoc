@@ -1,3 +1,10 @@
-allow
-acronym
+The product allows you to
+This product allows you to
+The product allows
+This product allows
+The interface allows
+The UI allows
+The application allows
+This feature allows you to
+
 

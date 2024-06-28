@@ -8,5 +8,4 @@ swap:
   # Start each error message with "Do not use ..."
   # Error messages must be single quoted.
 allow: 'Only use allow if you are talking about permission. For ability, use enable.'
-acronym: 'Acronyms are only for abbreviations that are pronounced as a word, like RHEL. Use initialism for abbreviations that are spelled out. Alternatively, use abbreviation for either situation.'
 
