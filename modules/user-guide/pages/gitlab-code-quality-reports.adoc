@@ -58,7 +58,7 @@ git commit -m "Add GitLab CI/CD code quality pipeline"
 git push -u origin main
 ----
 
-Once merged, a code quality pipeline runs for every new commit added in a PR. Access the report from the **Pipelines** menu item in the GitLab repository.
+When you merge the changes to the main branch, a code quality pipeline will run for every new commit added in a merge request. The code quality report is available in the Merge Request **Overview** tab.
 
 [role="_additional-resources"]
 .Additional resources
