@@ -1,4 +1,4 @@
-{{- /* Modify Vale's output https://docs.errata.ai/vale/cli#--output */ -}}
+{{- /* Modify Vale output https://docs.errata.ai/vale/cli#--output */ -}}
 
 {{- /* Keep track of our various counts */ -}}
 
@@ -10,48 +10,51 @@
 {{- /* Range over the linted files */ -}}
 
 [
+{{- $first := true -}}
 {{- range $jdx, $file := .Files -}}
+  {{- $f = add1 $f -}}
+  {{- $path := $file.Path -}}
 
-{{- $f = add1 $f -}}
-{{- $path := .Path -}}
+  {{- /* Range over the file's alerts */ -}}
+  {{- range $idx, $a := $file.Alerts -}}
+    {{- if not $first -}},{{- end -}}
+    {{- $first = false -}}
 
-{{- /* Range over the file's alerts */ -}}
+    {{- $error := "" -}}
+    {{- if eq $a.Severity "error" -}}
+      {{- $error = "critical" -}}
+      {{- $e = add1 $e -}}
+    {{- else if eq $a.Severity "warning" -}}
+      {{- $error = "major" -}}
+      {{- $w = add1 $w -}}
+    {{- else -}}
+      {{- $error = "minor" -}}
+      {{- $s = add1 $s -}}
+    {{- end}}
 
-{{- if $jdx -}},{{- end -}}
-{{- range $idx, $a := .Alerts -}}
+    {{- /* Variables setup */ -}}
 
-{{- $error := "" -}}
-{{- if eq .Severity "error" -}}
-    {{- $error = "critical" -}}
-    {{- $e = add1 $e  -}}
-{{- else if eq .Severity "warning" -}}
-    {{- $error = "major" -}}
-    {{- $w = add1 $w -}}
-{{- else -}}
-    {{- $error = "minor" -}}
-    {{- $s = add1 $s -}}
-{{- end}}
+    {{- $loc := printf "%d" $a.Line -}}
+    {{- $check := printf "%s" $a.Check -}}
+    {{- $message := printf "%s" $a.Message -}}
 
-{{- /* Variables setup */ -}}
+    {{- /* Compute the Base64 encoded fingerprint string */ -}}
+    {{- $hashInput := printf "%s:%s:%s" $path $loc $message -}}
+    {{- $Base64Encoded := b64enc $hashInput -}}
 
-{{- $loc := printf "%d" .Line -}}
-{{- $check := printf "%s" .Check -}}
-{{- $message := printf "%s" .Message -}}
-{{- if $idx -}},{{- end -}}
-
-{{- /* Output */ -}}
-
-  {
-    "description": "{{$check}}: {{ $message }}",
-    "fingerprint": "CI_COMMIT_SHA",
-    "severity": "{{ $error }}",
-    "location": {
-      "path": "{{ $path }}",
-      "lines": {
-        "begin": {{ $loc }}
+    {{- /* Output */ -}}
+    {
+      "description": "{{$check}}: {{ $message }}",
+      "check_name": "vale-error-report",
+      "fingerprint": "{{ $Base64Encoded }}",
+      "severity": "{{ $error }}",
+      "location": {
+        "path": "{{ $path }}",
+        "lines": {
+          "begin": {{ $loc }}
+        }
       }
     }
-  }
-{{end -}}
-{{end -}}
+  {{- end -}}
+{{- end -}}
 ]

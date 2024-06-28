@@ -1,19 +1,32 @@
+image: node:16-alpine
+
+stages:
+  - test
+
 code_quality:
+  stage: test
   image:
     name: jdkato/vale:latest
     entrypoint: [""]
   tags: [shared]
   before_script:
-    - apk update && apk add git
-    - vale sync # pull down VRH rules package specified in vale.ini
+    - apk update && apk add git jq
+    - vale sync # Pull down VRH rules package specified in vale.ini
   script:
-    # list of updated/modified *.adoc files
-    - FILES=$(git diff --name-only HEAD~1 HEAD --diff-filter=d "*.adoc")
-    # clean out conditions for wider vale coverage
+    # List of updated/modified *.adoc files
+    - FILES=$(find . -type f -name "*.adoc")
+    # Clean out conditions for wider vale coverage
     - sed -i -e 's/ifdef::.*\|ifndef::.*\|ifeval::.*\|endif::.*/ /' ${FILES}
-    # use a template to rearrange the vale JSON output
-    # run vale with `--no-exit` to pass the build with errors
-    - vale ${FILES} --minAlertLevel=error --glob='*.adoc' --output="$(pwd)/vale-json.tmpl" | sed "s/CI_COMMIT_SHA/$CI_COMMIT_SHA/g" > gl-code-quality-report.json
+    # Use a template to rearrange the vale JSON output
+    # Run vale with --no-exit to pass the build with errors
+    - vale ${FILES} --minAlertLevel=error --glob='*.adoc' --output="$(pwd)/vale-json.tmpl" | jq . > gl-code-quality-report.json
+    - echo $CI_DEFAULT_BRANCH
   artifacts:
     reports:
       codequality: gl-code-quality-report.json
+  rules:
+    - if: $CODE_QUALITY_DISABLED
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" # Run code quality job in merge request pipelines
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH # Run code quality job in pipelines on the default branch (but not in other branch pipelines)
+    - if: $CI_COMMIT_TAG # Run code quality job in pipelines for tags
