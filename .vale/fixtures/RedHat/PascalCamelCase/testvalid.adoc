@@ -175,6 +175,7 @@ UltraSPARC
 USBGuard
 UUIDs
 vCPUs
+vCenter
 vDisk
 vHost
 VMs

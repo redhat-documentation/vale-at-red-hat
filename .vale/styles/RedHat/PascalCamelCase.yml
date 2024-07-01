@@ -173,6 +173,7 @@ exceptions:
   - TypeScript
   - UltraSPARC
   - USBGuard
+  - vCenter
   - vDisk
   - vHost
   - VMware
