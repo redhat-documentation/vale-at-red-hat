@@ -60,6 +60,12 @@ git push -u origin main
 
 When you merge the changes to the main branch, a code quality pipeline will run for every new commit added in a merge request. The code quality report is available in the Merge Request **Overview** tab.
 
+[NOTE]
+====
+The GitLab CI job creates the code quality report by comparing a complete list of errors in the main branch and a list of errors in the merge request branch.
+This might cause a CI bottleneck on large repositories with 1000s of files, but for small and medium repositories, the CI processing time is negligible.
+====
+
 [role="_additional-resources"]
 .Additional resources
 * For more details on GitLab's Code Quality feature, see the link:https://docs.gitlab.com/ee/ci/testing/code_quality.html[Code Quality].
