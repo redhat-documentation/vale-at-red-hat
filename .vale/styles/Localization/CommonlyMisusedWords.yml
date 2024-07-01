@@ -3,9 +3,15 @@ extends: substitution
 ignorecase: true
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
-message: "%s"
-swap:
-  # Start each error message with "Do not use ..."
-  # Error messages must be single quoted.
-allow: 'Only use allow if you are talking about permission. For ability, use enable.'
+message: 'Only use allow if you are talking about permission. For ability, use enable.'
+# source: https://github.com/redhat-documentation/vale-at-red-hat/issues/515
+tokens:
+  - The product allows you to
+  - This product allows you to
+  - The product allows
+  - This product allows
+  - The interface allows
+  - The UI allows
+  - The application allows
+  - This feature allows you to
 
