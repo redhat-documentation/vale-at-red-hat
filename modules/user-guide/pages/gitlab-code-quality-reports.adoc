@@ -68,4 +68,4 @@ This might cause a CI bottleneck on large repositories with 1000s of files, but 
 
 [role="_additional-resources"]
 .Additional resources
-* For more details on GitLab's Code Quality feature, see the link:https://docs.gitlab.com/ee/ci/testing/code_quality.html[Code Quality].
+* link:https://docs.gitlab.com/ee/ci/testing/code_quality.html[GitLab Code Quality]
