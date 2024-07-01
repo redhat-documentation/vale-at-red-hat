@@ -496,6 +496,7 @@ filters:
   - USBGuard
   - Vale
   - Valgrind
+  - vCenter
   - vDisk
   - Velero
   - Vert.x
