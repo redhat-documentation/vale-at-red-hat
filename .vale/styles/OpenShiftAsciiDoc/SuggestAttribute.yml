@@ -1,6 +1,6 @@
 ---
 extends: substitution
-level: suggestion
+level: error
 ignorecase: false
 message: "Use the AsciiDoc attribute '%s' rather than the plain text product term '%s', unless your use case is an exception."
 link: https://github.com/openshift/openshift-docs/blob/main/_attributes/common-attributes.adoc
