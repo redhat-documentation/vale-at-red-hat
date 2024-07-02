@@ -142,7 +142,7 @@ swap:
   cyber threat: cyberthreat
   cyberresilience: cyber resilience
   data base: database
-  datacenter|data-center|data centre|datacentre: data center
+  (?<!vCenter )datacenter|data-center|data centre|datacentre: data center
   datafile: data file
   dataflow: data flow
   datamart: data mart
