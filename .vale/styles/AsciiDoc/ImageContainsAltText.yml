@@ -5,5 +5,4 @@ level: warning
 link: https://redhat-documentation.github.io/supplementary-style-guide/#cloud-services-images
 message: "Image is missing accessibility alt tags."
 raw:
-  - 'image::.*\[\]'
-  - 'image:.*\[\]'
+  - 'image::?.*\[\]'
