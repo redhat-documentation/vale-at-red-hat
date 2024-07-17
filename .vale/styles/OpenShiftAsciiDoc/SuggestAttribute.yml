@@ -9,7 +9,7 @@ action:
 swap:
   "(?<!Red Hat OpenShift )distributed tracing platform": "{JaegerShortName}"
   "(?<!Red Hat OpenShift )distributed tracing(?! data collection| platform)": "{DTShortName}"
-  "Tempo(?! Operator)": "{TempoShortName}"
+  "Tempo(?! Operator)": "{TempoName}|{TempoShortName}"
   (?<!Red Hat OpenShift )distributed tracing data collection: "{OTELShortName}"
   Alibaba Cloud: "{alibaba}"
   Bare Metal Event Relay: "{redfish-operator}"
@@ -92,7 +92,7 @@ swap:
   Tekton Chains: "{tekton-chains}"
   Tekton Hub: "{tekton-hub}"
   Template Service Broker: "{tsb-name}"
-  Tempo Operator: "{TempoName}"
+  Tempo Operator: "{TempoOperator}"
   Three-node OpenShift: "{3no-caps}"
   three-node OpenShift: "{3no}"
   Topology Aware Lifecycle Manager: "{cgu-operator-full}"

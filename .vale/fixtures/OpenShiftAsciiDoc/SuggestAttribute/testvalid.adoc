@@ -68,6 +68,7 @@
 {tekton-hub}
 {tsb-name}
 {TempoName}
+{TempoOperator}
 {TempoShortName}
 {3no-caps}
 {3no}
