@@ -46,9 +46,9 @@ CephFS
 cgroup
 CIDR
 Command Prompt
-Composite Content View
+composite content view
 ConfigMap
-Content View
+content view
 CRUSH map
 CSV
 Ctrl

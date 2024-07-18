@@ -79,13 +79,13 @@ Cluster Manager
 command prompt
 Compared to yaml, JSON has way more curly braces.
 Composite Content view
-composite content view
+Composite Content View
 Composite View
 composite view
 configmap
 configuration map
 Content view
-content view
+Content View
 control key
 CP
 crush map
