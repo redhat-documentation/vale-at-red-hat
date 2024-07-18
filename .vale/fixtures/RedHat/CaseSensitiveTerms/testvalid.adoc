@@ -259,6 +259,7 @@ Red Hat Virtualization
 Red Hat Virtualization Host
 Red Hat Virtualization Manager
 RedBoot
+Redfish
 Redis
 RESTEasy
 role-based access control
