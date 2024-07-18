@@ -405,6 +405,7 @@ Red Hat Satellite Capsule server
 Red Hat Satellite server
 Red Hat Virtualization Hypervisor
 Redboot
+RedFish
 redis
 Resource Planner
 resteasy
