@@ -243,8 +243,6 @@ swap:
   RAW: raw
   Red Hat JBoss Data Grid|JDG: Red Hat Data Grid
   Red Hat JBoss EAP: Red Hat JBoss Enterprise Application Platform
-  Red Hat Network Satellite server: Red Hat Network Satellite Server
-  Red Hat Proxy: Red Hat Network Proxy Server
   Red Hat Satellite Capsule server: Red Hat Satellite Capsule Server
   Red Hat Satellite server: Red Hat Satellite Server
   Red Hat satellite: Red Hat Satellite
@@ -289,7 +287,7 @@ swap:
   StartX: startx
   STI|source to image: Source-to-Image (S2I)
   SU: su
-  Subscription manifest: Subscription Manifest
+  Subscription Manifest: subscription manifest
   Sys V|System V: SysV
   system D|system D|SystemD|system d: systemd
   Technology preview|technology preview: Technology Preview

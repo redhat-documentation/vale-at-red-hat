@@ -398,8 +398,6 @@ Red Hat Console
 Red Hat Interconnect
 Red Hat JBoss Data Grid
 Red Hat JBoss EAP
-Red Hat Network Satellite server
-Red Hat Proxy
 Red Hat satellite
 Red Hat Satellite Capsule server
 Red Hat Satellite server
@@ -481,7 +479,7 @@ StartX
 STI
 SU
 sub version
-Subscription manifest
+Subscription Manifest
 Sys V
 system d
 system D

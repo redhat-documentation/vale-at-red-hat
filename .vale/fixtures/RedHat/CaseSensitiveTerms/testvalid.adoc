@@ -244,8 +244,6 @@ Red Hat Fuse Online
 Red Hat JBoss BPM Suite
 Red Hat JBoss BRMS
 Red Hat JBoss Enterprise Application Platform
-Red Hat Network Proxy Server
-Red Hat Network Satellite Server
 Red Hat OpenShift Cluster Manager
 Red Hat OpenShift Container Platform
 Red Hat OpenShift Data Foundation
@@ -294,7 +292,7 @@ StarOffice
 STARTTLS
 startx
 su
-Subscription Manifest
+subscription manifest
 Syndesis
 systemd
 SysV
