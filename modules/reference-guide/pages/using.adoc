@@ -2,7 +2,7 @@
 :keywords: reference, rule, by using
 = By using
 
-To avoid ambiguity, replace the gerund 'using' with either 'by using' or 'that uses'. Do not omit articles and prepositions that can increase the clarity of a sentence.
+To avoid ambiguity, replace 'using' with either 'by using' or 'that uses'. Do not omit articles and prepositions that can increase the clarity of a sentence.
 
 .Additional resources
 
