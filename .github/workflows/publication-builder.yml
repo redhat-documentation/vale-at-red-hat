@@ -26,10 +26,10 @@ jobs:
         run: npm i antora @antora/lunr-extension
       - name: Generate Site
         run: npx antora antora-playbook.yml
-      - name: Commit artifact to publication branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v2
         with:
-          force_orphan: true # publish branch with only the latest commit
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: publication
-          publish_dir: build/vale-at-red-hat
+          path: build/vale-at-red-hat
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
