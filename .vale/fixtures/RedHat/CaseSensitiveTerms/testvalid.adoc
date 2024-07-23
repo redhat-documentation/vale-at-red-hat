@@ -222,6 +222,8 @@ proof of concept
 Properties View
 Puppet
 Puppet Forge
+PV
+PVC
 Q and A
 QCOW2
 qdmanage
