@@ -1,5 +1,9 @@
-This is __<a-user-replaced-value>__ with hyphens.
-This is __<a-user-replaced_value>__ with hyphens and underscores.
-This is __<a_user-replaced-value>__ with hyphens and undersores.
-This is __<a_user-replaced_value>__ with hyphens and underscores.
-This is __<a_user-`replaced`_value>__ with hyphens and monospaced.
+* `<user-replaced-value>` with hyphens in backticks
+* <user-replaced_value> with hyphens and underscores
+* <user-replaced-value> with hyphens and undersores
+* <user-replaced_value> with hyphens and underscores
+* __<a-user-replaced-value>__ with hyphens
+* __<a-user-replaced_value>__ with hyphens and underscores
+* __<a_user-replaced-value>__ with hyphens and undersores
+* __<a_user-replaced_value>__ with hyphens and underscores
+* __<a_user-`replaced`_value>__ with hyphens and monospaced

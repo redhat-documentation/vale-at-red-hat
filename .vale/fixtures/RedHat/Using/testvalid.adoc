@@ -1,0 +1,6 @@
+If you are using the ElasticSearch log store do nothing.
+The application crashes when not using the recommended API.
+Developers are using the latest version of the framework.
+Switching to using cloud storage improved our backup efficiency.
+The documentation provides guidelines about using third-party libraries.
+Users experience faster load times when using the optimized query.
