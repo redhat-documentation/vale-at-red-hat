@@ -1,11 +1,12 @@
-:navtitle: using
+:navtitle: Using
 :keywords: reference, rule, by using
 = By using
 
-Do not omit articles and prepositions that can increase the clarity of a sentence.
+To avoid ambiguity, replace the gerund 'using' with either 'by using' or 'that uses'. Do not omit articles and prepositions that can increase the clarity of a sentence.
 
 .Additional resources
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Grammar, p. 239]
+* link:{ibmsg-url}?topic=word-usage#using[{ibmsg} - Word usage]
 * link:{ibmsg-url}?topic=medium-global-audiences#grammar[{ibmsg} - Grammar]
 * link:{repository-url}blob/main/.vale/styles/RedHat/Using.yml[`Using.yml` source code]
