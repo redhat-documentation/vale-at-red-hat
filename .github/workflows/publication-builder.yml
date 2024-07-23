@@ -30,6 +30,10 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: build/vale-at-red-hat
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Commit artifact to publication branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          force_orphan: true # publish branch with only the latest commit
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: publication
+          publish_dir: build/vale-at-red-hat
