@@ -133,6 +133,8 @@ devworkspace
 DevWorkspace
 Dex
 DNS
+Distro
+Distros
 Docker
 Dockerfile
 Dockerfiles
