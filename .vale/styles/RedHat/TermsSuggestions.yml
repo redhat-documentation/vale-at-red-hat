@@ -33,6 +33,7 @@ swap:
   componentization: component-based development|component model|component architecture|shared components
   componentize: develop components|divide into components|re-engineer into reusable software components
   consumes: uses
+  distro: distribution
   drag and drop: drag
   executable(?! program| routine| files?): executable program
   frontend: front end|front-end

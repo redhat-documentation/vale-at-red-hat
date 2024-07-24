@@ -11,6 +11,7 @@ componentization
 componentize
 consumes
 drag and drop
+distro
 executable
 frontend
 gzip

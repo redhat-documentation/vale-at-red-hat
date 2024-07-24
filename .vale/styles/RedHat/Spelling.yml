@@ -6,7 +6,7 @@ link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference
 message: "Verify the word '%s'. It is not in the American English spelling dictionary used by Vale."
 # A "filter" is a case-sensitive regular expression specifying words to ignore during spell checking.
 # Spelling rule applies to individual words
-# There is no need to add plural forms (s?) to th regex
+# There is no need to add plural forms (s?) to the regex
 filters:
   - "[aA]ccessor"
   - "[aA]llowlist"
@@ -49,7 +49,7 @@ filters:
   - "[dD]ev"
   - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
-  - "[dD]evfiles"
+  - "[dD]istro"
   - "[dD]ownstream"
   - "[dD]ownstreaming"
   - "[eE]xposal"
