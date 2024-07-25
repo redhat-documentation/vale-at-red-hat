@@ -7,6 +7,8 @@ future-proof
 green
 yellow
 blue
+https://github.com/[!openshift]
+https://gitlab.com/
 kerberize
 kerberized
 native interface
