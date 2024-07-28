@@ -7,7 +7,6 @@ message: "%s"
 swap:
   # Start each error message with "Do not use ..."
   # Error messages must be single quoted.
-  'https://github.com/[!openshift]|https://gitlab.com/': 'Do not include links to GitHub or GitLab unless the repository is owned and maintained by Red Hat or you have received explicit approval.'
   'ACK(?! flag)': 'Do not use "ACK" as acronym for "acknowledgement". When writing about the acknowledgement flag ("ACK flag") in a TCP packet, use "ACK flag".'
   'future-proof': Do not use "future-proof" in a statement about the benefits, characteristics, or performance of a Red Hat product or service.'
   'out of the box|out-of-the-box': 'Do not use "out of the box" or "out-of-the-box". Use text that is suitable for the context and the noun to which this adjective applies.'
