@@ -19,7 +19,29 @@ require 'sinatra' <1>
 get '/hi' do <1>
   "Hello World!"
 end
-key: value <2> 
+key: value <2>
 ----
 <1> Library import
 <2> URL mapping
+
+[source,terminal]
+----
+$ helm install -n stackrox --create-namespace \
+    stackrox-secured-cluster-services rhacs/secured-cluster-services \
+    -f <path_to_cluster_init_bundle.yaml> \// <1>
+    -f <path_to_pull_secret.yaml> \// <2>
+    --set clusterName=<name_of_the_secured_cluster> \
+    --set centralEndpoint=<endpoint_of_central_service> <3>
+    --set imagePullSecrets.username=<your redhat.com username> \//<4>
+    --set imagePullSecrets.password=<your redhat.com password>//<5>
+----
+<1> Use the `-f` option to specify the path for the init bundle.
+<2> Use the -f option to specify the path for the pull secret for Red{nbsp}Hat Container Registry authentication.
+ifndef::cloud-svc[]
+<3> Specify the address and port number for Central. For example, `acs.domain.com:443`.
+endif::[]
+ifdef::cloud-svc[]
+<3> Enter the *Central API Endpoint* address. You can view this information by choosing *Advanced Cluster Security* -> *ACS Instances* from the Red{nbsp}Hat Hybrid Cloud Console navigation menu, then clicking the ACS instance you created.
+endif::[]
+<4> Include the user name for your pull secret for Red{nbsp}Hat Container Registry authentication.
+<5> Include the password for your pull secret for Red{nbsp}Hat Container Registry authentication.
