@@ -121,9 +121,11 @@ pseudotext
 redirect
 reedit
 reexamine
+reregister
 resynchronize
 re-create
 re-enable
+re-sign
 semicolon
 semiconductor
 subaddress
