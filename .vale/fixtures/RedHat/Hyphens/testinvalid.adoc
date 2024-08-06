@@ -175,6 +175,7 @@ pseudo-text
 re-direct
 re-edit
 re-examine
+re-register
 re-synchronize
 recreate
 reenable
