@@ -1,0 +1,2 @@
+https://github.com/project
+https://gitlab.com/project
