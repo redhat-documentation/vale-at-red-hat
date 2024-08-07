@@ -30,6 +30,25 @@ back slash
 backside
 backwards compatible
 barcode
+bare metal clusters
+bare metal compute
+bare metal configuration
+bare metal control
+bare metal environment
+bare metal equipment
+bare metal event
+bare metal hardware
+bare metal host
+bare metal infrastructure
+bare metal installation
+bare metal installer
+bare metal machine
+bare metal media
+bare metal node
+bare metal provisioning
+bare metal server
+bare metal worker
+Install on bare-metal.
 bare-metal.
 best of breed
 Bidi
