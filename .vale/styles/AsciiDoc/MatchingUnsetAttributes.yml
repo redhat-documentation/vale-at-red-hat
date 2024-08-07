@@ -1,0 +1,36 @@
+---
+extends: script
+level: error
+message: "File contains unbalanced set and unset attribute directives."
+link: https://docs.asciidoctor.org/asciidoc/latest/attributes/unset-attributes/#unset-a-document-attribute-in-the-body
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  // trim extra whitespace
+  scope = text.trim_space(scope)
+  // add a newline, it might be missing
+  scope += "\n"
+  // clean out multi-line comments
+  scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
+
+  set_attr_regex := ":[\\w-_]+:"
+  unset_attr_regex := ":\\!?[\\w-_]+\\!?:"
+  set_attr_count := 0
+  unset_attr_count := 0
+
+  for line in text.split(scope, "\n") {
+    if text.re_match(set_attr_regex, line) {
+      set_attr_count += 1
+      start := text.index(scope, line)
+      matches = append(matches, {begin: start, end: start + len(line)})
+    } else if text.re_match(unset_attr_regex, line) {
+      unset_attr_count += 1
+    }
+  }
+
+  if set_attr_count == unset_attr_count {
+  // number of set and unset attributes match
+    matches = []
+  }
