@@ -586,6 +586,7 @@ Templated
 Temurin
 Tensorflow
 Texinfo
+Telco
 Theia
 time frame
 timeout|time out
