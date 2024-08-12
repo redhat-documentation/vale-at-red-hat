@@ -28,7 +28,6 @@ swap:
   bottom left: lower left
   bottom right: lower right
   bugfix: bug fix
-  can not: cannot
   choose: select
   componentization: component-based development|component model|component architecture|shared components
   componentize: develop components|divide into components|re-engineer into reusable software components
