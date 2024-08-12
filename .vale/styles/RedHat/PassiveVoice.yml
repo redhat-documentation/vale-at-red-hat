@@ -186,6 +186,7 @@ tokens:
   - wrung
 exceptions:
   - deprecated
+  - displayed
   - imported
   - supported
   - tested
