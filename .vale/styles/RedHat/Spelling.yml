@@ -219,6 +219,7 @@ filters:
   - "[sS]ysctl"
   - "[sS]yslog"
   - "[sS]ystemd"
+  - "[tT]elco"
   - "[tT]emplated"
   - "[tT]heia"
   - "[tT]olerations"
