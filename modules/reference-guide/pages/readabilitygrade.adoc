@@ -3,9 +3,10 @@
 
 = Readability grade
 
-Grade level too high.
+Try to write paragraphs that have a calculated Flesch–Kincaid grade level below the recommended value of 9.
 
 .Additional resources
 
+* link:https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests[Flesch–Kincaid readability tests]
 * link:https://vale.sh/docs/topics/styles#metric[Vale documentation - `metric` extension point]
 * link:{repository-url}blob/main/.vale/styles/RedHat/ReadabilityGrade.yml[`ReadabilityGrade.yml` source code]
