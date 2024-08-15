@@ -150,8 +150,11 @@ JUnit
 JVM
 kernel
 kernel space
+Kernel arguments
 Kernel-based Virtual Machine
 Kernel Module Management
+Kernel packet filtering
+Kernel parameters
 keystore
 Kickstart
 KIE
