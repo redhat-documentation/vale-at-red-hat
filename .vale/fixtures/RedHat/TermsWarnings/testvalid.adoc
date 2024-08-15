@@ -1,8 +1,14 @@
-accurate
 accelerate
+accurate
+act like
+acts like
+advance like
+advances like
 after
 and
 and so on
+behave like
+behaves like
 camel case
 can
 change
@@ -20,8 +26,13 @@ enter
 examine
 fall back
 fallback
+feel like
+feels like
 firmware
+function like
+functions like
 hostname
+human-like
 import
 in languages other than English
 in-house
@@ -31,41 +42,41 @@ invocable
 issue
 KB
 kB
-human-like
-acts like
-advances like
-behaves like
-feels like
-functions like
-looks like
-moves like
-operates like
-performs like
-reacts like
-runs like
-shifts like
-works like
 load
 load balance
+look like
+looks like
 make the transition
 might
 migrate
 move
+move like
+moves like
 non-English-language
 not allowed
 obtain
 on-premise
 on-site
 open
+operate like
+operates like
+perform like
+performs like
 plugin
 preinstall
 preinstalled
 print
 process
+react like
+reacts like
 repository
 roll back
 rollback
 run
+run like
+runs like
+shift like
+shifts like
 start
 start
 stop
@@ -79,5 +90,7 @@ use
 valid
 verified
 when
+work like
+works like
 you
 you
