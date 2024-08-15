@@ -61,6 +61,7 @@ bare-metal host
 bare-metal infrastructure
 bare-metal installation
 bare-metal installer
+bare-metal instance
 bare-metal machine
 bare-metal media
 bare-metal node
