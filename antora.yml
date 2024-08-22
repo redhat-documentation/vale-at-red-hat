@@ -36,3 +36,4 @@ asciidoc:
     ssg-url: https://redhat-documentation.github.io/supplementary-style-guide/
     valedict: Custom Vale open-source dictionary for American English.
     valedict-url: https://github.com/errata-ai/en_US-web
+    page-pagination: true # display links to previous/next pages at the bottom of the page
