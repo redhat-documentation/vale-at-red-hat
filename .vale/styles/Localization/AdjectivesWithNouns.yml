@@ -1,0 +1,11 @@
+---
+extends: sequence
+message: "Always use 'following' as an adjective before a noun for clarity and grammatical correctness. For example, use 'Complete the following steps' instead of 'Complete the following'."
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/using/
+level: warning
+action:
+  name: edit
+tokens:
+    - the following
+    - the previous
+

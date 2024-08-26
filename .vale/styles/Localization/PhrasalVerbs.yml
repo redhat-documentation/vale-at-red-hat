@@ -4,21 +4,22 @@ ignorecase: true
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
 message: "Avoid using phrasal verbs. Consider using '%s' rather than '%s'."
+scope: sentence
 action:
   name: replace
 swap:
   # Start each error message with "Do not use ..."
   # Error messages must be single quoted.
-do: carry out
-allow | enable: allow for
-continue: carry on
-depend: count on
-result: end up
-imply: get at
-click: click on
-find : find out
-print : print out
-start: start up | switch on
-tap: tap on
-takes: picks up
-complete: fill in
+carry out: do
+allow for: allow|enable
+carry on: continue
+count on: depend
+end up: result
+get at: imply
+click on: click
+find out: find
+print out: print
+start up | switch on: start
+tap on: tap
+picks up: takes
+fill in: complete
