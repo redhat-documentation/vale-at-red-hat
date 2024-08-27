@@ -8,7 +8,8 @@
 [id="redhat-style-for-vale"]
 = Red Hat style for Vale
 
-The `RedHat` style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products. These language rules originates from:
+The `RedHat` style for Vale consists of language rules suitable for documentation in Open Source projects and mandatory for Red Hat products.
+The Red Hat language rules originate from:
 
 * link:{ssg-url}[_{ssg}_]
 * Latest edition of the _{ibmsg}_
@@ -17,6 +18,8 @@ The `RedHat` style for Vale consists of language rules suitable for documentatio
 
 [IMPORTANT]
 ====
+The `RedHat` style for Vale is compatible with Vale version 3.7 and above.
+
 Vale v3 introduced a breaking change for the Vale vocabulary folder location.
 For Vale v3+, if you use a vocabulary with your project, ensure that the vocabulary folder matches this folder structure:
 

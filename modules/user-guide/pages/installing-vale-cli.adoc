@@ -19,6 +19,20 @@ The project will already have a `vale.ini` configuration.
 
 * Install the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem.
 
+* If you have previously installed Vale, you can check what version you are currently running.
+Run the following command:
++
+[source,terminal]
+----
+$ vale --version
+----
++
+.Example output
+[source,terminal]
+----
+vale version 3.6.1
+----
+
 .Procedure
 
 . Install Vale.
@@ -51,7 +65,9 @@ $ which vale
 ----
 +
 [NOTE]
+====
 For other operating systems, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
+====
 
 .Additional resources
 * xref:understanding-vale-output.adoc[]

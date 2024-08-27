@@ -11,6 +11,11 @@ You can install the `RedHat` style for Vale globally.
 
 [IMPORTANT]
 ====
+The `RedHat` style for Vale is compatible with Vale version 3.7 and above.
+====
+
+[IMPORTANT]
+====
 Some product documentation repositories, such as `openshift-docs`, have an existing `.vale.ini` file.
 When you run `vale` on content files in the repository directory, the `<repository>/.vale.ini` file overrides the `$HOME/.vale.ini` file. For more information, see link:https://vale.sh/docs/topics/config[Vale configuration reference].
 
