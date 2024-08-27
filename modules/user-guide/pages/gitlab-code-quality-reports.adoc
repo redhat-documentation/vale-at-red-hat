@@ -27,6 +27,11 @@ The widget reports style compliance issues in the GitLab merge request interface
 ----
 include::example$gitlab-ci.yml[]
 ----
+<1> Update the `$FILES` step to match your documentation source type, for example, use `*.md` for markdown.
+<2> Optional.
+Vale does not lint inside AsciiDoc conditional statements unless you pass the conditional variables as link:https://vale.sh/docs/topics/scoping/#asciidoc[Asciidoctor attributes].
+You can bypass this limitation in the CI by temporarily removing `ifdef` and `ifeval` directives before linting with Vale.
+This step is only useful for AsciiDoc, and can be removed for other source formats.
 
 . Create a `vale-json.tmpl` file at the repository root:
 +
