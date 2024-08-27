@@ -13,10 +13,10 @@ code_quality:
     - apk update && apk add git
     - vale sync # Pull down VRH rules package specified in vale.ini
   script:
-    # Get complete list of *.adoc files in the repo
-    - FILES=$(find . -type f -name "*.adoc")
-    # Clean out conditions for wider vale coverage
-    - sed -i -e 's/ifdef::.*\|ifndef::.*\|ifeval::.*\|endif::.*/ /' ${FILES}
+    # Get complete list of *.adoc files in the repository
+    - FILES=$(find . -type f -name "*.adoc") # <1>
+    # Clean out conditions for wider Vale coverage in AsciiDoc
+    - sed -i -e 's/ifdef::.*\|ifndef::.*\|ifeval::.*\|endif::.*/ /' ${FILES} # <2>
     # Use a template to rearrange the vale JSON output
     # Run vale with --no-exit to pass the build with errors
     - vale ${FILES} --minAlertLevel=error --glob='*.adoc' --output="$(pwd)/vale-json.tmpl" > gl-code-quality-report.json
