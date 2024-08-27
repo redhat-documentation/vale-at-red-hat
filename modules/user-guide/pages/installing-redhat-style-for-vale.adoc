@@ -11,7 +11,7 @@ You can install the `RedHat` style for Vale globally.
 
 [IMPORTANT]
 ====
-The `RedHat` style for Vale is compatible with Vale version 3.7 and above.
+The `RedHat` style for Vale requires Vale version 3.7 and above.
 ====
 
 [IMPORTANT]
