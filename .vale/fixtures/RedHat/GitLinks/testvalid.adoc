@@ -1,0 +1,2 @@
+https://github.com/openshift/*
+https://github.com/redhat-developer/*
