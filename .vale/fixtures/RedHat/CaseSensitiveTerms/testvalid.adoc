@@ -337,3 +337,4 @@ XEmacs
 XP
 xterm
 YAML
+yaml-patch
