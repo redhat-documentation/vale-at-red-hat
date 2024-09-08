@@ -95,4 +95,6 @@
 {capx-short}
 {capz-first}
 {capz-short}
+IBM documentation
 IBM Secure Execution
+IBM Style
