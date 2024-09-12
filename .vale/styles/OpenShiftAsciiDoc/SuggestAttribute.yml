@@ -46,7 +46,6 @@ swap:
   factory-precaching-cli tool: "{factory-prestaging-tool}"
   GitOps ZTP: "{ztp}"
   Hybrid Cloud Console: "{hybrid-console-second}"
-  IBM(?! Cloud| Power| Power Virtual Server| LinuxONE| Z| Secure Execution| documentation| Style): "{ibm-title}"
   IBM Cloud(?! Bare Metal): "{ibm-cloud-title}"
   IBM Cloud Bare Metal Classic: "{ibm-cloud-bm-title}"
   IBM Power(?! Virtual Server): "{ibm-power-title}"
