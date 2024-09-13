@@ -19,7 +19,7 @@ scope += "\n"
 scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
 
 attr_regex := "^:[\\w-_]+:.*$"
-context_mod_docs_regex := "^:context|_mod-docs-content-type:.*$"
+context_mod_docs_regex := "^:context|_content-type|_mod-docs-content-type:.*$"
 attr_name_regex := ":[\\w-_]+:"
 attr_name := ""
 unset_attr_pref := ""
