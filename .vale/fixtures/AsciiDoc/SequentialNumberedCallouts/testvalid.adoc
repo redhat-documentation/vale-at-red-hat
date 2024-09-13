@@ -3,6 +3,27 @@
 ----
 require 'sinatra' <1>
 
+get '/hi' do <1>
+  "Goodbye cruel world!"
+end
+key: value <2>
+key: another value <3>
+----
+<1> Library import
+<2> URL mapping
+// Rule skips any block containing ifdefs
+ifndef::test1[]
+<3> Some text
+endif::[]
+ifdef::test2[]
+<3> Some other text
+endif::[]
+
+//vale-fixture
+[source,ruby]
+----
+require 'sinatra' <1>
+
 get '/hi' do <2> <3>
   "Hello World!"
 end
@@ -16,10 +37,10 @@ end
 ----
 require 'sinatra' <1>
 
-get '/hi' do <1>
-  "Hello World!"
+get '/hi' do <2> <3>
+  "Hello World again!"
 end
-key: value <2> 
 ----
 <1> Library import
 <2> URL mapping
+<3> Response block

@@ -1,6 +1,6 @@
 /*
     Tengo Language
-    Checks that callouts outside the listing block are sequential 
+    Checks that callouts outside the listing block are sequential
     $ tengo SequentialNumberedCallouts.tengo <asciidoc_file_to_validate>
 */
 
@@ -20,30 +20,44 @@ scope += "\n"
 prev_num := 0
 callout_regex := "^<(\\d+)>"
 listingblock_delim_regex := "^-{4,}$"
+if_regex := "^ifdef::|ifndef::"
+endif_regex := "^endif::\\[\\]"
+inside_if := false
 
 for line in text.split(scope, "\n") {
   // trim trailing whitespace
   line = text.trim_space(line)
+
+  // check if we're entering a conditional block
+  if text.re_match(if_regex, line) {
+      inside_if = true
+  } else if text.re_match(endif_regex, line) {
+      inside_if = false
+  }
+
   //reset count if we hit a listing block delimiter
   if text.re_match(listingblock_delim_regex, line) {
     prev_num = 0
   }
 
-  if text.re_match(callout_regex, line) {
-    callout := text.re_find("<(\\d+)>", line)
-    for key, value in callout {
-      //trim angle brackets from string
-      trimmed := callout[key][0]["text"]
-      trimmed = text.trim_prefix(trimmed, "<")
-      trimmed = text.trim_suffix(trimmed, ">")
-      //cast string > int
-      num := text.atoi(trimmed)
-      //start counting
-      if num != prev_num+1 {
-        start := text.index(scope, line)
-        matches = append(matches, {begin: start, end: start + len(line)})
+  //only count callouts where there are no ifdefs
+  if !inside_if {
+    if text.re_match(callout_regex, line) {
+      callout := text.re_find("<(\\d+)>", line)
+      for key, value in callout {
+        //trim angle brackets from string
+        trimmed := callout[key][0]["text"]
+        trimmed = text.trim_prefix(trimmed, "<")
+        trimmed = text.trim_suffix(trimmed, ">")
+        //cast string > int
+        num := text.atoi(trimmed)
+        //start counting
+        if num != prev_num+1 {
+          start := text.index(scope, line)
+          matches = append(matches, {begin: start, end: start + len(line)})
+        }
+        prev_num = num
       }
-      prev_num = num
     }
   }
 }
@@ -51,5 +65,5 @@ for line in text.split(scope, "\n") {
 if len(matches) == 0 {
   fmt.println("Callouts are sequential")
 } else {
-  fmt.println(matches) 
+  fmt.println(matches)
 }
