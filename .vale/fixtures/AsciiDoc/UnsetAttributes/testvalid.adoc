@@ -1,0 +1,20 @@
+:context: creating-infrastructure-machinesets
+:_mod-docs-content-type: ASSEMBLY
+
+ifeval::["{context}" == "creating-infrastructure-machinesets"]
+//vale-fixture
+:type: Go
+endif::[]
+
+Vale reports lots of errors, it should also report an attribute that you forgot to unset
+
+ifeval::["{context}" == "creating-infrastructure-machinesets"]
+//vale-fixture
+:!type:
+endif::[]
+
+//This is really just unsetting a second time, but it should not trip the rule
+ifeval::["{context}" == "creating-infrastructure"]
+//vale-fixture
+:type!:
+endif::[]
