@@ -1,7 +1,7 @@
 ---
-extends: substitution
+extends: existence
 ignorecase: true
-level: warning
+level: suggestion
 link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/termswarnings/
 message: 'Only use allow if you are talking about permission. For ability, use enable.'
 # source: https://github.com/redhat-documentation/vale-at-red-hat/issues/515
