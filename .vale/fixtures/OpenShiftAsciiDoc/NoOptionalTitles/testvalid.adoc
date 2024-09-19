@@ -1,0 +1,4 @@
+//vale-fixture
+:_mod-docs-content-type: REFERENCE
+[id="cli-basic-commands_{context}"]
+= No optional CLI commands
