@@ -1,0 +1,8 @@
+---
+extends: existence
+scope: raw
+level: error
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#assembly-file-metadata
+message: "Do not begin a module or assembly title with 'Optional:'."
+raw:
+  - '(?<!\/\/)={1,5} Optional:'
