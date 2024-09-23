@@ -1,0 +1,37 @@
+---
+extends: script
+message: "Assembly is missing required metadata. Ensure you include metadata for attributes, TOC and context."
+level: error
+link: https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#assembly-file-metadata
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  attribute_regex := "include::_attributes/"
+  toc_regex := "toc::\\[\\]"
+  context_regex := ":context:"
+  matchAttribute := false
+  matchToc := false
+  matchContext := false
+
+  //Check if context declaration is on any line
+  for line in text.split(scope, "\n") {
+    if text.re_match(attribute_regex, line){
+      matchAttribute = true
+    } else if text.re_match(toc_regex, line){
+      matchToc = true
+    } else if text.re_match(context_regex, line){
+      matchContext = true
+    }   
+    }
+    
+  //Highlight first line if context declaration not found in file
+  if !matchAttribute || !matchToc || !matchContext {
+    matches = append(matches, {begin: 1, end: 10})
+        }
