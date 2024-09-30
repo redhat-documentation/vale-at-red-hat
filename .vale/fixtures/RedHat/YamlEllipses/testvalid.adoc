@@ -1,0 +1,10 @@
+//vale-fixture
+[source,yaml]
+----
+# ...
+  # ...
+# This is an ordinary comment
+----
+
+...
+
