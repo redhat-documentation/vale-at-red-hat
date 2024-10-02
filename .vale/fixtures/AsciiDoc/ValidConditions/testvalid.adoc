@@ -40,3 +40,6 @@ endif::[]
 ifeval::["{docname}{outfilesuffix}" == "main.html"]
 Some text!
 endif::[]
+
+//vale-fixture
+ifndef::olmv1-pullsecret-proc[For more information, see "Creating a pull secret for catalogs hosted on a secure registry".]
