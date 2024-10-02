@@ -13,13 +13,15 @@ script: |
   //add a newline, it might be missing
   scope += "\n"
 
-  if_regex := "^(ifdef::.+\\[\\]|ifndef::.+\\[\\]|ifeval::.*)"
-  endif_regex := "^endif::.*"
+  if_regex := "^ifdef::.+\\[\\]"
+  ifn_regex := "^ifndef::.+\\[\\]"
+  ifeval_regex := "ifeval::\\[.+\\]"
+  endif_regex := "^endif::.*\\[\\]"
 
   for line in text.split(scope, "\n") {
     // trim trailing whitespace
     line = text.trim_space(line)
-    if text.re_match(if_regex, line) {
+    if text.re_match(if_regex, line) || text.re_match(ifn_regex, line) || text.re_match(ifeval_regex, line) {
       start := text.index(scope, line)
       matches = append(matches, {begin: start, end: start + len(line)})
     } else if text.re_match(endif_regex, line) {
