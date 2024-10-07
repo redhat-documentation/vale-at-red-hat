@@ -1,0 +1,2 @@
+Enter your user name in the Username field.
+Enter your description in the Description field.
