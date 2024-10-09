@@ -11,7 +11,6 @@ ActiveMQ Artemis
 Admin Portal
 Administration portal
 Administrator Portal
-Analysis
 Ansible playbook
 Ansible rulebook
 Appliance Console
@@ -453,6 +452,7 @@ smart state
 Smart state
 Smart-NIC
 Smartstate
+Smartstate Analysis
 socks
 SoftIRQ
 software collection

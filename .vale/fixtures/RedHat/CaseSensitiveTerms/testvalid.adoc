@@ -11,6 +11,7 @@ AMQ Console
 AMQ Interconnect
 Ansible Playbook
 Apache Subversion
+Analysis
 Appliance console
 Application Stream
 Applixware
