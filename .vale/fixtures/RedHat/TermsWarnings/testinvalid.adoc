@@ -60,6 +60,7 @@ tarball
 terminate
 tooling
 transition
+vertical ellipsis
 vs
 Hybrid Cloud Console
 Cloud Console
