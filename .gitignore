@@ -11,6 +11,7 @@
 /.ruby-version
 /.yardoc/
 /build/
+bin
 /Gemfile.lock
 /node_modules/
 /pkg/
