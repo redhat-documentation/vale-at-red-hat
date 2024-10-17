@@ -1,5 +1,4 @@
-.xref:reference-guide.adoc[Vale rules reference guide]
-
+.Vale rules reference guide
 * xref:abbreviations.adoc[]
 * xref:casesensitiveterms.adoc[]
 * xref:conjunctions.adoc[]

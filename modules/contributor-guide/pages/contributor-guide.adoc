@@ -1,6 +1,0 @@
-:navtitle: Contributor guide
-:keywords: reference, contributor
-
-= Vale at Red Hat contributor guide
-
-include::partial$nav.adoc[lines=3..]

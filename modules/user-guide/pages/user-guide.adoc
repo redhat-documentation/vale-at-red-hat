@@ -1,6 +1,0 @@
-:navtitle: User guide
-:keywords: reference, user
-
-= Vale at Red Hat user guide
-
-include::partial$nav.adoc[lines=3..]

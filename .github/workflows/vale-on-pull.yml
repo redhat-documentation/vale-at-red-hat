@@ -13,9 +13,11 @@ on: [pull_request]
 jobs:
   vale:
     name: Linting with Vale
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - name: Install Asciidoctor
+        run: sudo apt-get install -y asciidoctor
       - uses: errata-ai/vale-action@reviewdog
         with:
           filter_mode: diff_context
