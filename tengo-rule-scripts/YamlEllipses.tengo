@@ -1,0 +1,42 @@
+/*
+    Tengo Language
+    $ tengo ValidYamlCodeBlocks.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+matches := []
+
+// clean out multi-line comments
+scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
+//add a newline, it might be missing
+scope += "\n"
+
+codeblock_delim_regex := "^-{4,}$"
+yaml_block_regex := "^\\[(source,yaml).*\\]"
+ellipses := 0
+comment_ellipsis := "^# \\.{3}$"
+reg_ellipsis := "^\\s*\\.{3}$"
+inside_codeblock := false
+
+for line in text.split(scope, "\n") {
+  // trim trailing whitespace
+  line = text.trim_space(line)
+  // check only content in codeblocks
+  if text.re_match(codeblock_delim_regex, line) && inside_codeblock == false {
+    inside_codeblock = true
+  } else if text.re_match(codeblock_delim_regex, line) && inside_codeblock == true {
+    inside_codeblock = false
+  }
+  if !text.re_match(comment_ellipsis, line) && text.re_match(reg_ellipsis, line) && inside_codeblock == true {
+    start := text.index(scope, line)
+    matches = append(matches, {begin: start, end: start + len(line)})
+  }
+}
+
+fmt.println(matches)
+
