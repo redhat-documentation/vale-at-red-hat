@@ -451,7 +451,6 @@ Smart State
 smart state
 Smart state
 Smart-NIC
-Smartstate
 Smartstate Analysis
 socks
 SoftIRQ
@@ -555,3 +554,9 @@ xplat-cli
 XPLAT-CLI
 Xterm
 Yaml is not a markup language.
+Y-Stream
+Y Stream
+Y stream
+Z-Stream
+Z Stream
+Z stream
