@@ -342,3 +342,5 @@ XP
 xterm
 YAML
 yaml-patch
+y-stream
+z-stream
