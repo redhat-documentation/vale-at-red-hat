@@ -1,0 +1,9 @@
+---
+extends: existence
+scope: raw
+level: error
+message: "Code example ends with an unescaped trailing backslash."
+action:
+  name: remove
+raw:
+ - '\\(?=\n----)'

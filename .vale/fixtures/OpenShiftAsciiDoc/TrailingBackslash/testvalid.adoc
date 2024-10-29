@@ -1,0 +1,46 @@
+[source,terminal]
+----
+$ oc get my lunch
+----
+
+[source,terminal]
+----
+# oc get my lunch
+----
+
+.Example
+[source,terminal]
+----
+$ az role assignment create --role "<privileged_role>" \// <1>
+----
+
+[source,terminal]
+----
+sh-4.2# chroot /host
+----
+
+[source,terminal]
+----
+.
+├── CODEOWNERS
+├── README.md
+└── scripts
+    └── validate-vale-rules.sh
+----
+
+[source,terminal]
+----
+(undercloud)$ cd go/to/path
+----
+
+[source,yaml]
+----
+include::yaml/boundary-clock-ptp-config.yaml[]
+----
+
+.Example
+[source,terminal]
+----
+$ az role assignment \
+  create --role "<privileged_role>"
+----
