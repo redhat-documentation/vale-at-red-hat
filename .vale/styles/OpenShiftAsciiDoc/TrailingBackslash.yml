@@ -1,0 +1,9 @@
+---
+extends: existence
+scope: raw
+level: error
+message: "Codeblock contains unescaped trailing backslash."
+action:
+  name: remove
+raw:
+  - '(?<!^----\n.+\n+\w+)(?<!\\)\\\n'
