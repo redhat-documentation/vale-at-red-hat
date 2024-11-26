@@ -5,8 +5,12 @@
 
 Avoid ellipsis (...) except to indicate omitted words.
 
+Use a commented out ellipsis (# ...) in YAML code blocks. YAML uses '...' to indicate the end of a document without starting a new one.
+
 .Additional resources
 
 * link:{ibmsg-url-print}[{ibmsg-print} - Ellipses, p. 49]
 * link:{ibmsg-url}?topic=punctuation-ellipses[{ibmsg} - Ellipses]
 * link:{repository-url}blob/main/.vale/styles/RedHat/Ellipses.yml[`Ellipses.yml` source code]
+* link:https://yaml.org/spec/1.2.2/#22-structures[YAML 1.2: Structures]
+* link:{repository-url}blob/main/.vale/styles/RedHat/YamlEllipses.yml[`YamlEllipses.yml` source code]
