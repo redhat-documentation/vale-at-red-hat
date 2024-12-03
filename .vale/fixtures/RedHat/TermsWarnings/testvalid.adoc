@@ -63,6 +63,8 @@ operates like
 perform like
 performs like
 plugin
+policy
+policies
 preinstall
 preinstalled
 print

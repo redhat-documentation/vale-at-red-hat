@@ -43,6 +43,8 @@ on-prem
 on-premises
 opt into
 opting into
+police
+polices
 preload
 preloaded
 print out
