@@ -1,0 +1,5 @@
+; Vale configuration file to test the `GitLinks` rule
+; StylesPath = ../../../styles
+; MinAlertLevel = warning
+; [*.adoc]
+; RedHat.GitLinks = YES
