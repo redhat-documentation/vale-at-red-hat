@@ -240,7 +240,6 @@ Junit
 junit
 jvm
 Jvm
-k8s
 kbase
 Kernel
 kernel-based virtual machine

@@ -233,6 +233,7 @@ swap:
   joblog: job log
   jobstream: job stream
   judgement: judgment
+  k8s: Kubernetes
   keep in mind: remember
   kernelspace: kernel-space
   kick off: start
