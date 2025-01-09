@@ -1,9 +1,7 @@
-//vale-fixture
 :_mod-docs-content-type: REFERENCE
 [id="optional-postinstall-configurations_{context}"]
+//vale-fixture
 = Optional: Postinstall configurations
 
+//vale-fixture
 == Optional: More postinstall configurations
-
-\\ == Optional: more options
-

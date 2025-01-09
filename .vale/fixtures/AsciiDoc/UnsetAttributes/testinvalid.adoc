@@ -2,6 +2,7 @@
 :context: creating-infrastructure-machinesets
 = Testing
 
+//vale-fixture
 ifeval::["{context}" == "creating-infrastructure-machinesets"]
 :infra: test
 endif::[]

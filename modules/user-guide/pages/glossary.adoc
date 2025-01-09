@@ -17,7 +17,7 @@ The `vale` command-line tool brings code-like linting to prose. Use it to valida
 
 * xref:installing-vale-cli.adoc[]
 * xref:using-vale-with-a-continuous-integration-service.adoc[]
-* link:https://vale.sh/docs/vale-cli/overview[Vale documentation - Overview]
+* link:https://vale.sh/docs/cli[Vale documentation - CLI]
 
 [id="vale-configuration-file"]
 == Vale configuration file
