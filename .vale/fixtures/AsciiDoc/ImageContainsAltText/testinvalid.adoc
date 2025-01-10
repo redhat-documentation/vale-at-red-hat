@@ -1,3 +1,5 @@
 //vale-fixture
 image::my-image-name.png[]
+
+//vale-fixture
 image:my-image-name.png[]

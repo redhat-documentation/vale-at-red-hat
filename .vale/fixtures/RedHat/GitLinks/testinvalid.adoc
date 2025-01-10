@@ -1,2 +1,2 @@
-https://github.com/project
-https://gitlab.com/project
+https://github.com/project1
+https://gitlab.com/project2
