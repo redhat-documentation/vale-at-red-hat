@@ -177,7 +177,7 @@ swap:
   knowledgebase: Knowledgebase
   ksession|knowledge session: KIE session
   Kubelet(?! Stats Receiver): kubelet
-  kubernetes|k8s: Kubernetes
+  kubernetes: Kubernetes
   kvm: KVM
   Lan|lan: LAN
   Librados|LIBRADOS: librados
