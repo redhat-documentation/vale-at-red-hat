@@ -1,0 +1,11 @@
+---
+extends: sequence
+message: "Do not use adjectives without a noun following them. For example, use 'Complete the following steps' instead of 'Complete the following'."
+link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/using/
+level: warning
+action:
+  name: edit
+tokens:
+    - the following
+    - the previous
+
