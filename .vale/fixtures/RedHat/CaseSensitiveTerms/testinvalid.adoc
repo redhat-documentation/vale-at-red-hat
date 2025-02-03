@@ -332,6 +332,7 @@ OpenShift Cluster Manager
 OpenShift Kubernetes Distribution
 Openshift online
 OpenShift Origin
+OpenStack
 OpenStack Platform
 Operating Environment
 Operating System

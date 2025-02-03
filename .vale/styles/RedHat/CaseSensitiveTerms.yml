@@ -12,7 +12,7 @@ swap:
   "(?<!Business )Resource Planner|(?<!Business Resource )Planner": Business Resource Planner
   "(?<!Microsoft Azure )On-Demand Marketplace": Microsoft Azure On-Demand Marketplace
   "(?<!Red Hat )JBoss Enterprise Application Platform": Red Hat JBoss Enterprise Application Platform
-  "(?<!Red Hat )OpenStack Platform|RHOS|RH-OSP": Red Hat OpenStack Platform
+  "(?<!Red Hat )OpenStack Platform|(?<!Red Hat )OpenStack(?! Platform)|RHOS|RH-OSP": Red Hat OpenStack Platform
   "(?<!Red Hat JBoss )BRMS(?! engine)": inference engine
   "(?<!Red Hat JBoss )BRMS|BRM|(?<!Red Hat )JBoss BRMS": Red Hat JBoss BRMS
   "(?<!T-)BC": Business Central
