@@ -103,7 +103,7 @@ swap:
   catastrophic error: unrecoverable error
   CBE: Common Base Event
   CBTS: CICS BTS|BTS
-  CD burner|burner: CD writer
+  CD burner|(?<!kube-)burner: CD writer
   centre: center
   check box: checkbox
   check list: checklist
