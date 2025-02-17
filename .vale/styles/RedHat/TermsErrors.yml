@@ -12,7 +12,7 @@ swap:
   "(?<!-)pm": PM
   "(?<!-|I )am": AM
   "(?<!.)io": I/O
-  "(?<!as well )as per": according to|as|as in
+  '(?<!as well )\bas per\b': according to|as|as in
   "(?<!kernel )oops": kernel oops
   "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
   "(?<!Mozilla )Firefox": Mozilla Firefox
