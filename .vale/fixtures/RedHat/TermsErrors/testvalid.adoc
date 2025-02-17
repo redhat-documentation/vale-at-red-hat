@@ -156,6 +156,7 @@ compress
 compressed file
 concept
 concern
+Configuring the Compute Service for Instance Creation. Support for instance domain change-deltas, and for instances where.
 connect to
 consist of
 consumer
@@ -285,6 +286,7 @@ for example
 foreground
 front end
 front-end
+FRR-K8s
 Gateway Load Balancer
 gauge
 given name
@@ -650,7 +652,6 @@ twistie
 type
 typing error
 typographical error
-vCenter datacenter
 un-customized
 unavailable
 unconfigure
@@ -679,6 +680,7 @@ USB flash drive
 use
 user
 user-provisioned infrastructure
+vCenter datacenter
 verify
 version
 video mode
@@ -714,4 +716,3 @@ workstation
 zero
 zeros
 zone group
-Configuring the Compute Service for Instance Creation. Support for instance domain change-deltas, and for instances where.

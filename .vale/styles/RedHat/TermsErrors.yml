@@ -233,7 +233,7 @@ swap:
   joblog: job log
   jobstream: job stream
   judgement: judgment
-  k8s: Kubernetes
+  '(?<!-)\bk8s\b(?!-)': Kubernetes
   keep in mind: remember
   kernelspace: kernel-space
   kick off: start
