@@ -1,5 +1,6 @@
 ad-hoc
 addon
+addons
 auto-configure
 auto-generated
 auto-install
