@@ -1,0 +1,46 @@
+/*
+Tengo Language
+Checks that lines are not hard-wrapped.
+$ tengo HardWrappedLines.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+matches := []
+
+  //trim extra whitespace
+  scope = text.trim_space(scope)
+  //add a newline, it might be missing
+  scope += "\n"
+
+  attribute_regex := "include::_attributes/"
+  toc_regex := "toc::\\[\\]"
+  context_regex := ":context:"
+  matchAttribute := false
+  matchToc := false
+  matchContext := false
+
+  //Check if context declaration is on any line
+  for line in text.split(scope, "\n") {
+    if text.re_match(attribute_regex, line){
+      matchAttribute = true
+      fmt.println("Found attribute declaration.")
+    } else if text.re_match(toc_regex, line){
+      matchToc = true
+      fmt.println("Found toc declaration")
+    } else if text.re_match(context_regex, line){
+      matchContext = true
+      fmt.println("Found context declaration")
+    } 
+    }
+    
+  //Highlight first line if context declaration not found in file
+  if !matchAttribute || !matchToc || !matchContext {
+    matches = append(matches, {begin: 1, end: 10})
+    fmt.println("Did not find correct metadata")
+    fmt.println(matches) 
+        }

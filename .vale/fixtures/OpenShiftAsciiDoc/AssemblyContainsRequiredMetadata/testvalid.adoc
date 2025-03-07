@@ -1,0 +1,8 @@
+//vale-fixture
+:_content-type: ASSEMBLY
+[id="<unique-heading-for-assembly>"]
+= Assembly title
+include::_attributes/input-attributes-file
+:context: some-context
+
+toc::[]
