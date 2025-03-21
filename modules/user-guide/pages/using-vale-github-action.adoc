@@ -41,15 +41,15 @@ on: [pull_request]
 jobs:
   vale:
     name: Linting with Vale
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Install Asciidoctor
         run: sudo apt-get install -y asciidoctor
-      - uses: errata-ai/vale-action@reviewdog
+      - uses: errata-ai/vale-action@d89dee975228ae261d22c15adcd03578634d429c # v2.1.1
         with:
           filter_mode: diff_context
-          vale_flags: "--no-exit --minAlertLevel=error"
+          vale_flags: "--no-exit --minAlertLevel=error --glob=*.adoc"
           reporter: github-pr-review
           fail_on_error: true
         env:
