@@ -1,6 +1,6 @@
 # Vale at Red Hat repository
 
-This repository helps tech writers at Red Hat get up and running with Vale. It is the starting point for the Vale Community of Practice at Red Hat.
+This repository helps you to get started with linting Red Hat docs with Vale.
 
 * To start using Vale with the "Red Hat" style, see: link:https://redhat-documentation.github.io/vale-at-red-hat/docs/main/user-guide/introduction/[]
 * To contribute or communicate with the project team, see: link:https://redhat-documentation.github.io/vale-at-red-hat/docs/main/contributor-guide/contributing/[]
