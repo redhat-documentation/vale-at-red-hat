@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Understanding Vale output :: Vale for writers at Red Hat</title>
+    <link rel="canonical" href="https://redhat-documentation.github.io/vale-at-red-hat/docs/main/user-guide/understanding-vale-output/">
+    <link rel="prev" href="../using-vale-cli/">
+    <link rel="next" href="../collating-vale-output/">
+    <meta name="description" content="Overview of Vale CLI report results">
+    <meta name="keywords" content="understanding, output">
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../../../_/css/site.css">
+<link rel="icon" href="../../../../favicon.ico" type="image/x-icon">  </head>
+  <body class="article">
+<header class="header">
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <ul class="navbar-brand-list">
+          <li>
+            <a class="navbar-brand rh-documentation" href="https://redhat-documentation.github.io/vale-at-red-hat/index.html">
+              <img src="../../../../_/img/Red-Hat-Documentation-A-Reverse-RGB.svg" alt="Home" class="rh-docs" />
+            </a>
+          </li>
+        </ul>
+
+        <div class="navbar-item search hide-for-print">
+          <div id="search-field" class="field">
+            <input id="search-input" type="text" placeholder="Search the docs..." >
+          </div>
+        </div>
+        <button class="navbar-burger" data-target="topbar-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </div><div class="body">
+<div class="nav-container" data-component="docs" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../introduction/">Vale for writers at Red Hat</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Vale at Red Hat user guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../introduction/">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../installing-vale-cli/">Installing Vale</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../installing-redhat-style-for-vale/">Installing the RedHat style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../analyze-with-vale/">Analyzing your content</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../using-vale-app/">Using the Vale-at-Red-Hat web app</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../using-vale-cli/">Analyzing with the Vale CLI</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="./">Understanding Vale alerts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../collating-vale-output/">Collating Vale output</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../using-vale-in-the-ide/">Vale in the IDE</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../redhat-style-for-vale/">RedHat style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../asciidoc-style-for-vale/">AsciiDoc style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../openshift-asciidoc-style-for-vale/">OpenShift AsciiDoc style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../reporting-vale-alerts/">Vale reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../defining-a-vale-onboarding-strategy/">Onboarding strategy</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../adding-vale-configuration-to-a-project/">Adding Vale to a project</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../creating-a-vocabulary-for-a-project/">Create a vocabulary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../using-vale-github-action/">Integrating Vale into your GitHub workflow</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../gitlab-code-quality-reports/">GitLab Code Quality reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../using-vale-with-a-continuous-integration-service/">Continuous integration</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Vale at Red Hat contributor guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/contributing/">Contributing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/vale-at-red-hat-repository/">Repository</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/extending-the-spelling-rule/">Extending <em>Spelling</em></a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contributor-guide/extending-styles/">Extending rules</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Vale rules reference guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/abbreviations/">Abbreviations</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/casesensitiveterms/">Case sensitive terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/conjunctions/">Conjunctions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/consciouslanguage/">Conscious language</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/contractions/">Contractions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/definitions/">Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/donotuseterms/">Do not use terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/ellipses/">Ellipses</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/emdashes/">Em dashes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headingpunctuation/">Heading punctuation</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headings/">Headings</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/hyphens/">Hyphens</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/mergeconflictmarkers/">Merge conflict markers</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/oxfordcomma/">Oxford comma</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/pascalcamelcase/">Pascal and camel case terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/passivevoice/">Passive voice</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/productcentricwriting/">Product-centric writing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/readabilitygrade/">Readability grade</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/releasenotes/">Release notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/repeatedwords/">Repeated words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/selfreferentialtext/">Self-referential text</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/sentencelength/">Sentence length</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/simplewords/">Simple words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/slash/">Slash</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/smartquotes/">Smart quotes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spacing/">Spacing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spelling/">Spelling</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/symbols/">Symbols</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termserrors/">Error terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termssuggestions/">Suggestion terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termswarnings/">Warning terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/userreplacedvalues/">User-replaced values</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/using/">Using</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Vale for writers at Red Hat</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../introduction/">Vale for writers at Red Hat</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../introduction/">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <a href="../introduction/" class="home-link"></a>
+  <nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../introduction/">Vale for writers at Red Hat</a></li>
+    <li>Vale at Red Hat user guide</li>
+    <li><a href="../analyze-with-vale/">Analyzing your content</a></li>
+    <li><a href="./">Understanding Vale alerts</a></li>
+  </ul>
+</nav>
+  <!--  -->
+  <div class="edit-this-page"><a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/user-guide/pages/understanding-vale-output.adoc" class="edit-this-page">Edit this page</a></div>
+</div>  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Understanding Vale output</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>As a technical writer, you typically run <code>vale</code> on the command-line against a content file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ cd openshift-docs/logging/troubleshooting/
+$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The resulting command output gives you a list of suggestions, warnings, and errors based on customizable styles and vocabulary.</p>
+</div>
+<div class="paragraph">
+<p>As a writer, you review the output, decide which issues are valid, and update your content accordingly.</p>
+</div>
+<div class="exampleblock">
+<div class="title">Example 1. <code>vale</code> command line output example</div>
+<div class="content">
+<pre>
+238:27 <font color="#CC0000">error</font>      Did you really mean        Vale.Spelling
+                    &apos;rebalancing&apos;?
+244:6  <font color="#3465A4">suggestion</font> Verify your use of &apos;there  IBM.Usage
+                  are&apos; with the word usage
+                  guidelines.
+244:38 <font color="#C4A000">warning</font>    Consider using &apos;available&apos; CheDocs.CommonTerms
+                  rather than &apos;present&apos;
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_understanding_the_vale_command_line_tool_output_presentation"><a class="anchor" href="#_understanding_the_vale_command_line_tool_output_presentation"></a>Understanding the <code>vale</code> command line tool output presentation</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">First column</dt>
+<dd>
+<p>The line and character number of the issue, such as: <code>244:6</code>.</p>
+</dd>
+<dt class="hdlist1">Second column</dt>
+<dd>
+<p>The alert level, such as <code>error</code>, <code>suggestion</code>, or <code>warning</code>. See: <a href="#understanding-vale-alert-levels">Understanding Vale alert levels</a></p>
+</dd>
+<dt class="hdlist1">Third column</dt>
+<dd>
+<p>The rule message, such as: <code>Verify your use of 'there are'</code></p>
+</dd>
+<dt class="hdlist1">Fourth column</dt>
+<dd>
+<p>The name of the style and of the rule, such as: <code>IBM.Usage</code>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="understanding-vale-alert-levels"><a class="anchor" href="#understanding-vale-alert-levels"></a>Understanding Vale alert levels</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">error</dt>
+<dd>
+<p>Fix the language error. This alert level includes <em>Spelling</em> errors, which are frequently happening on products and tools names. In that case, consider <a href="../creating-a-vocabulary-for-a-project/" class="xref page">Creating a vocabulary for a project</a> or <a href="../../contributor-guide/extending-the-spelling-rule/" class="xref page">Extending the Spelling rule</a>.</p>
+</dd>
+<dt class="hdlist1">warning</dt>
+<dd>
+<p>Consider fixing the language error.</p>
+</dd>
+<dt class="hdlist1">suggestion</dt>
+<dd>
+<p>Heads up! Verify the usage depending on the context. Content containing suggestions is fine.</p>
+</dd>
+</dl>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="../defining-a-vale-onboarding-strategy/" class="xref page">Defining a Vale onboarding strategy</a></p>
+</li>
+<li>
+<p><a href="../creating-a-vocabulary-for-a-project/" class="xref page">Creating a vocabulary for a project</a></p>
+</li>
+<li>
+<p><a href="../../contributor-guide/extending-the-spelling-rule/" class="xref page">Extending the Spelling rule</a></p>
+</li>
+<li>
+<p><a href="../../contributor-guide/extending-styles/" class="xref page">Extending styles</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../using-vale-cli/">Analyzing with the Vale CLI</a></span>
+  <span class="next"><a href="../collating-vale-output/">Collating Vale output</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+   <div style="margin: auto; width: 50%; padding: 10px;">
+      <a href="https://redhat-documentation.github.io/vale-at-red-hat/sitemap.xml" target="_blank">Site map</a> |
+      <a href="https://redhat-documentation.github.io/" target="_blank">Guidelines for Red Hat Documentation</a> |
+      <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/DCO" target="_blank">Developer
+         Certificate of Origin</a> |
+      <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/LICENSE" target="_blank">MIT
+         License</a>
+</footer><script id="site-script" src="../../../../_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="../../../../_/js/vendor/highlight.js"></script>
+<script src="../../../../_/js/vendor/lunr.js"></script>
+<script src="../../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>
