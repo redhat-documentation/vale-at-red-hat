@@ -15,7 +15,7 @@ Rule() {
     VALIDALERTSCOUNT="$(vale --config="$DIR/.vale.ini" --no-exit --output=line "$DIR/testvalid.adoc" | wc -l)"
     INVALIDALERTS="$(vale --config="$DIR/.vale.ini" --no-exit --output=line "$DIR/testinvalid.adoc" | wc -l)"
     INVALIDLINES="$(grep -cve '.+' "$DIR/testinvalid.adoc" || true)"
-    echo "$INVALIDLINES in .vale/fixtures/RedHat/$RULE/" 
+    echo "$INVALIDLINES in .vale/fixtures/RedHat/$RULE/"
     INVALIDGAP=$((INVALIDLINES - INVALIDALERTS))
     if [ "$VALIDALERTSCOUNT" -gt 0 ]
     then
@@ -72,7 +72,7 @@ done
 # This scripts runs the  suite for each rule in the `RedHat` style.
 TOTAL=0
 for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -f1 | sort)
-do  
+do
     Rule
 done
 
