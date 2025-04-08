@@ -42,6 +42,7 @@ swap:
   execute: run|issue|start|enter
   find out: discover
   hamburger|kebab menu|kebab|vertical ellipsis: more options icon|options icon
+  hashbang: shebang|interpreter directive
   he|she: you
   host name: hostname
   illegal: invalid|not allowed|incorrect

@@ -20,6 +20,7 @@ etc
 execute
 find out
 hamburger
+hashbang
 he
 host name
 I
