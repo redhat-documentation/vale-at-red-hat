@@ -1,8 +1,4 @@
 [
-    "Ansible rulebook: Ansible Rulebook",
-    "Local Zone|LZ|local zone: AWS Local Zone",
-    "AWS region|AWS opt in Region: AWS opt-in Region",
+    "Fedramp|FedRamp|FEDRAMP: FedRAMP\u00ae",
     "IBM Cloud\u00ae: IBM Cloud\u00ae Bare Metal (Classic)",
-    "opt into|opting into: opt in",
-    "Playbook: playbook"
 ]

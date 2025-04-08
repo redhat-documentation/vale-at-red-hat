@@ -37,6 +37,7 @@ import
 in languages other than English
 in-house
 incorrect
+interpreter directive
 invalid
 invocable
 issue
@@ -77,6 +78,7 @@ rollback
 run
 run like
 runs like
+shebang
 shift like
 shifts like
 start
