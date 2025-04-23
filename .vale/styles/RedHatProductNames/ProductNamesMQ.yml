@@ -1,0 +1,49 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Migration Toolkit for Containers|Red Hat migration toolkit for containers|Red Hat Migration Toolkit for Containers|RHMTC: migration toolkit for containers
+  Red Hat migration toolkit for virtualization|Red Hat Migration Toolkit for Virtualization|RHMT: migration toolkit for virtualization
+  Mirror Registry|Mirror Registry for Red Hat OpenShift|Red Hat OpenShift Mirror Registry|RHOMR|MRRHO: mirror registry for Red Hat OpenShift
+  Multicloud Object Gateway|Red Hat Multicloud Object Gateway|Red Hat OpenShift Multicloud Object Gateway|MOG|RHMOG|RHOMOG: multicloud object gateway
+  Multicluster Workload Service|Red Hat Multicluster Workload Service|Red Hat OpenShift Multicluster Workload Service|MWS|RHMWS|RHOMWS: multicluster workload service
+  ODO|Red Hat Odo|RHODO: odo
+  Operator Lifecycle Manager|Red Hat Operator Lifecycle Manager|RHOLM: operator lifecycle manager
+  Network Observability|Red Hat network observability|Red Hat Network Observability|Red Hat OpenShift Network Observability|OpenShift Network Observability: network observability
+  Migration Toolkit for Applications|RHMTA|Red Hat Migration Toolkit for Applications|Red Hat migration toolkit for applications: migration toolkit for applications
+  Red Hat migration toolkit for runtimes|Red Hat Migration Toolkit for Runtimes|Red Hat Runtimes Migration Toolkit|RHMTR|RHMRT: migration toolkit for runtimes
+  Red Hat Multicluster View with Open Cluster Manager|MVOCM|MV-OCM|RHMV OCM|RHMV-OCM: Multicluster View with Open Cluster Manager
+  Red Hat Nexus|RHN: Nexus Repository Manager
+  Orchestrator|Red Hat Developer Hub Orchestrator|RHDHO: orchestrator
+  Red Hat Pipelines with Tekton|PT|RHPT|RHP-T: Pipelines with Tekton
+  MAO|MAPIO|Red Hat Machine API Operator|RHMAO|RHMAPIO: Machine API Operator
+  MCO|Red Hat Machine Config Operator|RHMCO: Machine Config Operator
+  Machine Deletion Remediation|MDR|Red Hat OpenShift Machine Deletion Remediation: machine deletion remediation
+  Multiarch Tuning|Multiarch Tuning Operator|MAT|MT|Red Hat OpenShift Multiarch Tuning: multiarch tuning
+  Multicluster Engine for Kubernetes|Red Hat multicluster engine for Kubernetes|Red Hat Multicluster Engine for Kubernetes|MEK|RHMEK: multicluster engine for Kubernetes
+  Multicluster Global Hub|Red Hat multicluster global hub|Red Hat Multicluster Global Hub|MGH|MCGH: multicluster global hub
+  NDBE Tang Server|Red Hat NDBE Tang Server|Red Hat OpenShift NBDE Tang Server|NBDETS|NBDE-TS|RHNBDETS|RHNBDE-TS|RHONBDETS|RHONBDE-TS: nbde tang server
+  Node Health Check|Red Hat Node Health Check|Red Hat node health check|Red Hat OpenShift Node Health Check: node health check
+  Node Maintenance|Red Hat Node Maintenance|Red Hat node maintenance|Red Hat OpenShift Node Maintenance: node maintenance
+  Red Hat NVIDIA GPU Operator: NVIDIA GPU operator
+  O-Cloud Hardware Manager Plug-in|O-Cloud Hardware Manager Plug-in Operator|Red Hat O-Cloud Hardware Manager Plug-in|O-CHWMP|OHMP: O-Cloud hardware manager plug-in
+  O-Cloud Manager|O-Cloud Manager Operator|Red Hat OpenShift O-Cloud Manager|Red Hat O-Cloud Manager|O-CM|OCM|O-CMO|OCMO|RHOOCM|RHOCM: O-Cloud manager
+  Observability Analytics|Red Hat OpenShift Observability Analytics|OA|RHOOA: observability analytics for Red Hat OpenShift
+  OSC|Observability Signal Correlation for Red Hat OpenShift|Observability Signal Correlation: observability signal correlation for Red Hat OpenShift
+  OUI|Observability UI for Red Hat OpenShift|Observability UI: observability UI for Red Hat OpenShift
+  Red Hat OpenShift APIs for Data Protection|RHOADP: OpenShift APIs for Data Protection
+  Red Hat migration analytics|Red Hat Migration Analytics|MA|RHMA: migration analytics
+  Migration Toolkit for Kubernetes|Red Hat migration toolkit for Kubernetes|Red Hat Migration Toolkit for Kubernetes|MTK|RHMTK: migration toolkit for Kubernetes
+  Migration Toolkit for OpenShift|Red Hat migration toolkit for OpenShift|Red Hat Migration Toolkit for OpenShift|RHMTO: migration toolkit for Red Hat OpenShift
+  Red Hat Enterprise Linux Module|Red Hat Module|RHELM|RHM: module
+  PM|Package Mode|Red Hat Enterprise Linux Package Mode|RHELPM|RHEL-PM|RHEL PM: package mode
+  Policy Enforcement|Ansible Policy Enforcement|Red Hat Policy Enforcement|Red Hat Ansible Policy Enforcement|PE|APE|RHPE|RHAPE: policy enforcement
+  Red Hat Private Automation Hub|Private Automation Hub|PAH: private automation hub
+  Ansible Wisdom|Red Hat Ansible Wisdom: Project Wisdom
+  Red Hat Open Liberty|OL|RHOL: Open Liberty

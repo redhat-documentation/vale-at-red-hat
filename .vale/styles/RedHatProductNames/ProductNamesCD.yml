@@ -1,0 +1,56 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Data Science Model Serving|Red Hat Data Science Model Serving|Red Hat OpenShift Data Science Model Serving|DSMS|RHDSMS: data science model serving
+  DSP|Data Science Pipelines|Red Hat Data Science Pipelines|Red Hat OpenShift Data Science Pipelines|RHDSP|RHODSP: data science pipelines
+  Distributed Workloads|Red Hat Distributed Workloads|RHODW|Red Hat OpenShift Distributed Workloads|DW|RHDW|Red Hat OpenShift AI Distributed Workloads: distributed workloads
+  Red Hat Developer Sandbox|DSB|RHDSB: Developer Sandbox
+  Cluster Observability|Cluster Observability Operator|Red Hat Cluster Observability: cluster observability
+  Distributed Tracing|Red Hat OpenShift Distributed Tracing: distributed tracing
+  Red Hat Container Image Registry for Quay|CIRQ|RHCIRQ|RHCIR-Q: Container Image Registry for Quay
+  Central Infrastructure Management|Red Hat central infrastructure management|Red Hat Central Infrastructure Management|Red Hat OpenShift Central Infrastructure Management|RHCIM|RHOCIM: central infrastructure management
+  Red Hat cert-manager operator|Red Hat Cert-Manager Operator|cert-manager: cert-manager operator for Red Hat OpenShift
+  Red Hat CLI manager|Red Hat CLI Manager Operator|CLIM: CLI manager
+  CCMO|Red Hat Cloud Controller Manager Operator|RHCCMO: Cloud Controller Manager Operator
+  Cluster-as-a-Service Operator|Red Hat Cluster-as-a-Service Operator|Red Hat OpenShift Cluster-as-a-Service Operator|CAASO|CaaSO: Cluster-as-a-Service operator
+  CAO|Red Hat Cluster Authentication Operator|RHCAO: Cluster Authentication Operator
+  CAO|Red Hat Cluster Autoscaler Operator|RHCAO: Cluster Autoscaler Operator
+  Red Hat Cluster Baremetal Operator|RHCBO: Cluster Baremetal Operator
+  CCAPIO|CCO|Red Hat Cluster CAPI Operator|RHCCO|RHCCAPIO: Cluster CAPI Operator
+  CCO|Red Hat Cluster Config Operator|RHCCO: Cluster Config Operator
+  CCSCO|CCSISCO|Red Hat Cluster CSI Snapshot Controller Operator|RHCCSCO|RHCCSISCO: Cluster CSI Snapshot Controller Operator
+  CIRO|Red Hat Cluster Image Registry Operator|RHCIRO: Cluster Image Registry Operator
+  CMAO|Red Hat Cluster Machine Approver Operator|RHCMAO: Cluster Machine Approver Operator
+  Red Hat Cluster Monitoring Operator|RHCMO: Cluster Monitoring Operator
+  CNO|Red Hat Cluster Network Operator|RHCNO: Cluster Network Operator
+  CSO|Red Hat Cluster Samples Operator|RHCSO: Cluster Samples Operator
+  CSO|Red Hat Cluster Storage Operator|RHCSO: Cluster Storage Operator
+  Red Hat Cluster Version Operator|RHCVO: Cluster Version Operator
+  Compliance Operator|CO|Red Hat OpenShift Compliance Operator|RHOCO: compliance operator
+  CO|Red Hat Console Operator|Red Hat OpenShift Console Operator|RHCO|RHOSCO|RHOCO: Console Operator
+  Red Hat Quay Container Security Operator|QCSO|RHQCSO|CSO: Container Security Operator
+  CPMSO|Red Hat Control Plane Machine Set Operator|RHCPMSO: Control Plane Machine Set Operator
+  Custom Metrics Autoscaler|Red Hat OpenShift custom metrics autoscaler|Red Hat OpenShift Custom Metrics Autoscaler|CMA|RHCMA|RHOCMA: custom metrics autoscaler
+  Deployment Validation Operator|Red Hat Deployment Validation Operator|Red Hat OpenShift Deployment Validation Operator|DVO|RHDVO|RHODVO: deployment validation operator
+  DNSO|Red Hat DNS Operator|RHDNSO|RHDSO: DNS Operator
+  DPU Network Operator|Red Hat DPU Network Operator|Red Hat OpenShift DPU Network Operator: DPU network operator
+  Accelerator Slicer|Red Hat OpenShift Accelerator Slicer|OpenShift Accelerator Slicer|AS|RHOAS|OAS|Accelerator Slicer Operator|ASO: dynamic accelerator slicer
+  Confidential Compute Attestation|Confidential Compute Attestation Operator|Red Hat Confidential Compute Attestation|CCA|RHCCA: confidential compute attestation
+  Red Hat OpenShift Cisco ACI CNI Plugin: Cisco ACI CNI Plugin for Red Hat OpenShift Container Platform
+  Command Line Assistant|Red Hat Command Line Assistant|Red Hat Enterprise Linux Command Line Assistant|CLA|RHCLA|RHELCLA: command line assistant
+  Discovery|Red Hat Discovery: discovery
+  Dependency Analytics|Red Hat Dependency Analytics|DA|RHDA: dependency analytics
+  Content Testing Suite|Ansible Content Testing Suite|Red Hat Content Testing Suite|Red Hat Ansible Content Testing Suite|CTS|ACTS|RHCTS: content testing suite
+  Content Parser Tool|Ansible Content Parser Tool|Ansible Lightspeed Content Parser Tool|Red Hat Ansible Content Parser Tool|CPT|ACPT|ALCPT|RHACPT: content parser tool
+  Compliance|Red Hat compliance|Red Hat Compliance: compliance
+  Cost Management|Red Hat cost management|Red Hat Cost Management|Red Hat OpenShift Cost Management|Red Hat Insights Cost Management|CM|RHCM|RHOCM: cost management
+  Red Hat catalog|Red Hat Catalog: catalog
+  CFC|Red Hat Container First Content|RHCFC: container first content
+  Container Adoption Solution|Red Hat container adoption solution|Red Hat Container Adoption Solution|CAS|RHCAS: container adoption solution

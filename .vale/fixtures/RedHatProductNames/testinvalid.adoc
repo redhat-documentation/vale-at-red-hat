@@ -1,0 +1,370 @@
+Red Hat Build of MicroShift
+Red Hat MicroShift
+RHBM
+RHM
+Red Hat OpenStack Platform Director
+RHHCC
+HCC
+Marketplace
+Red Hat and IBM Marketplace
+RHM
+Marketplace Select
+JFrog Artifactory
+Red Hat and IBM Marketplace Select
+RHMS
+Marketplace Advanced Support
+Red Hat and IBM Marketplace Advanced Support
+RHODS
+RHOL
+Red Hat pipelines
+Red Hat Pipelines
+RHOSP
+Red Hat serverless
+Red Hat Serverless
+RHOSS
+Red Hat service mesh
+Red Hat Service Mesh
+RHOSSM
+RHOWC
+OWC
+Red Hat OpenShift virtualization
+OpenShift virtualization
+RHOSV
+OSV
+OCPVirt
+OCPV
+Red Hat OpenShift Sandboxed Containers
+RHOSC
+OSC
+Red Hat OpenShift Observability
+OpenShift Observability
+RHOO
+RHOSO
+OpenTelemetry
+Red Hat OpenTelemetry
+OT
+RHOT
+Extensions Catalog
+EC
+DHEC
+RHDHEC
+RHDH-EC
+RHCMCSK
+CMCSK
+CMCS
+RHOCM
+OCM
+OpenShift Operator
+AMQ Broker Operator
+Red Hat AMQ Broker Operator
+RHABO
+RHAMQBO
+ABO
+AMQBO
+AAPO
+RHAAPO
+Ansible Operator
+Red Hat Ansible Automation Platform Operator
+Kueue
+Red Hat Build of Kueue
+Red Hat Kueue
+Red Hat OpenShift Kueue
+RHBK
+RHK
+RHOK
+RHOSK
+RHIO
+IO
+RHJWSO
+RHJBWSO
+JBWSO
+JWSO
+Web Server Operator
+JBoss Web Server Operator
+Red Hat gitops
+Red Hat GitOps
+RHGO
+OSGO
+RHOSSO
+RHOSO
+Run Once Duration Override
+Red Hat Run Once Duration Override
+RODO
+RB
+Red Hat RedBoot
+RHRB
+RedBoot by Red Hat
+Red Hat Enterprise Linux Image Builder
+Red Hat Image Builder
+Image Builder
+IB
+RHELIB
+RHUBI
+CodeReady
+RHC
+RHCR
+RHCLB
+RHCRLB
+CLB
+CRLB
+CS
+CRS
+RHCRS
+RHCRT
+CRT
+CRTC
+RHCRTC
+EMRGG
+RHEMRGG
+MRGG
+MRG-G
+EMRGM
+RHEMRGM
+MRGM
+MRG-M
+EMRGR
+RHEMRGR
+MRGR
+MRG-R
+MRGRT
+MRG-RT
+RHSM
+Support Tool
+RHACC
+RHCC
+ACC
+RHACCC
+RHCCC
+ACCC
+Lightspeed
+RHL
+RHLS
+Lightspeed
+AL
+RHAL
+Intelligent Assistant
+Ansible Lightspeed Intelligent Assistant
+IA
+ALIA
+RHALIA
+RHDL
+RHDLS
+DL
+DLS
+RHD-L
+RHD-LS
+RHD L
+RHD LS
+RHELL
+RHEL-L
+RHEL L
+RHELLS
+RHEL-LS
+RHEL LS
+Lightspeed
+OL
+RHOL
+RHOSL
+RHANA
+Ansible network automation
+RHI for RHAP
+RHI for RHA
+RHI for RHAA
+RHI for RHAAP
+IAW
+RHIAW
+Red Hat Insights Image Builder
+Red Hat Image Builder
+Image Builder
+IB
+IIB
+RHIIB
+IP
+RHIP
+RHIP RHEL
+RHIP-RHEL
+IP for RHEL
+IP RHEL
+IP
+Insights Proxy
+RHIP
+Red Hat Insights Proxy
+Resource Optimization
+Red Hat Resource Optimization
+Red Hat Insights Resource Optimization
+RO
+RHRO
+RHIRO
+SCS
+RHSCS
+SPS
+RHSPS
+Remote Execution
+Red Hat Satellite Remote Execution
+Red Hat Remote Execution
+RHCFME
+CFME
+CME
+Apicurio Registry
+Red Hat Apicurio Registry
+RHAR
+RHBAR
+Cryostat
+Red Hat Cryostat
+RHC
+RHBC
+Keycloak
+Red Hat Keycloak
+Red Hat Build of Keycloak
+RHBK
+RHK
+JBCSC
+JCSC
+RHJCSC
+RHJBCSC
+RHSFTP
+RHFTP
+Apache Camel
+Red Hat Apache Camel
+Red Hat Camel
+RHAC
+RHC
+RHBAC
+RHBC
+Apache Camel for Quarkus
+Red Hat Build of Apache Camel for Quarkus
+Red Hat Camel for Quarkus
+Camel for Quarkus
+RHACQ
+ACQ
+CQ
+Camel Spring Boot
+Apache Camel for Spring Boot
+Red Hat Build of Apache Camel for Spring Boot
+Red Hat Apache Camel for Spring Boot
+Red Hat Camel Spring Boot
+RHBACSB
+RHACSB
+RHCSB
+ACSB
+CSB
+Eclipse Vert.x
+Red Hat Eclipse Vert.x
+Red Hat Build of Eclipse Vert.x
+EV.x
+EV.X
+RHEV
+RHEV.x
+RHEV.X
+Node.js
+Red Hat Node.js. Red Hat Build of Node.js
+NJS
+N.js
+RHNJS
+RHN.js
+OpenJDK
+Red Hat OpenJDK
+RHOJDK
+Red Hat Build of OpenJDK
+
+Quarkus
+Red Hat Quarkus
+RHBQ
+Red Hat Build of Quarkus
+Spring Boot
+Red Hat Spring Boot
+Red Hat Support for Spring Boot
+RHSB
+RHSSB
+Debezium
+AMQP 1.0 JMS Spring Boot
+Red Hat Build of AMQP 1.0 JMS Spring Boot
+Red Hat AMQP 1.0 JMS Spring Boot
+Red Hat JMS Spring Boot
+Apache Proton J
+Red Hat Build of Apache Proton J
+Red Hat Apache Proton J
+Red Hat Proton J
+RHBAPJ
+BAPJ
+APJ
+Apache Python
+Red Hat Build of Apache Python
+Red Hat Apache Python
+Red Hat Python
+RHBAP
+RHAP
+RHP
+AP
+BAP
+Apache Qpid.NET
+Red Hat Build of Apache Qpid.NET
+Red Hat Apache Qpid.NET
+Red Hat Qpid.NET
+AQN
+AQ.NET
+AQNET
+RHBAQN
+RHBAQNET
+RHAQN
+RHAQNET
+Apache Qpid C\+\+
+Qpid C\+\+
+Red Hat Build of Apache Qpid C\+\+
+Red Hat Apache Qpid C\+\+
+Red Hat Qpid C\+\+
+AQC
+AQC\+\+
+RHBAQC
+RHAQC
+RHQC
+Apache Qpid JMS
+Qpid JMS
+Red Hat Build of Apache Qpid JMS
+Red Hat Apache Qpid JMS
+Red Hat Qpid JMS
+AQJMS
+RHBAQJMS
+RHAQJMS
+RHQJMS
+Netty OpenSSL
+OpenSSL
+Red Hat Build of Netty OpenSSL
+Red Hat Netty OpenSSL
+Red Hat OpenSSL
+NOSSL
+RHBNOSSL
+RHNOSSL
+Optaplanner
+Red Hat OptaPlanner
+RHO
+RHBO
+Thorntail
+Red Hat Thorntail
+RHBT
+RHT
+Red Hat Build of Thorntail
+CP
+RHCP
+RHOL
+RHOLE
+RHOKP
+OKP
+Training Bookshelf
+RHTB
+RH BA
+RH-BA
+RH EA
+RH-EA
+RHSDL
+RH SA
+RH-SA
+RH SB
+RH-SB
+RHSDAPI
+RHSDA
+RH-SDAPI
+RH-SDA
+SDAPI
+SDA
+RHMMS

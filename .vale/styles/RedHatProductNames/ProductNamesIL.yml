@@ -1,0 +1,35 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  RHOL|LRHO: logging for Red Hat OpenShift
+  JFA|Red Hat JFrog Artifactory|RHJFA: JFrog Artifactory
+  Red Hat Kiali|RHK: Kiali
+  RHICM|RHICMK|ICMK: identity configuration management for Kubernetes
+  Image Based Install|Red Hat Image Based Install|Red Hat OpenShift Image Based Install|IBI|RHIBI|RHOIBI: image based install
+  IO|RHIO|RHOIO|Red Hat infrastructure operator|Red Hat Infrastructure Operator|Infrastructure Operator for Red Hat OpenShift: infrastructure operator for Red Hat OpenShift
+  IO|Red Hat Ingress Operator|RHIO: Ingress Operator
+  JS|JobSet|Job Set|Red Hat OpenShift Job Set|OpenShift Job Set: job set
+  Kernel Module Management|Red Hat kernel module management|Red Hat Kernel Module Management|Red Hat OpenShift Kernel Module Management: kernel module management
+  kSAN Storage|Red Hat kSAN Storage|Red Hat OpenShift kSAN Storage: kSAN storage
+  Red Hat Kubernetes API Server Operator|KASO|RHKASO|KAPISO|RHKAPISO: Kubernetes API Server Operator
+  Red Hat Kubernetes Controller Manager Operator|KCMO|RHKCMO: Kubernetes Controller Manager Operator
+  KSO|Red Hat Kubernetes Scheduler Operator|RHKSO: Kubernetes Scheduler Operator
+  KSVMO|Red Hat Kubernetes Storage Version Migrator Operator|RHKSVMO: Kubernetes Storage Version Migrator Operator
+  LWS|Leader Worker Set|LeaderWorkerSet|Red Hat OpenShift Leader Worker Set|OpenShift Leader Worker Set: leader worker set
+  Lifecycle Agent|Red Hat lifecycle agent|Red Hat Lifecycle Agent|Red Hat OpenShift Lifecycle Agent|LA|LCA: lifecycle agent
+  Local Storage Operator|Red Hat local storage operator|Red Hat Local Storage Operator|Red Hat OpenShift Local Storage Operator|LSO|RHLSO|RHOLSO: local storage operator
+  Logical Volume Manager Storage|Red Hat OpenShift Logical Volume Manager Storage: logical volume manager storage
+  Red Hat Identity Management|Red Hat identity management: Identity Management
+  IM|Image Mode|Red Hat Enterprise Linux Image Mode|RHELIM|RHEL-IM|RHEL IM: image mode
+  Red Hat Kernel-based Virtual Machine|Red Hat KVM: Kernel-based Virtual Machine
+  Red Hat Kickstart|RHK|RHELK|RHKS|RHELKS: Kickstart
+  Knowledgebase Article|Red Hat Knowledgebase Article|RHKBA: Knowledgebase article
+  Red Hat Knowledge Center Service article|KCSA|RHKCS|RHKCSA: Knowledge Center Service article
+  Infrastructure Migration Solution|Red Hat infrastructure migration solution|Red Hat Infrastructure Migration Solution|IMS|RHIMS: infrastructure migration solution

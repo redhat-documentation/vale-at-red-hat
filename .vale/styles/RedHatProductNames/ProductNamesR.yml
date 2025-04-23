@@ -1,0 +1,103 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Red Hat Build of MicroShift|Red Hat MicroShift|RHBM|RHM: Red Hat build of MicroShift
+  Red Hat OpenStack Platform Director: Red Hat OpenStack Platform director
+  RHHCC|HCC: Red Hat Hybrid Cloud Console
+  Marketplace|Red Hat and IBM Marketplace|RHM: 'Red Hat Marketplace, operated by IBM'
+  Marketplace Select|Red Hat and IBM Marketplace Select|RHMS: 'Red Hat Marketplace Select, operated by IBM'
+  Marketplace Advanced Support|Red Hat and IBM Marketplace Advanced Support: Red Hat Marketplace Advanced Support
+  RHODS: Red Hat OpenShift Dev Spaces
+  RHOL: Red Hat OpenShift Local
+  Red Hat pipelines|Red Hat Pipelines|RHOSP: Red Hat OpenShift Pipelines
+  Red Hat serverless|Red Hat Serverless|RHOSS: Red Hat OpenShift Serverless
+  Red Hat service mesh|Red Hat Service Mesh|RHOSSM: Red Hat OpenShift Service Mesh
+  RHOWC|OWC: Red Hat OpenShift support for Windows Containers
+  Red Hat OpenShift virtualization|OpenShift virtualization|RHOSV|OSV|OCPVirt|OCPV: Red Hat OpenShift Virtualization
+  Red Hat OpenShift Sandboxed Containers|RHOSC|OSC: Red Hat OpenShift sandboxed containers
+  Red Hat OpenShift Observability|OpenShift Observability|RHOO|RHOSO: Red Hat OpenShift observability
+  OpenTelemetry|Red Hat OpenTelemetry|OT|RHOT: Red Hat build of OpenTelemetry
+  Extensions Catalog|EC|DHEC|RHDHEC|RHDH-EC: Red Hat Developer Hub Extensions Catalog
+  RHCMCSK|CMCSK|CMCS: Red Hat Configuration Management Cloud Service for Kubernetes
+  RHOCM|OCM: Red Hat OpenShift Cluster Manager
+  OpenShift Operator: Red Hat OpenShift operators
+  AMQ Broker Operator|Red Hat AMQ Broker Operator|RHABO|RHAMQBO|ABO|AMQBO: Red Hat AMQ broker Operator
+  AAPO|RHAAPO|Ansible Operator|Red Hat Ansible Automation Platform Operator: Red Hat Ansible Automation Platform operator
+  Kueue|Red Hat Build of Kueue|Red Hat Kueue|Red Hat OpenShift Kueue|RHBK|RHK|RHOK|RHOSK: Red Hat build of Kueue
+  RHIO|IO: Red Hat Insights Operator
+  RHJWSO|RHJBWSO|JBWSO|JWSO|Web Server Operator|JBoss Web Server Operator: Red Hat JBoss Web Server Operator
+  Red Hat gitops|Red Hat GitOps|RHGO|OSGO: Red Hat OpenShift GitOps
+  RHOSSO|RHOSO: Red Hat OpenShift Serverless Operator
+  Run Once Duration Override|Red Hat Run Once Duration Override|RODO: run once duration override
+  RB|Red Hat RedBoot|RHRB|RedBoot by Red Hat: RedBoot
+  Red Hat Enterprise Linux Image Builder|Red Hat Image Builder|Image Builder|IB|RHELIB: Red Hat Enterprise Linux image builder
+  RHUBI: Red Hat Universal Base Image
+  CodeReady|RHC|RHCR: Red Hat CodeReady
+  RHCLB|RHCRLB|CLB|CRLB: Red Hat CodeReady Linux Builder
+  CS|CRS|RHCRS: Red Hat CodeReady Studio
+  RHCRT|CRT|CRTC|RHCRTC: Red Hat CodeReady Toolchain
+  EMRGG|RHEMRGG|MRGG|MRG-G: Red Hat Enterprise MRG Grid
+  EMRGM|RHEMRGM|MRGM|MRG-M: Red Hat Enterprise MRG Messaging
+  EMRGR|RHEMRGR|MRGR|MRG-R|MRGRT|MRG-RT: Red Hat Enterprise MRG Realtime
+  RHSM: Red Hat Subscription Management
+  Support Tool: Red Hat Support Tool
+  RHACC|RHCC|ACC: Red Hat Ansible Certified Content
+  RHACCC|RHCCC|ACCC: Red Hat Ansible Certified Content Collection
+  Lightspeed|RHL|RHLS: Red Hat Lightspeed
+  Lightspeed|AL|RHAL: Red Hat Ansible Lightspeed
+  Intelligent Assistant|Ansible Lightspeed Intelligent Assistant|IA|ALIA|RHALIA: Red Hat Ansible Lightspeed intelligent assistant
+  RHDL|RHDLS|DL|DLS|RHD-L|RHD-LS|RHD L|RHD LS: Red Hat Developer Lightspeed
+  RHELL|RHEL-L|RHEL L|RHELLS|RHEL-LS|RHEL LS: Red Hat Enterprise Linux Lightspeed
+  Lightspeed|OL|RHOL|RHOSL: Red Hat OpenShift Lightspeed
+  RHANA|Ansible network automation: Red Hat Ansible Network Automation
+  RHI for RHAP|RHI for RHA|RHI for RHAA|RHI for RHAAP: Red Hat Insights for Red Hat Ansible Automation Platform
+  IAW|RHIAW: Red Hat Insights Advisor for Workloads
+  Red Hat Insights Image Builder|Red Hat Image Builder|Image Builder|IB|IIB|RHIIB: Red Hat Insights image builder
+  IP|RHIP|RHIP RHEL|RHIP-RHEL|IP for RHEL|IP RHEL: Red Hat Insights planning for Red Hat Enterprise Linux
+  IP|Insights Proxy|RHIP|Red Hat Insights Proxy: Red Hat Insights proxy
+  Resource Optimization|Red Hat Resource Optimization|Red Hat Insights Resource Optimization|RO|RHRO|RHIRO: resource optimization
+  SCS|RHSCS: Red Hat Satellite Capsule Server
+  SPS|RHSPS: Red Hat Satellite Proxy Server
+  Remote Execution|Red Hat Satellite Remote Execution|Red Hat Remote Execution: remote execution
+  RHCFME|CFME|CME: Red Hat CloudForms Management Engine
+  Apicurio Registry|Red Hat Apicurio Registry|RHAR|RHBAR: Red Hat build of Apicurio Registry
+  Cryostat|Red Hat Cryostat|RHC|RHBC: Red Hat build of Cryostat
+  Keycloak|Red Hat Keycloak|Red Hat Build of Keycloak|RHBK|RHK: Red Hat build of Keycloak
+  JBCSC|JCSC|RHJCSC|RHJBCSC: Red Hat JBoss Core Services Collection
+  RHSFTP|RHFTP: Red Hat Secure FTP
+  Apache Camel|Red Hat Apache Camel|Red Hat Camel|RHAC|RHC|RHBAC|RHBC: Red Hat build of Apache Camel
+  Apache Camel for Quarkus|Red Hat Build of Apache Camel for Quarkus|Red Hat Camel for Quarkus|Camel for Quarkus|RHACQ|ACQ|CQ: Red Hat build of Apache Camel for Quarkus
+  Camel Spring Boot|Apache Camel for Spring Boot|Red Hat Build of Apache Camel for Spring Boot|Red Hat Apache Camel for Spring Boot|Red Hat Camel Spring Boot|RHBACSB|RHACSB|RHCSB|ACSB|CSB: Red Hat build of Apache Camel for Spring Boot
+  Eclipse Vert.x|Red Hat Eclipse Vert.x|Red Hat Build of Eclipse Vert.x|EV.x|EV.X|RHEV|RHEV.x|RHEV.X: Red Hat build of Eclipse Vert.x
+  Node.js|Red Hat Node.js. Red Hat Build of Node.js|NJS|N.js|RHNJS|RHN.js: Red Hat build of Node.js
+  OpenJDK|Red Hat OpenJDK|RHOJDK|Red Hat Build of OpenJDK|: Red Hat build of OpenJDK
+  Quarkus|Red Hat Quarkus|RHBQ|Red Hat Build of Quarkus: Red Hat build of Quarkus
+  Spring Boot|Red Hat Spring Boot|Red Hat Support for Spring Boot|RHSB|RHSSB: Red Hat support for Spring Boot
+  Debezium: Red Hat build of Debezium
+  AMQP 1.0 JMS Spring Boot|Red Hat Build of AMQP 1.0 JMS Spring Boot|Red Hat AMQP 1.0 JMS Spring Boot|Red Hat JMS Spring Boot: Red Hat build of AMQP 1.0 JMS Spring Boot
+  Apache Proton J|Red Hat Build of Apache Proton J|Red Hat Apache Proton J|Red Hat Proton J|RHBAPJ|BAPJ|APJ: Red Hat build of Apache Proton J
+  Apache Python|Red Hat Build of Apache Python|Red Hat Apache Python|Red Hat Python|RHBAP|RHAP|RHP|AP|BAP: Red Hat build of Apache Python
+  Apache Qpid.NET|Red Hat Build of Apache Qpid.NET|Red Hat Apache Qpid.NET|Red Hat Qpid.NET|AQN|AQ.NET|AQNET|RHBAQN|RHBAQNET|RHAQN|RHAQNET: Red Hat build of Apache Qpid.NET
+  Apache Qpid C\+\+|Qpid C\+\+|Red Hat Build of Apache Qpid C\+\+|Red Hat Apache Qpid C\+\+|Red Hat Qpid C\+\+|AQC|AQC\+\+|RHBAQC|RHAQC|RHQC: Red Hat build of Apache Qpid C++
+  Apache Qpid JMS|Qpid JMS|Red Hat Build of Apache Qpid JMS|Red Hat Apache Qpid JMS|Red Hat Qpid JMS|AQJMS|RHBAQJMS|RHAQJMS|RHQJMS: Red Hat build of Apache Qpid JMS
+  Netty OpenSSL|OpenSSL|Red Hat Build of Netty OpenSSL|Red Hat Netty OpenSSL|Red Hat OpenSSL|NOSSL|RHBNOSSL|RHNOSSL: Red Hat build of Netty OpenSSL
+  Optaplanner|Red Hat OptaPlanner|RHO|RHBO: Red Hat build of Optaplanner
+  Thorntail|Red Hat Thorntail|RHBT|RHT|Red Hat Build of Thorntail: Red Hat build of Thorntail
+  CP|RHCP: Red Hat Customer Portal
+  RHOL|RHOLE: Red Hat Online Learning
+  RHOKP|OKP: Red Hat Offline Knowledge Portal
+  Training Bookshelf|RHTB: Red Hat Training Bookshelf
+  RH BA|RH-BA: Red Hat Bug Advisory
+  RH EA|RH-EA: Red Hat Enhancement Advisory
+  RHSDL: Red Hat Secure Development Lifecycle
+  RH SA|RH-SA: Red Hat Security Advisory
+  RH SB|RH-SB: Red Hat Security Bulletin
+  RHSDAPI|RHSDA|RH-SDAPI|RH-SDA|SDAPI|SDA: Red Hat Security Data API
+  RHMMS: Red Hat Modernization and Migration Solutions

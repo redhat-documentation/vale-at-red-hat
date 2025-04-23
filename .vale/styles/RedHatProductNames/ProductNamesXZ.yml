@@ -1,0 +1,11 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Zero Trust Workload Identity Manager|Zero Trust Workload Identity Manager Operator|ZTWIM|Red Hat OpenShift Zero Trust Workload Identity Manager|RHOZTWIM: zero trust workload identity manager

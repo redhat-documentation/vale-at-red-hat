@@ -1,0 +1,14 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Validated Patterns|Red Hat Validated Patterns|Red Hat OpenShift Validated Patterns|VP|RHVP|RHOVP: validated patterns
+  WTO|RHWTO|RHOWTO|Red Hat Web Terminal Operator|Red Hat OpenShift Web Terminal Operator: Web Terminal Operator
+  Red Hat Enterprise Linux Web Console|Red Hat Web Console|Web Console|WC|RHELWB|RHWB: web console
+  Vulnerability|Red Hat vulnerability|Red Hat Vulnerability: vulnerability
