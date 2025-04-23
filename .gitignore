@@ -11,7 +11,6 @@
 /.ruby-version
 /.yardoc/
 /build/
-bin
 /Gemfile.lock
 /node_modules/
 /pkg/
@@ -21,6 +20,8 @@ bin
 /tools/ssg_utils/__pycache__/
 /tools/ssg_utils/temp/
 /tools/temp/
+bin
+credentials.json
 package-lock.json
 package.json
 vale-report*
