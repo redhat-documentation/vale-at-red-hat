@@ -437,6 +437,7 @@ filters:
   - precache
   - Prometheus
   - proxied
+  - PVCs
   - Pytorch
   - qdmanage
   - qdstat
