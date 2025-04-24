@@ -232,7 +232,6 @@ JavaBean
 joblog
 jobstream
 judgement
-k8s
 keep in mind
 kernelspace
 kick off
