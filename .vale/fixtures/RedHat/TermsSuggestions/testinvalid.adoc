@@ -9,8 +9,8 @@ choose
 componentization
 componentize
 consumes
-drag and drop
 distro
+drag and drop
 executable
 frontend
 gzip
@@ -19,6 +19,7 @@ hit
 in order to
 information on
 jar
+k8s
 launch
 legacy
 Navigate
