@@ -1,0 +1,25 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Hosted Control Planes|Red Hat Hosted Control Planes|Red Hat OpenShift Hosted Control Planes|HCP|RHHCP|RHOHCP: hosted control planes
+  Red Hat GitOps with Argo CD|GOACD|RHGOACD|RHGO-ACD: GitOps with Argo CD
+  Red Hat eBPF Manager|Red Hat OpenShift eBPF Manager|EBPFM|eBPFM|RHEBPFM|RHeBPFM|RHOEBPFM|RHOeBPFM: eBPF manager
+  Etcd Cluster Operator|Red Hat etcd Cluster Operator|ECO|ETCDCO|RHECO|RHETCDCO: etcd cluster operator
+  EJM|RHEJM|RHOEJM|Extended Job Manager|Extended Job Manager Operator|Red Hat Extended Job Manager|Red Hat OpenShift Extended Job Manager: extended job manager
+  External DNS Operator|Red Hat External DNS Operator|EDNS|EDNSO|RHEDNS|RHEDNSO: external DNS operator
+  external secrets|External Secrets Operator|External Secrets Operator for Red Hat OpenShift|Red Hat OpenShift External Secrets Operator|ESO|ESORHO|RHOESO: external secrets operator for Red Hat OpenShift
+  Fence Agents Remediation|FAR|Red Hat OpenShift Fence Agents Remediation: fence agents remediation
+  File Integrity Operator|FIO|Red Hat OpenShift File Integrity Operator|RHFIO: file integrity operator
+  HCCO|RHHCCO|RHOHCCO|Red Hat HyperConverged Cluster Operator|Red Hat OpenShift HyperConverged Cluster Operator: HyperConverged Cluster Operator
+  Red Hat Edge Management: edge management
+  Execution Environment Builder|Red Hat Ansible Execution Environment Builder|Ansible Execution Environment Builder|RHEEB|AAPEEB: execution environment builder
+  Red Hat Event-Driven Ansible|Event Driven Ansible|Event-driven Ansible|RHEDA: Event-Driven Ansible
+  Red Hat Event-Driven Ansible controller|Ansible controller|Ansible Controller|EDAC: Event-Driven Ansible controller
+  Event Streams|Ansible Event Streams|Red Hat Event Streams|Red Hat Ansible Event Streams|Event-Driven Ansible Event Streams|Event-Driven Ansible Streams|ES|AES|RHAES|EDAES: event streams

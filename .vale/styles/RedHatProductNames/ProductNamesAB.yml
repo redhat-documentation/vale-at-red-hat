@@ -1,0 +1,50 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  AI|assisted installer|Red Hat Assisted Installer|RHAI: Assisted Installer
+  Adoption Insights|AI|Red Hat Adoption Insights|RHAI|Red Hat Developer Hub Adoption Insights|RHDHAI|RHDH-AI: adoption insights
+  Ansible plug-ins|Ansible plug-ins for RHDH|API for Red Hat Developer Hub|APIRHDH|API for RHDH: Ansible plug-ins for Red Hat Developer Hub
+  Red Hat Application Topology for Kubernetes|ATK|RHATK: Application Topology for Kubernetes
+  Red Hat Authentication and Authorization with Keycloak|AAK|RHAAK|RHAA-K: Authentication and Authorization with Keycloak
+  ACR|Red Hat Azure Container Registry|RHACR: Azure Container Registry
+  Bare Metal Event Relay|Red Hat Bare Metal Event Relay|Red Hat bare metal event relay|Red Hat OpenShift Bare Metal Event Relay: bare metal event relay
+  Application Streams|Red Hat Enterprise Linux Application Streams|Red Hat Application Streams|RHELAS|RHAS: application streams
+  Red Hat Base OS|Red Hat Enterprise Linux Base OS|Red Hat Linux Base OS: BaseOS
+  Ansible Automation Developer Tools|Red Hat Ansible Automation Developer Tools|AADT|RHAADT: Ansible development tools
+  Ansible Creator|Red Hat Ansible creator|Red Hat Ansible Creator|AC|RHAC: Ansible creator
+  Ansible Lint|Red Hat Ansible lint|Red Hat Ansible Lint|AL|RHAL: Ansible lint
+  Red Hat Ansible Molecule|Red Hat Molecule|AM|RHAM|RHM: Ansible Molecule
+  Red Hat automation content navigator|Red Hat Automation Content Navigator|Red Hat Ansible Automation Content Navigator|Ansible Automation Content Navigator|RHACN|ACN: automation content navigator
+  Red Hat Ansible Content Collections|Ansible content collections|ACC|RHACC: Ansible Content Collections
+  Red Hat Automation Hub|AH|AAH|Ansible Automation Hub|Red Hat Ansible Automation Hub|RHAAH: Ansible automation hub
+  Ansible Code Bot|Red Hat Ansible Code Bot|ACB|RHACB: Ansible code bot
+  AR|Red Hat Ansible Rule|RHAR: Ansible Rule
+  Red Hat Ansible Rulebook|RHAR: Ansible Rulebook
+  Red Hat Ansible Rulebook CLI|RHARCLI: Ansible Rulebook CLI
+  Automation Decision Environment|Red Hat Ansible Automation Decision Environment|Red Hat Automation Decision Environment|ADE|RHAADE|RHADE: automation decision environment
+  APaC|RHAAP PaC|AAP PaC|Ansible policy as code|Ansible automated policy as code: automated policy as code for Red Hat Ansible Automation Platform
+  Red Hat Ansible Policybook|RHAP|RHAPB|Ansible policybook: Ansible Policybook
+  Ansible Policy Rules|Red Hat Ansible Policy Rules|APR|RHAPR: Ansible policy rules
+  Ansible Module|Red Hat Ansible module|Red Hat Ansible Module|AM|RHAM: Ansible module
+  Red Hat Ansible Playbook|RHAP|RHAPB|Ansible playbook: Ansible Playbook
+  AR|Red Hat Ansible Roles|RHAR: Ansible Role
+  Red Hat Ansible Validated Content|Ansible Validated Content|AVC|RHAVC: Ansible validated content
+  Automation Analytics|Red Hat Automation Analytics|Red Hat Ansible Automation Analytics|AA|RHAA|RHAAA: automation analytics
+  Automation Controller|Red Hat Automation Controller|Ansible Automation Controller|RHAC|RHAAC|AAC: automation controller
+  Automation Execution Environment|Red Hat Automation Execution Environment|Ansible Automation Execution Environment|AEE|RHAEE: automation execution environment
+  Red Hat Ansible Automation Mesh|Ansible Automation Mesh|Automation Mesh|AAM|AM|RHAAM: automation mesh
+  Red Hat Automation Services Catalog: automation services catalog
+  API Controller|Red Hat API Controller|Red Hat Connectivity Link API Controller|APIC|RHAPIC|RHCLAPIC: API controller
+  AMQ Broker|Red Hat AMQ Broker|AMQB|RHAMQB: AMQ broker
+  AMQ Management Console|Red Hat AMQ Management Console|AMQMC|RHAMQMC: AMQ management console
+  AMQ Interconnect|Red Hat AMQ Interconnect|AMQI: AMQ interconnect
+  AMQ Interconnect Router|Red Hat AMQ Interconnect Router|AMQIR: AMQ interconnect router
+  AMQ Clients|Red Hat AMQ Clients|AMQC|RHAMQC: AMQ clients
+  Application Modernization and Migration|Application Modernization and Migration Solution|Red Hat application modernization and migration solution|Red Hat Application Modernization and Migration Solution|AMMS|RHAMMS: application modernization and migration solution

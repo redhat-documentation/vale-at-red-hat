@@ -1,0 +1,30 @@
+---
+extends: substitution
+ignorecase: false
+level: error
+link: https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit?gid=1375785039#gid=1375785039
+message: "Use the approved product name '%s' rather than '%s'."
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  Red Hat Service Telemetry Framework|RHSTF: Service Telemetry Framework
+  Serverless Logic|Red Hat OpenShift Serverless Logic|SL|RHOSL|OSL: serverless logic
+  Single Node OpenShift|single-node OpenShift|Single-Node OpenShift|Red Hat single-node OpenShift|Red Hat Single Node OpenShift|Red Hat Single-Node OpenShift|SNO|RHSNO: single node OpenShift
+  Red Hat secondary scheduler operator|Red Hat Secondary Scheduler Operator|Secondary Scheduler Operator for Red Hat OpenShift: secondary scheduler operator for Red Hat OpenShift
+  Secrets Store CSI Driver Operator|Red Hat OpenShift Secrets Store CSI Driver Operator|SSCSIDO|SSCDO: secrets store CSI driver operator
+  Security Profile Operator|Red Hat OpenShift Security Profile Operator|RHSPO: security profile operator
+  Self Node Remediation|Red Hat Self Node Remediation|Red Hat self node remediation: self node remediation
+  Red Hat SiteConfig|SiteConfig Operator|SC|RHSC|SCO: SiteConfig
+  Special Resource Operator|Red Hat Special Resource Operator|Red Hat OpenShift Special Resource Operator|RHSRO|RHOSRO: special resource operator
+  Tempo Operator|Red Hat Tempo Operator|Red Hat OpenShift Tempo Operator|TO|RHTO|RHOTO|RHOSTO: Tempo operator
+  Topology Aware Lifecycle Manager|Red Hat Topology Aware Lifecycle Manager|Red Hat topology aware lifecycle manager|Red Hat OpenShift Topology Aware Lifecycle Manager: topology aware lifecycle manager
+  RHOS|TRHOS: Telefónica Red Hat OpenShift Service
+  SBO|Red Hat Service Binding Operator|Red Hat OpenShift Service Binding Operator|RHSBO: Service Binding Operator
+  Red Hat Enterprise Linux System Roles|RHEL System Roles|Red Hat System Roles|RHELSR|RHSR: system roles
+  Subscription Watch|Red Hat subscription watch|Red Hat Subscription Watch: subscription watch
+  System Comparison|Red Hat system comparison|Red Hat System Comparison: system comparison
+  Tasks|Red Hat tasks|Red Hat Tasks: tasks
+  Red Hat Single Sign-On|RHSSO|RH-SSO: single sign-on
+  TC|RHTC|Trusted Content|Red Hat Trusted Content: trusted content
+  Streams for Apache Kafka|Red Hat Streams for Apache Kafka|SAK|SFAK: streams for Apache Kafka
