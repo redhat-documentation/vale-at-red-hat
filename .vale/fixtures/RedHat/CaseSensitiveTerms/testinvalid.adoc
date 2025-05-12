@@ -303,6 +303,11 @@ mySQL
 MYSQL
 native interface
 network interface card
+NVidia
+N-Vidia
+Nvidia
+nVIDIA
+nvidia
 node.js
 node.JS
 Node.JS
