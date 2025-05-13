@@ -195,6 +195,7 @@ mutual TLS
 MySQL
 network interface controller (NIC)
 Node.js
+NVIDIA
 O-RAN
 object class
 objectClass

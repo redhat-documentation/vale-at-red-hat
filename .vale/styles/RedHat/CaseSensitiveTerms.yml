@@ -201,6 +201,7 @@ swap:
   MYSQL|mySQL: MySQL
   native interface: management CLI
   network interface card: network interface controller (NIC)
+  '\bNVidia|N-Vidia|Nvidia|nVIDIA|nvidia\b': NVIDIA
   objectclass: objectClass
   Objective-C: Objective C
   OCP: Red Hat OpenShift Container Platform
