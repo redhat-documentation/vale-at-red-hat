@@ -15,6 +15,7 @@ exceptions:
   - 'CVEs?'
   - 'DVDs?'
   - 'GIDs?'
+  - 'LLMs?'
   - 'NULL'
   - 'PIDs?'
   - 'ROMs?'
