@@ -39,7 +39,8 @@ For a complete list of possible configuration options, see link:https://vale.sh/
 Review the following Red Hat project `.vale.ini` files as reference for developing your own Vale configuration:
 
 * link:https://github.com/openshift/openshift-docs/blob/main/.vale.ini[openshift-docs]
-* link:https://github.com/containers/podman-desktop/blob/main/.vale.ini[podman-desktop]
+* link:https://github.com/eclipse-che/che-docs/blob/main/.vale.ini[che-docs]
+* link:https://github.com/redhat-developer/red-hat-developers-documentation-rhdh/blob/main/.vale.ini[https://github.com/redhat-developer/red-hat-developers-documentation-rhdh/blob/main/.vale.ini]
 * link:https://github.com/quarkusio/quarkus/blob/main/docs/.vale.ini[quarkusio]
 ====
 
