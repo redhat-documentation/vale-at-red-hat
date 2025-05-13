@@ -15,6 +15,7 @@ exceptions:
   - "0/"
   - "[Ii]nput/[Oo]utput"
   - "C/C"
+  - "CI/CD"
   - "client/server"
   - "I/O"
   - "N/A"
