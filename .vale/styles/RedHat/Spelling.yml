@@ -385,6 +385,7 @@ filters:
   - librbd
   - Libreswan
   - Liquibase
+  - LLM
   - Logstash
   - Lombok
   - Makefile
