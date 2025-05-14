@@ -1,0 +1,15 @@
+---
+extends: sequence
+message: "Avoid ambiguous pronouns. Replace with a specific noun that has a clear antecedent."
+level: warning
+ignorecase: true
+tokens:
+  # First noun antecedent (common or proper, or named entity)
+  - tag: 'NN|NNP|NNPS|NNS|PERSON|GPE'
+    skip: 8
+  # Second noun antecedent
+  - tag: 'NN|NNP|NNPS|NNS|PERSON|GPE'
+    skip: 8
+  # Ambiguous pronoun
+  - pattern: '\b(it|its|they|he|she|his|her|their)\b'
+    tag: 'PRP|PRP\$'
