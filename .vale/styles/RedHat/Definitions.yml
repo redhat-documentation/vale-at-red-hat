@@ -15,6 +15,7 @@ exceptions:
   - 'CVEs?'
   - 'DVDs?'
   - 'GIDs?'
+  - 'GPUs?'
   - 'LLMs?'
   - 'NULL'
   - 'PIDs?'
@@ -67,7 +68,6 @@ exceptions:
   - GNU
   - GNUPro
   - GPL
-  - GPU
   - GRUB
   - GTK+
   - GUI

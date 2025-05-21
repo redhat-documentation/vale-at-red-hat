@@ -323,6 +323,7 @@ filters:
   - GitLab
   - Gluster
   - GNUPro
+  - GPUs?
   - GraalVM
   - GraphQL
   - Graylog
@@ -477,8 +478,8 @@ filters:
   - subaddress
   - subcapacity
   - subtab
-  - superobject
   - Suchow
+  - superobject
   - SVG
   - Symfony
   - Tekton
