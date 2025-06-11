@@ -23,13 +23,11 @@ filters:
   - "[bB]oolean"
   - "[bB]ootable"
   - "[bB]reakpoint(s)?"
-  - '\b[cC]he\b'
   - "[cC]hrony"
   - "[cC]lassloading"
   - "[cC]lasspath"
   - "[cC]olocate"
   - "[cC]olocation"
-  - '\b[cC]onfig\b'
   - "[cC]ontainerd"
   - "[cC]orequisite"
   - "[cC]ustomizer"
@@ -43,7 +41,6 @@ filters:
   - "[dD]eserialization"
   - "[dD]eserialize(d)?"
   - "[dD]esynchronize(d)?"
-  - '\b[dD]ev\b'
   - "[dD]ev[wW]orkspace"
   - "[dD]evfile"
   - "[dD]istro"
@@ -58,7 +55,6 @@ filters:
   - "[fF]indability"
   - "[gG]bps"
   - "[gG]ibibyte"
-  - '\b[gG]it\b'
   - "[gG]lock"
   - "[gG]radle"
   - "[gG]rafana"
@@ -66,14 +62,14 @@ filters:
   - "[hH]eatmap"
   - "[hH]ostname"
   - "[hH]yperconverged"
+  - "[iI]nferencing"
+  - "[Ii]nferencing"
   - "[iI]node"
   - "[iI]ntranode"
   - "[iI]ntrapartition"
   - "[iI]ntrarecord"
   - "[iI]ntrasystem"
   - "[iI]nvocable"
-  - "[iI]nferencing"
-  - '\b[iI]tem\b'
   - "[jJ]et[bB]rains"
   - "[jJ]ournald"
   - "[jJ]ournaling"
@@ -195,7 +191,6 @@ filters:
   - "[sS]ervlet"
   - "[sS]etter"
   - "[sS]harding"
-  - '\b[Ss]u\b'
   - "[sS]ubcommand(s)?"
   - "[sS]ubmenu(s)?"
   - "[sS]ubnet(s)?"
@@ -232,6 +227,12 @@ filters:
   - "I/O"
   - "Let\\'s Encrypt"
   - '\.NET'
+  - '\b[cC]he\b'
+  - '\b[cC]onfig\b'
+  - '\b[dD]ev\b'
+  - '\b[gG]it\b'
+  - '\b[iI]tem\b'
+  - '\b[Ss]u\b'
   - 'Node\.js'
   - ACLs
   - adoc
