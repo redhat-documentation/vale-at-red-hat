@@ -221,6 +221,7 @@ IDE
 IDEs
 IKEv
 Infinispan
+Inferencing
 infrared
 infrastructure
 Inode
