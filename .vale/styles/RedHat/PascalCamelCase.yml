@@ -49,6 +49,7 @@ exceptions:
   - eXtenSion
   - FaaS
   - FCoE
+  - FFmpeg
   - FileStore
   - FireWire
   - FreeRADIUS
