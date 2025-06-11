@@ -317,6 +317,7 @@ filters:
   - Flyway
   - Fortran
   - Funqy
+  - FFmpeg
   - Galera
   - GCC
   - GIDs

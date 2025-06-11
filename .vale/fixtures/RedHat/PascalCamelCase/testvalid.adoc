@@ -35,6 +35,7 @@ etcd
 eXpress
 eXtenSion
 FaaS
+FFmpeg
 FCoE
 FDs
 FileStore
