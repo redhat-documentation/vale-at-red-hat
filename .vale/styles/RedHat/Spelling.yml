@@ -377,6 +377,7 @@ filters:
   - Knowledgebase
   - Kogito
   - Kompose
+  - Konflux
   - kubelet
   - Kubernetes
   - Kubespray
