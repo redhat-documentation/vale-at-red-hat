@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Extending styles :: Vale for writers at Red Hat</title>
+    <link rel="canonical" href="https://redhat-documentation.github.io/vale-at-red-hat/docs/main/contributor-guide/extending-styles/">
+    <link rel="prev" href="../extending-the-spelling-rule/">
+    <link rel="next" href="../../reference-guide/abbreviations/">
+    <meta name="keywords" content="contributing, style, rules">
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../../../_/css/site.css">
+<link rel="icon" href="../../../../favicon.ico" type="image/x-icon">  </head>
+  <body class="article">
+<header class="header">
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <ul class="navbar-brand-list">
+          <li>
+            <a class="navbar-brand rh-documentation" href="https://redhat-documentation.github.io/vale-at-red-hat/index.html">
+              <img src="../../../../_/img/Red-Hat-Documentation-A-Reverse-RGB.svg" alt="Home" class="rh-docs" />
+            </a>
+          </li>
+        </ul>
+
+        <div class="navbar-item search hide-for-print">
+          <div id="search-field" class="field">
+            <input id="search-input" type="text" placeholder="Search the docs..." >
+          </div>
+        </div>
+        <button class="navbar-burger" data-target="topbar-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </div><div class="body">
+<div class="nav-container" data-component="docs" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../user-guide/introduction/">Vale for writers at Red Hat</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Vale at Red Hat user guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/introduction/">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/installing-vale-cli/">Installing Vale</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/installing-redhat-style-for-vale/">Installing the RedHat style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../user-guide/analyze-with-vale/">Analyzing your content</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../user-guide/using-vale-app/">Using the Vale-at-Red-Hat web app</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../user-guide/using-vale-cli/">Analyzing with the Vale CLI</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../user-guide/understanding-vale-output/">Understanding Vale alerts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../user-guide/collating-vale-output/">Collating Vale output</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../user-guide/using-vale-in-the-ide/">Vale in the IDE</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/redhat-style-for-vale/">RedHat style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/asciidoc-style-for-vale/">AsciiDoc style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/openshift-asciidoc-style-for-vale/">OpenShift AsciiDoc style</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/reporting-vale-alerts/">Vale reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/defining-a-vale-onboarding-strategy/">Onboarding strategy</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/adding-vale-configuration-to-a-project/">Adding Vale to a project</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/creating-a-vocabulary-for-a-project/">Create a vocabulary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/using-vale-github-action/">Integrating Vale into your GitHub workflow</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/gitlab-code-quality-reports/">GitLab Code Quality reports</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../user-guide/using-vale-with-a-continuous-integration-service/">Continuous integration</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Vale at Red Hat contributor guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../contributing/">Contributing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../vale-at-red-hat-repository/">Repository</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../extending-the-spelling-rule/">Extending <em>Spelling</em></a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="./">Extending rules</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Vale rules reference guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/abbreviations/">Abbreviations</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/casesensitiveterms/">Case sensitive terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/conjunctions/">Conjunctions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/consciouslanguage/">Conscious language</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/contractions/">Contractions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/definitions/">Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/donotuseterms/">Do not use terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/ellipses/">Ellipses</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/emdashes/">Em dashes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headingpunctuation/">Heading punctuation</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headings/">Headings</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/hyphens/">Hyphens</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/mergeconflictmarkers/">Merge conflict markers</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/oxfordcomma/">Oxford comma</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/pascalcamelcase/">Pascal and camel case terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/passivevoice/">Passive voice</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/productcentricwriting/">Product-centric writing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/readabilitygrade/">Readability grade</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/releasenotes/">Release notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/repeatedwords/">Repeated words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/selfreferentialtext/">Self-referential text</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/sentencelength/">Sentence length</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/simplewords/">Simple words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/slash/">Slash</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/smartquotes/">Smart quotes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spacing/">Spacing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spelling/">Spelling</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/symbols/">Symbols</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termserrors/">Error terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termssuggestions/">Suggestion terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termswarnings/">Warning terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/userreplacedvalues/">User-replaced values</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/using/">Using</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Vale for writers at Red Hat</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../user-guide/introduction/">Vale for writers at Red Hat</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../user-guide/introduction/">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <a href="../../user-guide/introduction/" class="home-link"></a>
+  <nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../user-guide/introduction/">Vale for writers at Red Hat</a></li>
+    <li>Vale at Red Hat contributor guide</li>
+    <li><a href="./">Extending rules</a></li>
+  </ul>
+</nav>
+  <!--  -->
+  <div class="edit-this-page"><a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/contributor-guide/pages/extending-styles.adoc" class="edit-this-page">Edit this page</a></div>
+</div>  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Extending styles</h1>
+<div class="sect1">
+<h2 id="proc_extending_styles"><a class="anchor" href="#proc_extending_styles"></a>Extending styles in the vale-at-red-hat repository</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The vale-at-red-hat repository is an open source project maintained and developed by volunteers. If you want to contribute to the Vale at Red Hat project, feel free to open a PR.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>If you use a custom Vale rule set in your Red Hat project, please consider adding it to the vale-at-red-hat repository.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p><a href="../../user-guide/installing-vale-cli/" class="xref page">Installing Vale</a></p>
+</li>
+<li>
+<p><a href="../../user-guide/understanding-vale-output/" class="xref page">Understanding Vale output</a></p>
+</li>
+<li>
+<p><a href="../../user-guide/defining-a-vale-onboarding-strategy/" class="xref page">Defining a Vale onboarding strategy</a></p>
+</li>
+<li>
+<p>You forked and cloned the <code>vale-at-red-hat</code> repository using the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow">Git forking workflow</a>.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Configure the rule in the <code>styles</code> folder: <code>.vale/styles/&lt;Style&gt;/<em>&lt;StyleName&gt;</em>.yml</code>.</p>
+</li>
+<li>
+<p>Configure the test fixtures in the <code>fixtures</code> folder: <code>.vale/fixtures/&lt;Style&gt;/&lt;StyleName&gt;/testinvalid.adoc|testvalid.adoc</code></p>
+</li>
+<li>
+<p>Run the <code>vale</code> command in the test fixtures folder to ensure that the rule triggers as you expect, for example:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-terminal hljs" data-lang="terminal">$ vale .</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example output</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-terminal hljs" data-lang="terminal"> testinvalid.adoc
+ 2:1  error  Quoted ID value is not closed.  AsciiDoc.ClosedIdQuotes
+ 6:1  error  Quoted ID value is not closed.  AsciiDoc.ClosedIdQuotes
+
+✖ 2 errors, 0 warnings and 0 suggestions in 2 files.</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Add, commit and push your changes.</p>
+</li>
+<li>
+<p>Request a review or help in the Slack channel <a href="https://coreos.slack.com/archives/C0218RXJK5E">#vale-at-red-hat</a>, in the CoreOS workspace.</p>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://vale.sh/docs/topics/styles">Vale documentation - Styles</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/pull/416">Sample PR</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../extending-the-spelling-rule/">Extending <em>Spelling</em></a></span>
+  <span class="next"><a href="../../reference-guide/abbreviations/">Abbreviations</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+   <div style="margin: auto; width: 50%; padding: 10px;">
+      <a href="https://redhat-documentation.github.io/vale-at-red-hat/sitemap.xml" target="_blank">Site map</a> |
+      <a href="https://redhat-documentation.github.io/" target="_blank">Guidelines for Red Hat Documentation</a> |
+      <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/DCO" target="_blank">Developer
+         Certificate of Origin</a> |
+      <a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/LICENSE" target="_blank">MIT
+         License</a>
+</footer><script id="site-script" src="../../../../_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="../../../../_/js/vendor/highlight.js"></script>
+<script src="../../../../_/js/vendor/lunr.js"></script>
+<script src="../../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>
