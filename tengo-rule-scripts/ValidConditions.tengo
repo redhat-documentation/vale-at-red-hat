@@ -18,7 +18,7 @@ scope += "\n"
 
 if_regex := "^ifdef::.+\\[\\]"
 ifn_regex := "^ifndef::.+\\[\\]"
-ifeval_regex := "ifeval::\\[.+\\]"
+ifeval_regex := "^ifeval::\\[.+\\]"
 endif_regex := "^endif::.*\\[\\]"
 
 for line in text.split(scope, "\n") {
