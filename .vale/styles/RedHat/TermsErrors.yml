@@ -88,7 +88,7 @@ swap:
   break point: breakpoint
   bring up: start|power on|open|turn on
   bufferpool: buffer pool
-  builtin|built in: built-in
+  builtin: built-in
   busmaster: bus master
   busses: buses
   byte code: bytecode
