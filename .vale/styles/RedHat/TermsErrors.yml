@@ -10,6 +10,7 @@ action:
 swap:
   "(?<!-)healthcheck|health-check": health check
   "(?<!-)pm": PM
+  "(?<!-|.)env": environment
   "(?<!-|I )am": AM
   "(?<!.)io": I/O
   '(?<!as well )\bas per\b': according to|as|as in
@@ -186,7 +187,6 @@ swap:
   end user: user
   end-user interface: graphical interface|interface
   enum: data enumeration
-  env: environment
   EUI: graphical user interface|interface
   evangelist: influencer|advocate|ambassador
   fatal: unrecoverable
