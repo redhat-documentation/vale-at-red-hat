@@ -10,7 +10,7 @@ action:
 swap:
   "(?<!-)healthcheck|health-check": health check
   "(?<!-)pm": PM
-  "(?<!-|\.|{)env": environment
+  "(?<!-|.|{)env": environment
   "(?<!-|I )am": AM
   "(?<!.)io": I/O
   '(?<!as well )\bas per\b': according to|as|as in
