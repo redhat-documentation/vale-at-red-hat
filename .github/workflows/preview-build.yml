@@ -37,7 +37,7 @@ jobs:
         run: echo "yearweek=$(/bin/date -u "+%Y%U")" >> $GITHUB_OUTPUT
         shell: bash
       - name: Restore cache
-        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.0.3
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.0.3
         env:
           cache-name: cache
         with:
@@ -66,7 +66,7 @@ jobs:
             PR_NUMBER
             PR_SHA
           retention-days: 7
-      - uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.0.3
+      - uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.0.3
         with:
           path: tmp/.htmltest
           key: ${{ runner.os }}-htmltest
