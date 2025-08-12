@@ -255,6 +255,7 @@ filters:
   - Bitbucket
   - BOM
   - Bonjour
+  - bootc
   - Bouncy Castle
   - btn
   - Btrfs
@@ -471,6 +472,7 @@ filters:
   - SELinux
   - Semeru
   - Shadowman
+  - ShellCheck
   - Skopeo
   - SLAs
   - SmallRye
@@ -519,6 +521,7 @@ filters:
   - Wordpress
   - XString
   - XWayland
+  - yamllint
   - Yana
   - Yeoman
   - ZCentral
