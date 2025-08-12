@@ -472,7 +472,6 @@ filters:
   - SELinux
   - Semeru
   - Shadowman
-  - ShellCheck
   - Skopeo
   - SLAs
   - SmallRye
@@ -521,7 +520,6 @@ filters:
   - Wordpress
   - XString
   - XWayland
-  - yamllint
   - Yana
   - Yeoman
   - ZCentral
