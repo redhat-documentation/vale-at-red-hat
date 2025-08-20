@@ -196,6 +196,7 @@ MySQL
 network interface controller (NIC)
 Node.js
 NVIDIA
+nvidia/Llama-3.1-Nemotron-Nano-8B-v1
 O-RAN
 object class
 objectClass

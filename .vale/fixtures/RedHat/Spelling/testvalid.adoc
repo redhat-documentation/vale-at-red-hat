@@ -13,6 +13,7 @@ Antora
 API
 APIs
 Applixware
+Arcee
 Asciidoctor
 AssertJ
 autoconfigure
@@ -44,6 +45,7 @@ Bitbucket
 biweekly
 BOM
 Bonjour
+boolean
 boolean
 Boolean
 bootable
@@ -83,6 +85,7 @@ colocate
 Colocate
 colocation
 Colocation
+composable
 config
 Config
 config map
@@ -102,6 +105,7 @@ countermeasures
 coworker
 CPU
 CPUs
+CPUs
 CR
 CRD
 CRDs
@@ -115,7 +119,10 @@ cybersecurity
 cyberspace
 Cygmon
 DaemonSet
+dataclass
+dataclasses
 Datadog
+dataloaders
 declaratively
 decompiler
 defragmentation
@@ -132,9 +139,9 @@ Devfiles
 devworkspace
 DevWorkspace
 Dex
-DNS
 Distro
 Distros
+DNS
 Docker
 Dockerfile
 Dockerfiles
@@ -169,6 +176,9 @@ Failover
 Failsafe
 FDs
 Fernflower
+FFmpeg
+finetune
+Finetuning
 firewalld
 Flathub
 Flatpak
@@ -176,7 +186,6 @@ Fluentd
 Flyway
 Fortran
 Funqy
-FFmpeg
 Galera
 Gbps
 GCC
@@ -201,6 +210,7 @@ greenboot
 gRPC
 GTIDs
 GUI
+hadamard
 hardcoding
 Hashicorp
 Heatmap
@@ -214,6 +224,7 @@ http
 HTTP
 https
 HTTPS
+Hunyuan
 hyperactive
 Hyperconverged
 hypersensitive
@@ -221,8 +232,8 @@ I/O
 IDE
 IDEs
 IKEv
+impactful
 Infinispan
-Inferencing
 infrared
 infrastructure
 Inode
@@ -282,6 +293,7 @@ Kubernetes
 Kubespray
 Kylin
 Laravel
+layernorm
 Let's Encrypt
 LGPLv
 libOSMesa
@@ -291,8 +303,11 @@ Libreswan
 libvirt
 Libvirt
 Licensor
+linearization
+linearize
 Liquibase
 Liveness
+LLMs
 Logstash
 Lombok
 Loopback
@@ -321,12 +336,14 @@ midyear
 Millicores
 minicomputer
 minicourse
+Minicpm
 minidisk
 Minikube
 Minishift
 Mirantis
 Mixin
 Mixins
+Mixtral
 Mockito
 Modularization
 MongoDB
@@ -340,6 +357,7 @@ Multicluster
 multifactor
 Multihost
 multimedia
+Multimodal
 Multinode
 multipath
 Multipath
@@ -385,7 +403,6 @@ nonzero
 npm
 NuGet
 Nutanix
-NVidia
 NVMe
 OAuth
 objectClass
@@ -396,6 +413,7 @@ omnichannel
 OmniSharp
 Onboarding
 onboarding
+Oneshot
 online
 opcode
 open source
@@ -414,11 +432,14 @@ overlay
 overridable
 override
 overstrike
+Ovis
 PCIe
 PDFs
+performant
 Petitboot
 PHP
 PIDs
+pixtral
 pluggable
 plugin
 plugins
@@ -453,6 +474,7 @@ prepended
 preprocess
 preprocessor
 preruntime
+pretrained
 productize
 productized
 Prometheus
@@ -466,10 +488,14 @@ qdmanage
 qdstat
 qeth
 QLogic
+Quantizable
+Quantizes
+Quantizing
 Quarkiverse
 Quarkus
 Quiltflower
 Qute
+Qwen
 re-create
 re-enable
 Readonly
@@ -478,6 +504,7 @@ reauthenticate
 Rebalance
 Rebalances
 Rebalancing
+rebase
 Rebase
 Rebased
 Recertification
@@ -493,6 +520,7 @@ refreshable
 reindex
 reindexing
 relaxngDatatype
+Reranker
 Reshard
 Resharding
 Reshards
@@ -500,6 +528,7 @@ RESTEasy
 Restic
 resynchronize
 Resyncing
+ROCm
 Rolfe
 Rollout
 Rollouts
@@ -517,6 +546,7 @@ Runlevel
 Runlevels
 Runtime
 Runtimes
+safetensors
 Sakila
 sbt
 SCM
@@ -531,15 +561,21 @@ Serializer
 Serverless
 servlet
 Shadowman
+sharded
 Sharding
 Skopeo
 SLA
 SLAs
 SmallRye
+Smoothquant
+Sparsification
+Sparsified
+Sparsify
 Spotify
 startx
 STMicroelectronics
 Stratis
+strided
 su
 subaddress
 subarea
@@ -583,17 +619,21 @@ sysctls
 Sysctls
 Systemd
 Tekton
+Telco
 Telekom
 Templated
 Temurin
+Tencent
 Tensorflow
 Texinfo
-Telco
 Theia
 time frame
 timeout|time out
+tokenization
+Tokenizers
 Tolerations
 Toolset
+TPUs
 traceback
 Traceback
 Traefik
@@ -637,6 +677,7 @@ Vert.x
 vHost
 VMs
 VMware
+Voxtral
 vsix
 vSphere
 WebAuthn
