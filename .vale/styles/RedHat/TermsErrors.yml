@@ -213,6 +213,7 @@ swap:
   hence: therefore
   hostgroup: host group
   hotkey: hot key
+  '/(?i)\bhong kong\b(?!\s+SAR of the PRC)/': Hong Kong SAR of the PRC
   HOWTO: how-to
   imbed: embed
   in depth: in-depth
@@ -261,6 +262,8 @@ swap:
   log onto: log on to
   logfile: log file
   lots of|bunches of: many
+  macao: Macao SAR of the PRC
+  macau: Macao SAR of the PRC
   main directory: root directory
   make file: makefile
   man day: person day
