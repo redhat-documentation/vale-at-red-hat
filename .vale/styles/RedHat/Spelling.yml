@@ -447,6 +447,7 @@ filters:
   - NVMe
   - OAuth
   - objectClass
+  - OCI
   - ocp
   - OmniSharp
   - OpenID

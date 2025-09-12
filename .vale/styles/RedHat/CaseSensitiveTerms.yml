@@ -204,9 +204,11 @@ swap:
   network interface card: network interface controller (NIC)
   objectclass: objectClass
   Objective-C: Objective C
+  oci|Oci: OCI
   OCP: Red Hat OpenShift Container Platform
   ODF: Red Hat OpenShift Data Foundation
   OK button|okay|ok: OK
+  open container initiative|Open container initiative: Open Container Initiative
   Open InfiniBand|Infiniband: InfiniBand
   Open Telemetry: OpenTelemetry (OTel)
   openid connect|Openid Connect: OpenID Connect
