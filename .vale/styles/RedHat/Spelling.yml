@@ -486,6 +486,7 @@ filters:
   - Quiltflower
   - Qute
   - Qwen
+  - RamaLama
   - Realtime
   - rebase
   - Redis
