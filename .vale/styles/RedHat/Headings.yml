@@ -197,6 +197,7 @@ exceptions:
   - Qute
   - RESTEasy
   - Red Hat
+  - Red Hat Advanced Cluster Management for Kubernetes
   - RedBoot
   - Redis
   - Redistributions
