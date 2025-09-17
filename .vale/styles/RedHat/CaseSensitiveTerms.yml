@@ -183,7 +183,7 @@ swap:
   Lan|lan: LAN
   Librados|LIBRADOS: librados
   Librbd|LIBRBD: librbd
-  Lightspeed|LightSpeed: Red Hat Ansible Lightspeed
+  Lightspeed|LightSpeed: Red Hat Ansible Lightspeed|Red Hat Enterprise Linux Lightspeed
   Lightweight Directory Access Protocol over Secure Socket Layer: LDAPS
   LINUX|linux: Linux
   live-backup group: master-slave group
