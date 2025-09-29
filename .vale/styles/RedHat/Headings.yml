@@ -197,6 +197,7 @@ exceptions:
   - Quarkus
   - Quiltflower
   - Qute
+  - RamaLama
   - RESTEasy
   - Red Hat
   - Red Hat Advanced Cluster Management for Kubernetes
