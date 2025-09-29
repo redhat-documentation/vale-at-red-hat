@@ -168,8 +168,10 @@ exceptions:
   - Node.js
   - NuGet
   - OAuth
+  - OCI
   - ORM
   - OmniSharp
+  - Open Container Initiative
   - OpEx
   - OpenID Connect
   - OpenJDK
