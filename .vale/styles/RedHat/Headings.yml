@@ -168,8 +168,10 @@ exceptions:
   - Node.js
   - NuGet
   - OAuth
+  - OCI
   - ORM
   - OmniSharp
+  - Open Container Initiative
   - OpEx
   - OpenID Connect
   - OpenJDK
@@ -195,8 +197,10 @@ exceptions:
   - Quarkus
   - Quiltflower
   - Qute
+  - RamaLama
   - RESTEasy
   - Red Hat
+  - Red Hat Advanced Cluster Management for Kubernetes
   - Red Hat Ansible Lightspeed
   - Red Hat Enterprise Linux Lightspeed
   - RedBoot

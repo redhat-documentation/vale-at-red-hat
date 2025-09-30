@@ -30,6 +30,7 @@ swap:
   "down(?:-)?level": earlier|previous|not at the latest level
   "IPI": installer-provisioned infrastructure
   "pop-up (?:blocker|killer)": software to block pop-up ad windows
+  "[rR]ama[lL]lama": RamaLama
   "re(?:-)?occur": recur
   "sanity test|sanity check": test|evaluate|validate|verify
   "single quote mark|single quote(?! mark)": single quotation mark

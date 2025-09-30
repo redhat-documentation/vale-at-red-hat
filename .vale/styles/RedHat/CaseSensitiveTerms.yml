@@ -11,6 +11,7 @@ swap:
   "(?<!/)var": VAR
   "(?<!Business )Resource Planner|(?<!Business Resource )Planner": Business Resource Planner
   "(?<!Microsoft Azure )On-Demand Marketplace": Microsoft Azure On-Demand Marketplace
+  "(?<!Red Hat )Advanced Cluster Management|(?<!Red Hat )Advanced Cluster Management for Kubernetes|ACM|ACMK": Red Hat Advanced Cluster Management for Kubernetes
   "(?<!Red Hat )JBoss Enterprise Application Platform": Red Hat JBoss Enterprise Application Platform
   "(?<!Red Hat )OpenStack Platform|RHOS|RH-OSP": Red Hat OpenStack Platform
   "(?<!Red Hat JBoss )BRMS(?! engine)": inference engine
@@ -117,6 +118,7 @@ swap:
   Faq|faq|F.A.Q: FAQ
   fault tolerant: fault-tolerant
   fault-tolerance: fault tolerance
+  fbc|Fbc|FBC: file-based catalog
   fedora project: Fedora™ Project
   filestore|File Store: FileStore
   Firewalld|firewallD|FirewallD: firewalld
@@ -205,9 +207,11 @@ swap:
   network interface card: network interface controller (NIC)
   objectclass: objectClass
   Objective-C: Objective C
+  oci|Oci: OCI
   OCP: Red Hat OpenShift Container Platform
   ODF: Red Hat OpenShift Data Foundation
   OK button|okay|ok: OK
+  open container initiative|Open container initiative: Open Container Initiative
   Open InfiniBand|Infiniband: InfiniBand
   Open Telemetry: OpenTelemetry (OTel)
   openid connect|Openid Connect: OpenID Connect

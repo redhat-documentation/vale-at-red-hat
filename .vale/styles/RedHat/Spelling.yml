@@ -448,6 +448,7 @@ filters:
   - NVMe
   - OAuth
   - objectClass
+  - OCI
   - ocp
   - OmniSharp
   - OpenID
@@ -487,6 +488,7 @@ filters:
   - Quiltflower
   - Qute
   - Qwen
+  - RamaLama
   - Realtime
   - rebase
   - Redis
