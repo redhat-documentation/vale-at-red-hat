@@ -201,6 +201,8 @@ exceptions:
   - RESTEasy
   - Red Hat
   - Red Hat Advanced Cluster Management for Kubernetes
+  - Red Hat Ansible Lightspeed
+  - Red Hat Enterprise Linux Lightspeed
   - RedBoot
   - Redis
   - Redistributions

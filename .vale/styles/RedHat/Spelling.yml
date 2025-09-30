@@ -413,6 +413,7 @@ filters:
   - librados
   - librbd
   - Libreswan
+  - Lightspeed
   - linearization
   - linearize
   - Liquibase
