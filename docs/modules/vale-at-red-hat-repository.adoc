@@ -1,0 +1,15 @@
+[id="vale-at-red-hat-repository"]
+= Vale at Red Hat repository
+
+The link:{repository-url}[_{repository-name}_ repository] has resources to validate language in documentation projects with Vale:
+
+* xref:reference-guide.adoc[Red Hat style for Vale] in the `.vale/styles/RedHat` directory
+* AsciiDoc style in the `.vale/styles/AsciiDoc` directory
+* OpenShift AsciiDoc style in the `.vale/styles/OpenShiftAsciiDoc` directory
+* xref:user-guide.adoc#vale-configuration-file[Vale configuration files] for usage in a local environment or by the GitHub Action.
+* xref:user-guide.adoc[User guide]
+* xref:contributor-guide.adoc#vale-at-red-hat-contributor-guide[Contributor guide]
+
+.Additional resources
+
+* link:{repository-url}[{repository-name} repository]

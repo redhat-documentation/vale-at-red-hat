@@ -1,0 +1,8 @@
+= Merge conflict markers
+
+Do not include Git merge conflict markers in source code. For example, `<<<<<<< HEAD`.
+
+.Additional resources
+
+* link:https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line[Resolving a merge conflict using the command line]
+

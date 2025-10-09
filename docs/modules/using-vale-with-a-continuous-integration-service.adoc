@@ -1,0 +1,35 @@
+:_module-type: PROCEDURE
+[id="using-vale-with-a-continuous-integration-service"]
+= Using Vale with a continuous integration service
+
+Consider using the Vale CLI with a continuous integration service when:
+
+* The goal is to measure or enforce the project compliance with the Style Guides.
+* xref:user-guide.adoc#using-vale-github-action[Using Vale GitHub Action] is not an option.
+
+
+.Prerequisites
+
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* xref:user-guide.adoc#adding-vale-configuration-to-a-project[Adding Vale configuration to a project]
+* xref:user-guide.adoc#defining-a-vale-onboarding-strategy[Defining a Vale onboarding strategy]
+
+.Procedure
+
+. Configure your continuous integration service to download the `vale` CLI, the `RedHat` style and the Vale configuration file by using a `download-vale.sh` script such as:
++
+[source,bash]
+----
+include::examples/download-vale.sh[]
+----
+
+. Configure your continuous integration service to validate language changes by using a `validate-language-changes.sh` script such as:
++
+[source,bash]
+----
+include::examples/validate-language-changes.sh[]
+----
+
+.Additional resources
+
+* link:https://vale.sh/docs/vale-cli/installation/#using-vale-with-a-continuous-integration-ci-service[Add Vale to your docs continuous integration (CI) service].

@@ -1,0 +1,9 @@
+= Em dashes
+
+Do not use em dashes.
+Use punctuation marks such as commas, parentheses, or colons instead.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Em dashes, p.48]
+* link:{ibmsg-url}?topic=punctuation-dashes#em-dashes[{ibmsg} - Em dashes]

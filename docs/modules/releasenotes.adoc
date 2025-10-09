@@ -1,0 +1,8 @@
+= Release notes
+
+For release notes, consider using `Before this update` or `With this update`.
+
+.Additional resources
+
+* link:{ssg-url}#release-notes[{ssg} - Release notes]
+* link:{repository-url}blob/main/.vale/styles/RedHat/ReleaseNotes.yml[`ReleaseNotes.yml` source code]

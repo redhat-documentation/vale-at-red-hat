@@ -1,0 +1,41 @@
+:_mod-docs-content-type: ASSEMBLY
+include::_attributes/attributes.adoc[]
+[id="vale-at-red-hat-user-guide"]
+= Get started using Vale at Red Hat
+
+[role="_abstract"]
+Learn how to use Vale to lint your Red Hat documentation. This guide covers installing Vale and the RedHat style, analyzing documentation with various tools (CLI, IDE integrations, and desktop app), understanding and reporting Vale output, and integrating Vale into your workflow with GitHub Actions, GitLab CI, and other continuous integration services.
+
+include::modules/introduction.adoc[leveloffset=+1]
+
+include::modules/installing-vale-cli.adoc[leveloffset=+1]
+
+include::modules/installing-redhat-style-for-vale.adoc[leveloffset=+1]
+
+include::modules/analyze-with-vale.adoc[leveloffset=+1]
+
+include::modules/using-vale-app.adoc[leveloffset=+2]
+
+include::modules/using-vale-cli.adoc[leveloffset=+2]
+
+include::modules/understanding-vale-output.adoc[leveloffset=+2]
+
+include::modules/collating-vale-output.adoc[leveloffset=+2]
+
+include::modules/using-vale-in-the-ide.adoc[leveloffset=+2]
+
+include::modules/glossary.adoc[leveloffset=+1]
+
+include::modules/reporting-vale-alerts.adoc[leveloffset=+1]
+
+include::modules/defining-a-vale-onboarding-strategy.adoc[leveloffset=+1]
+
+include::modules/adding-vale-configuration-to-a-project.adoc[leveloffset=+1]
+
+include::modules/creating-a-vocabulary-for-a-project.adoc[leveloffset=+1]
+
+include::modules/using-vale-github-action.adoc[leveloffset=+1]
+
+include::modules/gitlab-code-quality-reports.adoc[leveloffset=+1]
+
+include::modules/using-vale-with-a-continuous-integration-service.adoc[leveloffset=+1]

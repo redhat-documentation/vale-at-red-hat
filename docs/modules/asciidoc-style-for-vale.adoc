@@ -1,0 +1,77 @@
+:_module-type: CONCEPT
+[id="asciidoc-style-for-vale"]
+= AsciiDoc style for Vale
+
+The `AsciiDoc` style for Vale consists of rules suitable for documentation projects written in AsciiDoc.
+It lints common AsciiDoc syntax errors.
+Use the AsciiDoc style in conjunction with other Vale styles.
+Many of the `AsciiDoc` rules replicate features of the Visual Studio Code editor Asciidoctor plugin.
+
+Some of the errors that the `AsciiDoc` rules highlight include:
+
+* Open attribute blocks
+* Open quoted ID values
+* Images and links that are missing accessibility alt tags
+* Missing or incorrect callouts
+* Unterminated admonition, listing, and table blocks
+* Unbalanced if statements
+
+[IMPORTANT]
+====
+These rules are suitable for AsciiDoc source files only.
+====
+
+To use the `AsciiDoc` style, do the following:
+
+. Update your project `.vale.ini` to include the the `AsciiDoc` style. Add `Asciidoc` to the `Packages` and `BasedOnStyles` fields. For example:
++
+.Example .vale.ini
+[source,ini]
+----
+StylesPath = .vale/styles
+
+MinAlertLevel = suggestion
+
+Packages = RedHat, AsciiDoc
+
+# Ignore files in dirs starting with `.` to avoid raising errors for `.vale/fixtures/*/testinvalid.adoc` files
+[[!.]*.adoc]
+BasedOnStyles = RedHat, AsciiDoc
+----
+
+. Sync your project that contains the updated `.vale.ini` configuration, for example:
+
+.. Open a shell prompt and change to the project directory:
++
+[source,terminal]
+----
+$ cd <project_dir>
+----
+
+.. Run the sync command to pull the new Rule packages
++
+[source,terminal]
+----
+$ vale sync
+----
++
+.Example output
+[source,terminal]
+----
+ SUCCESS  Downloaded package 'RedHat'
+ SUCCESS  Downloaded package 'AsciiDoc'
+Downloading packages [2/2] ██████████████████ 100% | 3s
+----
+
+The xref:contributor-guide.adoc#vale-at-red-hat-repository[Vale at Red Hat repository] contains the `AsciiDoc` style in the following directory:
+
+----
+.vale/styles/AsciiDoc
+----
+
+[role="_additional-resources"]
+.Additional resources
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* xref:user-guide.adoc#using-vale-in-the-ide[Using Vale in the IDE]
+* xref:user-guide.adoc#using-vale-github-action[Using Vale GitHub Action]
+* xref:user-guide.adoc#adding-vale-configuration-to-a-project[Adding Vale configuration to a project]

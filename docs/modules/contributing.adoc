@@ -1,0 +1,18 @@
+[id="contributing"]
+= Join us! ✨
+
+Hello! We're happy you're thinking about joining our project.
+Every bit helps, whether you're fixing a typographical error, suggesting an improvement, or just getting to know the community.
+Got questions or need help? Ask us in the Slack channel link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+
+There are many ways you can help:
+
+* **Make our docs better:** Use Vale to help make our documentation clearer. Check out how to set Vale up here: xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI].
+
+* **Tell us what you think:** Let us know if something doesn't work right or if you have a great idea. Go here to share your thoughts: link:{repository-url}/issues[Report issues and request enhancements].
+
+* **Chat with us:** Come talk to us on Slack in our chat room link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat].
+
+* **Share your work:** Do you want to contribute changes? Please share it with us by following this guide: link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+
+* **Add your touch:** Interested in adding rules or styles? Learn how here: xref:contributor-guide.adoc#extending-styles[Extending Styles].

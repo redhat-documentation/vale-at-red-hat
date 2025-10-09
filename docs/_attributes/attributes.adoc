@@ -1,0 +1,15 @@
+:context: docs
+:experimental: ""
+:ibmsg-print: IBM Style Guide (print)
+:ibmsg-url-print: https://www.pearson.com/us/higher-education/program/:De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents
+:ibmsg-url-print: https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents
+:ibmsg-url: https://www.ibm.com/docs/en/ibm-style
+:ibmsg: IBM Style Guide
+:icons: font
+:repository-clone-url: git@github.com:redhat-documentation/vale-at-red-hat.git
+:repository-name: vale-at-red-hat
+:repository-url: https://github.com/redhat-documentation/vale-at-red-hat/
+:ssg-url: https://redhat-documentation.github.io/supplementary-style-guide/
+:ssg: Red Hat supplementary style guide for product documentation
+:valedict-url: https://github.com/errata-ai/en_US-web
+:valedict: Custom Vale open-source dictionary for American English

@@ -1,0 +1,23 @@
+:_module-type: PROCEDURE
+[id="analyze-with-vale"]
+= Analyzing your content with Vale
+
+To analyze your content, you can run Vale from the command line, within your IDE, and by using the Vale-at-Red-Hat online web app.
+
+.Analyzing your content locally
+
+For more information, see the following topics:
+
+* xref:user-guide.adoc#using-vale-cli[Using Vale CLI]
+* xref:user-guide.adoc#understanding-vale-output[Understanding Vale output]
+* xref:user-guide.adoc#using-vale-in-the-ide[Using Vale in the IDE]
+* xref:user-guide.adoc#using-vale-app[Using Vale app]
+
+.Git workflow integration
+
+You can also analyze your content by integrating Vale into the Git workflow of a shared content project. For more information, see the following topics:
+
+* xref:user-guide.adoc#using-vale-github-action[Using Vale GitHub Action]
+* xref:user-guide.adoc#using-vale-with-a-continuous-integration-service[Using Vale with a continuous integration service]
+* xref:user-guide.adoc#reporting-vale-alerts[Reporting Vale alerts]
+

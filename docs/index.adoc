@@ -1,0 +1,16 @@
+:_mod-docs-content-type: ASSEMBLY
+include::_attributes/attributes.adoc[]
+= Vale at Red Hat
+
+[role="_abstract"]
+Get started with linting Red Hat documentation with link:https://vale.sh/[Vale] and the Red Hat Style for Vale.
+
+== Requirements
+
+The RedHat Style for Vale style requires link:https://github.com/errata-ai/vale/releases[Vale version 3.7] or above.
+
+include::modules/redhat-style-for-vale.adoc[leveloffset=+1]
+
+include::modules/asciidoc-style-for-vale.adoc[leveloffset=+1]
+
+include::modules/openshift-asciidoc-style-for-vale.adoc[leveloffset=+1]
