@@ -1,0 +1,3209 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href=".">
+      
+      
+        <link rel="next" href="contributor-guide.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/redhat-favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Get started using Vale at Red Hat - Vale at Red Hat</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/asciidoc.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vale-at-red-hat-user-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Vale at Red Hat" class="md-header__button md-logo" aria-label="Vale at Red Hat" data-md-component="logo">
+      
+  <img src="assets/images/redhat.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vale at Red Hat
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Get started using Vale at Red Hat
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="grey"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/redhat-documentation/vale-at-red-hat" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    vale-at-red-hat
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Vale at Red Hat" class="md-nav__button md-logo" aria-label="Vale at Red Hat" data-md-component="logo">
+      
+  <img src="assets/images/redhat.svg" alt="logo">
+
+    </a>
+    Vale at Red Hat
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/redhat-documentation/vale-at-red-hat" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    vale-at-red-hat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Get started using Vale at Red Hat
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="user-guide.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Get started using Vale at Red Hat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vale-at-red-hat-user-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get started using Vale at Red Hat
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Get started using Vale at Red Hat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-vale-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing Vale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-redhat-style-for-vale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing the Red Hat style for Vale globally
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyze-with-vale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyzing your content with Vale
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analyzing your content with Vale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyzing your content by using the Vale-at-Red-Hat web app
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyzing your content by running Vale from the command line
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vale-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding Vale output
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding Vale output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-vale-command-line-tool-output-presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding the vale command line tool output presentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vale-alert-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding Vale alert levels
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collating-vale-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collating Vale output
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collating Vale output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-vale-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding the vale output
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-in-the-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Vale in the IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Glossary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Glossary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vale-command-line-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale command-line tool
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale configuration file
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale rule
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale vocabulary
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reporting-vale-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generating extended Vale alerts reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-a-vale-onboarding-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining a Vale onboarding strategy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining a Vale onboarding strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assess-the-project-maturity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assess the project maturity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-small" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start small
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#focus-on-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Focus on errors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expect-false-positives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expect false positives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collect-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collect data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fix-the-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fix the alerts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-less-alerts-without-changing-the-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Display less alerts without changing the configuration file
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributing-to-the-vale-at-red-hat-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing to the vale-at-red-hat repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decrease-the-number-of-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decrease the number of alerts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-vale-configuration-to-a-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Vale to a project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-vocabulary-for-a-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a vocabulary for a project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-github-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrating Vale into your Git workflow by using a GitHub Action
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-vale-for-gitlab-code-quality-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enabling Vale GitLab Code Quality reports for merge requests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-with-a-continuous-integration-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Vale with a continuous integration service
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contributor-guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute to the Vale at Red Hat project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="reference-guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Red Hat Style for Vale reference guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vale-at-red-hat-user-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get started using Vale at Red Hat
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Get started using Vale at Red Hat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-vale-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing Vale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-redhat-style-for-vale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing the Red Hat style for Vale globally
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyze-with-vale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyzing your content with Vale
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analyzing your content with Vale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyzing your content by using the Vale-at-Red-Hat web app
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyzing your content by running Vale from the command line
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vale-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding Vale output
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding Vale output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-vale-command-line-tool-output-presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding the vale command line tool output presentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vale-alert-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding Vale alert levels
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collating-vale-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collating Vale output
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collating Vale output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-vale-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understanding the vale output
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-in-the-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Vale in the IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Glossary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Glossary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vale-command-line-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale command-line tool
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale configuration file
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale rule
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale style
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vale-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vale vocabulary
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reporting-vale-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generating extended Vale alerts reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defining-a-vale-onboarding-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defining a Vale onboarding strategy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining a Vale onboarding strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assess-the-project-maturity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assess the project maturity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-small" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start small
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#focus-on-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Focus on errors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expect-false-positives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expect false positives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collect-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collect data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fix-the-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fix the alerts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-less-alerts-without-changing-the-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Display less alerts without changing the configuration file
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributing-to-the-vale-at-red-hat-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing to the vale-at-red-hat repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decrease-the-number-of-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decrease the number of alerts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-vale-configuration-to-a-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding Vale to a project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-vocabulary-for-a-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a vocabulary for a project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-github-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrating Vale into your Git workflow by using a GitHub Action
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-vale-for-gitlab-code-quality-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enabling Vale GitLab Code Quality reports for merge requests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-vale-with-a-continuous-integration-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Vale with a continuous integration service
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/user-guide.adoc" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<html><body><h1 id="vale-at-red-hat-user-guide">Get started using Vale at Red Hat</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph _abstract">
+<p>Learn how to use Vale to lint your Red Hat documentation. This guide covers installing Vale and the RedHat style, analyzing documentation with various tools (CLI, IDE integrations, and desktop app), understanding and reporting Vale output, and integrating Vale into your workflow with GitHub Actions, GitLab CI, and other continuous integration services.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="introduction"><a class="anchor" href="#introduction"></a><a class="link" href="#introduction">Introduction</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/introduction.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Vale is a command-line tool that allows you to check your writing for grammar and spelling errors against a set of style rules. It’s open source, fast, and highly customizable.</p>
+</div>
+<div class="paragraph">
+<p>Vale can help you improve your content. For example:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You can measure how well your content complies with the style guide.</p>
+</li>
+<li>
+<p>You can fix style issues before you create a PR.</p>
+</li>
+<li>
+<p>You can perform more consistent peer reviews.</p>
+</li>
+<li>
+<p>You can write content that is more easily localized.</p>
+</li>
+</ul>
+</div>
+<div class="ulist _additional-resources">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="index.html#redhat-style-for-vale">Red Hat style for Vale</a></p>
+</li>
+<li>
+<p><a href="#glossary">Glossary</a></p>
+</li>
+<li>
+<p><a href="#installing-vale-cli">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="installing-vale-cli"><a class="anchor" href="#installing-vale-cli"></a><a class="link" href="#installing-vale-cli">Installing Vale</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/installing-vale-cli.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Install the Vale linter to begin reviewing content for style and structure.</p>
+</div>
+<div class="admonition danger"><p class="admonition-title">Important</p>
+<div class="paragraph">
+<p>If you are working in an established project that has already implemented Vale, you do not need to create a new <code>vale.ini</code>.
+The project will already have a <code>vale.ini</code> configuration.</p>
+</div>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>Install the <a href="https://docs.asciidoctor.org/asciidoctor/latest/install/">Asciidoctor</a> Ruby gem.</p>
+</li>
+<li>
+<p>If you have previously installed Vale, you can check what version you are currently running.
+Run the following command:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>vale <span class="nt">--version</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example output</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="go">vale version 3.6.1</span></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Install Vale.
+For RHEL or Fedora Linux operating systems, run the following command:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>dnf copr <span class="nb">enable </span>mczernek/vale <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>dnf <span class="nb">install </span>vale</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>On macOS, run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>brew <span class="nb">install </span>vale</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Verify the Vale install location.
+You might need to update your text editor with this value.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>which vale</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example output</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="go">/usr/bin/vale</span></code></pre>
+</div>
+</div>
+<div class="admonition note"><p class="admonition-title">Note</p>
+<div class="paragraph">
+<p>For other operating systems, see <a href="https://vale.sh/docs/vale-cli/installation/">Installing Vale</a>.</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/vale-cli/installation/">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/topics/config">Configuring Vale CLI</a></p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode">Install the Visual Studio Code extension for Vale, "Vale VSCode"</a> (Important: This new extension replaces the deprecated "vale-server" extension.)</p>
+</li>
+<li>
+<p><a href="https://plugins.jetbrains.com/plugin/19613-vale-cli">Intellijel IDE + Vale</a></p>
+</li>
+<li>
+<p><a href="https://packagecontrol.io/packages/LSP-vale-ls">Sublime Text + Vale</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/generator">Vale configuration generator</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="installing-redhat-style-for-vale"><a class="anchor" href="#installing-redhat-style-for-vale"></a><a class="link" href="#installing-redhat-style-for-vale">Installing the Red Hat style for Vale globally</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/installing-redhat-style-for-vale.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>You can install the <code>RedHat</code> style for Vale globally.</p>
+</div>
+<div class="admonition danger"><p class="admonition-title">Important</p>
+<div class="paragraph">
+<p>The <code>RedHat</code> style for Vale requires Vale version 3.7 and above.</p>
+</div>
+</div>
+<div class="admonition danger"><p class="admonition-title">Important</p>
+<div class="paragraph">
+<p>Some product documentation repositories, such as <code>openshift-docs</code>, have an existing <code>.vale.ini</code> file.
+When you run <code>vale</code> on content files in the repository directory, the <code>&lt;repository&gt;/.vale.ini</code> file overrides the <code>$HOME/.vale.ini</code> file. For more information, see <a href="https://vale.sh/docs/topics/config">Vale configuration reference</a>.</p>
+</div>
+<div class="paragraph">
+<p>Run <code>vale sync</code> in your project directory to download the Vale rules relative to that project directory.</p>
+</div>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>To use Vale with the <code>RedHat</code> package system-wide, create the following <code>.vale.ini</code> configuration file in your <code>$HOME</code> directory.</p>
+<div class="listingblock">
+<div class="title">Example .vale.ini</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="ini"><span class="py">StylesPath</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">.vale/styles</span>
+<span class="w">
+</span><span class="py">MinAlertLevel</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">suggestion</span>
+<span class="w">
+</span><span class="py">IgnoredScopes</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">code, tt, img, url, a, body.id</span>
+<span class="w">
+</span><span class="py">SkippedScopes</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">script, style, pre, figure, code, tt, blockquote, listingblock, literalblock</span>
+<span class="w">
+</span><span class="py">Packages</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="nn">[*.adoc]</span><span class="w">
+
+</span><span class="py">BasedOnStyles</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="nn">[*.md]</span><span class="w">
+
+</span><span class="py">BasedOnStyles</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="c"># Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
+</span><span class="py">TokenIgnores</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">(</span><span class="se">\x</span><span class="s">60[^</span><span class="se">\n\x</span><span class="s">60]+</span><span class="se">\x</span><span class="s">60), ([^</span><span class="se">\n</span><span class="s">]+=[^</span><span class="se">\n</span><span class="s">]*), (</span><span class="se">\+</span><span class="s">[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\+</span><span class="s">), (http[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\[</span><span class="s">)</span>
+<span class="w">
+</span><span class="c"># Match INI files. See: https://docs.errata.ai/vale/scoping
+</span><span class="nn">[*.ini]</span><span class="w">
+
+</span><span class="py">BasedOnStyles</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="c"># Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
+</span><span class="py">TokenIgnores</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">(</span><span class="se">\x</span><span class="s">60[^</span><span class="se">\n\x</span><span class="s">60]+</span><span class="se">\x</span><span class="s">60), ([^</span><span class="se">\n</span><span class="s">]+=[^</span><span class="se">\n</span><span class="s">]*), (</span><span class="se">\+</span><span class="s">[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\+</span><span class="s">), (http[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\[</span><span class="s">)</span>
+<span class="w">
+</span><span class="c"># Disabling rules (NO)
+</span><span class="py">RedHat.CaseSensitiveTerms</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.ConfigMap</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Definitions</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Slash</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Spacing</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Spelling</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.TermsSuggestions</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span></code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Sync the <code>RedHat</code> package to your computer.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale <span class="nb">sync</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example output</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>vale <span class="nb">sync</span>
+<span class="go"> SUCCESS  Downloaded package 'RedHat'
+Downloading packages [1/1]</span></code></pre>
+</div>
+</div>
+<div class="admonition tip"><p class="admonition-title">Tip</p>
+To get the latest updates, run <code>vale sync</code> regularly.
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<div class="title">Verification</div>
+<ol class="arabic">
+<li>
+<p>Run <code>vale</code> against a source file:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span><span class="nb">cd </span><em>&lt;project_directory&gt;</em>
+<span class="gp">$</span><span class="w"> </span>vale <em>&lt;filename&gt;</em></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Example output</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>vale modules/ztp-creating-the-site-secrets.adoc
+<span class="go">
+ modules/ztp-creating-the-site-secrets.adoc
+ 10:222  error       Use 'Assisted Installer'        Vale.Terms
+                     instead of 'assisted
+                     installer'.
+ 14:13   suggestion  'are referenced' is passive     RedHat.PassiveVoice
+                     voice. In general, use active
+                     voice. Consult the style guide
+                     for acceptable use of passive
+                     voice.
+
+✖ 2 errors, 0 warnings and 1 suggestion in 1 file.</span></code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="analyze-with-vale"><a class="anchor" href="#analyze-with-vale"></a><a class="link" href="#analyze-with-vale">Analyzing your content with Vale</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/analyze-with-vale.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>To analyze your content, you can run Vale from the command line, within your IDE, and by using the Vale-at-Red-Hat online web app.</p>
+</div>
+<div class="paragraph">
+<div class="title">Analyzing your content locally</div>
+<p>For more information, see the following topics:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#using-vale-cli">Using Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+<li>
+<p><a href="#using-vale-in-the-ide">Using Vale in the IDE</a></p>
+</li>
+<li>
+<p><a href="#using-vale-app">Using Vale app</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<div class="title">Git workflow integration</div>
+<p>You can also analyze your content by integrating Vale into the Git workflow of a shared content project. For more information, see the following topics:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#using-vale-github-action">Using Vale GitHub Action</a></p>
+</li>
+<li>
+<p><a href="#using-vale-with-a-continuous-integration-service">Using Vale with a continuous integration service</a></p>
+</li>
+<li>
+<p><a href="#reporting-vale-alerts">Reporting Vale alerts</a></p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 class="adoc-flex" id="using-vale-app"><a class="anchor" href="#using-vale-app"></a><a class="link" href="#using-vale-app">Analyzing your content by using the Vale-at-Red-Hat web app</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/using-vale-app.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h3>
+
+<div class="paragraph">
+<p>To get familiar with Vale without installing the Vale software on your local client, you can use the Vale-at-Red-Hat web app.
+This web app is preconfigured to analyze your content by using Red Hat’s style rules.</p>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>You must have Docker or Podman installed on your system.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Run the following command to download the image and start the container:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="bash">docker run <span class="nt">--rm</span> <span class="nt">-p</span> 8080:8080 quay.io/ganelson/vale-online-app</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Open your browser and go to <code>http://localhost:8080</code>.</p>
+</li>
+<li>
+<p>Paste the content you want to check in the text area and click on the <code>Lint</code> button.</p>
+<div class="exampleblock" id="NOTE">
+<div class="content">
+<div class="paragraph">
+<p>By default, the Vale-at-Red-Hat web app displays warnings and errors only. You can also view suggestions by using the options menu on the left.</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>To close the app, press <code>Ctrl+C</code> in the terminal where the container is running.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 class="adoc-flex" id="using-vale-cli"><a class="anchor" href="#using-vale-cli"></a><a class="link" href="#using-vale-cli">Analyzing your content by running Vale from the command line</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/using-vale-cli.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h3>
+
+<div class="paragraph">
+<p>To analyze your content to see how it aligns with the <a href="https://redhat-documentation.github.io/supplementary-style-guide/">Red Hat supplementary</a> and <a href="https://www.ibm.com/docs/en/ibm-style">IBM</a> style guides, you can run Vale from the command line.
+You can run Vale on individual files or an entire directory.</p>
+</div>
+<div class="paragraph">
+<p>Vale analyzes the specified content according to the command options and the style preferences that you have specified in your <code>.vale.ini</code> configuration file.</p>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>You’ve installed a recent release <a href="https://vale.sh/docs/vale-cli/installation/">Vale</a> on your system.</p>
+</li>
+<li>
+<p>You’ve installed a recent release of <a href="https://docs.asciidoctor.org/asciidoctor/latest/">Asciidoctor</a> on your system.</p>
+</li>
+<li>
+<p>You’ve <a href="#installing-vale-cli">installed and configured Vale CLI</a>, setting both <code>Packages</code>  and <code>BasedOnStyles</code> to  <code>RedHat</code> in the <code>.vale.ini</code> file.</p>
+</li>
+<li>
+<p>You’ve gotten the latest <a href="https://github.com/redhat-documentation/vale-at-red-hat"><code>RedHat</code></a> style by running the <code>vale sync</code> command.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Start a terminal session and go to the content folder containing the files that you want to analyze.</p>
+</li>
+<li>
+<p>Enter the <code>vale</code> linter command by using the following syntax:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale <em>&lt;target_file_name&gt;</em> <span class="nt">--<em></em></span>&lt;option&gt; <span class="o">&gt;</span> <em>&lt;output_file_name&gt;</em></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Where:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>&lt;target_file_name&gt;</code> is the name of the content file that you want to analyze.
+Or use the <code>*</code> wildcard to analyze all files in the current folder.</p>
+</li>
+<li>
+<p><code>&lt;option&gt;</code> is an option you can use to tailor the alerts or linter output.
+For more information, see <em>Example use cases for running the Vale command</em>.</p>
+</li>
+<li>
+<p><code>&lt;output_file_name&gt;</code> is an option that you can append to the command to pipe the output to a specific file instead of at the command line.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Verification</div>
+<p>Review the list of suggestions, warnings, and errors that Vale outputs to the command line.
+See <a href="#understanding-vale-output">Understanding Vale output</a>.</p>
+</div>
+<div class="ulist">
+<div class="title">Example use cases for running the Vale command</div>
+<ul>
+<li>
+<p>To verify the style compliance of a file in the current folder called <code>example.adoc</code>, enter:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale example.adoc</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>To verify the style compliance of all files in the current folder and turn off text wrapping in the command-line output, enter:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale <span class="k">*</span>.<span class="k">*</span> <span class="nt">--no-wrap</span></code></pre>
+</div>
+</div>
+<div class="admonition note"><p class="admonition-title">Note</p>
+<div class="paragraph">
+<p>If you are expecting a large quantity of output in the report, use the <code>--no-wrap</code> option to make the results easier to read from the command line.</p>
+</div>
+</div>
+</li>
+<li>
+<p>To verify the style compliance of a file named <code>example.adoc</code> and remove suggestions from the output to retrieve warnings and errors, enter:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale example.adoc <span class="nt">--minAlertLevel</span><span class="o">=</span>warning</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>To verify the style compliance of a file named <code>example.adoc</code> and report errors only, enter:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale example.adoc <span class="nt">--minAlertLevel</span><span class="o">=</span>error</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>To verify the style compliance of a file named <code>example.adoc</code> and output errors only into a file in JSON format, enter:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale example.adoc <span class="nt">--minAlertLevel</span><span class="o">=</span>error <span class="nt">--output</span><span class="o">=</span><span class="s2">"JSON"</span> | <span class="nb">tee</span> ~/test.json</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>To verify the style compliance of a file named <code>example.adoc</code> and output errors only into a file in JSON format, enter:</p>
+</li>
+<li>
+<p>To get help including a list of valid options for running Vale, enter:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>vale <span class="nt">--help</span></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<div class="title">Additional resources</div>
+<p><a href="#using-vale-in-the-ide">Using Vale in the IDE</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 class="adoc-flex" id="understanding-vale-output"><a class="anchor" href="#understanding-vale-output"></a><a class="link" href="#understanding-vale-output">Understanding Vale output</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/understanding-vale-output.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h3>
+
+<div class="paragraph">
+<p>As a technical writer, you typically run <code>vale</code> on the command-line against a content file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ cd openshift-docs/logging/troubleshooting/
+$ vale cluster-logging-troubleshooting-for-critical-alerts.adoc</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The resulting command output gives you a list of suggestions, warnings, and errors based on customizable styles and vocabulary.</p>
+</div>
+<div class="paragraph">
+<p>As a writer, you review the output, decide which issues are valid, and update your content accordingly.</p>
+</div>
+<div class="exampleblock">
+<div class="title">Example 1. <code>vale</code> command line output example</div>
+<div class="content">
+<pre>
+238:27 <font color="#CC0000">error</font>      Did you really mean        Vale.Spelling
+                    'rebalancing'?
+244:6  <font color="#3465A4">suggestion</font> Verify your use of 'there  IBM.Usage
+                  are' with the word usage
+                  guidelines.
+244:38 <font color="#C4A000">warning</font>    Consider using 'available' CheDocs.CommonTerms
+                  rather than 'present'
+</pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="understanding-the-vale-command-line-tool-output-presentation"><a class="anchor" href="#understanding-the-vale-command-line-tool-output-presentation"></a><a class="link" href="#understanding-the-vale-command-line-tool-output-presentation">Understanding the <code>vale</code> command line tool output presentation</a></h4>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">First column</dt>
+<dd>
+<p>The line and character number of the issue, such as: <code>244:6</code>.</p>
+</dd>
+<dt class="hdlist1">Second column</dt>
+<dd>
+<p>The alert level, such as <code>error</code>, <code>suggestion</code>, or <code>warning</code>. See: <a href="#understanding-vale-alert-levels">Understanding Vale alert levels</a></p>
+</dd>
+<dt class="hdlist1">Third column</dt>
+<dd>
+<p>The rule message, such as: <code>Verify your use of 'there are'</code></p>
+</dd>
+<dt class="hdlist1">Fourth column</dt>
+<dd>
+<p>The name of the style and of the rule, such as: <code>IBM.Usage</code>.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect3">
+<h4 id="understanding-vale-alert-levels"><a class="anchor" href="#understanding-vale-alert-levels"></a><a class="link" href="#understanding-vale-alert-levels">Understanding Vale alert levels</a></h4>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">error</dt>
+<dd>
+<p>Fix the language error. This alert level includes <em>Spelling</em> errors, which are frequently happening on products and tools names. In that case, consider <a href="#creating-a-vocabulary-for-a-project">creating a vocabulary for a project</a> or <a href="contributor-guide.html#extending-styles">extending styles</a>.</p>
+</dd>
+<dt class="hdlist1">warning</dt>
+<dd>
+<p>Consider fixing the language error.</p>
+</dd>
+<dt class="hdlist1">suggestion</dt>
+<dd>
+<p>Heads up! Verify the usage depending on the context. Content containing suggestions is fine.</p>
+</dd>
+</dl>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+<li>
+<p><a href="#creating-a-vocabulary-for-a-project">Creating a vocabulary for a project</a></p>
+</li>
+<li>
+<p><a href="contributor-guide.html#extending-styles">Extending styles</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 class="adoc-flex" id="collating-vale-output"><a class="anchor" href="#collating-vale-output"></a><a class="link" href="#collating-vale-output">Collating Vale output</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/collating-vale-output.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h3>
+
+<div class="paragraph">
+<p>You can use a template to collate the results from running <code>vale</code> on the command line. This collated output is non-repetitive and might be easier to use.</p>
+</div>
+<div class="paragraph">
+<p>The <code>RedHat</code> style includes a <code>collate-output.tmpl</code> template you can specify when you run the <code>vale</code> command. For example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ cd openshift-docs/
+$ vale --output='.vale/styles/RedHat/collate-output.tmpl' modules/about-crio.adoc</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The resulting command output collates any repetitive the suggestions, warnings, or errors.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example <code>vale</code> output from the <code>collate-output.tmpl</code> template</div>
+<div class="content">
+<pre> modules/about-crio.adoc
+
+ 7:9,11:107  suggestion  Define acronyms and             RedHat.Definitions
+                         abbreviations (such as 'CRI')
+                         on first occurrence if they're
+                         likely to be unfamiliar.
+
+0 errors, 0 warnings and 2 suggestions in 1 file.</pre>
+</div>
+</div>
+<div class="admonition note"><p class="admonition-title">Note</p>
+<div class="paragraph">
+<p>When you use the <code>--output</code> option, other options such as <code>--minAlertLevel</code> might not work.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="understanding-the-vale-output"><a class="anchor" href="#understanding-the-vale-output"></a><a class="link" href="#understanding-the-vale-output">Understanding the <code>vale</code> output</a></h4>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">First column</dt>
+<dd>
+<p>A comma-separated list of each instance where the issue appears: <code>7:9,11:107</code>.</p>
+</dd>
+<dt class="hdlist1">Second column</dt>
+<dd>
+<p>The alert level, such as <code>error</code>, <code>suggestion</code>, or <code>warning</code>. See: <a href="#understanding-vale-alert-levels">Understanding Vale alert levels</a></p>
+</dd>
+<dt class="hdlist1">Third column</dt>
+<dd>
+<p>The rule message, such as: <code>Define acronyms and abbreviations (such as 'CRI') on first occurrence if they’re likely to be unfamiliar.</code></p>
+</dd>
+<dt class="hdlist1">Fourth column</dt>
+<dd>
+<p>The name of the style and rule, such as: <code>RedHat.Definitions</code>.</p>
+</dd>
+</dl>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/manual/output/">The <code>--output</code> topic in the Vale manual</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 class="adoc-flex" id="using-vale-in-the-ide"><a class="anchor" href="#using-vale-in-the-ide"></a><a class="link" href="#using-vale-in-the-ide">Using Vale in the IDE</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/using-vale-in-the-ide.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h3>
+
+<div class="paragraph">
+<p>Consider using Vale in your IDE when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You want a direct feedback in your editor.</p>
+</li>
+<li>
+<p>You use a supported IDE, such as Visual Studio Code. See: <a href="https://vale.sh/docs/integrations/guide/">How to integrate Vale with other tools and services</a>.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>Vale CLI is installed and configured. See <a href="#installing-vale-cli">Installing Vale CLI</a>.</p>
+</li>
+<li>
+<p><a href="https://github.com/microsoft/vscode">Visual Studio Code</a> is installed.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>In  Visual Studio Code, install the latest <a href="https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode">"Vale VSCode" extension by Chris Chinchilla</a>.</p>
+</li>
+<li>
+<p>Restart Visual Studio Code.</p>
+</li>
+</ol>
+</div>
+<div class="admonition note"><p class="admonition-title">Note</p>
+Avoid installing the earlier obsolete "Vale" extension by errata-ai, which is very similar in appearance to the latest extension.
+</div>
+<div class="olist arabic">
+<div class="title">Verification</div>
+<ol class="arabic">
+<li>
+<p>Open a content file causing vale alerts.</p>
+</li>
+<li>
+<p>Open the <strong>Problems</strong> view and search for vale alerts in it.</p>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode">"Vale VSCode" extension by Chris Chinchilla</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/integrations/guide/">How to integrate Vale with other tools and services</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="glossary"><a class="anchor" href="#glossary"></a><a class="link" href="#glossary">Glossary</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/glossary.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="sect2">
+<h3 id="vale-command-line-tool"><a class="anchor" href="#vale-command-line-tool"></a><a class="link" href="#vale-command-line-tool">Vale command-line tool</a></h3>
+<div class="paragraph">
+<p>The <code>vale</code> command-line tool brings code-like linting to prose. Use it to validate language on your local environment or in continuous integration services.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#installing-vale-cli">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#using-vale-with-a-continuous-integration-service">Using Vale with a continuous integration service</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/cli">Vale documentation - CLI</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="vale-configuration-file"><a class="anchor" href="#vale-configuration-file"></a><a class="link" href="#vale-configuration-file">Vale configuration file</a></h3>
+<div class="paragraph">
+<p>The Vale configuration file <code>.vale.ini</code> defines:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>File names patterns to match files to validate</p>
+</li>
+<li>
+<p>Active styles and vocabulary</p>
+</li>
+<li>
+<p>Custom content patterns to change scoping behavior</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#installing-vale-cli">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#adding-vale-configuration-to-a-project">Adding Vale configuration to a project</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/topics/config">Vale documentation - Configuration</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="vale-rule"><a class="anchor" href="#vale-rule"></a><a class="link" href="#vale-rule">Vale rule</a></h3>
+<div class="paragraph">
+<p>A Vale rule is a YAML file defining:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>a language issue, including spelling issues</p>
+</li>
+<li>
+<p>a proposed solution</p>
+</li>
+<li>
+<p>a link to more information.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="index.html#redhat-style-for-vale">Red Hat style for Vale</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/topics/styles">Vale documentation - Styles</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="vale-style"><a class="anchor" href="#vale-style"></a><a class="link" href="#vale-style">Vale style</a></h3>
+<div class="paragraph">
+<p>A Vale style is a directory containing a collection of rules.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="index.html#redhat-style-for-vale">Red Hat style for Vale</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/topics/styles">Vale documentation - Styles</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="vale-vocabulary"><a class="anchor" href="#vale-vocabulary"></a><a class="link" href="#vale-vocabulary">Vale vocabulary</a></h3>
+<div class="paragraph">
+<p>In a project, a Vale vocabulary is an optional additional directory containing lists of accepted and rejected words, applying to all styles.</p>
+</div>
+<div class="paragraph">
+<p>Consider <a href="#creating-a-vocabulary-for-a-project">creating a vocabulary for a project</a> when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Missing words in the Vale dictionary are causing Spelling errors</p>
+</li>
+<li>
+<p>The word is too specific to benefit to other projects.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Consider <a href="contributor-guide.html#extending-styles">Extending styles</a> when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Missing words in the Vale dictionary are causing Spelling errors</p>
+</li>
+<li>
+<p>Adding the word will benefit to other projects. For example: product and tool names, common terms specific to the software industry.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#creating-a-vocabulary-for-a-project">Creating a vocabulary for a project</a></p>
+</li>
+<li>
+<p><a href="contributor-guide.html#extending-styles">Extending styles</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/topics/vocab">Vale documentation - Vocabulary</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="reporting-vale-alerts"><a class="anchor" href="#reporting-vale-alerts"></a><a class="link" href="#reporting-vale-alerts">Generating extended Vale alerts reports</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/reporting-vale-alerts.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Consider generating extended Vale alerts reports about a Git repository to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Measure language compliance in a repository</p>
+</li>
+<li>
+<p>Gather data before <a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>These reports use the Vale report in JSON format and additional information such as the word count.</p>
+</div>
+<div class="paragraph">
+<p>On bigger repositories, with more than 1000000 words, consider building your own reporting tool to chunk the task in smaller pieces.</p>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>The <code>vale</code> tool is installed and configured. See <a href="#installing-vale-cli">Installing Vale CLI</a>.</p>
+</li>
+<li>
+<p>The <code>jq</code> tool is installed. See <a href="https://stedolan.github.io/jq/download/">Downloading <code>jq</code></a>.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Generate vale alerts reports for <em>&lt;location&gt;</em>:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span>./tools/vale_report.sh <em>&lt;location&gt;</em></code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>The script creates following files for each Git repository found at <em>&lt;location&gt;</em>:</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>vale-report_&lt;repository&gt;_-list.log</code></dt>
+<dd>
+<p>List of AsciiDoc files considered for the report.</p>
+</dd>
+<dt class="hdlist1"><code>vale-report_&lt;repository&gt;_-wordcount.log</code></dt>
+<dd>
+<p>Word count for all files in the file list. Use this information to compare the number of alerts between repositories.</p>
+</dd>
+<dt class="hdlist1"><code>vale-report_&lt;repository&gt;_.json</code></dt>
+<dd>
+<p>Vale report in JSON format. Use the <code>jq</code> tool to query the results.</p>
+</dd>
+<dt class="hdlist1"><code>vale-report_&lt;repository&gt;_.severity</code></dt>
+<dd>
+<p>Breakdown of alerts by severity.</p>
+</dd>
+<dt class="hdlist1"><code>vale-report_&lt;repository&gt;_.rules</code></dt>
+<dd>
+<p>Breakdown of alerts by rules.</p>
+</dd>
+<dt class="hdlist1"><code>vale-report_&lt;repository&gt;_.Spelling.txt</code></dt>
+<dd>
+<p>Breakdown of <code>Spelling</code> alerts.</p>
+</dd>
+</dl>
+</div>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="defining-a-vale-onboarding-strategy"><a class="anchor" href="#defining-a-vale-onboarding-strategy"></a><a class="link" href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/defining-a-vale-onboarding-strategy.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Embracing a linter in a project is a long journey. The full Vale report can be discouraging at first. Remember that:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You are in charge: review the report and decide what is useful to you.</p>
+</li>
+<li>
+<p>The styles are not perfect or complete.</p>
+</li>
+<li>
+<p>Assess the maturity of the project.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p><a href="#reporting-vale-alerts">Reporting Vale alerts</a></p>
+</li>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="assess-the-project-maturity"><a class="anchor" href="#assess-the-project-maturity"></a><a class="link" href="#assess-the-project-maturity">Assess the project maturity</a></h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Zero Vale errors</dt>
+<dd>
+<p>The project is compliant with the <code>RedHat</code> style. Consider integration with a continuous integration service using the defaults from the <code>vale-at-red-hat</code> repository.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#using-vale-github-action">Using Vale GitHub Action</a></p>
+</li>
+<li>
+<p><a href="#using-vale-with-a-continuous-integration-service">Using Vale with a continuous integration service</a></p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">Under 100 Vale errors</dt>
+<dd>
+<p>The project is almost compliant with the <code>RedHat</code> style. Consider integration with a continuous integration service using the defaults from the <code>vale-at-red-hat</code> repository. Consider massively fixing the few errors.</p>
+</dd>
+<dt class="hdlist1">Over 100 Vale errors</dt>
+<dd>
+<p>The project is big or poorly compliant with the <code>RedHat</code> style. Consider further investigation to understand the issue.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="start-small"><a class="anchor" href="#start-small"></a><a class="link" href="#start-small">Start small</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>To onboard a collection of repositories, start by the repository with the smallest word count. See <a href="#reporting-vale-alerts">Reporting Vale alerts</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="focus-on-errors"><a class="anchor" href="#focus-on-errors"></a><a class="link" href="#focus-on-errors">Focus on errors</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Report only <strong>errors</strong>. Don’t report <strong>warnings</strong> and <strong>suggestions</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ vale --minAlertLevel=error .</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="expect-false-positives"><a class="anchor" href="#expect-false-positives"></a><a class="link" href="#expect-false-positives">Expect false positives</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>The <code>RedHat</code> style has been thoroughly tested on a corpus of 113000 words. You can expect false positives when applying the style to a new corpus. Consider <a href="contributor-guide.html">contributing</a> to the style.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="collect-data"><a class="anchor" href="#collect-data"></a><a class="link" href="#collect-data">Collect data</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#reporting-vale-alerts">Reporting Vale alerts</a></p>
+</li>
+<li>
+<p>Use the results to identify the rule creating the most errors, and work on that rule. Most probably, start with the Spelling rule.</p>
+</li>
+<li>
+<p>Report alerts for one single rule. Maybe use custom output templates to generate a custom report. See <a href="https://vale.sh/docs/integrations/guide/#json-output-of-checks">Vale documentation - JSON output of checks</a> and <a href="https://vale.sh/manual/output">Vale documentation - <code>--output</code></a>. Consider aggregating alerts to identify the most common. Examine the report to distinguish legit alerts from false positives. Use the curated list of false positives to <a href="https://github.com/redhat-documentation/vale-at-red-hat/issues">report an issue</a>.</p>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>For example, for the Spelling rule, create a report containing the list of all words reported by the Spelling rule, and count their occurrences.
+Use that list to differentiate false positives from legit errors. Use the curated list to <a href="https://github.com/redhat-documentation/vale-at-red-hat/issues">report an issue</a>.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fix-the-alerts"><a class="anchor" href="#fix-the-alerts"></a><a class="link" href="#fix-the-alerts">Fix the alerts</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Run campaigns focused on one target such as: fix all errors, fix all occurrences of a given rule.</p>
+</li>
+<li>
+<p>Disable a rule that is irrelevant in the file context. See: <a href="https://vale.sh/docs/topics/config/#markup-based-configuration">Vale - Markup-based configuration</a></p>
+<div class="listingblock">
+<div class="content">
+<pre>pass:[&lt;!-- vale RedHat.Spelling = NO --&gt;]
+
+The Spelling rule is ignored for this line.
+
+pass:[&lt;!-- vale RedHat.Spelling = YES --&gt;]
+
+The Spelling rule is active for this line.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="display-less-alerts-without-changing-the-configuration-file"><a class="anchor" href="#display-less-alerts-without-changing-the-configuration-file"></a><a class="link" href="#display-less-alerts-without-changing-the-configuration-file">Display less alerts without changing the configuration file</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Display only <strong>errors</strong>. Don’t display <strong>warnings</strong> and <strong>suggestions</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ vale --minAlertLevel=error .</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Display only <strong>errors</strong> and <strong>warnings</strong>. Don’t display <strong>suggestions</strong>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ vale --minAlertLevel=warning .</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="contributing-to-the-vale-at-red-hat-repository"><a class="anchor" href="#contributing-to-the-vale-at-red-hat-repository"></a><a class="link" href="#contributing-to-the-vale-at-red-hat-repository">Contributing to the <em>vale-at-red-hat</em> repository</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="contributor-guide.html#extending-styles">Extending styles</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="decrease-the-number-of-alerts"><a class="anchor" href="#decrease-the-number-of-alerts"></a><a class="link" href="#decrease-the-number-of-alerts">Decrease the number of alerts</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#creating-a-vocabulary-for-a-project">Creating a vocabulary for a project</a></p>
+</li>
+<li>
+<p>Altering <strong>rules</strong> severity or disabling <strong>rules</strong> for the project. See <a href="#adding-vale-configuration-to-a-project">adding Vale configuration to a project</a> and <a href="https://vale.sh/docs/topics/config">Vale documentation - configuration</a>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>RedHat.Annotations = NO
+RedHat.Slash = warning
+RedHat.Usage = suggestion</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Creating an additional style for the project. See <a href="#adding-vale-configuration-to-a-project">adding Vale configuration to a project</a>.</p>
+</li>
+</ul>
+</div>
+<div class="ulist _additional-resources">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#installing-vale-cli">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="adding-vale-configuration-to-a-project"><a class="anchor" href="#adding-vale-configuration-to-a-project"></a><a class="link" href="#adding-vale-configuration-to-a-project">Adding Vale to a project</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/adding-vale-configuration-to-a-project.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Consider adding Vale configuration files to a project to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Simplify Vale usage by anyone in a project</p>
+</li>
+<li>
+<p>Use Vale in continuous integration</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>Install the Vale command-line tool.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Create a <code>.vale.ini</code> configuration file in the root directory for your documentation project:</p>
+<div class="listingblock">
+<div class="title">Example .vale.ini</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="ini"><span class="py">StylesPath</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">.vale/styles</span>
+<span class="w">
+</span><span class="py">MinAlertLevel</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">suggestion</span>
+<span class="w">
+</span><span class="py">IgnoredScopes</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">code, tt, img, url, a, body.id</span>
+<span class="w">
+</span><span class="py">SkippedScopes</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">script, style, pre, figure, code, tt, blockquote, listingblock, literalblock</span>
+<span class="w">
+</span><span class="py">Packages</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="nn">[*.adoc]</span><span class="w">
+
+</span><span class="py">BasedOnStyles</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="nn">[*.md]</span><span class="w">
+
+</span><span class="py">BasedOnStyles</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="c"># Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
+</span><span class="py">TokenIgnores</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">(</span><span class="se">\x</span><span class="s">60[^</span><span class="se">\n\x</span><span class="s">60]+</span><span class="se">\x</span><span class="s">60), ([^</span><span class="se">\n</span><span class="s">]+=[^</span><span class="se">\n</span><span class="s">]*), (</span><span class="se">\+</span><span class="s">[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\+</span><span class="s">), (http[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\[</span><span class="s">)</span>
+<span class="w">
+</span><span class="c"># Match INI files. See: https://docs.errata.ai/vale/scoping
+</span><span class="nn">[*.ini]</span><span class="w">
+
+</span><span class="py">BasedOnStyles</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">RedHat</span>
+<span class="w">
+</span><span class="c"># Ignore code surrounded by backticks or plus sign, parameters defaults, URLs.
+</span><span class="py">TokenIgnores</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">(</span><span class="se">\x</span><span class="s">60[^</span><span class="se">\n\x</span><span class="s">60]+</span><span class="se">\x</span><span class="s">60), ([^</span><span class="se">\n</span><span class="s">]+=[^</span><span class="se">\n</span><span class="s">]*), (</span><span class="se">\+</span><span class="s">[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\+</span><span class="s">), (http[^</span><span class="se">\n</span><span class="s">]+</span><span class="se">\[</span><span class="s">)</span>
+<span class="w">
+</span><span class="c"># Disabling rules (NO)
+</span><span class="py">RedHat.CaseSensitiveTerms</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.ConfigMap</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Definitions</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Slash</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Spacing</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.Spelling</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span>
+<span class="py">RedHat.TermsSuggestions</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">NO</span></code></pre>
+</div>
+</div>
+<div class="admonition danger"><p class="admonition-title">Important</p>
+<div class="paragraph">
+<p>By default, the <code>.vale.ini</code> file sets <code>MinAlertLevel = suggestion</code>.
+Consider changing <code>MinAlertLevel</code> to <code>warning</code> or <code>error</code> for new projects.</p>
+</div>
+<div class="paragraph">
+<p>For a complete list of possible configuration options, see <a href="https://vale.sh/docs/topics/config#config-file">configuration options for .vale.ini</a>.</p>
+</div>
+<div class="paragraph">
+<p>Review the following Red Hat project <code>.vale.ini</code> files as reference for developing your own Vale configuration:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/openshift/openshift-docs/blob/main/.vale.ini">openshift-docs</a></p>
+</li>
+<li>
+<p><a href="https://github.com/eclipse-che/che-docs/blob/main/.vale.ini">che-docs</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-developer/red-hat-developers-documentation-rhdh/blob/main/.vale.ini">https://github.com/redhat-developer/red-hat-developers-documentation-rhdh/blob/main/.vale.ini</a></p>
+</li>
+<li>
+<p><a href="https://github.com/quarkusio/quarkus/blob/main/docs/.vale.ini">quarkusio</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Run the <code>vale sync</code> command from the repository folder to download the rules to the project directory. For example:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span><span class="nb">cd </span>__&lt;project_directory&gt;__
+<span class="gp">$</span><span class="w"> </span>vale <span class="nb">sync</span>
+<span class="go"> SUCCESS  Downloaded package 'RedHat'
+Downloading packages [1/1]</span></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Verification</div>
+<ul>
+<li>
+<p>Run the <code>vale</code> command on one of your content files.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span><span class="nb">cd </span><em>&lt;project_directory&gt;</em>
+<span class="gp">$</span><span class="w"> </span>vale <em>&lt;filename&gt;</em></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="creating-a-vocabulary-for-a-project"><a class="anchor" href="#creating-a-vocabulary-for-a-project"></a><a class="link" href="#creating-a-vocabulary-for-a-project">Creating a vocabulary for a project</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/creating-a-vocabulary-for-a-project.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Consider adding a vocabulary to your project when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Missing words in the Vale dictionary cause spelling errors.</p>
+</li>
+<li>
+<p>The word is too specific for other projects.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p><a href="#installing-vale-cli">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#understanding-vale-output">Understanding Vale output</a></p>
+</li>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Procedure</div>
+<ul>
+<li>
+<p>Create or edit the vocabulary for your project: create or edit the <code>.vale/styles/Vocab/<em>&lt;Project&gt;</em>/accept.txt</code> file and add the missing word. Ensure the entry is not case-sensitive.</p>
+<div class="listingblock">
+<div class="title">Entry in the vocabulary, not case-sensitive</div>
+<div class="content">
+<pre>[Pp]odman</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Register the vocabulary in the <code>.vale.ini</code> file</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="ini"><span class="py">Vocab</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s"><em>&lt;Project&gt;</em></span></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Verification</div>
+<ul>
+<li>
+<p>Run the <code>vale</code> command on a content file containing the word that is missing.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="console"><span class="gp">$</span><span class="w"> </span><span class="nb">cd </span><em>&lt;project_directory&gt;</em>
+<span class="gp">$</span><span class="w"> </span>vale <em>&lt;filename&gt;</em></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://vale.sh/docs/topics/vocab">Vale documentation - Vocabularies</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="using-vale-github-action"><a class="anchor" href="#using-vale-github-action"></a><a class="link" href="#using-vale-github-action">Integrating Vale into your Git workflow by using a GitHub Action</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/using-vale-github-action.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Integrate Vale into your GitHub content development workflow by creating a GitHub Action that uses the <a href="https://github.com/errata-ai/vale-action">GitHub Action for Vale</a>.</p>
+</div>
+<div class="paragraph">
+<p>By creating a GitHub Action workflow for Vale, you can configure how Vale runs: you can set Vale flags and specify which Git workflow events trigger Vale jobs. For example, you can decide to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Run Vale when a contributor creates a pull request.</p>
+</li>
+<li>
+<p>Run Vale on only the changes.</p>
+</li>
+<li>
+<p>Allow the merging of pull requests if the report has errors.</p>
+</li>
+<li>
+<p>Block the merging of pull requests if the report has errors.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>For a full list of supported configuration options, see <a href="https://github.com/errata-ai/vale-action">Vale GitHub Action</a>.</p>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>Your content repository is on GitHub. For GitLab repos, see <a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a>.
+WARNING: Because of GitHub token permissions, the Vale GitHub Action cannot post annotations to pull requests from a forked repository.</p>
+</li>
+<li>
+<p>You have defined a <a href="#using-vale-with-a-continuous-integration-service">continuous integration strategy</a> for your project.</p>
+</li>
+<li>
+<p>You have reviewed and bookmarked the official <code>vale-action</code> information at <a href="https://github.com/errata-ai/vale-action">errata.ai</a>.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Copy <code>.vale.ini</code> from <a href="https://github.com/redhat-documentation/vale-at-red-hat">vale-at-red-hat</a> into the root of your GitHub repository and configure your style preferences.</p>
+</li>
+<li>
+<p>In the <code>.github/workflows/</code> folder of your project repository, create a YAML file called <code>vale.yml</code>.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Tip</strong>: You can also click <strong>Actions</strong> and use the GitHub Actions wizard to initialize the vale.yml file and validate your configuration.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Add the following configuration to the <code>.github/workflows/lint-with-vale.yml</code> file:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="nn">---</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Linting with Vale on pull request</span>
+<span class="na">on</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">pull_request</span><span class="pi">]</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">vale</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">Linting with Vale</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-22.04</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683</span> <span class="c1"># v4.2.2</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install Asciidoctor</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">sudo apt-get install -y asciidoctor</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">errata-ai/vale-action@d89dee975228ae261d22c15adcd03578634d429c</span> <span class="c1"># v2.1.1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">filter_mode</span><span class="pi">:</span> <span class="s">diff_context</span>
+          <span class="na">vale_flags</span><span class="pi">:</span> <span class="s2">"</span><span class="s">--no-exit</span><span class="nv"> </span><span class="s">--minAlertLevel=error</span><span class="nv"> </span><span class="s">--glob=*.adoc"</span>
+          <span class="na">reporter</span><span class="pi">:</span> <span class="s">github-pr-review</span>
+          <span class="na">fail_on_error</span><span class="pi">:</span> <span class="kc">true</span>
+        <span class="na">env</span><span class="pi">:</span>
+          <span class="c1"># Required, set by GitHub actions automatically:</span>
+          <span class="c1"># https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret</span>
+          <span class="na">GITHUB_TOKEN</span><span class="pi">:</span> <span class="s">${{secrets.GITHUB_TOKEN}}</span>
+          <span class="na">REVIEWDOG_GITHUB_API_TOKEN</span><span class="pi">:</span> <span class="s">${{secrets.GITHUB_TOKEN}}</span></code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when Vale errors exist, set <code>fail_on_error</code> to <strong>true</strong>.</p>
+</li>
+<li>
+<p>Commit and push the GitHub Action to the main branch of your GitHub repository and rebase your other branches.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Verification</div>
+<p>To test your GitHub Action, change or add some content files and submit a pull request to the main docs branch. Vale will run and report an expandable status summary in the PR.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="configuring-vale-for-gitlab-code-quality-reports"><a class="anchor" href="#configuring-vale-for-gitlab-code-quality-reports"></a><a class="link" href="#configuring-vale-for-gitlab-code-quality-reports">Enabling Vale GitLab Code Quality reports for merge requests</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/gitlab-code-quality-reports.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use this procedure to enable the GitLab Code Quality widget for Vale.
+The widget reports style compliance issues in the GitLab merge request interface.</p>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p><a href="#introduction">Introduction to Vale</a></p>
+</li>
+<li>
+<p><a href="#adding-vale-configuration-to-a-project">Adding Vale configuration to a project</a></p>
+</li>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Create a <code>.gitlab-ci.yml</code> file at the repository root with the following content:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">image</span><span class="pi">:</span> <span class="s">node:16-alpine</span>
+
+<span class="na">stages</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">test</span>
+
+<span class="na">code_quality</span><span class="pi">:</span>
+  <span class="na">stage</span><span class="pi">:</span> <span class="s">test</span>
+  <span class="na">image</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">jdkato/vale:latest</span>
+    <span class="na">entrypoint</span><span class="pi">:</span> <span class="pi">[</span><span class="s2">"</span><span class="s">"</span><span class="pi">]</span>
+  <span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">shared</span><span class="pi">]</span>
+  <span class="na">before_script</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">apk update &amp;&amp; apk add git</span>
+    <span class="pi">-</span> <span class="s">vale sync</span> <span class="c1"># Pull down VRH rules package specified in vale.ini</span>
+  <span class="na">script</span><span class="pi">:</span>
+    <span class="c1"># Get complete list of *.adoc files in the repository</span>
+    <span class="pi">-</span> <span class="s">FILES=$(find . -type f -name "*.adoc")</span> <i aria-hidden="true" class="conum" data-value="1"></i>
+    <span class="c1"># Clean out conditions for wider Vale coverage in AsciiDoc</span>
+    <span class="pi">-</span> <span class="s">sed -i -e 's/ifdef::.*\|ifndef::.*\|ifeval::.*\|endif::.*/ /' ${FILES}</span> <i aria-hidden="true" class="conum" data-value="2"></i>
+    <span class="c1"># Use a template to rearrange the vale JSON output</span>
+    <span class="c1"># Run vale with --no-exit to pass the build with errors</span>
+    <span class="pi">-</span> <span class="s">vale ${FILES} --minAlertLevel=error --glob='*.adoc' --output="$(pwd)/vale-json.tmpl" &gt; gl-code-quality-report.json</span>
+  <span class="na">artifacts</span><span class="pi">:</span>
+    <span class="na">reports</span><span class="pi">:</span>
+      <span class="na">codequality</span><span class="pi">:</span> <span class="s">gl-code-quality-report.json</span>
+  <span class="na">rules</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">if</span><span class="pi">:</span> <span class="s">$CODE_QUALITY_DISABLED</span>
+      <span class="na">when</span><span class="pi">:</span> <span class="s">never</span>
+    <span class="pi">-</span> <span class="na">if</span><span class="pi">:</span> <span class="s">$CI_PIPELINE_SOURCE == "merge_request_event"</span> <span class="c1"># Run code quality job in merge request pipelines</span>
+    <span class="pi">-</span> <span class="na">if</span><span class="pi">:</span> <span class="s">$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH</span> <span class="c1"># Run code quality job in pipelines on the default branch (but not in other branch pipelines)</span>
+    <span class="pi">-</span> <span class="na">if</span><span class="pi">:</span> <span class="s">$CI_COMMIT_TAG</span> <span class="c1"># Run code quality job in pipelines for tags</span></code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<ol class="colist"><li><html><body>Update the <code>$FILES</code> step to match your documentation source type, for example, use <code>*.md</code> for markdown.</body></html></li><li><html><body>Optional.
+Vale does not lint inside AsciiDoc conditional statements unless you pass the conditional variables as <a href="https://vale.sh/docs/topics/scoping/#asciidoc">Asciidoctor attributes</a>.
+You can bypass this limitation in the CI by temporarily removing <code>ifdef</code> and <code>ifeval</code> directives before linting with Vale.
+This step is only useful for AsciiDoc, and can be removed for other source formats.</body></html></li></ol>
+</div>
+</li>
+<li>
+<p>Create a <code>vale-json.tmpl</code> file at the repository root:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="tmpl">{{- /* Modify Vale output https://docs.errata.ai/vale/cli#--output */ -}}
+
+{{- /* Keep track of our various counts */ -}}
+
+{{- $e := 0 -}}
+{{- $w := 0 -}}
+{{- $s := 0 -}}
+{{- $f := 0 -}}
+
+{{- /* Range over the linted files */ -}}
+
+[
+{{- $first := true -}}
+{{- range $jdx, $file := .Files -}}
+  {{- $f = add1 $f -}}
+  {{- $path := $file.Path -}}
+
+  {{- /* Range over the file's alerts */ -}}
+  {{- range $idx, $a := $file.Alerts -}}
+    {{- if not $first -}},{{- end -}}
+    {{- $first = false -}}
+
+    {{- $error := "" -}}
+    {{- if eq $a.Severity "error" -}}
+      {{- $error = "critical" -}}
+      {{- $e = add1 $e -}}
+    {{- else if eq $a.Severity "warning" -}}
+      {{- $error = "major" -}}
+      {{- $w = add1 $w -}}
+    {{- else -}}
+      {{- $error = "minor" -}}
+      {{- $s = add1 $s -}}
+    {{- end}}
+
+    {{- /* Variables setup */ -}}
+
+    {{- $loc := printf "%d" $a.Line -}}
+    {{- $check := printf "%s" $a.Check -}}
+    {{- $message := printf "%s" $a.Message -}}
+
+    {{- /* Compute the Base64 encoded fingerprint string */ -}}
+    {{- $hashInput := printf "%s:%s:%s" $path $loc $message -}}
+    {{- $Base64Encoded := b64enc $hashInput -}}
+
+    {{- /* Output */ -}}
+    {
+      "description": "{{$check}}: {{ $message }}",
+      "check_name": "vale-error-report",
+      "fingerprint": "{{ $Base64Encoded }}",
+      "severity": "{{ $error }}",
+      "location": {
+        "path": "{{ $path }}",
+        "lines": {
+          "begin": {{ $loc }}
+        }
+      }
+    }
+  {{- end -}}
+{{- end -}}
+]</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Add the following entries to <code>.gitignore</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>.vale
+gl-code-quality-report.json</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Commit the files to the local repository:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>git add .
+git commit -m "Add GitLab CI/CD code quality pipeline"</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Push the changes to the remote repository:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>git push -u origin main</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>When you merge the changes to the main branch, a code quality pipeline will run for every new commit added in a merge request. The code quality report is available in the Merge Request <strong>Overview</strong> tab.</p>
+</div>
+<div class="admonition note"><p class="admonition-title">Note</p>
+<div class="paragraph">
+<p>The GitLab CI job creates the code quality report by comparing a complete list of errors in the main branch and a list of errors in the merge request branch.
+This might cause a CI bottleneck on large repositories with 1000s of files, but for small and medium repositories, the CI processing time is negligible.</p>
+</div>
+</div>
+<div class="ulist _additional-resources">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://docs.gitlab.com/ee/ci/testing/code_quality.html">GitLab Code Quality</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="using-vale-with-a-continuous-integration-service"><a class="anchor" href="#using-vale-with-a-continuous-integration-service"></a><a class="link" href="#using-vale-with-a-continuous-integration-service">Using Vale with a continuous integration service</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/using-vale-with-a-continuous-integration-service.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Consider using the Vale CLI with a continuous integration service when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The goal is to measure or enforce the project compliance with the Style Guides.</p>
+</li>
+<li>
+<p><a href="#using-vale-github-action">Using Vale GitHub Action</a> is not an option.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p><a href="#installing-vale-cli">Installing Vale CLI</a></p>
+</li>
+<li>
+<p><a href="#adding-vale-configuration-to-a-project">Adding Vale configuration to a project</a></p>
+</li>
+<li>
+<p><a href="#defining-a-vale-onboarding-strategy">Defining a Vale onboarding strategy</a></p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Configure your continuous integration service to download the <code>vale</code> CLI, the <code>RedHat</code> style and the Vale configuration file by using a <code>download-vale.sh</code> script such as:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="bash"><span class="c">#!/bin/sh</span>
+<span class="c">#</span>
+<span class="c"># Copyright (c) 2021 Red Hat, Inc.</span>
+<span class="c"># This program and the accompanying materials are made</span>
+<span class="c"># available under the terms of the Eclipse Public License 2.0</span>
+<span class="c"># which is available at https://www.eclipse.org/legal/epl-2.0/</span>
+<span class="c">#</span>
+<span class="c"># SPDX-License-Identifier: EPL-2.0</span>
+<span class="c">#</span>
+<span class="nb">set</span> <span class="nt">-e</span>
+
+<span class="c"># Download latest vale release</span>
+gh release download <span class="nt">--repo</span> <span class="s1">'errata-ai/vale'</span> <span class="nt">--pattern</span> <span class="s1">'*Linux*.tar.gz'</span>
+<span class="nb">tar</span> <span class="nt">-xf</span> vale<span class="k">*</span>
+./vale <span class="nt">-v</span>
+
+<span class="c"># Download latest vale configuration from vale-at-red-hat</span>
+curl <span class="nt">-Os</span> https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/master/.vale.ini
+
+<span class="c"># Download latest `RedHat` style</span>
+<span class="nb">mkdir</span> .vale/styles <span class="o">||</span> <span class="nb">true
+cd</span> .vale/styles
+gh release download <span class="nt">--repo</span> <span class="s1">'redhat-documentation/vale-at-red-hat'</span> <span class="nt">--pattern</span> <span class="s1">'RedHat.zip'</span>
+unzip RedHat.zip</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Configure your continuous integration service to validate language changes by using a <code>validate-language-changes.sh</code> script such as:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="bash"><span class="c">#!/bin/sh</span>
+<span class="c">#</span>
+<span class="c"># Copyright (c) 2021 Red Hat, Inc.</span>
+<span class="c"># This program and the accompanying materials are made</span>
+<span class="c"># available under the terms of the Eclipse Public License 2.0</span>
+<span class="c"># which is available at https://www.eclipse.org/legal/epl-2.0/</span>
+<span class="c">#</span>
+<span class="c"># SPDX-License-Identifier: EPL-2.0</span>
+<span class="c">#</span>
+<span class="nb">set</span> <span class="nt">-e</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="k">${</span><span class="nv">GITHUB_BASE_REF</span><span class="k">}</span><span class="s2">"</span> <span class="o">]</span>
+    <span class="k">then 
+        </span><span class="nv">MAINBRANCH</span><span class="o">=</span><span class="s2">"origin/main"</span>
+    <span class="k">else
+        </span><span class="nv">MAINBRANCH</span><span class="o">=</span><span class="s2">"origin/</span><span class="nv">$GITHUB_BASE_REF</span><span class="s2">"</span>
+<span class="k">fi
+</span><span class="nv">FILES</span><span class="o">=</span><span class="si">$(</span>git diff <span class="nt">--name-only</span> <span class="nt">--diff-filter</span><span class="o">=</span>AM <span class="s2">"</span><span class="nv">$MAINBRANCH</span><span class="s2">"</span> <span class="s2">"*.adoc"</span><span class="si">)</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-n</span> <span class="s2">"</span><span class="k">${</span><span class="nv">FILES</span><span class="k">}</span><span class="s2">"</span> <span class="o">]</span>
+    <span class="k">then
+        </span><span class="nb">echo</span> <span class="s2">"Validating languages on file added or modified in comparison to </span><span class="nv">$MAINBRANCH</span><span class="s2"> with </span><span class="si">$(</span>vale <span class="nt">-v</span><span class="si">)</span><span class="s2">"</span>
+        <span class="nb">set</span> <span class="nt">-x</span>
+        <span class="c"># shellcheck disable=SC2086 # We want to split on spaces</span>
+        vale <span class="k">${</span><span class="nv">FILES</span><span class="k">}</span>
+    <span class="k">else
+        </span><span class="nb">echo</span> <span class="s2">"No files added or modified in comparison to </span><span class="nv">$MAINBRANCH</span><span class="s2">"</span>
+<span class="k">fi</span></code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://vale.sh/docs/vale-cli/installation/#using-vale-with-a-continuous-integration-ci-service">Add Vale to your docs continuous integration (CI) service</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</body></html>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Welcome
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="contributor-guide.html" class="md-footer__link md-footer__link--next" aria-label="Next: Contribute to the Vale at Red Hat project">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Contribute to the Vale at Red Hat project
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.footer", "navigation.top", "navigation.tracking", "palette.toggle", "search.highlight", "search.suggest", "toc.follow", "toc.sticky"], "search": "assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="assets/strip_callouts.js"></script>
+      
+    
+  </body>
+</html>

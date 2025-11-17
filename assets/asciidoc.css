@@ -1,0 +1,152 @@
+/* asciidoctor_backend/assets/asciidoc.css */
+
+/* Admonitions */
+.admonitionblock { margin: 1em 0; }
+.admonitionblock > .content { padding: .6em 1em; }
+
+/* Tables */
+:root{
+  /* reuse Material tokens if present */
+  --adoc-cell-border: var(--md-default-fg-color--lightest, rgba(0,0,0,.12));
+}
+
+.md-typeset .md-typeset__table {
+  width: 100%;
+  margin: 1em 0;
+  padding: unset !important;
+  font-size: small !important;
+}
+
+/* Let Material’s table sizing/scroll behavior kick in */
+.md-typeset .md-typeset__table table.tableblock {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  border: 0;
+}
+
+/* Cell padding + borders (Material-style thin rules) */
+.md-typeset .md-typeset__table table.tableblock th,
+.md-typeset .md-typeset__table table.tableblock td {
+  padding: .625em 1.25em;
+  vertical-align: top;
+  border: .05rem solid var(--adoc-cell-border);
+}
+
+/* Header weight + subtle bottom emphasis */
+.md-typeset .md-typeset__table table.tableblock thead th {
+  font-weight: 700;
+  border-top-width: .05rem;
+  border-bottom-width: .1rem;
+  text-align: left;
+}
+
+/* Captions like Material */
+.md-typeset .md-typeset__table table.tableblock > caption {
+  caption-side: top;
+  text-align: left;
+  opacity: .75;
+  padding-bottom: .5rem;
+}
+
+/* ---------- Normalize Asciidoctor table captions ---------- */
+.md-typeset .md-typeset__table > caption,
+.md-typeset .md-typeset__table .title {
+  display: table-caption;
+  caption-side: top;
+  text-align: left;
+  opacity: .75;
+  padding-bottom: .5rem;
+  margin-left: 0;   /* remove default indent */
+}
+
+/* ---------- Callouts in code ---------- */
+/* Bubbles inside code listings */
+.listingblock pre .conum {
+  position: relative;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-style: normal;
+  font-weight: 600;
+  vertical-align: baseline;
+}
+
+/* Show the number from data-value; nothing gets copied */
+.listingblock pre .conum::after {
+  content: attr(data-value);
+}
+
+/* Hide any fallback content if present */
+.listingblock pre .conum > * { display: none !important; }
+
+/* ---------- Callout list as ordered list ---------- */
+.md-typeset ol.colist {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: .5rem 0;
+  font-size: small;
+}
+.md-typeset ol.colist li {
+  margin: .25rem 0;
+}
+
+/* Material wraps content in .md-typeset; add specificity so this wins */
+.md-typeset .hdlist td.hdlist1 {  /* Asciidoctor's horizontal (table) dlist */
+  font-weight: 600;
+}
+
+.md-typeset .hdlist dt,
+.md-typeset .dlist dt,
+.md-typeset dt.hdlist {
+  font-weight: 600;
+}
+
+/* ---------- Figures (match Material table captions) ---------- */
+.md-typeset figure.adoc-figure {
+  margin: 1em 0;
+}
+
+.md-typeset figure.adoc-figure > figcaption {
+  text-align: left;
+  opacity: .75;
+  padding-bottom: .5rem;
+  font-size: small;
+  font-style: normal;
+}
+
+/* Optional: make large images responsive like Material tables */
+.md-typeset figure.adoc-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make Asciidoctor block titles bold */
+.md-content div.title {
+  font-weight: 600;
+}
+
+/* Make headings flex and top-align icon with first line */
+.md-typeset h1.adoc-flex,
+.md-typeset h2.adoc-flex,
+.md-typeset h3.adoc-flex,
+.md-typeset h4.adoc-flex,
+.md-typeset h5.adoc-flex,
+.md-typeset h6.adoc-flex {
+  display: flex;
+  align-items: flex-start;   /* top of first line */
+}
+
+/* Neutralize Material's absolute positioning and push adoc-edit-include icon right */
+.md-typeset .adoc-edit-include {
+  display: inline-flex;
+  margin-left: auto;
+  align-self: flex-start;
+  justify-content: flex-end;
+  width: 4rem;
+}

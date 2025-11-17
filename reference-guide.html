@@ -1,0 +1,2150 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="contributor-guide.html">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/redhat-favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Red Hat Style for Vale reference guide - Vale at Red Hat</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/asciidoc.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#redhat-style" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Vale at Red Hat" class="md-header__button md-logo" aria-label="Vale at Red Hat" data-md-component="logo">
+      
+  <img src="assets/images/redhat.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vale at Red Hat
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Red Hat Style for Vale reference guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="grey"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/redhat-documentation/vale-at-red-hat" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    vale-at-red-hat
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Vale at Red Hat" class="md-nav__button md-logo" aria-label="Vale at Red Hat" data-md-component="logo">
+      
+  <img src="assets/images/redhat.svg" alt="logo">
+
+    </a>
+    Vale at Red Hat
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/redhat-documentation/vale-at-red-hat" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    vale-at-red-hat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Get started using Vale at Red Hat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contributor-guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute to the Vale at Red Hat project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Red Hat Style for Vale reference guide
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="reference-guide.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Red Hat Style for Vale reference guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#redhat-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Style for Vale reference guide
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Red Hat Style for Vale reference guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abbreviations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abbreviations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case-sensitive-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case sensitive terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conjunctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conjunctions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conscious-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conscious language
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contractions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contractions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definitions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-not-use-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Do not use terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ellipses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ellipses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#em-dashes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Em dashes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heading-punctuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heading punctuation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#headings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Headings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hyphens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyphens
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merge-conflict-markers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Merge conflict markers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oxford-comma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oxford comma
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pascal-case-and-camel-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pascal case and Camel case
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passive-voice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passive Voice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-centric-writing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product-centric writing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readability-grade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Readability grade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#release-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Release notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repeated-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repeated words
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-referential-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-referential text
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sentence-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sentence length
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simple-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple words
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-quotation-marks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smart quotation marks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spacing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spacing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spelling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symbols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terms-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terms-suggestions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suggestion terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terms-warnings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warning terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-replaced-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User-replaced values
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-using" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        By using
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#redhat-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red Hat Style for Vale reference guide
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Red Hat Style for Vale reference guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abbreviations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abbreviations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case-sensitive-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case sensitive terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conjunctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conjunctions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conscious-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conscious language
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contractions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contractions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definitions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-not-use-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Do not use terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ellipses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ellipses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#em-dashes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Em dashes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heading-punctuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heading punctuation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#headings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Headings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hyphens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyphens
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merge-conflict-markers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Merge conflict markers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oxford-comma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oxford comma
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pascal-case-and-camel-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pascal case and Camel case
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passive-voice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passive Voice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-centric-writing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product-centric writing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readability-grade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Readability grade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#release-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Release notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repeated-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repeated words
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-referential-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-referential text
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sentence-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sentence length
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simple-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple words
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-quotation-marks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smart quotation marks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spacing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spacing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spelling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symbols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terms-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terms-suggestions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suggestion terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terms-warnings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warning terms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-replaced-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User-replaced values
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-using" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        By using
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/reference-guide.adoc" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<html><body><h1 id="redhat-style">Red Hat Style for Vale reference guide</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph _abstract">
+<p>Comprehensive reference documentation for all Vale rules included in the RedHat style. This guide provides detailed information about each rule, including what it checks, examples of violations, and how to resolve them. Use this guide to understand Vale alerts and learn the specific style requirements for Red Hat documentation.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="abbreviations"><a class="anchor" href="#abbreviations"></a><a class="link" href="#abbreviations">Abbreviations</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/abbreviations.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not use periods in all-uppercase abbreviations.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Periods with abbreviations, p. 5</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-abbreviations#periods-with-abbreviations">IBM Style Guide - Periods with abbreviations</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Abbreviations.yml"><code>Abbreviations.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="case-sensitive-terms"><a class="anchor" href="#case-sensitive-terms"></a><a class="link" href="#case-sensitive-terms">Case sensitive terms</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/casesensitiveterms.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Alert level</dt>
+<dd>
+<p>error</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Use the correct spelling and case for these case sensitive terms.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions">Red Hat supplementary style guide for product documentation - Glossary of terms and conventions</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Capitalization of computer-related terms, p. 20</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Appendix C. Word usage, p. 300</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-capitalization#computer-related-terms">IBM Style Guide - Capitalization of computer-related terms</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/CaseSensitiveTerms.yml"><code>CaseSensitiveTerms.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="conjunctions"><a class="anchor" href="#conjunctions"></a><a class="link" href="#conjunctions">Conjunctions</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/conjunctions.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not overuse beginning sentences with conjunctions.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/Conjunctions.yml">Red Hat supplementary style guide for product documentation - Conjunctions</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Conjunctions.yml"><code>Conjunctions.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="conscious-language"><a class="anchor" href="#conscious-language"></a><a class="link" href="#conscious-language">Conscious language</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/consciouslanguage.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use conscious language.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language">Red Hat supplementary style guide for product documentation - Conscious language</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="contractions"><a class="anchor" href="#contractions"></a><a class="link" href="#contractions">Contractions</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/contractions.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Avoid contractions.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#contractions">Red Hat supplementary style guide for product documentation - Contractions</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="definitions"><a class="anchor" href="#definitions"></a><a class="link" href="#definitions">Definitions</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/definitions.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Define acronyms and abbreviations on first occurrence if they are likely to be unfamiliar.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Abbreviations, p. 1</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-abbreviations">IBM Style Guide - Abbreviations</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Definitions.yml"><code>Definitions.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="do-not-use-terms"><a class="anchor" href="#do-not-use-terms"></a><a class="link" href="#do-not-use-terms">Do not use terms</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/donotuseterms.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Alert level</dt>
+<dd>
+<p>Error</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Do not use error terms. Use the correct term as described in Red Hat Supplementary Style Guide (SSG).</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions">Red Hat supplementary style guide for product documentation - Glossary of terms and conventions</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Appendix C. Word usage, p. 300</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/DoNotUseTerms.yml">DoNotUseTerms.yml source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="ellipses"><a class="anchor" href="#ellipses"></a><a class="link" href="#ellipses">Ellipses</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/ellipses.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Avoid ellipsis (…​) except to indicate omitted words.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Ellipses, p. 49</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=punctuation-ellipses">IBM Style Guide - Ellipses</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Ellipses.yml"><code>Ellipses.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="em-dashes"><a class="anchor" href="#em-dashes"></a><a class="link" href="#em-dashes">Em dashes</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/emdashes.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not use em dashes.
+Use punctuation marks such as commas, parentheses, or colons instead.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Em dashes, p.48</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=punctuation-dashes#em-dashes">IBM Style Guide - Em dashes</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="heading-punctuation"><a class="anchor" href="#heading-punctuation"></a><a class="link" href="#heading-punctuation">Heading punctuation</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/headingpunctuation.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not use end punctuation in headings.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Periods in headings and titles, p. 61</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=punctuation-periods#headings-and-titles">IBM Style Guide - Headings and titles</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/HeadingPunctuation.yml"><code>HeadingPunctuation.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="headings"><a class="anchor" href="#headings"></a><a class="link" href="#headings">Headings</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/headings.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use sentence-style capitalization in headings.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Capitalization in headings and titles, p.16</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-capitalization#headings-titles-and-banners">IBM Style Guide - Capitalization in headings, titles and banners</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Headings.yml"><code>Headings.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="hyphens"><a class="anchor" href="#hyphens"></a><a class="link" href="#hyphens">Hyphens</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/hyphens.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>In most cases, do not use a hyphen to connect a prefix to a word.</p>
+</div>
+<div class="admonition note"><p class="admonition-title">Note</p>
+<div class="paragraph">
+<p>To determine whether to hyphenate, consult the Red Hat supplementary style guide for product documentation, the Word usage list and Hyphens sections in IBM Style, and the Merriam-Webster dictionary.</p>
+</div>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Prefixes and suffixes, p.80</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-prefixes">IBM Style Guide - Hyphens</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Hyphens.yml"><code>Hyphens.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="merge-conflict-markers"><a class="anchor" href="#merge-conflict-markers"></a><a class="link" href="#merge-conflict-markers">Merge conflict markers</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/mergeconflictmarkers.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not include Git merge conflict markers in source code. For example, <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code>.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line">Resolving a merge conflict using the command line</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="oxford-comma"><a class="anchor" href="#oxford-comma"></a><a class="link" href="#oxford-comma">Oxford comma</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/oxfordcomma.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use the Oxford comma.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Commas between clauses, p.45</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=punctuation-commas#commas-between-clauses">IBM Style Guide - Commas between clauses</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/OxfordComma.yml"><code>OxfordComma.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="pascal-case-and-camel-case"><a class="anchor" href="#pascal-case-and-camel-case"></a><a class="link" href="#pascal-case-and-camel-case">Pascal case and Camel case</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/pascalcamelcase.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Consider wrapping Pascal case or Camel case API resources, system items, daemons, or service names in backticks.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/tree/main/.vale/styles/RedHat/PascalCamelCase.yml">Pascal case and Camel case Vale rule</a></p>
+</li>
+<li>
+<p><a href="https://redhat-documentation.github.io/asciidoc-markup-conventions/">AsciiDoc Mark-up Quick Reference for Red Hat Documentation</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Camel_case">Camel case</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/PascalCamelCase.yml"><code>PascalCamelCase.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="passive-voice"><a class="anchor" href="#passive-voice"></a><a class="link" href="#passive-voice">Passive Voice</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/passivevoice.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Avoid the passive voice where possible. Active voice focuses on the performer of the action and is often clearer, shorter, and more direct than the passive voice.</p>
+</div>
+<div class="paragraph">
+<p>According to the IBM Style Guide, the passive voice is acceptable in the following situations:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>When the system performs the action</p>
+</li>
+<li>
+<p>When it is more appropriate to focus on the receiver of the action</p>
+</li>
+<li>
+<p>When you want to avoid blaming the user for an error, such as in an error message</p>
+</li>
+<li>
+<p>When the information is clearer in the passive voice</p>
+</li>
+<li>
+<p>When the information requires the passive voice, for example, glossary definitions</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>According to the Red Hat supplementary style guide for product documentation, you can use the passive voice in prerequisites.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites">Red Hat supplementary style guide for product documentation - Prerequisites</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Voice, p.35</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-verbs#voice">IBM Style Guide - Voice</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/PassiveVoice.yml"><code>PassiveVoice.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="product-centric-writing"><a class="anchor" href="#product-centric-writing"></a><a class="link" href="#product-centric-writing">Product-centric writing</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/productcentricwriting.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not use product-centric writing to grant abilities to inanimate objects. Where possible, make the user the subject of the sentence.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Anthropomorphism, p. 44</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=grammar-anthropomorphism">IBM Style Guide - Anthropomorphism</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/ProductCentricWriting.yml"><code>ProductCentricWriting.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="readability-grade"><a class="anchor" href="#readability-grade"></a><a class="link" href="#readability-grade">Readability grade</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/readabilitygrade.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Try to write paragraphs that have a calculated Flesch–Kincaid grade level below the recommended value of 9.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests">Flesch–Kincaid readability tests</a></p>
+</li>
+<li>
+<p><a href="https://vale.sh/docs/topics/styles#metric">Vale documentation - <code>metric</code> extension point</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/ReadabilityGrade.yml"><code>ReadabilityGrade.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="release-notes"><a class="anchor" href="#release-notes"></a><a class="link" href="#release-notes">Release notes</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/releasenotes.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>For release notes, consider using <code>Before this update</code> or <code>With this update</code>.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#release-notes">Red Hat supplementary style guide for product documentation - Release notes</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/ReleaseNotes.yml"><code>ReleaseNotes.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="repeated-words"><a class="anchor" href="#repeated-words"></a><a class="link" href="#repeated-words">Repeated words</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/repeatedwords.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Small words such as "and" or "the" get duplicated easily, especially when shuffling sentence parts around or adding line breaks.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/RepeatedWords.yml"><code>RepeatedWords.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="self-referential-text"><a class="anchor" href="#self-referential-text"></a><a class="link" href="#self-referential-text">Self-referential text</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/selfreferentialtext.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Avoid using self-referential text such as <code>This chapter</code> or <code>This module</code>.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Audience and medium, p. 22</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/SelfReferentialText.yml"><code>SelfReferentialText.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="sentence-length"><a class="anchor" href="#sentence-length"></a><a class="link" href="#sentence-length">Sentence length</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/sentencelength.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Try to keep sentences to an average of 32 words or fewer, and vary sentence lengths.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Conversational style</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=medium-conversational-style">IBM Style Guide - Conversational style</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/SentenceLength.yml"><code>SentenceLength.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="simple-words"><a class="anchor" href="#simple-words"></a><a class="link" href="#simple-words">Simple words</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/simplewords.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use simple verbs and tenses. Use simple language.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Conversational style</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=medium-conversational-style">IBM Style Guide - Conversational style</a></p>
+</li>
+<li>
+<p><a href="http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm">Plain language - Simple words</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/SimpleWords.yml"><code>SimpleWords.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="slash"><a class="anchor" href="#slash"></a><a class="link" href="#slash">Slash</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/slash.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use either <code>or</code> or <code>and</code> rather than a slash (<code>/</code>).</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Slashes, p. 68</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=punctuation-slashes">IBM Style Guide - Slashes</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Slash.yml"><code>Slash.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="smart-quotation-marks"><a class="anchor" href="#smart-quotation-marks"></a><a class="link" href="#smart-quotation-marks">Smart quotation marks</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/smartquotes.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not use smart quotation marks (<code>‘</code>, <code>’</code>, <code>‟</code>, <code>″</code>, <code>‶</code>) in original body copy.
+Use straight quotation marks.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Typographical considerations</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=punctuation-quotation-marks#typographical-considerations">IBM Style Guide - Typographical considerations</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/SmartQuotes.yml"><code>SmartQuotes.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="spacing"><a class="anchor" href="#spacing"></a><a class="link" href="#spacing">Spacing</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/spacing.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Keep one space between words.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/">Red Hat supplementary style guide for product documentation</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Spacing.yml"><code>Spacing.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="spelling"><a class="anchor" href="#spelling"></a><a class="link" href="#spelling">Spelling</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/spelling.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Use correct American English spelling.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.merriam-webster.com/">Merriam Webster dictionary</a></p>
+</li>
+<li>
+<p><a href="user-guide.html#creating-a-vocabulary-for-a-project">Creating a vocabulary for a project</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Spelling.yml"><code>Spelling.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="symbols"><a class="anchor" href="#symbols"></a><a class="link" href="#symbols">Symbols</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/symbols.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Do not use ampersands (<code>&amp;</code>) or exclamation marks (<code>!</code>) in original body copy.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a class="bare" href="https://redhat-documentation.github.io/supplementary-style-guide/#_symbols">https://redhat-documentation.github.io/supplementary-style-guide/#_symbols</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Symbols.yml"><code>Symbols.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="terms-errors"><a class="anchor" href="#terms-errors"></a><a class="link" href="#terms-errors">Error terms</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/termserrors.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Alert level</dt>
+<dd>
+<p>Error</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Do not use error terms. Use the correct term as described in Red Hat Supplementary Style Guide (SSG).</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions">Red Hat supplementary style guide for product documentation - Glossary of terms and conventions</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Appendix C. Word usage, p. 300</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/TermsErrors.yml"><code>TermsErrors.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="terms-suggestions"><a class="anchor" href="#terms-suggestions"></a><a class="link" href="#terms-suggestions">Suggestion terms</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/termssuggestions.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Alert level</dt>
+<dd>
+<p>Suggestion</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Depending on the context, consider using the suggested term as described in Red Hat Supplementary Style Guide (SSG).</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions">Red Hat supplementary style guide for product documentation - Glossary of terms and conventions</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Appendix C. Word usage, p. 300</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/TermsSuggestions.yml"><code>TermsSuggestions.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="terms-warnings"><a class="anchor" href="#terms-warnings"></a><a class="link" href="#terms-warnings">Warning terms</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/termswarnings.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Alert level</dt>
+<dd>
+<p>Warning</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Use the correct term as described in Red Hat Supplementary Style Guide (SSG), unless updating existing content that uses the term.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#glossary-terms-conventions">Red Hat supplementary style guide for product documentation - Glossary of terms and conventions</a></p>
+</li>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Appendix C. Word usage, p. 300</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/TermsWarnings.yml"><code>TermsWarnings.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="user-replaced-values"><a class="anchor" href="#user-replaced-values"></a><a class="link" href="#user-replaced-values">User-replaced values</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/userreplacedvalues.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>Ensure that user-replaced values have the following characteristics:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Surrounded by angle brackets (<code>&lt; &gt;</code>)</p>
+</li>
+<li>
+<p>Separated by underscores (<code>_</code>) for multi-word values</p>
+</li>
+<li>
+<p>Lowercase, unless the rest of the related text is uppercase or another capitalization scheme</p>
+</li>
+<li>
+<p>Italicized</p>
+</li>
+<li>
+<p>If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://redhat-documentation.github.io/supplementary-style-guide/#user-replaced-values">User-replaced values</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/UserReplacedValues.yml"><code>UserReplacedValues.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 class="adoc-flex" id="by-using"><a class="anchor" href="#by-using"></a><a class="link" href="#by-using">By using</a><a class="md-content__button md-icon adoc-edit-include" href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/using.adoc" rel="noopener" target="_blank" title="Edit included file"><html><body><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg></body></html></a></h2>
+<div class="sectionbody">
+
+<div class="paragraph">
+<p>To avoid ambiguity, replace 'using' with either 'by using' or 'that uses'. Do not omit articles and prepositions that can increase the clarity of a sentence.</p>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/De-Respinis-IBM-Style-Guide-The-Conventions-for-Writers-and-Editors/PGM270594.html?tab=contents">IBM Style Guide (print) - Grammar, p. 239</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=word-usage#using">IBM Style Guide - Word usage</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/docs/en/ibm-style?topic=medium-global-audiences#grammar">IBM Style Guide - Grammar</a></p>
+</li>
+<li>
+<p><a href="https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Using.yml"><code>Using.yml</code> source code</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</body></html>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="contributor-guide.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Contribute to the Vale at Red Hat project">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Contribute to the Vale at Red Hat project
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.footer", "navigation.top", "navigation.tracking", "palette.toggle", "search.highlight", "search.suggest", "toc.follow", "toc.sticky"], "search": "assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="assets/strip_callouts.js"></script>
+      
+    
+  </body>
+</html>
