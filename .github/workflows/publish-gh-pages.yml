@@ -1,15 +1,33 @@
-name: Publish docs
+name: Deploy to GitHub Pages
+
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
+
+# Required for GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  publication-builder:
-    name: Build and publish to publication branch
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
 
       - name: Set up Ruby (for Asciidoctor CLI)
         uses: ruby/setup-ruby@v1
@@ -29,14 +47,17 @@ jobs:
         run: |
           python -m mkdocs build -f mkdocs.yml
 
-      - name: Upload artifacts
-        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public
-      - name: Commit artifact to publication branch
-        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4.0.0
-        with:
-          force_orphan: true # publish branch with only the latest commit
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: publication
-          publish_dir: public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
