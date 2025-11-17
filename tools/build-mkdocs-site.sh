@@ -22,7 +22,7 @@ serve_site() {
 
 sync_sources
 
-# Build in GitLab CI, otherwise serve locally
+# Build in CI, otherwise serve locally
 case "${1:-}" in
   --build) build_site ;;
   *)
