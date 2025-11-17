@@ -1,0 +1,9 @@
+= Definitions
+
+Define acronyms and abbreviations on first occurrence if they are likely to be unfamiliar.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Abbreviations, p. 1]
+* link:{ibmsg-url}?topic=grammar-abbreviations[{ibmsg} - Abbreviations]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Definitions.yml[`Definitions.yml` source code]

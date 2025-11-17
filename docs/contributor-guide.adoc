@@ -1,0 +1,13 @@
+:_mod-docs-content-type: ASSEMBLY
+include::_attributes/attributes.adoc[]
+[id="vale-at-red-hat-contributor-guide"]
+= Contribute to the Vale at Red Hat project
+
+[role="_abstract"]
+Learn how to contribute to the Vale at Red Hat project. This guide covers the repository structure, contribution workflow, and how to extend Vale by adding new words to the spelling rule or creating custom style rules. Whether you're fixing bugs, adding new rules, or improving documentation, this guide will help you get started.
+
+include::modules/contributing.adoc[leveloffset=+1]
+
+include::modules/vale-at-red-hat-repository.adoc[leveloffset=+1]
+
+include::modules/extending-styles.adoc[leveloffset=+1]

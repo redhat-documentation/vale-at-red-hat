@@ -15,7 +15,7 @@ if [ -z "${GITHUB_BASE_REF}" ]
     else
         MAINBRANCH="origin/$GITHUB_BASE_REF"
 fi
-FILES=$(git diff --name-only --diff-filter=AM "$MAINBRANCH")
+FILES=$(git diff --name-only --diff-filter=AM "$MAINBRANCH" "*.adoc")
 if [ -n "${FILES}" ]
     then
         echo "Validating languages on file added or modified in comparison to $MAINBRANCH with $(vale -v)"

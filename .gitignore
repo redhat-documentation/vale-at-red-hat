@@ -26,3 +26,9 @@ package-lock.json
 package.json
 vale-report*
 workspace.code-workspace
+public/
+
+# Local Netlify folder
+.netlify
+
+.venv

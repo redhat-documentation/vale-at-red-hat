@@ -10,10 +10,12 @@
 # The `htmltest` tool is validating the internal and external links on the HTML build of the documentation.
 # See: https://github.com/wjdp/htmltest
 
-DirectoryPath: build/
+DirectoryPath: public/
 OutputDir: .cache/htmltest
 ExternalTimeout: 60 # (seconds) default is 15.
+IgnoreDirectoryMissingTrailingSlash: true # Turns off errors for links to directories without a trailing slash
 IgnoreURLs:
   - https://cse.google.com/cse.js
   - https://github.com/redhat-documentation/vale-at-red-hat
   - https://marketplace.visualstudio.com
+  - https://fonts.gstatic.com

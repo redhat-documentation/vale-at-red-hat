@@ -1,0 +1,62 @@
+:_module-type: PROCEDURE
+[id="adding-vale-configuration-to-a-project"]
+= Adding Vale to a project
+
+Consider adding Vale configuration files to a project to:
+
+* Simplify Vale usage by anyone in a project
+* Use Vale in continuous integration
+
+.Prerequisites
+
+* Install the Vale command-line tool.
+
+.Procedure
+
+. Create a `.vale.ini` configuration file in the root directory for your documentation project:
++
+.Example .vale.ini
+[source,ini]
+----
+include::examples/vale.ini[]
+----
++
+[IMPORTANT]
+====
+By default, the `.vale.ini` file sets `MinAlertLevel = suggestion`.
+Consider changing `MinAlertLevel` to `warning` or `error` for new projects.
+
+For a complete list of possible configuration options, see link:https://vale.sh/docs/topics/config#config-file[configuration options for .vale.ini].
+
+Review the following Red Hat project `.vale.ini` files as reference for developing your own Vale configuration:
+
+* link:https://github.com/openshift/openshift-docs/blob/main/.vale.ini[openshift-docs]
+* link:https://github.com/eclipse-che/che-docs/blob/main/.vale.ini[che-docs]
+* link:https://github.com/redhat-developer/red-hat-developers-documentation-rhdh/blob/main/.vale.ini[https://github.com/redhat-developer/red-hat-developers-documentation-rhdh/blob/main/.vale.ini]
+* link:https://github.com/quarkusio/quarkus/blob/main/docs/.vale.ini[quarkusio]
+====
+
+* Run the `vale sync` command from the repository folder to download the rules to the project directory. For example:
++
+[source,terminal]
+----
+$ cd __<project_directory>__
+$ vale sync
+ SUCCESS  Downloaded package 'RedHat'
+Downloading packages [1/1]
+----
+
+.Verification
+
+* Run the `vale` command on one of your content files.
++
+[source,console,subs="+quotes,+attributes"]
+----
+$ cd __<project_directory>__
+$ vale __<filename>__
+----
+
+.Additional resources
+
+* xref:user-guide.adoc#defining-a-vale-onboarding-strategy[Defining a Vale onboarding strategy]
+

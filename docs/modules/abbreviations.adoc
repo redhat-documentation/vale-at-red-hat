@@ -1,0 +1,10 @@
+= Abbreviations
+
+Do not use periods in all-uppercase abbreviations.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Periods with abbreviations, p. 5]
+* link:{ibmsg-url}?topic=grammar-abbreviations#periods-with-abbreviations[{ibmsg} - Periods with abbreviations]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Abbreviations.yml[`Abbreviations.yml` source code]
+

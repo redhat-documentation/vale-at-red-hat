@@ -1,0 +1,15 @@
+:navtitle: User-replaced values
+:keywords: reference, rule, User-replaced values, Placeholders
+= User-replaced values
+
+Ensure that user-replaced values have the following characteristics:
+
+* Surrounded by angle brackets (`< >`)
+* Separated by underscores (`_`) for multi-word values
+* Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
+* Italicized
+* If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value
+
+.Additional resources
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#user-replaced-values[User-replaced values]
+* link:{repository-url}blob/main/.vale/styles/RedHat/UserReplacedValues.yml[`UserReplacedValues.yml` source code]

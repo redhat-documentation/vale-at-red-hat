@@ -1,0 +1,20 @@
+:_module-type: CONCEPT
+[id="introduction"]
+= Introduction
+
+Vale is a command-line tool that allows you to check your writing for grammar and spelling errors against a set of style rules. It's open source, fast, and highly customizable.
+
+Vale can help you improve your content. For example:
+
+* You can measure how well your content complies with the style guide.
+* You can fix style issues before you create a PR.
+* You can perform more consistent peer reviews.
+* You can write content that is more easily localized.
+
+[role="_additional-resources"]
+.Additional resources
+
+* xref:index.adoc#redhat-style-for-vale[Red Hat style for Vale]
+* xref:user-guide.adoc#glossary[Glossary]
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* xref:user-guide.adoc#defining-a-vale-onboarding-strategy[Defining a Vale onboarding strategy]

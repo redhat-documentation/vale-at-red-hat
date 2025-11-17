@@ -1,0 +1,33 @@
+:_module-type: CONCEPT
+[id="redhat-style-for-vale"]
+= Red Hat style for Vale
+
+The `RedHat` style for Vale includes language rules designed for Open Source documentation and is mandatory for Red Hat products.
+The Red Hat language rules originate from:
+
+* link:{ssg-url}[_{ssg}_]
+* Latest edition of the link:https://www.ibm.com/docs/en/ibm-style?topic=style-basics[_{ibmsg}_] (W3id login required)
+* link:https://github.com/errata-ai/IBM[Vale-compatible implementation] of link:https://www.ibm.com/developerworks/library/styleguidelines/index.html[_IBM Developer Editorial Style Guide_]
+* link:{valedict-url}[_{valedict}_]
+
+[IMPORTANT]
+====
+The `RedHat` style for Vale requires Vale version 3.7 and above.
+
+Vale v3 introduced a breaking change for the Vale vocabulary folder location.
+For Vale v3+, if you use a vocabulary with your project, ensure that the vocabulary folder matches this folder structure:
+
+[source,terminal]
+----
+.vale/styles/config/vocabularies/<project_vocab_folder>
+----
+
+For more information see, link:https://vale.sh/docs/topics/vocab/[Vocabularies].
+====
+
+[role="_additional-resources"]
+.Additional resources
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* xref:user-guide.adoc#using-vale-in-the-ide[Using Vale in the IDE]
+* xref:user-guide.adoc#using-vale-github-action[Using Vale GitHub Action]
+* xref:user-guide.adoc#adding-vale-configuration-to-a-project[Adding Vale configuration to a project]

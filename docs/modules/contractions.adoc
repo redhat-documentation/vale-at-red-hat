@@ -1,0 +1,9 @@
+= Contractions
+
+Avoid contractions.
+
+.Additional resources
+
+* link:{ssg-url}#contractions[{ssg} - Contractions]
+
+

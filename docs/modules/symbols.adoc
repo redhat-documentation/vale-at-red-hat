@@ -1,0 +1,8 @@
+= Symbols
+
+Do not use ampersands (`&`) or exclamation marks (`!`) in original body copy.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/supplementary-style-guide/#_symbols[]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Symbols.yml[`Symbols.yml` source code]

@@ -1,0 +1,17 @@
+= Case sensitive terms
+
+Alert level:: error
+
+Use the correct spelling and case for these case sensitive terms.
+
+.Additional resources
+
+* link:{ssg-url}#glossary-terms-conventions[{ssg} - Glossary of terms and conventions]
+* link:{ibmsg-url-print}[{ibmsg-print} - Capitalization of computer-related terms, p. 20]
+* link:{ibmsg-url-print}[{ibmsg-print} - Appendix C. Word usage, p. 300]
+* link:{ibmsg-url}?topic=grammar-capitalization#computer-related-terms[{ibmsg} - Capitalization of computer-related terms]
+* link:{ibmsg-url}?topic=word-usage[{ibmsg} - Word usage]
+* link:{repository-url}blob/main/.vale/styles/RedHat/CaseSensitiveTerms.yml[`CaseSensitiveTerms.yml` source code]
+
+
+

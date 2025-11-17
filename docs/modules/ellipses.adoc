@@ -1,0 +1,9 @@
+= Ellipses
+
+Avoid ellipsis (...) except to indicate omitted words.
+
+.Additional resources
+
+* link:{ibmsg-url-print}[{ibmsg-print} - Ellipses, p. 49]
+* link:{ibmsg-url}?topic=punctuation-ellipses[{ibmsg} - Ellipses]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Ellipses.yml[`Ellipses.yml` source code]

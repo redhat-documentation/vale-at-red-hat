@@ -1,0 +1,9 @@
+= Conscious language
+
+Use conscious language.
+
+.Additional resources
+
+* link:{ssg-url}#conscious-language[{ssg} - Conscious language]
+
+

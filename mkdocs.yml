@@ -1,0 +1,81 @@
+site_name: Vale at Red Hat
+repo_url: https://github.com/redhat-documentation/vale-at-red-hat
+repo_name: vale-at-red-hat
+edit_uri: edit/main/
+
+theme:
+  name: material
+  features:
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.footer
+    - navigation.top
+    - navigation.tracking
+    - palette.toggle
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - toc.sticky
+  palette:
+    - scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/git-alt
+  logo: assets/images/redhat.svg
+  favicon: assets/redhat-favicon.png
+
+exclude_docs: |
+  partials/**
+  examples/**
+  snippets/**
+  modules/**
+  _attributes/**
+  **/build/**
+
+site_dir: public
+
+use_directory_urls: false
+
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - asciidoctor_backend:
+      edit_includes: true
+      fail_on_error: false
+      ignore_missing: true
+      safe_mode: safe
+      base_dir: docs
+      attributes:
+        imagesdir: images
+        showtitle: true
+        sectanchors: true
+        sectlinks: true
+        icons: font
+        idprefix: ""
+        idseparator: "-"
+        outfilesuffix: .html
+        source-highlighter: rouge
+        "!toc": "" # Unset the page TOC
+
+nav:
+  - Welcome: index.adoc
+  - Get started using Vale at Red Hat: user-guide.adoc
+  - Contribute to the Vale at Red Hat project: contributor-guide.adoc
+  - Red Hat Style for Vale reference guide: reference-guide.adoc

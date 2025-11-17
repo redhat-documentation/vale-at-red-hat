@@ -1,0 +1,9 @@
+= Spelling
+
+Use correct American English spelling.
+
+.Additional resources
+
+* link:https://www.merriam-webster.com/[Merriam Webster dictionary]
+* xref:user-guide.adoc#creating-a-vocabulary-for-a-project[Creating a vocabulary for a project]
+* link:{repository-url}blob/main/.vale/styles/RedHat/Spelling.yml[`Spelling.yml` source code]

@@ -29,16 +29,16 @@ jobs:
       - name: Set variables
         id: vars
         run: |
-          echo "pr_number=$(<PR_NUMBER)" >> $GITHUB_OUTPUT
-          echo "pr_sha=$(<PR_SHA)" >> $GITHUB_OUTPUT
-          echo "deploy_domain=$(echo ${{ github.repository }}-$(<PR_NUMBER).surge.sh | sed s#/#-#)" >> $GITHUB_OUTPUT
-          echo "project=$(find build/ -mindepth 1 -maxdepth 1  -type d)" >> $GITHUB_OUTPUT
+          echo "pr_number=$(cat PR_NUMBER)" >> $GITHUB_OUTPUT
+          echo "pr_sha=$(cat PR_SHA)" >> $GITHUB_OUTPUT
+          echo "deploy_domain=$(echo ${{ github.repository }}-$(cat PR_NUMBER).surge.sh | sed 's#/#-#')" >> $GITHUB_OUTPUT
       - name: Deploy
         id: deploy
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          npx surge --project ${{ steps.vars.outputs.project }} --domain ${{ steps.vars.outputs.deploy_domain }} --token ${{ secrets.SURGE_TOKEN }}
+          # mkdocs build is in public/ 
+          npx surge --project public --domain ${{ steps.vars.outputs.deploy_domain }} --token ${{ secrets.SURGE_TOKEN }}
       - name: Update status Comment
         uses: actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b # v3.2.0
         with:

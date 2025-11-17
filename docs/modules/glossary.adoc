@@ -1,0 +1,74 @@
+:_module-type: REFERENCE
+[id="glossary"]
+= Glossary
+
+[id="vale-command-line-tool"]
+== Vale command-line tool
+
+The `vale` command-line tool brings code-like linting to prose. Use it to validate language on your local environment or in continuous integration services.
+
+.Additional resources
+
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* xref:user-guide.adoc#using-vale-with-a-continuous-integration-service[Using Vale with a continuous integration service]
+* link:https://vale.sh/docs/cli[Vale documentation - CLI]
+
+[id="vale-configuration-file"]
+== Vale configuration file
+
+The Vale configuration file `.vale.ini` defines:
+
+* File names patterns to match files to validate
+* Active styles and vocabulary
+* Custom content patterns to change scoping behavior
+
+.Additional resources
+
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* xref:user-guide.adoc#adding-vale-configuration-to-a-project[Adding Vale configuration to a project]
+* link:https://vale.sh/docs/topics/config[Vale documentation - Configuration]
+
+[id="vale-rule"]
+== Vale rule
+
+A Vale rule is a YAML file defining:
+
+* a language issue, including spelling issues
+* a proposed solution
+* a link to more information.
+
+.Additional resources
+
+* xref:index.adoc#redhat-style-for-vale[Red Hat style for Vale]
+* link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
+
+[id="vale-style"]
+== Vale style
+
+A Vale style is a directory containing a collection of rules.
+
+.Additional resources
+
+* xref:index.adoc#redhat-style-for-vale[Red Hat style for Vale]
+* link:https://vale.sh/docs/topics/styles[Vale documentation - Styles]
+
+[id="vale-vocabulary"]
+== Vale vocabulary
+
+In a project, a Vale vocabulary is an optional additional directory containing lists of accepted and rejected words, applying to all styles.
+
+Consider xref:user-guide.adoc#creating-a-vocabulary-for-a-project[creating a vocabulary for a project] when:
+
+* Missing words in the Vale dictionary are causing Spelling errors
+* The word is too specific to benefit to other projects.
+
+Consider xref:contributor-guide.adoc#extending-styles[Extending styles] when:
+
+* Missing words in the Vale dictionary are causing Spelling errors
+* Adding the word will benefit to other projects. For example: product and tool names, common terms specific to the software industry.
+
+.Additional resources
+
+* xref:user-guide.adoc#creating-a-vocabulary-for-a-project[Creating a vocabulary for a project]
+* xref:contributor-guide.adoc#extending-styles[Extending styles]
+* link:https://vale.sh/docs/topics/vocab[Vale documentation - Vocabulary]

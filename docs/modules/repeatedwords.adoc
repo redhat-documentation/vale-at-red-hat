@@ -1,0 +1,7 @@
+= Repeated words
+
+Small words such as "and" or "the" get duplicated easily, especially when shuffling sentence parts around or adding line breaks.
+
+.Additional resources
+
+* link:{repository-url}blob/main/.vale/styles/RedHat/RepeatedWords.yml[`RepeatedWords.yml` source code]

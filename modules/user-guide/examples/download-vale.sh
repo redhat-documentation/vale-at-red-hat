@@ -1,1 +1,0 @@
-../../../tools/download-vale.sh
