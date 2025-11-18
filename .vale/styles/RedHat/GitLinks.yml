@@ -8,5 +8,5 @@ scope: raw
 action:
   name: remove
 tokens:
-  - 'https:\/\/gitlab\.com\/\w+'
-  - 'https:\/\/github\.com(?!\/openshift|\/redhat-developer|\/quarkusio)'
+  - 'https:\/\/gitlab\.com(?!\/redhat)\/\w+'
+  - 'https:\/\/github\.com(?!\/openshift|\/redhat-developer|\/redhat-documentation|\/quarkusio)'
