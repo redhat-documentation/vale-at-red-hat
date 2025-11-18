@@ -10,6 +10,7 @@ sync_sources() {
   fi
   # shellcheck disable=SC1091
   source .venv/bin/activate
+  pip install mkdocs mkdocs-material mkdocs-callouts mkdocs-asciidoctor-backend
 }
 
 build_site() {

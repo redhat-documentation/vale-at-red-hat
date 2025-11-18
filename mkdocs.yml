@@ -5,6 +5,7 @@ edit_uri: edit/main/
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - content.action.edit
     - content.code.annotate
