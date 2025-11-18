@@ -2,7 +2,7 @@
 ---
 extends: spelling
 level: warning
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/spelling/
+link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#spelling
 message: "Verify the word '%s'. It is not in the American English spelling dictionary used by Vale."
 # A "filter" is a case-sensitive regular expression specifying words to ignore during spell checking.
 # Spelling rule applies to individual words

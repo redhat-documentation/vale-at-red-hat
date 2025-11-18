@@ -1,7 +1,7 @@
 extends: existence
 ignorecase: true
 level: warning
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/slash/
+link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#slash
 message: "Use either 'or' or 'and' in '%s'"
 scope:
   - sentence

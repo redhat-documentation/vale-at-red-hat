@@ -2,7 +2,7 @@
 extends: substitution
 ignorecase: false
 level: warning
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/donotuseterms/
+link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#do-not-use-terms
 message: "%s"
 swap:
   # Start each error message with "Do not use ..."
