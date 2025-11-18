@@ -2,7 +2,7 @@
 extends: substitution
 ignorecase: false
 level: warning
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/casesensitiveterms/
+link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#case-sensitive-terms
 message: "Use '%s' rather than '%s'."
 action:
   name: replace

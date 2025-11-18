@@ -2,7 +2,7 @@
 extends: conditional
 ignorecase: false
 level: suggestion
-link: https://redhat-documentation.github.io/vale-at-red-hat/docs/main/reference-guide/definitions/
+link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#definitions
 message: "Define acronyms and abbreviations (such as '%s') on first occurrence if they're likely to be unfamiliar."
 # source: "IBM - Abbreviations, p. 1"
 # Ensures that the existence of 'first' implies the existence of 'second'.
