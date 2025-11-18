@@ -8,12 +8,3 @@ nonword: true
 tokens:
   - '\w+[.?!]\s{2,}[A-Z]\w+'
   - '\w+[.?!][A-Z]\w+'
-exceptions:
-  # Locale identifiers (e.g., en_US.UTF-8)
-  - '\w+_\w+\.\w+'
-  # All-caps acronyms with dots (e.g., ASP.NET)
-  - '[A-Z]{2,}\.[A-Z]+'
-  # Domain-style notation (e.g., freedesktop.NetworkManager)
-  - '[a-z]+\.[A-Z]\w+'
-  # Specific technical terms
-  - 'X\.Org'

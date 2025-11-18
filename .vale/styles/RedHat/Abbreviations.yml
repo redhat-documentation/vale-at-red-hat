@@ -7,5 +7,3 @@ nonword: true
 # source: "IBM - Periods with abbreviations, p. 5"
 tokens:
   - '\b(?:[A-Z]\.){3,5}'
-exceptions:
-  - 'S\.M\.A\.R\.T\.'

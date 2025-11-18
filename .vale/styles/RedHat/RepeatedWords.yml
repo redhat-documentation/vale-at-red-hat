@@ -4,7 +4,6 @@ message: "'%s' is repeated."
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#repeated-words
 ignorecase: false
-scope: summary
 alpha: true
 action:
   name: edit

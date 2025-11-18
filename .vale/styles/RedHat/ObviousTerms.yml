@@ -13,4 +13,4 @@ tokens:
   - 'Password field'
   - 'Mail field'
   - 'Description field'
-  # 'Name field' removed - too generic, often part of compound names like "User Name field", "Full Name field"
+  - 'Name field'

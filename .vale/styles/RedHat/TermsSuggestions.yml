@@ -19,7 +19,7 @@ swap:
   '(?<!-|\.)\bk8s\b(?!-|\.)': Kubernetes
   '(?<!.*-|program )operator': Operator
   '(?<!.*-|program )operators': Operators
-  '(?<![\.\-])(?:zip|gzip|tar)(?! file| archive|\s+[cxtuvf])': compress
+  '(?<![\.\-])(?:zip|gzip|tar)(?! file| archive)': compress
   '(?<!\.)tar file': ".tar file"
   '(?<!\.)zip file': ".zip file"
   above: earlier|previous|preceding|before
@@ -32,7 +32,7 @@ swap:
   choose: select
   componentization: component-based development|component model|component architecture|shared components
   componentize: develop components|divide into components|re-engineer into reusable software components
-  consumes(?! (?:disk )?space| memory| CPU| resources| too much): uses
+  consumes: uses
   distro: distribution
   drag and drop: drag
   executable(?! program| routine| files?| code): executable program

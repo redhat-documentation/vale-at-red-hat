@@ -6,12 +6,8 @@ link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.htm
 message: "Use %s rather than '%s'."
 action:
   name: replace
-# Exclude files that document the terminology changes themselves
-excludes:
-  - 'making-open-source-more-inclusive.*\.adoc'
 swap:
   blacklist: blocklist
-  # Exclude "Master Boot Record" (MBR) - industry standard technical term
   master(?! broker| boot record): primary|source|initiator|requester|controller|host|director|supplier
   slave(?! broker): secondary|replica|responder|device|worker|proxy|performer|consumer|child
   whitelist: allowlist

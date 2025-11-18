@@ -252,7 +252,6 @@ Kie Server
 kjar
 kJAR
 knowledge API
-knowledge base
 knowledge session
 knowledgebase
 ksession
@@ -498,7 +497,6 @@ UltraSparc
 ULTRASPARC
 unix
 Unix
-UNIX-like
 uri
 url
 urn

@@ -33,7 +33,6 @@ exceptions:
   - "NVMe/FC"
   - "NVMe/RDMA"
   - "NVMe/TCP"
-  - "path/to"
   - "read/write"
   - "S/MIME"
   - "SSL/TLS"
