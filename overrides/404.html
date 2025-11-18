@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block extrahead %}
+<script>
+    // Redirects object
+    const redirects = {
+        "/vale-at-red-hat/docs/main/user-guide/installing-vale-cli/": "/user-guide.html#installing-vale-cli",
+    };
+
+    (function redirect(){
+            const currentPath = window.location.pathname + (window.location.hash ? window.location.hash : '');
+            const redirectUrl = redirects[currentPath];
+            if (redirectUrl) {
+                window.location.href = `${window.location.origin}${redirectUrl}`;
+                return;
+            }
+    })();
+</script>
+{% endblock %}
+{% block content %}
+  <h1>Oops! That's a 404</h1>
+{% endblock %}
