@@ -11,6 +11,8 @@ action:
     - regex
     - "(-)" # pattern
     - "_" # replace
+ignores:
+  - '//.*'
 tokens:
   - '__<[a-z_\x60]+-[\x60a-z_-]+>__'
   - '<[a-z_]+-[a-z_-]+>'

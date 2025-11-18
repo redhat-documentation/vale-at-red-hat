@@ -8,7 +8,7 @@ action:
   name: replace
 swap:
   "(?:Ctrl|control)-click": press Ctrl and click
-  "(?<!make the )transition": "make the transition|move|migrate|change"
+  "(?<!make the |Internet )transition": "make the transition|move|migrate|change"
   "bottom(?:-)?left": lower left|lower-left
   "bottom(?:-)?right": lower right|lower-right
   "non-English(?!-language?)": in languages other than English|non-English-language

@@ -21,6 +21,7 @@ exceptions:
   - 'PIDs?'
   - 'ROMs?'
   - 'RPMs?'
+  - 'SRPMs?'
   - 'UIDs?'
   - 'URIs?'
   - 'URLs?'
@@ -84,6 +85,7 @@ exceptions:
   - IAM
   - IBM
   - IDE
+  - IEEE
   - IOPS
   - IOV
   - IP
@@ -99,6 +101,7 @@ exceptions:
   - KVM
   - LAN
   - LDAP
+  - LDIF
   - LESS
   - LGAI
   - LLDB
@@ -121,6 +124,7 @@ exceptions:
   - NOTE
   - NTP
   - NVDA
+  - OCI
   - OEM
   - OSS
   - OVN
