@@ -1,0 +1,101 @@
+:_module-type: PROCEDURE
+[id="updating-the-redhat-dictionary"]
+= Updating the Red Hat dictionary
+
+The Red Hat dictionary is a Hunspell-format dictionary that contains technical terms, product names, and Red Hat-specific jargon. When a word is missing from the dictionary and is common enough to benefit all Red Hat documentation projects, you can add it to the dictionary files.
+
+[NOTE]
+====
+For project-specific terms that are unlikely to benefit other projects, use a project vocabulary instead. See xref:user-guide.adoc#creating-a-vocabulary-for-a-project[Creating a vocabulary for a project].
+====
+
+.Prerequisites
+
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* You forked and cloned the `vale-at-red-hat` repository using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+
+.Procedure
+
+. Open the dictionary file `.vale/styles/config/dictionaries/en_US-RedHat.dic` in a text editor.
+
+. Add the new word in alphabetical order. The first line of the file contains the word count; you will update this after adding words.
++
+--
+Words can include optional flags that define how the word can be modified:
+
+[cols="1,3,2"]
+|===
+|Flag |Description |Example
+
+|`/S`
+|Allow plural forms (`-s`, `-es`, `-ies`)
+|`API/S` matches `API` and `APIs`
+
+|`/P`
+|Allow possessive form (`'s` or `'` for words ending in `s`)
+|`Redis/P` matches `Redis` and `Redis'`
+
+|`/SP`
+|Allow both plural and possessive forms
+|`CLI/SP` matches `CLI`, `CLIs`, and `CLI's`
+|===
+
+.Example entries
+[source]
+----
+APIcast
+Kubernetes/SP
+OpenShift/P
+vCPU/SP
+----
+
+If a word should not have plural or possessive forms, add it without any flags.
+--
+
+. Update the word count on the first line of the file to reflect the new total number of words.
+
+. Verify the spelling rule works correctly:
++
+[source,terminal]
+----
+$ vale --config=.vale.ini <file_containing_word>
+----
+
+. Update the count on the header line for that rule if you add new pattern lines.
+
+. Add, commit, and push your changes.
+
+. Request a review or help in the Slack channel link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+
+== Updating the affix file
+
+The affix file `.vale/styles/config/dictionaries/en_US-RedHat.aff` defines the morphology rules that the flags reference.
+In most cases, you do not need to modify this file.
+The current affix file defines:
+
+* *S flag*: Plural suffix rules that handle standard English pluralization patterns (`-s`, `-es`, `-ies`).
+* *P flag*: Possessive suffix rules that add `'s` to words not ending in `s`, or just `'` to words ending in `s` (for example, `Kubernetes'`).
+
+.Example affix file structure
+[source]
+----
+SET UTF-8
+
+# Plural suffix flag
+SFX S Y 4
+SFX S y ies [^aeiou]y
+SFX S 0 s   [aeiou]y
+SFX S 0 es  [sxzh]
+SFX S 0 s   [^sxzhy]
+
+# Possessive suffix flag
+SFX P Y 2
+SFX P 0 's [^s]
+SFX P 0 ' [s]
+----
+
+.Additional resources
+
+* link:https://manpages.ubuntu.com/manpages/trusty/man4/hunspell.4.html[Hunspell dictionary format]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.dic[`en_US-RedHat.dic` source code]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.aff[`en_US-RedHat.aff` source code]

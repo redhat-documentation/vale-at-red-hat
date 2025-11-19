@@ -20,6 +20,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
+      - name: Validate dictionary line count
+        run: |
+          DIC_FILE=".vale/styles/config/dictionaries/en_US-RedHat.dic"
+          DECLARED_COUNT=$(head -n 1 "$DIC_FILE")
+          ACTUAL_COUNT=$(($(wc -l < "$DIC_FILE") - 1))
+          echo "Declared count: $DECLARED_COUNT"
+          echo "Actual count: $ACTUAL_COUNT"
+          if [ "$DECLARED_COUNT" -ne "$ACTUAL_COUNT" ]; then
+            echo "::error::Dictionary line count mismatch! Declared: $DECLARED_COUNT, Actual: $ACTUAL_COUNT"
+            echo "Please update the first line of $DIC_FILE to match the number of entries."
+            exit 1
+          fi
+          echo "Dictionary line count validated successfully."
+
       - name: Create release
         run: |
           cd .vale/styles
