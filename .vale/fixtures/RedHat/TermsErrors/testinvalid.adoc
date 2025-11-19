@@ -405,7 +405,6 @@ switch off
 synch
 sysprep function
 system engineer
-tablespace
 TCP/IP network
 teleprocessing line
 testcase

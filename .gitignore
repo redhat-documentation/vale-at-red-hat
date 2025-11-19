@@ -3,6 +3,7 @@
 .DS_Store
 .vale/styles/RedHat.zip
 .vscode/settings.json
+tmp/
 /*.gem
 /*.html
 /.bundle
