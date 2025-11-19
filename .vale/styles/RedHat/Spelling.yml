@@ -1,9 +1,16 @@
-#file: noinspection IncorrectFormatting
 ---
 extends: spelling
 level: warning
 link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#spelling
-message: "Verify the word '%s'. It is not in the American English spelling dictionary used by Vale."
+message: "Verify the word '%s'. It is not in the American English or Red Hat terminology spelling dictionaries used by Vale."
+action:
+  name: suggest
+  params:
+    - spellings
+dicpath: config/dictionaries
+dictionaries:
+  - en_US-RedHat
+append: true
 # A "filter" is a case-sensitive regular expression specifying words to ignore during spell checking.
 # Spelling rule applies to individual words
 # There is no need to add plural forms (s?) to the regex
