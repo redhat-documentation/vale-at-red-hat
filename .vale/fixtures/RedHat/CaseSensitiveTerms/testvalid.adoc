@@ -42,7 +42,6 @@ Ceph Block Device
 Ceph File System
 Ceph Monitor
 Ceph Object Gateway
-ceph-ansible
 CephFS
 cgroup
 CIDR

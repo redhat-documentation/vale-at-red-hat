@@ -11,6 +11,7 @@ ActiveMQ Artemis
 Admin Portal
 Administration portal
 Administrator Portal
+ansible
 Ansible playbook
 Ansible rulebook
 Appliance Console
@@ -57,6 +58,7 @@ Capsule server
 CD 1
 Cds
 CDS
+ceph
 Ceph Ansible
 Ceph block device
 Ceph block devices
@@ -73,6 +75,7 @@ cidr
 classic mode
 Classless Inter-domain Routing
 Classless Interdomain Routing
+Classloader
 CloudForms Management Engine
 Cluster Manager
 command prompt
@@ -124,6 +127,7 @@ DNF automatic
 dnf automatic
 dns
 dotNet
+dotnet
 DVD burner
 DWH
 EAP
@@ -204,6 +208,8 @@ Infiniband
 INSTALL_DIR
 installDir
 Intel Tolapai
+Intellij
+Intellij IDEA
 Iops
 IOPs
 Ip
@@ -245,6 +251,7 @@ Kernel
 kernel-based virtual machine
 kernelspace
 key store
+kibana
 kickstart
 Kie
 kie API
@@ -300,19 +307,22 @@ Mutual tls
 Mutual TLS
 mySQL
 MYSQL
+Mysql
+mysql
+N-Vidia
 native interface
 network interface card
-NVidia
-N-Vidia
-Nvidia
-nVIDIA
-nvidia
 node.js
 node.JS
 Node.JS
 nodejs
 Nodejs
+NVidia
+Nvidia
+nVIDIA
+nvidia
 O.K.D.
+Oauth
 Object Storage Device
 objectclass
 Objective-C
@@ -354,6 +364,7 @@ OS
 OSD daemon
 Overcloud
 P-PC
+php
 Planner
 Playbook
 podman
@@ -362,6 +373,8 @@ Pop-up
 popup
 posix
 Posix
+postgres
+Postgresql
 Postscript
 Powershell
 powershell
@@ -411,6 +424,7 @@ Resource Planner
 resteasy
 Resteasy
 RESTEASY
+restic
 RH-OSP
 RHCP
 RHDS
@@ -440,6 +454,7 @@ S-Record
 samba
 SAMBA
 Satellite server
+Sbt
 SE Linux
 SE-Linux
 self-hosted engine virtual machine
@@ -503,6 +518,7 @@ User Portal
 var
 VCPU
 vcpu
+velero
 VI
 vim
 VIM
@@ -517,6 +533,7 @@ vlan
 vLAN
 VM portal
 vm portal
+VMWare
 vnic
 VNIC
 vnuma
@@ -554,10 +571,10 @@ XPLAT CLI
 xplat-cli
 XPLAT-CLI
 Xterm
-Yaml is not a markup language.
-Y-Stream
 Y Stream
 Y stream
-Z-Stream
+Y-Stream
+Yaml is not a markup language.
 Z Stream
 Z stream
+Z-Stream

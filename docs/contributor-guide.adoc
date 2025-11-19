@@ -10,4 +10,6 @@ include::modules/contributing.adoc[leveloffset=+1]
 
 include::modules/vale-at-red-hat-repository.adoc[leveloffset=+1]
 
+include::modules/updating-the-redhat-dictionary.adoc[leveloffset=+1]
+
 include::modules/extending-styles.adoc[leveloffset=+1]
