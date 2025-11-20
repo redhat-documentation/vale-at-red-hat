@@ -11,4 +11,4 @@ tokens:
   - ^And
   - ^But
   - ^Or
-  - ^So
+  - ^So(?! that)

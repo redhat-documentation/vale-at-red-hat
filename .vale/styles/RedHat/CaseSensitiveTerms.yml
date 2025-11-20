@@ -170,7 +170,7 @@ swap:
   jetbrains|Jetbrains: JetBrains
   Junit|junit: JUnit
   Jvm|jvm: JVM
-  kbase|knowledge base: KIE base
+  kbase: KIE base
   kernel-based virtual machine: Kernel-based Virtual Machine
   kernelspace: kernel space
   key store: keystore

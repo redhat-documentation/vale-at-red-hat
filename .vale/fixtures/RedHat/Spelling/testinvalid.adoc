@@ -14,7 +14,6 @@ dns
 dotnet
 gluster
 Graal VM
-graal vm
 gui
 homebrew
 Ide
@@ -41,9 +40,7 @@ Omnisharp
 Openshift
 Opentracing
 php
-podman
 postgres
-Postgresql
 quarkus
 redis
 restic
