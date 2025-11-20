@@ -41,9 +41,7 @@ Omnisharp
 Openshift
 Opentracing
 php
-podman
 postgres
-Postgresql
 quarkus
 redis
 restic

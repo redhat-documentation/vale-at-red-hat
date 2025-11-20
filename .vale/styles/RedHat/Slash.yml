@@ -19,20 +19,26 @@ exceptions:
   - "[Aa]ctive/[Aa]ctive"
   - "[Aa]ctive/[Pp]assive"
   - "[Cc]heckpoint/[Rr]estore"
+  - "[Gg]roup/[Vv]ersion"
   - "[Ii]nput/[Oo]utput"
   - "[Kk]ey/value"
   - "[Mm]in/[Mm]ax"
   - "[Pp]acemaker/[Cc]orosync"
+  - "[Pp]ublish/[Ss]ubscribe"
   - "[Ss]ource/[Dd]estination"
   - "[Ss]top/[Ss]tart"
+  - "A/B"
   - "C/C"
   - "CI/CD"
   - "client/server"
+  - "HTTP/HTTPS"
   - "I/O"
   - "N/A"
   - "NVMe/FC"
   - "NVMe/RDMA"
   - "NVMe/TCP"
+  - "OS/architecture"
+  - "Q/A"
   - "read/write"
   - "S/MIME"
   - "SSL/TLS"
@@ -60,6 +66,8 @@ exceptions:
   - '.*t5/\w+'
   - '.*team/\w+'
   - '.*testing/\w+'
+  # Kubernetes/OpenShift annotations and registry paths
+  - '\w+\.io/\w+'
   - 'AIDC-AI/\w+'
   - 'Alibaba-NLP/\w+'
   - 'apple/\w+'
@@ -115,5 +123,3 @@ exceptions:
   - 'TinyLlama/\w+'
   - 'unsloth/\w+'
   - 'Vikhrmodels/\w+'
-  - "OS/architecture"
-  - "Q/A"
