@@ -15,19 +15,26 @@ exceptions:
   - 'https?://\S+'
   # common technical terms
   - "0/"
+  - "A/B"
   - "[Ii]nput/[Oo]utput"
   - "[Kk]ey/value"
   - "C/C"
   - "CI/CD"
   - "client/server"
+  - "[Gg]roup/[Vv]ersion"
+  - "HTTP/HTTPS"
   - "I/O"
   - "N/A"
+  - "[Pp]ublish/[Ss]ubscribe"
   - "read/write"
   - "SSL/TLS"
   - "TCP/IP"
   - "upstream/downstream"
   - "z/OS"
   - "z/OSMF"
+  - "z/VM"
+  # Kubernetes/OpenShift annotations and registry paths
+  - '\w+\.io/\w+'
   - '.*ai/\w+'
   - '.*AI/\w+'
   - '.*community/\w+'

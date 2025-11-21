@@ -4,12 +4,9 @@ all caps
 below
 bottom left
 bottom right
-bugfix
 choose
 componentization
 componentize
-consumes
-distro
 drag and drop
 executable
 frontend

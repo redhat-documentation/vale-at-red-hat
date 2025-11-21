@@ -21,6 +21,7 @@ exceptions:
   - AMQ
   - API
   - AppStream
+  - ArgoCD
   - AsciiDoc
   - AssertJ
   - BaseOS
@@ -34,6 +35,8 @@ exceptions:
   - CheckTree
   - ClassLoader
   - CloudForms
+  - CloudTrail
+  - CloudWatch
   - CodeLlama
   - CodeReady
   - ConfigMaps?
@@ -41,6 +44,7 @@ exceptions:
   - Convert2RHEL
   - CoreOS
   - DaemonSet
+  - DataMover
   - DDoS
   - DeepSeek
   - DevOps
@@ -69,6 +73,7 @@ exceptions:
   - GraalVM
   - GraphQL
   - GTID
+  - HAProxy
   - HashBase
   - HdrHistogram
   - Helm
@@ -111,6 +116,7 @@ exceptions:
   - MegaRAID
   - MiB
   - MicroProfile
+  - MinIO
   - MoE
   - MongoDB
   - MoreUtils
@@ -123,6 +129,8 @@ exceptions:
   - NetXtreme
   - NFSv
   - NMState
+  - NodeJS
+  - NooBaa
   - NousResearch
   - NuGet
   - NVMe
@@ -148,6 +156,8 @@ exceptions:
   - OperatorHub
   - OpEx
   - OSBuild
+  - OSToy
+  - OStoy
   - OTel
   - PaaS
   - PackageKit

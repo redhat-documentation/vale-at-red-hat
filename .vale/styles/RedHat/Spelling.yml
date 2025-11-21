@@ -14,6 +14,7 @@ filters:
   - "[aA]utoinstall"
   - "[aA]utomount"
   - "[aA]utonumber"
+  - "[aA]utoscal(er|ing)"
   - "[aA]utostart"
   - "[bB]ackfilling"
   - "[bB]ackport"
@@ -22,7 +23,10 @@ filters:
   - "[bB]indable"
   - "[bB]oolean"
   - "[bB]ootable"
+  - "[bB]orrowable"
   - "[bB]reakpoint(s)?"
+  - "[bB]uildah"
+  - "[bB]undler"
   - "[cC]hrony"
   - "[cC]lassloading"
   - "[cC]lasspath"
@@ -35,6 +39,7 @@ filters:
   - "[cC]yberattack"
   - "[cC]ybercrime"
   - "[cC]ybersecurity"
+  - "[dD]aemonless"
   - "[dD]atasource"
   - "[dD]eclaratively"
   - "[dD]ecompiler"
@@ -63,6 +68,7 @@ filters:
   - "[hH]eatmap"
   - "[hH]ostname"
   - "[hH]yperconverged"
+  - "[hH]yperscale"
   - "[iI]nferencing"
   - "[Ii]nferencing"
   - "[iI]node"
@@ -216,6 +222,7 @@ filters:
   - "[uU]ndercloud"
   - "[uU]nderrun"
   - "[uU]nformatted"
+  - "[uU]nidled"
   - "[uU]ninstallation"
   - "[uU]nmount"
   - "[uU]nmounting"
@@ -229,7 +236,7 @@ filters:
   - "Let\\'s Encrypt"
   - '\.NET'
   - '\b[cC]he\b'
-  - '\b[cC]onfig\b'
+  - '\b[cC]onfig(s)?\b'
   - '\b[dD]ev\b'
   - '\b[gG]it\b'
   - '\b[iI]tem\b'
@@ -259,6 +266,7 @@ filters:
   - Arcee
   - Asciidoctor
   - AssertJ
+  - auditable
   - autoconfigure
   - autolink
   - aws
@@ -322,6 +330,7 @@ filters:
   - eServer
   - Esprima
   - etcd
+  - exe
   - Exif
   - extranet
   - Fabrice
@@ -397,12 +406,14 @@ filters:
   - Kerberos
   - keystore
   - Kibana
+  - klusterlet
   - Knative
   - Knowledgebase
   - Kogito
   - Kompose
   - Konflux
   - kubelet
+  - Kueue
   - Kubernetes
   - Kubespray
   - Kylin
@@ -432,6 +443,7 @@ filters:
   - Mixtral
   - Mockito
   - MongoDB
+  - MCP
   - multischema
   - MySQL
   - Nagios
@@ -470,7 +482,9 @@ filters:
   - PHP
   - PIDs
   - pixtral
+  - podman
   - Podman
+  - Postgres
   - PostgreSQL
   - PowerShell
   - precache
@@ -492,6 +506,7 @@ filters:
   - Realtime
   - rebase
   - Redis
+  - redistributable
   - Redistributions
   - relaxngDatatype
   - Reranker
@@ -504,6 +519,7 @@ filters:
   - rootful
   - rootless
   - RPMs
+  - Rubygems
   - safetensors?
   - Sakila
   - sbt

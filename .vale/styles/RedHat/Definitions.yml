@@ -19,8 +19,10 @@ exceptions:
   - 'LLMs?'
   - 'NULL'
   - 'PIDs?'
+  - 'PVCs?'
   - 'ROMs?'
   - 'RPMs?'
+  - 'SDKs?'
   - 'UIDs?'
   - 'URIs?'
   - 'URLs?'
@@ -35,13 +37,18 @@ exceptions:
   - BIND
   - BIOS
   - BMC
+  - BSL
   - CD
   - CIDR
   - CLI
   - CNAME
+  - CRI
+  - CSI
   - CSS
   - CSV
+  - CUDA
   - CUPS
+  - DCGM
   - DEBUG
   - DHCP
   - DNF
@@ -90,6 +97,8 @@ exceptions:
   - ISO
   - IT
   - JAR
+  - JIB
+  - JNLP
   - JPEG
   - JSON
   - JSX
@@ -103,6 +112,7 @@ exceptions:
   - LGAI
   - LLDB
   - LPAR
+  - LTS
   - LUKS
   - LVM
   - MAC
@@ -112,6 +122,7 @@ exceptions:
   - MLP
   - MLX
   - mTLS
+  - NABSL
   - NAT
   - NET
   - NFS
@@ -121,7 +132,10 @@ exceptions:
   - NOTE
   - NTP
   - NVDA
+  - OADP
   - OEM
+  - OIDC
+  - OLM
   - OSS
   - OVN
   - OVS
@@ -152,9 +166,13 @@ exceptions:
   - RFC
   - RGW
   - RHEL
+  - RHOAS
+  - RHSSO
+  - ROSA
   - RSA
   - SAML
   - SAP
+  - SCC
   - SCM
   - SCSI
   - SCSS
@@ -168,7 +186,9 @@ exceptions:
   - SSD
   - SSH
   - SSL
+  - SSO
   - SSSD
+  - STS
   - SVG
   - SVN
   - SWAT

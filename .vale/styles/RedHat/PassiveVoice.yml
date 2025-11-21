@@ -188,6 +188,7 @@ exceptions:
   - deprecated
   - displayed
   - imported
+  - interested
   - supported
   - tested
   - trusted
