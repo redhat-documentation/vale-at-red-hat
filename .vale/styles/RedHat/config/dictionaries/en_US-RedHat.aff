@@ -1,0 +1,25 @@
+SET UTF-8
+
+# Plural/third person -s
+SFX S Y 4
+SFX S   y     ies        [^aeiou]y
+SFX S   0     s          [aeiou]y
+SFX S   0     es         [sxzh]
+SFX S   0     s          [^sxzhy]
+
+# -ize suffix
+SFX Z Y 1
+SFX Z   0     ize        .
+
+# Past tense -ed
+SFX D Y 5
+SFX D   e     ed         e
+SFX D   y     ied        [^aeiou]y
+SFX D   0     ed         [aeiou]y
+SFX D   0     ed         [^ey]
+
+# Combine -ize with -ed and -s
+SFX Z Y 3
+SFX Z   0     ize        .
+SFX Z   0     izes       .
+SFX Z   0     ized       .
