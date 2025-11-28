@@ -7,19 +7,21 @@ This web app is preconfigured to analyze your content by using Red Hat's style r
 
 .Prerequisites
 * You must have Docker or Podman installed on your system.
+* Optional: To use AI-powered issue fixing, install and run https://ollama.ai/[Ollama] on your host machine with at least one model (for example, `ollama pull granite4:latest`).
 
 .Procedure
 . Run the following command to download the image and start the container:
 +
-[source, terminal]
-```bash
+[source,terminal]
+----
 docker run --rm -p 8080:8080 quay.io/ganelson/vale-online-app
-```
+----
 . Open your browser and go to `+http://localhost:8080+`.
-. Paste the content you want to check in the text area and click on the `Lint` button.
+. Paste the content you want to check in the text area and click *Lint*.
 +
-[[NOTE]]
+[NOTE]
 ====
 By default, the Vale-at-Red-Hat web app displays warnings and errors only. You can also view suggestions by using the options menu on the left.
 ====
+. Optional: If Ollama is available, click *Fix issues with AI* to automatically fix linting issues. Select which issues to fix, review the AI suggestions, and apply the changes.
 . To close the app, press `Ctrl+C` in the terminal where the container is running.
