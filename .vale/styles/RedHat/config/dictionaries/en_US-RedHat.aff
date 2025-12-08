@@ -1,8 +1,0 @@
-SET UTF-8
-
-# Plural/third person -s
-SFX S Y 4
-SFX S   y     ies        [^aeiou]y
-SFX S   0     s          [aeiou]y
-SFX S   0     es         [sxzh]
-SFX S   0     s          [^sxzhy]

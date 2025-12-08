@@ -1,40 +1,36 @@
-ansibel
-backfiling
-backportig
-classloadng
-declarativly
-deserializtion
-deserailize
-desynchronie
-downstrem
-finetuend
-hardcodng
-inferancing
-journalng
-offbording
-onbording
-posteditng
-preconfigre
-preformatd
-pregenereted
-prepedned
-productie
-reauthenticte
-rebalancng
-rebasng
-reindexng
-reshardng
-resyncng
-shardng
-tempated
-unmountng
-unportd
-unstagd
-upsellng
-finetunung
-quantizng
-sparsifcation
-prometheous
-mokito
-mokitto
-microsoft azure
+The github repository is available online.
+The vmware platform is deprecated.
+Configure selinux policies for the container.
+The nmstate configuration file is invalid.
+The ostree image is ready.
+Deploy to openShift using the CLI.
+Check the gitlab pipeline status.
+Create a devworkspace for development.
+Apply the configmap to the cluster.
+Create a daemonset for monitoring.
+Check for compatability issues before upgrading.
+The interace is not responding.
+Check the interproces communication.
+The observablity dashboard shows metrics.
+Avoid overcomitting resources.
+The change was overcommited.
+Review the prerequisitie list.
+Check the registerie for images.
+The user was registrered successfully.
+Download the latest relase.
+Generate the reprt file.
+Check the resoure limits.
+Enable timesamping for logs.
+Data is transfering to the server.
+Start a new trhead.
+The service is unavilable.
+The volume is unmaped.
+Check the virtualizaton settings.
+Check your wherabouts.
+The api endpoint is available.
+Set the acl permissions.
+Pass the arg to the function.
+Open the gui interface.
+Check the url for the resource.
+The istod service is running.
+Use spamassasin for filtering.
