@@ -20,7 +20,7 @@ jobs:
     if: github.event.workflow_run.event == 'pull_request'
     steps:
       - name: Download preview-build artifact
-        uses: dawidd6/action-download-artifact@4c1e823582f43b179e2cbb49c3eade4e41f992e2 # v10
+        uses: dawidd6/action-download-artifact@0bd50d53a6d7fb5cb921e607957e9cc12b4ce392 # v12
         with:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           name: preview-build
