@@ -9,4 +9,4 @@ action:
   name: remove
 tokens:
   - 'https:\/\/gitlab\.com\/\w+'
-  - 'https:\/\/github\.com(?!\/openshift|\/redhat-developer)'
+  - 'https:\/\/github\.com(?!\/openshift|\/redhat-developer|\/quarkusio)'

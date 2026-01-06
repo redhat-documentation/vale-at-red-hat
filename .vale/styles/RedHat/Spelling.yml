@@ -9,12 +9,14 @@ message: "Verify the word '%s'. It is not in the American English spelling dicti
 # There is no need to add plural forms (s?) to the regex
 filters:
   - "[aA]ccessor"
+  - "[aA]lexa"
   - "[aA]llowlist"
   - "[aA]utogenerate"
   - "[aA]utoinstall"
   - "[aA]utomount"
   - "[aA]utonumber"
   - "[aA]utostart"
+  - "[aA]vro"
   - "[bB]ackfilling"
   - "[bB]ackport"
   - "[bB]ackported"
@@ -23,6 +25,7 @@ filters:
   - "[bB]oolean"
   - "[bB]ootable"
   - "[bB]reakpoint(s)?"
+  - "[bB]ugfix(es)?"
   - "[cC]hrony"
   - "[cC]lassloading"
   - "[cC]lasspath"
@@ -54,6 +57,7 @@ filters:
   - "[fF]ailback"
   - "[fF]ailover"
   - "[fF]indability"
+  - "[fF]irehose"
   - "[gG]bps"
   - "[gG]ibibyte"
   - "[gG]lock"
@@ -208,6 +212,7 @@ filters:
   - "[tT]elco"
   - "[tT]emplated"
   - "[tT]heia"
+  - "[tT]ika"
   - "[tT]olerations"
   - "[tT]raceback"
   - "[tT]ruststore"
@@ -225,16 +230,10 @@ filters:
   - "[uU]psell"
   - "[uU]pselling"
   - "[vV]alidator"
+  - "[wW]atercooler"
+  - "[wW]eb[sS]ockets?"
   - "I/O"
   - "Let\\'s Encrypt"
-  - '\.NET'
-  - '\b[cC]he\b'
-  - '\b[cC]onfig\b'
-  - '\b[dD]ev\b'
-  - '\b[gG]it\b'
-  - '\b[iI]tem\b'
-  - '\b[Ss]u\b'
-  - 'Node\.js'
   - '[Ff]inetune'
   - '[Ff]inetuning'
   - '[Mm]ultimodal'
@@ -247,6 +246,14 @@ filters:
   - '[Ss]parsified'
   - '[Ss]parsify'
   - '[Tt]okenizers?'
+  - '\.NET'
+  - '\b[cC]he\b'
+  - '\b[cC]onfig\b'
+  - '\b[dD]ev\b'
+  - '\b[gG]it\b'
+  - '\b[iI]tem\b'
+  - '\b[Ss]u\b'
+  - 'Node\.js'
   - ACLs
   - adoc
   - AGPLv
@@ -307,6 +314,7 @@ filters:
   - dataclasses
   - Datadog
   - dataloaders?
+  - Dependabot
   - Dev
   - DevWorkspace
   - Dex
@@ -570,3 +578,4 @@ filters:
   - Yeoman
   - ZCentral
   - Zowe
+  - Zulip

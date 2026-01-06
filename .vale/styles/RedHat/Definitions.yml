@@ -25,8 +25,11 @@ exceptions:
   - 'URIs?'
   - 'URLs?'
   - ACPI
+  - ADR
   - AIDC
   - AIX
+  - ALPN
+  - AMQP
   - ARM
   - ASCII
   - ASP
@@ -36,6 +39,7 @@ exceptions:
   - BIOS
   - BMC
   - CD
+  - CDI
   - CIDR
   - CLI
   - CNAME
@@ -90,10 +94,16 @@ exceptions:
   - ISO
   - IT
   - JAR
+  - JAXB
+  - JDBC
+  - JMS
+  - JPA
   - JPEG
   - JSON
   - JSX
+  - JTA
   - JVM
+  - JWT
   - KB
   - KIE
   - KVM
@@ -103,6 +113,7 @@ exceptions:
   - LGAI
   - LLDB
   - LPAR
+  - LTS
   - LUKS
   - LVM
   - MAC
@@ -111,17 +122,22 @@ exceptions:
   - MDS
   - MLP
   - MLX
+  - MQTT
   - mTLS
+  - MUST
   - NAT
   - NET
   - NFS
   - NGINX
   - NIC
   - NLP
+  - NOT
   - NOTE
   - NTP
   - NVDA
   - OEM
+  - OIDC
+  - ORM
   - OSS
   - OVN
   - OVS
@@ -135,6 +151,7 @@ exceptions:
   - POST
   - PPP
   - PROM
+  - PTO
   - PTP
   - PV
   - PVC
@@ -162,6 +179,7 @@ exceptions:
   - SEED
   - SFTP
   - SHA
+  - SMTP
   - SOCKS
   - SPEC
   - SQL
@@ -169,6 +187,7 @@ exceptions:
   - SSH
   - SSL
   - SSSD
+  - STM
   - SVG
   - SVN
   - SWAT
@@ -198,5 +217,6 @@ exceptions:
   - XSS
   - YAML
   - YUM
+  - YYYY
   - ZIP
   - ZTP

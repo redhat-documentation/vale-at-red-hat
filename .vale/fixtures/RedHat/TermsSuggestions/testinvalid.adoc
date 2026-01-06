@@ -14,7 +14,6 @@ drag and drop
 executable
 frontend
 gzip
-higher
 hit
 in order to
 information on

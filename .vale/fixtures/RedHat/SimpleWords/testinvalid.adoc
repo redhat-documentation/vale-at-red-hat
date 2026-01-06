@@ -37,7 +37,6 @@ cease
 collaborate
 commence
 compensate
-component
 comprise
 concerning
 confer
@@ -80,7 +79,6 @@ liaise
 maintain
 methodology
 modify
-monitor
 multiple
 necessitate
 notify
@@ -103,7 +101,6 @@ state-of-the-art
 subsequent
 substantial
 sufficient
-terminate
 transmit
 utilization
 utilize
