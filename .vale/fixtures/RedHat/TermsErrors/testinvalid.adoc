@@ -176,7 +176,6 @@ eFix
 Elastic Load Balancer
 emphasise
 end user
-enum
 env
 EUI
 evangelist
@@ -348,7 +347,6 @@ recognise
 Red Hat Java
 Red Hat Open Java Development Kit
 Red Hat OpenJDK
-regex
 requestor
 RHOJDK
 right now

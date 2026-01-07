@@ -37,7 +37,6 @@ swap:
   drag and drop: drag
   executable(?! program| routine| files?): executable program
   frontend: front end|front-end
-  higher: later
   hit: press|type
   in order to: to
   information on: information about
@@ -53,3 +52,4 @@ swap:
   thus: therefore
   translate: convert|transform
   via: through|by|from|on|by using
+  higher version: later version

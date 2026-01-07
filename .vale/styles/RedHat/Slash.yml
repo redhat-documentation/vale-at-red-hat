@@ -101,3 +101,5 @@ exceptions:
   - 'TinyLlama/\w+'
   - 'unsloth/\w+'
   - 'Vikhrmodels/\w+'
+  - "OS/architecture"
+  - "Q/A"
