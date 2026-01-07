@@ -15,6 +15,8 @@
 set -e
 
 TOTAL=0
+ERRORS_FILE=$(mktemp)
+trap 'rm -f "$ERRORS_FILE"' EXIT
 
 # Run vale and return the output
 run_vale() {
@@ -26,17 +28,21 @@ count_lines() {
     echo "$1" | grep -c . || true
 }
 
+# Record an error
+record_error() {
+    echo "$1" >> "$ERRORS_FILE"
+}
+
 # Report false positives (alerts in testvalid.adoc)
 check_false_positives() {
-    _dir="$1"
-    _alerts="$2"
-    _count="$3"
+    local alerts="$1"
+    local count="$2"
 
-    if [ "$_count" -gt 0 ]; then
-        echo "$_alerts" | while read -r _line; do
-            echo "ERROR in $_line"
+    if [ "$count" -gt 0 ]; then
+        echo "$alerts" | while read -r line; do
+            record_error "$line"
         done
-        TOTAL=$((TOTAL + _count))
+        TOTAL=$((TOTAL + count))
     fi
 }
 
@@ -58,14 +64,14 @@ test_redhat_rule() {
 
     local missed=$((expected_count - invalid_count))
 
-    check_false_positives "$dir" "$valid_alerts" "$valid_count"
+    check_false_positives "$valid_alerts" "$valid_count"
 
     if [ "$missed" -gt 0 ]; then
         # Report lines that should have triggered an alert but didn't
         grep -n '.' "$dir/testinvalid.adoc" | while read -r line; do
             linenum=$(echo "$line" | cut -d: -f1)
             if ! echo "$invalid_alerts" | grep -q ":$linenum:"; then
-                echo "ERROR in $dir/testinvalid.adoc:$linenum"
+                record_error "$dir/testinvalid.adoc:$linenum"
             fi
         done
         TOTAL=$((TOTAL + missed))
@@ -90,7 +96,7 @@ test_markup_rule() {
 
     local missed=$((expected_count - invalid_count))
 
-    check_false_positives "$dir" "$valid_alerts" "$valid_count"
+    check_false_positives "$valid_alerts" "$valid_count"
 
     if [ "$missed" -ne 0 ]; then
         # Handle both missed detections and over-detections
@@ -98,7 +104,7 @@ test_markup_rule() {
             missed=$((missed * -1))
         fi
         grep -n "//vale-fixture" "$dir/testinvalid.adoc" | cut -d: -f1 | while read -r linenum; do
-            echo "ERROR in $dir/testinvalid.adoc:$linenum"
+            record_error "$dir/testinvalid.adoc:$linenum"
         done
         TOTAL=$((TOTAL + missed))
     fi
@@ -120,7 +126,8 @@ for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -
 done
 
 if [ $TOTAL -gt 0 ]; then
-    echo "$TOTAL tests to fix"
+    echo "$TOTAL tests to fix:"
+    cat "$ERRORS_FILE"
 else
     echo "All tests passed"
 fi
