@@ -21,7 +21,7 @@ swap:
   "[dD]ay-1|day 1": Day 1
   "[dD]ay-2|day 2": Day 2
   "BPMS|(?<!Red Hat )JBoss BPMS|(?<!Red Hat JBoss )BPM(?! Suite)": Red Hat JBoss BPM Suite
-  "DM(?![ -]Multipath)|directory manager": Directory Manager
+  "DM(?![ -]?[Mm]ultipath)|directory manager": Directory Manager
   "JBoss Broker|Red Hat Broker|The AMQ Broker": AMQ Broker
   "JBoss Console|Red Hat Console": AMQ Console
   "Kernel(?!-based Virtual Machine| Module Management| parameters| arguments| packet filtering)": kernel
@@ -170,7 +170,7 @@ swap:
   jetbrains|Jetbrains: JetBrains
   Junit|junit: JUnit
   Jvm|jvm: JVM
-  kbase|knowledge base: KIE base
+  kbase: KIE base
   kernel-based virtual machine: Kernel-based Virtual Machine
   kernelspace: kernel space
   key store: keystore
@@ -301,7 +301,7 @@ swap:
   ttl: TTL
   uid: UID
   ULTRASPARC|UltraSparc: UltraSPARC
-  Unix|unix|UNIX-like: UNIX
+  Unix|unix: UNIX
   uri: URI
   url: URL
   urn: URN

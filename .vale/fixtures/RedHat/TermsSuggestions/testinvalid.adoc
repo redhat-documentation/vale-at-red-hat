@@ -30,7 +30,6 @@ segfault
 shell
 spawn
 start up
-tar
 tar file
 tarball
 This clause which is nonrestrictive
