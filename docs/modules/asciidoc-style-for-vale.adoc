@@ -23,7 +23,7 @@ These rules are suitable for AsciiDoc source files only.
 
 To use the `AsciiDoc` style, do the following:
 
-. Update your project `.vale.ini` to include the the `AsciiDoc` style. Add `Asciidoc` to the `Packages` and `BasedOnStyles` fields. For example:
+. Update your project `.vale.ini` to include the `AsciiDoc` style. Add `Asciidoc` to the `Packages` and `BasedOnStyles` fields. For example:
 +
 .Example .vale.ini
 [source,ini]

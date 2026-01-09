@@ -11,7 +11,7 @@ $ cd openshift-docs/
 $ vale --output='.vale/styles/RedHat/collate-output.tmpl' modules/about-crio.adoc
 ----
 
-The resulting command output collates any repetitive the suggestions, warnings, or errors.
+The resulting command output collates any repetitive suggestions, warnings, or errors.
 
 .Example `vale` output from the `collate-output.tmpl` template
 ----

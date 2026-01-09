@@ -4,7 +4,7 @@
 
 Consider using Vale in your IDE when:
 
-* You want a direct feedback in your editor.
+* You want direct feedback in your editor.
 * You use a supported IDE, such as Visual Studio Code. See: link:https://vale.sh/docs/integrations/guide/[How to integrate Vale with other tools and services].
 
 .Prerequisites

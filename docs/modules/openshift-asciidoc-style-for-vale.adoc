@@ -3,7 +3,7 @@
 = OpenShift AsciiDoc style for Vale
 
 The `OpenShiftAsciiDoc` style for Vale consists of rules suitable for OpenShift documentation projects written in AsciiDoc.
-It lints common OpenShift AsciiDoc syntax errors as outlined in link:https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#documentation-guidelines[OpenShift documentation guidelines]
+It lints common OpenShift AsciiDoc syntax errors as outlined in link:https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#documentation-guidelines[OpenShift documentation guidelines].
 Use the OpenShiftAsciiDoc style in conjunction with other Vale styles.
 
 Some of the errors that the `OpenShiftAsciiDoc` rules highlight include:
@@ -24,7 +24,7 @@ These rules are suitable for AsciiDoc source files only.
 
 To use the `OpenShiftAsciiDoc` style, do the following:
 
-. Update your project `.vale.ini` to include the the `OpenShiftAsciiDoc` style. Add `OpenShiftAsciiDoc` to the `Packages` and `BasedOnStyles` fields. For example:
+. Update your project `.vale.ini` to include the `OpenShiftAsciiDoc` style. Add `OpenShiftAsciiDoc` to the `Packages` and `BasedOnStyles` fields. For example:
 +
 .Example .vale.ini
 [source,ini]

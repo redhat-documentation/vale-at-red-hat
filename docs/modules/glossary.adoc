@@ -60,12 +60,12 @@ In a project, a Vale vocabulary is an optional additional directory containing l
 Consider xref:user-guide.adoc#creating-a-vocabulary-for-a-project[creating a vocabulary for a project] when:
 
 * Missing words in the Vale dictionary are causing Spelling errors
-* The word is too specific to benefit to other projects.
+* The word is too specific to benefit other projects.
 
 Consider xref:contributor-guide.adoc#extending-styles[Extending styles] when:
 
 * Missing words in the Vale dictionary are causing Spelling errors
-* Adding the word will benefit to other projects. For example: product and tool names, common terms specific to the software industry.
+* Adding the word will benefit other projects. For example: product and tool names, common terms specific to the software industry.
 
 .Additional resources
 

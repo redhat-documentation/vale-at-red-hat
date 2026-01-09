@@ -69,6 +69,6 @@ For other operating systems, see link:https://vale.sh/docs/vale-cli/installation
 * link:https://vale.sh/docs/vale-cli/installation/[Installing Vale CLI]
 * link:https://vale.sh/docs/topics/config[Configuring Vale CLI]
 * link:https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode[Install the Visual Studio Code extension for Vale, "Vale VSCode"] (Important: This new extension replaces the deprecated "vale-server" extension.)
-* link:https://plugins.jetbrains.com/plugin/19613-vale-cli[Intellijel IDE + Vale]
+* link:https://plugins.jetbrains.com/plugin/19613-vale-cli[IntelliJ IDE + Vale]
 * link:https://packagecontrol.io/packages/LSP-vale-ls[Sublime Text + Vale]
 * link:https://vale.sh/generator[Vale configuration generator]
