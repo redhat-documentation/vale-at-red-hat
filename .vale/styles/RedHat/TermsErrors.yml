@@ -164,7 +164,6 @@ swap:
   demilitarized zone: DMZ
   demon: daemon
   demount: dismount|unmount
-  deployment configuration: deployment
   depress: press|type
   deregister: unregister
   descendent: descendant
@@ -194,7 +193,6 @@ swap:
   finalise: finalize
   fire up: start
   fixed disk drive: hard disk drive
-  flavor: version|method
   focussed: focused
   forward compatible: compatible with later versions
   freezes: hangs|stops responding
@@ -435,10 +433,10 @@ swap:
   useable: usable
   utilize: use
   vanilla: uncustomized
-  versus: compared to
   virtual diskette drive: virtual floppy drive
   virtual diskette(?! drive): virtual floppy disk
   virtual DOS machine: DOS session
+  versus: compared to
   virtual hard disk: virtual hard drive
   virtual-equals-real: nonpageable
   virtual-equals-virtual: pageable

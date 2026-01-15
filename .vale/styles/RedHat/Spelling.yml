@@ -1,4 +1,3 @@
-#file: noinspection IncorrectFormatting
 ---
 extends: spelling
 level: warning
@@ -15,6 +14,7 @@ filters:
   - "[aA]utoinstall"
   - "[aA]utomount"
   - "[aA]utonumber"
+  - "[aA]utoscal(er|ing)"
   - "[aA]utostart"
   - "[aA]vro"
   - "[bB]ackfilling"
@@ -24,8 +24,12 @@ filters:
   - "[bB]indable"
   - "[bB]oolean"
   - "[bB]ootable"
+  - "[bB]orrowable"
   - "[bB]reakpoint(s)?"
   - "[bB]ugfix(es)?"
+  - "[bB]uildah"
+  - "[bB]undler"
+  - "[cC]atalogd"
   - "[cC]hrony"
   - "[cC]lassloading"
   - "[cC]lasspath"
@@ -38,6 +42,7 @@ filters:
   - "[cC]yberattack"
   - "[cC]ybercrime"
   - "[cC]ybersecurity"
+  - "[dD]aemonless"
   - "[dD]atasource"
   - "[dD]eclaratively"
   - "[dD]ecompiler"
@@ -69,6 +74,7 @@ filters:
   - "[hH]ostname"
   - "[hH]ostpath"
   - "[hH]yperconverged"
+  - "[hH]yperscale"
   - "[iI]nferencing"
   - "[Ii]nferencing"
   - "[iI]node"
@@ -199,16 +205,16 @@ filters:
   - "[sS]ervlet"
   - "[sS]etter"
   - "[sS]harding"
-  - "[sS]ubcommand(s)?"
-  - "[sS]ubmenu(s)?"
-  - "[sS]ubnet(s)?"
-  - "[sS]ubnetwork(s)?"
-  - "[sS]ubpackage(s)?"
-  - "[sS]ubpath(s)?"
-  - "[sS]ubstep(s)?"
-  - "[sS]ubtest(s)?"
-  - "[sS]ubuser(s)?"
-  - "[sS]ubvolume(s)?"
+  - "[sS]ubcommand"
+  - "[sS]ubmenu"
+  - "[sS]ubnet?"
+  - "[sS]ubnetwork"
+  - "[sS]ubpackage"
+  - "[sS]ubpath"
+  - "[sS]ubstep"
+  - "[sS]ubtest"
+  - "[sS]ubuser"
+  - "[sS]ubvolume"
   - "[sS]ysctl"
   - "[sS]yslog"
   - "[sS]ystemd"
@@ -224,6 +230,7 @@ filters:
   - "[uU]ndercloud"
   - "[uU]nderrun"
   - "[uU]nformatted"
+  - "[uU]nidled"
   - "[uU]ninstallation"
   - "[uU]nmount"
   - "[uU]nmounting"
@@ -234,7 +241,7 @@ filters:
   - "[uU]pselling"
   - "[vV]alidator"
   - "[wW]atercooler"
-  - "[wW]eb[sS]ockets?"
+  - "[wW]eb[sS]ocket"
   - "I/O"
   - "Let\\'s Encrypt"
   - '[Ff]inetune'
@@ -248,9 +255,10 @@ filters:
   - '[Ss]parsification'
   - '[Ss]parsified'
   - '[Ss]parsify'
-  - '[Tt]okenizers?'
+  - '[Tt]okenizer'
   - '\.NET'
   - '\b[cC]he\b'
+  - '\b[cC]onfigs?\b'
   - '\b[cC]onfig\b'
   - '\b[dD]ev\b'
   - '\b[gG]it\b'
@@ -269,6 +277,7 @@ filters:
   - Arcee
   - Asciidoctor
   - AssertJ
+  - auditable
   - autoconfigure
   - autolink
   - aws
@@ -331,6 +340,7 @@ filters:
   - eServer
   - Esprima
   - etcd
+  - exe
   - Exif
   - extranet
   - Fabrice
@@ -404,6 +414,7 @@ filters:
   - Kerberos
   - keystore
   - Kibana
+  - klusterlet
   - Knative
   - Knowledgebase
   - Kogito
@@ -412,6 +423,7 @@ filters:
   - kubelet
   - Kubernetes
   - Kubespray
+  - Kueue
   - Kylin
   - Laravel
   - layernorm
@@ -430,6 +442,7 @@ filters:
   - Makefile
   - Mattermost
   - Maven
+  - MCP
   - MicroProfile
   - Microsoft
   - Minicpm
@@ -477,7 +490,9 @@ filters:
   - PHP
   - PIDs
   - pixtral
+  - podman
   - Podman
+  - Postgres
   - PostgreSQL
   - PowerShell
   - precache
@@ -499,6 +514,7 @@ filters:
   - Realtime
   - rebase
   - Redis
+  - redistributable
   - Redistributions
   - relaxngDatatype
   - Reranker
@@ -511,6 +527,7 @@ filters:
   - rootful
   - rootless
   - RPMs
+  - Rubygems
   - safetensor
   - Sakila
   - sbt

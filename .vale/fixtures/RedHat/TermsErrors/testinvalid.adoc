@@ -152,7 +152,6 @@ deinstallation
 demilitarized zone
 demon
 demount
-deployment configuration
 depress
 deregister
 descendent
@@ -186,7 +185,6 @@ fire up
 Firefox
 first name
 fixed disk drive
-flavor
 focussed
 forename
 forward compatible
