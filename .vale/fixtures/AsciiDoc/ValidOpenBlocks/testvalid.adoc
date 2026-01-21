@@ -1,0 +1,38 @@
+//vale-fixture
+Here is an open block:
+
+[sidebar]
+--
+This is a sidebar.
+--
+
+Here is another open block:
+
+[example]
+--
+This is an example.
+--
+
+Here is yet another open block:
+
+[quote]
+--
+This is a quote block.
+--
+
+Here is an anonymous open block:
+
+--
+This is anonymous content.
+--
+
+Some text.
+
+//vale-fixture
+Here is a final open block:
+
+[abstract]
+--
+This is an abstract block.
+--
+
