@@ -6,4 +6,5 @@ Use correct American English spelling.
 
 * link:https://www.merriam-webster.com/[Merriam Webster dictionary]
 * xref:user-guide.adoc#creating-a-vocabulary-for-a-project[Creating a vocabulary for a project]
+* xref:contributor-guide.adoc#updating-the-redhat-dictionary[Updating the Red Hat dictionary]
 * link:{repository-url}blob/main/.vale/styles/RedHat/Spelling.yml[`Spelling.yml` source code]
