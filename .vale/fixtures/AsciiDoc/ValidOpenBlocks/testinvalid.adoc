@@ -1,0 +1,31 @@
+//vale-fixture
+Here is an open block:
+
+[sidebar]
+--
+This is a sidebar.
+--
+
+Here is another open block:
+
+[example]
+--
+This is an example.
+--
+
+Here is an unterminated open block:
+
+[sidebar]
+--
+This sidebar is never closed.
+
+Some more text.
+
+Here is an open block:
+
+--
+This is an anonymous open block.
+--
+
+Some text.
+
