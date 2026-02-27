@@ -1,0 +1,109 @@
+//vale-fixture
+[source,terminal]
+----
+until PGPASSWORD="$POSTGRES_PASSWORD" psql -h 127.0.0.1 -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 1" >/dev/null 2>&1; do
+----
+
+//vale-fixture
+[source,bash]
+----
+command &> /dev/null
+----
+
+//vale-fixture
+[source,shell]
+----
+echo "error" >&2
+----
+
+//vale-fixture
+[source,terminal]
+----
+./script.sh 2>&1 | tee output.log
+----
+
+//vale-fixture
+[source,yaml]
+----
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: <pgvector-postgresql-deployment>
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: <pgvector-postgresql-app-label>
+  template:
+    metadata:
+      labels:
+        app: <pgvector-postgresql-app-label>
+    spec:
+      containers:
+      - name: postgres
+        image: pgvector/pgvector:pg16
+        ports:
+        - name: postgres
+          containerPort: 5432
+        env:
+        - name: POSTGRES_DB
+          valueFrom:
+            secretKeyRef:
+              name: <pgvector-postgresql-credentials-secret>
+              key: POSTGRES_DB
+        - name: POSTGRES_USER
+          valueFrom:
+            secretKeyRef:
+              name: <pgvector-postgresql-credentials-secret>
+              key: POSTGRES_USER
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: <pgvector-postgresql-credentials-secret>
+              key: POSTGRES_PASSWORD
+        volumeMounts:
+        - name: pgdata
+          mountPath: /var/lib/postgresql/data
+
+        # Replace TCP socket probes with exec probes that validate SQL readiness.
+        readinessProbe:
+          exec:
+            command:
+            - /bin/sh
+            - -c
+            - pg_isready -h 127.0.0.1 -U "$POSTGRES_USER" -d "$POSTGRES_DB"
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 6
+        livenessProbe:
+          exec:
+            command:
+            - /bin/sh
+            - -c
+            - pg_isready -h 127.0.0.1 -U "$POSTGRES_USER" -d "$POSTGRES_DB"
+          initialDelaySeconds: 30
+          periodSeconds: 20
+          timeoutSeconds: 5
+          failureThreshold: 6
+
+        # Create the pgvector extension after PostgreSQL is actually accepting SQL.
+        lifecycle:
+          postStart:
+            exec:
+              command:
+              - /bin/sh
+              - -c
+              - |
+                set -e
+                echo "Waiting for PostgreSQL to be ready before enabling pgvector..."
+                until PGPASSWORD="$POSTGRES_PASSWORD" psql -h 127.0.0.1 -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT 1" >/dev/null 2>&1; do
+                  sleep 2
+                done
+                PGPASSWORD="$POSTGRES_PASSWORD" psql -h 127.0.0.1 -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "CREATE EXTENSION IF NOT EXISTS vector;"
+
+      volumes:
+      - name: pgdata
+        persistentVolumeClaim:
+          claimName: <pgvector-postgresql-pvc>
+----
