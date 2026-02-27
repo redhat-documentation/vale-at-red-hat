@@ -50,7 +50,6 @@ jobs:
           # Required, set by GitHub actions automatically:
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          REVIEWDOG_GITHUB_API_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ----
 
 . Optional: Change the default configuration to suit the requirements of your project. For example, if you want to block PR merges when Vale errors exist, set `fail_on_error` to *true*.
