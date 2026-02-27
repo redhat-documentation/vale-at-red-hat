@@ -1,0 +1,43 @@
+text := import("text")
+
+// suggestions is the script's output
+suggestions := []
+word := match
+
+// Pattern: -ating -> -ate (Validating, Creating, Generating)
+if text.has_suffix(word, "ating") {
+  base := text.trim_suffix(word, "ating")
+  suggestions = append(suggestions, base + "ate")
+}
+
+// Pattern: -aging -> -age (Managing)
+if text.has_suffix(word, "aging") {
+  base := text.trim_suffix(word, "aging")
+  suggestions = append(suggestions, base + "age")
+}
+
+// Pattern: -izing -> -ize (Organizing)
+if text.has_suffix(word, "izing") {
+  base := text.trim_suffix(word, "izing")
+  suggestions = append(suggestions, base + "ize")
+}
+
+// Pattern: -ising -> -ise (Advertising)
+if text.has_suffix(word, "ising") {
+  base := text.trim_suffix(word, "ising")
+  suggestions = append(suggestions, base + "ise")
+}
+
+// Pattern: -uring -> -ure (Configuring)
+if text.has_suffix(word, "uring") {
+  base := text.trim_suffix(word, "uring")
+  suggestions = append(suggestions, base + "ure")
+}
+
+// Default: just remove -ing (Building -> Build)
+if len(suggestions) == 0 {
+  base := text.trim_suffix(word, "ing")
+  suggestions = append(suggestions, base)
+}
+
+suggestions

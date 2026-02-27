@@ -1,0 +1,11 @@
+---
+extends: existence
+message: "Avoid gerunds in topic titles. Use the imperative form instead."
+level: suggestion
+scope: heading
+tokens:
+  - '^\w+ing\b'
+action:
+  name: suggest
+  params:
+    - NoGerundsInTitles.tengo
