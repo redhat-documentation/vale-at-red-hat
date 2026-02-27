@@ -204,6 +204,8 @@ health care
 healthcheck
 heart beat
 hence
+hong kong
+Hong Kong
 hostgroup
 hotkey
 HOWTO
@@ -258,6 +260,8 @@ log off of
 log onto
 logfile
 lots of
+macau
+macao
 main directory
 make file
 man day
