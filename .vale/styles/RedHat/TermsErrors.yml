@@ -436,7 +436,7 @@ swap:
   virtual diskette drive: virtual floppy drive
   virtual diskette(?! drive): virtual floppy disk
   virtual DOS machine: DOS session
-  versus: compared to
+  vs: versus|compared to
   virtual hard disk: virtual hard drive
   virtual-equals-real: nonpageable
   virtual-equals-virtual: pageable
