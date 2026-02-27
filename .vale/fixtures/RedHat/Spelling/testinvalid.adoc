@@ -1,17 +1,11 @@
-ansible
 antora
 api
 bitbucket
 btrfs
 centos
 Centos
-ceph
-Classloader
 crd
 ctrl
-Daemonset
-dns
-dotnet
 gluster
 Graal VM
 graal vm
@@ -20,10 +14,6 @@ homebrew
 Ide
 infinispan
 intelephense
-Intellij
-Intellij IDEA
-Jvm
-kibana
 kubespray
 lombok
 mattermost
@@ -31,27 +21,15 @@ microsoft azure
 minikube
 mokito
 mokitto
-Mysql
-mysql
 Netcoredebugoutput
-nginx
 Nuget
-Oauth
 Omnisharp
 Openshift
 Opentracing
-php
-postgres
 quarkus
-redis
-restic
-Sbt
 scm
 svg
 symfony
 uber
-velero
-VMWare
 woopra
-yaml
 zowe
