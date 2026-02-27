@@ -451,7 +451,7 @@ USB thumb drive
 useable
 utilize
 vanilla
-versus
+vs
 virtual diskette
 virtual diskette
 virtual diskette drive
