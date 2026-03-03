@@ -1,0 +1,12 @@
+= SessionId
+
+Do not publish URLs that contain session identifiers.
+
+[IMPORTANT]
+====
+Exposed session IDs enable session hijacking and unauthorized account access.
+====
+
+.Additional resources
+
+* link:{repository-url}blob/main/.vale/styles/RedHat/SessionId.yml[`SessionId.yml` source code]

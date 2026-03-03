@@ -1,0 +1,1 @@
+link:https://access.redhat.com/support/cases/#/case/new/get-support?caseCreate=true&product=Red%20Hat%20Ansible%20Automation%20Platform%20On%20Clouds&version=AWS%20-%20Managed%20Service[Customer support]

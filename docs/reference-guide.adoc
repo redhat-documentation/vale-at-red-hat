@@ -50,6 +50,8 @@ include::modules/selfreferentialtext.adoc[leveloffset=+1]
 
 include::modules/sentencelength.adoc[leveloffset=+1]
 
+include::modules/sessionid.adoc[leveloffset=+1]
+
 include::modules/simplewords.adoc[leveloffset=+1]
 
 include::modules/slash.adoc[leveloffset=+1]
