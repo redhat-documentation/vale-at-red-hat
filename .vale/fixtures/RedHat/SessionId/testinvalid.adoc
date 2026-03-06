@@ -1,0 +1,2 @@
+https://access.redhat.com/hydra/rest/se/sessions?sessionId=db3c2209-19d0-4076-v27d-9ce19eb2b9e7&redhat_client=Portal%20Case%20Management%101.32.47&account_number=540155
+Check the link:https://access.redhat.com/support/cases/#/case/new/get-support?caseCreate=true&product=Red%20Hat%20Ansible%20Automation%20Platform%20On%20Clouds&version=AWS%20-%20Managed%20Service&seSessionId=db3c1163-09b0-4076-b27f-0ce89eb2b9e7[Customer support] case.
