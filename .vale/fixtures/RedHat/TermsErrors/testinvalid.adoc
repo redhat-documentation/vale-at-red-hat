@@ -7,7 +7,6 @@ ac
 accelerator key
 acknowledgement
 adapter card
-adaptor
 administrate
 adviser
 air wall
