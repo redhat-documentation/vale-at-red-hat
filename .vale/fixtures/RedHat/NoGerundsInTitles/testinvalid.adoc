@@ -1,0 +1,25 @@
+== Getting Started Guide
+
+=== Running Tests
+
+==== Testing Edge Cases
+
+===== Validating Input Data
+
+= Managing User Accounts
+
+== Creating New Projects
+
+== Understanding the Architecture
+
+=== Deploying to Production
+
+==== Monitoring System Performance
+
+===== Troubleshooting Common Issues
+
+=== Building the Dashboard
+
+==== Configuring Database Settings
+
+===== Installing Dependencies
