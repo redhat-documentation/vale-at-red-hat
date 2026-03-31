@@ -205,6 +205,7 @@ filters:
   - "[sS]ervlet"
   - "[sS]etter"
   - "[sS]harding"
+  - "[sS]pyre"
   - "[sS]ubcommand"
   - "[sS]ubmenu"
   - "[sS]ubnet?"
