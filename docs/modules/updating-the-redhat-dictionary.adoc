@@ -2,7 +2,8 @@
 [id="updating-the-redhat-dictionary"]
 = Updating the Red Hat dictionary
 
-The Red Hat dictionary is a Hunspell-format dictionary that contains technical terms, product names, and Red Hat-specific jargon. When a word is missing from the dictionary and is common enough to benefit all Red Hat documentation projects, you can add it to the dictionary wordlist.
+The Red Hat dictionary is a Hunspell-format dictionary that contains technical terms, product names, and Red Hat-specific jargon.
+When a word that should not get caught in the spelling filter is missing from the dictionary and is common enough to benefit all Red Hat documentation projects, you can add it to the dictionary wordlist.
 
 [NOTE]
 ====
