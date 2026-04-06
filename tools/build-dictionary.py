@@ -98,7 +98,7 @@ def detect_base_form(word, all_words_lower):
 
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    dict_dir = os.path.join(repo_root, ".vale", "styles", "config", "dictionaries")
+    dict_dir = os.path.join(repo_root, ".vale", "styles", "RedHat", "dictionaries")
 
     wordlist_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(dict_dir, "wordlist.txt")
     dic_path = sys.argv[2] if len(sys.argv) > 2 else os.path.join(dict_dir, "en_US-RedHat.dic")

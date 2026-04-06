@@ -18,7 +18,7 @@ For project-specific terms that are unlikely to benefit other projects, use a pr
 
 .Procedure
 
-. Open the wordlist file `.vale/styles/config/dictionaries/wordlist.txt` in a text editor.
+. Open the wordlist file `.vale/styles/RedHat/dictionaries/wordlist.txt` in a text editor.
 
 . Add the new word as plain text on a new line.
 You do not need to sort entries, add flags, or maintain a word count.
@@ -65,7 +65,7 @@ $ vale --config=.vale.ini <file_containing_word>
 
 == Updating the affix file
 
-The affix file `.vale/styles/config/dictionaries/en_US-RedHat.aff` defines the morphology rules that the dictionary flags reference.
+The affix file `.vale/styles/RedHat/dictionaries/en_US-RedHat.aff` defines the morphology rules that the dictionary flags reference.
 In most cases, you do not need to modify this file.
 The build script (`tools/build-dictionary.py`) generates the appropriate flags automatically based on the plural forms it detects in the wordlist.
 
@@ -95,6 +95,6 @@ SFX P 0 ' [s]
 .Additional resources
 
 * link:https://manpages.ubuntu.com/manpages/trusty/man4/hunspell.4.html[Hunspell dictionary format]
-* link:{repository-url}blob/main/.vale/styles/config/dictionaries/wordlist.txt[`wordlist.txt` source code]
-* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.dic[`en_US-RedHat.dic` generated dictionary]
-* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.aff[`en_US-RedHat.aff` source code]
+* link:{repository-url}blob/main/.vale/styles/RedHat/dictionaries/wordlist.txt[`wordlist.txt` source code]
+* link:{repository-url}blob/main/.vale/styles/RedHat/dictionaries/en_US-RedHat.dic[`en_US-RedHat.dic` generated dictionary]
+* link:{repository-url}blob/main/.vale/styles/RedHat/dictionaries/en_US-RedHat.aff[`en_US-RedHat.aff` source code]
