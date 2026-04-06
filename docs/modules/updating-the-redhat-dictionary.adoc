@@ -11,6 +11,7 @@ For project-specific terms that are unlikely to benefit other projects, use a pr
 
 .Prerequisites
 
+* Python 3.6 or later.
 * xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
 * You forked and cloned the `vale-at-red-hat` repository using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
 
@@ -18,51 +19,36 @@ For project-specific terms that are unlikely to benefit other projects, use a pr
 
 . Open the wordlist file `.vale/styles/config/dictionaries/wordlist.txt` in a text editor.
 
-. Add the new word on a new line. You do not need to sort entries or maintain a word count.
+. Add the new word as plain text on a new line.
+You do not need to sort entries, add flags, or maintain a word count.
 +
 --
-Words can include optional flags that define how the word can be modified:
+The build script handles everything automatically:
 
-[cols="1,3,2"]
-|===
-|Flag |Description |Example
+* *Plural detection*: If you add both the singular and plural forms (for example, `API` and `APIs`), the build script detects the relationship and consolidates them with the appropriate Hunspell flag.
+* *Auto-capitalization*: Lowercase words automatically get a title case counterpart in the dictionary. For example, adding `spyre` also generates `Spyre`.
+* *Possessive forms*: Capitalized words automatically get possessive forms (for example, `Docker` also generates `Docker's`).
 
-|`/S`
-|Allow plural forms (`-s`, `-es`, `-ies`)
-|`API/S` matches `API` and `APIs`
+For proper nouns and acronyms, use the exact casing you need, such as `Docker` or `AWS`.
 
-|`/P`
-|Allow possessive form (`'s` or `'` for words ending in `s`)
-|`Redis/P` matches `Redis` and `Redis'`
-
-|`/SP`
-|Allow both plural and possessive forms
-|`CLI/SP` matches `CLI`, `CLIs`, and `CLI's`
-|===
+Lines starting with `#` are treated as comments and blank lines are ignored.
 
 .Example entries
 [source]
 ----
-APIcast
-Kubernetes/SP
-OpenShift/P
-vCPU/SP
+API
+APIs
+Kubernetes
+spyre
+Docker
 ----
-
-If a word should not have plural or possessive forms, add it without any flags.
-
-Lowercase words automatically get a title case counterpart in the dictionary.
-For example, adding `spyre` also generates `Spyre`.
-For proper nouns and acronyms, use the exact casing you need, such as `Docker` or `AWS`.
-
-Lines starting with `#` are treated as comments and blank lines are ignored.
 --
 
 . Run the build script to regenerate the dictionary:
 +
 [source,terminal]
 ----
-$ tools/build-dictionary.sh
+$ python3 tools/build-dictionary.py
 ----
 
 . Verify the spelling rule works correctly:
@@ -78,8 +64,10 @@ $ vale --config=.vale.ini <file_containing_word>
 
 == Updating the affix file
 
-The affix file `.vale/styles/config/dictionaries/en_US-RedHat.aff` defines the morphology rules that the flags reference.
+The affix file `.vale/styles/config/dictionaries/en_US-RedHat.aff` defines the morphology rules that the dictionary flags reference.
 In most cases, you do not need to modify this file.
+The build script (`tools/build-dictionary.py`) generates the appropriate flags automatically based on the plural forms it detects in the wordlist.
+
 The current affix file defines:
 
 * *S flag*: Plural suffix rules that handle standard English pluralization patterns (`-s`, `-es`, `-ies`).

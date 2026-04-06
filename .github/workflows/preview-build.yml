@@ -66,10 +66,9 @@ jobs:
 
       - name: Validate dictionary is up to date
         run: |
-          chmod +x tools/build-dictionary.sh
-          ./tools/build-dictionary.sh
+          python3 tools/build-dictionary.py
           if ! git diff --quiet .vale/styles/config/dictionaries/en_US-RedHat.dic; then
-            echo "::error::Dictionary is out of date. Run 'tools/build-dictionary.sh' and commit the result."
+            echo "::error::Dictionary is out of date. Run 'python3 tools/build-dictionary.py' and commit the result."
             git diff .vale/styles/config/dictionaries/en_US-RedHat.dic | head -50
             exit 1
           fi
