@@ -20,11 +20,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
+      - name: Validate dictionary is up to date
+        run: |
+          python3 tools/build-dictionary.py
+          if ! git diff --quiet .vale/styles/config/dictionaries/en_US-RedHat.dic; then
+            echo "::error::Dictionary is out of date. Run 'tools/build-dictionary.py' and commit the result."
+            git diff .vale/styles/config/dictionaries/en_US-RedHat.dic | head -50
+            exit 1
+          fi
+          echo "Dictionary validated successfully."
+
       - name: Create release
         run: |
           cd .vale/styles
           echo $GITHUB_RUN_NUMBER > version.txt
-          zip -r RedHat.zip RedHat
+          zip -r RedHat.zip RedHat config/dictionaries/en_US-RedHat.dic config/dictionaries/en_US-RedHat.aff
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
           gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip'

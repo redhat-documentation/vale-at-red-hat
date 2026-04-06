@@ -19,11 +19,14 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
       - name: Install Vale and validate rules
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           sudo gem install asciidoctor
-          curl -s https://api.github.com/repos/errata-ai/vale/releases/latest | grep "browser_download_url.*Linux_64-bit.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi -
+          gh release download --repo 'errata-ai/vale' --pattern '*Linux_64-bit.tar.gz'
           mkdir bin && tar -xvzf *Linux_64-bit.tar.gz -C bin
           export PATH=./bin:"$PATH"
           vale -v
+          python3 tools/build-dictionary.py
           chmod +x tools/validate-vale-rules.sh
           ./tools/validate-vale-rules.sh

@@ -1,0 +1,100 @@
+:_module-type: PROCEDURE
+[id="updating-the-redhat-dictionary"]
+= Updating the Red Hat dictionary
+
+The Red Hat dictionary is a Hunspell-format dictionary that contains technical terms, product names, and Red Hat-specific jargon.
+When a word that should not get caught in the spelling filter is missing from the dictionary and is common enough to benefit all Red Hat documentation projects, you can add it to the dictionary wordlist.
+
+[NOTE]
+====
+For project-specific terms that are unlikely to benefit other projects, use a project vocabulary instead. See xref:user-guide.adoc#creating-a-vocabulary-for-a-project[Creating a vocabulary for a project].
+====
+
+.Prerequisites
+
+* Python 3.6 or later.
+* xref:user-guide.adoc#installing-vale-cli[Installing Vale CLI]
+* You forked and cloned the `vale-at-red-hat` repository using the link:https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow[Git forking workflow].
+
+.Procedure
+
+. Open the wordlist file `.vale/styles/config/dictionaries/wordlist.txt` in a text editor.
+
+. Add the new word as plain text on a new line.
+You do not need to sort entries, add flags, or maintain a word count.
++
+--
+The build script handles everything automatically:
+
+* *Plural detection*: If you add both the singular and plural forms (for example, `API` and `APIs`), the build script detects the relationship and consolidates them with the appropriate Hunspell flag.
+* *Auto-capitalization*: Lowercase words automatically get a title case counterpart in the dictionary. For example, adding `spyre` also generates `Spyre`.
+* *Possessive forms*: Capitalized words automatically get possessive forms (for example, `Docker` also generates `Docker's`).
+
+For proper nouns and acronyms, use the exact casing you need, such as `Docker` or `AWS`.
+
+Lines starting with `#` are treated as comments and blank lines are ignored.
+
+.Example entries
+[source]
+----
+API
+APIs
+Kubernetes
+spyre
+Docker
+----
+--
+
+. Run the build script to regenerate the dictionary:
++
+[source,terminal]
+----
+$ python3 tools/build-dictionary.py
+----
+
+. Verify the spelling rule works correctly:
++
+[source,terminal]
+----
+$ vale --config=.vale.ini <file_containing_word>
+----
+
+. Add, commit, and push both `wordlist.txt` and `en_US-RedHat.dic`.
+
+. Request a review or help in the Slack channel link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
+
+== Updating the affix file
+
+The affix file `.vale/styles/config/dictionaries/en_US-RedHat.aff` defines the morphology rules that the dictionary flags reference.
+In most cases, you do not need to modify this file.
+The build script (`tools/build-dictionary.py`) generates the appropriate flags automatically based on the plural forms it detects in the wordlist.
+
+The current affix file defines:
+
+* *S flag*: Plural suffix rules that handle standard English pluralization patterns (`-s`, `-es`, `-ies`).
+* *P flag*: Possessive suffix rules that add `'s` to words not ending in `s`, or just `'` to words ending in `s` (for example, `Kubernetes'`).
+
+.Example affix file structure
+[source]
+----
+SET UTF-8
+
+# Plural suffix flag
+SFX S Y 4
+SFX S y ies [^aeiou]y
+SFX S 0 s   [aeiou]y
+SFX S 0 es  [sxzh]
+SFX S 0 s   [^sxzhy]
+
+# Possessive suffix flag
+SFX P Y 2
+SFX P 0 's [^s]
+SFX P 0 ' [s]
+----
+
+.Additional resources
+
+* link:https://manpages.ubuntu.com/manpages/trusty/man4/hunspell.4.html[Hunspell dictionary format]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/wordlist.txt[`wordlist.txt` source code]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.dic[`en_US-RedHat.dic` generated dictionary]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.aff[`en_US-RedHat.aff` source code]

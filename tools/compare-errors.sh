@@ -10,7 +10,7 @@ set -e
 # Check for required arguments
 if [[ $# -lt 2 ]]; then
     echo "Usage: $0 <rule-name> <repo-url>"
-    echo "Example: $0 Spelling https://github.com/aireilly/mcp-test-repo"
+    echo "Example: $0 Spelling https://github.com/openshift/openshift-docs"
     exit 1
 fi
 
@@ -53,6 +53,16 @@ clone_repo() {
         }
     fi
 
+    # Remove all symlinks that can cause Vale to fail with path traversal issues
+    # (e.g., openshift-docs has _attributes, modules, snippets, images symlinks)
+    # This runs on both fresh clones and cached repos
+    local symlink_count
+    symlink_count=$(find "$repo_dir" -type l 2>/dev/null | wc -l)
+    if [[ $symlink_count -gt 0 ]]; then
+        log_info "Removing $symlink_count symlinks to avoid path traversal issues..."
+        find "$repo_dir" -type l -delete 2>/dev/null || true
+    fi
+
     printf '%s\n' "$repo_dir"
 }
 
@@ -75,11 +85,9 @@ Packages = RedHat
 
 [[!.]*.adoc]
 BasedOnStyles = RedHat
-${FULL_RULE_NAME} = YES
 
 [*.md]
 BasedOnStyles = RedHat
-${FULL_RULE_NAME} = YES
 TokenIgnores = (\x60[^\n\x60]+\x60), ([^\n]+=[^\n]*), (\+[^\n]+\+), (http[^\n]+\[)
 EOF
 
@@ -96,9 +104,13 @@ run_vale_check() {
 
     log_info "Running Vale ($FULL_RULE_NAME) on $repo_name..."
 
+    # Ensure output files exist even if empty
+    touch "$output_file" "${output_file}.detailed"
+
     # Run Vale and extract only errors for the specified rule
     # Output: count + word (for summary)
     vale --config="$config_file" \
+         --filter=".Name==\"$FULL_RULE_NAME\"" \
          --output=JSON \
          "$target_dir" 2>/dev/null | \
     jq -r --arg rule "$FULL_RULE_NAME" '.[][] | select(.Check == $rule) | "\(.Match)"' | \
@@ -106,6 +118,7 @@ run_vale_check() {
 
     # Detailed output with file paths (extract path from object keys)
     vale --config="$config_file" \
+         --filter=".Name==\"$FULL_RULE_NAME\"" \
          --output=JSON \
          "$target_dir" 2>/dev/null | \
     jq -r --arg rule "$FULL_RULE_NAME" 'to_entries[] | .key as $file | .value[] | select(.Check == $rule) | "\($file):\(.Line): \(.Match) - \(.Message)"' | \

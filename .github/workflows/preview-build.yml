@@ -64,6 +64,28 @@ jobs:
           echo "${{ github.event.number }}" > PR_NUMBER
           echo "${{ github.event.pull_request.head.sha }}" > PR_SHA
 
+      - name: Validate dictionary is up to date
+        run: |
+          python3 tools/build-dictionary.py
+          if ! git diff --quiet .vale/styles/config/dictionaries/en_US-RedHat.dic; then
+            echo "::error::Dictionary is out of date. Run 'python3 tools/build-dictionary.py' and commit the result."
+            git diff .vale/styles/config/dictionaries/en_US-RedHat.dic | head -50
+            exit 1
+          fi
+          echo "Dictionary validated successfully."
+
+      - name: Build release zip for testing
+        run: |
+          cd .vale/styles
+          zip -r RedHat.zip RedHat config/dictionaries/en_US-RedHat.dic config/dictionaries/en_US-RedHat.aff
+
+      - name: Upload release zip artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: RedHat-style-preview
+          path: .vale/styles/RedHat.zip
+          retention-days: 7
+
       - name: Upload preview-build artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
