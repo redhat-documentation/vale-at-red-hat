@@ -1,4 +1,4 @@
-5911
+5949
 ACI/SP
 ACL/SP
 AEE/SP
@@ -84,6 +84,7 @@ Assumeyes
 Async
 Ata
 Atime
+Atlassian
 Attacher
 Attestor/SP
 Attica
@@ -603,6 +604,7 @@ Diskspacecheck
 Disruptable
 Distinguisher/SP
 Distro/SP
+Django
 Dmesg
 Dmraid
 Dn/SP
@@ -638,6 +640,7 @@ Driverless
 Dropbox
 Drpm
 Drpmsync
+Drupal
 Dscp
 Dst
 Dstat
@@ -654,6 +657,7 @@ Dwarves
 Dwz
 Dx
 Dymo
+Dynatrace
 Dyninst
 EIP/SP
 ELB/SP
@@ -855,11 +859,14 @@ Gdbm
 Gdm
 Gedit
 Gemalto
+GenAI
+Genai
 Geneve
 Genpkey
 Geo
 Geoclue
 Geospatial
+Gerrit
 Gestetner
 Getdent
 Getsubid
@@ -1064,6 +1071,7 @@ Imake
 Img
 Immediate
 Impactful
+Implementor
 Imsetting/SP
 Includepkg/SP
 Incore
@@ -1208,6 +1216,7 @@ Journaling
 Journalling
 Joyent
 Jq
+Jruby
 Js
 Jsmith
 Json
@@ -1898,6 +1907,7 @@ Oki
 Okindf
 Okta
 Okular
+Ollama
 Olm
 Olmconfig/SP
 Omnichannel
@@ -2243,6 +2253,7 @@ Quarkus/P
 Querier
 Queryable
 Querylog
+Quickstart/SP
 Quiescing
 Quiltflower
 Quobyte
@@ -2413,6 +2424,7 @@ Rgrp
 Rh
 Rhc
 Rhcd
+Rhdh
 Rhel
 Rhev
 Rhncfg
@@ -2517,8 +2529,11 @@ Sbc
 Sbd
 Sbt
 Sca
+Scaffolded
+Scaffolder
 Scaledown
 Scaler/SP
+Scalprum
 Scannotation
 Scap
 Scatterchart
@@ -2580,6 +2595,8 @@ Shows
 Shufflesharding
 Sid
 Sidecarless
+Sideload
+Sideloaded
 Sigstore
 Silicom
 Sindhu
@@ -2623,6 +2640,7 @@ Solarflare
 Solaris/P
 Somelibrary
 Soname
+Sonataflow
 Sonatype
 Sorce
 Sosreport/SP
@@ -2687,6 +2705,7 @@ Storagestate/SP
 Storageversionmigration/SP
 Strace
 Stratis/P
+Streamable
 Strided
 Strigi
 Strongimcv
@@ -2800,6 +2819,7 @@ Tdb
 Teamd
 Teardown
 Tebibyte/SP
+Techdoc/SP
 Tekton
 Telco
 Telecom
@@ -2867,6 +2887,7 @@ Tmpf/SP
 Tmpfile/SP
 Tmux
 Tncfhh
+Todo/SP
 Tokenization
 Tokenizer/SP
 Tolerations
@@ -3049,6 +3070,7 @@ Uprobe/SP
 Upsell/SP
 Upselling
 Upsert
+Upskill
 Upsold
 Uri
 Uriparser
@@ -3243,6 +3265,7 @@ Yaml
 Yana
 Yara
 Yeoman
+Yq
 Yubikey
 Zerombr
 Zfcp
@@ -3743,6 +3766,7 @@ diskspacecheck
 disruptable
 distinguisher/SP
 distro/SP
+django
 dmesg
 dmraid
 dn/SP
@@ -3774,6 +3798,7 @@ driverless
 dropbox
 drpm
 drpmsync
+drupal
 dscp
 dstat
 dstrct
@@ -3942,6 +3967,7 @@ gdb
 gdbm
 gdm
 gedit
+genai
 genpkey
 geo
 geoclue
@@ -4099,6 +4125,7 @@ imake
 img
 immediate
 impactful
+implementor
 imsetting/SP
 includepkg/SP
 incore
@@ -4219,6 +4246,7 @@ journald
 journaled
 journaling
 jq
+jruby
 js
 jsmith
 json
@@ -5077,6 +5105,7 @@ quantizing
 querier
 queryable
 querylog
+quickstart/SP
 quiescing
 quobyte
 quotacheck
@@ -5225,6 +5254,7 @@ rgrp
 rh
 rhc
 rhcd
+rhdh
 rhel
 rhev
 rhncfg
@@ -5302,6 +5332,8 @@ sbc
 sbd
 sbt
 sca
+scaffolded
+scaffolder
 scaledown
 scaler/SP
 scannotation
@@ -5359,6 +5391,8 @@ shows
 shufflesharding
 sid
 sidecarless
+sideload
+sideloaded
 sigstore
 sinked
 sisu
@@ -5446,6 +5480,7 @@ storageos
 storagestate/SP
 storageversionmigration/SP
 strace
+streamable
 strided
 strigi
 strongimcv
@@ -5544,6 +5579,7 @@ tcpstat
 tdb
 teamd
 teardown
+techdoc/SP
 telco
 telecom
 template/SP
@@ -5599,6 +5635,7 @@ tmpf/SP
 tmpfile/SP
 tmux
 tncfhh
+todo/SP
 tokenization
 tokenizer/SP
 tolerations
@@ -5757,6 +5794,7 @@ uprobe/SP
 upsell/SP
 upselling
 upsert
+upskill
 upsold
 uri
 uriparser
