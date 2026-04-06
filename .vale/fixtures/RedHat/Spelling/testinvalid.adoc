@@ -26,6 +26,7 @@ Nuget
 Omnisharp
 Openshift
 Opentracing
+Prometheous
 quarkus
 scm
 svg
