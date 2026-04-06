@@ -2,7 +2,7 @@
 [id="updating-the-redhat-dictionary"]
 = Updating the Red Hat dictionary
 
-The Red Hat dictionary is a Hunspell-format dictionary that contains technical terms, product names, and Red Hat-specific jargon. When a word is missing from the dictionary and is common enough to benefit all Red Hat documentation projects, you can add it to the dictionary files.
+The Red Hat dictionary is a Hunspell-format dictionary that contains technical terms, product names, and Red Hat-specific jargon. When a word is missing from the dictionary and is common enough to benefit all Red Hat documentation projects, you can add it to the dictionary wordlist.
 
 [NOTE]
 ====
@@ -16,9 +16,9 @@ For project-specific terms that are unlikely to benefit other projects, use a pr
 
 .Procedure
 
-. Open the dictionary file `.vale/styles/config/dictionaries/en_US-RedHat.dic` in a text editor.
+. Open the wordlist file `.vale/styles/config/dictionaries/wordlist.txt` in a text editor.
 
-. Add the new word in alphabetical order. The first line of the file contains the word count; you will update this after adding words.
+. Add the new word on a new line. You do not need to sort entries or maintain a word count.
 +
 --
 Words can include optional flags that define how the word can be modified:
@@ -50,9 +50,20 @@ vCPU/SP
 ----
 
 If a word should not have plural or possessive forms, add it without any flags.
+
+Lowercase words automatically get a title case counterpart in the dictionary.
+For example, adding `spyre` also generates `Spyre`.
+For proper nouns and acronyms, use the exact casing you need, such as `Docker` or `AWS`.
+
+Lines starting with `#` are treated as comments and blank lines are ignored.
 --
 
-. Update the word count on the first line of the file to reflect the new total number of words.
+. Run the build script to regenerate the dictionary:
++
+[source,terminal]
+----
+$ tools/build-dictionary.sh
+----
 
 . Verify the spelling rule works correctly:
 +
@@ -61,9 +72,7 @@ If a word should not have plural or possessive forms, add it without any flags.
 $ vale --config=.vale.ini <file_containing_word>
 ----
 
-. Update the count on the header line for that rule if you add new pattern lines.
-
-. Add, commit, and push your changes.
+. Add, commit, and push both `wordlist.txt` and `en_US-RedHat.dic`.
 
 . Request a review or help in the Slack channel link:https://coreos.slack.com/archives/C0218RXJK5E[#vale-at-red-hat], in the CoreOS workspace.
 
@@ -97,5 +106,6 @@ SFX P 0 ' [s]
 .Additional resources
 
 * link:https://manpages.ubuntu.com/manpages/trusty/man4/hunspell.4.html[Hunspell dictionary format]
-* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.dic[`en_US-RedHat.dic` source code]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/wordlist.txt[`wordlist.txt` source code]
+* link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.dic[`en_US-RedHat.dic` generated dictionary]
 * link:{repository-url}blob/main/.vale/styles/config/dictionaries/en_US-RedHat.aff[`en_US-RedHat.aff` source code]
