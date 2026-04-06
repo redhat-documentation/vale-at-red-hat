@@ -32,3 +32,7 @@ filters:
   - '([a-z]+)([A-Z]+[a-z]+){1,}\b'
   # Underscore words
   - '([a-zA-Z0-9_]+_[a-zA-Z0-9_]+)+\b'
+  # Dotted technology names, e.g., 'node.js', 'Vert.x'
+  - '\w+\.\w+'
+  # I/O (slash breaks hunspell affix parsing)
+  - 'I/O'
