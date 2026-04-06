@@ -24,7 +24,6 @@ mokitto
 Netcoredebugoutput
 Nuget
 Omnisharp
-Openshift
 Opentracing
 Prometheous
 quarkus

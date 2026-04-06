@@ -344,6 +344,7 @@ openrewrite
 Openrewrite
 OpenShift Cluster Manager
 OpenShift Kubernetes Distribution
+Openshift
 Openshift online
 OpenShift Origin
 OpenStack Platform
