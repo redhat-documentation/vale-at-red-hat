@@ -16,7 +16,7 @@ scope:
   - table.cell
   - table.caption
   - figure.caption
-dicpath: config/dictionaries
+dicpath: RedHat/dictionaries
 dictionaries:
   - en_US-RedHat
 append: true
