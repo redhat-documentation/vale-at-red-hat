@@ -3,7 +3,7 @@
 # Source of truth for en_US-RedHat.dic. Run tools/build-dictionary.py
 # to regenerate the dictionary after editing this file.
 #
-# Format: one plain word per line. No special flags needed.
+# Format: one plain text word per line. No special Hunspell flags needed.
 #
 #   - Include both singular and plural forms (e.g., API and APIs).
 #     The build script detects plurals and consolidates them with /S flags.
