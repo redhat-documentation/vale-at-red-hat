@@ -25,8 +25,6 @@
 {logging}
 {lvms-first}
 {lvms}
-{mtc-full}
-{mtc-short}
 {odo-title}
 {cluster-manager}
 {rh-storage}

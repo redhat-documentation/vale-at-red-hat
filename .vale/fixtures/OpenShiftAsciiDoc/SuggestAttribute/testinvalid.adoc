@@ -37,10 +37,6 @@ logging subsystem for Red Hat OpenShift
 //vale-fixture
 LVM Storage
 //vale-fixture
-Migration Toolkit for Containers
-//vale-fixture
-MTC
-//vale-fixture
 odo
 //vale-fixture
 OpenShift Cluster Manager
