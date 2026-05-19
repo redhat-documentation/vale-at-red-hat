@@ -55,8 +55,6 @@ swap:
   Logging subsystem for Red Hat OpenShift: "{logging-title-uc}"
   logging subsystem for Red Hat OpenShift: "{logging-title}"
   LVM Storage: "{lvms}"
-  Migration Toolkit for Containers: "{mtc-full}"
-  MTC: "{mtc-short}"
   odo: "{odo-title}"
   OpenShift Cluster Manager: "{cluster-manager}"
   OpenShift Container Platform: "{product-title}"
