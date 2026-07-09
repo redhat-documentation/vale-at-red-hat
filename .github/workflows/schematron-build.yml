@@ -60,13 +60,11 @@ jobs:
 
       - name: Comment artifact link on PR
         if: github.event_name == 'pull_request'
-        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        uses: actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b # v3.2.0
         with:
-          script: |
-            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: `### Schematron build artifacts\n\nGenerated Schematron rules are available as a build artifact:\n\n[Download schematron-rules.zip](${runUrl}#artifacts)`
-            });
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ### Schematron build artifacts
+            Generated Schematron rules: [Download schematron-rules.zip](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts)
+            <!-- Sticky Schematron Comment -->
+          body-include: "<!-- Sticky Schematron Comment -->"
