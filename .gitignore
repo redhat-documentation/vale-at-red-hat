@@ -34,3 +34,6 @@ public/
 .venv
 
 .claude/*
+
+# Generated Schematron output
+schematron/output/
