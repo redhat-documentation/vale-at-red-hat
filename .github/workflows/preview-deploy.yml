@@ -13,6 +13,12 @@ on:
       - Preview build
     types:
       - completed
+
+permissions:
+  contents: read
+  pull-requests: write
+  actions: read
+
 jobs:
   success:
     name: Preview deploy
@@ -20,12 +26,13 @@ jobs:
     if: github.event.workflow_run.event == 'pull_request'
     steps:
       - name: Download preview-build artifact
-        uses: dawidd6/action-download-artifact@4c1e823582f43b179e2cbb49c3eade4e41f992e2 # v10
-        with:
-          workflow: ${{ github.event.workflow_run.workflow_id }}
-          name: preview-build
-          allow_forks: true
-          search_artifacts: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh run download ${{ github.event.workflow_run.id }} \
+            --repo ${{ github.repository }} \
+            --name preview-build \
+            --dir .
       - name: Set variables
         id: vars
         run: |
@@ -37,24 +44,39 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          # mkdocs build is in public/ 
+          # mkdocs build is in public/
           npx surge --project public --domain ${{ steps.vars.outputs.deploy_domain }} --token ${{ secrets.SURGE_TOKEN }}
       - name: Update status Comment
-        uses: actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b # v3.2.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          body: |
-            🎊 Navigate the preview: https://${{ steps.vars.outputs.deploy_domain }} 🎊
-            <!-- Sticky Pull Request Comment -->
-          body-include: "<!-- Sticky Pull Request Comment -->"
-          number: ${{ steps.vars.outputs.pr_number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.vars.outputs.pr_number }}
+          DEPLOY_DOMAIN: ${{ steps.vars.outputs.deploy_domain }}
+        run: |
+          MARKER='<!-- Sticky Pull Request Comment -->'
+          BODY="$(printf '%s\n%s' "🎊 Navigate the preview: https://${DEPLOY_DOMAIN} 🎊" "${MARKER}")"
+          EXISTING=$(gh api "repos/${GH_REPO}/issues/${PR_NUMBER}/comments" \
+            --jq ".[] | select(.body | contains(\"${MARKER}\")) | .id" | head -1)
+          if [ -n "${EXISTING}" ]; then
+            gh api "repos/${GH_REPO}/issues/comments/${EXISTING}" \
+              -X PATCH -f body="${BODY}"
+          else
+            gh pr comment "${PR_NUMBER}" --body "${BODY}"
+          fi
       - name: Job failure
         if: ${{ failure() }}
-        uses: actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b # v3.2.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          body: |
-            Deploy PR Preview failed.
-            <!-- Sticky Pull Request Comment -->
-          body-include: "<!-- Sticky Pull Request Comment -->"
-          number: ${{ steps.vars.outputs.pr_number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.vars.outputs.pr_number }}
+        run: |
+          MARKER='<!-- Sticky Pull Request Comment -->'
+          BODY="$(printf '%s\n%s' 'Deploy PR Preview failed.' "${MARKER}")"
+          EXISTING=$(gh api "repos/${GH_REPO}/issues/${PR_NUMBER}/comments" \
+            --jq ".[] | select(.body | contains(\"${MARKER}\")) | .id" | head -1)
+          if [ -n "${EXISTING}" ]; then
+            gh api "repos/${GH_REPO}/issues/comments/${EXISTING}" \
+              -X PATCH -f body="${BODY}"
+          else
+            gh pr comment "${PR_NUMBER}" --body "${BODY}"
+          fi

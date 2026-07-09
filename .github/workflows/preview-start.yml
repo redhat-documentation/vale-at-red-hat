@@ -8,16 +8,29 @@
 #
 name: Preview sticky comment
 on: pull_request_target
+
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   preview:
     name: Preview sticky comment
     runs-on: ubuntu-latest
     steps:
       - name: create
-        uses: actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b # v3.2.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          body: |
-            ⚡️ Deploying PR Preview...
-            <!-- Sticky Pull Request Comment -->
-          body-include: "<!-- Sticky Pull Request Comment -->"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          MARKER='<!-- Sticky Pull Request Comment -->'
+          BODY="$(printf '%s\n%s' '⚡️ Deploying PR Preview...' "${MARKER}")"
+          EXISTING=$(gh api "repos/${GH_REPO}/issues/${PR_NUMBER}/comments" \
+            --jq ".[] | select(.body | contains(\"${MARKER}\")) | .id" | head -1)
+          if [ -n "${EXISTING}" ]; then
+            gh api "repos/${GH_REPO}/issues/comments/${EXISTING}" \
+              -X PATCH -f body="${BODY}"
+          else
+            gh pr comment "${PR_NUMBER}" --body "${BODY}"
+          fi
