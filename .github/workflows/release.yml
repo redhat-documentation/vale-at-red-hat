@@ -30,6 +30,16 @@ jobs:
           fi
           echo "Dictionary validated successfully."
 
+      - name: Set up Python
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5.4.0
+        with:
+          python-version: "3.12"
+
+      - name: Generate Schematron rules
+        run: |
+          pip install lxml pyyaml
+          python tools/vale-to-schematron.py
+
       - name: Create release
         run: |
           cd .vale/styles
@@ -37,6 +47,10 @@ jobs:
           zip -r RedHat.zip RedHat
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
-          gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip'
+          cd "$GITHUB_WORKSPACE"
+          cd schematron/output
+          zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHatSchematronRules.zip" .
+          cd "$GITHUB_WORKSPACE/.vale/styles"
+          gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip' 'RedHatSchematronRules.zip'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
