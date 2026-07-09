@@ -46,8 +46,279 @@ RULES_TO_GENERATE = [
     "Symbols", "TermsErrors", "TermsSuggestions", "TermsWarnings",
 ]
 
-# Type handlers will be implemented in subsequent tasks
-TYPE_HANDLERS = {}
+def handle_existence(rule_name, data):
+    """Generate Schematron for a Vale 'existence' rule.
+
+    Existence rules flag text matching any token in the tokens list.
+    If a 'raw' field is present (e.g., PassiveVoice), each token is
+    prefixed with the raw pattern to form a compound match.
+    """
+    level = data.get("level", "warning")
+    role = LEVEL_TO_ROLE.get(level, "warning")
+    message_template = data.get("message", "Found '%s'.")
+    scope = data.get("scope")
+    ignorecase = data.get("ignorecase", False)
+    tokens = data.get("tokens", [])
+    raw_prefix = data.get("raw", [])
+
+    schema = make_schema_element(rule_name, rule_name, "existence", level)
+    context = build_scope_context(scope)
+
+    pattern = etree.SubElement(schema, SCH + "pattern")
+    pattern.set("id", "RedHat-%s" % rule_name)
+
+    rule_el = etree.SubElement(pattern, SCH + "rule")
+    rule_el.set("context", context)
+
+    prefix = ""
+    if raw_prefix:
+        if isinstance(raw_prefix, list):
+            prefix = raw_prefix[0]
+        else:
+            prefix = str(raw_prefix)
+
+    flags = "'i'" if ignorecase else ""
+
+    for token in tokens:
+        token_str = str(token)
+        if prefix:
+            full_pattern = prefix + token_str
+        else:
+            full_pattern = token_str
+
+        converted, warnings = convert_regex_to_xpath(full_pattern)
+
+        for w in warnings:
+            rule_el.append(etree.Comment(" %s " % w))
+
+        report = etree.SubElement(rule_el, SCH + "report")
+
+        escaped = xml_escape_regex(converted)
+        if flags:
+            test = "matches(., '%s', %s)" % (escaped, flags)
+        else:
+            test = "matches(., '%s')" % escaped
+
+        report.set("test", test)
+        report.set("role", role)
+
+        try:
+            msg = message_template % token_str
+        except TypeError:
+            msg = message_template
+        report.text = msg
+
+    write_schematron_file(rule_name, schema)
+
+
+def handle_substitution(rule_name, data):
+    """Generate Schematron for a Vale 'substitution' rule.
+
+    Substitution rules have a swap map of {bad_pattern: replacement}.
+    Each swap entry becomes a sch:report that flags the bad pattern
+    and suggests the replacement in its message.
+    """
+    level = data.get("level", "warning")
+    role = LEVEL_TO_ROLE.get(level, "warning")
+    message_template = data.get("message", "Use '%s' rather than '%s'.")
+    scope = data.get("scope")
+    ignorecase = data.get("ignorecase", True)
+    swap = data.get("swap", {})
+    nonword = data.get("nonword", False)
+
+    schema = make_schema_element(rule_name, rule_name, "substitution", level)
+    context = build_scope_context(scope)
+
+    pat = etree.SubElement(schema, SCH + "pattern")
+    pat.set("id", "RedHat-%s" % rule_name)
+
+    rule_el = etree.SubElement(pat, SCH + "rule")
+    rule_el.set("context", context)
+
+    flags = "'i'" if ignorecase else ""
+
+    for bad_pattern, replacement in swap.items():
+        bad_str = str(bad_pattern)
+        repl_str = str(replacement)
+
+        converted, warnings = convert_regex_to_xpath(bad_str)
+
+        for w in warnings:
+            rule_el.append(etree.Comment(" %s " % w))
+
+        report = etree.SubElement(rule_el, SCH + "report")
+
+        escaped = xml_escape_regex(converted)
+        if flags:
+            test = "matches(., '%s', %s)" % (escaped, flags)
+        else:
+            test = "matches(., '%s')" % escaped
+
+        report.set("test", test)
+        report.set("role", role)
+
+        try:
+            msg = message_template % (repl_str, bad_str)
+        except TypeError:
+            try:
+                msg = message_template % repl_str
+            except TypeError:
+                msg = message_template
+        report.text = msg
+
+    write_schematron_file(rule_name, schema)
+
+
+def handle_conditional(rule_name, data):
+    """Generate Schematron for a Vale 'conditional' rule.
+
+    Checks that if 'first' pattern appears, 'second' pattern must also
+    appear in the same scope. Used by Definitions.yml for acronyms.
+    """
+    level = data.get("level", "warning")
+    role = LEVEL_TO_ROLE.get(level, "warning")
+    exceptions = data.get("exceptions", [])
+
+    schema = make_schema_element(rule_name, rule_name, "conditional", level)
+
+    schema.append(etree.Comment(
+        " Fidelity: Partial — scoped per topic, not per document. "
+    ))
+
+    pat = etree.SubElement(schema, SCH + "pattern")
+    pat.set("id", "RedHat-%s" % rule_name)
+
+    rule_el = etree.SubElement(pat, SCH + "rule")
+    rule_el.set("context", "//*[contains(@class, ' topic/topic ') or self::topic]")
+
+    report = etree.SubElement(rule_el, SCH + "report")
+    report.set(
+        "test",
+        "some $text in .//text()[matches(., '\\b[A-Z]{3,5}s?\\b')] satisfies "
+        "(let $words := tokenize($text, '\\s+') return "
+        "some $w in $words satisfies "
+        "(matches($w, '^[A-Z]{3,5}s?$') and "
+        "not(contains(string(.), concat('(', $w, ')')))))"
+    )
+    report.set("role", role)
+    report.text = (
+        "Define acronyms and abbreviations on first occurrence "
+        "if they are likely to be unfamiliar."
+    )
+
+    if exceptions:
+        rule_el.append(etree.Comment(
+            " %d well-known acronyms are exempted in the Vale rule " % len(exceptions)
+        ))
+
+    write_schematron_file(rule_name, schema)
+
+
+def handle_capitalization(rule_name, data):
+    """Generate Schematron for a Vale 'capitalization' rule.
+
+    Simplified: checks for title-case words after the first word in headings.
+    """
+    level = data.get("level", "warning")
+    role = LEVEL_TO_ROLE.get(level, "warning")
+    exceptions = data.get("exceptions", [])
+
+    schema = make_schema_element(rule_name, rule_name, "capitalization", level)
+
+    schema.append(etree.Comment(
+        " Fidelity: Simplified — checks for title-case words after the first word. "
+    ))
+    schema.append(etree.Comment(
+        " %d proper nouns / tech terms are exempted in the Vale rule. " % len(exceptions)
+    ))
+
+    excl = exclusion_predicates()
+    pat = etree.SubElement(schema, SCH + "pattern")
+    pat.set("id", "RedHat-%s" % rule_name)
+
+    rule_el = etree.SubElement(pat, SCH + "rule")
+    rule_el.set("context", "//title%s | //searchtitle%s" % (excl, excl))
+
+    report = etree.SubElement(rule_el, SCH + "report")
+    report.set(
+        "test",
+        "matches(., '^[A-Z][a-z].*\\s[A-Z][A-Z]') or "
+        "matches(., '^[A-Z][^a-z]')"
+    )
+    report.set("role", role)
+    report.text = "Use sentence-style capitalization in headings."
+
+    write_schematron_file(rule_name, schema)
+
+
+def handle_occurrence(rule_name, data):
+    """Generate Schematron for a Vale 'occurrence' rule.
+
+    Counts word tokens and flags when count exceeds max.
+    """
+    level = data.get("level", "warning")
+    role = LEVEL_TO_ROLE.get(level, "warning")
+    message = data.get("message", "Consider shortening this text.")
+    max_count = data.get("max", 32)
+    scope = data.get("scope")
+
+    schema = make_schema_element(rule_name, rule_name, "occurrence", level)
+
+    schema.append(etree.Comment(
+        " Uses XPath 2.0 tokenize() for word counting. "
+    ))
+
+    context = build_scope_context(scope)
+    pat = etree.SubElement(schema, SCH + "pattern")
+    pat.set("id", "RedHat-%s" % rule_name)
+
+    rule_el = etree.SubElement(pat, SCH + "rule")
+    rule_el.set("context", context)
+
+    report = etree.SubElement(rule_el, SCH + "report")
+    report.set(
+        "test",
+        "count(tokenize(normalize-space(.), '\\s+')) > %d" % max_count,
+    )
+    report.set("role", role)
+    report.text = message
+
+    write_schematron_file(rule_name, schema)
+
+
+def handle_repetition(rule_name, data):
+    """Generate Schematron for a Vale 'repetition' rule.
+
+    Detects consecutive duplicate words.
+    """
+    level = data.get("level", "warning")
+    role = LEVEL_TO_ROLE.get(level, "warning")
+
+    schema = make_schema_element(rule_name, rule_name, "repetition", level)
+    context = build_scope_context(data.get("scope"))
+
+    pat = etree.SubElement(schema, SCH + "pattern")
+    pat.set("id", "RedHat-%s" % rule_name)
+
+    rule_el = etree.SubElement(pat, SCH + "rule")
+    rule_el.set("context", context)
+
+    report = etree.SubElement(rule_el, SCH + "report")
+    report.set("test", r"matches(., '(\b\w+\b)\s+\1\b')")
+    report.set("role", role)
+    report.text = "A word is repeated consecutively."
+
+    write_schematron_file(rule_name, schema)
+
+
+TYPE_HANDLERS = {
+    "existence": handle_existence,
+    "substitution": handle_substitution,
+    "conditional": handle_conditional,
+    "capitalization": handle_capitalization,
+    "occurrence": handle_occurrence,
+    "repetition": handle_repetition,
+}
 
 
 def exclusion_predicates():
