@@ -17,6 +17,10 @@ on:
       - tools/validate-schematron.py
       - tools/test-schematron.py
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   build-schematron:
     name: Build and validate Schematron
