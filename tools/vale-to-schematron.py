@@ -108,6 +108,7 @@ def handle_existence(rule_name, data):
     ignorecase = data.get("ignorecase", False)
     tokens = data.get("tokens", [])
     raw_prefix = data.get("raw", [])
+    nonword = data.get("nonword", False)
 
     schema = make_schema_element(rule_name, rule_name, "existence", level)
     context = build_scope_context(scope)
@@ -126,6 +127,7 @@ def handle_existence(rule_name, data):
             prefix = str(raw_prefix)
 
     flags = "'i'" if ignorecase else ""
+    word_bounded = not nonword
 
     for token in tokens:
         token_str = str(token)
@@ -134,7 +136,9 @@ def handle_existence(rule_name, data):
         else:
             full_pattern = token_str
 
-        converted, warnings = convert_regex_to_xpath(full_pattern)
+        converted, warnings = convert_regex_to_xpath(
+            full_pattern, word_bounded=word_bounded
+        )
 
         for w in warnings:
             rule_el.append(etree.Comment(" %s " % w))
@@ -181,6 +185,7 @@ def handle_substitution(rule_name, data):
     ignorecase = data.get("ignorecase", True)
     swap = data.get("swap", {})
     nonword = data.get("nonword", False)
+    word_bounded = not nonword
 
     schema = make_schema_element(rule_name, rule_name, "substitution", level)
     context = build_scope_context(scope)
@@ -197,7 +202,9 @@ def handle_substitution(rule_name, data):
         bad_str = str(bad_pattern)
         repl_str = str(replacement)
 
-        converted, warnings = convert_regex_to_xpath(bad_str)
+        converted, warnings = convert_regex_to_xpath(
+            bad_str, word_bounded=word_bounded
+        )
 
         for w in warnings:
             rule_el.append(etree.Comment(" %s " % w))
@@ -299,12 +306,11 @@ def handle_capitalization(rule_name, data):
         " %d proper nouns / tech terms are exempted in the Vale rule. " % len(exceptions)
     ))
 
-    excl = exclusion_predicates()
     pat = etree.SubElement(schema, SCH + "pattern")
     pat.set("id", "RedHat-%s" % rule_name)
 
     rule_el = etree.SubElement(pat, SCH + "rule")
-    rule_el.set("context", "//title%s | //searchtitle%s" % (excl, excl))
+    rule_el.set("context", build_scope_context("heading"))
 
     report = etree.SubElement(rule_el, SCH + "report")
     report.set(
@@ -397,10 +403,24 @@ TYPE_HANDLERS = {
 
 
 def exclusion_predicates():
-    """XPath predicates to exclude code-bearing DITA elements."""
-    return "".join(
-        "[not(ancestor-or-self::%s)]" % el for el in CODE_EXCLUSIONS
+    """XPath predicate to exclude code-bearing DITA elements (compact form)."""
+    conditions = " or ".join(
+        "ancestor-or-self::%s" % el for el in CODE_EXCLUSIONS
     )
+    return "[not(%s)]" % conditions
+
+
+def _compact_context(elements):
+    """Build compact XPath context using self:: tests and combined exclusion."""
+    excl = exclusion_predicates()
+    self_tests = " or ".join("self::%s" % el for el in elements)
+    return "//*[%s]%s" % (self_tests, excl)
+
+
+SENTENCE_ELEMENTS = [
+    "p", "li", "shortdesc", "abstract", "entry", "dd", "note", "lq",
+]
+HEADING_ELEMENTS = ["title", "searchtitle"]
 
 
 def build_scope_context(scope):
@@ -412,23 +432,10 @@ def build_scope_context(scope):
     Returns:
         XPath context string for use in sch:rule/@context.
     """
-    excl = exclusion_predicates()
-
-    sentence_elements = [
-        "p", "li", "shortdesc", "abstract", "entry", "dd", "note", "lq",
-    ]
-    heading_elements = ["title", "searchtitle"]
-
     scope_map = {
-        "heading": " | ".join(
-            "//%s%s" % (el, excl) for el in heading_elements
-        ),
-        "sentence": " | ".join(
-            "//%s%s" % (el, excl) for el in sentence_elements
-        ),
-        "paragraph": " | ".join(
-            "//%s%s" % (el, excl) for el in sentence_elements
-        ),
+        "heading": _compact_context(HEADING_ELEMENTS),
+        "sentence": _compact_context(SENTENCE_ELEMENTS),
+        "paragraph": _compact_context(SENTENCE_ELEMENTS),
         "raw": "//*[text()]",
     }
 
@@ -451,22 +458,81 @@ def build_scope_context(scope):
             return scope_map.get(negated, scope_map["sentence"])
         return scope_map.get(s, scope_map["sentence"])
 
-    # Union of multiple scopes
-    contexts = set()
+    all_elements = set()
     for s in parts:
         s = s.strip()
-        ctx = scope_map.get(s, "")
-        if ctx:
-            for part in ctx.split(" | "):
-                contexts.add(part.strip())
-    return " | ".join(sorted(contexts))
+        if s == "heading":
+            all_elements.update(HEADING_ELEMENTS)
+        elif s in ("sentence", "paragraph"):
+            all_elements.update(SENTENCE_ELEMENTS)
+    if all_elements:
+        return _compact_context(sorted(all_elements))
+    return scope_map["sentence"]
 
 
-def convert_regex_to_xpath(pattern):
+def _has_top_level_alternation(pattern):
+    """Check if pattern has | alternation outside parentheses."""
+    depth = 0
+    i = 0
+    while i < len(pattern):
+        ch = pattern[i]
+        if ch == '\\':
+            i += 2
+            continue
+        elif ch == '(':
+            depth += 1
+        elif ch == ')':
+            depth -= 1
+        elif ch == '|' and depth == 0:
+            return True
+        i += 1
+    return False
+
+
+def _add_word_boundaries(pattern):
+    """Wrap pattern with XPath 2.0 word boundary approximations.
+
+    Uses (^|\\W) and (\\W|$) instead of \\b since \\b is not part
+    of the XML Schema regex standard used by XPath 2.0.
+    """
+    starts_bounded = (
+        pattern.startswith('\\b') or
+        pattern.startswith('^') or
+        pattern.startswith('(^')
+    )
+    ends_bounded = (
+        pattern.endswith('\\b') or
+        pattern.endswith('$') or
+        pattern.endswith('$)')
+    )
+
+    if starts_bounded and ends_bounded:
+        return pattern
+
+    inner = pattern
+    if _has_top_level_alternation(pattern):
+        inner = '(%s)' % pattern
+
+    if not starts_bounded:
+        inner = '(^|\\W)' + inner
+    if not ends_bounded:
+        inner = inner + '(\\W|$)'
+
+    return inner
+
+
+def convert_regex_to_xpath(pattern, word_bounded=False):
     """Convert a Vale regex pattern to an XPath 2.0 compatible regex.
 
-    Strips unsupported constructs (negative lookbehind/lookahead) and
-    escapes XML special characters.
+    Strips unsupported constructs (negative lookbehind/lookahead),
+    optionally adds word boundaries, and adjusts whitespace matching
+    for XML text nodes.
+
+    Args:
+        pattern: The regex pattern to convert.
+        word_bounded: If True, wrap pattern with word boundary
+            approximations. Vale adds \\b for substitution/existence
+            rules when nonword=False.
 
     Returns:
         (converted_pattern, warnings) where warnings is a list of strings
@@ -475,20 +541,23 @@ def convert_regex_to_xpath(pattern):
     warnings = []
     result = pattern
 
-    # Strip negative lookbehind (?<!...)
     lookbehind_re = r"\(\?<![^)]*\)"
     if re.search(lookbehind_re, result):
-        warnings.append("Stripped negative lookbehind (?<!...) — may cause false positives")
+        warnings.append("Stripped negative lookbehind (?<!...) — word boundaries added")
         result = re.sub(lookbehind_re, "", result)
 
-    # Strip negative lookahead (?!...)
     lookahead_re = r"\(\?![^)]*\)"
     if re.search(lookahead_re, result):
-        warnings.append("Stripped negative lookahead (?!...) — may cause false positives")
+        warnings.append("Stripped negative lookahead (?!...) — word boundaries added")
         result = re.sub(lookahead_re, "", result)
 
-    # Escape backslash-escaped special chars that are XML-sensitive
-    # (The regex itself stays in XPath string form; XML escaping happens at serialization)
+    # In XML text nodes, \s matches newline+indentation from source
+    # formatting. Replace quantified \s with space-only match to avoid
+    # false positives on multiline text.
+    result = re.sub(r'\\s(\{[0-9,]+\})', r'[ ]\1', result)
+
+    if word_bounded:
+        result = _add_word_boundaries(result)
 
     return result, warnings
 
