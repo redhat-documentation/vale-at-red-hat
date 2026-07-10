@@ -71,3 +71,5 @@ upstream/downstream
 Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24
 z/OS
 z/OSMF
+100 GB/s
+75 MB/s
