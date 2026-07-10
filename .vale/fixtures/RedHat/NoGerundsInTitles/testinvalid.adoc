@@ -1,0 +1,83 @@
+== Getting started guide
+
+=== Running tests
+
+==== Testing edge cases
+
+===== Validating input data
+
+= Managing user accounts
+
+== Creating new projects
+
+== Understanding the architecture
+
+=== Deploying to production
+
+==== Monitoring system performance
+
+===== Troubleshooting common issues
+
+=== Building the dashboard
+
+==== Configuring database settings
+
+===== Installing dependencies
+
+== Writing documentation
+
+=== Making API calls
+
+==== Using the CLI
+
+===== Moving resources
+
+= Saving configurations
+
+== Replacing components
+
+=== Enabling features
+
+==== Handling errors
+
+===== Scaling the application
+
+= Deleting records
+
+== Upgrading clusters
+
+=== Defining variables
+
+==== Changing permissions
+
+===== Closing connections
+
+= Describing resources
+
+== Providing feedback
+
+=== Reducing complexity
+
+==== Merging branches
+
+===== Resolving conflicts
+
+= Formatting output
+
+== Debugging applications
+
+=== Mapping network drives
+
+==== Submitting a request
+
+===== Planning the migration
+
+= Modeling data
+
+== Scheduling jobs
+
+=== Executing commands
+
+==== Composing messages
+
+===== Choosing options
