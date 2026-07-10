@@ -207,6 +207,7 @@ hence
 hostgroup
 hotkey
 HOWTO
+HyperShift
 imbed
 in depth
 in other words

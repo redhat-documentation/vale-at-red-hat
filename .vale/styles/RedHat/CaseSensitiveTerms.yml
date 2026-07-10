@@ -143,7 +143,7 @@ swap:
   Greenboot|green boots: greenboot
   grpc|GRPC: gRPC
   Grub: GRUB
-  GTK|Gtk|gtk: GTK+
+  Gtk|gtk: GTK+
   hot rod|HotRod|hotrod: Hot Rod
   HP Proliant: HP ProLiant
   HTTP interface: management console

@@ -62,7 +62,6 @@ HashBase
 HdrHistogram
 Helm
 HyperCLOVAX
-HyperShift
 IaaS
 IBoE
 IconBurst
