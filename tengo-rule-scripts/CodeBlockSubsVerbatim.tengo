@@ -1,0 +1,78 @@
+/*
+    Tengo Language
+    $ tengo CodeBlockSubsVerbatim.tengo <asciidoc_file_to_validate>
+*/
+
+fmt := import("fmt")
+os := import("os")
+text := import("text")
+
+input := os.args()
+scope := os.read_file(input[2])
+matches := []
+
+// Regex patterns
+multiline_comment_pattern := "(?s)\n////.*?////\n"
+source_block_attr_pattern := `^\[source,`
+subs_verbatim_pattern := `(?i)subs\s*=\s*["']?[^"'\]]*verbatim`
+code_block_delimiter_pattern := `^----`
+shell_redirection_pattern := `\d*>&\d+|&>>?`
+
+// Clean out multi-line comments
+scope = text.re_replace(multiline_comment_pattern, scope, "")
+// Ensure trailing newline
+scope += "\n"
+
+lines := text.split(scope, "\n")
+in_code_block := false
+block_has_subs_verbatim := false
+current_pos := 0
+
+for line in lines {
+  line_start := current_pos
+  line_len := len(line)
+
+  // Check for code block attribute line with [source,...] pattern
+  if text.re_match(source_block_attr_pattern, line) {
+    // Check if subs=verbatim or subs="+quotes,verbatim" etc. is present
+    if text.re_match(subs_verbatim_pattern, line) {
+      block_has_subs_verbatim = true
+    } else {
+      block_has_subs_verbatim = false
+    }
+  }
+
+  // Check for code block delimiter
+  if text.re_match(code_block_delimiter_pattern, line) {
+    in_code_block = !in_code_block
+    if !in_code_block {
+      // Reset when exiting block
+      block_has_subs_verbatim = false
+    }
+  }
+
+  // If inside a code block without subs=verbatim, check for shell redirections
+  // Match patterns like 2>&1, >&2, 1>&2, &>, &>>
+  // These can cause AsciiDoc parsing issues
+  if in_code_block && !block_has_subs_verbatim {
+    if text.re_match(shell_redirection_pattern, line) {
+      // Find the actual match position within the line
+      match_result := text.re_find(shell_redirection_pattern, line)
+      if match_result != undefined && len(match_result) > 0 {
+        // re_find returns array of arrays: [[{begin: N, end: M, text: "..."}]]
+        match_info := match_result[0][0]
+        match_start := match_info["begin"]
+        match_text := match_info["text"]
+        matches = append(matches, {
+          begin: line_start + match_start,
+          end: line_start + match_start + len(match_text)
+        })
+      }
+    }
+  }
+
+  // Move position forward (add 1 for newline)
+  current_pos += line_len + 1
+}
+
+fmt.println(matches)
