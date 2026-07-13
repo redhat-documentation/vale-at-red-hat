@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-terms-errors">
+  <title>Test: TermsErrors</title>
+  <body>
+    <!-- Tests 'healthcheck' should be 'health check' -->
+    <p>Run a healthcheck on the service to verify availability.</p>
+    <!-- Tests 'abort' should be 'cancel|stop' -->
+    <p>You can abort the operation if an error occurs during the process.</p>
+    <!-- Tests 'aka' should be 'also known as' -->
+    <p>OpenShift, aka the container platform, supports Kubernetes workloads.</p>
+    <!-- Tests 'bare metal' + noun should be hyphenated 'bare-metal' -->
+    <p>Deploy the cluster on bare metal servers in the data center.</p>
+    <!-- Tests 'HyperShift' should be 'hosted control planes' -->
+    <p>Use HyperShift to manage hosted clusters on multiple infrastructure providers.</p>
+    <!-- Tests 'acknowledgement' should be 'acknowledgment' -->
+    <p>Send an acknowledgement to the client after processing the request.</p>
+    <!-- Tests 'sanity check' should be 'test|evaluate|validate|verify' -->
+    <p>Perform a sanity check before promoting the build to production.</p>
+    <!-- Tests 'Big Blue' should be 'IBM' -->
+    <p>The partnership with Big Blue provides enterprise hardware support.</p>
+    <!-- Tests 'adaptor' should be 'adapter' -->
+    <p>Install the network adaptor driver on the host machine.</p>
+    <!-- Tests '24/7' should be '24x7' -->
+    <p>The support team is available 24/7 for critical issues.</p>
+  </body>
+</topic>

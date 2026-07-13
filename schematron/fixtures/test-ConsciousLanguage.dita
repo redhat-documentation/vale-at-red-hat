@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-conscious-language">
+  <title>Test: ConsciousLanguage</title>
+  <body>
+    <!-- Tests 'blacklist' should be 'blocklist' -->
+    <p>Add the server to the blacklist configuration.</p>
+    <!-- Tests 'master' should be 'primary|source|initiator|...' -->
+    <p>Connect the application to the master database server.</p>
+    <!-- Tests 'slave' should be 'secondary|replica|...' -->
+    <p>The slave database replicates data from the primary.</p>
+    <!-- Tests 'whitelist' should be 'allowlist' -->
+    <p>Add the IP address to the whitelist for access control.</p>
+  </body>
+</topic>

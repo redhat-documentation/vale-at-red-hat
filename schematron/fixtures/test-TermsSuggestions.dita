@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-terms-suggestions">
+  <title>Test: TermsSuggestions</title>
+  <body>
+    <!-- Tests 'via' should be 'through|by|from|on|by using' -->
+    <p>Connect to the cluster via the command-line interface.</p>
+    <!-- Tests 'in order to' should be 'to' -->
+    <p>In order to configure the network, edit the settings file.</p>
+    <!-- Tests 'tarball' should be '.tar file' -->
+    <p>Download the tarball and extract it to the installation directory.</p>
+    <!-- Tests 'above' should be 'earlier|previous|preceding|before' -->
+    <p>See the above section for details on the installation prerequisites.</p>
+    <!-- Tests 'below' should be 'after|later|following' -->
+    <p>The table below lists all supported operating systems.</p>
+    <!-- Tests 'frontend' should be 'front end|front-end' -->
+    <p>Deploy the frontend application to the web server.</p>
+    <!-- Tests 'k8s' should be 'Kubernetes' -->
+    <p>The k8s cluster requires at least three control plane nodes.</p>
+    <!-- Tests 'bugfix' should be 'bug fix' -->
+    <p>This release includes a critical bugfix for the authentication module.</p>
+  </body>
+</topic>

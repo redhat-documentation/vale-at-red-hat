@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-obvious-terms">
+  <title>Test: ObviousTerms</title>
+  <body>
+    <!-- Tests 'Description field' -->
+    <p>Enter a brief summary in the Description field of the form.</p>
+    <!-- Tests 'Mail field' -->
+    <p>Type your email address in the Mail field to receive notifications.</p>
+    <!-- Tests 'Name field' -->
+    <p>Enter the cluster identifier in the Name field on the registration page.</p>
+    <!-- Tests 'Password field' -->
+    <p>Type your credentials in the Password field and click Submit.</p>
+    <!-- Tests 'User field' -->
+    <p>Enter the account name in the User field to log in.</p>
+    <!-- Tests 'Username field' -->
+    <p>Type the administrator account in the Username field to continue.</p>
+  </body>
+</topic>

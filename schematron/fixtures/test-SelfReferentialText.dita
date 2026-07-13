@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-self-referential-text">
+  <title>Test: SelfReferentialText</title>
+  <body>
+    <!-- Tests 'this topic' -->
+    <p>This topic describes how to install the software.</p>
+    <!-- Tests 'this module' -->
+    <p>This module covers the basic administration tasks.</p>
+    <!-- Tests 'this assembly' -->
+    <p>This assembly explains the upgrade procedure.</p>
+    <!-- Tests 'this chapter' -->
+    <p>This chapter provides an overview of the architecture.</p>
+    <!-- Tests 'this section' -->
+    <p>This section lists the supported platforms.</p>
+    <!-- Tests 'this subsection' -->
+    <p>This subsection contains advanced configuration examples.</p>
+  </body>
+</topic>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-abbreviations">
+  <title>Test: Abbreviations</title>
+  <body>
+    <!-- Tests abbreviations with periods like U.S.A. or I.B.M. (3-5 uppercase letters with dots) -->
+    <p>The server is deployed in the U.S.A. data center for compliance reasons.</p>
+    <!-- Another abbreviation pattern -->
+    <p>Contact I.B.M. support for hardware warranty claims.</p>
+  </body>
+</topic>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-definitions">
+  <title>Test: Definitions</title>
+  <body>
+    <!-- Tests that undefined acronyms are flagged. The acronym XYZZY is used without being defined as "(XYZZY)" anywhere in the topic. -->
+    <p>Configure the XYZZY service to listen on port 8443.</p>
+    <p>After the XYZZY restart, verify the connection.</p>
+    <!-- Another undefined acronym BLARG -->
+    <p>The BLARG protocol handles authentication between nodes.</p>
+  </body>
+</topic>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-hyphens">
+  <title>Test: Hyphens</title>
+  <body>
+    <!-- Tests 'addon' should be 'add-on' -->
+    <p>Install the addon to extend the functionality of the application.</p>
+    <!-- Tests 'broad-cast' should be 'broadcast' -->
+    <p>The server sends a broad-cast message to all connected clients.</p>
+    <!-- Tests 'comma delimited' should be 'comma-delimited' -->
+    <p>Export the data in a comma delimited format for processing.</p>
+    <!-- Tests 'meta-class' should be 'metaclass' -->
+    <p>Define the meta-class to control object creation behavior.</p>
+    <!-- Tests 'micro-chip' should be 'microchip' -->
+    <p>The micro-chip handles all signal processing tasks.</p>
+    <!-- Tests 'video-mode' should be 'video mode' -->
+    <p>Change the video-mode setting to match your display resolution.</p>
+    <!-- Tests 'up-sell' should be 'upsell' -->
+    <p>The sales team uses this feature to up-sell premium support plans.</p>
+    <!-- Tests 'call-out' should be 'callout' -->
+    <p>Add a call-out to highlight the important information.</p>
+  </body>
+</topic>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-headings">
+  <!-- Tests title-case capitalization: second word starts uppercase after lowercase first word content -->
+  <title>Installing The Server Software On Your System</title>
+  <body>
+    <p>This topic covers the installation process.</p>
+    <section>
+      <!-- Tests ALL CAPS heading -->
+      <title>PREREQUISITES FOR INSTALLATION</title>
+      <p>Verify the system requirements before proceeding.</p>
+    </section>
+  </body>
+</topic>

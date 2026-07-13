@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-emdash">
+  <title>Test: EmDash</title>
+  <body>
+    <!-- Tests em dash character U+2014 -->
+    <p>The configuration file &#x2014; located in the /etc directory &#x2014; must be updated.</p>
+    <!-- Tests &mdash; entity reference -->
+    <p>Use commas or parentheses instead of em dashes &amp;mdash; in technical documentation.</p>
+  </body>
+</topic>

@@ -37,3 +37,6 @@ public/
 
 # Generated Schematron output
 schematron/output/
+
+# DITA-OT build output
+out/

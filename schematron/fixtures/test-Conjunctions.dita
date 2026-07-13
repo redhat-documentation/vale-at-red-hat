@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-conjunctions">
+  <title>Test: Conjunctions</title>
+  <body>
+    <!-- Tests sentence starting with 'And' -->
+    <p>And you must restart the service after making changes.</p>
+    <!-- Tests sentence starting with 'But' -->
+    <p>But this approach has several known limitations.</p>
+    <!-- Tests sentence starting with 'Or' -->
+    <p>Or you can configure the setting manually in the file.</p>
+    <!-- Tests sentence starting with 'So' -->
+    <p>So the next step is to verify the configuration.</p>
+  </body>
+</topic>

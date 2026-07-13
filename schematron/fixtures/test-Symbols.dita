@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-symbols">
+  <title>Test: Symbols</title>
+  <body>
+    <!-- Tests ampersand symbol usage outside code elements -->
+    <p>Install the client &amp; server components on the same host.</p>
+    <!-- Tests exclamation mark -->
+    <p>The deployment completed successfully! Verify the running pods.</p>
+  </body>
+</topic>

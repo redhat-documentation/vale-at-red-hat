@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-repeated-words">
+  <title>Test: RepeatedWords</title>
+  <body>
+    <!-- Tests 'the the' repeated word -->
+    <p>Update the the configuration file before restarting the service.</p>
+    <!-- Tests 'is is' repeated word -->
+    <p>The default port is is 8080 for the web console.</p>
+    <!-- Tests 'to to' repeated word in a list item -->
+    <ul>
+      <li>Navigate to to the settings page and update the values.</li>
+    </ul>
+  </body>
+</topic>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-session-id">
+  <title>Test: SessionId</title>
+  <body>
+    <!-- Tests URL containing sessionId parameter -->
+    <p>Access the console at https://example.com/admin?sessionId=a1b2c3d4-e5f6-7890-abcd-ef1234567890 to manage resources.</p>
+    <!-- Tests URL containing seSessionId parameter -->
+    <p>Open https://example.com/app&amp;seSessionId=abcdef12-3456-7890-abcd-ef1234567890 in your browser.</p>
+  </body>
+</topic>
