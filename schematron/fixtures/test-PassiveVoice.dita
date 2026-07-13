@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-passive-voice">
+  <title>Test: PassiveVoice</title>
+  <body>
+    <!-- Tests 'was installed' passive voice with -ed suffix -->
+    <p>The package was installed on the production server yesterday.</p>
+    <!-- Tests 'were configured' passive voice with -ed suffix -->
+    <p>The firewall rules were configured by the security team.</p>
+    <!-- Tests 'is being deployed' passive voice with -ed suffix -->
+    <p>The application is being deployed to the staging environment.</p>
+    <!-- Tests 'been completed' passive voice with irregular past participle -->
+    <p>The migration has been completed without any errors.</p>
+    <!-- Tests 'was broken' passive voice with irregular past participle -->
+    <p>The build was broken by the latest commit to the main branch.</p>
+    <!-- Tests 'are given' passive voice with irregular past participle -->
+    <p>Users are given read-only access to the production database.</p>
+    <!-- Tests 'be run' passive voice with irregular past participle -->
+    <p>The script must be run as the root user to succeed.</p>
+    <!-- Tests 'were chosen' passive voice with irregular past participle -->
+    <p>The default settings were chosen to optimize performance.</p>
+  </body>
+</topic>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-ellipses">
+  <title>Test: Ellipses</title>
+  <body>
+    <!-- Tests three-dot ellipsis '...' -->
+    <p>Configure the hostname, IP address, gateway... and other network settings.</p>
+    <!-- Tests Unicode ellipsis character -->
+    <p>The process includes building, testing, deploying&#x2026; and monitoring.</p>
+  </body>
+</topic>

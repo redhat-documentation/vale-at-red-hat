@@ -5,13 +5,16 @@
 # which is available at https://www.eclipse.org/legal/epl-2.0/
 #
 # SPDX-License-Identifier: EPL-2.0
-"""Smoke-test generated Schematron rules against DITA fixtures.
+"""Smoke-test generated Schematron rules against per-rule DITA fixtures.
 
 Uses lxml.isoschematron which only supports XSLT 1.0. Rules using XPath 2.0
 features (matches(), tokenize()) will compile but may not fire during these
 smoke tests. This script validates that the Schematron files are structurally
 sound and can be loaded by a Schematron processor. Full XPath 2.0 validation
 requires a processor like Saxon or SchXslt.
+
+Each .sch file is tested against its matching test-{RuleName}.dita fixture
+in schematron/fixtures/.
 """
 
 import glob
@@ -30,7 +33,7 @@ def get_schematron_reports(sch_path, dita_path):
     """Apply a Schematron file to a DITA file and return report messages.
 
     Returns:
-        list of report message strings, or None on compilation error.
+        (list of report message strings, error string) or (None, error) on failure.
     """
     try:
         sch_doc = etree.parse(sch_path)
@@ -66,14 +69,6 @@ def get_schematron_reports(sch_path, dita_path):
 
 
 def main():
-    valid_dita = os.path.join(FIXTURES_DIR, "valid.dita")
-    invalid_dita = os.path.join(FIXTURES_DIR, "invalid.dita")
-
-    if not os.path.exists(valid_dita) or not os.path.exists(invalid_dita):
-        print("ERROR: DITA fixture files not found in %s" % FIXTURES_DIR,
-              file=sys.stderr)
-        return 1
-
     sch_files = sorted(glob.glob(os.path.join(OUTPUT_DIR, "*.sch")))
     sch_files = [f for f in sch_files if not f.endswith("RedHat-all.sch")]
 
@@ -81,55 +76,46 @@ def main():
         print("ERROR: No .sch files found in %s" % OUTPUT_DIR, file=sys.stderr)
         return 1
 
-    print("Smoke-testing %d Schematron files against DITA fixtures...\n" % len(sch_files))
+    print("Smoke-testing %d Schematron files against per-rule fixtures...\n" % len(sch_files))
 
     compile_errors = 0
     compilable = 0
     detections_total = 0
-    false_positives_total = 0
     xpath2_skipped = 0
+    missing_fixtures = 0
 
     for sch_path in sch_files:
         name = os.path.basename(sch_path).replace(".sch", "")
+        fixture = os.path.join(FIXTURES_DIR, "test-%s.dita" % name)
 
-        # Test against valid.dita
-        valid_reports, err = get_schematron_reports(sch_path, valid_dita)
-        if valid_reports is None:
-            # lxml can't compile XPath 2.0 rules — expected for most rules
+        if not os.path.exists(fixture):
+            print("  MISSING: test-%s.dita — no fixture file" % name)
+            missing_fixtures += 1
+            continue
+
+        reports, err = get_schematron_reports(sch_path, fixture)
+        if reports is None:
             xpath2_skipped += 1
             print("  SKIP: %s (XPath 2.0, not testable with lxml: %s)" % (name, err[:80]))
             continue
 
         compilable += 1
-        fp_count = len(valid_reports)
-        if fp_count > 0:
-            print("  WARN: %s — %d false positive(s) on valid.dita:" % (name, fp_count))
-            for msg in valid_reports[:3]:
-                print("    - %s" % msg)
-            false_positives_total += fp_count
-
-        # Test against invalid.dita
-        invalid_reports, err = get_schematron_reports(sch_path, invalid_dita)
-        if invalid_reports is None:
-            compile_errors += 1
-            continue
-
-        det_count = len(invalid_reports)
+        det_count = len(reports)
         if det_count > 0:
-            print("  OK: %s — %d detection(s) on invalid.dita" % (name, det_count))
+            print("  OK: %s — %d detection(s)" % (name, det_count))
             detections_total += det_count
         else:
-            print("  INFO: %s — 0 detections on invalid.dita (may need XPath 2.0)" % name)
+            print("  INFO: %s — 0 detections (may need XPath 2.0)" % name)
 
     print("\nSummary:")
     print("  Files tested: %d" % len(sch_files))
     print("  Compilable by lxml (XSLT 1.0): %d" % compilable)
     print("  Skipped (require XPath 2.0): %d" % xpath2_skipped)
-    print("  Total detections on invalid.dita: %d" % detections_total)
-    print("  Total false positives on valid.dita: %d" % false_positives_total)
+    print("  Missing fixtures: %d" % missing_fixtures)
+    print("  Total detections: %d" % detections_total)
     print("  Compilation errors: %d" % compile_errors)
 
-    if compile_errors > 0:
+    if compile_errors > 0 or missing_fixtures > 0:
         return 1
     return 0
 

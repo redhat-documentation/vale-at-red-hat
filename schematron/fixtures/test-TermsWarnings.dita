@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-terms-warnings">
+  <title>Test: TermsWarnings</title>
+  <body>
+    <!-- Tests 'click on' should be 'click' -->
+    <p>Click on the Settings icon to open the configuration panel.</p>
+    <!-- Tests 'execute' should be 'run|issue|start|enter' -->
+    <p>Execute the following command to start the database service.</p>
+    <!-- Tests 'leverage' should be 'use' -->
+    <p>You can leverage this API to integrate with external systems.</p>
+    <!-- Tests 'etc' should be 'and so on' -->
+    <p>The cluster supports multiple workloads such as databases, web servers, etc.</p>
+    <!-- Tests 'can not' should be 'cannot' -->
+    <p>You can not delete resources that are currently in use.</p>
+    <!-- Tests 'in order to' should be 'to' -->
+    <p>In order to apply the changes, restart the pod.</p>
+    <!-- Tests 'kill' should be 'end|stop' -->
+    <p>Use this command to kill the process running on port 8080.</p>
+    <!-- Tests 'terminate' should be 'end|stop' -->
+    <p>The system will terminate the session after 30 minutes of inactivity.</p>
+  </body>
+</topic>

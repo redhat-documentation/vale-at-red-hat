@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-simple-words">
+  <title>Test: SimpleWords</title>
+  <body>
+    <!-- Tests 'utilize' should be 'use' -->
+    <p>You can utilize this tool to automate deployment tasks.</p>
+    <!-- Tests 'commence' should be 'begin' -->
+    <p>The migration will commence after the maintenance window opens.</p>
+    <!-- Tests 'facilitate' should be 'ease' -->
+    <p>These scripts facilitate the upgrade process for administrators.</p>
+    <!-- Tests 'approximately' should be 'about' -->
+    <p>The process takes approximately 30 minutes to complete.</p>
+    <!-- Tests 'subsequent' should be 'later|next' -->
+    <p>Apply the patch and restart the service in subsequent steps.</p>
+    <!-- Tests 'sufficient' should be 'enough' -->
+    <p>Verify that you have sufficient disk space before installation.</p>
+    <!-- Tests 'endeavor' should be 'try' -->
+    <p>We endeavor to keep all documentation up to date.</p>
+    <!-- Tests 'methodology' should be 'method' -->
+    <p>This testing methodology applies to all supported platforms.</p>
+  </body>
+</topic>

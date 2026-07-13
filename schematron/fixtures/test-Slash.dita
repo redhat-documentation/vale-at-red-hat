@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-slash">
+  <title>Test: Slash</title>
+  <body>
+    <!-- Tests word/word construction that should use 'and' or 'or' -->
+    <p>The administrator/operator must verify the certificate before deployment.</p>
+    <!-- Tests another slash usage in a title element -->
+    <section>
+      <title>Install/upgrade procedures</title>
+      <p>Follow these steps to complete the process.</p>
+    </section>
+  </body>
+</topic>

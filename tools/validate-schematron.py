@@ -16,7 +16,7 @@ from lxml import etree
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(REPO_ROOT, "schematron", "output")
 
-SCH_NS = "http://purl.oclc.org/dml/schematron"
+SCH_NS = "http://purl.oclc.org/dsdl/schematron"
 
 
 def validate_schematron(filepath):
@@ -26,7 +26,7 @@ def validate_schematron(filepath):
     1. XML well-formedness
     2. Root element is sch:schema with correct namespace
     3. queryBinding is xslt2
-    4. Contains at least one sch:pattern (or sch:include for RedHat-all)
+    4. Contains at least one sch:pattern
 
     Note: lxml.isoschematron only supports XSLT 1.0, so it cannot compile
     our xslt2/XPath 2.0 rules. We validate structure instead.

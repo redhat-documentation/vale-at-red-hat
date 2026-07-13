@@ -7,6 +7,7 @@
 # SPDX-License-Identifier: EPL-2.0
 """Generate ISO Schematron rules from Red Hat Vale style YAML files."""
 
+import copy
 import os
 import re
 import sys
@@ -18,7 +19,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VALE_STYLES_DIR = os.path.join(REPO_ROOT, ".vale", "styles", "RedHat")
 OUTPUT_DIR = os.path.join(REPO_ROOT, "schematron", "output")
 
-SCH_NS = "http://purl.oclc.org/dml/schematron"
+SCH_NS = "http://purl.oclc.org/dsdl/schematron"
 SCH = "{%s}" % SCH_NS
 NSMAP = {"sch": SCH_NS}
 
@@ -265,7 +266,7 @@ def handle_conditional(rule_name, data):
     report = etree.SubElement(rule_el, SCH + "report")
     report.set(
         "test",
-        "some $text in .//text()[matches(., '\\b[A-Z]{3,5}s?\\b')] satisfies "
+        "some $text in .//text()[matches(., '(^|\\W)[A-Z]{3,5}s?(\\W|$)')] satisfies "
         "(let $words := tokenize($text, '\\s+') return "
         "some $w in $words satisfies "
         "(matches($w, '^[A-Z]{3,5}s?$') and "
@@ -383,7 +384,12 @@ def handle_repetition(rule_name, data):
     rule_el.set("context", context)
 
     report = etree.SubElement(rule_el, SCH + "report")
-    report.set("test", r"matches(., '(\b\w+\b)\s+\1\b')")
+    report.set(
+        "test",
+        "let $words := tokenize(normalize-space(.), '\\s+') return "
+        "some $i in 1 to count($words) - 1 satisfies "
+        "lower-case($words[$i]) = lower-case($words[$i + 1])"
+    )
     report.set("role", role)
     report.text = "A word is repeated consecutively."
 
@@ -489,6 +495,22 @@ def _has_top_level_alternation(pattern):
     return False
 
 
+def _strip_word_boundaries(pattern):
+    """Replace \\b with XPath 2.0 compatible word boundary approximations.
+
+    \\b is not part of the XML Schema regex standard used by XPath 2.0.
+    Leading \\b becomes (^|\\W), trailing \\b becomes (\\W|$), and
+    interior \\b becomes \\W.
+    """
+    result = pattern
+    if result.startswith('\\b'):
+        result = '(^|\\W)' + result[2:]
+    if result.endswith('\\b'):
+        result = result[:-2] + '(\\W|$)'
+    result = result.replace('\\b', '\\W')
+    return result
+
+
 def _add_word_boundaries(pattern):
     """Wrap pattern with XPath 2.0 word boundary approximations.
 
@@ -496,12 +518,12 @@ def _add_word_boundaries(pattern):
     of the XML Schema regex standard used by XPath 2.0.
     """
     starts_bounded = (
-        pattern.startswith('\\b') or
+        pattern.startswith('(^|\\W)') or
         pattern.startswith('^') or
         pattern.startswith('(^')
     )
     ends_bounded = (
-        pattern.endswith('\\b') or
+        pattern.endswith('(\\W|$)') or
         pattern.endswith('$') or
         pattern.endswith('$)')
     )
@@ -555,6 +577,9 @@ def convert_regex_to_xpath(pattern, word_bounded=False):
     # formatting. Replace quantified \s with space-only match to avoid
     # false positives on multiline text.
     result = re.sub(r'\\s(\{[0-9,]+\})', r'[ ]\1', result)
+
+    if '\\b' in result:
+        result = _strip_word_boundaries(result)
 
     if word_bounded:
         result = _add_word_boundaries(result)
@@ -621,7 +646,7 @@ def write_schematron_file(rule_name, schema_element):
 
 
 def write_combined_schematron(rule_names):
-    """Write RedHat-all.sch that includes all individual .sch files."""
+    """Write RedHat-all.sch with all patterns inlined from individual .sch files."""
     schema = etree.Element(SCH + "schema", nsmap=NSMAP)
     schema.set("queryBinding", "xslt2")
     schema.set("schemaVersion", "iso")
@@ -629,11 +654,13 @@ def write_combined_schematron(rule_names):
     title_el = etree.SubElement(schema, SCH + "title")
     title_el.text = "RedHat: All rules"
 
-    schema.append(etree.Comment(" Combined Schematron — includes all individual rule files "))
+    schema.append(etree.Comment(" Combined Schematron — all patterns inlined "))
 
     for name in sorted(rule_names):
-        inc = etree.SubElement(schema, SCH + "include")
-        inc.set("href", "%s.sch" % name)
+        filepath = os.path.join(OUTPUT_DIR, "%s.sch" % name)
+        tree = etree.parse(filepath)
+        for pattern in tree.findall(SCH + "pattern"):
+            schema.append(copy.deepcopy(pattern))
 
     write_schematron_file("RedHat-all", schema)
 

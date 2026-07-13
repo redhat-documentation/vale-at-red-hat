@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-product-centric-writing">
+  <title>Test: ProductCentricWriting</title>
+  <body>
+    <!-- Tests 'allows you' product-centric construction -->
+    <p>This feature allows you to deploy applications more efficiently.</p>
+    <!-- Tests 'enables the user' product-centric construction -->
+    <p>The dashboard enables the user to monitor cluster health.</p>
+    <!-- Tests 'lets users' product-centric construction -->
+    <p>The command-line tool lets users manage resources from a terminal.</p>
+    <!-- Tests 'permits customers' product-centric construction -->
+    <p>The license permits customers to install the software on multiple nodes.</p>
+  </body>
+</topic>

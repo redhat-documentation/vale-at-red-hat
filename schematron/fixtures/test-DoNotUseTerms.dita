@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-do-not-use-terms">
+  <title>Test: DoNotUseTerms</title>
+  <body>
+    <!-- Tests 'please' is flagged -->
+    <p>Please restart the server after applying the patch.</p>
+    <!-- Tests 'basically' is flagged -->
+    <p>The service basically wraps the underlying system calls.</p>
+    <!-- Tests 'and/or' is flagged -->
+    <p>You can deploy the application on a physical and/or virtual machine.</p>
+    <!-- Tests 'foo' is flagged -->
+    <p>Replace the foo variable with the actual hostname.</p>
+    <!-- Tests 'overhead' is flagged -->
+    <p>Running large queries can cause significant overhead on the system.</p>
+    <!-- Tests 'future-proof' is flagged -->
+    <p>This architecture is future-proof and supports scaling.</p>
+    <!-- Tests 'out-of-the-box' is flagged -->
+    <p>The product works out-of-the-box without additional configuration.</p>
+    <!-- Tests 'congratulations' is flagged -->
+    <p>Congratulations on completing the installation process.</p>
+  </body>
+</topic>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-contractions">
+  <title>Test: Contractions</title>
+  <body>
+    <!-- Tests "can't" should be "cannot" -->
+    <p>You can't modify this setting after the initial configuration.</p>
+    <!-- Tests "don't" should be "do not" -->
+    <p>Don't restart the service during peak traffic hours.</p>
+    <!-- Tests "won't" should be "will not" -->
+    <p>The system won't accept connections until the certificate is valid.</p>
+    <!-- Tests "isn't" should be "is not" -->
+    <p>This feature isn't available in the community edition.</p>
+    <!-- Tests "it's" should be "it is" -->
+    <p>It's important to back up the database before upgrading.</p>
+    <!-- Tests "they're" should be "they are" -->
+    <p>They're designed to handle high-throughput workloads.</p>
+    <!-- Tests "doesn't" should be "does not" -->
+    <p>The container doesn't include debugging tools by default.</p>
+    <!-- Tests "weren't" should be "were not" -->
+    <p>The logs weren't rotated because the cron job failed.</p>
+  </body>
+</topic>

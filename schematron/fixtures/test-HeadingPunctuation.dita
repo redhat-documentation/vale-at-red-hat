@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-heading-punctuation">
+  <!-- Tests title ending with period -->
+  <title>Installing the server software.</title>
+  <body>
+    <p>This topic covers the installation process.</p>
+    <section>
+      <!-- Tests section title ending with question mark -->
+      <title>What are the prerequisites?</title>
+      <p>Before you begin, verify the system requirements.</p>
+    </section>
+    <section>
+      <!-- Tests section title ending with exclamation mark -->
+      <title>Important security notice!</title>
+      <p>Always apply security patches promptly.</p>
+    </section>
+  </body>
+</topic>

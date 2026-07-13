@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-case-sensitive-terms">
+  <title>Test: CaseSensitiveTerms</title>
+  <body>
+    <!-- Tests 'javadocs' should be 'Javadoc' -->
+    <p>See the javadocs for additional API reference information.</p>
+    <!-- Tests 'jar file' should be 'JAR file' -->
+    <p>Package the application as a jar file before deployment.</p>
+    <!-- Tests 'Junit' should be 'JUnit' -->
+    <p>Write your test cases using the Junit framework.</p>
+    <!-- Tests 'jvm' should be 'JVM' -->
+    <p>Tune the jvm settings to optimize memory usage.</p>
+    <!-- Tests 'Xterm' should be 'xterm' -->
+    <p>Open an Xterm window to access the command line.</p>
+    <!-- Tests 'Y-Stream' should be 'y-stream' -->
+    <p>This fix will be included in the next Y-Stream release.</p>
+    <!-- Tests 'kernel-based virtual machine' should be 'Kernel-based Virtual Machine' -->
+    <p>Red Hat Enterprise Linux uses kernel-based virtual machine technology.</p>
+    <!-- Tests 'Jetbrains' should be 'JetBrains' -->
+    <p>Download the IDE from the Jetbrains website.</p>
+  </body>
+</topic>

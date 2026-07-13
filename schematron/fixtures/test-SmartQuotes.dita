@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="test-smart-quotes">
+  <title>Test: SmartQuotes</title>
+  <body>
+    <!-- Tests smart single quotes U+2018 and U+2019 -->
+    <p>Set the value to &#x2018;true&#x2019; in the configuration file.</p>
+    <!-- Tests smart double quotes U+201C and U+201D (using double prime alternatives) -->
+    <p>The error message reads &#x2033;connection refused&#x2033; when the port is blocked.</p>
+  </body>
+</topic>
