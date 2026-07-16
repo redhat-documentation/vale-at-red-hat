@@ -48,7 +48,7 @@ jobs:
           # RedHat package: wrap in styles/ so vale sync installs config/
           mkdir -p /tmp/RedHat/styles
           cp -r config RedHat /tmp/RedHat/styles/
-          cd /tmp/RedHat && zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHat.zip" styles
+          cd /tmp/RedHat/styles && zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHat.zip" config RedHat
           cd "$GITHUB_WORKSPACE/.vale/styles"
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
