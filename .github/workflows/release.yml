@@ -44,7 +44,7 @@ jobs:
         run: |
           cd .vale/styles
           echo $GITHUB_RUN_NUMBER > version.txt
-          zip -r RedHat.zip RedHat config
+          zip -r RedHat.zip RedHat config/actions
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
           cd "$GITHUB_WORKSPACE"
