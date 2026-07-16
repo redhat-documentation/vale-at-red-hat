@@ -35,8 +35,7 @@ public/
 
 .claude/*
 
-# Generated Schematron output
-schematron/output/
-
 # DITA-OT build output
-out/
+out
+# Generated Schematron output
+schematron
