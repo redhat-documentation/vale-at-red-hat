@@ -44,7 +44,13 @@ jobs:
         run: |
           cd .vale/styles
           echo $GITHUB_RUN_NUMBER > version.txt
-          zip -r RedHat.zip RedHat config
+          mkdir -p /tmp/redhat-pkg/styles
+          cp -r RedHat /tmp/redhat-pkg/styles/
+          cp -r config /tmp/redhat-pkg/styles/
+          printf 'StylesPath = styles\n' > /tmp/redhat-pkg/.vale.ini
+          cd /tmp/redhat-pkg
+          zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHat.zip" .vale.ini styles
+          cd "$GITHUB_WORKSPACE/.vale/styles"
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
           cd "$GITHUB_WORKSPACE"
