@@ -48,9 +48,9 @@ jobs:
           mkdir -p /tmp/RedHat/styles
           cp -r config RedHat /tmp/RedHat/styles/
           cd /tmp && zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHat.zip" RedHat
+          cd "$GITHUB_WORKSPACE/.vale/styles"
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
-          cd "$GITHUB_WORKSPACE"
           cd schematron/output
           zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHatSchematronRules.zip" .
           cd "$GITHUB_WORKSPACE/.vale/styles"
