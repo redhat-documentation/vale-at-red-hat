@@ -12,6 +12,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   release:
     name: Release
@@ -51,7 +52,7 @@ jobs:
           cd "$GITHUB_WORKSPACE/.vale/styles"
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
-          cd schematron/output
+          cd "$GITHUB_WORKSPACE/schematron/output"
           zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHatSchematronRules.zip" .
           cd "$GITHUB_WORKSPACE/.vale/styles"
           gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip' 'RedHatSchematronRules.zip'
