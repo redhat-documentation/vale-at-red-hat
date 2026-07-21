@@ -1,0 +1,44 @@
+---
+extends: script
+level: error
+link: https://redhat-documentation.github.io/vale-at-red-hat/reference-guide.html#proceduresteplimit
+message: "Procedure contains more than 10 steps. Split it into multiple procedures or leverage substeps to group related steps. If the procedure contains conditionals, review the preview to ensure all built targets comply with the limit of 10 steps."
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+
+  scope = text.re_replace("(?s) *(\n////.*?////\n)", scope, "")
+  scope += "\n"
+
+  lines := text.split(scope, "\n")
+  count := 0
+  step_positions := []
+  procedure_position := -1
+  position := 0
+  in_procedure := false
+
+  for line in lines {
+    if text.re_match("^\\.Procedure", line) {
+      in_procedure = true
+      procedure_position = position
+    }
+    if text.re_match("^\\.[A-Z]", line) && !text.re_match("^\\.Procedure", line) {
+      in_procedure = false
+    }
+    if in_procedure && text.re_match("^\\. [^\\.]", line) {
+      count += 1
+      step_positions = append(step_positions, position)
+    }
+    position += len(line) + 1
+  }
+
+  if count > 10 {
+    if procedure_position >= 0 {
+      matches = append(matches, {begin: procedure_position, end: procedure_position + 1})
+    }
+    for i := 0; i < count; i++ {
+      step_pos := step_positions[i]
+      matches = append(matches, {begin: step_pos, end: step_pos + 1})
+    }
+  }
