@@ -1,0 +1,9 @@
+//vale-fixture
+= Valid Headings with Alphanumeric Characters Only
+
+//vale-fixture
+== Exceptions include attribute references like {product-name}
+
+== Also allow single quotes even though we don't like them
+
+== And `backticks` are allowed too even though I cannot remember if we allow them in the style guide
