@@ -1,4 +1,4 @@
-5881
+5886
 ACI/SP
 ACL/SP
 AEE/SP
@@ -656,6 +656,7 @@ Dx/P
 Dymo/P
 Dynatrace/P
 Dyninst/P
+EC2NodeClass/P
 EIP/SP
 ELB/SP
 ENI/SP
@@ -1220,6 +1221,7 @@ Kactivitie/SP
 Kafka/P
 Kamera/P
 Kaniko/P
+Karpenter/P
 Kata/P
 Kate/P
 Katello/P
@@ -1791,6 +1793,8 @@ Nmstate/P
 Nmstatectl/P
 Nmtui/P
 Noarch/P
+NodeClaim/SP
+NodePool/SP
 Nodeagent/P
 Nodejs/P
 Nodename/SP
@@ -1911,6 +1915,7 @@ Openmpi/P
 Openobex/P
 Opensc/P
 Openscap/P
+OpenshiftEC2NodeClass/P
 Openshiftapiserver/SP
 Openshiftcontrollermanager/SP
 Opensp/P

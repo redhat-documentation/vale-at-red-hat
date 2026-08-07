@@ -190,6 +190,7 @@ Dst
 Dx
 Dymo
 Dyninst
+EC2NodeClass
 EIP
 EIPs
 ELB
@@ -361,6 +362,7 @@ KRA
 KRAs
 KVM
 Kaniko
+Karpenter
 Kata
 Katello
 Kbase
@@ -479,6 +481,10 @@ NVDIMM
 NVDIMMs
 Nagios
 Nagle
+NodeClaim
+NodeClaims
+NodePool
+NodePools
 Narayana
 Nehalem
 Neoverse
@@ -522,6 +528,7 @@ Oki
 Okta
 Omnikey
 Openflow
+OpenshiftEC2NodeClass
 Operand
 Operands
 Opteron
