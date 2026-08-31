@@ -4,3 +4,13 @@ The build isn’t finished yet.
 Jim’s laptop rebooted.
 //vale-fixture
 We don’t ship on Fridays.
+//vale-fixture
+A left double quote “ appears here.
+//vale-fixture
+A right double quote ” appears here.
+//vale-fixture
+A reversed double quote ‟ appears here.
+//vale-fixture
+A double prime ″ appears here.
+//vale-fixture
+A reversed double prime ‶ appears here.

@@ -8,4 +8,4 @@ link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 nonword: true
 scope: raw
 raw:
-  - '[\x{2018}\x{2019}\x{201C}\x{201D}]'
+  - '[\x{2018}\x{2019}\x{201C}\x{201D}\x{201F}\x{2033}\x{2036}]'
