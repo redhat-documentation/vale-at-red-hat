@@ -1,0 +1,4 @@
+//vale-fixture
+The API is clear and concise.
+//vale-fixture
+The command output is both fast and reliable.

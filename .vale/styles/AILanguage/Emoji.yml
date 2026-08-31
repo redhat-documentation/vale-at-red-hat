@@ -1,0 +1,9 @@
+extends: existence
+message: "Don't use emojis in body text. Decorative emojis in prose signal AI-generated or chat-style writing."
+level: suggestion
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+nonword: true
+tokens:
+  - '[\x{1F300}-\x{1FAFF}\x{2700}-\x{27BF}\x{2190}-\x{21FF}\x{2B00}-\x{2BFF}]'
+action:
+  name: remove

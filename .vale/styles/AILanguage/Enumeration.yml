@@ -1,0 +1,9 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+# Superlative without commitment: ranks the subject while naming no ranking.
+extends: existence
+message: "Don't hedge a superlative ('%s'). Phrases like 'one of the most' claim rank without committing to one; give the specific ranking or drop the claim."
+level: warning
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\b(?:one|some|among) of the (?:most|first|earliest|largest|best|leading|few)\b|\bamong the (?:most|earliest|first|leading)\b|\bwidely (?:considered|regarded) (?:one of|to be)\b)'

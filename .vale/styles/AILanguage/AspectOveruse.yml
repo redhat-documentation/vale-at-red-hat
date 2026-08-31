@@ -1,0 +1,8 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+extends: existence
+message: "Don't use vague category words like '%s'. Vague category words name an abstract grouping instead of specific items, so the reader learns nothing concrete."
+level: warning
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\b(?:various|different|multiple|key|important|several|numerous) (?:aspects|facets|dimensions|elements|factors|components|considerations)\b|\bmultifaceted\b|\bmany dimensions\b|\ba (?:number|variety|range) of (?:factors|aspects|reasons|ways)\b)'

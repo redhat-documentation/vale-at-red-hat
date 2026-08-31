@@ -1,0 +1,3 @@
+This release fixes 14 reported defects.
+The migration took under an hour.
+The dashboard reports latency and error rates.

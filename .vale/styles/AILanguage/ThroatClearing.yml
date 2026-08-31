@@ -1,0 +1,8 @@
+extends: existence
+scope: raw
+message: "Don't open with throat-clearing ('%s'). Warm-up phrases delay the point without adding anything; start with the claim."
+level: error
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?im)^\s*(?:in (?:today|this)[''’]?s?\b[^.\n]{0,60}[,.]|in the world of|when it comes to|at its core|whether you[''’]re|as we (?:all )?know|have you ever|in this (?:article|post|guide|section)|let[''’]s (?:dive|explore|take a look|unpack|break)|great question|absolutely[,!]|certainly[,!]|i[''’]d be happy to|before we (?:dive|begin|get started))'

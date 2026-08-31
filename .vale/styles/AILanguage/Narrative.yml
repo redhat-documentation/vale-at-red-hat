@@ -1,0 +1,9 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+# Instruction to the reader about how to feel about the material.
+extends: existence
+message: "Don't tell the reader how to regard the material ('%s'). Prescriptive asides like 'it is important to note' add words without facts; show the point instead of announcing it."
+level: warning
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\bit is (?:important|crucial|essential|vital|critical|necessary) to (?:note|understand|recognize|remember|consider|examine|acknowledge)\b|\bone (?:must|should) (?:consider|note|remember|recognize)\b|\bwe (?:must|should) (?:acknowledge|recognize|remember|consider)\b|\bit goes without saying\b|\bneedless to say\b|\bas you might expect\b)'

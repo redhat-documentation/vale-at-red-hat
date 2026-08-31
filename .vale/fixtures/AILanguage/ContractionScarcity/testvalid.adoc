@@ -1,0 +1,1 @@
+The service doesn't start. It can't reach the database and won't retry.

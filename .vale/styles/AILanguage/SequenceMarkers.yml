@@ -1,0 +1,10 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+# firstly / secondly / thirdly inside one paragraph.
+extends: existence
+message: "Don't use 'firstly / secondly / thirdly' markers in one paragraph. Enumerated adverbs are stilted scaffolding; restructure as a list or let the sentences flow."
+level: warning
+scope: paragraph
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '\b(?:firstly|first)\b[\s\S]{10,600}?\b(?:secondly|second)\b[\s\S]{10,600}?\b(?:thirdly|third|finally|lastly)\b'

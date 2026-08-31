@@ -1,0 +1,6 @@
+//vale-fixture
+See https://example.com/page?utm_source=chatgpt.com for details.
+//vale-fixture
+Link: https://example.com/a?utm_source=perplexity
+//vale-fixture
+Reference: https://example.com/b?ref=chatgpt

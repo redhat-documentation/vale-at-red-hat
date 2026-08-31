@@ -1,0 +1,3 @@
+This guide explains the setup steps.
+The service handles high request volumes.
+The upgrade doubles the cache size.

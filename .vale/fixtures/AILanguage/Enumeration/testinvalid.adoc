@@ -1,0 +1,6 @@
+//vale-fixture
+Riverton is one of the most visited towns in the region.
+//vale-fixture
+The project ranks among the earliest to adopt the framework.
+//vale-fixture
+The tool is widely regarded to be secure.

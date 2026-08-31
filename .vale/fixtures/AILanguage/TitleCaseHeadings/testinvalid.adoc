@@ -1,0 +1,6 @@
+//vale-fixture
+## The Rich Cultural Heritage
+//vale-fixture
+### Getting Started With Vale
+//vale-fixture
+## Configuring The Build Pipeline

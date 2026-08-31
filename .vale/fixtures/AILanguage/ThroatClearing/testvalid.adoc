@@ -1,0 +1,3 @@
+Teams adapt their process as requirements change.
+The configuration details follow.
+This section covers installation and setup.

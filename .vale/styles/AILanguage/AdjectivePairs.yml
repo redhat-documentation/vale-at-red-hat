@@ -1,0 +1,6 @@
+extends: existence
+message: "Don't pair near-synonym adjectives with 'and' ('%s'). Coupling two words that mean almost the same thing pads the sentence."
+level: suggestion
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\b(?:clear|simple|fast|small|deep|rich|bold|quiet|clean) and \w{4,}\b|\bboth \w+ and \w+\b)'

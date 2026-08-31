@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't set up a point by first negating it ('%s'). Saying what something is not before saying what it is adds a hollow beat; state your meaning directly."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\b(?:this|that|it) is(?:n[''’]?t| not) (?:a |an |just |merely )?\w+[.,;]|\bwhat (?:this|that|it) (?:really |actually )?(?:means|is|does) is\b|\bthe (?:real|actual|deeper) (?:point|question|issue|problem) is\b|\bin other words\b|\bto be clear\b|\bthe truth is\b)'

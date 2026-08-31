@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't inflate significance ('%s'). Phrases like 'stands as a testament' assert importance the facts should carry on their own; state what actually happened."
+level: error
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\bstands? as a (?:symbol|testament|reminder|beacon|monument)\b|\bserves? as a (?:reminder|symbol|testament|bridge)\b|\bplays? (?:a |an )?(?:vital|crucial|key|significant|pivotal|important|central) role\b|\bleft? (?:behind )?(?:a |an )?(?:lasting|enduring|indelible) (?:impact|legacy|mark|impression)\b|\bwatershed moment\b|\bmarked a (?:turning point|new (?:era|chapter))\b|\bcement(?:ed|ing)? (?:his|her|its|their) (?:legacy|status|place|reputation)\b|\benduring legacy\b|\bpaved the way for\b|\bushered in\b|\bsymboliz(?:e|es|ing)\b|\bemblematic of\b)'

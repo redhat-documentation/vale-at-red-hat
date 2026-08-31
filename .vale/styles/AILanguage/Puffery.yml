@@ -1,0 +1,8 @@
+# Wikipedia: "reads like a tourism website."
+extends: existence
+message: "Don't use promotional language ('%s'). Marketing adjectives make prose read like an advertisement; describe the subject plainly."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\brich (?:cultural )?(?:heritage|history|tradition|tapestry)\b|\bnestled (?:in|among|between|within)\b|\bbreathtaking\b|\bmust-(?:visit|see|read|have)\b|\bstunning (?:natural )?(?:beauty|views?|scenery)\b|\bhidden gem\b|\bworld-class\b|\bstate-of-the-art\b|\bbustling\b|\bvibrant (?:community|culture|city|scene|atmosphere)\b|\bpicturesque\b|\bcharming\b|\brenowned for\b|\bboasts\b|\bawe-inspiring\b|\bunparalleled\b|\bcaptivating\b)'

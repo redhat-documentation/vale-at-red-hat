@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't stack negations ('%s'). Repeating 'no... no... no' or 'never... never' is a rhetorical tic; one clear negative statement is enough."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:(?:\bno [\w ]{2,30}[.,;]\s*){3,}|\bnever [^.!?]{1,40}, never\b|\bneither [^.!?]{1,40} nor\b)'

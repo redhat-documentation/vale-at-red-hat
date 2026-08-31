@@ -1,0 +1,6 @@
+extends: existence
+message: "Don't force a three-item pattern ('%s'). Triads are a habitual AI rhythm rather than a reflection of the content; use two items or four unless three is genuinely accurate."
+level: suggestion
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\b\w+, \w+,? and \w+\b|[^.!?;\n]{5,}?;[^.!?;\n]{5,}?;[^.!?;\n]{5,}?[.!?]|\b([A-Za-z]{5,})\b[^.!?\n]{2,60}\. \1\b[^.!?\n]{2,60}\. \1\b)'

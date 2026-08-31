@@ -1,0 +1,7 @@
+extends: existence
+scope: raw
+message: "Don't leave template scaffolding in the text ('%s'). Placeholders and section labels are unedited draft markers; replace them with real content."
+level: error
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\[(?:Insert|INSERT|Your|YOUR_|Add|Name|Company|COMPANY|Date|DATE|Topic|Year|YEAR|TBD|PLACEHOLDER|Citation needed|X|placeholder)[^\]\n]{0,40}\]|<(?:INSERT_TEXT|PLACEHOLDER)>|\{\{?[A-Za-z_ ]{2,25}\}?\}|_{3,}|\bLorem ipsum\b|\b(?:Paragraph|Section|Point) \d\b|(?im)^\s*(?:title|subject|headline|body|intro(?:duction)?)\s*:\s*[`"“]?)'

@@ -1,0 +1,9 @@
+# NOTE: Vale concatenates multiple `raw` entries into one pattern.
+# Keep every alternative inside a single entry.
+extends: existence
+message: "Don't use the 'not X, but Y' construction ('%s'). Framing a claim against its opposite is a filler rhythm; state the positive claim on its own."
+level: error
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\bnot (?:just|only|merely|simply)\b[^.!?;]{1,80}?,? but\b|\b(?:it|this|that|they)(?:''s| is|''re| are| was| were)?\s?n[''’]?t\b[^.!?]{1,80}[.!?]\s+(?:It|This|That|They)(?:''s| is|''re| are)\b|\bis(?:n[''’]?t| not) about\b[^.!?]{1,60},\s*(?:it|this|that)(?:''s| is)\b|\bless (?:a |an |about )?\w+ than\b|\brather than (?:a |an )?\w+, (?:it|this|that)\b)'

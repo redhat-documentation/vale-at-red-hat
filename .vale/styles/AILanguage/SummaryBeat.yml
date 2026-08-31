@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't end with a summary beat ('%s'). Wrap-up phrases like 'in conclusion' restate what the reader just read; cut the recap or end on the last real point."
+level: error
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\b(?:in conclusion|to sum(?: it)? up|in summary|all in all|at the end of the day|the bottom line|in short)\b|\bultimately, (?:the|it|what|this)\b|\bby (?:understanding|following|embracing|leveraging)\b[^.!?]{0,80}\byou can\b|\bthe (?:key|takeaway|lesson) (?:here )?is\b|\bthat[''’]s (?:the|what) (?:whole )?(?:point|difference)\b)'

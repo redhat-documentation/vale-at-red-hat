@@ -1,0 +1,7 @@
+extends: occurrence
+message: "Don't overuse formal transition words. A pile of connectors like 'Moreover' and 'Furthermore' is an AI tell; let the sentences follow each other."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+scope: text
+max: 2
+token: '\b(?:Moreover|Furthermore|Additionally|Consequently|Nevertheless|Nonetheless|Therefore|Thus|Hence|Indeed)\b'

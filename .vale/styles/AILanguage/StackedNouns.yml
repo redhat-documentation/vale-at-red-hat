@@ -1,0 +1,11 @@
+# A pure `tag:` sequence never fires. The first token needs a `pattern`
+# to anchor the scan; the rest can be tags alone.
+extends: sequence
+message: "Don't stack three or more nouns in a row (starting at '%s'). Long noun piles are hard to parse; break them up with a preposition."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+tokens:
+  - pattern: '\w+'
+    tag: NN
+  - tag: NN
+  - tag: NN

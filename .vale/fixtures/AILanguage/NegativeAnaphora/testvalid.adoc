@@ -1,0 +1,3 @@
+The project lacked permits, funding, and a plan.
+The council did not respond.
+The pipeline stops on the first failure.

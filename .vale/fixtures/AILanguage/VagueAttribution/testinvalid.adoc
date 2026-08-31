@@ -1,0 +1,6 @@
+//vale-fixture
+Studies show visitor numbers have doubled.
+//vale-fixture
+Some critics argue the growth is unsustainable.
+//vale-fixture
+According to sources, the deal closed on Friday.

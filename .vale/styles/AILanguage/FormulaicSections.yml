@@ -1,0 +1,7 @@
+extends: existence
+scope: raw
+message: "Don't use boilerplate section headings ('%s'). Generic headings are template filler; use a heading that names the actual content."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?im)^#{1,6}\s*(?:challenges(?: and (?:opportunities|solutions))?|future (?:prospects|directions|outlook|of)|key (?:takeaways|benefits|features|considerations)|benefits(?: of)?|conclusion|final thoughts|awards and recognition|legacy(?: and impact)?|impact and legacy|why (?:it|this) matters|getting started)\s*$'

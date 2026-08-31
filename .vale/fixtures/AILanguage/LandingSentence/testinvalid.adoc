@@ -1,0 +1,6 @@
+//vale-fixture
+This opening paragraph is deliberately long so that it does not match the short standalone sentence pattern that the rule looks for in the text.
+
+That changes everything.
+
+This closing paragraph is also long enough that the rule will not flag it as a short landing sentence when it scans the document.

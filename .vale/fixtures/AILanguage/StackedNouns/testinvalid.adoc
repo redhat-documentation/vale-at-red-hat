@@ -1,0 +1,4 @@
+//vale-fixture
+The database connection pool overflowed at peak load.
+//vale-fixture
+Replace the network interface card today.

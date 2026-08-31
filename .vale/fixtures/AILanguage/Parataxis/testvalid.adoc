@@ -1,0 +1,2 @@
+Ship the release only after testing it and confirming the metrics look healthy.
+The deploy failed, so the team rolled back once the missing logs were restored.

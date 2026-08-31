@@ -1,0 +1,6 @@
+//vale-fixture
+As an AI, I cannot browse the internet.
+//vale-fixture
+I hope this helps.
+//vale-fixture
+Great question!

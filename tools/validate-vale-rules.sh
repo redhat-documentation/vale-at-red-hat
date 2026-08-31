@@ -125,6 +125,14 @@ for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -
     test_redhat_rule
 done
 
+# Run tests for AILanguage rules.
+# These use the marker model: several rules are paragraph- or document-scoped
+# and produce one alert for a multi-line construct, which the per-line RedHat
+# model cannot express.
+for RULE in $(find .vale/styles/AILanguage -maxdepth 1 -name '*.yml' | cut -d/ -f 3,4 | cut -d. -f1 | sort); do
+    test_markup_rule
+done
+
 if [ $TOTAL -gt 0 ]; then
     echo "$TOTAL tests to fix:"
     cat "$ERRORS_FILE"

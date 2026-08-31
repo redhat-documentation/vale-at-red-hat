@@ -1,0 +1,7 @@
+extends: occurrence
+message: "Don't overuse bold text. When emphasis appears everywhere it stops meaning anything."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+scope: raw
+max: 6
+token: '\*\*[^*\n]+\*\*'

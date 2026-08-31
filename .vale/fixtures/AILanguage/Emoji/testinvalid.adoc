@@ -1,0 +1,4 @@
+//vale-fixture
+Great work 🚀
+//vale-fixture
+All tests passed ✅

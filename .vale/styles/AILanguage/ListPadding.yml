@@ -1,0 +1,7 @@
+extends: existence
+scope: raw
+message: "Don't start a bullet with a bolded label. The bold-label-then-colon pattern pads lists with formatting instead of content; write it as a plain sentence."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?m)^\s*(?:[-*+]|\d+\.)\s+\*\*[^*\n]{2,60}\*\*\s*[:.—-]'

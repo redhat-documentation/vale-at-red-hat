@@ -1,0 +1,3 @@
+The release adds single sign-on, audit logs, and metrics.
+It supports JSON and YAML input.
+This applies to every team in the org.

@@ -1,0 +1,6 @@
+//vale-fixture
+No permits. No funding. No plan.
+//vale-fixture
+Neither the council nor the province responded.
+//vale-fixture
+The pipeline never starts, never retries, on failure.

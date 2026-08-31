@@ -1,0 +1,3 @@
+This paragraph notes that the change matters. It also explains why the team made it and what the impact will be over the next release cycle for users.
+
+The rollout continues through the quarter and the team tracks progress in the shared dashboard that every stakeholder can review at any time during the work.

@@ -1,0 +1,3 @@
+The API returns a JSON payload.
+See the reference for the full parameter list.
+Restart the service to apply the change.

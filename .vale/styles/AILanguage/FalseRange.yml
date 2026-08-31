@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't fake a range ('%s'). Naming two endpoints and implying everything between them is not a real list; state the actual items."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\brang(?:e|es|ed|ing) from\b|\beverything from\b|\bfrom [\w ]{3,25} to [\w ]{3,25}, (?:the|these|this|it)\b|\bwhether [\w ]{3,30} or [\w ]{3,30},)'

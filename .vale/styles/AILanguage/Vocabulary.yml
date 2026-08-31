@@ -1,0 +1,38 @@
+extends: existence
+message: "Don't use the high-frequency LLM word '%s'. It is overrepresented in AI text and usually adds nothing; replace it with a plainer word or delete it."
+level: warning
+link: https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns
+ignorecase: true
+tokens:
+  - delve[sd]? into
+  - dive into
+  - tapestry
+  - a testament to
+  - navigat(?:e|ing) the (?:complexities|landscape|challenges)
+  - the (?:ever-)?(?:evolving|changing|shifting) landscape
+  - in the realm of
+  - underscore[sd]?
+  - showcas(?:e|es|ing)
+  - leverag(?:e|es|ing)
+  - harness(?:es|ing)? the (?:power|potential)
+  - unlock(?:s|ing)? the (?:power|potential|secrets)
+  - game[- ]chang(?:er|ing)
+  - seamless(?:ly)?
+  - robust(?:ness)?
+  - myriad
+  - plethora
+  - meticulous(?:ly)?
+  - pivotal
+  - paramount
+  - multifaceted
+  - intricate(?:ly)?
+  - profound(?:ly)?
+  - resonat(?:e|es|ing)
+  - foster(?:s|ing)?
+  - elevat(?:e|es|ing) your
+  - embark on
+  - a beacon of
+  - stands? as
+  - serves? as a reminder
+  - it(?:'|’)s (?:important|worth) (?:to note|noting)
+  - the (?:key|secret) (?:lies|is) in

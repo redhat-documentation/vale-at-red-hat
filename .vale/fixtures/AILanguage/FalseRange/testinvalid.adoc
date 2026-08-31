@@ -1,0 +1,6 @@
+//vale-fixture
+Prices range from low to high depending on tier.
+//vale-fixture
+The suite covers everything from parsing to rendering.
+//vale-fixture
+Whether small teams or large enterprises, the tool scales.

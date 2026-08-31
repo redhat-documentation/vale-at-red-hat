@@ -1,0 +1,9 @@
+extends: existence
+message: "Don't string together a run of short, choppy sentences. A stream of clipped clauses reads as machine-generated; combine some into longer sentences to vary the rhythm."
+level: warning
+link: https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns
+# `scope: paragraph` is required: the pattern spans several sentences, and the
+# default scope segments prose per sentence, so the run could never match.
+scope: paragraph
+raw:
+  - '(?:(?:\b[\w''’-]+(?:[ ,][\w''’-]+){0,4}[.!?]\s+){2,}[\w''’-]+(?:[ ,][\w''’-]+){0,4}[.!?]|[.!?]\s+(?:And|But|Which|Because|So)\b[^.!?]{0,40}[.!?]\s+(?:And|But|Which|Because|So)\b)'

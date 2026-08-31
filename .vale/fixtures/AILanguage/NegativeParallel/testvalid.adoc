@@ -1,0 +1,3 @@
+The service is fast and cheap to run.
+The design prioritizes trust over raw speed.
+The result is a platform for building products.

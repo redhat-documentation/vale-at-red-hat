@@ -1,0 +1,6 @@
+//vale-fixture
+This release is truly worth installing.
+//vale-fixture
+The migration was genuinely straightforward.
+//vale-fixture
+The dashboard is a powerful reporting tool.

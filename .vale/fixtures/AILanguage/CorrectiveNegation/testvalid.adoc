@@ -1,0 +1,3 @@
+The failure came from a full queue.
+Licensing drove most of the cost increase.
+The scheduler retries three times before it fails.

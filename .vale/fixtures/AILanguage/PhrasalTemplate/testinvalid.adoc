@@ -1,0 +1,6 @@
+//vale-fixture
+Contact [INSERT NAME] before the deadline.
+//vale-fixture
+Lorem ipsum dolor sit amet.
+//vale-fixture
+Sign here: ____

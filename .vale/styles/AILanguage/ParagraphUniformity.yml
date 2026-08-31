@@ -1,0 +1,37 @@
+# Pangram: AI paragraphs come out the same length. Document-level check, so it
+# needs `scope: raw` — `scope: text` would run once per block instead.
+extends: script
+message: "Don't make every paragraph the same length. Uniform paragraph lengths across a document are a signature of AI text; vary them to match the content."
+level: suggestion
+link: https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns
+scope: raw
+script: |
+  text := import("text")
+  math := import("math")
+
+  matches := []
+  lengths := []
+
+  for p in text.split(scope, "\n\n") {
+    trimmed := text.trim_space(p)
+    if len(trimmed) > 0 && !text.has_prefix(trimmed, "#") && !text.has_prefix(trimmed, "-") && !text.has_prefix(trimmed, "*") && !text.has_prefix(trimmed, ">") && !text.has_prefix(trimmed, "|") {
+      n := len(text.fields(trimmed))
+      if n > 25 {
+        lengths = append(lengths, n)
+      }
+    }
+  }
+
+  if len(lengths) >= 4 {
+    total := 0
+    for n in lengths { total += n }
+    mean := total / len(lengths)
+
+    sq := 0
+    for n in lengths { sq += (n - mean) * (n - mean) }
+    stdev := math.sqrt(sq / len(lengths))
+
+    if mean > 0 && (stdev / mean) < 0.2 {
+      matches = append(matches, {begin: 0, end: 1})
+    }
+  }

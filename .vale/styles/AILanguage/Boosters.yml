@@ -1,0 +1,36 @@
+extends: existence
+message: "Don't use the intensifier '%s'. It asserts importance without adding information."
+level: warning
+link: https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns
+ignorecase: true
+tokens:
+  - truly
+  - genuinely
+  - incredibly
+  - remarkably
+  - undoubtedly
+  - arguably
+  - quite simply
+  - fundamentally
+  - deeply
+  - powerful(?:ly)?
+  - essential(?:ly)?
+  - crucial(?:ly)?
+  - vital(?:ly)?
+  - significant(?:ly)?
+  - notably
+  - importantly
+  - aptly
+  - poignantly
+  - indelibly
+  - tirelessly
+  - relentlessly
+  - seamlessly
+  - meticulously
+  - profoundly
+  - vividly
+  - intricately
+  - invaluably
+  - critically
+  - dynamically
+  - merely

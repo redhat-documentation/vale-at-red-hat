@@ -1,0 +1,9 @@
+//vale-fixture
+
+The procurement team reviewed the vendor contract on Monday and found several clauses that needed a rewrite before the finance group would agree to sign the final agreement that week.
+
+The legal team read the same clauses again on Tuesday and confirmed that the wording around liability and termination would need a careful revision before the deadline arrived that week.
+
+The finance group met on Wednesday to weigh the revised terms and decided that the updated language protected the company well enough to move ahead with the signing that week.
+
+The vendor returned the signed agreement on Thursday and both parties agreed that the remaining questions about support and renewal could wait until the next scheduled review that week.

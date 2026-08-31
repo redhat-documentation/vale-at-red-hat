@@ -1,0 +1,6 @@
+//vale-fixture
+The release adds features: including single sign-on.
+//vale-fixture
+It supports many formats: such as JSON and YAML.
+//vale-fixture
+This applies to all teams, including but not limited to support.

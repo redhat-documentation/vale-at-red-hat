@@ -1,0 +1,9 @@
+extends: existence
+message: "Don't use em dashes. Frequent em dashes are a strong marker of AI-generated prose; recast the sentence or use a period, comma, or colon."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+nonword: true
+tokens:
+  - '—'
+  - '\s--\s'
+  - '\s–\s'

@@ -1,0 +1,11 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+# The colon-then-list habit: a stem that promises specifics and delivers a category.
+extends: existence
+message: "Don't use the colon-then-list construction ('%s'). A colon that promises specifics but delivers a vague category reads as filler."
+level: suggestion
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?::\s+(?:including|such as|for example|notably|specifically|particularly|namely)\b|\bincluding but not limited to\b)'
+action:
+  name: remove

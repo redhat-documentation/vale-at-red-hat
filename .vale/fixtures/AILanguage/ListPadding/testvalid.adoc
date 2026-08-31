@@ -1,0 +1,3 @@
+- Keep status updates short and frequent.
+* Pick tooling that scales with the team.
+1. Start planning before the freeze window.

@@ -1,0 +1,7 @@
+extends: existence
+scope: raw
+message: "Don't use Title Case in headings. Title Case is inconsistent with house style and typical of AI output; use sentence case."
+level: suggestion
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?m)^#{2,6}\s+(?:[A-Z][a-z]+\s+(?:[a-z]{1,4}\s+)?){2,}[A-Z][a-z]+\s*$'

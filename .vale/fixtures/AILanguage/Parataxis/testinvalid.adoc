@@ -1,0 +1,7 @@
+//vale-fixture
+
+Ship it. Test it. Learn from it.
+
+//vale-fixture
+
+It failed. So we rolled back. But the logs were missing.

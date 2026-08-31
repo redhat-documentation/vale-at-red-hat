@@ -1,0 +1,8 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+extends: existence
+message: "Don't wrap an invented label in scare quotes ('%s'). Quoting a coined phrase to signal significance is a stylistic tic; name the thing plainly or explain it."
+level: suggestion
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\bso-called\s+[''"“][^''"”\n]{2,40}[''"”]|\bwhat (?:some|many|others) (?:call|term|describe as)\s+[''"“][^''"”\n]{2,40}[''"”]|\bthe\s+[''"“][^''"”\n]{2,30}[''"”]\s+(?:of|problem|effect|phenomenon)\b)'

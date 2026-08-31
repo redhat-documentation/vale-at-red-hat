@@ -1,0 +1,6 @@
+//vale-fixture
+I hope this email finds you well.
+//vale-fixture
+Thank you for your consideration.
+//vale-fixture
+Best regards,

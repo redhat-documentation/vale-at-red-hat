@@ -1,0 +1,33 @@
+extends: script
+message: "Don't make every sentence in a paragraph the same length. Uniform sentence length is a marker of AI prose; vary sentence length to break the rhythm."
+level: warning
+link: https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns
+scope: paragraph
+script: |
+  text := import("text")
+  math := import("math")
+
+  matches := []
+  sentences := text.re_split(`[.!?]\s+`, scope, -1)
+
+  lengths := []
+  for s in sentences {
+    n := len(text.fields(s))
+    if n > 2 {
+      lengths = append(lengths, n)
+    }
+  }
+
+  if len(lengths) >= 4 {
+    total := 0
+    for n in lengths { total += n }
+    mean := total / len(lengths)
+
+    sq := 0
+    for n in lengths { sq += (n - mean) * (n - mean) }
+    stdev := math.sqrt(sq / len(lengths))
+
+    if stdev < 3 {
+      matches = append(matches, {begin: 0, end: len(scope)})
+    }
+  }

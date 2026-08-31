@@ -1,0 +1,7 @@
+extends: existence
+message: "Don't attribute claims to unnamed sources ('%s'). 'Studies show' or 'experts say' without a citation is unverifiable filler; name the source or drop the claim."
+level: error
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\b(?:studies|research|reports|data|surveys|analysts|experts|observers|critics|scholars|historians|sources|industry reports?)\s+(?:show|shows|suggest|suggests|indicate|indicates|note|noted|have noted|say|says|argue|argues|believe|believes)\b|\b(?:some|many|several|various|numerous|certain) (?:critics|experts|observers|scholars|analysts|commentators|people|believe|argue)\b|\bit is (?:widely |generally |often )?(?:believed|regarded|considered|acknowledged|thought|seen as|viewed as)\b|\bis (?:widely|often|generally) (?:regarded|considered|recognized|seen|viewed|known) as\b|\bhas been (?:praised|described|hailed|noted) (?:as|for)\b|\baccording to (?:some|many|reports|sources)\b)'

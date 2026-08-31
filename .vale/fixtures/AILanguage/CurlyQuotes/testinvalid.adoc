@@ -1,0 +1,6 @@
+//vale-fixture
+The build isn’t finished yet.
+//vale-fixture
+Jim’s laptop rebooted.
+//vale-fixture
+We don’t ship on Fridays.

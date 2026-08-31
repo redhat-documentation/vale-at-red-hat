@@ -1,0 +1,8 @@
+# Connection asserted without saying what the connection is.
+extends: existence
+message: "Don't assert a vague connection ('%s'). Phrases like 'associated with' or 'in the context of' imply a relationship without naming it; say what the relationship actually is."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\bin connection with\b|\bin association with\b|\bassociated with\b|\bis known for (?:his|her|its|their)\b|\bhas been linked to\b|\bin the context of\b|\bwith respect to\b|\bwhen it comes to\b)'
