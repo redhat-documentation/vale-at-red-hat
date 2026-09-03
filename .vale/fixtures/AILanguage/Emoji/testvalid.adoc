@@ -1,2 +1,7 @@
 Great work.
 All tests passed.
+Click *Home* → *Search*.
+A ✓ indicates enabled; a ✗ indicates unavailable.
+Status: ✅ approved and ❌ rejected.
+The components communicate: router ↔ scheduler.
+The 👀 reaction indicates that a reviewer is looking at the request.
