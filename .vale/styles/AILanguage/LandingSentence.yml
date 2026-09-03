@@ -1,7 +1,7 @@
 extends: existence
-scope: raw
-message: "Don't isolate a short sentence as its own paragraph for effect. A one-line paragraph that only lands a rhetorical beat carries no new information."
+scope: sentence
+message: "Don't use short sentences for effect. Short sentences used for rhetorical effect carry no new information."
 level: suggestion
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 raw:
-  - '(?m)(?:\r?\n){2}[A-Z][^.\n!?#|*-]{4,55}\.(?:(?:\r?\n){2}|$)'
+  - '^[A-Z][^.\n!?#|*-]{4,20}\.$'

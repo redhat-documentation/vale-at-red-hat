@@ -1,3 +1,0 @@
-The migration completed on Tuesday.
-The report lists every affected service.
-Contact the release manager with questions.

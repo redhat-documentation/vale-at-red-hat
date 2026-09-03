@@ -1,3 +1,0 @@
-See https://example.com/page?utm_source=chatgpt.com for details.
-Link: https://example.com/a?utm_source=perplexity
-Reference: https://example.com/b?ref=chatgpt

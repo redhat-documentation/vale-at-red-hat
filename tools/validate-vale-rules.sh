@@ -109,6 +109,33 @@ test_ailanguage_regex_rule() {
     fi
 }
 
+# Test an AILanguage document-level occurrence rule.
+# Each invalid fixture represents one threshold violation and must yield one
+# alert; its individual lines are context, not independent test cases.
+test_ailanguage_document_rule() {
+    local dir=".vale/fixtures/$RULE"
+    local valid_alerts
+    local valid_count
+    local invalid_alerts
+    local invalid_count
+
+    valid_alerts="$(run_vale "$dir" "$dir/testvalid.adoc")"
+    valid_count="$(count_lines "$valid_alerts")"
+    invalid_alerts="$(run_vale "$dir" "$dir/testinvalid.adoc")"
+    invalid_count="$(count_lines "$invalid_alerts")"
+
+    check_false_positives "$valid_alerts" "$valid_count"
+
+    if [ "$invalid_count" -ne 1 ]; then
+        record_error "$dir/testinvalid.adoc (expected 1 alert, found $invalid_count)"
+        if [ "$invalid_count" -gt 1 ]; then
+            TOTAL=$((TOTAL + invalid_count - 1))
+        else
+            TOTAL=$((TOTAL + 1 - invalid_count))
+        fi
+    fi
+}
+
 # Test an AsciiDoc/OpenShiftAsciiDoc style rule
 # Expects lines marked with "//vale-fixture" to trigger an alert
 test_markup_rule() {
@@ -156,12 +183,14 @@ for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -
     test_redhat_rule
 done
 
-# Run tests for AILanguage rules. Script rules use the marker model because
-# they can emit one alert for a multi-line construct. Regex rules use the
-# per-line model.
+# Run tests for AILanguage rules. Script fixtures that contain markers use the
+# marker model. Raw occurrence and sentence-scoped rules use the document
+# model. The remaining rules use the per-line model.
 for RULE in $(find .vale/styles/AILanguage -maxdepth 1 -name '*.yml' | cut -d/ -f 3,4 | cut -d. -f1 | sort); do
-    if grep -q '^extends: script$' ".vale/styles/$RULE.yml"; then
+    if grep -q '^extends: script$' ".vale/styles/$RULE.yml" && grep -q '^//vale-fixture$' ".vale/fixtures/$RULE/testinvalid.adoc"; then
         test_markup_rule
+    elif { grep -q '^extends: occurrence$' ".vale/styles/$RULE.yml" && grep -q '^scope: raw$' ".vale/styles/$RULE.yml"; } || grep -q '^scope: sentence$' ".vale/styles/$RULE.yml"; then
+        test_ailanguage_document_rule
     else
         test_ailanguage_regex_rule
     fi

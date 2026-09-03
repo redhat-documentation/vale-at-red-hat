@@ -1,3 +1,3 @@
+This rocks. It simply does the job. Learn how to use Vale to lint your Red Hat documentation. This guide covers installing Vale and the RedHat style, analyzing documentation with various tools (CLI, IDE integrations, and desktop app), understanding and reporting Vale output, and integrating Vale into your workflow with GitHub Actions, GitLab CI, and other continuous integration services.
 
-
-That changes everything.
+This guide covers installing Vale and the RedHat style, analyzing documentation with various tools (CLI, IDE integrations, and desktop app), understanding and reporting Vale output, and integrating Vale into your workflow with GitHub Actions, GitLab CI, and other continuous integration services.

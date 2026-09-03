@@ -6,4 +6,4 @@ level: warning
 ignorecase: true
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 raw:
-  - '(?:\bit is (?:important|crucial|essential|vital|critical|necessary) to (?:note|understand|recognize|remember|consider|examine|acknowledge)\b|\bone (?:must|should) (?:consider|note|remember|recognize)\b|\bwe (?:must|should) (?:acknowledge|recognize|remember|consider)\b|\bit goes without saying\b|\bneedless to say\b|\bas you might expect\b)'
+  - '(?:\bit is (?:important|crucial|essential|vital|critical|necessary) to (?:note|mention|point out|emphasize|highlight|understand|recognize|remember|consider|examine|acknowledge)\b|\bone (?:must|should) (?:consider|note|remember|recognize)\b|\bwe (?:must|should) (?:acknowledge|recognize|remember|consider)\b|\bit goes without saying\b|\bneedless to say\b|\bas you might expect\b)'

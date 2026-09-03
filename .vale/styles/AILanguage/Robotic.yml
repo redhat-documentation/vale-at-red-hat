@@ -1,7 +1,0 @@
-extends: existence
-message: "Don't leave chatbot phrasing in the text ('%s'). Assistant tics like this expose AI-generated content; remove them."
-level: error
-ignorecase: true
-link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
-raw:
-  - '(?:\bas an AI\b|\bas a language model\b|\bI hope this helps\b|\bfeel free to (?:ask|reach)\b|\bplease note that\b|\bit(?:''|’)s (?:always )?a good idea to\b|\bI(?:''|’)d be happy to help\b|\blet me know if you\b|\bis there anything else\b|\bwould you like (?:me to|it expanded|a version)\b|\bhere(?:''|’)s (?:a|the) (?:breakdown|rundown)\b|\bhere is a (?:draft|detailed|revised|Wikipedia)\b|\bas of my (?:last (?:update|training)|knowledge cutoff)\b|\bmy training data only goes up to\b|\bI (?:do not|don(?:''|’)t) have (?:access to |information )?(?:beyond|real-?time)\b|\byou(?:''|’)re absolutely right\b|\bcertainly[,!]|\bof course[,!]|\bgreat (?:question|point)\b|\bfinal important tip\b|\bthis (?:fictional|Wikipedia-style) article\b)'

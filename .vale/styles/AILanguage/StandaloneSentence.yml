@@ -1,0 +1,26 @@
+extends: script
+scope: raw
+message: "Don't isolate a single sentence as its own paragraph. Combine it with the surrounding content or use a heading or list when that better expresses its role."
+level: suggestion
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+script: |
+  text := import("text")
+  matches := []
+
+  // Match a paragraph that contains one sentence, not a hard-wrapped line in
+  // a longer paragraph.
+  sentence_pattern := "^[A-Z][^\\n.!?#|*-]*[.!?]$"
+  scope += "\n\n"
+  start := 0
+
+  for paragraph in text.split(scope, "\n\n") {
+    trimmed := text.trim_space(paragraph)
+    if text.re_match(sentence_pattern, trimmed) {
+      offset := text.index(paragraph, trimmed)
+      matches = append(matches, {
+        begin: start + offset,
+        end: start + offset + len(trimmed)
+      })
+    }
+    start += len(paragraph) + 2
+  }

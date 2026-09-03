@@ -1,0 +1,3 @@
+This short sentence stands alone.
+
+This longer standalone sentence still expresses only one thought and therefore belongs with the surrounding content instead of occupying a paragraph of its own.

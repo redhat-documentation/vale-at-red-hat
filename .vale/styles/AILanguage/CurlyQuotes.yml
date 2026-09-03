@@ -2,9 +2,6 @@ extends: existence
 message: "Don't use curly quotation marks ('%s'). They are typically pasted from chat tools and break code and plain-text contexts; use straight quotes."
 level: suggestion
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
-# `scope: raw` is required: the default prose scope treats a curly apostrophe
-# (U+2019) as an intra-word character and never flags it in contractions or
-# possessives, the most common curly character in pasted text.
 nonword: true
 scope: raw
 raw:

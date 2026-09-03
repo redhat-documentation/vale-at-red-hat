@@ -1,3 +1,0 @@
-See https://example.com/page for details.
-Link: https://example.com/a
-Reference: https://example.com/b

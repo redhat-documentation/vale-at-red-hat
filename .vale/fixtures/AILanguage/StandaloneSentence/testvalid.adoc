@@ -1,0 +1,8 @@
+This paragraph contains two sentences. It should not trigger the standalone-sentence rule.
+
+This paragraph also contains two sentences.
+It should not trigger the standalone-sentence rule.
+
+* This list item is a complete sentence.
+
+== A heading is not a sentence paragraph

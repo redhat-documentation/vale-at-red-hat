@@ -11,15 +11,24 @@ script: |
 
   matches := []
   lengths := []
+  paragraphs := []
+  start := 0
 
   for p in text.split(scope, "\n\n") {
-    trimmed := text.trim_space(p)
+    content := text.re_replace("(?m)^//vale-fixture\\r?\\n", p, "")
+    trimmed := text.trim_space(content)
     if len(trimmed) > 0 && !text.has_prefix(trimmed, "#") && !text.has_prefix(trimmed, "-") && !text.has_prefix(trimmed, "*") && !text.has_prefix(trimmed, ">") && !text.has_prefix(trimmed, "|") {
       n := len(text.fields(trimmed))
       if n > 25 {
         lengths = append(lengths, n)
+        offset := text.index(p, trimmed)
+        paragraphs = append(paragraphs, {
+          begin: start + offset,
+          end: start + offset + len(trimmed)
+        })
       }
     }
+    start += len(p) + 2
   }
 
   if len(lengths) >= 4 {
@@ -32,6 +41,6 @@ script: |
     stdev := math.sqrt(sq / len(lengths))
 
     if mean > 0 && (stdev / mean) < 0.2 {
-      matches = append(matches, {begin: 0, end: 1})
+      matches = append(matches, paragraphs[0])
     }
   }

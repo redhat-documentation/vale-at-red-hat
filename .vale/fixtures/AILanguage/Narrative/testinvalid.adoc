@@ -1,3 +1,7 @@
 It is important to note that costs rose in March.
 One must consider the migration timeline.
 Needless to say, the launch slipped.
+It is important to mention the compatibility change.
+It is important to point out the supported versions.
+It is important to emphasize the maintenance window.
+It is important to highlight the configuration requirement.

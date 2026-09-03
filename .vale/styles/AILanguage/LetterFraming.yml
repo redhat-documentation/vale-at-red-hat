@@ -1,7 +1,0 @@
-extends: existence
-message: "Don't use letter or email phrasing ('%s') in non-letter content. Greetings and sign-offs are template scaffolding left over from AI drafts; remove them."
-level: error
-link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
-ignorecase: true
-raw:
-  - '(?:\bI hope this (?:email|message|letter|note) finds you well\b|\bthank you for your (?:time|consideration|attention|understanding)\b|\b(?:best|warm|kind) regards\b|\blooking forward to (?:hearing|your)\b|\bdear [A-Z][\w. ]{2,30},|\bto whom it may concern\b|\bplease (?:do not hesitate|feel free) to\b|\bsincerely,)'

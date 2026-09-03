@@ -1,6 +1,6 @@
 extends: existence
 scope: raw
-message: "Don't use Title Case in headings. Title Case is inconsistent with house style and typical of AI output; use sentence case."
+message: "Don't use Title Case in headings. Title Case is typical of AI output; use sentence case."
 level: suggestion
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 raw:
