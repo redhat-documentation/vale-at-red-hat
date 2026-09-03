@@ -1,2 +1,1 @@
-//vale-fixture
 Moreover, it works. Furthermore, it scales. Therefore, adopt it.

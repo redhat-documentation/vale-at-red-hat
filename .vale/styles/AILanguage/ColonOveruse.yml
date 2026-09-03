@@ -6,6 +6,4 @@ level: suggestion
 ignorecase: true
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 raw:
-  - '(?::\s+(?:including|such as|for example|notably|specifically|particularly|namely)\b|\bincluding but not limited to\b)'
-action:
-  name: remove
+  - '(?::\s+(?:including|such as|for example|notably|specifically|particularly|namely)\b)'

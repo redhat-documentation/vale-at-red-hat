@@ -1,0 +1,5 @@
+The policy applies to every service in the support organization.
+
+Permitted methods include SSO and OAuth.
+
+The model is not limited to a single GPU.

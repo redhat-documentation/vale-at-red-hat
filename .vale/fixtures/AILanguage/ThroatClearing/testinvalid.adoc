@@ -1,6 +1,3 @@
-//vale-fixture
 In today's fast-paced world, teams must adapt.
-//vale-fixture
 Let's dive into the configuration details.
-//vale-fixture
 In this article, we cover installation and setup.

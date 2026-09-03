@@ -4,4 +4,4 @@ message: "Don't isolate a short sentence as its own paragraph for effect. A one-
 level: suggestion
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 raw:
-  - '(?m)(?:\r?\n){2}[A-Z][^.\n!?#|*-]{4,55}\.(?:\r?\n){2}'
+  - '(?m)(?:\r?\n){2}[A-Z][^.\n!?#|*-]{4,55}\.(?:(?:\r?\n){2}|$)'

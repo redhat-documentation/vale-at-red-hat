@@ -1,6 +1,3 @@
-//vale-fixture
 The market operates in connection with the tourism board.
-//vale-fixture
 The town is known for its summer festival.
-//vale-fixture
 When it comes to cost, the managed tier wins.

@@ -1,6 +1,3 @@
-//vale-fixture
 Reliability is the goal—always.
-//vale-fixture
 It is fast -- and cheap.
-//vale-fixture
 Cost – benefit is the tradeoff.

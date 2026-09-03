@@ -1,6 +1,3 @@
-//vale-fixture
 This isn't a bug.
-//vale-fixture
 In other words, the queue was full.
-//vale-fixture
 The real problem is licensing cost.

@@ -1,6 +1,3 @@
-//vale-fixture
 Riverton is a hidden gem in the valley.
-//vale-fixture
 The town has a rich cultural heritage.
-//vale-fixture
 The resort offers world-class dining.

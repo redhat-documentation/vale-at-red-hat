@@ -1,0 +1,5 @@
+The policy applies to services, including but not limited to support.
+The policy applies to services, including, but not limited to support.
+Permitted methods include but are not limited to SSO and OAuth.
+The service includes but is not limited to authentication.
+The examples include without limitation JSON and YAML.

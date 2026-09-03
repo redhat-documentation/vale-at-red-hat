@@ -1,6 +1,3 @@
-//vale-fixture
 In conclusion, the plan meets the budget.
-//vale-fixture
 Ultimately, the cost is what decides the tier.
-//vale-fixture
 The takeaway is to start the migration early.

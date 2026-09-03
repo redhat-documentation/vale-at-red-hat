@@ -1,6 +1,3 @@
-//vale-fixture
 The design is clear, simple, and quick.
-//vale-fixture
 The workflow lets you plan, build, and ship.
-//vale-fixture
 The tool is quick, cheap, and safe.

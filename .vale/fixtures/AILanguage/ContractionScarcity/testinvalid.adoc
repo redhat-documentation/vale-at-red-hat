@@ -1,2 +1,1 @@
-//vale-fixture
 The service does not start. It cannot reach the database and will not retry.

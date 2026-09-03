@@ -1,0 +1,15 @@
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+# Legalistic formulas that hedge the scope of an otherwise ordinary list.
+extends: existence
+message: "Replace the non-exhaustive-list formula ('%s') with 'including', or state the intended scope precisely."
+level: suggestion
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '\b(?:including|include|includes)(?:(?:\s*,\s*|\s+)but\s+(?:(?:are|is)\s+)?not\s+limited\s+to|\s+without\s+limitation)\b'
+action:
+  name: edit
+  params:
+    - regex
+    - '(?i)\b(including|include|includes)(?:(?:\s*,\s*|\s+)but\s+(?:(?:are|is)\s+)?not\s+limited\s+to|\s+without\s+limitation)\b'
+    - '$1'

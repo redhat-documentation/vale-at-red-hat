@@ -1,6 +1,3 @@
-//vale-fixture
 It is not just fast, but cheap to run.
-//vale-fixture
 This isn't about speed, it's about trust.
-//vale-fixture
 The result is less a product than a platform.

@@ -1,6 +1,3 @@
-//vale-fixture
 The festival stands as a testament to local resilience.
-//vale-fixture
 The market plays a vital role in the regional economy.
-//vale-fixture
 The 2010 release paved the way for the current platform.

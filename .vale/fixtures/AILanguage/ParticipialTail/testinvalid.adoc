@@ -1,6 +1,3 @@
-//vale-fixture
 The mill closed in 1974, marking a turning point for the town.
-//vale-fixture
 Sign-ups doubled last quarter, highlighting strong demand.
-//vale-fixture
 The team shipped a week early, enabling faster feedback.

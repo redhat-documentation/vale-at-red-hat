@@ -1,2 +1,1 @@
-//vale-fixture
 Settings: **one** **two** **three** **four** **five** **six** **seven** are enabled.

@@ -78,6 +78,37 @@ test_redhat_rule() {
     fi
 }
 
+# Test an AILanguage regex rule.
+# Expects every non-empty line in testinvalid.adoc to trigger an alert.
+test_ailanguage_regex_rule() {
+    local dir=".vale/fixtures/$RULE"
+    local valid_alerts
+    local valid_count
+    local invalid_alerts
+    local invalid_count
+    local expected_count
+
+    valid_alerts="$(run_vale "$dir" "$dir/testvalid.adoc")"
+    valid_count="$(count_lines "$valid_alerts")"
+    invalid_alerts="$(run_vale "$dir" "$dir/testinvalid.adoc")"
+    invalid_count="$(count_lines "$invalid_alerts")"
+    expected_count="$(grep -c '.' "$dir/testinvalid.adoc" || true)"
+
+    local missed=$((expected_count - invalid_count))
+
+    check_false_positives "$valid_alerts" "$valid_count"
+
+    if [ "$missed" -gt 0 ]; then
+        grep -n '.' "$dir/testinvalid.adoc" | while read -r line; do
+            linenum=$(echo "$line" | cut -d: -f1)
+            if ! echo "$invalid_alerts" | grep -q ":$linenum:"; then
+                record_error "$dir/testinvalid.adoc:$linenum"
+            fi
+        done
+        TOTAL=$((TOTAL + missed))
+    fi
+}
+
 # Test an AsciiDoc/OpenShiftAsciiDoc style rule
 # Expects lines marked with "//vale-fixture" to trigger an alert
 test_markup_rule() {
@@ -125,12 +156,15 @@ for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -
     test_redhat_rule
 done
 
-# Run tests for AILanguage rules.
-# These use the marker model: several rules are paragraph- or document-scoped
-# and produce one alert for a multi-line construct, which the per-line RedHat
-# model cannot express.
+# Run tests for AILanguage rules. Script rules use the marker model because
+# they can emit one alert for a multi-line construct. Regex rules use the
+# per-line model.
 for RULE in $(find .vale/styles/AILanguage -maxdepth 1 -name '*.yml' | cut -d/ -f 3,4 | cut -d. -f1 | sort); do
-    test_markup_rule
+    if grep -q '^extends: script$' ".vale/styles/$RULE.yml"; then
+        test_markup_rule
+    else
+        test_ailanguage_regex_rule
+    fi
 done
 
 if [ $TOTAL -gt 0 ]; then

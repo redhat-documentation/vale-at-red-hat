@@ -1,6 +1,3 @@
-//vale-fixture
 It is important to note that costs rose in March.
-//vale-fixture
 One must consider the migration timeline.
-//vale-fixture
 Needless to say, the launch slipped.

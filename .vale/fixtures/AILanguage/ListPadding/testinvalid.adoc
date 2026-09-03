@@ -1,6 +1,3 @@
-//vale-fixture
 - **Communication**: keep updates short.
-//vale-fixture
 * **Tooling**: pick a platform that scales.
-//vale-fixture
 1. **Planning**: start before the freeze.

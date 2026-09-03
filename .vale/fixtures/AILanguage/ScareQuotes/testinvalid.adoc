@@ -1,6 +1,3 @@
-//vale-fixture
 Economists call this a so-called "doom loop".
-//vale-fixture
 It is what some describe as "technical debt".
-//vale-fixture
 The system suffers the "cobra" effect.
