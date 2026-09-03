@@ -1,3 +1,0 @@
-Contact the release manager before the deadline.
-The overview describes the migration steps.
-Sign the change record before merging.

@@ -1,2 +1,0 @@
-The database connection pool overflowed at peak load.
-Replace the network interface card today.

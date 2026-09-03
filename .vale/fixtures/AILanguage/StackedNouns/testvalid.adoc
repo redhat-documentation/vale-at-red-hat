@@ -1,2 +1,0 @@
-The pool of connections to the database overflowed at peak load.
-Replace the card that connects to the network.

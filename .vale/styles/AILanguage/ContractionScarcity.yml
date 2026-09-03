@@ -1,8 +1,0 @@
-# Pangram: AI rarely contracts unless asked. Document-level, hence `scope: raw`.
-extends: occurrence
-message: "Don't avoid contractions entirely. Prose that never uses contractions reads as stiff and overly formal."
-level: suggestion
-link: https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns
-scope: raw
-min: 1
-token: "\\w+['’](?:t|re|ve|ll|d|m)\\b"
