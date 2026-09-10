@@ -13,3 +13,6 @@
 
 :_mod-docs-content-type: SNIPPET
 [id="cli-basic-commands_{context}"]
+
+:_mod-docs-content-type: MAP
+
