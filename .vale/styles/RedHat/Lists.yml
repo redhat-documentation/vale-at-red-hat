@@ -1,0 +1,22 @@
+---
+extends: script
+message: "Write lists so that all or none of the items start with complete sentences. If list items comprise only complete sentences, include a period after each sentence. Except in definition lists, do not include any end punctuation if list items comprise only sentence fragments."
+scope: raw
+script: |
+  text := import("text")
+  matches := []
+  pattern := "[.*-]\\s+(.*)"
+  is_complete_sentence := func(s string) bool {
+    return text.has_prefix(s, text.to_upper(text.slice(s, 0, 1))) && text.has_suffix(s, ".")
+  }
+  for line in text.split(document, "\n") {
+    match := text.re_find(pattern, line)
+    if match != undefined {
+      item := match[1]
+      if is_complete_sentence(item) {
+      } else {
+        start := text.index(scope, line)
+        matches = append(matches, {begin: start, end: start + len(line)})
+      }
+    }
+  }
