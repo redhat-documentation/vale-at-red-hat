@@ -1,0 +1,11 @@
+//vale-fixture
+It is important to note that the API accepts only JSON input.
+
+//vale-fixture
+One must consider the migration window.
+
+//vale-fixture
+Needless to say, the cluster must have enough capacity.
+
+//vale-fixture
+We should remember the certificate expiration date.

@@ -1,0 +1,1 @@
+The service doesn't start because it can't reach the database. The controller won't retry the connection.

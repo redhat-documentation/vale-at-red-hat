@@ -1,0 +1,5 @@
+The API accepts only JSON input.
+Schedule the migration within the maintenance window.
+The cluster must have enough capacity.
+Record the certificate expiration date.
+It is necessary to configure a default storage class.

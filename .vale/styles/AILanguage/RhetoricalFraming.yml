@@ -6,4 +6,4 @@ level: warning
 ignorecase: true
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 raw:
-  - '(?:\bthe [^.!?]{1,60} is the whole point of [^.!?]{1,60}|\bthis is where [^.!?]{1,50} comes in\b|\bthe (?:key|important) thing (?:to (?:understand|remember|know) )?is\b|\bit is (?:important|crucial|essential|vital|critical|necessary) to (?:note|mention|point out|emphasize|highlight|understand|recognize|remember|consider|acknowledge)\b|\bit goes without saying\b|\bneedless to say\b)'
+  - '(?:\bthe [^.!?]{1,60} is the whole point of [^.!?]{1,60}|\bthis is where [^.!?]{1,50} comes in\b|\bthe (?:key|important) thing (?:to (?:understand|remember|know) )?is\b)'
