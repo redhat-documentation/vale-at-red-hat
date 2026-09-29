@@ -138,7 +138,7 @@ def handle_existence(rule_name, data):
     nonword = data.get("nonword", False)
 
     schema = make_schema_element(rule_name, rule_name, "existence", level)
-    context = build_scope_context(scope)
+    context = build_scope_context(scope, text_nodes=True)
 
     pattern = etree.SubElement(schema, SCH + "pattern")
     pattern.set("id", "RedHat-%s" % rule_name)
@@ -238,7 +238,7 @@ def handle_substitution(rule_name, data):
     word_bounded = not nonword
 
     schema = make_schema_element(rule_name, rule_name, "substitution", level)
-    context = build_scope_context(scope)
+    context = build_scope_context(scope, text_nodes=True)
 
     pat = etree.SubElement(schema, SCH + "pattern")
     pat.set("id", "RedHat-%s" % rule_name)
@@ -277,6 +277,13 @@ def handle_substitution(rule_name, data):
             kept_pattern, word_bounded=word_bounded
         )
 
+        # Keep a copy without the synthetic word boundaries. The report
+        # matcher needs those boundaries, but they must not be included in
+        # the text shown in the diagnostic.
+        display_pattern, _ = convert_regex_to_xpath(
+            kept_pattern, word_bounded=False
+        )
+
         report = etree.SubElement(rule_el, SCH + "report")
 
         escaped = xml_escape_regex(converted)
@@ -288,14 +295,10 @@ def handle_substitution(rule_name, data):
         report.set("test", test)
         report.set("role", role)
 
-        try:
-            msg = message_template % (repl_str, bad_str)
-        except TypeError:
-            try:
-                msg = message_template % repl_str
-            except TypeError:
-                msg = message_template
-        report.text = msg
+        _set_substitution_message(
+            report, message_template, repl_str, display_pattern, flags,
+            word_bounded=word_bounded,
+        )
 
     if not rule_el.findall(SCH + "report"):
         record_coverage(
@@ -311,6 +314,74 @@ def handle_substitution(rule_name, data):
 
     write_schematron_file(rule_name, schema)
     return True
+
+
+def _set_substitution_message(
+    report, template, replacement, match_pattern, flags, word_bounded=False
+):
+    """Set a substitution report message with its actual matched text.
+
+    Vale expands the second ``%s`` in a substitution message to the text
+    that matched the rule. Schematron report text is static unless it contains
+    a ``sch:value-of`` element, so retain the replacement as literal text and
+    calculate the matched text from the current context node at validation
+    time.
+    """
+    placeholders = template.count("%s")
+
+    if placeholders == 0:
+        report.text = template
+        return
+
+    if placeholders == 1:
+        report.text = template % replacement
+        return
+
+    prefix, remainder = template.split("%s", 1)
+    match_prefix, suffix = remainder.split("%s", 1)
+    report.text = prefix + replacement + match_prefix
+
+    value_of = etree.SubElement(report, SCH + "value-of")
+    starts_bounded = (
+        match_pattern.startswith('(^|\\W)') or
+        match_pattern.startswith('^') or
+        match_pattern.startswith('(^')
+    )
+    ends_bounded = (
+        match_pattern.endswith('(\\W|$)') or
+        match_pattern.endswith('$') or
+        match_pattern.endswith('$)')
+    )
+
+    # Keep the report's word boundaries outside the capture so that the
+    # diagnostic contains only the matched term. Exclude line breaks from
+    # both the boundaries and the surrounding text.
+    if match_pattern.startswith('(^|\\W)'):
+        match_pattern = match_pattern[len('(^|\\W)'):]
+        start_boundary = r'(?:^|[^\w\r\n])'
+    elif word_bounded and not starts_bounded:
+        start_boundary = r'(?:^|[^\w\r\n])'
+    else:
+        start_boundary = ''
+
+    if match_pattern.endswith('(\\W|$)'):
+        match_pattern = match_pattern[:-len('(\\W|$)')]
+        end_boundary = r'(?:[^\w\r\n]|$)'
+    elif word_bounded and not ends_bounded:
+        end_boundary = r'(?:[^\w\r\n]|$)'
+    else:
+        end_boundary = ''
+
+    pattern = xml_escape_regex(
+        r'^[^\r\n]*?%s(%s)%s[^\r\n]*$'
+        % (start_boundary, match_pattern, end_boundary)
+    )
+    select = "replace(., '%s', '$1'%s)" % (
+        pattern,
+        ", %s" % flags if flags else "",
+    )
+    value_of.set("select", select)
+    value_of.tail = suffix
 
 
 def handle_conditional(rule_name, data):
@@ -383,7 +454,7 @@ def handle_capitalization(rule_name, data):
     pat.set("id", "RedHat-%s" % rule_name)
 
     rule_el = etree.SubElement(pat, SCH + "rule")
-    rule_el.set("context", build_scope_context("heading"))
+    rule_el.set("context", build_scope_context("heading", text_nodes=True))
 
     report = etree.SubElement(rule_el, SCH + "report")
     report.set(
@@ -495,13 +566,20 @@ def _compact_context(elements):
     return "//*[%s]%s" % (self_tests, excl)
 
 
+def _compact_text_context(elements):
+    """Build a text-node context that excludes inline code elements."""
+    excl = exclusion_predicates()
+    ancestor_tests = " or ".join("self::%s" % el for el in elements)
+    return "//text()[ancestor::*[%s]]%s" % (ancestor_tests, excl)
+
+
 SENTENCE_ELEMENTS = [
     "p", "li", "shortdesc", "abstract", "entry", "dd", "note", "lq",
 ]
 HEADING_ELEMENTS = ["title", "searchtitle"]
 
 
-def build_scope_context(scope):
+def build_scope_context(scope, text_nodes=False):
     """Convert a Vale scope to a DITA XPath context expression.
 
     Args:
@@ -510,12 +588,18 @@ def build_scope_context(scope):
     Returns:
         XPath context string for use in sch:rule/@context.
     """
+    compact = _compact_text_context if text_nodes else _compact_context
     scope_map = {
-        "heading": _compact_context(HEADING_ELEMENTS),
-        "sentence": _compact_context(SENTENCE_ELEMENTS),
-        "paragraph": _compact_context(SENTENCE_ELEMENTS),
+        "heading": compact(HEADING_ELEMENTS),
+        "sentence": compact(SENTENCE_ELEMENTS),
+        "paragraph": compact(SENTENCE_ELEMENTS),
         "raw": "//*[text()]",
     }
+
+    if text_nodes:
+        scope_map["raw"] = "//text()%s" % exclusion_predicates()
+    else:
+        scope_map["raw"] = "//*[text()]"
 
     if scope is None:
         return scope_map["sentence"]
@@ -544,7 +628,7 @@ def build_scope_context(scope):
         elif s in ("sentence", "paragraph"):
             all_elements.update(SENTENCE_ELEMENTS)
     if all_elements:
-        return _compact_context(sorted(all_elements))
+        return compact(sorted(all_elements))
     return scope_map["sentence"]
 
 

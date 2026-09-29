@@ -6,6 +6,7 @@ on:
     paths:
       - .vale/styles/RedHat/*.yml
       - tools/vale-to-schematron.py
+      - tools/test-vale-to-schematron.py
       - tools/validate-schematron.py
       - tools/test-schematron.py
       - schematron/fixtures/**
@@ -14,6 +15,7 @@ on:
     paths:
       - .vale/styles/RedHat/*.yml
       - tools/vale-to-schematron.py
+      - tools/test-vale-to-schematron.py
       - tools/validate-schematron.py
       - tools/test-schematron.py
 
@@ -46,6 +48,9 @@ jobs:
 
       - name: Validate Schematron rules
         run: python tools/validate-schematron.py
+
+      - name: Test Vale-to-Schematron conversion
+        run: python tools/test-vale-to-schematron.py
 
       - name: Smoke-test against DITA fixtures
         run: python tools/test-schematron.py

@@ -222,7 +222,6 @@ initial caps
 Internet address
 Intranet
 invoke
-io
 IPI
 irrecoverable
 is shipped with
