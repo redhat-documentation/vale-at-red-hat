@@ -46,11 +46,12 @@ jobs:
           cd .vale/styles
           echo $GITHUB_RUN_NUMBER > version.txt
           zip -r RedHat.zip RedHat
+          zip -r AILanguage.zip AILanguage
           zip -r AsciiDoc.zip AsciiDoc
           zip -r OpenShiftAsciiDoc.zip OpenShiftAsciiDoc
           cd "$GITHUB_WORKSPACE/schematron/output"
           zip -r "$GITHUB_WORKSPACE/.vale/styles/RedHatSchematronRules.zip" .
           cd "$GITHUB_WORKSPACE/.vale/styles"
-          gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip' 'RedHatSchematronRules.zip'
+          gh release create v$GITHUB_RUN_NUMBER 'RedHat.zip' 'AILanguage.zip' 'AsciiDoc.zip' 'OpenShiftAsciiDoc.zip' 'RedHatSchematronRules.zip'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
