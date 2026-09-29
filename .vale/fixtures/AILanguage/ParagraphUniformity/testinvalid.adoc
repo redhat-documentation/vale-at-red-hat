@@ -1,8 +1,0 @@
-//vale-fixture
-The controller reads the custom resource and validates every field before it creates the deployment, service, route, and configuration objects required to run the model server.
-
-The scheduler reads the deployment and evaluates every available node before it selects a node with enough memory, processors, and accelerators to run the model server.
-
-The runtime reads the configuration and initializes every component before it opens the network port, reports its health status, and begins accepting inference requests from clients.
-
-The monitor reads the service status and evaluates every endpoint before it records the metrics, updates the dashboard, and reports whether the model server is available.
