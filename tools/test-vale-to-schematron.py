@@ -65,6 +65,15 @@ class SchematronGeneratorTests(unittest.TestCase):
         for element in generator.CODE_EXCLUSIONS:
             self.assertIn("ancestor-or-self::%s" % element, context)
 
+    def test_escaped_slash_is_xpath_compatible(self):
+        """PCRE's escaped slash must become a literal XPath regex slash."""
+        converted, warnings = generator.convert_regex_to_xpath(
+            r"nvidia[^\/]", word_bounded=False
+        )
+
+        self.assertEqual(converted, r"nvidia[^/]")
+        self.assertEqual(warnings, [])
+
 
 if __name__ == "__main__":
     unittest.main()
