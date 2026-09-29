@@ -1,0 +1,17 @@
+= Configuring request retries
+
+== Configuring the retry limit
+
+You can configure the service by using the retryLimit field. This setting
+allows you to limit the number of requests sent after a connection failure.
+
+. Open the custom resource.
+. Set retryLimit to an integer from 0 through 5.
+. Apply the updated resource:
++
+[source,terminal]
+----
+$ oc apply -f service.yaml
+----
+
+If the server is unavailable, the client retries the request.

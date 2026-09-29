@@ -1,0 +1,11 @@
+= Request routing
+
+== How request routing works
+
+The router sends each request to an available model server. If the selected
+server is unavailable, the router selects another server.
+
+The router uses endpoint metadata to select a server. This behavior keeps the
+routing decision independent of the client.
+
+The command supports both local and remote models.

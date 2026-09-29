@@ -1,0 +1,8 @@
+//vale-fixture
+Studies show that retries improve reliability.
+
+//vale-fixture
+Experts say that the default is secure.
+
+//vale-fixture
+According to sources, the vulnerability is difficult to exploit.

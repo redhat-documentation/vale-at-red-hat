@@ -10,7 +10,7 @@
 #
 # Validates Vale rules by running them against test fixtures.
 # - testvalid.adoc: Should produce NO alerts (false positive test)
-# - testinvalid.adoc: Every line should produce an alert (detection test)
+# - testinvalid.adoc: Marked examples should produce the expected alerts
 
 set -e
 
@@ -78,6 +78,100 @@ test_redhat_rule() {
     fi
 }
 
+# Test an AILanguage rule.
+# Each //vale-fixture marker identifies an alert on the following line.
+# Validate the line and rule ID as well as the total number of alerts.
+test_ailanguage_rule() {
+    local dir=".vale/fixtures/$RULE"
+    local rule_name
+    local valid_alerts
+    local valid_count
+    local invalid_alerts
+    local invalid_count
+    local expected_count
+    local expected_line
+    local line_count
+    local marker_lines
+
+    rule_name="${RULE#*/}"
+    valid_alerts="$(run_vale "$dir" "$dir/testvalid.adoc")"
+    valid_count="$(count_lines "$valid_alerts")"
+    invalid_alerts="$(run_vale "$dir" "$dir/testinvalid.adoc")"
+    invalid_count="$(count_lines "$invalid_alerts")"
+    expected_count="$(grep -c '^//vale-fixture$' "$dir/testinvalid.adoc" || true)"
+
+    check_false_positives "$valid_alerts" "$valid_count"
+
+    if [ "$expected_count" -eq 0 ]; then
+        record_error "$dir/testinvalid.adoc (no //vale-fixture markers)"
+        TOTAL=$((TOTAL + 1))
+    fi
+
+    marker_lines="$(grep -n '^//vale-fixture$' "$dir/testinvalid.adoc" | cut -d: -f1)"
+    while IFS= read -r expected_line; do
+        [ -n "$expected_line" ] || continue
+        expected_line=$((expected_line + 1))
+        line_count="$(printf '%s\n' "$invalid_alerts" |
+            grep -F ":$expected_line:" |
+            grep -F -c "AILanguage.$rule_name" || true)"
+
+        if [ "$line_count" -ne 1 ]; then
+            record_error "$dir/testinvalid.adoc:$expected_line (expected AILanguage.$rule_name once, found $line_count)"
+            TOTAL=$((TOTAL + 1))
+        fi
+    done <<EOF
+$marker_lines
+EOF
+
+    if [ "$invalid_count" -ne "$expected_count" ]; then
+        record_error "$dir/testinvalid.adoc (expected $expected_count total alerts, found $invalid_count)"
+        TOTAL=$((TOTAL + 1))
+    fi
+}
+
+# Test an AILanguage document-level occurrence rule.
+# An absence rule has no meaningful source location, so validate the rule ID
+# and require exactly one alert for the complete invalid fixture.
+test_ailanguage_document_rule() {
+    local dir=".vale/fixtures/$RULE"
+    local rule_name
+    local valid_alerts
+    local valid_count
+    local invalid_alerts
+    local invalid_count
+    local rule_count
+
+    rule_name="${RULE#*/}"
+    valid_alerts="$(run_vale "$dir" "$dir/testvalid.adoc")"
+    valid_count="$(count_lines "$valid_alerts")"
+    invalid_alerts="$(run_vale "$dir" "$dir/testinvalid.adoc")"
+    invalid_count="$(count_lines "$invalid_alerts")"
+    rule_count="$(printf '%s\n' "$invalid_alerts" |
+        grep -F -c "AILanguage.$rule_name" || true)"
+
+    check_false_positives "$valid_alerts" "$valid_count"
+
+    if [ "$invalid_count" -ne 1 ] || [ "$rule_count" -ne 1 ]; then
+        record_error "$dir/testinvalid.adoc (expected AILanguage.$rule_name once, found $rule_count of $invalid_count total alerts)"
+        TOTAL=$((TOTAL + 1))
+    fi
+}
+
+# The complete AILanguage style must remain quiet on representative Red Hat
+# concept, procedure, reference, and general technical content.
+test_ailanguage_corpus() {
+    local dir=".vale/fixtures/AILanguage/corpus"
+    local file
+    local alerts
+    local count
+
+    for file in "$dir"/*.adoc; do
+        alerts="$(run_vale "$dir" "$file")"
+        count="$(count_lines "$alerts")"
+        check_false_positives "$alerts" "$count"
+    done
+}
+
 # Test an AsciiDoc/OpenShiftAsciiDoc style rule
 # Expects lines marked with "//vale-fixture" to trigger an alert
 test_markup_rule() {
@@ -124,6 +218,17 @@ done
 for RULE in $(find .vale/styles/RedHat/ -name '*.yml' | cut -d/ -f 4 | cut -d. -f1 | sort); do
     test_redhat_rule
 done
+
+# Run tests for AILanguage rules and the representative technical corpus.
+for RULE in $(find .vale/styles/AILanguage -maxdepth 1 -name '*.yml' | cut -d/ -f 3,4 | cut -d. -f1 | sort); do
+    if grep -q '^extends: occurrence$' ".vale/styles/$RULE.yml" &&
+        grep -q '^scope: raw$' ".vale/styles/$RULE.yml"; then
+        test_ailanguage_document_rule
+    else
+        test_ailanguage_rule
+    fi
+done
+test_ailanguage_corpus
 
 if [ $TOTAL -gt 0 ]; then
     echo "$TOTAL tests to fix:"

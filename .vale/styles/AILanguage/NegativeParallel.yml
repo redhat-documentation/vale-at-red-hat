@@ -1,0 +1,9 @@
+# NOTE: Vale concatenates multiple `raw` entries into one pattern.
+# Keep every alternative inside a single entry.
+extends: existence
+message: "Avoid contrastive framing ('%s'). State the technical behavior directly."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\bnot (?:just|only|merely|simply)\b[^.!?;]{1,80}?,?\s+but(?: also)?\b|\b(?:this|it) is(?:n[''’]?t| not) about\b[^.!?;]{1,60}[,;]\s*(?:it|this)(?:[''’]s| is) about\b|\bmore than (?:just|simply|merely)\b[^.!?;]{1,60}[,;]\s*(?:it|this)(?:[''’]s| is)\b)'

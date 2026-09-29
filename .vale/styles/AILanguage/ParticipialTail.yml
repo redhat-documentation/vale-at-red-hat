@@ -1,0 +1,9 @@
+# Wikipedia calls this "superficial analysis": a fact, then a comma, then an
+# -ing clause that gestures at significance without adding information.
+extends: existence
+message: "Avoid a hollow '-ing' significance clause ('%s'). Delete it or state the specific consequence."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - ',\s*(?:highlighting|underscoring|underlining|showcasing|emphasizing|signaling|signalling|marking|cementing|solidifying|paving the way|further (?:solidifying|cementing))\b'

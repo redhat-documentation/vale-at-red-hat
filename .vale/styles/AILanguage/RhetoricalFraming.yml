@@ -1,0 +1,9 @@
+# Adapted in part from ammil-industries/vale-signs-of-ai-writing
+# (CC BY-SA 4.0). See README.md.
+extends: existence
+message: "Avoid rhetorical framing ('%s'). State the technical fact or behavior directly."
+level: warning
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '(?:\bthe [^.!?]{1,60} is the whole point of [^.!?]{1,60}|\bthis is where [^.!?]{1,50} comes in\b|\bthe (?:key|important) thing (?:to (?:understand|remember|know) )?is\b)'

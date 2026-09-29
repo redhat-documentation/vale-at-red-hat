@@ -1,0 +1,3 @@
+The benchmark recorded fewer failed requests after retries were enabled.
+The security guide describes the default configuration.
+The CVE record rates the vulnerability as moderate severity.

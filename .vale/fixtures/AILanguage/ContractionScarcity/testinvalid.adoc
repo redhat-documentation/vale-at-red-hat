@@ -1,0 +1,2 @@
+//vale-fixture
+The service does not start because it cannot reach the database. The controller will not retry the connection.

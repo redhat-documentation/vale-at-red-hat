@@ -1,0 +1,7 @@
+extends: existence
+message: "Avoid an explanatory filler phrase ('%s'). State the explanation or consequence directly."
+level: warning
+ignorecase: true
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+raw:
+  - '\b(?:in other words|what this means is|put another way|put simply|simply put)\b'
