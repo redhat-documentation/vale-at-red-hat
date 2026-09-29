@@ -5,4 +5,4 @@ level: warning
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 ignorecase: true
 raw:
-  - '^\s*(?:in (?:today|this)[''’]?s?\b[^.]{0,80}[,.]|in the world of\b|when it comes to\b|at its core\b|whether you[''’]re\b|as we (?:all )?know\b|have you ever\b|in this (?:article|post|guide)\b|let[''’]s (?:dive|explore|take a look|unpack|break)\b|great question\b|absolutely[,!]|certainly[,!]|i[''’]d be happy to\b|before we (?:dive|begin|get started)\b)'
+  - '^\s*(?:in today[''’]?s?\b[^.]{0,80}[,.]|in the world of\b|when it comes to\b|at its core\b|whether you[''’]re\b|as we (?:all )?know\b|have you ever\b|in this (?:article|post|guide)\b|let[''’]s (?:dive|explore|take a look|unpack|break)\b|great question\b|absolutely[,!]|certainly[,!]|i[''’]d be happy to\b|before we (?:dive|begin|get started)\b)'

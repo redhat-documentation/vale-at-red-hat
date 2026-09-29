@@ -7,6 +7,3 @@ This is where the recovery controller comes in.
 
 //vale-fixture
 The key thing to understand is that the token expires after one hour.
-
-//vale-fixture
-It is important to note that the API accepts only JSON input.

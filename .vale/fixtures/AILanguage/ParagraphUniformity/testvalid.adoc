@@ -1,0 +1,7 @@
+The controller validates the custom resource before it creates the deployment, service, route, and configuration objects required to run the model server.
+
+The scheduler selects a node.
+
+The runtime reads the configuration and initializes each component before it opens the network port. It then reports its health status and begins accepting inference requests from authorized clients in the cluster.
+
+The monitor reports availability.
