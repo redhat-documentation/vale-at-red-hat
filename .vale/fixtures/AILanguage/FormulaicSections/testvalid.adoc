@@ -1,3 +1,0 @@
-## Rollout timeline
-## Rollback procedure
-## Known limitations

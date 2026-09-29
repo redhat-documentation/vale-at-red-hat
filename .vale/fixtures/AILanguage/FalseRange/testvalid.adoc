@@ -1,3 +1,0 @@
-The starter tier costs 10 dollars per month.
-The suite parses, validates, and renders documents.
-The tool supports teams of any size.

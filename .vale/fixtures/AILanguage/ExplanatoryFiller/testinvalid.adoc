@@ -1,0 +1,11 @@
+//vale-fixture
+In other words, the node cannot join the cluster.
+
+//vale-fixture
+What this means is that the certificate must be renewed.
+
+//vale-fixture
+Put another way, the request exceeded the limit.
+
+//vale-fixture
+Simply put, the database is unavailable.

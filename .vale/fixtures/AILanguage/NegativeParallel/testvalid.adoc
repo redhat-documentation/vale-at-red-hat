@@ -1,3 +1,5 @@
 The service is fast and cheap to run.
 The design prioritizes trust over raw speed.
-The result is a platform for building products.
+The feature changes the workflow.
+The service is not available when the cluster is offline.
+The command checks whether the value is empty or not.

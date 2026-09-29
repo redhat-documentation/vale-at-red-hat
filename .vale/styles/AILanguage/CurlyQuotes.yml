@@ -1,8 +1,0 @@
-extends: existence
-message: "Don't use curly quotation marks ('%s'). They are typically pasted from chat tools and break code and plain-text contexts; use straight quotes."
-level: suggestion
-link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
-nonword: true
-scope: raw
-raw:
-  - '[\x{2018}\x{2019}\x{201C}\x{201D}\x{201F}\x{2033}\x{2036}]'

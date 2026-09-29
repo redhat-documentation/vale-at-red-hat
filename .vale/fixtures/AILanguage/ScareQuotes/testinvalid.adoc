@@ -1,3 +1,0 @@
-Economists call this a so-called "doom loop".
-It is what some describe as "technical debt".
-The system suffers the "cobra" effect.

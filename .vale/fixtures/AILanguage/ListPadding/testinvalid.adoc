@@ -1,3 +1,0 @@
-- **Communication**: keep updates short.
-* **Tooling**: pick a platform that scales.
-1. **Planning**: start before the freeze.

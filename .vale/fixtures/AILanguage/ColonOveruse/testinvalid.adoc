@@ -1,2 +1,0 @@
-The release adds features: including single sign-on.
-It supports many formats: such as JSON and YAML.

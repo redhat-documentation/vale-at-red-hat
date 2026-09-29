@@ -1,2 +1,0 @@
-The API is concise.
-The command output is reliable and returns quickly.

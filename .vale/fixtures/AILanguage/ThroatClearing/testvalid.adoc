@@ -1,3 +1,7 @@
 Teams adapt their process as requirements change.
 The configuration details follow.
 This section covers installation and setup.
+When the server starts, the client reads the configuration file.
+
+The client reads the values from the configuration file when you configure
+the server.

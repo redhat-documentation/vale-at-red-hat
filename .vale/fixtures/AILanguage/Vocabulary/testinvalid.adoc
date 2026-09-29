@@ -1,3 +1,0 @@
-This guide will delve into the setup steps.
-The service is a robust option for scale.
-The upgrade unlocks the potential of the cache.

@@ -1,0 +1,8 @@
+A refresh fetches only changes from AEM. It leaves local edits unchanged.
+It reports the changes it makes.
+
+The recovery controller restarts failed workloads.
+
+The token expires after one hour.
+
+The API accepts only JSON input.

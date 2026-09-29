@@ -1,3 +1,0 @@
-Ship it. Test it. Learn from it.
-
-It failed. So we rolled back. But the logs were missing.
