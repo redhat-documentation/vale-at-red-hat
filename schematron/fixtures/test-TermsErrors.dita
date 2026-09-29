@@ -23,5 +23,7 @@
     <p>Install the network adaptor driver on the host machine.</p>
     <!-- Tests '24/7' should be '24x7' -->
     <p>The support team is available 24/7 for critical issues.</p>
+    <!-- Text inside codeph must not trigger prose terminology rules. -->
+    <p><codeph>abort</codeph></p>
   </body>
 </topic>
