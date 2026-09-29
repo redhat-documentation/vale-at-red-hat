@@ -12,7 +12,6 @@ swap:
   "(?<!-)pm": PM
   "(?<!-|.|{)env": environment
   "(?<!-|I )am": AM
-  "(?<!.)io": I/O
   '(?<!as well )\bas per\b': according to|as|as in
   "(?<!kernel )oops": kernel oops
   "(?<!mobile |cell )phone": "telephone|cell phone|mobile phone"
