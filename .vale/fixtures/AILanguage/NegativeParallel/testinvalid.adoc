@@ -1,3 +1,8 @@
-It is not just fast, but cheap to run.
-This isn't about speed, it's about trust.
-The result is less a product than a platform.
+//vale-fixture
+It is not just fast, but also cheap to run.
+
+//vale-fixture
+This isn't about speed; it's about trust.
+
+//vale-fixture
+The feature is more than just a shortcut; it is a new way to work.

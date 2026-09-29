@@ -1,3 +1,8 @@
-Studies show visitor numbers have doubled.
-Some critics argue the growth is unsustainable.
-According to sources, the deal closed on Friday.
+//vale-fixture
+Studies show that retries improve reliability.
+
+//vale-fixture
+Experts say that the default is secure.
+
+//vale-fixture
+According to sources, the vulnerability is difficult to exploit.

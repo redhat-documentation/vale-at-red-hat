@@ -1,3 +1,12 @@
+//vale-fixture
 In today's fast-paced world, teams must adapt.
+
+//vale-fixture
 Let's dive into the configuration details.
+
+//vale-fixture
 In this article, we cover installation and setup.
+
+//vale-fixture
+When it comes to configuring the server, the
+client reads the values from the configuration file.

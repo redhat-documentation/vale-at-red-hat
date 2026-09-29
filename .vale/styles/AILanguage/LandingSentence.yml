@@ -1,7 +1,0 @@
-extends: existence
-scope: sentence
-message: "Don't use short sentences for effect. Short sentences used for rhetorical effect carry no new information."
-level: suggestion
-link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
-raw:
-  - '^[A-Z][^.\n!?#|*-]{4,20}\.$'

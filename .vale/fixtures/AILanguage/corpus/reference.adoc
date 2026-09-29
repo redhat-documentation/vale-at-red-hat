@@ -1,0 +1,14 @@
+= Configuration reference
+
+== Retry settings
+
+The service provides three retry settings:
+
+retryLimit:: Specifies the maximum number of retry attempts.
+retryDelay:: Specifies the delay between attempts.
+retryTimeout:: Specifies the maximum duration of one attempt.
+
+== Summary
+
+The status contains the current retry count and the time of the most recent
+attempt.

@@ -1,3 +1,0 @@
-This isn't a bug.
-In other words, the queue was full.
-The real problem is licensing cost.

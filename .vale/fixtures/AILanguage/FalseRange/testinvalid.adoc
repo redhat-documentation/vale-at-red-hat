@@ -1,3 +1,0 @@
-Prices range from low to high depending on tier.
-The suite covers everything from parsing to rendering.
-Whether small teams or large enterprises, the tool scales.

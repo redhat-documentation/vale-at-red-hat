@@ -1,3 +1,0 @@
-## The Rich Cultural Heritage
-### Getting Started With Vale
-## Configuring The Build Pipeline
