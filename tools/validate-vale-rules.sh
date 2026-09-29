@@ -192,9 +192,11 @@ test_markup_rule() {
 
     check_false_positives "$valid_alerts" "$valid_count"
 
-    if [ "$missed" -gt 0 ]; then
-        # A marked markup example can legitimately produce multiple alerts.
-        # Fail only when fewer examples alert than the fixture declares.
+    if [ "$missed" -ne 0 ]; then
+        # Handle both missed detections and over-detections
+        if [ "$missed" -lt 0 ]; then
+            missed=$((missed * -1))
+        fi
         grep -n "//vale-fixture" "$dir/testinvalid.adoc" | cut -d: -f1 | while read -r linenum; do
             record_error "$dir/testinvalid.adoc:$linenum"
         done
