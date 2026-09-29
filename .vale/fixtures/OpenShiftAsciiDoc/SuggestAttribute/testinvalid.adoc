@@ -11,8 +11,6 @@ distributed tracing data collection
 //vale-fixture
 distributed tracing platform
 //vale-fixture
-distributed tracing
-//vale-fixture
 Factory-precaching-cli tool
 //vale-fixture
 factory-precaching-cli tool
@@ -172,3 +170,5 @@ CAPV
 CAPX
 //vale-fixture
 CAPZ
+//vale-fixture
+distributed tracing
