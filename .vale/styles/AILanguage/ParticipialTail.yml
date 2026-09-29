@@ -6,4 +6,4 @@ level: warning
 link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 ignorecase: true
 raw:
-  - ',\s*(?:highlighting|underscoring|underlining|showcasing|emphasizing|reflecting|signaling|signalling|marking|cementing|solidifying|paving the way|further (?:solidifying|cementing))\b'
+  - ',\s*(?:highlighting|underscoring|underlining|showcasing|emphasizing|signaling|signalling|marking|cementing|solidifying|paving the way|further (?:solidifying|cementing))\b'

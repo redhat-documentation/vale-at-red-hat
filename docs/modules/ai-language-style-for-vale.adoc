@@ -26,9 +26,6 @@ The rules use the `warning` or `suggestion` alert level.
 |`NegativeParallel`
 |Contrastive framing, such as _not just X, but Y_
 
-|`ParagraphUniformity`
-|Four or more long paragraphs with nearly uniform word counts
-
 |`ParticipialTail`
 |Hollow significance clauses, such as _, highlighting..._
 
@@ -47,6 +44,21 @@ The rules use the `warning` or `suggestion` alert level.
 
 The style does not check general vocabulary, punctuation, capitalization, sentence length, emoji, or typography.
 The `RedHat` style provides the applicable general documentation rules.
+
+== Rule acceptance criteria
+
+Include a rule in the `AILanguage` style only when it:
+
+. Identifies a documented linguistic or structural pattern.
+. Reports a specific writing problem and an actionable revision.
+. Has an invalid fixture at each expected alert location.
+. Has valid Red Hat technical examples that remain clean.
+. Does not duplicate an existing `RedHat` rule.
+. Does not routinely overlap another `AILanguage` rule.
+
+The corpus in the `.vale/fixtures/AILanguage/corpus` directory represents ordinary concept, procedure, reference, and general technical content.
+All rules except `ContractionScarcity` must produce no alerts for that corpus.
+The corpus disables `ContractionScarcity` because Red Hat product documentation prohibits contractions.
 
 [IMPORTANT]
 ====
@@ -86,8 +98,20 @@ The xref:contributor-guide.adoc#vale-at-red-hat-repository[Vale at Red Hat repos
 .vale/styles/AILanguage
 ----
 
+== Sources and attribution
+
+The rules draw on the following catalogs of AI-assisted writing patterns:
+
+* Wikipedia WikiProject AI Cleanup, link:https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing[_Signs of AI writing_]
+* Bradley Emi, link:https://www.pangram.com/blog/comprehensive-guide-to-spotting-ai-writing-patterns[_Comprehensive Guide to Spotting AI Writing Patterns_]
+* Christian Miles, link:https://ammil.industries/signs-of-ai-writing-a-vale-ruleset/[_Signs of AI writing: a Vale ruleset_], and the accompanying link:https://github.com/ammil-industries/vale-signs-of-ai-writing[Vale style]
+
+Each rule links to the source that documents its pattern.
+The ammil industries ruleset is available under the link:https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International license].
+Adapted rules contain attribution comments.
+
 [role="_additional-resources"]
 .Additional resources
 
-* link:{repository-url}tree/main/.vale/styles/AILanguage[AILanguage source and rule acceptance criteria]
+* link:{repository-url}tree/main/.vale/styles/AILanguage[AILanguage source]
 * xref:user-guide.adoc#adding-vale-configuration-to-a-project[Adding Vale to a project]
