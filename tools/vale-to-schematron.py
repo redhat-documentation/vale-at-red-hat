@@ -796,6 +796,11 @@ def convert_regex_to_xpath(pattern, word_bounded=False):
     warnings = []
     result = pattern
 
+    # Vale/PCRE patterns commonly escape literal slashes. XPath 2.0 uses
+    # XML Schema regular expressions, where slash has no special meaning and
+    # `\/` is an invalid escape sequence.
+    result = result.replace(r"\/", "/")
+
     # In XML text nodes, \s matches newline+indentation from source
     # formatting. Replace quantified \s with space-only match to avoid
     # false positives on multiline text.
