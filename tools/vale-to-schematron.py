@@ -296,7 +296,8 @@ def handle_substitution(rule_name, data):
         report.set("role", role)
 
         _set_substitution_message(
-            report, message_template, repl_str, display_pattern, flags
+            report, message_template, repl_str, display_pattern, flags,
+            word_bounded=word_bounded,
         )
 
     if not rule_el.findall(SCH + "report"):
@@ -315,7 +316,9 @@ def handle_substitution(rule_name, data):
     return True
 
 
-def _set_substitution_message(report, template, replacement, match_pattern, flags):
+def _set_substitution_message(
+    report, template, replacement, match_pattern, flags, word_bounded=False
+):
     """Set a substitution report message with its actual matched text.
 
     Vale expands the second ``%s`` in a substitution message to the text
@@ -339,7 +342,40 @@ def _set_substitution_message(report, template, replacement, match_pattern, flag
     report.text = prefix + replacement + match_prefix
 
     value_of = etree.SubElement(report, SCH + "value-of")
-    pattern = xml_escape_regex("^.*(%s).*$" % match_pattern)
+    starts_bounded = (
+        match_pattern.startswith('(^|\\W)') or
+        match_pattern.startswith('^') or
+        match_pattern.startswith('(^')
+    )
+    ends_bounded = (
+        match_pattern.endswith('(\\W|$)') or
+        match_pattern.endswith('$') or
+        match_pattern.endswith('$)')
+    )
+
+    # Keep the report's word boundaries outside the capture so that the
+    # diagnostic contains only the matched term. Exclude line breaks from
+    # both the boundaries and the surrounding text.
+    if match_pattern.startswith('(^|\\W)'):
+        match_pattern = match_pattern[len('(^|\\W)'):]
+        start_boundary = r'(?:^|[^\w\r\n])'
+    elif word_bounded and not starts_bounded:
+        start_boundary = r'(?:^|[^\w\r\n])'
+    else:
+        start_boundary = ''
+
+    if match_pattern.endswith('(\\W|$)'):
+        match_pattern = match_pattern[:-len('(\\W|$)')]
+        end_boundary = r'(?:[^\w\r\n]|$)'
+    elif word_bounded and not ends_bounded:
+        end_boundary = r'(?:[^\w\r\n]|$)'
+    else:
+        end_boundary = ''
+
+    pattern = xml_escape_regex(
+        r'^[^\r\n]*?%s(%s)%s[^\r\n]*$'
+        % (start_boundary, match_pattern, end_boundary)
+    )
     select = "replace(., '%s', '$1'%s)" % (
         pattern,
         ", %s" % flags if flags else "",

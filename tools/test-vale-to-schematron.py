@@ -53,6 +53,8 @@ class SchematronGeneratorTests(unittest.TestCase):
         self.assertIsNotNone(value_of)
         self.assertIn("replace(.", value_of.get("select"))
         self.assertIn("bad-term", value_of.get("select"))
+        self.assertIn(r"^[^\r\n]*?(?:^|[^\w\r\n])(bad-term)(?:[^\w\r\n]|$)[^\r\n]*$",
+                      value_of.get("select"))
         self.assertEqual(value_of.tail, "'.")
 
     def test_sentence_scope_uses_text_nodes(self):
