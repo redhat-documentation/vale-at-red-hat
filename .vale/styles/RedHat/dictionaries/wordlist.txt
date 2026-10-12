@@ -2392,6 +2392,7 @@ macvlan
 macvtap
 madvise
 mainboard
+mainboards
 makedumpfile
 makefile
 makefiles
