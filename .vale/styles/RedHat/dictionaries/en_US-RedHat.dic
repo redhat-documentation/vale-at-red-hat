@@ -1542,7 +1542,7 @@ Macrostructure/P
 Macvlan/P
 Macvtap/P
 Madvise/P
-Mainboard/P
+Mainboard/SP
 Maistra/P
 Makedumpfile/P
 Makefile/SP
@@ -4492,7 +4492,7 @@ macrostructure
 macvlan
 macvtap
 madvise
-mainboard
+mainboard/S
 makedumpfile
 makefile/S
 manpage
