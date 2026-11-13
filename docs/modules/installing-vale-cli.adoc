@@ -13,6 +13,8 @@ The project will already have a `vale.ini` configuration.
 
 * Install the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem.
 
+* Install the link:https://cli.github.com/[GitHub CLI].
+
 * If you have previously installed Vale, you can check what version you are currently running.
 Run the following command:
 +
@@ -29,20 +31,43 @@ vale version 3.6.1
 
 .Procedure
 
-. Install Vale.
-For RHEL or Fedora Linux operating systems, run the following command:
+[NOTE]
+====
+The `mczernek/vale` Copr repository provides Vale 3.26.0 as its final build.
+The repository does not provide Vale 3.27.0 or later releases and does not provide a build for RHEL 10.
+====
+
+. If Vale was installed from the `mczernek/vale` Copr repository, remove the old package and disable the repository by running the following commands:
 +
 [source,terminal]
 ----
-$ sudo dnf copr enable mczernek/vale && sudo dnf install vale
+$ sudo dnf remove vale
+$ sudo dnf copr disable mczernek/vale
 ----
-+
-On macOS, run:
+
+. Install the latest Vale release on a 64-bit Linux system by running the following commands:
 +
 [source,terminal]
 ----
-$ brew install vale
+#!/bin/bash
+set -e
+
+cd "${HOME}/Downloads"
+
+gh release download --repo 'errata-ai/vale' --pattern '*Linux_64-bit.tar.gz'
+
+tar -xvzf *Linux_64-bit.tar.gz
+sudo install -m 0755 vale /usr/local/bin/vale
+
+# Remove files but not directories
+rm -f README.md LICENSE
+rm -rf vale-styles
+rm -f *Linux_64-bit.tar.gz
+
+echo "Installed $(vale --version) to /usr/local/bin/vale"
 ----
+
+. To install Vale on another operating system, follow the link:https://vale.sh/docs/vale-cli/installation/[official installation instructions].
 
 . Verify the Vale install location.
 You might need to update your text editor with this value.
@@ -55,7 +80,7 @@ $ which vale
 .Example output
 [source,terminal]
 ----
-/usr/bin/vale
+/usr/local/bin/vale
 ----
 +
 [NOTE]
