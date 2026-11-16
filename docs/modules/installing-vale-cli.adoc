@@ -37,32 +37,42 @@ The `mczernek/vale` Copr repository provides Vale 3.26.0 as its final build.
 The repository does not provide Vale 3.27.0 or later releases and does not provide a build for RHEL 10.
 ====
 
-. If Vale was installed from the `mczernek/vale` Copr repository, remove the old package and disable the repository by running the following commands:
+. If Vale was installed from the `mczernek/vale` Copr repository, remove the old package and repository by running the following commands:
 +
 [source,terminal]
 ----
 $ sudo dnf remove vale
-$ sudo dnf copr disable mczernek/vale
+$ sudo dnf copr remove mczernek/vale
 ----
 
-. Install the latest Vale release on a 64-bit Linux system by running the following commands:
+. Install the latest Vale release on a Linux system with a 64-bit x86 or ARM64 CPU by running the following commands:
 +
 [source,terminal]
 ----
 #!/bin/bash
 set -e
 
-cd "${HOME}/Downloads"
+cpu_arch="$(uname -m)"
 
-gh release download --repo 'errata-ai/vale' --pattern '*Linux_64-bit.tar.gz'
+case "${cpu_arch}" in
+  x86_64)
+    asset_pattern='vale_*_Linux_64-bit.tar.gz'
+    ;;
+  aarch64|arm64)
+    asset_pattern='vale_*_Linux_arm64.tar.gz'
+    ;;
+  *)
+    printf 'Unsupported CPU architecture: %s\n' "${cpu_arch}" >&2
+    exit 1
+    ;;
+esac
 
-tar -xvzf *Linux_64-bit.tar.gz
-sudo install -m 0755 vale /usr/local/bin/vale
+temp_dir="$(mktemp -d)"
+trap 'rm -rf "${temp_dir}"' EXIT
 
-# Remove files but not directories
-rm -f README.md LICENSE
-rm -rf vale-styles
-rm -f *Linux_64-bit.tar.gz
+gh release download --repo 'errata-ai/vale' --pattern "${asset_pattern}" --output "${temp_dir}/vale.tar.gz"
+tar -xzf "${temp_dir}/vale.tar.gz" -C "${temp_dir}"
+sudo install -m 0755 "${temp_dir}/vale" /usr/local/bin/vale
 
 echo "Installed $(vale --version) to /usr/local/bin/vale"
 ----
