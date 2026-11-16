@@ -77,7 +77,7 @@ sudo install -m 0755 "${temp_dir}/vale" /usr/local/bin/vale
 echo "Installed $(vale --version) to /usr/local/bin/vale"
 ----
 
-. To install Vale on another operating system, follow the link:https://vale.sh/docs/vale-cli/installation/[official installation instructions].
+. To install Vale on another operating system, see link:https://docs.vale.sh/topics/installation[docs.vale.sh/topics/installation].
 
 . Verify the Vale install location.
 You might need to update your text editor with this value.
