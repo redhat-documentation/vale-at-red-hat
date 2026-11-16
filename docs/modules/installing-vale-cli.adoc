@@ -45,7 +45,7 @@ $ sudo dnf remove vale
 $ sudo dnf copr remove mczernek/vale
 ----
 
-. Install the latest Vale release on a Linux system with a 64-bit x86 or ARM64 CPU by running the following commands:
+. Install the latest Vale release on a Linux system with a 64-bit x86 or ARM CPU by running the following commands:
 +
 [source,terminal]
 ----
@@ -58,7 +58,7 @@ case "${cpu_arch}" in
   x86_64)
     asset_pattern='vale_*_Linux_64-bit.tar.gz'
     ;;
-  aarch64|arm64)
+  aarch64)
     asset_pattern='vale_*_Linux_arm64.tar.gz'
     ;;
   *)
@@ -92,11 +92,6 @@ $ which vale
 ----
 /usr/local/bin/vale
 ----
-+
-[NOTE]
-====
-For other operating systems, see link:https://vale.sh/docs/vale-cli/installation/[Installing Vale].
-====
 
 .Additional resources
 * xref:user-guide.adoc#understanding-vale-output[Understanding Vale output]
