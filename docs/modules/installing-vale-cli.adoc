@@ -13,6 +13,8 @@ The project will already have a `vale.ini` configuration.
 
 * Install the link:https://docs.asciidoctor.org/asciidoctor/latest/install/[Asciidoctor] Ruby gem.
 
+* Install the link:https://cli.github.com/[GitHub CLI].
+
 * If you have previously installed Vale, you can check what version you are currently running.
 Run the following command:
 +
@@ -29,20 +31,53 @@ vale version 3.6.1
 
 .Procedure
 
-. Install Vale.
-For RHEL or Fedora Linux operating systems, run the following command:
+[NOTE]
+====
+The `mczernek/vale` Copr repository provides Vale 3.26.0 as its final build.
+The repository does not provide Vale 3.27.0 or later releases and does not provide a build for RHEL 10.
+====
+
+. If Vale was installed from the `mczernek/vale` Copr repository, remove the old package and repository by running the following commands:
 +
 [source,terminal]
 ----
-$ sudo dnf copr enable mczernek/vale && sudo dnf install vale
+$ sudo dnf remove vale
+$ sudo dnf copr remove mczernek/vale
 ----
-+
-On macOS, run:
+
+. Install the latest Vale release on a Linux system with a 64-bit x86 or ARM64 CPU by running the following commands:
 +
 [source,terminal]
 ----
-$ brew install vale
+#!/bin/bash
+set -e
+
+cpu_arch="$(uname -m)"
+
+case "${cpu_arch}" in
+  x86_64)
+    asset_pattern='vale_*_Linux_64-bit.tar.gz'
+    ;;
+  aarch64|arm64)
+    asset_pattern='vale_*_Linux_arm64.tar.gz'
+    ;;
+  *)
+    printf 'Unsupported CPU architecture: %s\n' "${cpu_arch}" >&2
+    exit 1
+    ;;
+esac
+
+temp_dir="$(mktemp -d)"
+trap 'rm -rf "${temp_dir}"' EXIT
+
+gh release download --repo 'errata-ai/vale' --pattern "${asset_pattern}" --output "${temp_dir}/vale.tar.gz"
+tar -xzf "${temp_dir}/vale.tar.gz" -C "${temp_dir}"
+sudo install -m 0755 "${temp_dir}/vale" /usr/local/bin/vale
+
+echo "Installed $(vale --version) to /usr/local/bin/vale"
 ----
+
+. To install Vale on another operating system, follow the link:https://vale.sh/docs/vale-cli/installation/[official installation instructions].
 
 . Verify the Vale install location.
 You might need to update your text editor with this value.
@@ -55,7 +90,7 @@ $ which vale
 .Example output
 [source,terminal]
 ----
-/usr/bin/vale
+/usr/local/bin/vale
 ----
 +
 [NOTE]
