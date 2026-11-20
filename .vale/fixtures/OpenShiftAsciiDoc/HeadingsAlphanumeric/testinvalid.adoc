@@ -1,0 +1,8 @@
+//vale-fixture
+= Don't Use: Special Characters in Headings
+
+//vale-fixture
+== No @Symbols! Here
+
+//vale-fixture
+== No periods.
