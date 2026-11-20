@@ -1940,7 +1940,6 @@ initialisms
 initializer
 initializers
 initio
-initramf
 initramfs
 initrd
 initscript

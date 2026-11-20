@@ -1083,7 +1083,7 @@ Iniparser/P
 Initialism/SP
 Initializer/SP
 Initio/P
-Initramf/SP
+Initramfs/P
 Initrd/P
 Initscript/SP
 Inline/SP
@@ -4103,7 +4103,7 @@ iniparser
 initialism/S
 initializer/S
 initio
-initramf/S
+initramfs
 initrd
 initscript/S
 inline/S
