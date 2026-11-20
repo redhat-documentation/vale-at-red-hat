@@ -12,6 +12,7 @@ on:
     workflows:
       - Preview build
     types:
+      - requested
       - completed
 
 permissions:
@@ -20,10 +21,42 @@ permissions:
   actions: read
 
 jobs:
+  start:
+    name: Preview sticky comment
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request' && github.event.action == 'requested'
+    steps:
+      - name: Post deploying comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_OWNER: ${{ github.event.workflow_run.head_repository.owner.login }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          # The preview-build artifact does not exist yet, so look up the PR from the head ref.
+          PR_NUMBER=$(gh api -X GET "repos/${GH_REPO}/pulls" \
+            -f state=open -f head="${HEAD_OWNER}:${HEAD_BRANCH}" \
+            --jq ".[] | select(.head.sha == \"${HEAD_SHA}\") | .number" | head -1)
+          if [ -z "${PR_NUMBER}" ]; then
+            echo "No open pull request found for ${HEAD_OWNER}:${HEAD_BRANCH}@${HEAD_SHA}."
+            exit 0
+          fi
+          MARKER='<!-- Sticky Pull Request Comment -->'
+          BODY="$(printf '%s\n%s' '⚡️ Deploying PR Preview...' "${MARKER}")"
+          EXISTING=$(gh api "repos/${GH_REPO}/issues/${PR_NUMBER}/comments" \
+            --jq ".[] | select(.body | contains(\"${MARKER}\")) | .id" | head -1)
+          if [ -n "${EXISTING}" ]; then
+            gh api "repos/${GH_REPO}/issues/comments/${EXISTING}" \
+              -X PATCH -f body="${BODY}"
+          else
+            gh pr comment "${PR_NUMBER}" --body "${BODY}"
+          fi
+
   success:
     name: Preview deploy
     runs-on: ubuntu-latest
-    if: github.event.workflow_run.event == 'pull_request'
+    if: github.event.workflow_run.event == 'pull_request' && github.event.action == 'completed'
     steps:
       - name: Download preview-build artifact
         env:
@@ -35,17 +68,31 @@ jobs:
             --dir .
       - name: Set variables
         id: vars
+        env:
+          GH_REPO: ${{ github.repository }}
         run: |
-          echo "pr_number=$(cat PR_NUMBER)" >> $GITHUB_OUTPUT
-          echo "pr_sha=$(cat PR_SHA)" >> $GITHUB_OUTPUT
-          echo "deploy_domain=$(echo ${{ github.repository }}-$(cat PR_NUMBER).surge.sh | sed 's#/#-#')" >> $GITHUB_OUTPUT
+          # PR_NUMBER and PR_SHA come from an artifact the pull request build uploads, so treat them as untrusted.
+          PR_NUMBER=$(head -c 16 PR_NUMBER | tr -d '[:space:]')
+          PR_SHA=$(head -c 64 PR_SHA | tr -d '[:space:]')
+          if ! [[ "${PR_NUMBER}" =~ ^[0-9]{1,10}$ ]]; then
+            echo "::error::PR_NUMBER from the preview-build artifact is not a number."
+            exit 1
+          fi
+          if ! [[ "${PR_SHA}" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "::error::PR_SHA from the preview-build artifact is not a commit SHA."
+            exit 1
+          fi
+          echo "pr_number=${PR_NUMBER}" >> "$GITHUB_OUTPUT"
+          echo "pr_sha=${PR_SHA}" >> "$GITHUB_OUTPUT"
+          echo "deploy_domain=$(echo "${GH_REPO}-${PR_NUMBER}.surge.sh" | sed 's#/#-#')" >> "$GITHUB_OUTPUT"
       - name: Deploy
         id: deploy
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+          DEPLOY_DOMAIN: ${{ steps.vars.outputs.deploy_domain }}
         run: |
           # mkdocs build is in public/
-          npx surge --project public --domain ${{ steps.vars.outputs.deploy_domain }} --token ${{ secrets.SURGE_TOKEN }}
+          npx surge --project public --domain "${DEPLOY_DOMAIN}" --token "${SURGE_TOKEN}"
       - name: Update status Comment
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
