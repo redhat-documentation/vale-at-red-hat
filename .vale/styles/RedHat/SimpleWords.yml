@@ -8,7 +8,7 @@ action:
   name: replace
 swap:
   "approximate(?:ly)?": about
-  "objective(?! C?)": aim|goal
+  "objective(?! ?-?C\\b)": aim|goal
   absent: none|not here
   abundance: plenty
   accentuate: stress
