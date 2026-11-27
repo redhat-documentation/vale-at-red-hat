@@ -10,7 +10,6 @@ gluster
 Graal VM
 graal vm
 gui
-homebrew
 Ide
 infinispan
 intelephense
@@ -18,7 +17,6 @@ kubespray
 lombok
 mattermost
 microsoft azure
-minikube
 mokito
 mokitto
 Netcoredebugoutput
