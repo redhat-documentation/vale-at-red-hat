@@ -1,0 +1,21 @@
+= Technical behavior
+
+== Level 1
+
+=== Level 2
+
+==== Level 3
+
+The following sections describe the configuration options.
+
+The API accepts JSON and YAML input.
+
+The command supports three options: --all, --force, and --wait.
+
+For more information, see the product documentation.
+
+The request failed.
+
+This means that existing clients must request a new token.
+
+The controller creates a route, enabling clients to reach the service.

@@ -1,0 +1,11 @@
+The node cannot join the cluster.
+
+The certificate must be renewed.
+
+The request exceeded the limit.
+
+The database is unavailable.
+
+This means that existing clients must request a new token.
+
+This setting allows you to select a storage class.

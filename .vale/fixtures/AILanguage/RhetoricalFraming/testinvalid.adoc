@@ -1,0 +1,9 @@
+//vale-fixture
+The plan is the whole point of the command: a refresh has to fetch only what
+moved in AEM, leave local edits alone, and say plainly what it did.
+
+//vale-fixture
+This is where the recovery controller comes in.
+
+//vale-fixture
+The key thing to understand is that the token expires after one hour.

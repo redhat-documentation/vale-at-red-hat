@@ -1,0 +1,5 @@
+The benchmark recorded fewer failed requests after retries were enabled.
+The security guide describes the default configuration.
+The CVE record rates the vulnerability as moderate severity.
+If enough resources are available, the scheduling gate is removed from the pod and it is considered ready for scheduling.
+The profile with the highest priority is selected, and it is considered the active profile.

@@ -1,0 +1,9 @@
+# A bare `it is considered` is not flagged because technical content uses it
+# for state, for example "the pod is removed and it is considered ready".
+extends: existence
+message: "Avoid an unverifiable attribution ('%s'). Name and cite the source, or state only what the documentation can support."
+level: warning
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+ignorecase: true
+raw:
+  - '(?:\b(?:studies|research|reports|data|surveys|analysts|experts|sources|industry reports?)\s+(?:show|shows|suggest|suggests|indicate|indicates|say|says|argue|argues)\b|\bit is (?:widely|generally|often|commonly) (?:believed|regarded|considered|acknowledged|thought|seen as|viewed as)\b|\baccording to (?:some|many|reports|sources)\b)'

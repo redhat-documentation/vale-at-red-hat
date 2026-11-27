@@ -4,6 +4,7 @@
 The link:{repository-url}[_{repository-name}_ repository] has resources to validate language in documentation projects with Vale:
 
 * xref:reference-guide.adoc[Red Hat style for Vale] in the `.vale/styles/RedHat` directory
+* AI-assisted prose style in the `.vale/styles/AILanguage` directory
 * AsciiDoc style in the `.vale/styles/AsciiDoc` directory
 * OpenShift AsciiDoc style in the `.vale/styles/OpenShiftAsciiDoc` directory
 * xref:user-guide.adoc#vale-configuration-file[Vale configuration files] for usage in a local environment or by the GitHub Action.
