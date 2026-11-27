@@ -3,3 +3,4 @@ The design prioritizes trust over raw speed.
 The feature changes the workflow.
 The service is not available when the cluster is offline.
 The command checks whether the value is empty or not.
+You must specify not only the new thumbprint for the server, but also the current thumbprints for all other servers.

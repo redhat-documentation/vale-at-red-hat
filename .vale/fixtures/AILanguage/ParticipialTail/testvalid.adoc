@@ -3,3 +3,5 @@ The release added three APIs.
 The team shipped the release a week early.
 The controller creates a route, enabling clients to reach the service.
 The policy allows access, helping administrators manage the cluster.
+Segmented networking provides isolation between operations, administration and maintenance (OAM), signaling, and storage traffic.
+The ports continue transmitting timing to downstream devices, signaling a degraded but usable clock quality.

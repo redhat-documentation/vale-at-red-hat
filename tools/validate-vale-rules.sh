@@ -20,7 +20,7 @@ trap 'rm -f "$ERRORS_FILE"' EXIT
 
 # Run vale and return the output
 run_vale() {
-    vale --config="$1/.vale.ini" --no-exit --output=line "$2"
+    vale --no-global --config="$1/.vale.ini" --no-exit --output=line "$2"
 }
 
 # Count non-empty lines in output
@@ -111,9 +111,10 @@ test_ailanguage_rule() {
     while IFS= read -r expected_line; do
         [ -n "$expected_line" ] || continue
         expected_line=$((expected_line + 1))
+        # Match the line and rule fields exactly, not the column or message.
         line_count="$(printf '%s\n' "$invalid_alerts" |
-            grep -F ":$expected_line:" |
-            grep -F -c "AILanguage.$rule_name" || true)"
+            awk -F: -v line="$expected_line" -v rule="AILanguage.$rule_name" \
+                '$2 == line && $4 == rule' | grep -c . || true)"
 
         if [ "$line_count" -ne 1 ]; then
             record_error "$dir/testinvalid.adoc:$expected_line (expected AILanguage.$rule_name once, found $line_count)"
@@ -125,34 +126,6 @@ EOF
 
     if [ "$invalid_count" -ne "$expected_count" ]; then
         record_error "$dir/testinvalid.adoc (expected $expected_count total alerts, found $invalid_count)"
-        TOTAL=$((TOTAL + 1))
-    fi
-}
-
-# Test an AILanguage document-level occurrence rule.
-# An absence rule has no meaningful source location, so validate the rule ID
-# and require exactly one alert for the complete invalid fixture.
-test_ailanguage_document_rule() {
-    local dir=".vale/fixtures/$RULE"
-    local rule_name
-    local valid_alerts
-    local valid_count
-    local invalid_alerts
-    local invalid_count
-    local rule_count
-
-    rule_name="${RULE#*/}"
-    valid_alerts="$(run_vale "$dir" "$dir/testvalid.adoc")"
-    valid_count="$(count_lines "$valid_alerts")"
-    invalid_alerts="$(run_vale "$dir" "$dir/testinvalid.adoc")"
-    invalid_count="$(count_lines "$invalid_alerts")"
-    rule_count="$(printf '%s\n' "$invalid_alerts" |
-        grep -F -c "AILanguage.$rule_name" || true)"
-
-    check_false_positives "$valid_alerts" "$valid_count"
-
-    if [ "$invalid_count" -ne 1 ] || [ "$rule_count" -ne 1 ]; then
-        record_error "$dir/testinvalid.adoc (expected AILanguage.$rule_name once, found $rule_count of $invalid_count total alerts)"
         TOTAL=$((TOTAL + 1))
     fi
 }
@@ -221,12 +194,7 @@ done
 
 # Run tests for AILanguage rules and the representative technical corpus.
 for RULE in $(find .vale/styles/AILanguage -maxdepth 1 -name '*.yml' | cut -d/ -f 3,4 | cut -d. -f1 | sort); do
-    if grep -q '^extends: occurrence$' ".vale/styles/$RULE.yml" &&
-        grep -q '^scope: raw$' ".vale/styles/$RULE.yml"; then
-        test_ailanguage_document_rule
-    else
-        test_ailanguage_rule
-    fi
+    test_ailanguage_rule
 done
 test_ailanguage_corpus
 

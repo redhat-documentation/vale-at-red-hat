@@ -1,4 +1,5 @@
-# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0). See README.md.
+# Adapted from ammil-industries/vale-signs-of-ai-writing (CC BY-SA 4.0).
+# See docs/modules/ai-language-style-for-vale.adoc.
 # Instruction to the reader about how to feel about the material.
 extends: existence
 message: "Avoid a prescriptive aside ('%s'). State the technical fact directly."

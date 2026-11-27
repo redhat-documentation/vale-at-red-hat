@@ -1,5 +1,5 @@
 # Adapted in part from ammil-industries/vale-signs-of-ai-writing
-# (CC BY-SA 4.0). See README.md.
+# (CC BY-SA 4.0). See docs/modules/ai-language-style-for-vale.adoc.
 extends: existence
 message: "Avoid rhetorical framing ('%s'). State the technical fact or behavior directly."
 level: warning
