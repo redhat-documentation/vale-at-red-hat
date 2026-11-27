@@ -20,7 +20,7 @@ trap 'rm -f "$ERRORS_FILE"' EXIT
 
 # Run vale and return the output
 run_vale() {
-    vale --no-global --config="$1/.vale.ini" --no-exit --output=line "$2"
+    vale --config="$1/.vale.ini" --no-exit --output=line "$2"
 }
 
 # Count non-empty lines in output
